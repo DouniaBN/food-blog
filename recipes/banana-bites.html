@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=11">
+    <link rel="stylesheet" href="../style.css?v=14">
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -204,8 +204,39 @@
         </div>
     </section>
 
-    <!-- Recipe Content -->
-    <main class="recipe-content">
+    <!-- Recipe Content Container -->
+    <div class="recipe-content-container">
+        <!-- About Me Sidebar -->
+        <aside class="about-me-sidebar">
+            <div class="about-me-content">
+                <div class="about-me-image">
+                    <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
+                </div>
+                <h3>Hi, I'm Dounia!</h3>
+                <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
+                <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
+
+                <a href="#" class="more-about-btn">More about me &rarr;</a>
+
+                <div class="about-social">
+                    <a href="#" class="about-social-btn instagram" aria-label="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="about-social-btn tiktok" aria-label="Watch on TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Recipe Content -->
+        <main class="recipe-content">
         <!-- Story Section -->
         <section class="recipe-story">
             <h2>Why You'll Love These Chocolate Banana Bites</h2>
@@ -384,73 +415,45 @@
                 </ul>
             </div>
         </section>
-
-        <!-- About Me Sidebar -->
-        <aside class="about-me-sidebar">
-            <div class="about-me-content">
-                <div class="about-me-image">
-                    <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
-                </div>
-                <h3>Hi, I'm Dounia!</h3>
-                <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
-                <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
-
-                <a href="#" class="more-about-btn">More about me &rarr;</a>
-
-                <div class="about-social">
-                    <a href="#" class="about-social-btn instagram" aria-label="Follow on Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="about-social-btn tiktok" aria-label="Watch on TikTok">
-                        <i class="fab fa-tiktok"></i>
-                    </a>
-                    <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="#" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
-                        <i class="fab fa-pinterest"></i>
-                    </a>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Related Recipes -->
-        <section class="related-recipes">
-            <h2>You Might Also Like</h2>
-            <div class="related-grid">
-                <a href="chia-cups.html" class="recipe-card-small">
-                    <img src="../images/recipes/chia-cups-thumb.jpg" alt="Strawberry chia pudding cups with fresh fruit topping">
-                    <div class="recipe-info">
-                        <h3>Strawberry Chia Cups</h3>
-                        <div class="recipe-meta">
-                            <span class="time"><i class="far fa-clock"></i> 10 min</span>
-                            <span class="difficulty">Easy</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="protein-balls.html" class="recipe-card-small">
-                    <img src="../images/recipes/protein-balls-thumb.jpg" alt="No-bake protein energy balls with oats and peanut butter">
-                    <div class="recipe-info">
-                        <h3>Peanut Butter Protein Balls</h3>
-                        <div class="recipe-meta">
-                            <span class="time"><i class="far fa-clock"></i> 20 min</span>
-                            <span class="difficulty">Easy</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="avocado-brownies.html" class="recipe-card-small">
-                    <img src="../images/recipes/avocado-brownies-thumb.jpg" alt="Fudgy avocado brownies cut into squares">
-                    <div class="recipe-info">
-                        <h3>Fudgy Avocado Brownies</h3>
-                        <div class="recipe-meta">
-                            <span class="time"><i class="far fa-clock"></i> 45 min</span>
-                            <span class="difficulty">Medium</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
     </main>
+    </div>
+
+    <!-- Related Recipes -->
+    <section class="related-recipes">
+        <h2>You Might Also Like</h2>
+        <div class="related-grid">
+            <a href="chia-cups.html" class="recipe-card-small">
+                <img src="../images/recipes/chia-cups-thumb.jpg" alt="Strawberry chia pudding cups with fresh fruit topping">
+                <div class="recipe-info">
+                    <h3>Strawberry Chia Cups</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 10 min</span>
+                        <span class="difficulty">Easy</span>
+                    </div>
+                </div>
+            </a>
+            <a href="protein-balls.html" class="recipe-card-small">
+                <img src="../images/recipes/protein-balls-thumb.jpg" alt="No-bake protein energy balls with oats and peanut butter">
+                <div class="recipe-info">
+                    <h3>Peanut Butter Protein Balls</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 20 min</span>
+                        <span class="difficulty">Easy</span>
+                    </div>
+                </div>
+            </a>
+            <a href="avocado-brownies.html" class="recipe-card-small">
+                <img src="../images/recipes/avocado-brownies-thumb.jpg" alt="Fudgy avocado brownies cut into squares">
+                <div class="recipe-info">
+                    <h3>Fudgy Avocado Brownies</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 45 min</span>
+                        <span class="difficulty">Medium</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="site-footer">

@@ -1804,8 +1804,13 @@
       grid-template-columns: 1fr;
     }
 
+    .related-recipes {
+      padding: 2rem 1rem;
+    }
+
     .related-grid {
       grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
 
     .site-footer {
@@ -1823,9 +1828,19 @@
       font-size: 1rem;
     }
 
+    /* Recipe Content Container mobile styles */
+    .recipe-content-container {
+      flex-direction: column;
+      padding: 1rem;
+      gap: 2rem;
+    }
+
     /* About Me Sidebar mobile styles */
     .about-me-sidebar {
-      margin: 2rem 0;
+      position: static;
+      flex: none;
+      width: 100%;
+      order: -1;
     }
 
     .about-me-content {
@@ -1852,15 +1867,108 @@
       font-size: 1.1rem;
     }
 
+/* Related Recipes Styles */
+.related-recipes {
+  padding: 3rem 2rem;
+  background: var(--neutral-beige);
+}
+
+.related-recipes h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: #2f4f2f;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.recipe-card-small {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card-small:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-card-small img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-card-small .recipe-info {
+  padding: 1.5rem;
+}
+
+.recipe-card-small h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: #2f4f2f;
+  margin: 0 0 0.75rem 0;
+}
+
+.recipe-card-small .recipe-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.recipe-card-small .time {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.recipe-card-small .difficulty {
+  padding: 0.25rem 0.5rem;
+  background: var(--light-pink);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
   }
+
+/* Recipe Content Container */
+.recipe-content-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+/* Recipe Content */
+.recipe-content {
+  flex: 1;
+  min-width: 0;
+  order: 1;
+}
 
 /* About Me Sidebar Styles */
 .about-me-sidebar {
   background: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 3rem 0 2rem 0;
   overflow: hidden;
+  flex: 0 0 320px;
+  order: 2;
 }
 
 .about-me-content {

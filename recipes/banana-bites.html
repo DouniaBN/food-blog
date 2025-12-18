@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css?v=6">
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -219,20 +219,18 @@
         <!-- Watch Me Make It Button -->
         <section class="watch-video-section">
             <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener" class="watch-video-btn" data-video-url="">
-                Watch Me Make It! 🎥
+                Watch Me Make It 🎥
             </a>
-            <div class="watch-follow-text">Follow along on socials</div>
+            <div class="watch-follow-text">Follow along on socials!</div>
         </section>
 
         <!-- Recipe Card -->
         <section class="recipe-card" id="recipe-card">
-            <div class="recipe-card-header">
-                <h2>Recipe</h2>
-                <div class="recipe-actions">
-                    <button class="print-btn" onclick="printRecipe()">
-                        <i class="fas fa-print"></i> Print
-                    </button>
-                    <div class="star-rating">
+            <div class="recipe-card-top">
+                <div class="recipe-card-info">
+                    <h2 class="recipe-card-title">Healthy Chocolate Banana Bites<br><span class="recipe-subtitle">(Vegan, Gluten Free, No-Bake)</span></h2>
+
+                    <div class="recipe-rating">
                         <span class="rating-text">Rate this recipe:</span>
                         <div class="stars">
                             <i class="fas fa-star" data-rating="1"></i>
@@ -243,6 +241,46 @@
                         </div>
                         <span class="rating-count">(127 ratings)</span>
                     </div>
+
+                    <div class="recipe-meta-grid">
+                        <div class="meta-row">
+                            <span class="meta-label">author:</span>
+                            <span class="meta-value">YOURWELLNESSGIRLY</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">prep time:</span>
+                            <span class="meta-value">15</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">cook time:</span>
+                            <span class="meta-value">0</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">total time:</span>
+                            <span class="meta-value">15 MINUTES</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="fas fa-utensils"></i>
+                            <span class="meta-label">yield:</span>
+                            <span class="meta-value">12 bites</span>
+                        </div>
+                    </div>
+
+                    <div class="recipe-action-buttons">
+                        <button class="action-btn pin-btn">
+                            <i class="fab fa-pinterest"></i> PIN RECIPE
+                        </button>
+                        <button class="action-btn print-btn" onclick="printRecipe()">
+                            <i class="fas fa-print"></i> PRINT RECIPE
+                        </button>
+                    </div>
+                </div>
+
+                <div class="recipe-card-image">
+                    <img src="../images/recipes/banana-bites-card.jpg" alt="Healthy chocolate banana bites arranged on a white plate" width="400" height="300">
                 </div>
             </div>
 

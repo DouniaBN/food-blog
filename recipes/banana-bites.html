@@ -32,6 +32,37 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../style.css?v=201">
 
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: 'Healthy Chocolate Banana Bites Recipe',
+        page_location: window.location.href,
+        content_group1: 'Recipe Page',
+        content_group2: 'Healthy Dessert',
+        custom_map: {
+          'page_type': 'custom_parameter_1',
+          'recipe_category': 'custom_parameter_2'
+        }
+      });
+
+      // Track recipe view event for ad networks
+      gtag('event', 'recipe_view', {
+        event_category: 'Recipe Engagement',
+        event_label: 'Healthy Chocolate Banana Bites',
+        recipe_name: 'Healthy Chocolate Banana Bites',
+        recipe_category: 'healthy_dessert',
+        prep_time: 15,
+        difficulty: 'easy',
+        diet_type: 'vegan,gluten-free,dairy-free',
+        custom_parameter_1: 'recipe_page',
+        custom_parameter_2: 'healthy_dessert'
+      });
+    </script>
+
     <!-- Small recipe cards fix -->
     <style>
     .related-grid-small {
@@ -634,20 +665,61 @@
 
     <!-- JavaScript -->
     <script>
-        // Scroll to recipe function
+        // Scroll to recipe function with tracking
         function scrollToRecipe() {
+            trackJumpToRecipe();
             document.getElementById('recipe-card').scrollIntoView({
                 behavior: 'smooth'
             });
         }
 
-        // Print recipe function
+        // Print recipe function with tracking
         function printRecipe() {
+            trackButtonClick('utility', 'Print Recipe');
             window.print();
         }
 
-        // Social sharing functions
+        // Google Analytics Event Tracking Functions
+        function trackButtonClick(buttonType, buttonLabel) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'recipe_interaction', {
+                    event_category: 'Recipe Engagement',
+                    event_label: buttonLabel,
+                    button_type: buttonType,
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'button_click',
+                    custom_parameter_2: 'recipe_engagement'
+                });
+            }
+        }
+
+        function trackJumpToRecipe() {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'jump_to_recipe', {
+                    event_category: 'Recipe Navigation',
+                    event_label: 'Jump to Recipe Button',
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'navigation',
+                    custom_parameter_2: 'recipe_card'
+                });
+            }
+        }
+
+        function trackRecipeCardScroll() {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'recipe_card_reached', {
+                    event_category: 'Recipe Engagement',
+                    event_label: 'Recipe Card Viewed',
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'scroll_depth',
+                    custom_parameter_2: 'recipe_engagement'
+                });
+            }
+        }
+
+        // Social sharing functions with tracking
         function shareOnPinterest() {
+            trackButtonClick('social_share', 'Pinterest Share');
             const url = encodeURIComponent(window.location.href);
             const title = encodeURIComponent('Healthy Chocolate Banana Bites Recipe - 15 Minutes!');
             const image = encodeURIComponent('https://yourwellnessgirly.com/images/recipes/banana-bites-hero.jpg');
@@ -655,11 +727,13 @@
         }
 
         function shareOnFacebook() {
+            trackButtonClick('social_share', 'Facebook Share');
             const url = encodeURIComponent(window.location.href);
             window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
         }
 
         function shareOnTwitter() {
+            trackButtonClick('social_share', 'Twitter Share');
             const url = encodeURIComponent(window.location.href);
             const text = encodeURIComponent('Just found this amazing healthy chocolate banana bites recipe! Only 5 ingredients and 15 minutes 🍌🍫');
             window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400');
@@ -720,21 +794,111 @@
             });
         });
 
-        // Video URL configuration
-        // To customize video URL for each recipe, update the data-video-url attribute
-        // or set it programmatically:
+        // Video URL configuration with tracking
         const videoBtn = document.querySelector('.watch-video-btn');
         if (videoBtn) {
             // Example: Set custom video URL for this recipe
             const recipeVideoUrl = "https://www.tiktok.com/@yourwellnessgirly/video/banana-bites-recipe";
             videoBtn.href = recipeVideoUrl;
 
-            // Optional: Track video clicks
+            // Track video clicks
             videoBtn.addEventListener('click', function() {
+                trackButtonClick('video', 'Watch Recipe Video');
                 console.log('Recipe video clicked:', recipeVideoUrl);
-                // Add analytics tracking here if needed
             });
         }
+
+        // Scroll depth and engagement tracking
+        let recipeCardTracked = false;
+        let scrollDepthTracked = {
+            '25': false,
+            '50': false,
+            '75': false,
+            '100': false
+        };
+
+        window.addEventListener('scroll', function() {
+            const scrolled = (window.pageYOffset || document.documentElement.scrollTop);
+            const maxHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = Math.round((scrolled / maxHeight) * 100);
+
+            // Track scroll depth milestones
+            if (scrollPercent >= 25 && !scrollDepthTracked['25']) {
+                scrollDepthTracked['25'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '25% Scroll Depth',
+                        percent_scrolled: 25,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 50 && !scrollDepthTracked['50']) {
+                scrollDepthTracked['50'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '50% Scroll Depth',
+                        percent_scrolled: 50,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 75 && !scrollDepthTracked['75']) {
+                scrollDepthTracked['75'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '75% Scroll Depth',
+                        percent_scrolled: 75,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 90 && !scrollDepthTracked['100']) {
+                scrollDepthTracked['100'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '100% Scroll Depth',
+                        percent_scrolled: 100,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            // Track when recipe card is reached
+            const recipeCard = document.getElementById('recipe-card');
+            if (recipeCard && !recipeCardTracked) {
+                const rect = recipeCard.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    recipeCardTracked = true;
+                    trackRecipeCardScroll();
+                }
+            }
+        });
+
+        // Track page engagement time
+        let startTime = Date.now();
+        let engagementTracked = false;
+
+        window.addEventListener('beforeunload', function() {
+            const timeSpent = Math.round((Date.now() - startTime) / 1000);
+            if (timeSpent >= 30 && !engagementTracked && typeof gtag !== 'undefined') {
+                engagementTracked = true;
+                gtag('event', 'page_engagement_time', {
+                    event_category: 'Page Engagement',
+                    event_label: 'Time on Page',
+                    time_spent_seconds: timeSpent,
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'engagement_time'
+                });
+            }
+        });
     </script>
 </body>
 </html>

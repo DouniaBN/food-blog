@@ -58,6 +58,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css?v=2" />
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: 'Homepage - Healthy Dessert Recipes',
+        page_location: window.location.href,
+        content_group1: 'Homepage',
+        custom_map: {'custom_parameter_1': 'page_type'}
+      });
+
+      // Enhanced ecommerce and content tracking for ad networks
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        custom_map: {
+          'page_type': 'custom_parameter_1',
+          'recipe_category': 'custom_parameter_2'
+        }
+      });
+    </script>
   </head>
   <body>
     <header class="main-header">

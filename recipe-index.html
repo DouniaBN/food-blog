@@ -32,6 +32,20 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css?v=3">
 
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: 'Recipe Index - Browse All Recipes',
+        page_location: window.location.href,
+        content_group1: 'Recipe Index',
+        custom_map: {'custom_parameter_1': 'page_type'}
+      });
+    </script>
+
     <!-- Recipe Index Specific Styles -->
     <style>
     .recipe-index-container {
@@ -48,7 +62,7 @@
         background: white;
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        padding: 2rem;
+        padding: 1.5rem;
         position: sticky;
         top: 2rem;
         max-height: calc(100vh - 4rem);
@@ -70,11 +84,12 @@
 
     .search-input {
         width: 100%;
-        padding: 0.75rem;
+        padding: 0.75rem 0.5rem;
         border: 2px solid #e0e0e0;
         border-radius: 8px;
-        font-size: 1rem;
+        font-size: 0.95rem;
         transition: border-color 0.3s ease;
+        box-sizing: border-box;
     }
 
     .search-input:focus {
@@ -150,25 +165,6 @@
         min-width: 0;
     }
 
-    .page-header {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    .page-title {
-        font-family: var(--font-heading);
-        font-size: 2.5rem;
-        color: #2f4f2f;
-        margin: 0 0 1rem 0;
-    }
-
-    .page-description {
-        color: #666;
-        font-size: 1.1rem;
-        max-width: 600px;
-        margin: 0 auto;
-        line-height: 1.6;
-    }
 
     .results-header {
         display: flex;
@@ -369,10 +365,10 @@
         </ol>
     </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <h1 class="page-title">Recipe Index</h1>
-        <p class="page-description">Discover all our healthy dessert recipes with advanced filtering. Find the perfect treat by diet type, ingredients, prep time, and more!</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-main-title">Recipe Index</h1>
+        <h2 class="hero-subtitle">Discover your new fave dessert with advanced filtering. Find the perfect treat by diet type, ingredients, prep time, and more!</h2>
     </section>
 
     <!-- Main Content -->
@@ -907,7 +903,7 @@
             noResults.style.display = 'none';
 
             grid.innerHTML = filteredRecipes.map(recipe => `
-                <a href="${recipe.url}" class="recipe-card-index">
+                <a href="${recipe.url}" class="recipe-card-index" onclick="trackRecipeClick('${recipe.title}', '${recipe.url}', 'Recipe Index')">
                     <div class="recipe-image">Recipe Image</div>
                     <div class="recipe-card-content">
                         <h3 class="recipe-card-title">${recipe.title}</h3>
@@ -976,6 +972,69 @@
             const newURL = params.toString() ? `${window.location.pathname}?${params}` : window.location.pathname;
             history.replaceState({}, '', newURL);
         }
+
+        // Google Analytics Event Tracking Functions
+        function trackRecipeClick(recipeName, recipeUrl, sourceLocation) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'recipe_view_click', {
+                    event_category: 'Recipe Engagement',
+                    event_label: recipeName,
+                    recipe_name: recipeName,
+                    source_location: sourceLocation,
+                    destination_url: recipeUrl,
+                    custom_parameter_1: 'recipe_click',
+                    custom_parameter_2: 'healthy_dessert'
+                });
+            }
+        }
+
+        function trackFilterUsage(filterType, filterValue) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'filter_used', {
+                    event_category: 'Recipe Discovery',
+                    event_label: `${filterType}: ${filterValue}`,
+                    filter_type: filterType,
+                    filter_value: filterValue,
+                    custom_parameter_1: 'recipe_filter'
+                });
+            }
+        }
+
+        function trackSearch(searchTerm, resultsCount) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'search', {
+                    search_term: searchTerm,
+                    event_category: 'Recipe Discovery',
+                    event_label: searchTerm,
+                    results_count: resultsCount,
+                    custom_parameter_1: 'recipe_search'
+                });
+            }
+        }
+
+        // Enhanced filter tracking
+        const originalApplyFilters = applyFilters;
+        applyFilters = function() {
+            originalApplyFilters();
+
+            // Track search usage
+            if (currentFilters.search) {
+                trackSearch(currentFilters.search, filteredRecipes.length);
+            }
+
+            // Track filter usage
+            currentFilters.dietTypes.forEach(diet => trackFilterUsage('diet', diet));
+            currentFilters.difficulty.forEach(diff => trackFilterUsage('difficulty', diff));
+            currentFilters.mainIngredient.forEach(ing => trackFilterUsage('ingredient', ing));
+            currentFilters.equipment.forEach(eq => trackFilterUsage('equipment', eq));
+
+            if (currentFilters.ingredientCount !== 'all') {
+                trackFilterUsage('ingredient_count', currentFilters.ingredientCount);
+            }
+            if (currentFilters.prepTime !== 'all') {
+                trackFilterUsage('prep_time', currentFilters.prepTime);
+            }
+        };
     </script>
 </body>
 </html>

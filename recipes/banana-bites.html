@@ -30,7 +30,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=14">
+    <link rel="stylesheet" href="../style.css?v=201">
+
+    <!-- Small recipe cards fix -->
+    <style>
+    .related-grid-small {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    </style>
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -421,7 +432,7 @@
     <!-- Related Recipes -->
     <section class="related-recipes">
         <h2>You Might Also Like</h2>
-        <div class="related-grid">
+        <div class="related-grid-small">
             <a href="chia-cups.html" class="recipe-card-small">
                 <img src="../images/recipes/chia-cups-thumb.jpg" alt="Strawberry chia pudding cups with fresh fruit topping">
                 <div class="recipe-info">

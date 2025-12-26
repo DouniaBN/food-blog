@@ -293,6 +293,7 @@
     gap: 2rem;
     padding: 2rem;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   /* Main Content Header */
@@ -471,7 +472,7 @@
   }
   
   .about-me-sidebar {
-    flex: 1;
+    flex: 0 0 auto;
     max-width: 300px;
     text-align: center;
   }
@@ -1512,8 +1513,8 @@
 
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
 }
 
 .recipe-card-small {
@@ -1883,8 +1884,8 @@
 
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
 }

@@ -41,6 +41,42 @@
         max-width: 1000px;
         margin: 0 auto;
     }
+
+    /* FAQ Section Styling */
+    .faq-section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #f0f0f0;
+    }
+    .faq-section h3 {
+        font-family: var(--font-heading);
+        font-size: 1.5rem;
+        color: #2f4f2f;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--light-pink);
+        display: inline-block;
+    }
+    .faq-list {
+        display: block;
+    }
+    .faq-item {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    .faq-question {
+        font-family: var(--font-heading);
+        font-size: 1.1rem;
+        color: #2f4f2f;
+        margin: 0 0 0.75rem 0;
+        font-weight: 700;
+    }
+    .faq-answer {
+        color: #666;
+        line-height: 1.6;
+        margin: 0 0 1rem 0;
+        font-size: 0.95rem;
+    }
     </style>
 
     <!-- Recipe Schema JSON-LD -->
@@ -122,6 +158,80 @@
             "description": "Watch how to make these easy 15-minute healthy chocolate banana bites!",
             "thumbnailUrl": "https://yourwellnessgirly.com/images/recipes/banana-bites-video-thumb.jpg"
         }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://yourwellnessgirly.com/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Recipes",
+            "item": "https://yourwellnessgirly.com/#recipes"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Healthy Chocolate Banana Bites"
+        }]
+    }
+    </script>
+
+    <!-- FAQ Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "How should I store these banana bites?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze for up to 1 month in a freezer-safe container."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Can I make these nut-free?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Substitute the almond butter with sunflower seed butter or tahini for a completely nut-free version that's still delicious."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Are these banana bites kid-friendly?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely! Kids love these sweet treats, and they're a healthy alternative to processed snacks. The natural sweetness from bananas makes them appealing to little ones."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Can I use different sweeteners?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, you can substitute maple syrup with honey, agave nectar, or date syrup. Start with the same amount and adjust to taste."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Can I freeze these banana bites?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! These freeze beautifully for up to 1 month. Place them in a single layer on a baking sheet to freeze individually, then transfer to a freezer bag."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What's the best banana ripeness for this recipe?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use ripe bananas that are yellow with a few brown spots. They should be sweet and soft but not mushy for the best flavor and texture."
+            }
+        }]
     }
     </script>
 </head>
@@ -420,16 +530,35 @@
                 </div>
             </div>
 
-            <!-- Notes -->
-            <div class="notes-section">
-                <h3>Recipe Notes</h3>
-                <ul>
-                    <li><strong>Banana ripeness:</strong> Use ripe bananas for the best sweetness and flavor. They should be yellow with a few brown spots.</li>
-                    <li><strong>Storage:</strong> Store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze for up to 1 month.</li>
-                    <li><strong>Nut-free option:</strong> Substitute almond butter with sunflower seed butter or tahini for a nut-free version.</li>
-                    <li><strong>Sweetener alternatives:</strong> You can use honey, agave, or date syrup instead of maple syrup. Adjust to taste.</li>
-                    <li><strong>Make ahead tip:</strong> These actually taste better after chilling for a few hours as the flavors meld together beautifully!</li>
-                </ul>
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4 class="faq-question">How should I store these banana bites?</h4>
+                        <p class="faq-answer">Store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze for up to 1 month in a freezer-safe container.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I make these nut-free?</h4>
+                        <p class="faq-answer">Yes! Substitute the almond butter with sunflower seed butter or tahini for a completely nut-free version that's still delicious.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these banana bites kid-friendly?</h4>
+                        <p class="faq-answer">Absolutely! Kids love these sweet treats, and they're a healthy alternative to processed snacks. The natural sweetness from bananas makes them appealing to little ones.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I use different sweeteners?</h4>
+                        <p class="faq-answer">Yes, you can substitute maple syrup with honey, agave nectar, or date syrup. Start with the same amount and adjust to taste.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I freeze these banana bites?</h4>
+                        <p class="faq-answer">Yes! These freeze beautifully for up to 1 month. Place them in a single layer on a baking sheet to freeze individually, then transfer to a freezer bag.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">What's the best banana ripeness for this recipe?</h4>
+                        <p class="faq-answer">Use ripe bananas that are yellow with a few brown spots. They should be sweet and soft but not mushy for the best flavor and texture.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

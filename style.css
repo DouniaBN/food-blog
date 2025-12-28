@@ -79,16 +79,7 @@
     text-align: center;
     margin-bottom: 2rem;
   }
-  
-  .popular-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
+
   .recipe-card {
     position: relative;
     display: flex;
@@ -104,7 +95,7 @@
 
   .recipe-card img {
     width: 100%;
-    height: 220px;
+    height: 240px;
     object-fit: cover;
     border-bottom: 1px solid #ccc;
   }
@@ -328,7 +319,7 @@
 
   .recipe-card img {
     width: 100%;
-    height: 200px;
+    height: 240px;
     object-fit: cover;
   }
 
@@ -485,17 +476,15 @@
 
   .popular-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    margin-top: 1.5rem;
   }
 
   /* Viral on Social Section */
   .viral-on-social {
     text-align: center;
-    margin: 4rem 0 3rem 0;
+    margin: 2rem 0 3rem 0;
   }
 
   .viral-heading {
@@ -523,11 +512,9 @@
 
   .viral-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .viral-card {

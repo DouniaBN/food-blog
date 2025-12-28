@@ -159,7 +159,7 @@ python3 -m http.server 8000
       "text": "Step 1 instructions"
     }
   ],
-  "aggregateRating": {
+  "aggregateRating": 
     "@type": "AggregateRating",
     "ratingValue": "4.5",
     "reviewCount": "127"

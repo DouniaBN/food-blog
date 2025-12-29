@@ -14,6 +14,12 @@
     background-color: var(--neutral-beige);
     color: #333;
   }
+
+  /* Reset all section and footer margins */
+  section, footer {
+    margin: 0;
+    padding: 0;
+  }
   
   header.main-header {
     background-color: white;
@@ -1037,14 +1043,6 @@
   .social-follow-icons a.tiktok:hover i { color: #000000; }
   .social-follow-icons a.email:hover i { color: var(--sage-green); }
 
-  footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #fff;
-    font-size: 0.875rem;
-    color: #777;
-    margin-top: 0;
-  }
 
   /* Recipe Page Styles */
 
@@ -1860,7 +1858,6 @@
   background-color: #2f4f2f;
   color: white;
   padding: 3rem 2rem 1rem;
-  margin-top: 4rem;
 }
 
 .footer-content {
@@ -1875,6 +1872,14 @@
   font-family: var(--font-heading);
   font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
+.footer-section:last-child {
+  text-align: center;
+}
+
+.footer-section:last-child h4 {
+  text-align: center;
 }
 
 .footer-section ul {
@@ -1899,6 +1904,7 @@
 .footer-social {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 .footer-social a {

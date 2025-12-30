@@ -135,7 +135,7 @@
   }
 
   .recipe-card:hover .recipe-overlay {
-    opacity: 1;
+    opacity: 0;
   }
 
   .recipe-card p {

@@ -30,7 +30,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=201">
+    <link rel="stylesheet" href="../style.css?v=202">
+    <style>
+      @media (max-width: 768px) {
+        /* Hide original About Me Sidebar on mobile */
+        .about-me-sidebar {
+          display: none !important;
+        }
+
+        /* Show mobile About Me section */
+        .mobile-about-me {
+          display: block !important;
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          margin: 2rem 1rem 0;
+          overflow: hidden;
+        }
+
+        .mobile-about-me .about-me-content {
+          padding: 2rem;
+          text-align: center;
+        }
+
+        .mobile-about-me .about-me-image img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 3px solid white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          margin-bottom: 1rem;
+        }
+
+        .mobile-about-me h3 {
+          font-family: 'Libre Baskerville', serif;
+          font-size: 1.5rem;
+          color: #2f4f2f;
+          margin: 0 0 1rem 0;
+        }
+
+        .mobile-about-me p {
+          color: #666;
+          line-height: 1.6;
+          margin-bottom: 1.5rem;
+          font-size: 0.95rem;
+        }
+
+        /* Reduce spacing before You Might Also Like section */
+        .related-recipes {
+          margin-top: 2rem !important;
+        }
+      }
+
+      /* Hide mobile section on desktop */
+      .mobile-about-me {
+        display: none;
+      }
+    </style>
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
@@ -628,6 +685,35 @@
                     </div>
                 </div>
             </a>
+        </div>
+    </section>
+
+    <!-- Mobile About Me Section (only visible on mobile) -->
+    <section class="mobile-about-me">
+        <div class="about-me-content">
+            <div class="about-me-image">
+                <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
+            </div>
+            <h3>Hi, I'm Dounia!</h3>
+            <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
+            <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
+
+            <a href="#" class="more-about-btn">More about me &rarr;</a>
+
+            <div class="about-social">
+                <a href="#" class="about-social-btn instagram" aria-label="Follow on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="about-social-btn tiktok" aria-label="Watch on TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
         </div>
     </section>
 

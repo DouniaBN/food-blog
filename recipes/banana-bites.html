@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=202">
+    <link rel="stylesheet" href="../style.css?v=204">
     <style>
       @media (max-width: 768px) {
         /* Hide original About Me Sidebar on mobile */
@@ -44,7 +44,7 @@
           background: white;
           border-radius: 12px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-          margin: 2rem 1rem 0;
+          margin: 2rem 1rem 2rem;
           overflow: hidden;
         }
 
@@ -74,12 +74,89 @@
           color: #666;
           line-height: 1.6;
           margin-bottom: 1.5rem;
-          font-size: 0.95rem;
+          font-size: 1.2rem;
+        }
+
+        /* Style AFPA credential image */
+        .mobile-about-me .afpa-credential {
+          margin: 0 !important;
+          padding: 0 !important;
+          text-align: center;
+        }
+
+        .mobile-about-me .afpa-credential img {
+          max-width: 120px !important;
+          height: auto;
+          opacity: 0.8;
+          transition: opacity 0.3s ease;
+        }
+
+        .mobile-about-me .afpa-credential img:hover {
+          opacity: 1;
         }
 
         /* Reduce spacing before You Might Also Like section */
         .related-recipes {
-          margin-top: 2rem !important;
+          margin: 0 !important;
+          padding: 0.25rem 1rem 2rem !important;
+        }
+
+        /* Increase text size in recipe cards */
+        .recipe-card-small h3 {
+          font-size: 1.6rem !important;
+        }
+
+        .recipe-card-small .recipe-meta {
+          font-size: 1.4rem !important;
+        }
+
+        /* Increase font size of the main recipe description */
+        .recipe-description {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Apply same font size to Why You'll Love These section paragraphs */
+        .recipe-story p {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Apply same font size to all recipe card content */
+        .ingredients-section li label,
+        .instructions-section li,
+        .nutrition-section .nutrition-label,
+        .nutrition-section .nutrition-value,
+        .faq-section p,
+        .recipe-card p {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Unbold FAQ answers while keeping questions bold */
+        .faq-answer {
+          font-weight: normal !important;
+        }
+
+        /* Make FAQ questions same size as answers */
+        .faq-question {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Force AFPA logo styling with no cache */
+        .afpa-credential {
+          margin: 0 !important;
+          padding: 0 !important;
+          text-align: center !important;
+        }
+
+        .afpa-credential img {
+          width: 120px !important;
+          max-width: 120px !important;
+          height: auto !important;
+          margin: 0 0 1rem 0 !important;
+          padding: 0 !important;
         }
       }
 
@@ -700,6 +777,10 @@
 
             <a href="#" class="more-about-btn">More about me &rarr;</a>
 
+            <div class="afpa-credential">
+                <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40">
+            </div>
+
             <div class="about-social">
                 <a href="#" class="about-social-btn instagram" aria-label="Follow on Instagram">
                     <i class="fab fa-instagram"></i>
@@ -722,15 +803,14 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h4>yourwellnessgirly</h4>
-                <p>Healthy dessert recipes that don't compromise on taste. Join me in creating delicious, guilt-free treats that nourish your body and satisfy your sweet tooth!</p>
+                <p>Healthy dessert recipes that don't compromise in taste for all dietary preferences. Because everyone deserves a sweet treat!</p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../index.html#recipes">Recipes</a></li>
-                    <li><a href="../index.html#about">About</a></li>
-                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="../recipe-index.html">Recipes</a></li>
+                    <li><a href="../about.html">About</a></li>
                 </ul>
             </div>
             <div class="footer-section">

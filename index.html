@@ -66,7 +66,85 @@
         .filter-grid {
           grid-template-columns: 1fr !important;
         }
+
+        /* Mobile-only hamburger menu */
+        /* Hide default nav on mobile */
+        .main-header nav ul {
+          display: none !important;
+        }
+
+        /* Show hamburger button on mobile */
+        .hamburger-menu {
+          display: flex !important;
+          flex-direction: column;
+          cursor: pointer;
+          width: 25px;
+          height: 20px;
+          justify-content: space-between;
+        }
+
+        .hamburger-menu span {
+          width: 100%;
+          height: 3px;
+          background-color: #2f4f2f;
+          transition: all 0.3s ease;
+        }
+
+        /* Mobile dropdown menu */
+        .mobile-nav-dropdown {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: white;
+          border-top: 1px solid #f0f0f0;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          z-index: 1000;
+          display: none;
+        }
+
+        .mobile-nav-dropdown.show {
+          display: block !important;
+        }
+
+        .mobile-nav-dropdown ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        .mobile-nav-dropdown li {
+          border-bottom: 1px solid #f0f0f0;
+        }
+
+        .mobile-nav-dropdown li:last-child {
+          border-bottom: none;
+        }
+
+        .mobile-nav-dropdown a {
+          display: block;
+          padding: 15px 20px;
+          color: #2f4f2f;
+          text-decoration: none;
+          font-size: 1.1rem;
+          transition: background-color 0.3s ease;
+        }
+
+        .mobile-nav-dropdown a:hover {
+          background-color: #f8f8f8;
+        }
+
+        /* Adjust header positioning for mobile */
+        .main-header {
+          position: relative;
+        }
       }
+
+      /* Hide hamburger menu on desktop */
+      .hamburger-menu {
+        display: none;
+      }
+
       .recipe-card:hover .recipe-overlay {
         opacity: 0 !important;
       }
@@ -108,6 +186,21 @@
           <li><a href="#">Work With Me</a></li>
         </ul>
       </nav>
+      <!-- Mobile hamburger menu -->
+      <div class="hamburger-menu" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Mobile dropdown menu -->
+      <div class="mobile-nav-dropdown" id="mobileNavDropdown">
+        <ul>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="/recipe-index.html">Recipe Index</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Work With Me</a></li>
+        </ul>
+      </div>
       <div class="social-icons">
         <a
           href="#"
@@ -459,5 +552,30 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- Mobile hamburger menu JavaScript -->
+    <script>
+      // Mobile menu toggle function
+      function toggleMobileMenu() {
+        const dropdown = document.getElementById('mobileNavDropdown');
+        dropdown.classList.toggle('show');
+      }
+
+      // Close mobile menu when clicking outside or on menu items
+      document.addEventListener('click', function(event) {
+        const dropdown = document.getElementById('mobileNavDropdown');
+        const hamburger = document.querySelector('.hamburger-menu');
+
+        // Close if clicking outside menu
+        if (!hamburger.contains(event.target) && !dropdown.contains(event.target)) {
+          dropdown.classList.remove('show');
+        }
+
+        // Close if clicking on a menu item (for same-page navigation)
+        if (event.target.tagName === 'A' && dropdown.contains(event.target)) {
+          dropdown.classList.remove('show');
+        }
+      });
+    </script>
   </body>
 </html>

@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=204">
+    <link rel="stylesheet" href="../style.css?v=205">
     <style>
       @media (max-width: 768px) {
         /* Hide original About Me Sidebar on mobile */
@@ -163,6 +163,24 @@
       /* Hide mobile section on desktop */
       .mobile-about-me {
         display: none;
+      }
+
+      /* Desktop AFPA credential styling */
+      .about-me-sidebar .afpa-credential {
+        margin: 1rem 0;
+        text-align: center;
+      }
+
+      .about-me-sidebar .afpa-credential img {
+        width: 140px !important;
+        max-width: 140px !important;
+        height: auto;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+      }
+
+      .about-me-sidebar .afpa-credential img:hover {
+        opacity: 1;
       }
     </style>
 
@@ -502,6 +520,10 @@
                 <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
 
                 <a href="#" class="more-about-btn">More about me &rarr;</a>
+
+                <div class="afpa-credential">
+                    <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40">
+                </div>
 
                 <div class="about-social">
                     <a href="#" class="about-social-btn instagram" aria-label="Follow on Instagram">

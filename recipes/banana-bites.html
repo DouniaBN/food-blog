@@ -210,6 +210,19 @@
       .faq-answer {
         font-weight: normal !important;
       }
+      /* Desktop only - widen About Me sidebar */
+      @media (min-width: 769px) {
+        .about-me-sidebar {
+          flex: 0 0 360px !important;
+          max-width: 360px !important;
+          min-width: 360px !important;
+        }
+        /* Desktop only - increase About Me text font size */
+        .about-me-sidebar p {
+          font-size: 1.05rem !important;
+          line-height: 1.6 !important;
+        }
+      }
     </style>
 
     <!-- Google Analytics 4 -->

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work With Me - Collaborations & Services | Yourwellnessgirly</title>
+    <meta name="description" content="Partner with Dounia from Yourwellnessgirly for brand collaborations, recipe development, content creation, and nutrition consulting. Professional wellness content creator specializing in healthy desserts.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwellnessgirly.com/work-with-me">
+    <meta property="og:title" content="Work With Me - Collaborations & Services | Yourwellnessgirly">
+    <meta property="og:description" content="Partner with Dounia for brand collaborations, recipe development, and wellness content creation.">
+    <meta property="og:image" content="https://yourwellnessgirly.com/images/profile/dounia-work-with-me.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Work With Me - Collaborations & Services | Yourwellnessgirly">
+    <meta property="twitter:description" content="Partner with Dounia for brand collaborations, recipe development, and wellness content creation.">
+    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/profile/dounia-work-with-me.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwellnessgirly.com/work-with-me">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @media (max-width: 768px) {
+            /* Mobile-only hamburger menu */
+            .main-header nav ul {
+                display: none !important;
+            }
+
+            .hamburger-menu {
+                display: flex !important;
+                flex-direction: column;
+                cursor: pointer;
+                width: 25px;
+                height: 20px;
+                justify-content: space-between;
+                position: absolute;
+                left: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .hamburger-menu span {
+                width: 100%;
+                height: 3px;
+                background-color: #2f4f2f;
+                transition: all 0.3s ease;
+            }
+
+            .mobile-nav-dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                border-top: 1px solid #f0f0f0;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                z-index: 1000;
+                display: none;
+            }
+
+            .mobile-nav-dropdown.show {
+                display: block !important;
+            }
+
+            .mobile-nav-dropdown ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .mobile-nav-dropdown li {
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+            .mobile-nav-dropdown li:last-child {
+                border-bottom: none;
+            }
+
+            .mobile-nav-dropdown a {
+                display: block;
+                padding: 15px 20px;
+                color: #2f4f2f;
+                text-decoration: none;
+                font-size: 1.1rem;
+                transition: background-color 0.3s ease;
+            }
+
+            .mobile-nav-dropdown a:hover {
+                background-color: #f8f8f8;
+            }
+
+            .main-header {
+                position: relative;
+            }
+
+            .mobile-search-icon {
+                display: flex !important;
+                position: absolute;
+                right: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #2f4f2f;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+        }
+
+        /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
+        .hamburger-menu,
+        .mobile-search-icon,
+        .mobile-nav-dropdown {
+            display: none;
+        }
+
+        /* Desktop search icon styling */
+        @media (min-width: 769px) {
+            .mobile-search-icon {
+                display: flex !important;
+                position: static !important;
+                transform: none !important;
+                margin-left: 1rem;
+            }
+        }
+
+        /* Common search icon styling */
+        .mobile-search-icon {
+            color: #2f4f2f;
+            font-size: 1.2rem;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Work With Me Page Specific Styles */
+        .work-hero {
+            background: linear-gradient(135deg, var(--light-pink) 0%, var(--neutral-beige) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .work-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
+        }
+
+        .work-hero p {
+            font-size: 1.3rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .services-section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--sage-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .service-card h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .service-features li {
+            padding: 0.5rem 0;
+            color: #555;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-features li:before {
+            content: "✓";
+            color: var(--sage-green);
+            font-weight: bold;
+            margin-right: 0.75rem;
+        }
+
+        .stats-section {
+            background: #2f4f2f;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 2rem auto 0;
+        }
+
+        .stat-item {
+            padding: 1rem;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--light-pink);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .collaboration-section {
+            padding: 4rem 2rem;
+            background: var(--light-pink);
+            text-align: center;
+        }
+
+        .collaboration-section h2 {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            color: #2f4f2f;
+            margin-bottom: 2rem;
+        }
+
+        .brand-logos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 3rem auto;
+            align-items: center;
+        }
+
+        .brand-logo {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-weight: bold;
+            color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80px;
+        }
+
+        .contact-section {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
+        }
+
+        .contact-section p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+        }
+
+        .contact-email {
+            font-size: 1.3rem;
+            color: #2f4f2f;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 1rem 2rem;
+            background: var(--sage-green);
+            color: white;
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+
+        .contact-email:hover {
+            background: #2f4f2f;
+        }
+
+        .response-time {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 1rem;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .work-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .work-hero p {
+                font-size: 1.1rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .service-card {
+                padding: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="images/profile/logo.png" alt="Yourwellnessgirly Logo" class="logo-img">
+            yourwellnessgirly
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Recipes ▾</a></li>
+                <li><a href="/recipe-index.html">Recipe Index</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/work-with-me.html" class="active">Work With Me</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile hamburger menu -->
+        <div class="hamburger-menu" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Mobile search icon -->
+        <div class="mobile-search-icon" id="searchIcon">
+            <i class="fas fa-search"></i>
+        </div>
+        <!-- Mobile dropdown menu -->
+        <div class="mobile-nav-dropdown" id="mobileNavDropdown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/recipe-index.html">Recipe Index</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/work-with-me.html">Work With Me</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="pinterest" aria-label="Save healthy dessert recipes on Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="tiktok" aria-label="Watch quick healthy dessert recipes on TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="email" aria-label="Subscribe to healthy dessert recipe newsletter"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="work-hero">
+        <h1>Work With Me</h1>
+        <p>Let's create something amazing together! I partner with health-conscious brands to develop authentic content that resonates with my community of wellness enthusiasts who love delicious, healthy treats.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Brand Collaborations</h3>
+                <p>Authentic partnerships with health-focused brands that align with my values and my audience's interests.</p>
+                <ul class="service-features">
+                    <li>Social media campaigns (Instagram, TikTok, Pinterest)</li>
+                    <li>Professional recipe development</li>
+                    <li>High-quality content creation</li>
+                    <li>Stories and reels featuring your products</li>
+                    <li>Honest product reviews and tutorials</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Recipe Development</h3>
+                <p>Custom healthy dessert recipes created specifically for your brand or dietary requirements.</p>
+                <ul class="service-features">
+                    <li>Original recipe creation</li>
+                    <li>Nutritional analysis and optimization</li>
+                    <li>Recipe testing and refinement</li>
+                    <li>Professional food photography</li>
+                    <li>Complete recipe cards and instructions</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Nutrition Consulting</h3>
+                <p>Personalized nutrition guidance focusing on hormone health and sustainable wellness through food.</p>
+                <ul class="service-features">
+                    <li>One-on-one nutrition consultations</li>
+                    <li>Hormone-balancing meal planning</li>
+                    <li>Healthy dessert integration strategies</li>
+                    <li>Educational content creation</li>
+                    <li>Wellness program development</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Content Creation</h3>
+                <p>High-quality video and photo content that showcases products in an authentic, engaging way.</p>
+                <ul class="service-features">
+                    <li>Recipe tutorial videos</li>
+                    <li>Product unboxing and reviews</li>
+                    <li>Behind-the-scenes content</li>
+                    <li>Educational wellness content</li>
+                    <li>User-generated content campaigns</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <h2>My Reach & Impact</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">50K+</span>
+                <div class="stat-label">Instagram Followers</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">2.5M+</span>
+                <div class="stat-label">Monthly Recipe Views</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">85%</span>
+                <div class="stat-label">Female Audience</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">25-45</span>
+                <div class="stat-label">Primary Age Range</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="collaboration-section">
+        <h2>Trusted by Amazing Brands</h2>
+        <p>I've had the pleasure of working with health-conscious brands that share my passion for making wellness accessible and delicious.</p>
+        <div class="brand-logos">
+            <div class="brand-logo">Vital Proteins</div>
+            <div class="brand-logo">Thrive Market</div>
+            <div class="brand-logo">Ancient Nutrition</div>
+            <div class="brand-logo">Primal Kitchen</div>
+            <div class="brand-logo">Lakanto</div>
+            <div class="brand-logo">Your Brand Here</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Let's Chat!</h2>
+        <p>Ready to create something beautiful together? I'd love to hear about your brand and discuss how we can collaborate to create authentic, engaging content that drives results.</p>
+
+        <div class="contact-info">
+            <h3>For Business Inquiries</h3>
+            <a href="mailto:hello@yourwellnessgirly.com" class="contact-email">hello@yourwellnessgirly.com</a>
+            <div class="response-time">I typically respond within 24-48 hours</div>
+        </div>
+
+        <p><strong>What to include in your email:</strong></p>
+        <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+            <li>Brief overview of your brand and products</li>
+            <li>Type of collaboration you're interested in</li>
+            <li>Timeline for the project</li>
+            <li>Budget range (if applicable)</li>
+            <li>Any specific requirements or ideas</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>yourwellnessgirly</h4>
+                <p>Healthy dessert recipes that don't compromise in taste for all dietary preferences. Because everyone deserves a sweet treat!</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe-index.html">Recipes</a></li>
+                    <li><a href="work-with-me.html">Work With Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Me</h4>
+                <div class="footer-social">
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 yourwellnessgirly. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Recipes</h3>
+                <div class="search-close" onclick="closeSearch()">&times;</div>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search for recipes, ingredients, or keywords...">
+            <div class="search-results" id="searchResults">
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Recipe database for search functionality
+        const recipeDatabase = [
+            {
+                title: "Healthy Chocolate Banana Bites",
+                url: "/recipes/banana-bites.html",
+                description: "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free.",
+                keywords: ["chocolate", "banana", "no-bake", "vegan", "gluten-free", "healthy", "dessert", "15 minutes", "5 ingredients"]
+            },
+            {
+                title: "Strawberry Chia Cups",
+                url: "/recipes/chia-cups.html",
+                description: "Creamy strawberry chia pudding cups perfect for breakfast or dessert.",
+                keywords: ["strawberry", "chia", "pudding", "breakfast", "healthy", "vegan", "gluten-free"]
+            }
+        ];
+
+        // Search functionality
+        function toggleSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            if (searchOverlay && searchInput) {
+                searchOverlay.classList.add('show');
+                setTimeout(() => {
+                    searchInput.focus();
+                }, 100);
+            }
+        }
+
+        function closeSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            if (searchOverlay && searchInput) {
+                searchOverlay.classList.remove('show');
+                searchInput.value = '';
+                const searchResults = document.getElementById('searchResults');
+                if (searchResults) {
+                    searchResults.innerHTML = `
+                        <div style="text-align: center; color: #666; padding: 1rem;">
+                            Start typing to search recipes...
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        // Mobile menu functionality
+        function toggleMobileMenu() {
+            const dropdown = document.getElementById('mobileNavDropdown');
+            if (dropdown) {
+                dropdown.classList.toggle('show');
+            }
+        }
+
+        // Initialize functionality when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add search icon click listener
+            const searchIcon = document.getElementById('searchIcon');
+            if (searchIcon) {
+                searchIcon.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleSearch();
+                });
+            }
+
+            // Add search input functionality
+            const searchInput = document.getElementById('searchInput');
+            const searchResults = document.getElementById('searchResults');
+
+            if (searchInput && searchResults) {
+                searchInput.addEventListener('input', function() {
+                    const query = this.value.toLowerCase().trim();
+
+                    if (query === '') {
+                        searchResults.innerHTML = `
+                            <div style="text-align: center; color: #666; padding: 1rem;">
+                                Start typing to search recipes...
+                            </div>
+                        `;
+                        return;
+                    }
+
+                    const results = recipeDatabase.filter(recipe => {
+                        return recipe.title.toLowerCase().includes(query) ||
+                               recipe.description.toLowerCase().includes(query) ||
+                               recipe.keywords.some(keyword => keyword.toLowerCase().includes(query));
+                    });
+
+                    if (results.length === 0) {
+                        searchResults.innerHTML = `
+                            <div style="text-align: center; color: #666; padding: 1rem;">
+                                No recipes found for "${query}"
+                            </div>
+                        `;
+                    } else {
+                        searchResults.innerHTML = results.map(recipe => `
+                            <a href="${recipe.url}" class="search-result-item" onclick="closeSearch()">
+                                <div class="search-result-title">${recipe.title}</div>
+                                <div class="search-result-description">${recipe.description}</div>
+                            </a>
+                        `).join('');
+                    }
+                });
+            }
+
+            // Close mobile menu when clicking outside or on menu items
+            document.addEventListener('click', function(event) {
+                const dropdown = document.getElementById('mobileNavDropdown');
+                const hamburger = document.querySelector('.hamburger-menu');
+
+                if (dropdown && hamburger) {
+                    // Close if clicking outside menu
+                    if (!hamburger.contains(event.target) && !dropdown.contains(event.target)) {
+                        dropdown.classList.remove('show');
+                    }
+
+                    // Close if clicking on a menu item
+                    if (event.target.tagName === 'A' && dropdown.contains(event.target)) {
+                        dropdown.classList.remove('show');
+                    }
+                }
+            });
+
+            // Close search when clicking outside
+            document.addEventListener('click', function(event) {
+                const searchOverlay = document.getElementById('searchOverlay');
+                const searchContainer = document.querySelector('.search-container');
+
+                if (searchOverlay && searchOverlay.classList.contains('show') &&
+                    searchContainer && !searchContainer.contains(event.target)) {
+                    closeSearch();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

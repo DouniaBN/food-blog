@@ -343,6 +343,10 @@
           width: 25px;
           height: 20px;
           justify-content: space-between;
+          position: absolute;
+          left: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
         }
 
         .hamburger-menu span {
@@ -402,8 +406,10 @@
         }
     }
 
-    /* Hide hamburger menu on desktop */
-    .hamburger-menu {
+    /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
+    .hamburger-menu,
+    .mobile-search-icon,
+    .mobile-nav-dropdown {
       display: none;
     }
     </style>

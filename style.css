@@ -2582,4 +2582,123 @@
   box-shadow: 0 4px 12px rgba(230, 0, 35, 0.3);
 }
 
-  
+/* Search Overlay - Modal Styles */
+.search-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+  z-index: 999999 !important;
+  display: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.search-overlay.show {
+  display: flex !important;
+}
+
+.search-container {
+  background: white !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  width: 90% !important;
+  max-width: 400px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+  z-index: 1000000 !important;
+}
+
+.search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-header h3 {
+  margin: 0;
+  color: #2f4f2f;
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+}
+
+.search-close {
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+.search-close:hover {
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2f4f2f;
+}
+
+.search-results {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.search-result-item:hover {
+  background: #f8f8f8;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.search-result-title {
+  font-weight: 600;
+  color: #2f4f2f;
+  margin-bottom: 0.25rem;
+}
+
+.search-result-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Mobile adjustments for search */
+@media (max-width: 768px) {
+  .search-overlay {
+    align-items: flex-start !important;
+    padding-top: 2rem !important;
+  }
+
+  .search-container {
+    margin: 0 1rem !important;
+    width: calc(100vw - 2rem) !important;
+  }
+}
+

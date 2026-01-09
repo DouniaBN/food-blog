@@ -57,7 +57,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style-mobile.css" />
+    <link rel="stylesheet" href="style.css" />
     <style>
       @media (max-width: 768px) {
         .recipe-grid,
@@ -81,6 +81,10 @@
           width: 25px;
           height: 20px;
           justify-content: space-between;
+          position: absolute;
+          left: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
         }
 
         .hamburger-menu span {
@@ -138,11 +142,53 @@
         .main-header {
           position: relative;
         }
+
       }
 
-      /* Hide hamburger menu on desktop */
-      .hamburger-menu {
+      /* Hide hamburger menu and mobile dropdown on desktop */
+      .hamburger-menu,
+      .mobile-nav-dropdown {
         display: none;
+      }
+
+      /* Desktop search icon styling */
+      @media (min-width: 769px) {
+        .mobile-search-icon {
+          display: flex !important;
+          position: static !important;
+          transform: none !important;
+          margin-left: 1rem;
+        }
+
+        /* Better desktop search overlay */
+        .search-overlay {
+          align-items: center !important;
+          padding-top: 0 !important;
+        }
+
+        .search-container {
+          max-width: 500px !important;
+        }
+      }
+
+      /* Common search icon styling */
+      .mobile-search-icon {
+        color: #2f4f2f;
+        font-size: 1.2rem;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Mobile search icon positioning */
+      @media (max-width: 768px) {
+        .mobile-search-icon {
+          display: flex !important;
+          position: absolute;
+          right: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+        }
       }
 
       .recipe-card:hover .recipe-overlay {
@@ -191,6 +237,10 @@
         <span></span>
         <span></span>
         <span></span>
+      </div>
+      <!-- Mobile search icon -->
+      <div class="mobile-search-icon" id="searchIcon">
+        <i class="fas fa-search"></i>
       </div>
       <!-- Mobile dropdown menu -->
       <div class="mobile-nav-dropdown" id="mobileNavDropdown">
@@ -551,7 +601,128 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+      // Debug: Test if script loads
+      console.log('Script loaded successfully!');
+
+      // Recipe database for search functionality
+      const recipeDatabase = [
+        {
+          title: "Healthy Chocolate Banana Bites",
+          url: "/recipes/banana-bites.html",
+          description: "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free.",
+          keywords: ["chocolate", "banana", "no-bake", "vegan", "gluten-free", "healthy", "dessert", "15 minutes", "5 ingredients"]
+        },
+        {
+          title: "Strawberry Chia Cups",
+          url: "/recipes/chia-cups.html",
+          description: "Creamy strawberry chia pudding cups perfect for breakfast or dessert.",
+          keywords: ["strawberry", "chia", "pudding", "breakfast", "healthy", "vegan", "gluten-free"]
+        }
+      ];
+
+      // Search functionality
+      function toggleSearch() {
+        console.log('toggleSearch called!'); // Debug log
+        const searchOverlay = document.getElementById('searchOverlay');
+        const searchInput = document.getElementById('searchInput');
+
+        console.log('searchOverlay:', searchOverlay); // Debug log
+        console.log('searchInput:', searchInput); // Debug log
+
+        if (searchOverlay && searchInput) {
+          searchOverlay.classList.add('show');
+          console.log('Added show class to overlay'); // Debug log
+          setTimeout(() => {
+            searchInput.focus();
+          }, 100);
+        } else {
+          console.log('Elements not found!'); // Debug log
+        }
+      }
+
+      function closeSearch() {
+        const searchOverlay = document.getElementById('searchOverlay');
+        const searchInput = document.getElementById('searchInput');
+
+        if (searchOverlay && searchInput) {
+          searchOverlay.classList.remove('show');
+          searchInput.value = '';
+          const searchResults = document.getElementById('searchResults');
+          if (searchResults) {
+            searchResults.innerHTML = `
+              <div style="text-align: center; color: #666; padding: 1rem;">
+                Start typing to search recipes...
+              </div>
+            `;
+          }
+        }
+      }
+
+      // Make functions globally available
+      window.toggleSearch = toggleSearch;
+      window.closeSearch = closeSearch;
+
+      // Add event listener when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM loaded, setting up search icon click');
+        const searchIcon = document.getElementById('searchIcon');
+        console.log('Search icon element:', searchIcon);
+
+        if (searchIcon) {
+          searchIcon.addEventListener('click', function(e) {
+            console.log('Search icon clicked!');
+            e.preventDefault();
+            toggleSearch();
+          });
+          console.log('Event listener added to search icon');
+        } else {
+          console.log('Search icon not found!');
+        }
+
+        // Add search input functionality
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+
+        if (searchInput && searchResults) {
+          searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase().trim();
+            console.log('Search query:', query);
+
+            if (query === '') {
+              searchResults.innerHTML = `
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                  Start typing to search recipes...
+                </div>
+              `;
+              return;
+            }
+
+            const results = recipeDatabase.filter(recipe => {
+              return recipe.title.toLowerCase().includes(query) ||
+                     recipe.description.toLowerCase().includes(query) ||
+                     recipe.keywords.some(keyword => keyword.toLowerCase().includes(query));
+            });
+
+            if (results.length === 0) {
+              searchResults.innerHTML = `
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                  No recipes found for "${query}"
+                </div>
+              `;
+            } else {
+              searchResults.innerHTML = results.map(recipe => `
+                <a href="${recipe.url}" class="search-result-item" onclick="closeSearch()">
+                  <div class="search-result-title">${recipe.title}</div>
+                  <div class="search-result-description">${recipe.description}</div>
+                </a>
+              `).join('');
+            }
+          });
+          console.log('Search input event listener added');
+        }
+      });
+    </script>
 
     <!-- Mobile hamburger menu JavaScript -->
     <script>
@@ -576,6 +747,24 @@
           dropdown.classList.remove('show');
         }
       });
+
     </script>
+
+    <!-- Search Overlay - Positioned at end of body for proper modal behavior -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Recipes</h3>
+                <div class="search-close" onclick="closeSearch()">&times;</div>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search for recipes, ingredients, or keywords...">
+            <div class="search-results" id="searchResults">
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            </div>
+        </div>
+    </div>
+
   </body>
 </html>

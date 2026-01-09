@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work With Me - Collaborations & Services | Yourwellnessgirly</title>
-    <meta name="description" content="Partner with Dounia from Yourwellnessgirly for brand collaborations, recipe development, content creation, and nutrition consulting. Professional wellness content creator specializing in healthy desserts.">
+    <title>About Dounia - Healthy Dessert Recipe Creator | Yourwellnessgirly</title>
+    <meta name="description" content="Meet Dounia, the creator behind Yourwellnessgirly. Learn about my passion for healthy desserts, wellness journey, and how I make nutritious treats that actually taste amazing.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourwellnessgirly.com/work-with-me">
-    <meta property="og:title" content="Work With Me - Collaborations & Services | Yourwellnessgirly">
-    <meta property="og:description" content="Partner with Dounia for brand collaborations, recipe development, and wellness content creation.">
-    <meta property="og:image" content="https://yourwellnessgirly.com/images/profile/dounia-work-with-me.jpg">
+    <meta property="og:url" content="https://yourwellnessgirly.com/about">
+    <meta property="og:title" content="About Dounia - Healthy Dessert Recipe Creator | Yourwellnessgirly">
+    <meta property="og:description" content="Meet Dounia, the creator behind Yourwellnessgirly. Learn about my passion for healthy desserts and wellness journey.">
+    <meta property="og:image" content="https://yourwellnessgirly.com/images/profile/dounia-about.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Work With Me - Collaborations & Services | Yourwellnessgirly">
-    <meta property="twitter:description" content="Partner with Dounia for brand collaborations, recipe development, and wellness content creation.">
-    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/profile/dounia-work-with-me.jpg">
+    <meta property="twitter:title" content="About Dounia - Healthy Dessert Recipe Creator | Yourwellnessgirly">
+    <meta property="twitter:description" content="Meet Dounia, the creator behind Yourwellnessgirly. Learn about my passion for healthy desserts and wellness journey.">
+    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/profile/dounia-about.jpg">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://yourwellnessgirly.com/work-with-me">
+    <link rel="canonical" href="https://yourwellnessgirly.com/about">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -140,255 +140,255 @@
             justify-content: center;
         }
 
-        /* Work With Me Page Specific Styles */
-        .work-hero {
+        /* About Page Specific Styles */
+        .about-hero {
             background: linear-gradient(135deg, var(--light-pink) 0%, var(--neutral-beige) 100%);
             padding: 0.5rem 2rem 1rem 2rem;
             text-align: center;
         }
 
-        .work-hero h1 {
+        .about-hero h1 {
             font-family: var(--font-heading);
             font-size: 3rem;
             color: #2f4f2f;
             margin-bottom: 1rem;
         }
 
-        .work-hero p {
-            font-size: 1.3rem;
-            color: #666;
+        .about-content {
             max-width: 800px;
             margin: 0 auto;
-            line-height: 1.6;
+            padding: 3rem 2rem;
+            line-height: 1.7;
         }
 
-        .services-section {
-            padding: 4rem 2rem;
+        .about-section {
+            margin-bottom: 3rem;
         }
 
-        .services-container {
-            max-width: 1200px;
-            margin: 0 auto;
+        .about-section h2 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            color: #2f4f2f;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
         }
 
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 3rem;
+        .about-section h2:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--sage-green);
+            border-radius: 2px;
+        }
+
+        .about-section p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .intro-section {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .intro-section h2 {
+            color: var(--sage-green);
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-headshot {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1.5rem auto;
+            display: block;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .intro-section .highlight {
+            font-weight: bold;
+            color: #2f4f2f;
+        }
+
+        .faqs-section {
+            background: var(--neutral-beige);
+            padding: 3rem 2rem;
             margin-top: 3rem;
         }
 
-        .service-card {
-            background: white;
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-        }
-
-        .service-icon {
-            width: 80px;
-            height: 80px;
-            background: var(--sage-green);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-            color: white;
-        }
-
-        .service-card h3 {
-            font-family: var(--font-heading);
-            font-size: 1.8rem;
-            color: #2f4f2f;
-            margin-bottom: 1rem;
-        }
-
-        .service-card p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-        }
-
-        .service-features {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .service-features li {
-            padding: 0.5rem 0;
-            color: #555;
-            display: flex;
-            align-items: center;
-        }
-
-        .service-features li:before {
-            content: "✓";
-            color: #2f4f2f;
-            font-weight: bold;
-            margin-right: 0.75rem;
-        }
-
-        .stats-section {
-            background: #2f4f2f;
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
+        .faqs-container {
             max-width: 800px;
-            margin: 2rem auto 0;
+            margin: 0 auto;
         }
 
-        .stat-item {
-            padding: 1rem;
-        }
-
-        .stat-number {
-            font-size: 3rem;
-            font-weight: bold;
-            color: var(--light-pink);
-            display: block;
-        }
-
-        .stat-label {
-            font-size: 1.1rem;
-            margin-top: 0.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .collaboration-section {
-            padding: 4rem 2rem;
-            background: var(--light-pink);
-            text-align: center;
-        }
-
-        .collaboration-section h2 {
+        .faqs-section h2 {
             font-family: var(--font-heading);
             font-size: 2.5rem;
             color: #2f4f2f;
             margin-bottom: 2rem;
+            text-align: center;
         }
 
-        .brand-logos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 4rem;
-            max-width: 1000px;
-            margin: 3rem auto;
-            align-items: center;
+        .faq-item {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
 
-        .brand-logo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 80px;
-            transition: transform 0.3s ease;
+        .faq-question {
+            font-family: var(--font-heading);
+            font-size: 1.3rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
         }
 
-        .brand-logo:hover {
-            transform: translateY(-2px);
+        .faq-answer {
+            color: #666;
+            line-height: 1.6;
         }
 
-        .brand-logo img {
-            max-width: 240px;
-            max-height: 160px;
-            object-fit: contain;
-            border-radius: 15px;
+        .recommendations-section {
+            background: var(--light-pink);
+            padding: 3rem 2rem;
         }
 
-        .contact-section {
-            padding: 4rem 2rem;
+        .recommendations-container {
             max-width: 800px;
             margin: 0 auto;
             text-align: center;
         }
 
-        .contact-section h2 {
+        .recommendations-section h2 {
             font-family: var(--font-heading);
             font-size: 2.5rem;
             color: #2f4f2f;
             margin-bottom: 1rem;
         }
 
-        .contact-section p {
+        .recommendations-section p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .recipe-recommendations {
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        .recipe-rec {
+            margin-bottom: 1rem;
+            padding: 0.5rem 0;
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        .recipe-rec a {
+            color: #2f4f2f;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .recipe-rec a:hover {
+            color: var(--sage-green);
+        }
+
+        .connect-section {
+            padding: 3rem 2rem;
+            text-align: center;
+            background: white;
+        }
+
+        .connect-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .connect-section h2 {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            color: #2f4f2f;
+            margin-bottom: 1.5rem;
+        }
+
+        .connect-section p {
             font-size: 1.2rem;
             color: #666;
             margin-bottom: 2rem;
             line-height: 1.6;
         }
 
-        .contact-info {
-            background: white;
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
-            margin: 2rem 0;
-        }
-
-        .contact-email {
-            font-size: 1.3rem;
-            color: #2f4f2f;
-            font-weight: bold;
-            text-decoration: none;
-            display: inline-block;
-            margin: 1rem 0;
-            padding: 1rem 2rem;
+        .newsletter-signup {
             background: var(--sage-green);
             color: white;
+            padding: 1rem 2rem;
             border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin: 1rem 0.5rem;
             transition: background 0.3s ease;
         }
 
-        .contact-email:hover {
+        .newsletter-signup:hover {
             background: #2f4f2f;
+            color: white;
         }
 
-        .response-time {
-            font-size: 0.9rem;
-            color: #888;
-            margin-top: 1rem;
+        .social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links p {
+            margin-bottom: 1rem;
+        }
+
+        .social-platforms {
+            font-weight: bold;
+            color: #2f4f2f;
         }
 
         /* Mobile responsiveness */
         @media (max-width: 768px) {
-            .work-hero h1 {
+            .about-hero h1 {
                 font-size: 2.2rem;
             }
 
-            .work-hero p {
-                font-size: 1.1rem;
+            .about-content {
+                padding: 2rem 1rem;
             }
 
-            .services-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
+            .about-section h2 {
+                font-size: 1.7rem;
             }
 
-            .service-card {
-                padding: 2rem;
+            .faqs-section,
+            .recommendations-section,
+            .connect-section {
+                padding: 2rem 1rem;
             }
 
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .faqs-section h2,
+            .recommendations-section h2,
+            .connect-section h2 {
+                font-size: 2rem;
             }
 
-            .stat-number {
-                font-size: 2.5rem;
+            .recipe-recommendations {
+                text-align: center;
             }
         }
     </style>
@@ -401,10 +401,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Recipes ▾</a></li>
+                <li><a href="/recipe-index.html">Recipes ▾</a></li>
                 <li><a href="/recipe-index.html">Recipe Index</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/work-with-me.html" class="active">Work With Me</a></li>
+                <li><a href="/about.html" class="active">About</a></li>
+                <li><a href="/work-with-me.html">Work With Me</a></li>
             </ul>
         </nav>
         <!-- Mobile hamburger menu -->
@@ -422,7 +422,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="/recipe-index.html">Recipe Index</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/about.html">About</a></li>
                 <li><a href="/work-with-me.html">Work With Me</a></li>
             </ul>
         </div>
@@ -435,78 +435,101 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="work-hero">
-        <h1>Work With Me</h1>
+    <section class="about-hero">
+        <h1>About Me</h1>
     </section>
 
-    <!-- Collaboration Section -->
-    <section class="collaboration-section" style="background: var(--neutral-beige);">
-        <h2 style="margin-bottom: 3.5rem; position: relative; padding-bottom: 1rem; text-align: center;">
-            Trusted by Amazing Brands
-            <svg style="position: absolute; bottom: -0.5rem; left: 50%; transform: translateX(-50%); width: 100px; height: 12px;" viewBox="0 0 100 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 6c15-4 25-4 35 0s15 4 25 0c10-4 20-4 25 0" stroke="#fadee3" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </h2>
-        <p style="font-size: 1.5em;">I've had the honor of working with the following brands + so many more!</p>
-        <div class="brand-logos">
-            <div class="brand-logo">
-                <img src="images/social/cuisinart.png" alt="Cuisinart">
+    <!-- Main Content -->
+    <section class="about-content">
+        <div class="intro-section">
+            <img src="images/profile/about-me.jpg" alt="Dounia - Founder of Yourwellnessgirly" class="about-headshot">
+            <h2>Hey, I'm Dounia!</h2>
+        </div>
+
+        <div class="about-section">
+            <h2>My Story</h2>
+            <p>Founded by Dounia, a wellness enthusiast, recipe developer, and content creator, the goal of Yourwellnessgirly is to not only deliver incredibly delicious recipes, but also show how easy it is to incorporate healthier alternatives into our favorite nostalgic desserts. Because the truth is, we don't have to sacrifice flavor, taste, nor texture when we bake with wholesome ingredients. Yes, we can have it all!</p>
+
+            <p>I'm a wellness blogger, recipe developer, and healthy dessert enthusiast who is passionate about sharing my love for nutritious treats with the world. My wellness journey started during college when I realized how much better I felt when I nourished my body with whole, nutrient-dense foods - but I never wanted to give up my beloved desserts!</p>
+        </div>
+
+        <div class="about-section">
+            <h2>How I Started My Wellness Journey</h2>
+            <p>I learned all of my initial healthy baking skills from experimenting in my tiny dorm kitchen and watching countless wellness YouTubers! My wellness journey opened my eyes up to different ingredients, superfoods, and baking techniques I never knew existed. I actually spent hours researching healthy ingredient swaps because I wanted to learn as much as I could about nutritious baking and cooking.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>What You'll Find On My Blog</h2>
+            <p>On my blog, you'll find a collection of healthy dessert recipes that prove nutritious can be absolutely delicious. My goal is to make recipes that are easy, approachable, and most importantly, taste amazing. Whether you're a beginner baker or a seasoned wellness enthusiast, I want you to feel confident and inspired in your own kitchen!</p>
+
+            <p>Along with healthy desserts, I also love sharing wellness tips, ingredient spotlights, and behind-the-scenes content from my recipe testing process. I started this blog because friends and family kept asking for my recipes after I shared photos of my healthy treats on social media, so I wanted a place to share them all!</p>
+        </div>
+
+        <div class="about-section">
+            <h2>My Wellness Philosophy</h2>
+            <p>Food is my love language, and through this space, I hope to share that love with you as well! I believe in balance, enjoying treats that nourish both your body and soul, and proving that healthy doesn't have to mean boring or tasteless.</p>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faqs-section">
+        <div class="faqs-container">
+            <h2>FAQs</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Do I need to be vegan to enjoy these recipes?</div>
+                <div class="faq-answer">Absolutely not! Most of my friends, family, and recipe testers are indeed not vegan, and they'll tell you these are some of the best desserts they've ever had. My recipes are designed to be enjoyed by everyone, regardless of dietary preferences!</div>
             </div>
-            <div class="brand-logo">
-                <img src="images/social/ossa.png" alt="Ossa Organic">
+
+            <div class="faq-item">
+                <div class="faq-question">Can I make substitutions in your recipes?</div>
+                <div class="faq-answer">You're more than welcome to make substitutions, BUT it is not guaranteed to turn out as I created the recipe. If you have questions about substitutions, please write them in the comments section. It's very helpful for other readers. And if there are substitutions for specific ingredients, I will always note the ones I've personally tested in the notes section of the recipe card.</div>
             </div>
-            <div class="brand-logo">
-                <img src="images/social/plenish.png" alt="Plenish">
+
+            <div class="faq-item">
+                <div class="faq-question">Do you provide nutritional information for your recipes?</div>
+                <div class="faq-answer">Some recipes include basic nutritional estimates, however, they use the specific brands and ingredients I have used for the recipe. This means that the nutritional calculations are only estimates and will not accurately reflect what is made in your own kitchen.</div>
             </div>
-            <div class="brand-logo">
-                <img src="images/social/proteinworld.jpeg" alt="Protein World">
-            </div>
-            <div class="brand-logo">
-                <img src="images/social/thefeedfeed.jpeg" alt="The Feed Feed">
-            </div>
-            <div class="brand-logo">
-                <img src="images/social/trufru.png" alt="Tru Fru">
+
+            <div class="faq-item">
+                <div class="faq-question">Are your recipes gluten-free as well?</div>
+                <div class="faq-answer">About 70% of my recipes have gluten-free options or are naturally gluten-free, but many recipes have been curated to be both specifically vegan and gluten-free. Check out the gluten-free recipes section in my recipe index for those recipes!</div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services-section" style="background: var(--light-pink);">
-        <div class="services-container">
-            <div class="services-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
-                <div class="service-card" style="font-size: 1.5em;">
-                    <h2 style="font-size: 1.4em; text-align: center; font-family: var(--font-heading); color: #2f4f2f; margin-bottom: 4rem; position: relative; padding-bottom: 1rem;">
-                        Services I Offer:
-                        <svg style="position: absolute; bottom: -0.5rem; left: 50%; transform: translateX(-50%); width: 100px; height: 12px;" viewBox="0 0 100 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 6c15-4 25-4 35 0s15 4 25 0c10-4 20-4 25 0" stroke="#fadee3" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </h2>
-                    <p style="font-size: 1em; margin-bottom: 3rem;">I love partnering with health-conscious brands to create and share authentic content that resonates with my audience!</p>
-                    <ul class="service-features" style="font-size: 1em; margin-bottom: 3rem;">
-                        <li>Brand collaborations and partnerships</li>
-                        <li>Recipe development and testing</li>
-                        <li>Content creation (photos + videos)</li>
-                        <li>Product reviews and features</li>
-                        <li>UGC content creation</li>
-                        <li>Nutrition consulting</li>
-                        <li>Educational wellness content</li>
-                    </ul>
-                    <p style="margin-top: 3rem; font-style: italic; color: #888; font-size: 0.6em; text-align: center;">
-                        This list isn't exhaustive - if you have something in mind that doesn't quite fit here, feel free to email me anyway! I love exploring new collaboration opportunities.
-                    </p>
-                </div>
+    <!-- First Time Reader Recommendations -->
+    <section class="recommendations-section">
+        <div class="recommendations-container">
+            <h2>First Time Reader?</h2>
+            <p>Check out these fan favorite healthy dessert recipes!</p>
+
+            <div class="recipe-recommendations">
+                <div class="recipe-rec">• <a href="#">Healthy Chocolate Banana Bites</a></div>
+                <div class="recipe-rec">• <a href="#">5-Minute Strawberry Chia Cups</a></div>
+                <div class="recipe-rec">• <a href="#">No-Bake Peanut Butter Energy Balls</a> (or try my classic <a href="#">chocolate chip version</a>!)</div>
+                <div class="recipe-rec">• <a href="#">Fudgy Avocado Brownies</a></div>
+                <div class="recipe-rec">• <a href="#">Healthy Chocolate Chip Cookies</a> (and check out this <a href="#">gluten-free version</a> as well!)</div>
+                <div class="recipe-rec">• <a href="#">3-Ingredient Nice Cream</a></div>
+                <div class="recipe-rec">• <a href="#">Raw Vegan Cheesecake Bites</a></div>
+                <div class="recipe-rec">• <a href="#">Healthy Chocolate Muffins</a></div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <h2>Let's Chat!</h2>
-        <p>Ready to create something beautiful together? I'd love to hear about your brand and discuss how we can collaborate to create authentic, engaging content that drives results!</p>
+    <!-- Connect Section -->
+    <section class="connect-section">
+        <div class="connect-container">
+            <h2>Let's Stay in Touch!</h2>
+            <p>I'd be so delighted to have you as a part of the wellness community! If you want to be one of the first to get notified when a new recipe goes up, feel free to subscribe to my newsletter!</p>
 
-        <div class="contact-info">
-            <h3>For Business Inquiries:</h3>
-            <a href="mailto:yourwellnessgirly@gmail.com" class="contact-email" style="background: #2f4f2f;">yourwellnessgirly@gmail.com</a>
+            <a href="#" class="newsletter-signup">Subscribe to My Newsletter</a>
+
+            <div class="social-links">
+                <p>You can also come hang out with the rest of the wellness community on <span class="social-platforms">Instagram, Pinterest, and TikTok!</span></p>
+
+                <p>If you're a brand or business in search of freelance recipe development, food photography, or partnerships, please visit my <a href="/work-with-me.html" style="color: #2f4f2f; font-weight: bold;">Work With Me</a> page.</p>
+            </div>
         </div>
     </section>
 
@@ -522,6 +545,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="recipe-index.html">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="work-with-me.html">Work With Me</a></li>
                 </ul>
             </div>

@@ -285,24 +285,30 @@
 
         .brand-logos {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 2rem;
-            max-width: 800px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 4rem;
+            max-width: 1000px;
             margin: 3rem auto;
             align-items: center;
         }
 
         .brand-logo {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            font-weight: bold;
-            color: #666;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 80px;
+            transition: transform 0.3s ease;
+        }
+
+        .brand-logo:hover {
+            transform: translateY(-2px);
+        }
+
+        .brand-logo img {
+            max-width: 240px;
+            max-height: 160px;
+            object-fit: contain;
+            border-radius: 15px;
         }
 
         .contact-section {
@@ -444,12 +450,24 @@
         </h2>
         <p style="font-size: 1.5em;">I've had the honor of working with the following brands + so many more!</p>
         <div class="brand-logos">
-            <div class="brand-logo">Vital Proteins</div>
-            <div class="brand-logo">Thrive Market</div>
-            <div class="brand-logo">Ancient Nutrition</div>
-            <div class="brand-logo">Primal Kitchen</div>
-            <div class="brand-logo">Lakanto</div>
-            <div class="brand-logo">Your Brand Here</div>
+            <div class="brand-logo">
+                <img src="images/social/cuisinart.png" alt="Cuisinart">
+            </div>
+            <div class="brand-logo">
+                <img src="images/social/ossa.png" alt="Ossa Organic">
+            </div>
+            <div class="brand-logo">
+                <img src="images/social/plenish.png" alt="Plenish">
+            </div>
+            <div class="brand-logo">
+                <img src="images/social/proteinworld.jpeg" alt="Protein World">
+            </div>
+            <div class="brand-logo">
+                <img src="images/social/thefeedfeed.jpeg" alt="The Feed Feed">
+            </div>
+            <div class="brand-logo">
+                <img src="images/social/trufru.png" alt="Tru Fru">
+            </div>
         </div>
     </section>
 

@@ -143,7 +143,7 @@
         /* About Page Specific Styles */
         .about-hero {
             background: linear-gradient(135deg, var(--light-pink) 0%, var(--neutral-beige) 100%);
-            padding: 0.5rem 2rem 1rem 2rem;
+            padding: 2rem 2rem 3rem 2rem;
             text-align: center;
         }
 
@@ -152,6 +152,14 @@
             font-size: 3rem;
             color: #2f4f2f;
             margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
         .about-content {
@@ -193,14 +201,18 @@
 
         .intro-section {
             display: flex;
-            align-items: center;
-            gap: 3rem;
+            align-items: stretch;
+            gap: 2rem;
             margin-bottom: 3rem;
-            padding: 3rem 0;
         }
 
         .intro-text {
-            flex: 1;
+            flex: 0 0 55%;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid #f5f5f5;
             color: #666;
         }
 
@@ -210,6 +222,7 @@
             font-size: 2.8rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
+            text-align: center;
         }
 
         .intro-text p {
@@ -219,18 +232,25 @@
             color: #555;
         }
 
-        .intro-image {
-            flex: 1;
+        .story-heading {
             text-align: center;
+            color: var(--sage-green) !important;
+            font-size: 1.2rem;
+        }
+
+        .intro-image {
+            flex: 0 0 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .about-headshot {
             width: 100%;
-            max-width: 400px;
             height: auto;
             border-radius: 15px;
             object-fit: cover;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
         }
 
         .intro-section .highlight {
@@ -381,8 +401,16 @@
 
         /* Mobile responsiveness */
         @media (max-width: 768px) {
+            .about-hero {
+                padding: 1.5rem 1rem 2rem 1rem;
+            }
+
             .about-hero h1 {
                 font-size: 2.2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
             }
 
             .about-content {
@@ -392,7 +420,15 @@
             .intro-section {
                 flex-direction: column;
                 gap: 2rem;
-                padding: 2rem 0;
+            }
+
+            .intro-text {
+                flex: none;
+                padding: 2rem;
+            }
+
+            .intro-image {
+                flex: none;
             }
 
             .intro-text h2 {
@@ -465,16 +501,18 @@
     <!-- Hero Section -->
     <section class="about-hero">
         <h1>About Me</h1>
+        <p class="hero-subtitle">Welcome to <em>Yourwellnessgirly</em>, where you'll find quick and easy healthy dessert recipes for all dietary preferences. From more indulgent baked treats to simple 2-ingredient no-bake desserts, there's something for every kind of sweet tooth!</p>
     </section>
 
     <!-- Main Content -->
     <section class="about-content">
         <div class="intro-section">
             <div class="intro-text">
-                <h2>hi. I'm dounia!</h2>
-                <p><strong>GET TO KNOW THE FACE BEHIND THE RECIPES</strong></p>
-                <p>Dounia Lashka is a wellness enthusiast and recipe creator whose mission is to make a healthier life more accessible to everyone. Inspired by her own health journey, Dounia creates easy-to-follow, nourishing recipes that require minimal time, energy, and money. She walks you through the entire process in an approachable way – from stocking your kitchen to creating a grocery list to packing up a finished meal in the fridge, sharing actionable tools and strategies to build kitchen confidence and make meal planning an enjoyable habit.</p>
-                <p>Dounia's background in finance and banking translated into the smart shopping tips and meal prep ideas her followers love on @yourwellnessgirly. Her cookbook coming <em>January 2028, Don't Think About Dinner</em>, will top the Substack publications. Want to good newsletter.</p>
+                <h2>hi. I'm Dounia!</h2>
+                <p class="story-heading"><strong>My Story</strong></p>
+                <p>I grew up surrounded by food, culture, and flavour. Being Polish & Moroccan, meant our kitchen was always full of variety and (of course) dessert. Some of my earliest memories are baking with my mum and helping her with every sweet creation. As I got older, I faced multiple health challenges that forced me to rethink the way I ate. I knew I needed to make changes, but I wasn't ready to give up my sweet tooth just yet… and that's when YourWellnessGirly was born.</p>
+                <p>I turned to healing through food and rediscovered my love for creating nourishing, wholesome sweets made with intention while naturally healing chronic illness. Along the way, I became a certified holistic nutritionist and completed my master's in nutrition, so every recipe you see here is backed by both passion and knowledge.</p>
+                <p>Now, I create healthy dessert recipes that feel comforting, joyful, and supportive of your wellbeing — because I truly believe food should be both healing and fun.</p>
             </div>
             <div class="intro-image">
                 <img src="images/profile/about-me.jpg" alt="Dounia - Founder of Yourwellnessgirly" class="about-headshot">

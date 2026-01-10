@@ -204,6 +204,47 @@
             }
         }
 
+        /* Contact Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            top: 100%;
+            right: 0;
+        }
+
+        .dropdown-content a {
+            color: #2f4f2f;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f8f9fa;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
         /* Common search icon styling */
         .mobile-search-icon {
             color: #2f4f2f;
@@ -493,9 +534,15 @@
         <nav>
             <ul>
                 <li><a href="index.html#recipes">Recipes ▾</a></li>
-                <li><a href="/recipes">Recipe Index</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/work-with-me" class="active">Work With Me</a></li>
+                <li><a href="recipe-index.html">Recipe Index</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn active">Contact ▾</a>
+                    <div class="dropdown-content">
+                        <a href="work-with-me.html">Work With Me</a>
+                        <a href="contact.html">Contact Me</a>
+                    </div>
+                </li>
             </ul>
         </nav>
         <!-- Mobile hamburger menu -->
@@ -512,9 +559,10 @@
         <div class="mobile-nav-dropdown" id="mobileNavDropdown">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="/recipes">Recipe Index</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/work-with-me">Work With Me</a></li>
+                <li><a href="recipe-index.html">Recipe Index</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="work-with-me.html">Work With Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </div>
         <div class="social-icons">
@@ -613,7 +661,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="recipe-index.html">Recipes</a></li>
-                    <li><a href="/about">About Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
                     <li><a href="work-with-me.html">Work With Me</a></li>
                 </ul>
             </div>

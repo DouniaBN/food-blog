@@ -406,6 +406,47 @@
         }
     }
 
+    /* Contact Dropdown Styles */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 8px;
+        overflow: hidden;
+        top: 100%;
+        right: 0;
+    }
+
+    .dropdown-content a {
+        color: #2f4f2f;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f8f9fa;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #f8f9fa;
+        border-radius: 4px;
+    }
+
     /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
     .hamburger-menu,
     .mobile-search-icon,
@@ -426,8 +467,14 @@
             <ul>
                 <li><a href="index.html#recipes">Recipes ▾</a></li>
                 <li><a href="/recipes" class="active">Recipe Index</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/work-with-me">Work With Me</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Contact ▾</a>
+                    <div class="dropdown-content">
+                        <a href="work-with-me.html">Work With Me</a>
+                        <a href="contact.html">Contact Me</a>
+                    </div>
+                </li>
             </ul>
         </nav>
         <!-- Mobile hamburger menu -->
@@ -440,9 +487,10 @@
         <div class="mobile-nav-dropdown" id="mobileNavDropdown">
             <ul>
                 <li><a href="index.html#recipes">Recipes</a></li>
-                <li><a href="/recipes">Recipe Index</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/work-with-me">Work With Me</a></li>
+                <li><a href="recipe-index.html">Recipe Index</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="work-with-me.html">Work With Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </div>
         <div class="social-icons">
@@ -652,8 +700,8 @@
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="/recipes">Recipe Index</a></li>
-                    <li><a href="/about">About Me</a></li>
+                    <li><a href="recipe-index.html">Recipe Index</a></li>
+                    <li><a href="about.html">About Me</a></li>
                     <li><a href="#">Newsletter</a></li>
                 </ul>
             </div>

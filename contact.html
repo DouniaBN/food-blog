@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Get in Touch | Yourwellnessgirly</title>
+    <meta name="description" content="Get in touch with Dounia from Yourwellnessgirly. Contact me for any questions about healthy dessert recipes, collaboration inquiries, or just to say hello!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwellnessgirly.com/contact">
+    <meta property="og:title" content="Contact Me | Get in Touch | Yourwellnessgirly">
+    <meta property="og:description" content="Get in touch with Dounia for healthy dessert recipes, collaborations, or any questions!">
+    <meta property="og:image" content="https://yourwellnessgirly.com/images/profile/dounia-contact.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Contact Me | Get in Touch | Yourwellnessgirly">
+    <meta property="twitter:description" content="Get in touch with Dounia for healthy dessert recipes, collaborations, or any questions!">
+    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/profile/dounia-contact.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwellnessgirly.com/contact">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @media (max-width: 768px) {
+            /* Mobile-only hamburger menu */
+            .main-header nav ul {
+                display: none !important;
+            }
+
+            .hamburger-menu {
+                display: flex !important;
+                flex-direction: column;
+                cursor: pointer;
+                width: 25px;
+                height: 20px;
+                justify-content: space-between;
+                position: absolute;
+                left: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .hamburger-menu span {
+                width: 100%;
+                height: 3px;
+                background-color: #2f4f2f;
+                transition: all 0.3s ease;
+            }
+
+            .mobile-nav-dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                border-top: 1px solid #f0f0f0;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                z-index: 1000;
+                display: none;
+            }
+
+            .mobile-nav-dropdown.show {
+                display: block !important;
+            }
+
+            .mobile-nav-dropdown ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .mobile-nav-dropdown li {
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+            .mobile-nav-dropdown li:last-child {
+                border-bottom: none;
+            }
+
+            .mobile-nav-dropdown a {
+                display: block;
+                padding: 15px 20px;
+                color: #2f4f2f;
+                text-decoration: none;
+                font-size: 1.1rem;
+                transition: background-color 0.3s ease;
+            }
+
+            .mobile-nav-dropdown a:hover {
+                background-color: #f8f8f8;
+            }
+
+            .main-header {
+                position: relative;
+            }
+
+            .mobile-search-icon {
+                display: flex !important;
+                position: absolute;
+                right: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #2f4f2f;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+
+            .contact-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .contact-content {
+                padding: 2rem 1rem;
+            }
+        }
+
+        /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
+        .hamburger-menu,
+        .mobile-search-icon,
+        .mobile-nav-dropdown {
+            display: none;
+        }
+
+        /* Contact Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            top: 100%;
+            right: 0;
+        }
+
+        .dropdown-content a {
+            color: #2f4f2f;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f8f9fa;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        /* Contact Page Specific Styles */
+        .contact-hero {
+            background: linear-gradient(135deg, var(--light-pink) 0%, var(--neutral-beige) 100%);
+            padding: 3rem 2rem 2rem 2rem;
+            text-align: center;
+        }
+
+        .contact-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3.5rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact-subtitle {
+            font-size: 1.3rem;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: #2f4f2f;
+            margin-bottom: 1rem;
+        }
+
+        .email-link {
+            font-size: 1.2rem;
+            color: #2f4f2f;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 1rem 2rem;
+            background: var(--sage-green);
+            color: white;
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+
+        .email-link:hover {
+            background: #2f4f2f;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            padding: 0.8rem;
+            background: var(--light-pink);
+            border-radius: 50%;
+            color: #2f4f2f;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            background: var(--sage-green);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .business-note {
+            background: var(--neutral-beige);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+        }
+
+        .business-note p {
+            margin: 0;
+            color: #666;
+        }
+
+        .business-note a {
+            color: #2f4f2f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .business-note a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="images/profile/logo.png" alt="Yourwellnessgirly Logo" class="logo-img">
+            yourwellnessgirly
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#recipes">Recipes ▾</a></li>
+                <li><a href="recipe-index.html">Recipe Index</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn active">Contact ▾</a>
+                    <div class="dropdown-content">
+                        <a href="work-with-me.html">Work With Me</a>
+                        <a href="contact.html">Contact Me</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Mobile hamburger menu -->
+        <div class="hamburger-menu" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Mobile search icon -->
+        <div class="mobile-search-icon" id="searchIcon">
+            <i class="fas fa-search"></i>
+        </div>
+        <!-- Mobile dropdown menu -->
+        <div class="mobile-nav-dropdown" id="mobileNavDropdown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipe-index.html">Recipe Index</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="work-with-me.html">Work With Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="pinterest" aria-label="Save healthy dessert recipes on Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="tiktok" aria-label="Watch quick healthy dessert recipes on TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="email" aria-label="Subscribe to healthy dessert recipe newsletter"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <h1>Contact Me</h1>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <p class="contact-subtitle">
+            If you'd like to get in touch with me for any reason at all, you can reach me at:
+        </p>
+
+        <div class="contact-methods">
+            <div class="contact-card">
+                <h3>Email</h3>
+                <a href="mailto:yourwellnessgirly@gmail.com" class="email-link">yourwellnessgirly@gmail.com</a>
+
+                <h3 style="margin-top: 2rem;">Social Media</h3>
+                <p>@yourwellnessgirly on all platforms</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+
+                <div class="business-note">
+                    <p>For business inquiries, please check my <a href="work-with-me.html">Work With Me</a> page.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>yourwellnessgirly</h4>
+                <p>Healthy dessert recipes that don't compromise in taste for all dietary preferences. Because everyone deserves a sweet treat!</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe-index.html">Recipes</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="work-with-me.html">Work With Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Me</h4>
+                <div class="footer-social">
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 yourwellnessgirly. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Recipes</h3>
+                <div class="search-close" onclick="closeSearch()">&times;</div>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search for recipes, ingredients, or keywords...">
+            <div class="search-results" id="searchResults">
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Search functionality
+        function toggleSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            if (searchOverlay && searchInput) {
+                searchOverlay.classList.add('show');
+                setTimeout(() => {
+                    searchInput.focus();
+                }, 100);
+            }
+        }
+
+        function closeSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            if (searchOverlay && searchInput) {
+                searchOverlay.classList.remove('show');
+                searchInput.value = '';
+                const searchResults = document.getElementById('searchResults');
+                if (searchResults) {
+                    searchResults.innerHTML = `
+                        <div style="text-align: center; color: #666; padding: 1rem;">
+                            Start typing to search recipes...
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        // Mobile menu functionality
+        function toggleMobileMenu() {
+            const dropdown = document.getElementById('mobileNavDropdown');
+            if (dropdown) {
+                dropdown.classList.toggle('show');
+            }
+        }
+
+        // Initialize functionality when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add search icon click listener
+            const searchIcon = document.getElementById('searchIcon');
+            if (searchIcon) {
+                searchIcon.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleSearch();
+                });
+            }
+
+            // Close mobile menu when clicking outside or on menu items
+            document.addEventListener('click', function(event) {
+                const dropdown = document.getElementById('mobileNavDropdown');
+                const hamburger = document.querySelector('.hamburger-menu');
+
+                if (dropdown && hamburger) {
+                    // Close if clicking outside menu
+                    if (!hamburger.contains(event.target) && !dropdown.contains(event.target)) {
+                        dropdown.classList.remove('show');
+                    }
+
+                    // Close if clicking on a menu item
+                    if (event.target.tagName === 'A' && dropdown.contains(event.target)) {
+                        dropdown.classList.remove('show');
+                    }
+                }
+            });
+
+            // Close search when clicking outside
+            document.addEventListener('click', function(event) {
+                const searchOverlay = document.getElementById('searchOverlay');
+                const searchContainer = document.querySelector('.search-container');
+
+                if (searchOverlay && searchOverlay.classList.contains('show') &&
+                    searchContainer && !searchContainer.contains(event.target)) {
+                    closeSearch();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

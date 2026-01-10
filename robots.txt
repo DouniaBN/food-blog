@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /temp/
+Disallow: /tmp/
+
+# Allow important files
+Allow: /style.css
+Allow: /script.js
+Allow: /images/
+Allow: /recipes/
+Allow: /categories/
+
+# Sitemap location
+Sitemap: https://yourwellnessgirly.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

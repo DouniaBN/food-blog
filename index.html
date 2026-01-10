@@ -217,6 +217,51 @@
         }
       });
     </script>
+
+    <!-- Structured Data - Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Yourwellnessgirly",
+        "alternateName": "YWG",
+        "description": "Healthy dessert recipe blog specializing in quick, easy, and hormone-friendly treats for all dietary preferences. Created by certified holistic nutritionist Dounia.",
+        "url": "https://yourwellnessgirly.com",
+        "logo": "https://yourwellnessgirly.com/images/profile/logo.png",
+        "image": "https://yourwellnessgirly.com/hero1.jpg",
+        "founder": {
+            "@type": "Person",
+            "name": "Dounia",
+            "jobTitle": "Certified Holistic Nutritionist & Recipe Creator"
+        },
+        "sameAs": [
+            "https://instagram.com/yourwellnessgirly",
+            "https://pinterest.com/yourwellnessgirly",
+            "https://tiktok.com/@yourwellnessgirly"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "hello@yourwellnessgirly.com"
+        },
+        "areaServed": "Global",
+        "keywords": [
+            "healthy desserts",
+            "sugar-free recipes",
+            "gluten-free desserts",
+            "vegan treats",
+            "no-bake desserts",
+            "hormone-friendly recipes",
+            "nutritionist recipes"
+        ],
+        "specialty": [
+            "Healthy Dessert Recipes",
+            "Holistic Nutrition",
+            "Recipe Development",
+            "Wellness Content"
+        ]
+    }
+    </script>
   </head>
   <body>
     <header class="main-header">
@@ -227,9 +272,9 @@
       <nav>
         <ul>
           <li><a href="#">Recipes ▾</a></li>
-          <li><a href="/recipe-index.html">Recipe Index</a></li>
-          <li><a href="/about.html">About Me</a></li>
-          <li><a href="/work-with-me.html">Work With Me</a></li>
+          <li><a href="/recipes">Recipe Index</a></li>
+          <li><a href="/about">About Me</a></li>
+          <li><a href="/work-with-me">Work With Me</a></li>
         </ul>
       </nav>
       <!-- Mobile hamburger menu -->
@@ -246,9 +291,9 @@
       <div class="mobile-nav-dropdown" id="mobileNavDropdown">
         <ul>
           <li><a href="#recipes">Recipes</a></li>
-          <li><a href="/recipe-index.html">Recipe Index</a></li>
-          <li><a href="/about.html">About Me</a></li>
-          <li><a href="/work-with-me.html">Work With Me</a></li>
+          <li><a href="/recipes">Recipe Index</a></li>
+          <li><a href="/about">About Me</a></li>
+          <li><a href="/work-with-me">Work With Me</a></li>
         </ul>
       </div>
       <div class="social-icons">
@@ -425,49 +470,49 @@
           <h2 class="find-recipe-heading">find your perfect recipe</h2>
           <div class="filter-categories">
             <div class="filter-grid">
-              <a href="/recipe-index.html?filter=no-bake" class="filter-item">
+              <a href="/recipes?filter=no-bake" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/no-bake.jpg" alt="No bake recipes" />
                 </div>
                 <span class="filter-label">No Bake</span>
               </a>
-              <a href="/recipe-index.html?filter=5-ingredients" class="filter-item">
+              <a href="/recipes?filter=5-ingredients" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/5-ingredients.jpg" alt="5 ingredient recipes" />
                 </div>
                 <span class="filter-label">5 Ingredients</span>
               </a>
-              <a href="/recipe-index.html?filter=vegan" class="filter-item">
+              <a href="/recipes?filter=vegan" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/vegan.jpg" alt="Vegan recipes" />
                 </div>
                 <span class="filter-label">Vegan</span>
               </a>
-              <a href="/recipe-index.html?filter=gluten-free" class="filter-item">
+              <a href="/recipes?filter=gluten-free" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/gluten-free.jpg" alt="Gluten free recipes" />
                 </div>
                 <span class="filter-label">Gluten Free</span>
               </a>
-              <a href="/recipe-index.html?filter=15-min" class="filter-item">
+              <a href="/recipes?filter=15-min" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/quick.jpg" alt="Quick 15 minute recipes" />
                 </div>
                 <span class="filter-label">15 Min</span>
               </a>
-              <a href="/recipe-index.html?filter=chocolate" class="filter-item">
+              <a href="/recipes?filter=chocolate" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/chocolate.jpg" alt="Chocolate dessert recipes" />
                 </div>
                 <span class="filter-label">Chocolate</span>
               </a>
-              <a href="/recipe-index.html?filter=protein" class="filter-item">
+              <a href="/recipes?filter=protein" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/protein.jpg" alt="High protein recipes" />
                 </div>
                 <span class="filter-label">Protein</span>
               </a>
-              <a href="/recipe-index.html?filter=berries" class="filter-item">
+              <a href="/recipes?filter=berries" class="filter-item">
                 <div class="filter-image">
                   <img src="images/filters/berries.jpg" alt="Berry dessert recipes" />
                 </div>

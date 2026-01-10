@@ -28,7 +28,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <!-- Structured Data - Services Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Yourwellnessgirly Content Creation Services",
+        "description": "Professional wellness content creation, brand collaborations, recipe development, and nutrition consulting services specializing in healthy desserts and wellness content.",
+        "url": "https://yourwellnessgirly.com/work-with-me",
+        "provider": {
+            "@type": "Person",
+            "name": "Dounia",
+            "jobTitle": "Holistic Nutritionist & Content Creator",
+            "hasCredential": "Certified Holistic Nutritionist"
+        },
+        "serviceType": [
+            "Brand Collaborations",
+            "Recipe Development",
+            "Content Creation",
+            "Product Reviews",
+            "UGC Content Creation",
+            "Nutrition Consulting",
+            "Educational Wellness Content"
+        ],
+        "areaServed": "Global",
+        "availableLanguage": "English",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Business Inquiries",
+            "email": "hello@yourwellnessgirly.com"
+        },
+        "specialty": [
+            "Healthy Dessert Recipes",
+            "Wellness Content Creation",
+            "Food Photography",
+            "Nutrition Education",
+            "Brand Partnerships"
+        ]
+    }
+    </script>
+
     <style>
+        /* Work With Me Page Specific Styles */
+        .brands-heading {
+            margin-bottom: 3.5rem;
+            position: relative;
+            padding-bottom: 1rem;
+            text-align: center;
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            color: #2f4f2f;
+        }
+
+        .services-heading {
+            font-size: 1.4em;
+            text-align: center;
+            font-family: var(--font-heading);
+            color: #2f4f2f;
+            margin-bottom: 4rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .brands-heading {
+                font-size: 2rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .services-heading {
+                font-size: 1.2em;
+                margin-bottom: 3rem;
+            }
+        }
+
         @media (max-width: 768px) {
             /* Mobile-only hamburger menu */
             .main-header nav ul {
@@ -459,7 +532,7 @@
 
     <!-- Collaboration Section -->
     <section class="collaboration-section" style="background: var(--neutral-beige);">
-        <h2 style="margin-bottom: 3.5rem; position: relative; padding-bottom: 1rem; text-align: center;">
+        <h2 class="brands-heading">
             Trusted by Amazing Brands
             <svg style="position: absolute; bottom: -0.5rem; left: 50%; transform: translateX(-50%); width: 100px; height: 12px;" viewBox="0 0 100 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 6c15-4 25-4 35 0s15 4 25 0c10-4 20-4 25 0" stroke="#fadee3" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
@@ -493,7 +566,7 @@
         <div class="services-container">
             <div class="services-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
                 <div class="service-card" style="font-size: 1.5em;">
-                    <h2 style="font-size: 1.4em; text-align: center; font-family: var(--font-heading); color: #2f4f2f; margin-bottom: 4rem; position: relative; padding-bottom: 1rem;">
+                    <h2 class="services-heading">
                         Services I Offer:
                         <svg style="position: absolute; bottom: -0.5rem; left: 50%; transform: translateX(-50%); width: 100px; height: 12px;" viewBox="0 0 100 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 6c15-4 25-4 35 0s15 4 25 0c10-4 20-4 25 0" stroke="#fadee3" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>

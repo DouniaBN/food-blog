@@ -192,27 +192,45 @@
         }
 
         .intro-section {
-            font-size: 1.2rem;
-            color: #666;
+            display: flex;
+            align-items: center;
+            gap: 3rem;
             margin-bottom: 3rem;
+            padding: 3rem 0;
+        }
+
+        .intro-text {
+            flex: 1;
+            color: #666;
+        }
+
+        .intro-text h2 {
+            color: #2f4f2f;
+            font-family: var(--font-heading);
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .intro-text p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .intro-image {
+            flex: 1;
             text-align: center;
         }
 
-        .intro-section h2 {
-            color: var(--sage-green);
-            font-family: var(--font-heading);
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
         .about-headshot {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
             object-fit: cover;
-            margin: 0 auto 1.5rem auto;
-            display: block;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
         }
 
         .intro-section .highlight {
@@ -371,6 +389,16 @@
                 padding: 2rem 1rem;
             }
 
+            .intro-section {
+                flex-direction: column;
+                gap: 2rem;
+                padding: 2rem 0;
+            }
+
+            .intro-text h2 {
+                font-size: 2.2rem;
+            }
+
             .about-section h2 {
                 font-size: 1.7rem;
             }
@@ -442,8 +470,15 @@
     <!-- Main Content -->
     <section class="about-content">
         <div class="intro-section">
-            <img src="images/profile/about-me.jpg" alt="Dounia - Founder of Yourwellnessgirly" class="about-headshot">
-            <h2>Hey, I'm Dounia!</h2>
+            <div class="intro-text">
+                <h2>hi. I'm dounia!</h2>
+                <p><strong>GET TO KNOW THE FACE BEHIND THE RECIPES</strong></p>
+                <p>Dounia Lashka is a wellness enthusiast and recipe creator whose mission is to make a healthier life more accessible to everyone. Inspired by her own health journey, Dounia creates easy-to-follow, nourishing recipes that require minimal time, energy, and money. She walks you through the entire process in an approachable way – from stocking your kitchen to creating a grocery list to packing up a finished meal in the fridge, sharing actionable tools and strategies to build kitchen confidence and make meal planning an enjoyable habit.</p>
+                <p>Dounia's background in finance and banking translated into the smart shopping tips and meal prep ideas her followers love on @yourwellnessgirly. Her cookbook coming <em>January 2028, Don't Think About Dinner</em>, will top the Substack publications. Want to good newsletter.</p>
+            </div>
+            <div class="intro-image">
+                <img src="images/profile/about-me.jpg" alt="Dounia - Founder of Yourwellnessgirly" class="about-headshot">
+            </div>
         </div>
 
         <div class="about-section">

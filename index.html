@@ -319,7 +319,7 @@
             <a href="#" class="dropbtn">Contact ▾</a>
             <div class="dropdown-content">
               <a href="work-with-me.html">Work With Me</a>
-              <a href="/contact">Contact Me</a>
+              <a href="contact.html">Contact Me</a>
             </div>
           </li>
         </ul>
@@ -341,7 +341,7 @@
           <li><a href="recipe-index.html">Recipe Index</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="work-with-me.html">Work With Me</a></li>
-          <li><a href="/contact">Contact Me</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
         </ul>
       </div>
       <div class="social-icons">
@@ -860,13 +860,46 @@
     </div>
 
     <!-- Recipe Manager -->
-    <script src="js/recipe-manager.js"></script>
+    <script src="./js/recipe-manager.js"></script>
 
     <!-- Homepage Recipe Loading -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
+            // Clear existing content and show loading
+            const viralContainer = document.getElementById('viral-recipes');
+            const popularContainer = document.getElementById('popular-recipes');
+            const recentContainer = document.getElementById('recent-recipes');
+
+            if (viralContainer) {
+                viralContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading viral recipes...</div>';
+            }
+            if (popularContainer) {
+                popularContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading popular recipes...</div>';
+            }
+            if (recentContainer) {
+                recentContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading recent recipes...</div>';
+            }
+
             // Load and display recipes on homepage
-            await window.recipeManager.updateHomepage();
+            try {
+                console.log('Testing recipe manager...');
+
+                // Test if we can load the JSON
+                const response = await fetch('./data/recipes.json');
+                console.log('JSON response:', response);
+                const data = await response.json();
+                console.log('JSON data:', data);
+
+                // Test if recipe manager works
+                console.log('Recipe manager:', window.recipeManager);
+                await window.recipeManager.updateHomepage();
+                console.log('Homepage updated successfully');
+            } catch (error) {
+                console.error('Error loading recipes:', error);
+                if (viralContainer) {
+                    viralContainer.innerHTML = '<div style="text-align: center; color: #f44; padding: 2rem; grid-column: 1/-1;">Error loading recipes: ' + error.message + '</div>';
+                }
+            }
         });
     </script>
 

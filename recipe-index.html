@@ -472,7 +472,7 @@
                     <a href="#" class="dropbtn">Contact ▾</a>
                     <div class="dropdown-content">
                         <a href="work-with-me.html">Work With Me</a>
-                        <a href="/contact">Contact Me</a>
+                        <a href="contact.html">Contact Me</a>
                     </div>
                 </li>
             </ul>
@@ -490,7 +490,7 @@
                 <li><a href="recipe-index.html">Recipe Index</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="work-with-me.html">Work With Me</a></li>
-                <li><a href="/contact">Contact Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </div>
         <div class="social-icons">
@@ -1204,15 +1204,38 @@
     </script>
 
     <!-- Recipe Manager -->
-    <script src="js/recipe-manager.js"></script>
+    <script src="./js/recipe-manager.js"></script>
 
     <!-- Recipe Index JavaScript -->
     <script>
         // Initialize recipe index when page loads
         document.addEventListener('DOMContentLoaded', async () => {
-            // Load recipes and update page
-            await window.recipeManager.loadRecipes();
-            await window.recipeManager.updateRecipeIndex();
+            console.log('Recipe index page loaded');
+
+            // Check if recipe manager exists
+            if (!window.recipeManager) {
+                console.error('Recipe manager not found!');
+                return;
+            }
+
+            try {
+                // Load recipes and update page
+                console.log('Loading recipes...');
+                await window.recipeManager.loadRecipes();
+                console.log('Recipes loaded:', window.recipeManager.recipes);
+
+                console.log('Updating recipe index...');
+                await window.recipeManager.updateRecipeIndex();
+                console.log('Recipe index updated');
+            } catch (error) {
+                console.error('Error initializing recipe index:', error);
+
+                // Show error in grid
+                const container = document.getElementById('recipe-grid');
+                if (container) {
+                    container.innerHTML = '<div style="text-align: center; color: #f44; padding: 2rem;">Error loading recipes: ' + error.message + '</div>';
+                }
+            }
 
             // Add category filters dynamically
             const categoriesContainer = document.querySelector('.diet-types');

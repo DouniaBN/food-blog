@@ -13,7 +13,7 @@ class RecipeManager {
     // Load recipe data from JSON
     async loadRecipes() {
         try {
-            const response = await fetch('/data/recipes.json');
+            const response = await fetch('./data/recipes.json');
             const data = await response.json();
             this.recipes = data.recipes;
             this.categories = data.categories;
@@ -87,7 +87,7 @@ class RecipeManager {
                 </div>
                 <div class="recipe-content">
                     <h3 class="recipe-title">
-                        <a href="/recipes/${recipe.slug}">${recipe.title}</a>
+                        <a href="./recipes/${recipe.slug}.html">${recipe.title}</a>
                     </h3>
                     ${showDescription ? `
                     <p class="recipe-description">${recipe.description}</p>
@@ -243,7 +243,7 @@ class RecipeManager {
                     `;
                 } else {
                     searchResults.innerHTML = results.map(recipe => `
-                        <a href="/recipes/${recipe.slug}" class="search-result-item">
+                        <a href="./recipes/${recipe.slug}.html" class="search-result-item">
                             <div class="search-result-title">${recipe.title}</div>
                             <div class="search-result-description">${recipe.description}</div>
                         </a>

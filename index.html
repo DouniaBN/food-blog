@@ -57,7 +57,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=3" />
+    <link rel="stylesheet" href="style.css?v=20260111" />
     <style>
       /* Temporary fallback for filter images until real images are added */
       .filter-image img {
@@ -73,6 +73,23 @@
       @media (max-width: 768px) {
         .filter-image img[src*="filters/"]:not([src*="placeholder"]) {
           background: url('https://via.placeholder.com/120x120/f4dde7/2f4f2f?text=Filter') center/cover;
+        }
+      }
+
+      /* Force correct filter image sizes - cache busting */
+      .filter-image {
+        width: 140px !important;
+        height: 140px !important;
+      }
+
+      @media (max-width: 768px) {
+        .filter-image {
+          width: 120px !important;
+          height: 120px !important;
+        }
+        .filter-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+          gap: 3rem 2rem !important;
         }
       }
 

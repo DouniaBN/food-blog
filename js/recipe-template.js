@@ -216,7 +216,7 @@ class RecipeTemplate {
         </div>
         <nav>
             <ul>
-                <li><a href="../index.html#recipes">Recipes ▾</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="../recipe-index.html">Recipe Index</a></li>
                 <li><a href="../about.html">About Me</a></li>
                 <li class="dropdown">
@@ -332,7 +332,7 @@ class RecipeTemplate {
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../recipe-index.html">Recipes</a></li>
+                    <li><a href="../recipe-index.html">Recipe Index</a></li>
                     <li><a href="../about.html">About Me</a></li>
                     <li><a href="../work-with-me.html">Work With Me</a></li>
                     <li><a href="../contact.html">Contact Me</a></li>

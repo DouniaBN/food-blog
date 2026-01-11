@@ -175,34 +175,14 @@
                 position: relative;
             }
 
-            .mobile-search-icon {
-                display: flex !important;
-                position: absolute;
-                right: 1rem;
-                top: 50%;
-                transform: translateY(-50%);
-                color: #2f4f2f;
-                font-size: 1.2rem;
-                cursor: pointer;
-            }
         }
 
-        /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
+        /* Hide hamburger menu and mobile dropdown on desktop */
         .hamburger-menu,
-        .mobile-search-icon,
         .mobile-nav-dropdown {
             display: none;
         }
 
-        /* Desktop search icon styling */
-        @media (min-width: 769px) {
-            .mobile-search-icon {
-                display: flex !important;
-                position: static !important;
-                transform: none !important;
-                margin-left: 1rem;
-            }
-        }
 
         /* Contact Dropdown Styles */
         .dropdown {
@@ -245,14 +225,6 @@
             border-radius: 4px;
         }
 
-        /* Common search icon styling */
-        .mobile-search-icon {
-            color: #2f4f2f;
-            font-size: 1.2rem;
-            cursor: pointer;
-            align-items: center;
-            justify-content: center;
-        }
 
         /* Work With Me Page Specific Styles */
         .work-hero {
@@ -551,10 +523,6 @@
             <span></span>
             <span></span>
         </div>
-        <!-- Mobile search icon -->
-        <div class="mobile-search-icon" id="searchIcon">
-            <i class="fas fa-search"></i>
-        </div>
         <!-- Mobile dropdown menu -->
         <div class="mobile-nav-dropdown" id="mobileNavDropdown">
             <ul>
@@ -755,14 +723,6 @@
 
         // Initialize functionality when page loads
         document.addEventListener('DOMContentLoaded', function() {
-            // Add search icon click listener
-            const searchIcon = document.getElementById('searchIcon');
-            if (searchIcon) {
-                searchIcon.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    toggleSearch();
-                });
-            }
 
             // Add search input functionality
             const searchInput = document.getElementById('searchInput');

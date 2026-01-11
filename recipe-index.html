@@ -1202,5 +1202,120 @@
             }
         });
     </script>
+
+    <!-- Recipe Manager -->
+    <script src="js/recipe-manager.js"></script>
+
+    <!-- Recipe Index JavaScript -->
+    <script>
+        // Initialize recipe index when page loads
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Load recipes and update page
+            await window.recipeManager.loadRecipes();
+            await window.recipeManager.updateRecipeIndex();
+
+            // Add category filters dynamically
+            const categoriesContainer = document.querySelector('.diet-types');
+            if (categoriesContainer && window.recipeManager.categories) {
+                // Add "All" option first
+                const allOption = document.createElement('label');
+                allOption.innerHTML = `
+                    <input type="checkbox" value="all" checked class="category-filter">
+                    <span class="checkmark"></span>
+                    All Recipes
+                `;
+                categoriesContainer.appendChild(allOption);
+
+                // Add category filters
+                window.recipeManager.categories.forEach(category => {
+                    const label = document.createElement('label');
+                    label.innerHTML = `
+                        <input type="checkbox" value="${category.slug}" class="category-filter">
+                        <span class="checkmark"></span>
+                        ${category.name}
+                    `;
+                    categoriesContainer.appendChild(label);
+                });
+
+                // Add filter functionality
+                const categoryFilters = document.querySelectorAll('.category-filter');
+                categoryFilters.forEach(filter => {
+                    filter.addEventListener('change', applyFilters);
+                });
+            }
+
+            // Update search functionality
+            const searchInput = document.getElementById('recipe-search');
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+
+            // Add sort functionality
+            const sortSelect = document.getElementById('sort-by');
+            if (sortSelect) {
+                sortSelect.addEventListener('change', applyFilters);
+            }
+        });
+
+        // Apply all active filters
+        function applyFilters() {
+            const searchTerm = document.getElementById('recipe-search')?.value.toLowerCase() || '';
+            const selectedCategories = Array.from(document.querySelectorAll('.category-filter:checked'))
+                .map(input => input.value);
+            const sortBy = document.getElementById('sort-by')?.value || 'newest';
+
+            let filteredRecipes = [...window.recipeManager.recipes];
+
+            // Apply search filter
+            if (searchTerm) {
+                filteredRecipes = window.recipeManager.searchRecipes(searchTerm);
+            }
+
+            // Apply category filter
+            if (!selectedCategories.includes('all')) {
+                filteredRecipes = filteredRecipes.filter(recipe =>
+                    recipe.categories.some(cat =>
+                        selectedCategories.includes(cat.toLowerCase().replace(/\s+/g, '-'))
+                    )
+                );
+            }
+
+            // Apply sorting
+            filteredRecipes.sort((a, b) => {
+                switch(sortBy) {
+                    case 'prep-time':
+                        return parseInt(a.timing.prepTimeDisplay) - parseInt(b.timing.prepTimeDisplay);
+                    case 'difficulty':
+                        const difficultyOrder = { 'Easy': 1, 'Medium': 2, 'Hard': 3 };
+                        return difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
+                    case 'ingredient-count':
+                        return a.ingredients.length - b.ingredients.length;
+                    case 'newest':
+                    default:
+                        return new Date(b.datePublished) - new Date(a.datePublished);
+                }
+            });
+
+            // Update grid
+            const container = document.getElementById('recipe-grid');
+            const noResults = document.getElementById('no-results');
+
+            if (filteredRecipes.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+            } else {
+                container.style.display = 'grid';
+                noResults.style.display = 'none';
+                container.innerHTML = filteredRecipes.map(recipe =>
+                    window.recipeManager.generateRecipeCard(recipe, {
+                        cardClass: 'recipe-card',
+                        showDescription: true,
+                        showTiming: true,
+                        showCategories: true
+                    })
+                ).join('');
+            }
+        }
+    </script>
 </body>
 </html>

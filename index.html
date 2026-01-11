@@ -381,7 +381,7 @@
       <section class="grid-two-thirds">
         <section class="viral-on-social">
           <h2 class="viral-heading">viral on socials</h2>
-          <div class="viral-grid">
+          <div class="viral-grid" id="viral-recipes">
             <a href="recipes/cookie-dough-cups.html" class="recipe-card viral-card">
               <img
                 src="cookie-dough-cups.jpg"
@@ -474,7 +474,7 @@
       <section class="grid-two-thirds">
         <section class="category-section">
           <h2>no bake favorites</h2>
-          <div class="recipe-grid">
+          <div class="recipe-grid" id="recent-recipes">
             <a href="/recipes/nobake1.html" class="recipe-card"
               ><img
                 src="nobake1.jpg"
@@ -572,7 +572,7 @@
 
         <section class="popular-this-week">
           <h2 class="popular-heading">popular this week</h2>
-          <div class="popular-grid">
+          <div class="popular-grid" id="popular-recipes">
             <a href="recipes/banana-bites.html" class="recipe-card"
               ><img
                 src="banana-bites.jpg"
@@ -858,6 +858,17 @@
             </div>
         </div>
     </div>
+
+    <!-- Recipe Manager -->
+    <script src="js/recipe-manager.js"></script>
+
+    <!-- Homepage Recipe Loading -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Load and display recipes on homepage
+            await window.recipeManager.updateHomepage();
+        });
+    </script>
 
   </body>
 </html>

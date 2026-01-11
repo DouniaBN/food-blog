@@ -6,12 +6,12 @@
       "slug": "banana-bites",
       "description": "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free dessert perfect for satisfying your sweet cravings guilt-free!",
       "image": {
-        "hero": "/images/recipes/banana-bites-hero.jpg",
-        "thumbnail": "/images/recipes/banana-bites-thumb.jpg",
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Banana+Bites",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Banana+Bites",
         "gallery": [
-          "/images/recipes/banana-bites-1.jpg",
-          "/images/recipes/banana-bites-2.jpg",
-          "/images/recipes/banana-bites-3.jpg"
+          "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+1",
+          "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+2",
+          "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+3"
         ]
       },
       "author": {

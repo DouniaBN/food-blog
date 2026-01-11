@@ -72,36 +72,28 @@ class RecipeManager {
             cardClass = 'recipe-card'
         } = options;
 
-        return `
-            <div class="${cardClass}" data-recipe-id="${recipe.id}">
-                <div class="recipe-image">
-                    <img src="${recipe.image.thumbnail || recipe.image.hero}"
-                         alt="${recipe.title}"
-                         loading="lazy">
+        const cardHTML = `
+            <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">
+                <img src="${recipe.image.thumbnail || recipe.image.hero}"
+                     alt="${recipe.title}"
+                     loading="lazy">
+                <div class="recipe-overlay">
+                    <h3>${recipe.title}</h3>
                     ${showTiming ? `
-                    <div class="recipe-timing">
-                        <i class="fas fa-clock"></i>
-                        ${recipe.timing.totalTimeDisplay}
+                    <div class="recipe-meta">
+                        <span class="time">
+                            <i class="far fa-clock"></i> ${recipe.timing.totalTimeDisplay}
+                        </span>
+                        <span class="difficulty">${recipe.difficulty}</span>
                     </div>
                     ` : ''}
+                    <div class="read-recipe">Read Recipe →</div>
                 </div>
-                <div class="recipe-content">
-                    <h3 class="recipe-title">
-                        <a href="./recipes/${recipe.slug}.html">${recipe.title}</a>
-                    </h3>
-                    ${showDescription ? `
-                    <p class="recipe-description">${recipe.description}</p>
-                    ` : ''}
-                    ${showCategories ? `
-                    <div class="recipe-categories">
-                        ${recipe.categories.slice(0, 3).map(cat =>
-                            `<span class="category-tag">${cat}</span>`
-                        ).join('')}
-                    </div>
-                    ` : ''}
-                </div>
-            </div>
+            </a>
         `;
+
+        console.log('Generated card HTML:', cardHTML);
+        return cardHTML;
     }
 
     // Generate recipe schema markup

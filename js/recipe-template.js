@@ -335,7 +335,7 @@ class RecipeTemplate {
                     <li><a href="../recipe-index.html">Recipes</a></li>
                     <li><a href="../about.html">About Me</a></li>
                     <li><a href="../work-with-me.html">Work With Me</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../contact.html">Contact Me</a></li>
                 </ul>
             </div>
             <div class="footer-section">

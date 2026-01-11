@@ -59,6 +59,16 @@
     />
     <link rel="stylesheet" href="style.css?v=2" />
     <style>
+      /* Temporary fallback for filter images until real images are added */
+      .filter-image img {
+        background: linear-gradient(135deg, #f4dde7, #e8d0db);
+      }
+
+      /* If image fails to load, show placeholder */
+      .filter-image img[src*="filters/"]:not([src*="placeholder"]) {
+        background: url('https://via.placeholder.com/140x140/f4dde7/2f4f2f?text=Filter') center/cover;
+      }
+
       @media (max-width: 768px) {
         .recipe-grid,
         .popular-grid,
@@ -435,37 +445,61 @@
             <div class="filter-grid">
               <a href="recipe-index.html?ingredient=protein" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=Protein" alt="High protein recipes" />
+                  <img src="images/filters/protein-healthy-desserts-filter.jpg"
+                       alt="High protein healthy dessert recipes - energy balls, protein bars, and nutritious treats"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">Protein</span>
               </a>
               <a href="recipe-index.html?equipment=no-bake" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=No+Bake" alt="No bake recipes" />
+                  <img src="images/filters/no-bake-healthy-desserts-filter.jpg"
+                       alt="No-bake healthy dessert recipes - easy treats without oven baking required"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">No Bake</span>
               </a>
               <a href="recipe-index.html?ingredients=5-or-less" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=5+Ingredients" alt="5 ingredient recipes" />
+                  <img src="images/filters/5-ingredient-healthy-desserts-filter.jpg"
+                       alt="5 ingredient or less healthy dessert recipes - simple minimal ingredient treats"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">5 Ingredients</span>
               </a>
               <a href="recipe-index.html?time=15-or-less" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=15+Min" alt="Quick 15 minute recipes" />
+                  <img src="images/filters/15-minute-healthy-desserts-filter.jpg"
+                       alt="15 minute quick healthy dessert recipes - fast easy treats ready in minutes"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">15 Minutes</span>
               </a>
               <a href="recipe-index.html?diet=dairy-free" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=Dairy+Free" alt="Dairy free recipes" />
+                  <img src="images/filters/dairy-free-healthy-desserts-filter.jpg"
+                       alt="Dairy-free healthy dessert recipes - vegan plant-based treats without milk products"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">Dairy Free</span>
               </a>
               <a href="recipe-index.html?diet=gluten-free" class="filter-item">
                 <div class="filter-image">
-                  <img src="https://via.placeholder.com/200x200/f4dde7/2f4f2f?text=Gluten+Free" alt="Gluten free recipes" />
+                  <img src="images/filters/gluten-free-healthy-desserts-filter.jpg"
+                       alt="Gluten-free healthy dessert recipes - celiac safe treats without wheat flour"
+                       loading="lazy"
+                       width="140"
+                       height="140" />
                 </div>
                 <span class="filter-label">Gluten Free</span>
               </a>

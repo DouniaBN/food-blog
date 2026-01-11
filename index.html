@@ -57,7 +57,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="stylesheet" href="style.css?v=3" />
     <style>
       /* Temporary fallback for filter images until real images are added */
       .filter-image img {
@@ -67,6 +67,13 @@
       /* If image fails to load, show placeholder */
       .filter-image img[src*="filters/"]:not([src*="placeholder"]) {
         background: url('https://via.placeholder.com/140x140/f4dde7/2f4f2f?text=Filter') center/cover;
+      }
+
+      /* Mobile optimized image sizing */
+      @media (max-width: 768px) {
+        .filter-image img[src*="filters/"]:not([src*="placeholder"]) {
+          background: url('https://via.placeholder.com/120x120/f4dde7/2f4f2f?text=Filter') center/cover;
+        }
       }
 
       @media (max-width: 768px) {

@@ -2075,26 +2075,30 @@
 
     /* Find Recipe Section Mobile */
     .find-recipe-section {
-      padding: 3rem 1rem;
+      padding: 4rem 1.5rem;
       margin: 3rem 0;
     }
 
     .find-recipe-heading {
-      font-size: 1.8rem;
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     .filter-grid {
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
-      gap: 2rem 1.5rem;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 3rem 2rem;
+      max-width: 400px;
+      margin: 0 auto;
     }
 
     .filter-image {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
     }
 
     .filter-label {
-      font-size: 0.9rem;
+      font-size: 1rem;
+      font-weight: 700;
     }
 
     /* Behind the Blog Section Mobile */

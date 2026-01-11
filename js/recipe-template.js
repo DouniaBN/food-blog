@@ -229,9 +229,9 @@ class RecipeTemplate {
             </ul>
         </nav>
         <div class="social-icons">
-            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
-            <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="tiktok"><i class="fab fa-tiktok"></i></a>
             <a href="mailto:yourwellnessgirly@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
         </div>
     </header>
@@ -341,9 +341,9 @@ class RecipeTemplate {
             <div class="footer-section">
                 <h4>Follow Me</h4>
                 <div class="footer-social">
-                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
-                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="tiktok"><i class="fab fa-tiktok"></i></a>
                     <a href="mailto:yourwellnessgirly@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>

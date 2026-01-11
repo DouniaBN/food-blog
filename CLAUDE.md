@@ -100,7 +100,6 @@ python3 -m http.server 8000
    - Search functionality
    - Recipe filtering system
    - Social sharing buttons
-   - Newsletter signup integration
 
 3. **Advanced SEO**
    - XML sitemap generation
@@ -204,12 +203,10 @@ python3 -m http.server 8000
 - Google Search Console integration
 - Core Web Vitals monitoring
 - Recipe engagement tracking (saves, prints, shares)
-- Conversion tracking for newsletter signups
 
 ## Future Enhancements
 - User accounts and recipe saving
 - Recipe rating and review system
-- Email newsletter automation
 - Recipe collections/meal plans
 - Advanced search with filters
 - Mobile app considerations

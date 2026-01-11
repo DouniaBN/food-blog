@@ -162,6 +162,132 @@
       "featured": true,
       "viral": true,
       "popular": true
+    },
+    {
+      "id": "cookie-dough-cups",
+      "title": "Cookie Dough Cups",
+      "slug": "cookie-dough-cups",
+      "description": "Irresistible cookie dough cups that are safe to eat raw! Made with wholesome ingredients.",
+      "image": {
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Cookie+Dough+Cups",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Cookie+Cups",
+        "gallery": []
+      },
+      "author": {
+        "name": "Dounia",
+        "title": "Certified Holistic Nutritionist"
+      },
+      "timing": {
+        "prepTime": "PT20M",
+        "cookTime": "PT0M",
+        "totalTime": "PT20M",
+        "prepTimeDisplay": "20 minutes",
+        "cookTimeDisplay": "0 minutes",
+        "totalTimeDisplay": "20 minutes"
+      },
+      "servings": {
+        "yield": "12",
+        "unit": "cups"
+      },
+      "difficulty": "Easy",
+      "categories": ["No-Bake", "Vegan", "Gluten-Free"],
+      "tags": ["cookie dough", "cups", "no-bake", "vegan"],
+      "nutrition": {
+        "calories": 180,
+        "protein": "3g",
+        "carbs": "22g",
+        "fat": "9g",
+        "fiber": "2g",
+        "sugar": "15g"
+      },
+      "ingredients": [],
+      "instructions": [],
+      "notes": [],
+      "equipment": [],
+      "seo": {
+        "metaTitle": "Cookie Dough Cups Recipe | Safe-to-Eat No-Bake Dessert",
+        "metaDescription": "Delicious cookie dough cups that are safe to eat raw!",
+        "keywords": ["cookie dough cups", "safe cookie dough", "no-bake dessert"],
+        "canonicalUrl": "/recipes/cookie-dough-cups"
+      },
+      "social": {
+        "pinterest": {
+          "description": "Safe-to-eat cookie dough cups! 🍪",
+          "title": "Cookie Dough Cups - Safe No-Bake Treat"
+        },
+        "instagram": {
+          "caption": "Cookie dough cups you can actually eat! 🍪",
+          "hashtags": ["#cookiedough", "#nobake"]
+        }
+      },
+      "datePublished": "2025-01-10",
+      "dateModified": "2025-01-10",
+      "featured": false,
+      "viral": true,
+      "popular": true
+    },
+    {
+      "id": "strawberry-tarts",
+      "title": "Strawberry Tarts",
+      "slug": "strawberry-tarts",
+      "description": "Mini strawberry tarts with creamy filling and fresh berries.",
+      "image": {
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Strawberry+Tarts",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Berry+Tarts",
+        "gallery": []
+      },
+      "author": {
+        "name": "Dounia",
+        "title": "Certified Holistic Nutritionist"
+      },
+      "timing": {
+        "prepTime": "PT25M",
+        "cookTime": "PT0M",
+        "totalTime": "PT25M",
+        "prepTimeDisplay": "25 minutes",
+        "cookTimeDisplay": "0 minutes",
+        "totalTimeDisplay": "25 minutes"
+      },
+      "servings": {
+        "yield": "8",
+        "unit": "tarts"
+      },
+      "difficulty": "Medium",
+      "categories": ["No-Bake", "Gluten-Free", "Fresh Fruit"],
+      "tags": ["strawberry", "tarts", "berries"],
+      "nutrition": {
+        "calories": 160,
+        "protein": "2g",
+        "carbs": "20g",
+        "fat": "8g",
+        "fiber": "3g",
+        "sugar": "16g"
+      },
+      "ingredients": [],
+      "instructions": [],
+      "notes": [],
+      "equipment": [],
+      "seo": {
+        "metaTitle": "Mini Strawberry Tarts Recipe | Fresh Berry Dessert",
+        "metaDescription": "Elegant mini strawberry tarts with creamy filling.",
+        "keywords": ["strawberry tarts", "mini tarts"],
+        "canonicalUrl": "/recipes/strawberry-tarts"
+      },
+      "social": {
+        "pinterest": {
+          "description": "Elegant mini strawberry tarts! 🍓",
+          "title": "Mini Strawberry Tarts"
+        },
+        "instagram": {
+          "caption": "Mini strawberry tarts! 🍓✨",
+          "hashtags": ["#strawberrytarts", "#minitarts"]
+        }
+      },
+      "datePublished": "2025-01-10",
+      "dateModified": "2025-01-10",
+      "featured": true,
+      "viral": true,
+      "popular": false
     }
   ],
   "categories": [

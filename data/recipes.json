@@ -287,7 +287,82 @@
       "dateModified": "2025-01-10",
       "featured": true,
       "viral": true,
-      "popular": false
+      "popular": true
+    },
+    {
+      "id": "protein-balls",
+      "title": "Protein Energy Balls",
+      "slug": "protein-balls",
+      "description": "No-bake protein energy balls with dates and nuts for sustained energy.",
+      "image": {
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Protein+Energy+Balls",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Protein+Balls"
+      },
+      "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+      "timing": {
+        "prepTime": "PT20M", "cookTime": "PT0M", "totalTime": "PT20M",
+        "prepTimeDisplay": "20 minutes", "cookTimeDisplay": "0 minutes", "totalTimeDisplay": "20 minutes"
+      },
+      "servings": {"yield": "16", "unit": "balls"},
+      "difficulty": "Easy",
+      "categories": ["No-Bake", "Vegan", "Protein"],
+      "tags": ["protein", "energy", "no-bake"],
+      "nutrition": {"calories": 120, "protein": "5g", "carbs": "12g", "fat": "6g", "fiber": "2g", "sugar": "8g"},
+      "ingredients": [], "instructions": [], "notes": [], "equipment": [],
+      "seo": {"metaTitle": "Protein Energy Balls Recipe", "metaDescription": "Healthy protein balls", "keywords": ["protein balls"], "canonicalUrl": "/recipes/protein-balls"},
+      "social": {"pinterest": {"description": "Protein energy balls!", "title": "Protein Balls"}, "instagram": {"caption": "Energy balls!", "hashtags": ["#proteinballs"]}},
+      "datePublished": "2025-01-10", "dateModified": "2025-01-10",
+      "featured": false, "viral": false, "popular": true
+    },
+    {
+      "id": "chia-cups",
+      "title": "Strawberry Chia Cups",
+      "slug": "chia-cups",
+      "description": "Creamy chia pudding cups with fresh strawberries and vanilla.",
+      "image": {
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Strawberry+Chia+Cups",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chia+Cups"
+      },
+      "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+      "timing": {
+        "prepTime": "PT10M", "cookTime": "PT0M", "totalTime": "PT10M",
+        "prepTimeDisplay": "10 minutes", "cookTimeDisplay": "0 minutes", "totalTimeDisplay": "10 minutes"
+      },
+      "servings": {"yield": "4", "unit": "cups"},
+      "difficulty": "Easy",
+      "categories": ["No-Bake", "Vegan", "Gluten-Free"],
+      "tags": ["chia", "strawberry", "pudding"],
+      "nutrition": {"calories": 140, "protein": "4g", "carbs": "16g", "fat": "7g", "fiber": "8g", "sugar": "10g"},
+      "ingredients": [], "instructions": [], "notes": [], "equipment": [],
+      "seo": {"metaTitle": "Strawberry Chia Cups Recipe", "metaDescription": "Creamy chia pudding", "keywords": ["chia cups"], "canonicalUrl": "/recipes/chia-cups"},
+      "social": {"pinterest": {"description": "Chia pudding cups!", "title": "Chia Cups"}, "instagram": {"caption": "Chia cups!", "hashtags": ["#chiacups"]}},
+      "datePublished": "2025-01-10", "dateModified": "2025-01-10",
+      "featured": false, "viral": false, "popular": true
+    },
+    {
+      "id": "chocolate-bars",
+      "title": "Healthy Chocolate Bars",
+      "slug": "chocolate-bars",
+      "description": "Rich dark chocolate bars with almonds and sea salt.",
+      "image": {
+        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Bars",
+        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chocolate+Bars"
+      },
+      "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+      "timing": {
+        "prepTime": "PT15M", "cookTime": "PT0M", "totalTime": "PT15M",
+        "prepTimeDisplay": "15 minutes", "cookTimeDisplay": "0 minutes", "totalTimeDisplay": "15 minutes"
+      },
+      "servings": {"yield": "12", "unit": "bars"},
+      "difficulty": "Easy",
+      "categories": ["No-Bake", "Vegan", "Chocolate"],
+      "tags": ["chocolate", "bars", "almonds"],
+      "nutrition": {"calories": 180, "protein": "4g", "carbs": "14g", "fat": "12g", "fiber": "3g", "sugar": "10g"},
+      "ingredients": [], "instructions": [], "notes": [], "equipment": [],
+      "seo": {"metaTitle": "Healthy Chocolate Bars Recipe", "metaDescription": "Dark chocolate bars", "keywords": ["chocolate bars"], "canonicalUrl": "/recipes/chocolate-bars"},
+      "social": {"pinterest": {"description": "Healthy chocolate bars!", "title": "Chocolate Bars"}, "instagram": {"caption": "Chocolate bars!", "hashtags": ["#chocolatebars"]}},
+      "datePublished": "2025-01-10", "dateModified": "2025-01-10",
+      "featured": false, "viral": false, "popular": true
     }
   ],
   "categories": [

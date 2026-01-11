@@ -174,7 +174,7 @@ class RecipeManager {
         if (popularContainer) {
             const popularRecipes = this.getPopularRecipes(6);
             popularContainer.innerHTML = popularRecipes.map(recipe =>
-                this.generateRecipeCard(recipe, { cardClass: 'popular-card' })
+                this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');
         }
 

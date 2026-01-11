@@ -232,7 +232,7 @@ class RecipeTemplate {
             <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
             <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
             <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
-            <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:yourwellnessgirly@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
         </div>
     </header>
 
@@ -344,7 +344,7 @@ class RecipeTemplate {
                     <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
                     <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
-                    <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:yourwellnessgirly@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>

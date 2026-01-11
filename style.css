@@ -556,22 +556,22 @@
 
   /* Find Your Perfect Recipe Section */
   .find-recipe-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
   }
 
   .find-recipe-heading {
     font-family: var(--font-heading);
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     color: #2f4f2f;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     position: relative;
     padding-bottom: 1.5rem;
   }
 
   .filter-categories {
     background-color: var(--light-pink);
-    padding: 2rem 1rem;
+    padding: 4rem 2rem;
     margin: 0 -2rem;
     width: calc(100% + 4rem);
     position: relative;
@@ -593,9 +593,9 @@
 
   .filter-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 2rem 1.5rem;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 3rem 2rem;
+    max-width: 1200px;
     margin: 0 auto;
     justify-items: center;
   }
@@ -614,17 +614,17 @@
   }
 
   .filter-image {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 0.75rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     transition: box-shadow 0.3s ease;
   }
 
   .filter-item:hover .filter-image {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
   }
 
   .filter-image img {
@@ -640,7 +640,7 @@
 
   .filter-label {
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #2f4f2f;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -2075,26 +2075,26 @@
 
     /* Find Recipe Section Mobile */
     .find-recipe-section {
-      padding: 2rem 1rem;
-      margin: 2rem 0;
+      padding: 3rem 1rem;
+      margin: 3rem 0;
     }
 
     .find-recipe-heading {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
     .filter-grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
-      gap: 1.5rem 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+      gap: 2rem 1.5rem;
     }
 
     .filter-image {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
     }
 
     .filter-label {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
 
     /* Behind the Blog Section Mobile */

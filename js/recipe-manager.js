@@ -69,7 +69,9 @@ class RecipeManager {
             showDescription = true,
             showTiming = true,
             showCategories = true,
-            cardClass = 'recipe-card'
+            cardClass = 'recipe-card',
+            showViralBadge = false,
+            viralCount = ''
         } = options;
 
         const cardHTML = `
@@ -77,7 +79,17 @@ class RecipeManager {
                 <img src="${recipe.image.thumbnail || recipe.image.hero}"
                      alt="${recipe.title}"
                      loading="lazy">
+                ${showViralBadge ? `
+                <div class="viral-badge">
+                    <i class="fas fa-fire"></i>
+                    <span>${viralCount}</span>
+                </div>
+                ` : ''}
                 <div class="recipe-overlay">
+                    <h3>${recipe.title}</h3>
+                    <div class="read-recipe">→ Read Recipe</div>
+                </div>
+                <div class="recipe-info">
                     <h3>${recipe.title}</h3>
                     ${showTiming ? `
                     <div class="recipe-meta">
@@ -87,7 +99,6 @@ class RecipeManager {
                         <span class="difficulty">${recipe.difficulty}</span>
                     </div>
                     ` : ''}
-                    <div class="read-recipe">Read Recipe →</div>
                 </div>
             </a>
         `;
@@ -148,8 +159,13 @@ class RecipeManager {
         const viralContainer = document.getElementById('viral-recipes');
         if (viralContainer) {
             const viralRecipes = this.getViralRecipes(3);
-            viralContainer.innerHTML = viralRecipes.map(recipe =>
-                this.generateRecipeCard(recipe, { cardClass: 'viral-card' })
+            const viralCounts = ['2.3M', '1.8M', '950K']; // Sample viral counts
+            viralContainer.innerHTML = viralRecipes.map((recipe, index) =>
+                this.generateRecipeCard(recipe, {
+                    cardClass: 'recipe-card viral-card',
+                    showViralBadge: true,
+                    viralCount: viralCounts[index] || '100K'
+                })
             ).join('');
         }
 

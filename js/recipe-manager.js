@@ -48,7 +48,7 @@ class RecipeManager {
     }
 
     // Get popular recipes
-    getPopularRecipes(limit = 6) {
+    getPopularRecipes(limit = 4) {
         return this.recipes.filter(recipe => recipe.popular).slice(0, limit);
     }
 
@@ -172,7 +172,7 @@ class RecipeManager {
         // Update popular recipes section
         const popularContainer = document.getElementById('popular-recipes');
         if (popularContainer) {
-            const popularRecipes = this.getPopularRecipes(6);
+            const popularRecipes = this.getPopularRecipes(4);
             popularContainer.innerHTML = popularRecipes.map(recipe =>
                 this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');

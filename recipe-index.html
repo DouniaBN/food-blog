@@ -886,8 +886,54 @@
             equipment: []
         };
 
+        // Parse URL parameters and auto-select filters
+        function parseURLParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+
+            // Handle diet type parameter (gluten-free, dairy-free, etc.)
+            if (urlParams.has('diet')) {
+                const dietType = urlParams.get('diet');
+                currentFilters.dietTypes.push(dietType);
+                const checkbox = document.getElementById(dietType);
+                if (checkbox) checkbox.checked = true;
+            }
+
+            // Handle ingredient count parameter (5-or-less, etc.)
+            if (urlParams.has('ingredients')) {
+                const ingredientCount = urlParams.get('ingredients');
+                currentFilters.ingredientCount = ingredientCount;
+                const select = document.getElementById('ingredient-count');
+                if (select) select.value = ingredientCount;
+            }
+
+            // Handle prep time parameter (15-or-less, etc.)
+            if (urlParams.has('time')) {
+                const prepTime = urlParams.get('time');
+                currentFilters.prepTime = prepTime;
+                const select = document.getElementById('prep-time');
+                if (select) select.value = prepTime;
+            }
+
+            // Handle equipment parameter (no-bake, etc.)
+            if (urlParams.has('equipment')) {
+                const equipment = urlParams.get('equipment');
+                currentFilters.equipment.push(equipment);
+                const checkbox = document.getElementById(equipment);
+                if (checkbox) checkbox.checked = true;
+            }
+
+            // Handle main ingredient parameter (protein, chocolate, etc.)
+            if (urlParams.has('ingredient')) {
+                const ingredient = urlParams.get('ingredient');
+                currentFilters.mainIngredient.push(ingredient);
+                const checkbox = document.getElementById(ingredient);
+                if (checkbox) checkbox.checked = true;
+            }
+        }
+
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
+            parseURLParams(); // Parse URL parameters first
             renderRecipes();
             setupEventListeners();
             updateURL();

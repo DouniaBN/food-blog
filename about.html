@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260112172400">
 
     <!-- Structured Data - Person Schema -->
     <script type="application/ld+json">
@@ -252,6 +252,13 @@
             justify-content: center;
         }
 
+        .intro-image {
+            flex: 0 0 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         .about-headshot {
             width: 100%;
             max-width: 350px;
@@ -412,17 +419,30 @@
             }
 
             .about-content {
-                padding: 2rem 1rem;
+                padding: 2rem 0.5rem; /* Reduce side padding to prevent overflow */
             }
 
             .intro-section {
                 flex-direction: column-reverse;
                 gap: 2rem;
+                margin-bottom: 0; /* Remove negative margin on mobile */
+            }
+
+            /* Copy the FAQ section approach for mobile */
+            .about-content .intro-section {
+                display: block !important; /* Change from flex to block on mobile */
+                padding: 0 !important; /* Remove padding conflicts */
             }
 
             .intro-text {
-                flex: none;
-                padding: 0.5rem 2rem;
+                /* Use the same approach as .faq-item */
+                margin: 0 auto !important; /* Center like .faqs-container */
+                max-width: 100% !important; /* Respect container width */
+                padding: 1.5rem !important; /* Consistent padding like .faq-item */
+                transform: none !important; /* Remove the left shift transform */
+                box-sizing: border-box !important; /* Include padding in width */
+                width: auto !important; /* Let it size naturally */
+                flex: none !important;
             }
 
             .intro-image {
@@ -431,6 +451,11 @@
 
             .intro-text h2 {
                 font-size: 2.2rem;
+            }
+
+            .intro-text p {
+                font-size: 1rem; /* Slightly smaller text for mobile */
+                line-height: 1.6;
             }
 
             .about-section h2 {
@@ -494,6 +519,52 @@
             background-color: #f8f9fa;
             border-radius: 4px;
         }
+
+        /* MOBILE FIX - INLINE OVERRIDE FOR CACHE BUSTING */
+        @media (max-width: 768px) {
+            .intro-text {
+                transform: none !important;
+                margin: 0 auto !important;
+                max-width: calc(100vw - 2rem) !important;
+                width: auto !important;
+                padding: 1.5rem 1rem !important;
+                box-sizing: border-box !important;
+                overflow: hidden !important;
+            }
+
+            .intro-section {
+                display: flex !important;
+                flex-direction: column !important; /* Column layout on mobile */
+                margin: 0 !important;
+                padding: 0 !important;
+                gap: 2rem !important;
+            }
+
+            .intro-text {
+                order: 10 !important; /* Force text to be last */
+                flex: none !important;
+            }
+
+            .intro-image {
+                order: -10 !important; /* Force image to be first with negative value */
+                flex: none !important;
+                text-align: center !important;
+            }
+
+            .about-headshot {
+                width: 200px !important; /* Controlled size instead of massive */
+                height: 200px !important;
+                max-width: 200px !important;
+                margin: 0 auto !important;
+                transform: scale(1.1) !important; /* Back to original zoom */
+                object-position: center !important; /* Back to center position */
+            }
+
+            .about-content {
+                padding: 2rem 1rem !important;
+                overflow-x: hidden !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -529,6 +600,7 @@
                 <li><a href="recipe-index.html">Recipe Index</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="work-with-me.html">Work With Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </div>
         <div class="social-icons">

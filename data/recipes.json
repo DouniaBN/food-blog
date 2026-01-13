@@ -164,65 +164,138 @@
       "popular": true
     },
     {
-      "id": "cookie-dough-cups",
-      "title": "Cookie Dough Cups",
-      "slug": "cookie-dough-cups",
-      "description": "Irresistible cookie dough cups that are safe to eat raw! Made with wholesome ingredients.",
+      "id": "mango-yogurt-bites",
+      "title": "No-Bake Mango Yogurt Chocolate Bites",
+      "slug": "mango-yogurt-bites",
+      "description": "Refreshing 3-ingredient summer dessert! Creamy Greek yogurt and fresh mango wrapped in rich dark chocolate - naturally sweetened and ready in 10 minutes prep.",
       "image": {
-        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Cookie+Dough+Cups",
-        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Cookie+Cups",
-        "gallery": []
+        "hero": "images/recipes/mango-yogurt-bites-hero.jpg",
+        "thumbnail": "images/recipes/mango-yogurt-bites-card.jpg",
+        "gallery": [
+          "images/recipes/mango-yogurt-bites-process.jpg",
+          "images/recipes/mango-yogurt-bites-step1.jpg",
+          "images/recipes/mango-yogurt-bites-step2.jpg"
+        ]
       },
       "author": {
         "name": "Dounia",
         "title": "Certified Holistic Nutritionist"
       },
       "timing": {
-        "prepTime": "PT20M",
+        "prepTime": "PT10M",
         "cookTime": "PT0M",
-        "totalTime": "PT20M",
-        "prepTimeDisplay": "20 minutes",
+        "totalTime": "PT2H10M",
+        "prepTimeDisplay": "10 minutes",
         "cookTimeDisplay": "0 minutes",
-        "totalTimeDisplay": "20 minutes"
+        "totalTimeDisplay": "2 hours 10 minutes"
       },
       "servings": {
-        "yield": "12",
-        "unit": "cups"
+        "yield": "6",
+        "unit": "bites"
       },
       "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Gluten-Free"],
-      "tags": ["cookie dough", "cups", "no-bake", "vegan"],
+      "categories": ["No-Bake", "Gluten-Free", "Summer Desserts", "Chocolate", "3 Ingredients"],
+      "tags": ["mango", "yogurt", "chocolate", "no-bake", "gluten-free", "refined-sugar-free", "summer", "3-ingredient", "meal-prep"],
       "nutrition": {
-        "calories": 180,
-        "protein": "3g",
-        "carbs": "22g",
-        "fat": "9g",
-        "fiber": "2g",
-        "sugar": "15g"
+        "calories": 85,
+        "protein": "4g",
+        "carbs": "12g",
+        "fat": "3g",
+        "fiber": "1g",
+        "sugar": "11g"
       },
-      "ingredients": [],
-      "instructions": [],
-      "notes": [],
-      "equipment": [],
+      "ingredients": [
+        {
+          "amount": "1",
+          "unit": "large",
+          "ingredient": "ripe mango",
+          "notes": "diced"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "ingredient": "Greek yogurt",
+          "notes": "plain, unsweetened"
+        },
+        {
+          "amount": "3",
+          "unit": "oz",
+          "ingredient": "dark chocolate",
+          "notes": "70% cocoa or sugar-free"
+        },
+        {
+          "amount": "1",
+          "unit": "pinch",
+          "ingredient": "sea salt",
+          "notes": "for sprinkling"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt the dark chocolate using a double boiler or microwave in 30-second intervals. Pour melted chocolate into your silicone molds, covering the bottom. Flash freeze for 10 minutes until set.",
+          "image": "images/recipes/mango-yogurt-bites-step1.jpg"
+        },
+        {
+          "step": 2,
+          "text": "In a medium bowl, combine Greek yogurt and diced mango. Gently fold together until evenly mixed, keeping mango chunks intact.",
+          "image": "images/recipes/mango-yogurt-bites-step2.jpg"
+        },
+        {
+          "step": 3,
+          "text": "Remove molds from freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the chocolate base.",
+          "image": "images/recipes/mango-yogurt-bites-step3.jpg"
+        },
+        {
+          "step": 4,
+          "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top. Sprinkle with a pinch of sea salt.",
+          "image": "images/recipes/mango-yogurt-bites-step4.jpg"
+        },
+        {
+          "step": 5,
+          "text": "Freeze for 2 hours or until completely set. Remove from molds and serve immediately. Store leftovers in freezer for up to 1 week.",
+          "image": "images/recipes/mango-yogurt-bites-step5.jpg"
+        }
+      ],
+      "notes": [
+        "For vegan version, substitute Greek yogurt with coconut yogurt - it pairs beautifully with mango!",
+        "Store in refrigerator for up to 3 days or freezer for up to 1 week",
+        "Silicone molds work best for easy removal. Ice cube trays work too!",
+        "Can use frozen mango - thaw completely and drain excess liquid first",
+        "Let sit 1-2 minutes at room temperature before serving for easier eating"
+      ],
+      "equipment": [
+        "Silicone molds or ice cube trays",
+        "Medium mixing bowl",
+        "Double boiler or microwave"
+      ],
       "seo": {
-        "metaTitle": "Cookie Dough Cups Recipe | Safe-to-Eat No-Bake Dessert",
-        "metaDescription": "Delicious cookie dough cups that are safe to eat raw!",
-        "keywords": ["cookie dough cups", "safe cookie dough", "no-bake dessert"],
-        "canonicalUrl": "/recipes/cookie-dough-cups"
+        "metaTitle": "No-Bake Mango Yogurt Chocolate Bites | 3 Ingredient Summer Dessert | Yourwellnessgirly",
+        "metaDescription": "Easy 3-ingredient no-bake mango yogurt chocolate bites! Refreshing summer dessert with Greek yogurt, fresh mango, and dark chocolate. Gluten-free, refined sugar-free, ready in 10 minutes prep!",
+        "keywords": [
+          "mango yogurt bites",
+          "no-bake mango dessert",
+          "3 ingredient dessert",
+          "summer dessert",
+          "healthy chocolate treats",
+          "gluten-free mango recipe",
+          "yogurt chocolate bites"
+        ],
+        "canonicalUrl": "/recipes/mango-yogurt-bites"
       },
       "social": {
         "pinterest": {
-          "description": "Safe-to-eat cookie dough cups! 🍪",
-          "title": "Cookie Dough Cups - Safe No-Bake Treat"
+          "description": "Easy 3-ingredient no-bake mango yogurt chocolate bites! Perfect refreshing summer dessert 🥭🍫 Gluten-free & naturally sweetened!",
+          "title": "No-Bake Mango Yogurt Chocolate Bites - 3 Ingredient Summer Dessert"
         },
         "instagram": {
-          "caption": "Cookie dough cups you can actually eat! 🍪",
-          "hashtags": ["#cookiedough", "#nobake"]
+          "caption": "This is your sign to make these healthy 3 ingredient mango yogurt clusters!! If you love mango and chocolate then these no bake cuties will be your new fave dessert 🥭🍫 Save this for the perfect summer dessert!",
+          "hashtags": ["#mangorecipe", "#nobake", "#summerdesser", "#3ingredient", "#healthydesserts", "#glutenfree", "#yogurtbites", "#yourwellnessgirly"]
         }
       },
-      "datePublished": "2025-01-10",
-      "dateModified": "2025-01-10",
-      "featured": false,
+      "datePublished": "2026-01-13",
+      "dateModified": "2026-01-13",
+      "featured": true,
       "viral": true,
       "popular": true
     },

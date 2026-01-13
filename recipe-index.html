@@ -80,6 +80,11 @@
 
     .search-container {
         margin-bottom: 2rem;
+        background: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        border: none !important;
     }
 
     .search-input {
@@ -87,7 +92,7 @@
         padding: 0.75rem 0.5rem;
         border: 2px solid #e0e0e0;
         border-radius: 8px;
-        font-size: 0.95rem;
+        font-size: 1.1rem;
         transition: border-color 0.3s ease;
         box-sizing: border-box;
     }
@@ -103,7 +108,7 @@
 
     .filter-group h4 {
         font-family: var(--font-heading);
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #2f4f2f;
         margin: 0 0 1rem 0;
         font-weight: 600;
@@ -127,7 +132,7 @@
     }
 
     .filter-option label {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: #666;
         cursor: pointer;
         user-select: none;
@@ -139,7 +144,7 @@
         border: 2px solid #e0e0e0;
         border-radius: 6px;
         background: white;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: #666;
     }
 
@@ -150,6 +155,7 @@
         color: #2f4f2f;
         border: none;
         border-radius: 8px;
+        font-size: 1.1rem;
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -229,7 +235,7 @@
 
     .recipe-card-title {
         font-family: var(--font-heading);
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         color: #2f4f2f;
         margin: 0 0 0.75rem 0;
     }
@@ -238,7 +244,7 @@
         display: flex;
         gap: 1rem;
         margin-bottom: 1rem;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: #666;
     }
 
@@ -260,7 +266,7 @@
         background: var(--light-pink);
         color: #2f4f2f;
         border-radius: 12px;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 500;
     }
 
@@ -275,7 +281,7 @@
     }
 
     .recipe-description {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: #666;
         line-height: 1.5;
         margin: 0;
@@ -628,10 +634,6 @@
                     <div class="filter-option">
                         <input type="checkbox" id="coconut" value="coconut">
                         <label for="coconut">Coconut</label>
-                    </div>
-                    <div class="filter-option">
-                        <input type="checkbox" id="avocado" value="avocado">
-                        <label for="avocado">Avocado</label>
                     </div>
                 </div>
             </div>

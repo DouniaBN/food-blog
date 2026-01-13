@@ -423,14 +423,15 @@
             }
 
             .intro-section {
-                flex-direction: column-reverse;
+                flex-direction: column;
                 gap: 2rem;
                 margin-bottom: 0; /* Remove negative margin on mobile */
             }
 
             /* Copy the FAQ section approach for mobile */
             .about-content .intro-section {
-                display: block !important; /* Change from flex to block on mobile */
+                display: flex !important; /* Keep flex for order to work */
+                flex-direction: column !important; /* Column layout */
                 padding: 0 !important; /* Remove padding conflicts */
             }
 

@@ -318,6 +318,9 @@
             flex: none;
             position: static;
             max-height: none;
+            width: 100%;
+            margin: 0;
+            padding: 1rem;
         }
 
         .recipe-grid {
@@ -334,6 +337,56 @@
             gap: 1rem;
             align-items: stretch;
         }
+    }
+
+    /* Extra small mobile devices */
+    @media (max-width: 480px) {
+        .recipe-index-container {
+            padding: 0.5rem;
+            gap: 1rem;
+        }
+
+        .filter-sidebar {
+            padding: 0.75rem;
+            margin: 0;
+            width: calc(100vw - 1rem);
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .filter-sidebar h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group h4 {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .filter-option label {
+            font-size: 1rem;
+        }
+
+        .search-input {
+            font-size: 1rem;
+            padding: 0.6rem 0.4rem;
+        }
+
+        .filter-select {
+            font-size: 1rem;
+            padding: 0.4rem;
+        }
+
+        .clear-filters-btn {
+            font-size: 1rem;
+            padding: 0.6rem;
+        }
+    }
 
         /* Mobile-only hamburger menu */
         /* Hide default nav on mobile */

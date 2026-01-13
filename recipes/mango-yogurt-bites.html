@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>No-Bake Mango Yogurt Chocolate Bites | 3 Ingredient Summer Dessert | Yourwellnessgirly</title>
-    <meta name="description" content="Easy 3-ingredient no-bake mango yogurt chocolate bites! Refreshing summer dessert with Greek yogurt, fresh mango, and dark chocolate. Gluten-free, refined sugar-free, and ready in 10 minutes prep!">
+    <meta name="description" content="Easy 3-ingredient no-bake mango yogurt chocolate bites! Refreshing summer dessert with Greek yogurt, fresh mango, and dark chocolate. Gluten-free, refined sugar-free, ready in 10 minutes prep!">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
@@ -12,7 +12,6 @@
     <meta property="og:title" content="No-Bake Mango Yogurt Chocolate Bites | 3 Ingredient Summer Dessert">
     <meta property="og:description" content="Easy 3-ingredient no-bake mango yogurt chocolate bites! Perfect refreshing summer dessert with Greek yogurt, fresh mango, and dark chocolate.">
     <meta property="og:image" content="https://yourwellnessgirly.com/images/recipes/mango-yogurt-bites-hero.jpg">
-    <meta property="og:image:alt" content="No-bake mango yogurt chocolate bites arranged on white marble with fresh mango slices">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -31,7 +30,390 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=20260113">
+    <link rel="stylesheet" href="../style.css?v=205">
+    <style>
+      @media (max-width: 768px) {
+        /* Hide original About Me Sidebar on mobile */
+        .about-me-sidebar {
+          display: none !important;
+        }
+
+        /* Show mobile About Me section */
+        .mobile-about-me {
+          display: block !important;
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          margin: 2rem 1rem 2rem;
+          overflow: hidden;
+        }
+
+        .mobile-about-me .about-me-content {
+          padding: 2rem;
+          text-align: center;
+        }
+
+        .mobile-about-me .about-me-image img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 3px solid white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          margin-bottom: 1rem;
+        }
+
+        .mobile-about-me h3 {
+          font-family: 'Libre Baskerville', serif;
+          font-size: 1.5rem;
+          color: #2f4f2f;
+          margin: 0 0 1rem 0;
+        }
+
+        .mobile-about-me p {
+          color: #666;
+          line-height: 1.6;
+          margin-bottom: 1.5rem;
+          font-size: 1.2rem;
+        }
+
+        /* Style AFPA credential image */
+        .mobile-about-me .afpa-credential {
+          margin: 0 !important;
+          padding: 0 !important;
+          text-align: center;
+        }
+
+        .mobile-about-me .afpa-credential img {
+          max-width: 120px !important;
+          height: auto;
+          opacity: 0.8;
+          transition: opacity 0.3s ease;
+        }
+
+        .mobile-about-me .afpa-credential img:hover {
+          opacity: 1;
+        }
+
+        /* Reduce spacing before You Might Also Like section */
+        .related-recipes {
+          margin: 0 !important;
+          padding: 0.25rem 1rem 2rem !important;
+        }
+
+        /* Increase text size in recipe cards */
+        .recipe-card-small h3 {
+          font-size: 1.6rem !important;
+        }
+
+        .recipe-card-small .recipe-meta {
+          font-size: 1.4rem !important;
+        }
+
+        /* Increase font size of the main recipe description */
+        .recipe-description {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Apply same font size to Why You'll Love These section paragraphs */
+        .recipe-story p {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Apply same font size to all recipe card content */
+        .ingredients-section li label,
+        .instructions-section li,
+        .nutrition-section .nutrition-label,
+        .nutrition-section .nutrition-value,
+        .faq-section p,
+        .recipe-card p {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Unbold FAQ answers while keeping questions bold */
+        .faq-answer {
+          font-weight: normal !important;
+        }
+
+        /* Make FAQ questions same size as answers */
+        .faq-question {
+          font-size: 1.5rem !important;
+          line-height: 1.5 !important;
+        }
+
+        /* Mobile only - unbold nutrition values (9g, 5g, etc.) */
+        .nutrition-section .nutrition-value {
+          font-weight: normal !important;
+        }
+
+        /* Force AFPA logo styling with no cache */
+        .afpa-credential {
+          margin: 0 !important;
+          padding: 0 !important;
+          text-align: center !important;
+        }
+
+        .afpa-credential img {
+          width: 120px !important;
+          max-width: 120px !important;
+          height: auto !important;
+          margin: 0 0 1rem 0 !important;
+          padding: 0 !important;
+        }
+      }
+
+      /* Hide mobile section on desktop */
+      .mobile-about-me {
+        display: none;
+      }
+
+      /* Desktop AFPA credential styling */
+      .about-me-sidebar .afpa-credential {
+        margin: 1rem 0;
+        text-align: center;
+      }
+
+      .about-me-sidebar .afpa-credential img {
+        width: 140px !important;
+        max-width: 140px !important;
+        height: auto;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+      }
+
+      .about-me-sidebar .afpa-credential img:hover {
+        opacity: 1;
+      }
+
+      /* Desktop only - increase recipe description font size */
+      .recipe-description {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      /* Desktop only - increase Why You'll Love These section font size */
+      .recipe-story p {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      /* Desktop only - increase recipe card content font size */
+      .ingredients-section li label,
+      .instructions-section li,
+      .nutrition-section .nutrition-label,
+      .nutrition-section .nutrition-value,
+      .faq-section p,
+      .faq-question {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      /* Desktop only - unbold FAQ answers while keeping questions bold */
+      .faq-answer {
+        font-weight: normal !important;
+      }
+      /* Desktop only - widen About Me sidebar */
+      @media (min-width: 769px) {
+        .about-me-sidebar {
+          flex: 0 0 360px !important;
+          max-width: 360px !important;
+          min-width: 360px !important;
+        }
+        /* Desktop only - increase About Me text font size */
+        .about-me-sidebar p {
+          font-size: 1.05rem !important;
+          line-height: 1.6 !important;
+        }
+        /* Desktop only - unbold nutrition values (9g, 5g, etc.) */
+        .nutrition-section .nutrition-value {
+          font-weight: normal !important;
+        }
+      }
+
+      /* Mobile-only hamburger menu */
+      @media (max-width: 768px) {
+        /* Hide default nav on mobile */
+        .main-header nav ul {
+          display: none !important;
+        }
+
+        /* Show hamburger button on mobile */
+        .hamburger-menu {
+          display: flex !important;
+          flex-direction: column;
+          cursor: pointer;
+          width: 25px;
+          height: 20px;
+          justify-content: space-between;
+          position: absolute;
+          left: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .hamburger-menu span {
+          width: 100%;
+          height: 3px;
+          background-color: #2f4f2f;
+          transition: all 0.3s ease;
+        }
+
+        /* Mobile dropdown menu */
+        .mobile-nav-dropdown {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: white;
+          border-top: 1px solid #f0f0f0;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          z-index: 1000;
+          display: none;
+        }
+
+        .mobile-nav-dropdown.show {
+          display: block !important;
+        }
+
+        .mobile-nav-dropdown ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        .mobile-nav-dropdown li {
+          border-bottom: 1px solid #f0f0f0;
+        }
+
+        .mobile-nav-dropdown li:last-child {
+          border-bottom: none;
+        }
+
+        .mobile-nav-dropdown a {
+          display: block;
+          padding: 15px 20px;
+          color: #2f4f2f;
+          text-decoration: none;
+          font-size: 1.1rem;
+          transition: background-color 0.3s ease;
+        }
+
+        .mobile-nav-dropdown a:hover {
+          background-color: #f8f8f8;
+        }
+
+        /* Adjust header positioning for mobile */
+        .main-header {
+          position: relative;
+        }
+
+        /* Mobile search icon */
+        .mobile-search-icon {
+          display: flex !important;
+          position: absolute;
+          right: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #2f4f2f;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
+
+        /* Search overlay */
+        .search-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.8);
+          z-index: 2000;
+          display: none;
+          align-items: flex-start;
+          justify-content: center;
+          padding-top: 2rem;
+        }
+
+        .search-overlay.show {
+          display: flex !important;
+        }
+
+        .search-container {
+          background: white;
+          border-radius: 12px;
+          padding: 1.5rem;
+          width: 90%;
+          max-width: 400px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .search-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1rem;
+        }
+
+        .search-close {
+          font-size: 1.5rem;
+          color: #666;
+          cursor: pointer;
+        }
+
+        .search-input {
+          width: 100%;
+          padding: 0.75rem;
+          border: 2px solid #f0f0f0;
+          border-radius: 8px;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+
+        .search-input:focus {
+          outline: none;
+          border-color: #2f4f2f;
+        }
+
+        .search-results {
+          max-height: 300px;
+          overflow-y: auto;
+        }
+
+        .search-result-item {
+          padding: 0.75rem;
+          border-bottom: 1px solid #f0f0f0;
+          cursor: pointer;
+          text-decoration: none;
+          color: inherit;
+          display: block;
+        }
+
+        .search-result-item:hover {
+          background: #f8f8f8;
+        }
+
+        .search-result-title {
+          font-weight: 600;
+          color: #2f4f2f;
+          margin-bottom: 0.25rem;
+        }
+
+        .search-result-description {
+          font-size: 0.9rem;
+          color: #666;
+        }
+      }
+
+      /* Hide hamburger menu, mobile search, and mobile dropdown on desktop */
+      .hamburger-menu,
+      .mobile-search-icon,
+      .mobile-nav-dropdown {
+        display: none;
+      }
+    </style>
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
@@ -40,60 +422,117 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID', {
-        page_title: 'No-Bake Mango Yogurt Chocolate Bites Recipe',
+        page_title: 'Healthy Chocolate Banana Bites Recipe',
         page_location: window.location.href,
-        content_group1: 'Recipe',
-        custom_map: {'custom_parameter_1': 'page_type', 'custom_parameter_2': 'recipe_category'}
-      });
-
-      gtag('config', 'GA_MEASUREMENT_ID', {
+        content_group1: 'Recipe Page',
+        content_group2: 'Healthy Dessert',
         custom_map: {
           'page_type': 'custom_parameter_1',
           'recipe_category': 'custom_parameter_2'
         }
       });
+
+      // Track recipe view event for ad networks
+      gtag('event', 'recipe_view', {
+        event_category: 'Recipe Engagement',
+        event_label: 'Healthy Chocolate Banana Bites',
+        recipe_name: 'Healthy Chocolate Banana Bites',
+        recipe_category: 'healthy_dessert',
+        prep_time: 15,
+        difficulty: 'easy',
+        diet_type: 'vegan,gluten-free,dairy-free',
+        custom_parameter_1: 'recipe_page',
+        custom_parameter_2: 'healthy_dessert'
+      });
     </script>
 
-    <!-- Structured Data - Recipe Schema -->
+    <!-- Small recipe cards fix -->
+    <style>
+    .related-grid-small {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /* FAQ Section Styling */
+    .faq-section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #f0f0f0;
+    }
+    .faq-section h3 {
+        font-family: var(--font-heading);
+        font-size: 1.5rem;
+        color: #2f4f2f;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--light-pink);
+        display: inline-block;
+    }
+    .faq-list {
+        display: block;
+    }
+    .faq-item {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    .faq-question {
+        font-family: var(--font-heading);
+        font-size: 1.1rem;
+        color: #2f4f2f;
+        margin: 0 0 0.75rem 0;
+        font-weight: 700;
+    }
+    .faq-answer {
+        color: #666;
+        line-height: 1.6;
+        margin: 0 0 1rem 0;
+        font-size: 0.95rem;
+    }
+
+    /* Desktop-only padding below "You Might Also Like" section */
+    @media (min-width: 769px) {
+        .related-recipes {
+            margin-bottom: 3rem !important;
+        }
+    }
+    </style>
+
+    <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "Recipe",
         "name": "No-Bake Mango Yogurt Chocolate Bites",
-        "description": "Easy 3-ingredient no-bake summer dessert combining creamy Greek yogurt, fresh mango chunks, and rich dark chocolate. Refreshing, gluten-free, and naturally sweetened treat perfect for hot days.",
         "image": [
             "https://yourwellnessgirly.com/images/recipes/mango-yogurt-bites-hero.jpg",
-            "https://yourwellnessgirly.com/images/recipes/mango-yogurt-bites-card.jpg",
-            "https://yourwellnessgirly.com/images/recipes/mango-yogurt-bites-process.jpg"
+            "https://yourwellnessgirly.com/images/recipes/banana-bites-process.jpg"
         ],
+        "description": "Easy 3-ingredient no-bake summer dessert combining creamy Greek yogurt, fresh mango chunks, and rich dark chocolate. Refreshing, gluten-free, and naturally sweetened treat perfect for hot days.",
+        "keywords": "no bake dessert, mango recipe, yogurt dessert, chocolate treats, gluten free, refined sugar free, summer dessert, healthy snack, 3 ingredient recipe, meal prep dessert",
         "author": {
             "@type": "Person",
             "name": "Dounia",
-            "url": "https://yourwellnessgirly.com/about",
-            "sameAs": [
-                "https://instagram.com/yourwellnessgirly",
-                "https://pinterest.com/yourwellnessgirly",
-                "https://tiktok.com/@yourwellnessgirly"
-            ]
+            "url": "https://yourwellnessgirly.com/about"
         },
-        "datePublished": "2026-01-13",
-        "dateModified": "2026-01-13",
+        "datePublished": "2025-12-16",
+        "dateModified": "2025-12-16",
         "prepTime": "PT10M",
         "cookTime": "PT0M",
         "totalTime": "PT2H10M",
-        "recipeCategory": ["Dessert", "No-Bake", "Summer Treats"],
-        "recipeCuisine": "Healthy",
-        "recipeYield": "6 servings",
-        "keywords": "no bake dessert, mango recipe, yogurt dessert, chocolate treats, gluten free, refined sugar free, summer dessert, healthy snack, 3 ingredient recipe, meal prep dessert",
+        "recipeCategory": "Dessert",
+        "recipeCuisine": "American",
+        "recipeYield": "6 bites",
         "nutrition": {
             "@type": "NutritionInformation",
-            "servingSize": "1 bite",
-            "calories": "85",
-            "proteinContent": "4g",
+            "calories": "95 calories",
             "carbohydrateContent": "12g",
-            "fatContent": "3g",
-            "sugarContent": "11g",
-            "fiberContent": "1g"
+            "proteinContent": "3g",
+            "fatContent": "5g",
+            "fiberContent": "2g",
+            "sugarContent": "8g"
         },
         "recipeIngredient": [
             "1 large ripe mango, diced",
@@ -105,170 +544,131 @@
             {
                 "@type": "HowToStep",
                 "name": "Prepare chocolate base",
-                "text": "Melt the dark chocolate using a double boiler or microwave in 30-second intervals. Pour melted chocolate into your silicone molds, covering the bottom. Flash freeze for 10 minutes until set.",
-                "url": "https://yourwellnessgirly.com/recipes/mango-yogurt-bites#step1"
+                "text": "Melt the dark chocolate using a double boiler or microwave in 30-second intervals. Pour melted chocolate into your silicone molds, covering the bottom. Flash freeze for 10 minutes until set."
             },
             {
                 "@type": "HowToStep",
                 "name": "Prepare mango yogurt mixture",
-                "text": "In a medium bowl, combine Greek yogurt and diced mango. Gently fold together until evenly mixed, keeping mango chunks intact.",
-                "url": "https://yourwellnessgirly.com/recipes/mango-yogurt-bites#step2"
+                "text": "In a medium bowl, combine Greek yogurt and diced mango. Gently fold together until evenly mixed, keeping mango chunks intact."
             },
             {
                 "@type": "HowToStep",
                 "name": "Assemble the bites",
-                "text": "Remove molds from freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the chocolate base.",
-                "url": "https://yourwellnessgirly.com/recipes/mango-yogurt-bites#step3"
+                "text": "Remove molds from freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the chocolate base."
             },
             {
                 "@type": "HowToStep",
                 "name": "Add chocolate top",
-                "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top. Sprinkle with a pinch of sea salt.",
-                "url": "https://yourwellnessgirly.com/recipes/mango-yogurt-bites#step4"
+                "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top. Sprinkle with a pinch of sea salt."
             },
             {
                 "@type": "HowToStep",
                 "name": "Freeze and serve",
-                "text": "Freeze for 2 hours or until completely set. Remove from molds and serve immediately. Store leftovers in freezer for up to 1 week.",
-                "url": "https://yourwellnessgirly.com/recipes/mango-yogurt-bites#step5"
+                "text": "Freeze for 2 hours or until completely set. Remove from molds and serve immediately. Store leftovers in freezer for up to 1 week."
             }
         ],
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "127",
-            "bestRating": "5",
-            "worstRating": "1"
+            "ratingValue": "4.8",
+            "reviewCount": "127"
         },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Sarah M."
-                },
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                },
-                "reviewBody": "These are absolutely divine! Perfect summer treat that's actually healthy. The mango and chocolate combo is incredible."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Jessica L."
-                },
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                },
-                "reviewBody": "So easy to make and my kids love them! I used coconut yogurt to make them vegan and they turned out amazing."
-            }
-        ],
-        "suitableForDiet": [
-            "https://schema.org/GlutenFreeDiet",
-            "https://schema.org/LowCalorieDiet"
-        ],
-        "recipeYield": "6 bites",
-        "tool": [
-            "Silicone molds or ice cube trays",
-            "Mixing bowl",
-            "Double boiler or microwave"
-        ]
+        "video": {
+            "@type": "VideoObject",
+            "name": "How to Make Healthy Chocolate Banana Bites",
+            "description": "Watch how to make these easy 3-ingredient no-bake mango yogurt chocolate bites!",
+            "thumbnailUrl": "https://yourwellnessgirly.com/images/recipes/banana-bites-video-thumb.jpg"
+        }
     }
     </script>
 
-    <!-- Structured Data - FAQ Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Can I make these mango yogurt bites vegan?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes! Simply substitute the Greek yogurt with your favorite plant-based yogurt. Coconut yogurt works particularly well and complements the mango flavor beautifully."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long do these mango chocolate bites last?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture, serve directly from the freezer."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What type of mold should I use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Silicone molds work best as they're easy to remove the bites from. You can also use ice cube trays or mini muffin tins lined with paper liners."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I use frozen mango instead of fresh?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes! Thaw frozen mango completely and drain excess liquid before mixing with yogurt for the best texture."
-                }
-            }
-        ]
-    }
-    </script>
-
-    <!-- Structured Data - Breadcrumb Schema -->
+    <!-- Breadcrumb Schema JSON-LD -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://yourwellnessgirly.com"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Recipe Index",
-                "item": "https://yourwellnessgirly.com/recipe-index"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "No-Bake Mango Yogurt Chocolate Bites"
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://yourwellnessgirly.com/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Recipes",
+            "item": "https://yourwellnessgirly.com/#recipes"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Healthy Chocolate Banana Bites"
+        }]
+    }
+    </script>
+
+    <!-- FAQ Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "How should I store these banana bites?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze for up to 1 month in a freezer-safe container."
             }
-        ]
+        }, {
+            "@type": "Question",
+            "name": "Can I make these nut-free?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Substitute the almond butter with sunflower seed butter or tahini for a completely nut-free version that's still delicious."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Are these banana bites kid-friendly?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely! Kids love these sweet treats, and they're a healthy alternative to processed snacks. The natural sweetness from bananas makes them appealing to little ones."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Can I use different sweeteners?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, you can substitute maple syrup with honey, agave nectar, or date syrup. Start with the same amount and adjust to taste."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Can I freeze these banana bites?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! These freeze beautifully for up to 1 month. Place them in a single layer on a baking sheet to freeze individually, then transfer to a freezer bag."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What's the best banana ripeness for this recipe?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use ripe bananas that are yellow with a few brown spots. They should be sweet and soft but not mushy for the best flavor and texture."
+            }
+        }]
     }
     </script>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="main-header">
         <div class="logo">
             <img src="../images/profile/logo.png" alt="Yourwellnessgirly Logo" class="logo-img">
-            yourwellnessgirly
+            <a href="../index.html">yourwellnessgirly</a>
         </div>
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../recipe-index.html">Recipe Index</a></li>
-                <li><a href="../about.html">About Me</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Contact ▾</a>
-                    <div class="dropdown-content">
-                        <a href="../work-with-me.html">Work With Me</a>
-                        <a href="../contact.html">Contact Me</a>
-                    </div>
-                </li>
+                <li><a href="../index.html#about">About Me</a></li>
+                <li><a href="../work-with-me.html">Work With Me</a></li>
             </ul>
         </nav>
         <!-- Mobile hamburger menu -->
@@ -277,23 +677,42 @@
             <span></span>
             <span></span>
         </div>
+        <!-- Mobile search icon -->
+        <div class="mobile-search-icon" onclick="toggleSearch()">
+            <i class="fas fa-search"></i>
+        </div>
         <!-- Mobile dropdown menu -->
         <div class="mobile-nav-dropdown" id="mobileNavDropdown">
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../recipe-index.html">Recipe Index</a></li>
-                <li><a href="../about.html">About Me</a></li>
+                <li><a href="../index.html#about">About Me</a></li>
                 <li><a href="../work-with-me.html">Work With Me</a></li>
-                <li><a href="../contact.html">Contact Me</a></li>
             </ul>
         </div>
         <div class="social-icons">
-            <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram for daily healthy dessert inspiration"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="pinterest" aria-label="Save healthy dessert recipes on Pinterest"><i class="fab fa-pinterest"></i></a>
             <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="tiktok" aria-label="Watch quick healthy dessert recipes on TikTok"><i class="fab fa-tiktok"></i></a>
             <a href="mailto:yourwellnessgirly@gmail.com" class="email" aria-label="Contact yourwellnessgirly via email"><i class="fas fa-envelope"></i></a>
         </div>
     </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Recipes</h3>
+                <div class="search-close" onclick="closeSearch()">&times;</div>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search for recipes, ingredients, or keywords...">
+            <div class="search-results" id="searchResults">
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Breadcrumbs -->
     <nav class="breadcrumbs" aria-label="Breadcrumb navigation">
@@ -308,372 +727,305 @@
     <section class="recipe-hero">
         <div class="recipe-hero-content">
             <div class="recipe-hero-text">
-                <h1>No-Bake Mango Yogurt Chocolate Bites</h1>
-                <p class="recipe-subtitle">Your new favorite 3-ingredient summer dessert! Refreshing mango and Greek yogurt wrapped in rich dark chocolate - naturally sweetened and ready in just 10 minutes prep.</p>
+                <h1 class="recipe-title">No-Bake Mango Yogurt Chocolate Bites</h1>
+                <p class="recipe-description">These refreshing mango yogurt chocolate bites are the perfect summer treat that takes just 10 minutes to prep! With only 3 simple ingredients, they're naturally sweetened and packed with wholesome goodness that'll satisfy your sweet tooth while keeping you cool.</p>
 
-                <div class="recipe-meta-badges">
-                    <span class="badge prep-time">
+                <!-- Meta Info Row -->
+                <div class="recipe-meta">
+                    <div class="meta-item">
                         <i class="far fa-clock"></i>
-                        10 min prep
-                    </span>
-                    <span class="badge servings">
-                        <i class="fas fa-utensils"></i>
-                        6 bites
-                    </span>
-                    <span class="badge difficulty">
-                        <i class="fas fa-chart-bar"></i>
-                        Easy
-                    </span>
-                    <span class="badge diet">
-                        <i class="fas fa-leaf"></i>
-                        Gluten-Free
-                    </span>
-                </div>
-
-                <div class="author-info">
-                    <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150" loading="lazy">
-                    <div class="author-text">
-                        <p><strong>Recipe by Dounia</strong></p>
-                        <div class="author-credentials">
-                            <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40" loading="lazy">
-                            <span>Certified Holistic Nutritionist</span>
-                        </div>
+                        <span class="meta-label">Prep</span>
+                        <span class="meta-value">10 min</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-fire"></i>
+                        <span class="meta-label">Cook</span>
+                        <span class="meta-value">0 min</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="far fa-clock"></i>
+                        <span class="meta-label">Total</span>
+                        <span class="meta-value">2h 10 min</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-users"></i>
+                        <span class="meta-label">Servings</span>
+                        <span class="meta-value">12 bites</span>
                     </div>
                 </div>
+
+                <!-- Diet Badges -->
+                <div class="diet-badges">
+                    <span class="badge vegan">Vegan</span>
+                    <span class="badge gluten-free">Gluten-Free</span>
+                    <span class="badge dairy-free">Dairy-Free</span>
+                    <span class="badge no-bake">No-Bake</span>
+                </div>
+
+                <!-- Difficulty Badge -->
+                <div class="difficulty-badge">
+                    <span class="difficulty easy">Easy</span>
+                </div>
+
+                <!-- Jump to Recipe Button -->
+                <button class="jump-to-recipe-btn" onclick="scrollToRecipe()">
+                    <i class="fas fa-arrow-down"></i> Jump to Recipe
+                </button>
             </div>
 
             <div class="recipe-hero-image">
-                <img src="../images/recipes/mango-yogurt-bites-hero.jpg" alt="No-bake mango yogurt chocolate bites arranged on white marble surface with fresh mango slices and dark chocolate pieces scattered around" width="735" height="1102">
+                <img src="../images/recipes/mango-yogurt-bites-hero.jpg" alt="No-bake mango yogurt chocolate bites arranged on a white marble surface with fresh mango slices and dark chocolate pieces scattered around" width="735" height="1102">
             </div>
         </div>
     </section>
 
-    <!-- Recipe Content -->
-    <div class="recipe-content">
-        <div class="recipe-main">
-            <!-- Recipe Card -->
-            <div class="recipe-card">
-                <div class="recipe-card-header">
-                    <h2>Recipe Summary</h2>
-                    <div class="recipe-rating">
-                        <div class="stars">★★★★★</div>
-                        <span class="rating-text">4.9 out of 5 (127 reviews)</span>
-                    </div>
+    <!-- Recipe Content Container -->
+    <div class="recipe-content-container">
+        <!-- About Me Sidebar -->
+        <aside class="about-me-sidebar">
+            <div class="about-me-content">
+                <div class="about-me-image">
+                    <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
+                </div>
+                <h3>hi, i'm Dounia!</h3>
+                <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
+                <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
+
+                <a href="../about.html" class="more-about-btn">More about me &rarr;</a>
+
+                <div class="afpa-credential">
+                    <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40">
                 </div>
 
-                <div class="recipe-card-body">
-                    <div class="recipe-timing">
-                        <div class="time-item">
-                            <strong>Prep Time:</strong> 10 minutes
-                        </div>
-                        <div class="time-item">
-                            <strong>Freeze Time:</strong> 2 hours
-                        </div>
-                        <div class="time-item">
-                            <strong>Total Time:</strong> 2 hours 10 minutes
-                        </div>
-                        <div class="time-item">
-                            <strong>Servings:</strong> <span class="serving-size" data-original="6">6</span> bites
-                        </div>
-                    </div>
-
-                    <img src="../images/recipes/mango-yogurt-bites-card.jpg" alt="Close-up of no-bake mango yogurt chocolate bite showing layers of chocolate and creamy mango yogurt filling" width="400" height="300" loading="lazy">
-
-                    <div class="recipe-description">
-                        <p>These <strong>no-bake mango yogurt chocolate bites</strong> are the perfect summer refresher! With just 3 simple ingredients, you'll create a dessert that's naturally sweetened, protein-packed, and absolutely irresistible. The combination of tropical mango, creamy Greek yogurt, and rich dark chocolate creates the ultimate healthy treat.</p>
-                    </div>
+                <div class="about-social">
+                    <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="about-social-btn instagram" aria-label="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="about-social-btn tiktok" aria-label="Watch on TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
                 </div>
-            </div>
-
-            <!-- Ingredients Section -->
-            <section class="ingredients-section">
-                <h2>Ingredients</h2>
-                <p class="ingredients-intro">Simple, wholesome ingredients for maximum flavor!</p>
-
-                <div class="ingredients-list">
-                    <div class="ingredient-item">
-                        <label>
-                            <input type="checkbox">
-                            <span class="ingredient-text">
-                                <span class="amount" data-amount="1">1</span> large ripe mango, diced
-                            </span>
-                        </label>
-                        <div class="ingredient-note">Choose a ripe mango that gives slightly to pressure - it should smell fragrant and sweet</div>
-                    </div>
-                    <div class="ingredient-item">
-                        <label>
-                            <input type="checkbox">
-                            <span class="ingredient-text">
-                                <span class="amount" data-amount="1">1</span> cup Greek yogurt (plain, unsweetened)
-                            </span>
-                        </label>
-                        <div class="ingredient-note">Use thick, full-fat Greek yogurt for the best texture. For vegan option, substitute with coconut yogurt</div>
-                    </div>
-                    <div class="ingredient-item">
-                        <label>
-                            <input type="checkbox">
-                            <span class="ingredient-text">
-                                <span class="amount" data-amount="3">3</span> oz dark chocolate (70% cocoa or sugar-free)
-                            </span>
-                        </label>
-                        <div class="ingredient-note">Choose high-quality dark chocolate. For refined sugar-free, opt for stevia-sweetened dark chocolate</div>
-                    </div>
-                    <div class="ingredient-item">
-                        <label>
-                            <input type="checkbox">
-                            <span class="ingredient-text">Pinch of sea salt for sprinkling</span>
-                        </label>
-                        <div class="ingredient-note">Flaky sea salt enhances the chocolate and mango flavors beautifully</div>
-                    </div>
-                </div>
-
-                <div class="serving-adjuster">
-                    <h3>Adjust Servings</h3>
-                    <div class="serving-controls">
-                        <button onclick="adjustServings(0.5)" class="serving-btn">1/2x</button>
-                        <button onclick="adjustServings(1)" class="serving-btn active">1x</button>
-                        <button onclick="adjustServings(2)" class="serving-btn">2x</button>
-                        <button onclick="adjustServings(3)" class="serving-btn">3x</button>
-                    </div>
-                    <p>Recipe scales to <span class="current-servings">6</span> bites</p>
-                </div>
-            </section>
-
-            <!-- Instructions Section -->
-            <section class="instructions-section">
-                <h2>Instructions</h2>
-
-                <div class="instruction-step" id="step1">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Prepare chocolate base</h3>
-                        <p>Melt the dark chocolate using a double boiler or microwave in 30-second intervals, stirring between each interval. Pour melted chocolate into your silicone molds or ice cube trays, covering the bottom evenly. Flash freeze for 10 minutes until set.</p>
-                        <div class="step-tip">
-                            <i class="fas fa-lightbulb"></i>
-                            <strong>Tip:</strong> Make sure chocolate is completely melted and smooth for the best coating
-                        </div>
-                    </div>
-                </div>
-
-                <div class="instruction-step" id="step2">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Prepare mango yogurt mixture</h3>
-                        <p>In a medium bowl, combine Greek yogurt and diced mango. Gently fold together until evenly mixed, keeping mango chunks intact for texture.</p>
-                        <div class="step-tip">
-                            <i class="fas fa-lightbulb"></i>
-                            <strong>Tip:</strong> Don't overmix - you want visible mango pieces for bursts of flavor
-                        </div>
-                    </div>
-                </div>
-
-                <div class="instruction-step" id="step3">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Assemble the bites</h3>
-                        <p>Remove molds from freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the chocolate base, filling about 3/4 full.</p>
-                        <div class="step-tip">
-                            <i class="fas fa-lightbulb"></i>
-                            <strong>Tip:</strong> Leave room at the top for the final chocolate layer
-                        </div>
-                    </div>
-                </div>
-
-                <div class="instruction-step" id="step4">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Add chocolate top</h3>
-                        <p>Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top, sealing the edges. Sprinkle with a pinch of flaky sea salt.</p>
-                        <div class="step-tip">
-                            <i class="fas fa-lightbulb"></i>
-                            <strong>Tip:</strong> The sea salt elevates the chocolate and mango flavors - don't skip it!
-                        </div>
-                    </div>
-                </div>
-
-                <div class="instruction-step" id="step5">
-                    <div class="step-number">5</div>
-                    <div class="step-content">
-                        <h3>Freeze and serve</h3>
-                        <p>Freeze for 2 hours or until completely set throughout. Remove from molds by gently pressing the bottom or twisting silicone molds. Serve immediately for best texture.</p>
-                        <div class="step-tip">
-                            <i class="fas fa-lightbulb"></i>
-                            <strong>Tip:</strong> Let them sit at room temperature for 1-2 minutes before serving for easier eating
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Recipe Notes -->
-            <section class="recipe-notes">
-                <h2>Recipe Notes & Tips</h2>
-
-                <div class="notes-grid">
-                    <div class="note-item">
-                        <h3><i class="fas fa-leaf"></i> Make it Vegan</h3>
-                        <p>Substitute Greek yogurt with coconut yogurt for a dairy-free version. Coconut pairs beautifully with mango and creates an equally creamy texture.</p>
-                    </div>
-
-                    <div class="note-item">
-                        <h3><i class="fas fa-snowflake"></i> Storage</h3>
-                        <p><strong>Refrigerator:</strong> Up to 3 days<br>
-                        <strong>Freezer:</strong> Up to 1 week<br>
-                        Store in airtight container with parchment between layers.</p>
-                    </div>
-
-                    <div class="note-item">
-                        <h3><i class="fas fa-utensils"></i> Mold Options</h3>
-                        <p>Silicone molds work best for easy removal. You can also use ice cube trays, mini muffin tins with liners, or chocolate molds for different shapes.</p>
-                    </div>
-
-                    <div class="note-item">
-                        <h3><i class="fas fa-apple-alt"></i> Ingredient Swaps</h3>
-                        <p><strong>Mango:</strong> Can use frozen (thawed and drained)<br>
-                        <strong>Chocolate:</strong> Use any % cocoa you prefer<br>
-                        <strong>Yogurt:</strong> Any thick, plain yogurt works</p>
-                    </div>
-                </div>
-
-                <div class="nutrition-info">
-                    <h3>Nutrition Information (per bite)</h3>
-                    <div class="nutrition-grid">
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Calories</span>
-                            <span class="nutrition-value">85</span>
-                        </div>
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Protein</span>
-                            <span class="nutrition-value">4g</span>
-                        </div>
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Carbs</span>
-                            <span class="nutrition-value">12g</span>
-                        </div>
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Fat</span>
-                            <span class="nutrition-value">3g</span>
-                        </div>
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Sugar</span>
-                            <span class="nutrition-value">11g</span>
-                        </div>
-                        <div class="nutrition-item">
-                            <span class="nutrition-label">Fiber</span>
-                            <span class="nutrition-value">1g</span>
-                        </div>
-                    </div>
-                    <p class="nutrition-note">*Nutritional values are estimates based on ingredients used</p>
-                </div>
-            </section>
-        </div>
-
-        <!-- Recipe Sidebar -->
-        <aside class="recipe-sidebar">
-            <div class="sidebar-section">
-                <h3>Quick Actions</h3>
-                <div class="recipe-actions">
-                    <button class="action-btn print-btn" onclick="printRecipe()">
-                        <i class="fas fa-print"></i>
-                        Print Recipe
-                    </button>
-                    <button class="action-btn share-btn" onclick="shareRecipe()">
-                        <i class="fas fa-share"></i>
-                        Share Recipe
-                    </button>
-                    <button class="action-btn save-btn" onclick="saveRecipe()">
-                        <i class="fas fa-heart"></i>
-                        Save Recipe
-                    </button>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Recipe Tags</h3>
-                <div class="recipe-tags">
-                    <span class="tag diet-tag">Gluten-Free</span>
-                    <span class="tag diet-tag">Refined Sugar-Free</span>
-                    <span class="tag category-tag">No-Bake</span>
-                    <span class="tag category-tag">Summer Desserts</span>
-                    <span class="tag ingredient-tag">Mango</span>
-                    <span class="tag ingredient-tag">Chocolate</span>
-                    <span class="tag ingredient-tag">Greek Yogurt</span>
-                    <span class="tag method-tag">3 Ingredients</span>
-                    <span class="tag method-tag">Meal Prep Friendly</span>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Perfect For</h3>
-                <ul class="perfect-for-list">
-                    <li><i class="fas fa-sun"></i> Summer entertaining</li>
-                    <li><i class="fas fa-dumbbell"></i> Post-workout snack</li>
-                    <li><i class="fas fa-baby"></i> Kid-friendly treat</li>
-                    <li><i class="fas fa-clock"></i> Quick dessert fix</li>
-                    <li><i class="fas fa-heart"></i> Healthy indulgence</li>
-                </ul>
             </div>
         </aside>
+
+        <!-- Recipe Content -->
+        <main class="recipe-content">
+        <!-- Story Section -->
+        <section class="recipe-story">
+            <h2>Why You'll Love These Chocolate Banana Bites</h2>
+            <p>Let me tell you about the day I discovered these magical little treats! I was craving something sweet but didn't want to derail my healthy eating goals. With just a few pantry staples, I whipped up these incredible banana bites that taste like they came from a fancy dessert shop. The combination of creamy almond butter, rich cocoa, and naturally sweet bananas creates the most satisfying flavor explosion.</p>
+
+            <p>What makes these bites truly special is their versatility. They're perfect for meal prep (hello, grab-and-go snacks!), impressive enough for entertaining, and kid-friendly too. Plus, they're naturally vegan and gluten-free, so everyone can enjoy them. The best part? No oven required! These no-bake beauties come together in just 15 minutes, making them perfect for those moments when you need a healthy treat ASAP.</p>
+
+            <p>I love keeping a batch in my fridge for afternoon energy dips or post-workout fuel. The natural sugars from the banana provide quick energy, while the almond butter adds protein and healthy fats to keep you satisfied. Trust me, once you try these, they'll become your new go-to healthy dessert!</p>
+        </section>
+
+        <!-- Watch Me Make It Button -->
+        <section class="watch-video-section">
+            <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener" class="watch-video-btn" data-video-url="">
+                Watch Me Make It 🎥
+            </a>
+            <div class="watch-follow-text">Follow along on socials!</div>
+        </section>
+
+        <!-- Recipe Card -->
+        <section class="recipe-card" id="recipe-card">
+            <div class="recipe-card-top">
+                <div class="recipe-card-info">
+                    <h2 class="recipe-card-title">No-Bake Mango Yogurt Chocolate Bites<br><span class="recipe-subtitle">(3 Ingredients, Gluten Free, Summer Dessert)</span></h2>
+
+                    <div class="recipe-rating">
+                        <span class="rating-text">Rate this recipe:</span>
+                        <div class="stars">
+                            <i class="fas fa-star" data-rating="1"></i>
+                            <i class="fas fa-star" data-rating="2"></i>
+                            <i class="fas fa-star" data-rating="3"></i>
+                            <i class="fas fa-star" data-rating="4"></i>
+                            <i class="fas fa-star" data-rating="5"></i>
+                        </div>
+                        <span class="rating-count">(127 ratings)</span>
+                    </div>
+
+                    <div class="recipe-meta-grid">
+                        <div class="meta-row">
+                            <span class="meta-label">author:</span>
+                            <span class="meta-value">YOURWELLNESSGIRLY</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">prep time:</span>
+                            <span class="meta-value">15</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">cook time:</span>
+                            <span class="meta-value">0</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="far fa-clock"></i>
+                            <span class="meta-label">total time:</span>
+                            <span class="meta-value">15 MINUTES</span>
+                        </div>
+                        <div class="meta-row">
+                            <i class="fas fa-utensils"></i>
+                            <span class="meta-label">yield:</span>
+                            <span class="meta-value">12 bites</span>
+                        </div>
+                    </div>
+
+                    <div class="recipe-action-buttons">
+                        <button class="action-btn pin-btn" onclick="shareOnPinterest()">
+                            <i class="fab fa-pinterest"></i> PIN RECIPE
+                        </button>
+                        <button class="action-btn share-btn" onclick="shareOnFacebook()">
+                            <i class="fab fa-facebook"></i> SHARE
+                        </button>
+                        <button class="action-btn tweet-btn" onclick="shareOnTwitter()">
+                            <i class="fab fa-twitter"></i> TWEET
+                        </button>
+                        <button class="action-btn print-btn" onclick="printRecipe()">
+                            <i class="fas fa-print"></i> PRINT RECIPE
+                        </button>
+                    </div>
+                </div>
+
+                <div class="recipe-card-image">
+                    <img src="../images/recipes/banana-bites-card.jpg" alt="Healthy chocolate banana bites arranged on a white plate" width="400" height="300">
+                </div>
+            </div>
+
+            <!-- Servings Adjuster -->
+            <div class="servings-adjuster">
+                <label>Servings:</label>
+                <button class="serving-btn minus" onclick="adjustServings(-1)">−</button>
+                <span class="serving-count">12</span>
+                <button class="serving-btn plus" onclick="adjustServings(1)">+</button>
+            </div>
+
+            <!-- Ingredients -->
+            <div class="ingredients-section">
+                <h3>Ingredients</h3>
+                <ul class="ingredients-list">
+                    <li>
+                        <input type="checkbox" id="ingredient-1">
+                        <label for="ingredient-1"><span class="amount">2</span> large ripe bananas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ingredient-2">
+                        <label for="ingredient-2"><span class="amount">1/4</span> cup natural almond butter</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ingredient-3">
+                        <label for="ingredient-3"><span class="amount">2</span> tablespoons unsweetened cocoa powder</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ingredient-4">
+                        <label for="ingredient-4"><span class="amount">1</span> tablespoon pure maple syrup</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ingredient-5">
+                        <label for="ingredient-5"><span class="amount">1/4</span> cup mini dark chocolate chips (vegan if desired)</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Instructions -->
+            <div class="instructions-section">
+                <h3>Instructions</h3>
+                <ul class="instructions-list">
+                    <li>
+                        <strong>Prepare bananas:</strong> Peel and slice bananas into thick rounds, about 1/2 inch thick. Place on a parchment-lined baking sheet.
+                    </li>
+                    <li>
+                        <strong>Make chocolate mixture:</strong> In a small bowl, mix together almond butter, cocoa powder, and maple syrup until smooth and well combined.
+                    </li>
+                    <li>
+                        <strong>Assemble bites:</strong> Spread a small amount of chocolate mixture on half of the banana slices, then top with remaining banana slices to create sandwiches.
+                    </li>
+                    <li>
+                        <strong>Add toppings:</strong> Press mini chocolate chips gently into the chocolate filling around the edges of each bite.
+                    </li>
+                    <li>
+                        <strong>Chill and serve:</strong> Place in refrigerator for 10 minutes to set, then serve immediately or store in an airtight container for up to 3 days.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Nutrition Facts -->
+            <div class="nutrition-section">
+                <h3>Nutrition Facts</h3>
+                <div class="nutrition-table">
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Calories</span>
+                        <span class="nutrition-value">95</span>
+                    </div>
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Total Fat</span>
+                        <span class="nutrition-value">5g</span>
+                    </div>
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Carbohydrates</span>
+                        <span class="nutrition-value">12g</span>
+                    </div>
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Fiber</span>
+                        <span class="nutrition-value">2g</span>
+                    </div>
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Protein</span>
+                        <span class="nutrition-value">3g</span>
+                    </div>
+                    <div class="nutrition-item">
+                        <span class="nutrition-label">Sugar</span>
+                        <span class="nutrition-value">8g</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4 class="faq-question">How should I store these banana bites?</h4>
+                        <p class="faq-answer">Store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze for up to 1 month in a freezer-safe container.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I make these nut-free?</h4>
+                        <p class="faq-answer">Yes! Substitute the almond butter with sunflower seed butter or tahini for a completely nut-free version that's still delicious.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these banana bites kid-friendly?</h4>
+                        <p class="faq-answer">Absolutely! Kids love these sweet treats, and they're a healthy alternative to processed snacks. The natural sweetness from bananas makes them appealing to little ones.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I use different sweeteners?</h4>
+                        <p class="faq-answer">Yes, you can substitute maple syrup with honey, agave nectar, or date syrup. Start with the same amount and adjust to taste.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I freeze these banana bites?</h4>
+                        <p class="faq-answer">Yes! These freeze beautifully for up to 1 month. Place them in a single layer on a baking sheet to freeze individually, then transfer to a freezer bag.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">What's the best banana ripeness for this recipe?</h4>
+                        <p class="faq-answer">Use ripe bananas that are yellow with a few brown spots. They should be sweet and soft but not mushy for the best flavor and texture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     </div>
-
-    <!-- FAQ Section -->
-    <section class="faq-section">
-        <h2>Frequently Asked Questions</h2>
-
-        <div class="faq-item">
-            <button class="faq-question" onclick="toggleFaq(this)">
-                Can I make these mango yogurt bites vegan?
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Yes! Simply substitute the Greek yogurt with your favorite plant-based yogurt. Coconut yogurt works particularly well and complements the mango flavor beautifully.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" onclick="toggleFaq(this)">
-                How long do these mango chocolate bites last?
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture, serve directly from the freezer.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" onclick="toggleFaq(this)">
-                What type of mold should I use?
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Silicone molds work best as they're easy to remove the bites from. You can also use ice cube trays or mini muffin tins lined with paper liners.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" onclick="toggleFaq(this)">
-                Can I use frozen mango instead of fresh?
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Yes! Thaw frozen mango completely and drain excess liquid before mixing with yogurt for the best texture.</p>
-            </div>
-        </div>
-    </section>
 
     <!-- Related Recipes -->
     <section class="related-recipes">
         <h2>You Might Also Like</h2>
         <div class="related-grid-small">
-            <a href="banana-bites.html" class="recipe-card-small">
-                <img src="../images/recipes/banana-bites-card.jpg" alt="Healthy chocolate banana bites arranged on white plate" loading="lazy">
-                <div class="recipe-info">
-                    <h3>Chocolate Banana Bites</h3>
-                    <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 15 min</span>
-                        <span class="difficulty">Easy</span>
-                    </div>
-                </div>
-            </a>
             <a href="chia-cups.html" class="recipe-card-small">
                 <img src="../images/recipes/chia-cups-thumb.jpg" alt="Strawberry chia pudding cups with fresh fruit topping" loading="lazy">
                 <div class="recipe-info">
@@ -687,29 +1039,55 @@
             <a href="protein-balls.html" class="recipe-card-small">
                 <img src="../images/recipes/protein-balls-thumb.jpg" alt="No-bake protein energy balls with oats and peanut butter" loading="lazy">
                 <div class="recipe-info">
-                    <h3>Protein Energy Balls</h3>
+                    <h3>Peanut Butter Protein Balls</h3>
                     <div class="recipe-meta">
                         <span class="time"><i class="far fa-clock"></i> 20 min</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
+            <a href="avocado-brownies.html" class="recipe-card-small">
+                <img src="../images/recipes/avocado-brownies-thumb.jpg" alt="Fudgy avocado brownies cut into squares" loading="lazy">
+                <div class="recipe-info">
+                    <h3>Fudgy Avocado Brownies</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 45 min</span>
+                        <span class="difficulty">Medium</span>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
 
-    <!-- About Author -->
-    <section class="author-section">
-        <h2>About the Recipe Creator</h2>
-        <div class="author-card">
-            <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150" loading="lazy">
-            <div class="author-info">
-                <h3>Dounia</h3>
-                <div class="author-credentials">
-                    <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40" loading="lazy">
-                    <span>Certified Holistic Nutritionist</span>
-                </div>
-                <p>I'm passionate about creating healthy desserts that don't compromise on taste! As a certified holistic nutritionist with a master's in nutrition, I develop recipes that satisfy your sweet tooth while supporting your wellness goals.</p>
-                <a href="../about.html" class="author-link">Learn more about me →</a>
+    <!-- Mobile About Me Section (only visible on mobile) -->
+    <section class="mobile-about-me">
+        <div class="about-me-content">
+            <div class="about-me-image">
+                <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
+            </div>
+            <h3>hi, i'm Dounia!</h3>
+            <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
+            <p>Here, you'll find healthy dessert recipes that satisfy your sweet tooth and intentionally support your wellness goals — <em>because everyone deserves a sweet treat. 💗</em></p>
+
+            <a href="../about.html" class="more-about-btn">More about me &rarr;</a>
+
+            <div class="afpa-credential">
+                <img src="../images/profile/AFPA.png" alt="AFPA Certified Holistic Nutritionist" width="80" height="40">
+            </div>
+
+            <div class="about-social">
+                <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="about-social-btn instagram" aria-label="Follow on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="about-social-btn tiktok" aria-label="Watch on TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
+                    <i class="fab fa-pinterest"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -731,12 +1109,11 @@
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Recipe Categories</h4>
+                <h4>Legal</h4>
                 <ul>
-                    <li><a href="../categories/vegan.html">Vegan Desserts</a></li>
-                    <li><a href="../categories/no-bake.html">No-Bake Treats</a></li>
-                    <li><a href="../categories/gluten-free.html">Gluten-Free</a></li>
-                    <li><a href="../recipe-index.html">All Recipes</a></li>
+                    <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    <li><a href="../terms-of-use.html">Terms of Use</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -754,143 +1131,9 @@
         </div>
     </footer>
 
-    <!-- Recipe Interaction Scripts -->
+    <!-- JavaScript -->
     <script>
-        // Recipe serving adjustment
-        let originalServings = 6;
-        let currentMultiplier = 1;
-
-        function adjustServings(multiplier) {
-            currentMultiplier = multiplier;
-            const newServings = Math.round(originalServings * multiplier);
-
-            // Update serving displays
-            document.querySelectorAll('.serving-size').forEach(el => {
-                el.textContent = newServings;
-            });
-            document.querySelector('.current-servings').textContent = newServings;
-
-            // Update ingredient amounts
-            document.querySelectorAll('.amount').forEach(el => {
-                const originalAmount = parseFloat(el.dataset.amount);
-                const newAmount = originalAmount * multiplier;
-                el.textContent = newAmount % 1 === 0 ? newAmount : newAmount.toFixed(1);
-            });
-
-            // Update active button
-            document.querySelectorAll('.serving-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-
-            // Track serving adjustment
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'recipe_serving_adjust', {
-                    event_category: 'Recipe Interaction',
-                    event_label: 'Mango Yogurt Bites',
-                    multiplier: multiplier,
-                    custom_parameter_1: 'serving_adjust'
-                });
-            }
-        }
-
-        // FAQ toggle functionality
-        function toggleFaq(button) {
-            const faqItem = button.parentElement;
-            const answer = faqItem.querySelector('.faq-answer');
-            const icon = button.querySelector('.fa-chevron-down');
-
-            // Toggle active state
-            faqItem.classList.toggle('active');
-
-            // Rotate icon
-            icon.style.transform = faqItem.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
-
-            // Show/hide answer
-            if (faqItem.classList.contains('active')) {
-                answer.style.maxHeight = answer.scrollHeight + 'px';
-                answer.style.opacity = '1';
-            } else {
-                answer.style.maxHeight = '0';
-                answer.style.opacity = '0';
-            }
-
-            // Track FAQ interaction
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'faq_interact', {
-                    event_category: 'Recipe Engagement',
-                    event_label: button.textContent.trim(),
-                    recipe_name: 'Mango Yogurt Bites',
-                    custom_parameter_1: 'faq_click'
-                });
-            }
-        }
-
-        // Recipe action functions
-        function printRecipe() {
-            window.print();
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'recipe_print', {
-                    event_category: 'Recipe Action',
-                    event_label: 'Mango Yogurt Bites',
-                    custom_parameter_1: 'print_recipe'
-                });
-            }
-        }
-
-        function shareRecipe() {
-            if (navigator.share) {
-                navigator.share({
-                    title: 'No-Bake Mango Yogurt Chocolate Bites',
-                    text: 'Check out this amazing 3-ingredient healthy dessert!',
-                    url: window.location.href
-                });
-            } else {
-                navigator.clipboard.writeText(window.location.href);
-                alert('Recipe link copied to clipboard!');
-            }
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'recipe_share', {
-                    event_category: 'Recipe Action',
-                    event_label: 'Mango Yogurt Bites',
-                    custom_parameter_1: 'share_recipe'
-                });
-            }
-        }
-
-        function saveRecipe() {
-            // Toggle save state (would integrate with user accounts in real app)
-            const saveBtn = document.querySelector('.save-btn');
-            const icon = saveBtn.querySelector('i');
-
-            if (icon.classList.contains('fas')) {
-                icon.classList.remove('fas');
-                icon.classList.add('far');
-                saveBtn.innerHTML = '<i class="far fa-heart"></i> Save Recipe';
-                localStorage.setItem('saved_mango_bites', 'false');
-            } else {
-                icon.classList.remove('far');
-                icon.classList.add('fas');
-                saveBtn.innerHTML = '<i class="fas fa-heart"></i> Recipe Saved!';
-                localStorage.setItem('saved_mango_bites', 'true');
-            }
-
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'recipe_save', {
-                    event_category: 'Recipe Action',
-                    event_label: 'Mango Yogurt Bites',
-                    custom_parameter_1: 'save_recipe'
-                });
-            }
-        }
-
-        // Check saved state on load
-        document.addEventListener('DOMContentLoaded', function() {
-            if (localStorage.getItem('saved_mango_bites') === 'true') {
-                const saveBtn = document.querySelector('.save-btn');
-                saveBtn.innerHTML = '<i class="fas fa-heart"></i> Recipe Saved!';
-            }
-        });
-
-        // Mobile hamburger menu JavaScript
+        // Mobile menu toggle function
         function toggleMobileMenu() {
             const dropdown = document.getElementById('mobileNavDropdown');
             dropdown.classList.toggle('show');
@@ -902,13 +1145,338 @@
             const hamburger = document.querySelector('.hamburger-menu');
 
             // Close if clicking outside menu
-            if (hamburger && !hamburger.contains(event.target) && !dropdown.contains(event.target)) {
+            if (!hamburger.contains(event.target) && !dropdown.contains(event.target)) {
                 dropdown.classList.remove('show');
             }
 
             // Close if clicking on a menu item (for same-page navigation)
             if (event.target.tagName === 'A' && dropdown.contains(event.target)) {
                 dropdown.classList.remove('show');
+            }
+        });
+
+        // Search functionality
+        const recipeDatabase = [
+            {
+                title: "Healthy Chocolate Banana Bites",
+                url: "../recipes/banana-bites.html",
+                description: "Easy 3-ingredient no-bake mango yogurt chocolate bites. Refreshing summer dessert that's gluten-free and naturally sweetened.",
+                keywords: ["chocolate", "banana", "no-bake", "vegan", "gluten-free", "healthy", "dessert", "15 minutes", "5 ingredients"]
+            },
+            {
+                title: "Strawberry Chia Cups",
+                url: "../recipes/chia-cups.html",
+                description: "Creamy strawberry chia pudding cups perfect for breakfast or dessert.",
+                keywords: ["strawberry", "chia", "pudding", "breakfast", "healthy", "vegan", "gluten-free"]
+            }
+            // Add more recipes as needed
+        ];
+
+        function toggleSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            searchOverlay.classList.add('show');
+            setTimeout(() => {
+                searchInput.focus();
+            }, 100);
+        }
+
+        function closeSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+
+            searchOverlay.classList.remove('show');
+            searchInput.value = '';
+            document.getElementById('searchResults').innerHTML = `
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            `;
+        }
+
+        // Search input functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const searchResults = document.getElementById('searchResults');
+
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
+
+                if (query === '') {
+                    searchResults.innerHTML = `
+                        <div style="text-align: center; color: #666; padding: 1rem;">
+                            Start typing to search recipes...
+                        </div>
+                    `;
+                    return;
+                }
+
+                const results = recipeDatabase.filter(recipe => {
+                    return recipe.title.toLowerCase().includes(query) ||
+                           recipe.description.toLowerCase().includes(query) ||
+                           recipe.keywords.some(keyword => keyword.toLowerCase().includes(query));
+                });
+
+                if (results.length === 0) {
+                    searchResults.innerHTML = `
+                        <div style="text-align: center; color: #666; padding: 1rem;">
+                            No recipes found for "${query}"
+                        </div>
+                    `;
+                } else {
+                    searchResults.innerHTML = results.map(recipe => `
+                        <a href="${recipe.url}" class="search-result-item" onclick="closeSearch()">
+                            <div class="search-result-title">${recipe.title}</div>
+                            <div class="search-result-description">${recipe.description}</div>
+                        </a>
+                    `).join('');
+                }
+            });
+        });
+
+        // Close search when clicking outside
+        document.addEventListener('click', function(event) {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchContainer = document.querySelector('.search-container');
+
+            if (searchOverlay.classList.contains('show') && !searchContainer.contains(event.target)) {
+                closeSearch();
+            }
+        });
+
+        // Scroll to recipe function with tracking
+        function scrollToRecipe() {
+            trackJumpToRecipe();
+            document.getElementById('recipe-card').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Print recipe function with tracking
+        function printRecipe() {
+            trackButtonClick('utility', 'Print Recipe');
+            window.print();
+        }
+
+        // Google Analytics Event Tracking Functions
+        function trackButtonClick(buttonType, buttonLabel) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'recipe_interaction', {
+                    event_category: 'Recipe Engagement',
+                    event_label: buttonLabel,
+                    button_type: buttonType,
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'button_click',
+                    custom_parameter_2: 'recipe_engagement'
+                });
+            }
+        }
+
+        function trackJumpToRecipe() {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'jump_to_recipe', {
+                    event_category: 'Recipe Navigation',
+                    event_label: 'Jump to Recipe Button',
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'navigation',
+                    custom_parameter_2: 'recipe_card'
+                });
+            }
+        }
+
+        function trackRecipeCardScroll() {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'recipe_card_reached', {
+                    event_category: 'Recipe Engagement',
+                    event_label: 'Recipe Card Viewed',
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'scroll_depth',
+                    custom_parameter_2: 'recipe_engagement'
+                });
+            }
+        }
+
+        // Social sharing functions with tracking
+        function shareOnPinterest() {
+            trackButtonClick('social_share', 'Pinterest Share');
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent('Healthy Chocolate Banana Bites Recipe - 15 Minutes!');
+            const image = encodeURIComponent('https://yourwellnessgirly.com/images/recipes/mango-yogurt-bites-hero.jpg');
+            window.open(`https://pinterest.com/pin/create/button/?url=${url}&description=${title}&media=${image}`, '_blank', 'width=600,height=400');
+        }
+
+        function shareOnFacebook() {
+            trackButtonClick('social_share', 'Facebook Share');
+            const url = encodeURIComponent(window.location.href);
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
+        }
+
+        function shareOnTwitter() {
+            trackButtonClick('social_share', 'Twitter Share');
+            const url = encodeURIComponent(window.location.href);
+            const text = encodeURIComponent('Just found this amazing healthy chocolate banana bites recipe! Only 5 ingredients and 15 minutes 🍌🍫');
+            window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400');
+        }
+
+        // Star rating functionality
+        document.querySelectorAll('.star-rating .stars i').forEach(star => {
+            star.addEventListener('click', function() {
+                const rating = this.getAttribute('data-rating');
+                const stars = document.querySelectorAll('.star-rating .stars i');
+
+                stars.forEach((star, index) => {
+                    if (index < rating) {
+                        star.classList.add('active');
+                    } else {
+                        star.classList.remove('active');
+                    }
+                });
+
+                // Here you would typically send the rating to your backend
+                console.log('Rating submitted:', rating);
+            });
+        });
+
+        // Servings adjuster functionality
+        let servings = 12;
+        const baseAmounts = [2, 0.25, 2, 1, 0.25]; // Base amounts for 12 servings
+
+        function adjustServings(change) {
+            const newServings = servings + change;
+            if (newServings < 1 || newServings > 50) return;
+
+            servings = newServings;
+            document.querySelector('.serving-count').textContent = servings;
+
+            // Update ingredient amounts
+            const multiplier = servings / 12;
+            const amounts = document.querySelectorAll('.ingredients-list .amount');
+
+            amounts.forEach((amount, index) => {
+                const newAmount = (baseAmounts[index] * multiplier).toFixed(2);
+                // Remove trailing zeros and decimal point if not needed
+                amount.textContent = parseFloat(newAmount).toString();
+            });
+        }
+
+        // Ingredient checkbox persistence
+        document.querySelectorAll('.ingredients-list input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                const label = this.nextElementSibling;
+                if (this.checked) {
+                    label.style.textDecoration = 'line-through';
+                    label.style.opacity = '0.6';
+                } else {
+                    label.style.textDecoration = 'none';
+                    label.style.opacity = '1';
+                }
+            });
+        });
+
+        // Video URL configuration with tracking
+        const videoBtn = document.querySelector('.watch-video-btn');
+        if (videoBtn) {
+            // Example: Set custom video URL for this recipe
+            const recipeVideoUrl = "https://www.tiktok.com/@yourwellnessgirly/video/banana-bites-recipe";
+            videoBtn.href = recipeVideoUrl;
+
+            // Track video clicks
+            videoBtn.addEventListener('click', function() {
+                trackButtonClick('video', 'Watch Recipe Video');
+                console.log('Recipe video clicked:', recipeVideoUrl);
+            });
+        }
+
+        // Scroll depth and engagement tracking
+        let recipeCardTracked = false;
+        let scrollDepthTracked = {
+            '25': false,
+            '50': false,
+            '75': false,
+            '100': false
+        };
+
+        window.addEventListener('scroll', function() {
+            const scrolled = (window.pageYOffset || document.documentElement.scrollTop);
+            const maxHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = Math.round((scrolled / maxHeight) * 100);
+
+            // Track scroll depth milestones
+            if (scrollPercent >= 25 && !scrollDepthTracked['25']) {
+                scrollDepthTracked['25'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '25% Scroll Depth',
+                        percent_scrolled: 25,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 50 && !scrollDepthTracked['50']) {
+                scrollDepthTracked['50'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '50% Scroll Depth',
+                        percent_scrolled: 50,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 75 && !scrollDepthTracked['75']) {
+                scrollDepthTracked['75'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '75% Scroll Depth',
+                        percent_scrolled: 75,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            if (scrollPercent >= 90 && !scrollDepthTracked['100']) {
+                scrollDepthTracked['100'] = true;
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'scroll', {
+                        event_category: 'Page Engagement',
+                        event_label: '100% Scroll Depth',
+                        percent_scrolled: 100,
+                        custom_parameter_1: 'scroll_depth'
+                    });
+                }
+            }
+
+            // Track when recipe card is reached
+            const recipeCard = document.getElementById('recipe-card');
+            if (recipeCard && !recipeCardTracked) {
+                const rect = recipeCard.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    recipeCardTracked = true;
+                    trackRecipeCardScroll();
+                }
+            }
+        });
+
+        // Track page engagement time
+        let startTime = Date.now();
+        let engagementTracked = false;
+
+        window.addEventListener('beforeunload', function() {
+            const timeSpent = Math.round((Date.now() - startTime) / 1000);
+            if (timeSpent >= 30 && !engagementTracked && typeof gtag !== 'undefined') {
+                engagementTracked = true;
+                gtag('event', 'page_engagement_time', {
+                    event_category: 'Page Engagement',
+                    event_label: 'Time on Page',
+                    time_spent_seconds: timeSpent,
+                    recipe_name: 'Healthy Chocolate Banana Bites',
+                    custom_parameter_1: 'engagement_time'
+                });
             }
         });
     </script>

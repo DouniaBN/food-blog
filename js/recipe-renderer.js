@@ -100,8 +100,14 @@ class RecipeRenderer {
         // Update hero section
         this.renderHero(recipe);
 
+        // Update story section
+        this.renderStory(recipe);
+
         // Update recipe card
         this.renderRecipeCard(recipe);
+
+        // Update FAQ section
+        this.renderFAQ(recipe);
 
         // Update related recipes
         this.renderRelatedRecipes(recipe);
@@ -416,6 +422,74 @@ class RecipeRenderer {
                 }
             });
         });
+    }
+
+    renderStory(recipe) {
+        const storySection = document.querySelector('.recipe-story');
+        if (!storySection || !recipe.story) return;
+
+        const storyHTML = `
+            <h2>${recipe.title} <em style="font-weight: 300; color: #e0a5a5;">(${recipe.story.subtitle})</em></h2>
+            ${recipe.story.paragraphs.map(paragraph => `<p>${paragraph}</p>`).join('')}
+        `;
+
+        storySection.innerHTML = storyHTML;
+    }
+
+    renderFAQ(recipe) {
+        const faqSection = document.querySelector('.faq-section');
+        if (!faqSection || !recipe.faq) return;
+
+        const faqHTML = `
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-list">
+                ${recipe.faq.map(faqItem => `
+                    <div class="faq-item">
+                        <h4 class="faq-question">${faqItem.question}</h4>
+                        <p class="faq-answer">${faqItem.answer}</p>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        faqSection.innerHTML = faqHTML;
+    }
+
+    renderTips(recipe) {
+        // Optional: Add tips section to template if needed
+        const tipsSection = document.querySelector('.tips-section');
+        if (!tipsSection || !recipe.tips) return;
+
+        const tipsHTML = `
+            <h3>Pro Tips</h3>
+            <ul class="tips-list">
+                ${recipe.tips.map(tip => `<li>${tip}</li>`).join('')}
+            </ul>
+        `;
+
+        tipsSection.innerHTML = tipsHTML;
+    }
+
+    renderSubstitutions(recipe) {
+        // Optional: Add substitutions section to template if needed
+        const substitutionsSection = document.querySelector('.substitutions-section');
+        if (!substitutionsSection || !recipe.substitutions) return;
+
+        const substitutionsHTML = `
+            <h3>Substitutions</h3>
+            <div class="substitutions-list">
+                ${recipe.substitutions.map(sub => `
+                    <div class="substitution-item">
+                        <strong>${sub.ingredient}:</strong>
+                        <ul>
+                            ${sub.alternatives.map(alt => `<li>${alt}</li>`).join('')}
+                        </ul>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        substitutionsSection.innerHTML = substitutionsHTML;
     }
 
     renderNotFound() {

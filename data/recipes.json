@@ -157,6 +157,59 @@
           "hashtags": ["#healthydesserts", "#nobake", "#vegan", "#glutenfree", "#bananabites", "#chocolate", "#quickrecipes", "#yourwellnessgirly"]
         }
       },
+      "story": {
+        "subtitle": "why you'll love them",
+        "paragraphs": [
+          "These chocolate banana bites are the perfect guilt-free treat when you're craving something sweet! Made with just 5 wholesome ingredients, they're naturally sweetened with ripe bananas and maple syrup. The combination of creamy almond butter, rich cocoa powder, and mini chocolate chips creates the most satisfying bite that actually nourishes your body.",
+          "I love making a batch of these on Sunday for easy grab-and-go snacks throughout the week. They're perfect for post-workout fuel, afternoon energy boosts, or when you need something sweet that won't leave you crashing later. Plus, they're ready in just 15 minutes!"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Can I make these nut-free?",
+          "answer": "Yes! Simply substitute the almond butter with sunflower seed butter or tahini for a nut-free version that's just as delicious."
+        },
+        {
+          "question": "How should I store these bites?",
+          "answer": "Store in an airtight container in the refrigerator for up to 5 days. They actually taste even better after chilling!"
+        },
+        {
+          "question": "Can I freeze these for later?",
+          "answer": "Absolutely! These freeze beautifully for up to 3 months. Just thaw for 5-10 minutes before enjoying."
+        },
+        {
+          "question": "My mixture seems too wet, what should I do?",
+          "answer": "If your bananas are very ripe and the mixture is too wet, add a tablespoon of oat flour or coconut flour to help bind everything together."
+        },
+        {
+          "question": "Can I roll these in anything for extra flavor?",
+          "answer": "Yes! Try rolling them in shredded coconut, chopped nuts, or even more cocoa powder for extra indulgence."
+        }
+      ],
+      "tips": [
+        "Use very ripe bananas for the best natural sweetness and easiest mashing",
+        "Chill the mixture for 10 minutes if it's too soft to shape",
+        "A small cookie scoop makes perfectly uniform bites every time",
+        "These taste even better the next day after the flavors have melded"
+      ],
+      "substitutions": [
+        {
+          "ingredient": "Almond butter",
+          "alternatives": ["Peanut butter", "Sunflower seed butter (nut-free)", "Tahini"]
+        },
+        {
+          "ingredient": "Maple syrup",
+          "alternatives": ["Honey (not vegan)", "Agave nectar", "Date syrup"]
+        },
+        {
+          "ingredient": "Cocoa powder",
+          "alternatives": ["Cacao powder", "Chocolate protein powder (reduce liquid slightly)"]
+        },
+        {
+          "ingredient": "Mini chocolate chips",
+          "alternatives": ["Chopped dark chocolate", "Cacao nibs", "Dried fruit"]
+        }
+      ],
       "datePublished": "2025-01-10",
       "dateModified": "2025-01-10",
       "featured": true,
@@ -293,6 +346,58 @@
           "hashtags": ["#mangorecipe", "#nobake", "#summerdesser", "#3ingredient", "#healthydesserts", "#glutenfree", "#yogurtbites", "#yourwellnessgirly"]
         }
       },
+      "story": {
+        "subtitle": "why you'll love them",
+        "paragraphs": [
+          "If you're looking for the perfect no-bake sweet treat that actually satisfies your sweet tooth, you have to try these no bake mango yogurt bites. The natural sweetness of mango paired with creamy Greek yogurt (sneaky protein + probiotics) and topped with dark chocolate is such a good combo. The richness of the 70% dark chocolate balances out the sweetness of the mango perfectly, making these one of my favourite no-bake healthy desserts.",
+          "I love these all year round, but they're especially refreshing to make in the summer when you don't want to turn the oven on. Highly recommend meal prepping a batch and keeping them in the freezer for when your sweet tooth hits (just let them thaw for about 10 minutes before!). The best part? They're made with just 3 simple ingredients that you probably already have on hand."
+        ]
+      },
+      "faq": [
+        {
+          "question": "Can I make these mango yogurt bites vegan?",
+          "answer": "Yes! Simply substitute the Greek yogurt with your favorite plant-based yogurt. Coconut yogurt works particularly well and complements the mango flavor beautifully."
+        },
+        {
+          "question": "How long do these mango chocolate bites last?",
+          "answer": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture, serve directly from the freezer."
+        },
+        {
+          "question": "What type of mold should I use?",
+          "answer": "Silicone molds work best as they're easy to remove the bites from. You can also use ice cube trays or mini muffin tins lined with paper liners."
+        },
+        {
+          "question": "Can I use frozen mango instead of fresh?",
+          "answer": "Yes! Thaw frozen mango completely and drain excess liquid before mixing with yogurt for the best texture."
+        },
+        {
+          "question": "What chocolate should I use?",
+          "answer": "Use high-quality dark chocolate with 70% cocoa content. For refined sugar-free option, choose stevia-sweetened dark chocolate."
+        },
+        {
+          "question": "Can these be made ahead for meal prep?",
+          "answer": "Absolutely! These are perfect for meal prep. Make a batch and keep them in the freezer for up to a week. They make great grab-and-go summer treats."
+        }
+      ],
+      "tips": [
+        "Let the bites sit at room temperature for 1-2 minutes before serving for easier eating",
+        "Use the ripest mango you can find for the best natural sweetness",
+        "If your chocolate is too thick, add a tiny bit of coconut oil to thin it out"
+      ],
+      "substitutions": [
+        {
+          "ingredient": "Greek yogurt",
+          "alternatives": ["Coconut yogurt for vegan option", "Regular yogurt (though texture will be less thick)"]
+        },
+        {
+          "ingredient": "Fresh mango",
+          "alternatives": ["Frozen mango (thawed and drained)", "Canned mango (drained)"]
+        },
+        {
+          "ingredient": "Dark chocolate",
+          "alternatives": ["Sugar-free chocolate", "Milk chocolate for sweeter taste"]
+        }
+      ],
       "datePublished": "2026-01-13",
       "dateModified": "2026-01-13",
       "featured": true,

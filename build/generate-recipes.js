@@ -191,6 +191,17 @@ class RecipeGenerator {
         `;
     }
 
+    renderTips(recipe) {
+        if (!recipe.tips || recipe.tips.length === 0) return '';
+
+        return `
+            <h3>Pro Tips</h3>
+            <ul class="tips-list">
+                ${recipe.tips.map(tip => `<li>${tip}</li>`).join('')}
+            </ul>
+        `;
+    }
+
     renderFAQ(recipe) {
         if (!recipe.faq || recipe.faq.length === 0) return '';
 
@@ -293,6 +304,9 @@ class RecipeGenerator {
         html = html.replace('{{INGREDIENTS_LIST}}', this.renderIngredients(recipe));
         html = html.replace('{{INSTRUCTIONS_LIST}}', this.renderInstructions(recipe));
         html = html.replace('{{NUTRITION_TABLE}}', this.renderNutrition(recipe));
+
+        // Tips section
+        html = html.replace('{{TIPS_CONTENT}}', this.renderTips(recipe));
 
         // FAQ section
         html = html.replace('{{FAQ_CONTENT}}', this.renderFAQ(recipe));

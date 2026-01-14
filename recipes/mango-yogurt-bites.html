@@ -70,7 +70,7 @@
     "1 large ripe mango (diced)",
     "1 cup Greek yogurt (plain, unsweetened)",
     "3 oz dark chocolate (70% cocoa or sugar-free)",
-    "1 pinch sea salt (for sprinkling)"
+    "1 pinch sea salt (optional - for sprinkling)"
   ],
   "recipeInstructions": [
     {
@@ -239,6 +239,12 @@
           line-height: 1.5 !important;
         }
 
+        .ingredient-notes {
+          color: #888 !important;
+          font-style: italic !important;
+          font-weight: 300 !important;
+        }
+
         .faq-answer {
           font-weight: normal !important;
         }
@@ -306,6 +312,12 @@
       .faq-question {
         font-size: 1.3rem !important;
         line-height: 1.6 !important;
+      }
+
+      .ingredient-notes {
+        color: #888;
+        font-style: italic;
+        font-weight: 300;
       }
 
       .faq-answer {
@@ -847,28 +859,28 @@
                 <li>
                     <input type="checkbox" id="ingredient-1">
                     <label for="ingredient-1">
-                        <span class="amount">1</span> large ripe mango (diced)
+                        <span class="amount">1</span> large ripe mango <span class="ingredient-notes">(diced)</span>
                     </label>
                 </li>
             
                 <li>
                     <input type="checkbox" id="ingredient-2">
                     <label for="ingredient-2">
-                        <span class="amount">1</span> cup Greek yogurt (plain, unsweetened)
+                        <span class="amount">1</span> cup Greek yogurt <span class="ingredient-notes">(plain, unsweetened)</span>
                     </label>
                 </li>
             
                 <li>
                     <input type="checkbox" id="ingredient-3">
                     <label for="ingredient-3">
-                        <span class="amount">3</span> oz dark chocolate (70% cocoa or sugar-free)
+                        <span class="amount">3</span> oz dark chocolate <span class="ingredient-notes">(70% cocoa or sugar-free)</span>
                     </label>
                 </li>
             
                 <li>
                     <input type="checkbox" id="ingredient-4">
                     <label for="ingredient-4">
-                        <span class="amount">1</span> pinch sea salt (for sprinkling)
+                        <span class="amount">1</span> pinch sea salt <span class="ingredient-notes">(optional - for sprinkling)</span>
                     </label>
                 </li>
             

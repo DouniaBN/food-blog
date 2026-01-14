@@ -134,7 +134,7 @@ class RecipeGenerator {
         return recipe.ingredients.map((ingredient, index) => {
             const amount = ingredient.amount || '';
             const unit = ingredient.unit || '';
-            const notes = ingredient.notes ? ` (${ingredient.notes})` : '';
+            const notes = ingredient.notes ? ` <span class="ingredient-notes">(${ingredient.notes})</span>` : '';
 
             return `
                 <li>

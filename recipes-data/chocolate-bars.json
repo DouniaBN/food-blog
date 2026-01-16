@@ -1,0 +1,35 @@
+{
+  "id": "chocolate-bars",
+  "title": "Healthy Chocolate Bars",
+  "slug": "chocolate-bars",
+  "description": "Rich dark chocolate bars with almonds and sea salt.",
+  "image": {
+    "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Bars",
+    "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chocolate+Bars"
+  },
+  "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+  "timing": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "prepTimeDisplay": "15 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "15 minutes"
+  },
+  "servings": {"yield": "12", "unit": "bars"},
+  "difficulty": "Easy",
+  "categories": ["No-Bake", "Vegan", "Chocolate"],
+  "tags": ["chocolate", "bars", "almonds"],
+  "nutrition": {"calories": 180, "protein": "4g", "carbs": "14g", "fat": "12g", "fiber": "3g", "sugar": "10g"},
+  "ingredients": [],
+  "instructions": [],
+  "notes": [],
+  "equipment": [],
+  "seo": {"metaTitle": "Healthy Chocolate Bars Recipe", "metaDescription": "Dark chocolate bars", "keywords": ["chocolate bars"], "canonicalUrl": "/recipes/chocolate-bars"},
+  "social": {"pinterest": {"description": "Healthy chocolate bars!", "title": "Chocolate Bars"}, "instagram": {"caption": "Chocolate bars!", "hashtags": ["#chocolatebars"]}},
+  "datePublished": "2025-01-10",
+  "dateModified": "2025-01-10",
+  "featured": false,
+  "viral": false,
+  "popular": true
+}

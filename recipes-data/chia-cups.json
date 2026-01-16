@@ -1,0 +1,35 @@
+{
+  "id": "chia-cups",
+  "title": "Strawberry Chia Cups",
+  "slug": "chia-cups",
+  "description": "Creamy chia pudding cups with fresh strawberries and vanilla.",
+  "image": {
+    "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Strawberry+Chia+Cups",
+    "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chia+Cups"
+  },
+  "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "10 minutes"
+  },
+  "servings": {"yield": "4", "unit": "cups"},
+  "difficulty": "Easy",
+  "categories": ["No-Bake", "Vegan", "Gluten-Free"],
+  "tags": ["chia", "strawberry", "pudding"],
+  "nutrition": {"calories": 140, "protein": "4g", "carbs": "16g", "fat": "7g", "fiber": "8g", "sugar": "10g"},
+  "ingredients": [],
+  "instructions": [],
+  "notes": [],
+  "equipment": [],
+  "seo": {"metaTitle": "Strawberry Chia Cups Recipe", "metaDescription": "Creamy chia pudding", "keywords": ["chia cups"], "canonicalUrl": "/recipes/chia-cups"},
+  "social": {"pinterest": {"description": "Chia pudding cups!", "title": "Chia Cups"}, "instagram": {"caption": "Chia cups!", "hashtags": ["#chiacups"]}},
+  "datePublished": "2025-01-10",
+  "dateModified": "2025-01-10",
+  "featured": false,
+  "viral": false,
+  "popular": true
+}

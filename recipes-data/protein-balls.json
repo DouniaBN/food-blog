@@ -1,0 +1,35 @@
+{
+  "id": "protein-balls",
+  "title": "Protein Energy Balls",
+  "slug": "protein-balls",
+  "description": "No-bake protein energy balls with dates and nuts for sustained energy.",
+  "image": {
+    "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Protein+Energy+Balls",
+    "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Protein+Balls"
+  },
+  "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
+  "timing": {
+    "prepTime": "PT20M",
+    "cookTime": "PT0M",
+    "totalTime": "PT20M",
+    "prepTimeDisplay": "20 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "20 minutes"
+  },
+  "servings": {"yield": "16", "unit": "balls"},
+  "difficulty": "Easy",
+  "categories": ["No-Bake", "Vegan", "Protein"],
+  "tags": ["protein", "energy", "no-bake"],
+  "nutrition": {"calories": 120, "protein": "5g", "carbs": "12g", "fat": "6g", "fiber": "2g", "sugar": "8g"},
+  "ingredients": [],
+  "instructions": [],
+  "notes": [],
+  "equipment": [],
+  "seo": {"metaTitle": "Protein Energy Balls Recipe", "metaDescription": "Healthy protein balls", "keywords": ["protein balls"], "canonicalUrl": "/recipes/protein-balls"},
+  "social": {"pinterest": {"description": "Protein energy balls!", "title": "Protein Balls"}, "instagram": {"caption": "Energy balls!", "hashtags": ["#proteinballs"]}},
+  "datePublished": "2025-01-10",
+  "dateModified": "2025-01-10",
+  "featured": false,
+  "viral": false,
+  "popular": true
+}

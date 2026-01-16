@@ -1,9 +1,24 @@
 #!/usr/bin/env node
 
 /**
- * Static Recipe HTML Generator
- * Generates fully-rendered HTML files from recipes.json
- * For optimal SEO and immediate content visibility
+ * Static Recipe HTML Generator - Refactored for Individual Recipe Files
+ *
+ * NEW ARCHITECTURE:
+ * - Reads individual recipe JSON files from /recipes-data/ folder
+ * - Can generate ONE specific recipe or ALL recipes
+ * - Maintains same HTML output and SEO structure
+ * - Includes safety features for missing/malformed files
+ *
+ * USAGE:
+ *   node build/generate-recipes.js banana-bites    # Generate single recipe
+ *   node build/generate-recipes.js all             # Generate all recipes
+ *
+ * FOLDER STRUCTURE:
+ *   /recipes-data/
+ *     banana-bites.json       ← Individual recipe files
+ *     mango-yogurt-bites.json
+ *     strawberry-tarts.json
+ *     ...
  */
 
 const fs = require('fs');
@@ -12,17 +27,76 @@ const path = require('path');
 class RecipeGenerator {
     constructor() {
         this.baseDir = path.join(__dirname, '..');
-        this.recipesFile = path.join(this.baseDir, 'data', 'recipes.json');
+        this.recipesDataDir = path.join(this.baseDir, 'recipes-data');
         this.outputDir = path.join(this.baseDir, 'recipes');
         this.templateFile = path.join(__dirname, 'recipe-template.html');
+
+        // Track errors and warnings for safety reporting
+        this.errors = [];
+        this.warnings = [];
     }
 
-    loadRecipes() {
+    /**
+     * Load a single recipe from its individual JSON file
+     * @param {string} slug - Recipe slug (filename without .json)
+     * @returns {Object|null} Recipe data or null if failed
+     */
+    loadSingleRecipe(slug) {
+        const recipeFile = path.join(this.recipesDataDir, `${slug}.json`);
+
         try {
-            const data = fs.readFileSync(this.recipesFile, 'utf8');
-            return JSON.parse(data);
+            if (!fs.existsSync(recipeFile)) {
+                this.errors.push(`Recipe file not found: ${recipeFile}`);
+                return null;
+            }
+
+            const data = fs.readFileSync(recipeFile, 'utf8');
+            const recipe = JSON.parse(data);
+
+            // Validate required fields
+            if (!recipe.slug || !recipe.title) {
+                this.warnings.push(`Recipe ${slug} missing required fields (slug or title)`);
+            }
+
+            return recipe;
         } catch (error) {
-            console.error('Error loading recipes.json:', error);
+            this.errors.push(`Error loading recipe ${slug}: ${error.message}`);
+            return null;
+        }
+    }
+
+    /**
+     * Load all recipes from individual JSON files in recipes-data directory
+     * @returns {Array} Array of valid recipe objects
+     */
+    loadAllRecipes() {
+        const recipes = [];
+
+        try {
+            if (!fs.existsSync(this.recipesDataDir)) {
+                console.error(`Recipes data directory not found: ${this.recipesDataDir}`);
+                process.exit(1);
+            }
+
+            const files = fs.readdirSync(this.recipesDataDir);
+            const jsonFiles = files.filter(file => file.endsWith('.json'));
+
+            console.log(`Found ${jsonFiles.length} recipe files in ${this.recipesDataDir}`);
+
+            for (const file of jsonFiles) {
+                const slug = file.replace('.json', '');
+                const recipe = this.loadSingleRecipe(slug);
+
+                if (recipe) {
+                    recipes.push(recipe);
+                } else {
+                    console.warn(`⚠️  Skipping failed recipe: ${slug}`);
+                }
+            }
+
+            return recipes;
+        } catch (error) {
+            console.error('Error scanning recipes directory:', error);
             process.exit(1);
         }
     }
@@ -317,37 +391,160 @@ class RecipeGenerator {
         return html;
     }
 
-    generateAll() {
-        console.log('Loading recipes data...');
-        const data = this.loadRecipes();
+    /**
+     * Generate a single recipe HTML file
+     * @param {string} slug - Recipe slug to generate
+     * @param {Array} allRecipes - All recipes for related recipe links
+     */
+    generateSingle(slug, allRecipes = null) {
+        console.log(`Loading recipe: ${slug}`);
+        const recipe = this.loadSingleRecipe(slug);
+
+        if (!recipe) {
+            console.error(`❌ Failed to load recipe: ${slug}`);
+            this.reportIssues();
+            return false;
+        }
+
+        // If allRecipes not provided, load them for related recipes
+        if (!allRecipes) {
+            console.log('Loading all recipes for related recipe links...');
+            allRecipes = this.loadAllRecipes();
+        }
 
         console.log('Loading HTML template...');
         const template = this.loadTemplate();
 
-        console.log(`Generating ${data.recipes.length} recipe pages...`);
+        console.log(`Generating ${recipe.slug}.html...`);
+        const html = this.generateRecipeHTML(recipe, allRecipes, template);
 
-        data.recipes.forEach(recipe => {
-            console.log(`Generating ${recipe.slug}.html...`);
+        // Safety check: ensure we're writing to the correct output directory
+        const outputFile = path.join(this.outputDir, `${recipe.slug}.html`);
+        if (!outputFile.includes('/recipes/') || !outputFile.endsWith('.html')) {
+            console.error(`❌ Invalid output path detected: ${outputFile}`);
+            return false;
+        }
 
-            const html = this.generateRecipeHTML(recipe, data.recipes, template);
-            const outputFile = path.join(this.outputDir, `${recipe.slug}.html`);
+        fs.writeFileSync(outputFile, html, 'utf8');
+        console.log(`✅ Generated ${recipe.slug}.html`);
 
-            fs.writeFileSync(outputFile, html, 'utf8');
-            console.log(`✓ Generated ${recipe.slug}.html`);
+        this.reportIssues();
+        return true;
+    }
+
+    /**
+     * Generate all recipe HTML files
+     */
+    generateAll() {
+        console.log('Loading all recipes...');
+        const recipes = this.loadAllRecipes();
+
+        if (recipes.length === 0) {
+            console.error('❌ No valid recipes found!');
+            this.reportIssues();
+            process.exit(1);
+        }
+
+        console.log('Loading HTML template...');
+        const template = this.loadTemplate();
+
+        console.log(`Generating ${recipes.length} recipe pages...`);
+
+        let successCount = 0;
+        let failedCount = 0;
+
+        recipes.forEach(recipe => {
+            try {
+                console.log(`Generating ${recipe.slug}.html...`);
+                const html = this.generateRecipeHTML(recipe, recipes, template);
+
+                // Safety check: ensure we're writing to the correct output directory
+                const outputFile = path.join(this.outputDir, `${recipe.slug}.html`);
+                if (!outputFile.includes('/recipes/') || !outputFile.endsWith('.html')) {
+                    console.error(`❌ Invalid output path detected: ${outputFile}`);
+                    failedCount++;
+                    return;
+                }
+
+                fs.writeFileSync(outputFile, html, 'utf8');
+                console.log(`✓ Generated ${recipe.slug}.html`);
+                successCount++;
+            } catch (error) {
+                console.error(`❌ Failed to generate ${recipe.slug}.html:`, error.message);
+                failedCount++;
+            }
         });
 
-        console.log('\n✅ All recipe pages generated successfully!');
+        console.log(`\n✅ Generation complete!`);
+        console.log(`  - Successfully generated: ${successCount} recipes`);
+        if (failedCount > 0) {
+            console.log(`  - Failed: ${failedCount} recipes`);
+        }
+
         console.log('\nGenerated files:');
-        data.recipes.forEach(recipe => {
+        recipes.forEach(recipe => {
             console.log(`  - recipes/${recipe.slug}.html`);
         });
+
+        this.reportIssues();
+    }
+
+    /**
+     * Report any errors or warnings encountered during processing
+     */
+    reportIssues() {
+        if (this.errors.length > 0) {
+            console.log('\n🔴 ERRORS:');
+            this.errors.forEach(error => console.log(`  - ${error}`));
+        }
+
+        if (this.warnings.length > 0) {
+            console.log('\n🟡 WARNINGS:');
+            this.warnings.forEach(warning => console.log(`  - ${warning}`));
+        }
+    }
+
+    /**
+     * Main entry point - handles command line arguments
+     */
+    run() {
+        const args = process.argv.slice(2);
+
+        if (args.length === 0) {
+            console.log('Usage:');
+            console.log('  node build/generate-recipes.js <recipe-slug>  # Generate single recipe');
+            console.log('  node build/generate-recipes.js all            # Generate all recipes');
+            console.log('');
+            console.log('Examples:');
+            console.log('  node build/generate-recipes.js banana-bites');
+            console.log('  node build/generate-recipes.js all');
+            process.exit(1);
+        }
+
+        const command = args[0];
+
+        if (command === 'all') {
+            this.generateAll();
+        } else {
+            // Validate slug format
+            if (!/^[a-z0-9-]+$/.test(command)) {
+                console.error(`❌ Invalid recipe slug format: "${command}"`);
+                console.log('Recipe slugs should only contain lowercase letters, numbers, and hyphens.');
+                process.exit(1);
+            }
+
+            const success = this.generateSingle(command);
+            if (!success) {
+                process.exit(1);
+            }
+        }
     }
 }
 
 // Run the generator
 if (require.main === module) {
     const generator = new RecipeGenerator();
-    generator.generateAll();
+    generator.run();
 }
 
 module.exports = RecipeGenerator;

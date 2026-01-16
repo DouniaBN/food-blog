@@ -1,0 +1,216 @@
+{
+  "id": "banana-bites",
+  "title": "Healthy Chocolate Banana Bites",
+  "slug": "banana-bites",
+  "description": "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free dessert perfect for satisfying your sweet cravings guilt-free!",
+  "image": {
+    "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Banana+Bites",
+    "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Banana+Bites",
+    "gallery": [
+      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+1",
+      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+2",
+      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+3"
+    ]
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "prepTimeDisplay": "15 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "15 minutes"
+  },
+  "servings": {
+    "yield": "12",
+    "unit": "bites"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "No-Bake",
+    "Vegan",
+    "Gluten-Free",
+    "Quick & Easy",
+    "Chocolate"
+  ],
+  "tags": [
+    "healthy",
+    "chocolate",
+    "banana",
+    "no-bake",
+    "vegan",
+    "gluten-free",
+    "quick",
+    "15-minutes",
+    "5-ingredients"
+  ],
+  "nutrition": {
+    "calories": 150,
+    "protein": "4g",
+    "carbs": "18g",
+    "fat": "8g",
+    "fiber": "3g",
+    "sugar": "12g"
+  },
+  "ingredients": [
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "ripe bananas",
+      "notes": "mashed"
+    },
+    {
+      "amount": "1/4",
+      "unit": "cup",
+      "ingredient": "almond butter",
+      "notes": "or peanut butter"
+    },
+    {
+      "amount": "2",
+      "unit": "tbsp",
+      "ingredient": "cocoa powder",
+      "notes": "unsweetened"
+    },
+    {
+      "amount": "2",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": "pure"
+    },
+    {
+      "amount": "1/4",
+      "unit": "cup",
+      "ingredient": "mini dark chocolate chips",
+      "notes": "dairy-free if vegan"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a medium bowl, mash the ripe bananas until smooth.",
+      "image": "/images/recipes/banana-bites-step1.jpg"
+    },
+    {
+      "step": 2,
+      "text": "Add almond butter and mix until well combined.",
+      "image": "/images/recipes/banana-bites-step2.jpg"
+    },
+    {
+      "step": 3,
+      "text": "Stir in cocoa powder and maple syrup until the mixture is smooth and chocolatey.",
+      "image": "/images/recipes/banana-bites-step3.jpg"
+    },
+    {
+      "step": 4,
+      "text": "Fold in the mini chocolate chips gently.",
+      "image": "/images/recipes/banana-bites-step4.jpg"
+    },
+    {
+      "step": 5,
+      "text": "Using a small cookie scoop or spoon, form mixture into 12 bite-sized balls and place on a parchment-lined tray.",
+      "image": "/images/recipes/banana-bites-step5.jpg"
+    },
+    {
+      "step": 6,
+      "text": "Refrigerate for 10-15 minutes to firm up. Serve chilled and enjoy!",
+      "image": "/images/recipes/banana-bites-step6.jpg"
+    }
+  ],
+  "notes": [
+    "Store in the refrigerator for up to 5 days in an airtight container.",
+    "For a nut-free version, substitute sunflower seed butter for almond butter.",
+    "You can roll the bites in shredded coconut or chopped nuts for extra texture.",
+    "These freeze well for up to 3 months - just thaw for 5 minutes before serving."
+  ],
+  "equipment": [
+    "Medium mixing bowl",
+    "Fork or potato masher",
+    "Small cookie scoop or spoon",
+    "Parchment paper",
+    "Baking tray"
+  ],
+  "seo": {
+    "metaTitle": "Healthy Chocolate Banana Bites Recipe | 15-Minute No-Bake Dessert | Yourwellnessgirly",
+    "metaDescription": "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free dessert perfect for satisfying your sweet cravings guilt-free!",
+    "keywords": [
+      "healthy chocolate banana bites",
+      "no-bake banana dessert",
+      "vegan chocolate bites",
+      "gluten-free banana treats",
+      "15-minute healthy dessert",
+      "5-ingredient banana bites"
+    ],
+    "canonicalUrl": "/recipes/banana-bites"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Easy 15-minute healthy chocolate banana bites! No-bake, vegan & gluten-free with only 5 ingredients. Perfect guilt-free dessert! 🍌🍫",
+      "title": "Healthy Chocolate Banana Bites - No-Bake Vegan Dessert"
+    },
+    "instagram": {
+      "caption": "Who else is obsessed with these 15-minute chocolate banana bites? 🍌🍫 Only 5 ingredients and SO good! Recipe on the blog ➡️",
+      "hashtags": ["#healthydesserts", "#nobake", "#vegan", "#glutenfree", "#bananabites", "#chocolate", "#quickrecipes", "#yourwellnessgirly"]
+    }
+  },
+  "story": {
+    "subtitle": "why you'll love them",
+    "paragraphs": [
+      "These chocolate banana bites are the perfect guilt-free treat when you're craving something sweet! Made with just 5 wholesome ingredients, they're naturally sweetened with ripe bananas and maple syrup. The combination of creamy almond butter, rich cocoa powder, and mini chocolate chips creates the most satisfying bite that actually nourishes your body.",
+      "I love making a batch of these on Sunday for easy grab-and-go snacks throughout the week. They're perfect for post-workout fuel, afternoon energy boosts, or when you need something sweet that won't leave you crashing later. Plus, they're ready in just 15 minutes!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I make these nut-free?",
+      "answer": "Yes! Simply substitute the almond butter with sunflower seed butter or tahini for a nut-free version that's just as delicious."
+    },
+    {
+      "question": "How should I store these bites?",
+      "answer": "Store in an airtight container in the refrigerator for up to 5 days. They actually taste even better after chilling!"
+    },
+    {
+      "question": "Can I freeze these for later?",
+      "answer": "Absolutely! These freeze beautifully for up to 3 months. Just thaw for 5-10 minutes before enjoying."
+    },
+    {
+      "question": "My mixture seems too wet, what should I do?",
+      "answer": "If your bananas are very ripe and the mixture is too wet, add a tablespoon of oat flour or coconut flour to help bind everything together."
+    },
+    {
+      "question": "Can I roll these in anything for extra flavor?",
+      "answer": "Yes! Try rolling them in shredded coconut, chopped nuts, or even more cocoa powder for extra indulgence."
+    }
+  ],
+  "tips": [
+    "Use very ripe bananas for the best natural sweetness and easiest mashing",
+    "Chill the mixture for 10 minutes if it's too soft to shape",
+    "A small cookie scoop makes perfectly uniform bites every time",
+    "These taste even better the next day after the flavors have melded"
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Almond butter",
+      "alternatives": ["Peanut butter", "Sunflower seed butter (nut-free)", "Tahini"]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": ["Honey (not vegan)", "Agave nectar", "Date syrup"]
+    },
+    {
+      "ingredient": "Cocoa powder",
+      "alternatives": ["Cacao powder", "Chocolate protein powder (reduce liquid slightly)"]
+    },
+    {
+      "ingredient": "Mini chocolate chips",
+      "alternatives": ["Chopped dark chocolate", "Cacao nibs", "Dried fruit"]
+    }
+  ],
+  "datePublished": "2025-01-10",
+  "dateModified": "2025-01-10",
+  "featured": true,
+  "viral": true,
+  "popular": true
+}

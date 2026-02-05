@@ -1508,12 +1508,16 @@
   justify-self: end;
 }
 
+/* Recipe Card Image - Back to Original Working Style */
+.recipe-card .recipe-card-image img,
 .recipe-card-image img {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100% !important;
+  max-width: 350px !important;
+  height: auto !important;
+  border-radius: 10px !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+  border-bottom: none !important;
+  object-fit: initial !important;
 }
 
 .recipe-actions {

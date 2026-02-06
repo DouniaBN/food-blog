@@ -111,14 +111,22 @@ class RecipeGenerator {
     }
 
     generateJsonLdSchema(recipe) {
+        // Handle both legacy and new image formats
+        const getImageUrl = (imageData) => {
+            if (typeof imageData === 'string') {
+                return `https://yourwellnessgirly.com/${imageData}`;
+            }
+            return `https://yourwellnessgirly.com/${imageData.src || imageData}`;
+        };
+
+        const heroImage = getImageUrl(recipe.image.hero);
+        const thumbnailImage = getImageUrl(recipe.image.thumbnail);
+
         return {
             "@context": "https://schema.org/",
             "@type": "Recipe",
             "name": recipe.title,
-            "image": [
-                `https://yourwellnessgirly.com/${recipe.image.hero}`,
-                `https://yourwellnessgirly.com/${recipe.image.thumbnail}`
-            ],
+            "image": [heroImage, thumbnailImage],
             "description": recipe.description,
             "keywords": recipe.tags.join(", "),
             "author": {
@@ -186,6 +194,143 @@ class RecipeGenerator {
                 }
             ]
         };
+    }
+
+    /**
+     * Generate responsive picture element with WebP support
+     * @param {Object} imageData - Image data from recipe JSON
+     * @param {string} type - 'hero', 'thumbnail', or 'gallery'
+     * @param {Object} options - Additional options for sizing/lazy loading
+     */
+    generateResponsiveImage(imageData, type = 'hero', options = {}) {
+        // Handle legacy string format for backward compatibility
+        if (typeof imageData === 'string') {
+            return `<img src="../${imageData}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
+        }
+
+        // Handle new responsive format
+        if (!imageData.src) {
+            console.warn('Invalid image data structure');
+            return '';
+        }
+
+        const {
+            src,
+            srcset = {},
+            webp = {},
+            alt = 'Recipe image',
+            width = 400,
+            height = 300
+        } = imageData;
+
+        let sizesAttr = '';
+        let fetchPriority = '';
+        let loading = 'lazy';
+
+        // Configure based on image type
+        switch (type) {
+            case 'hero':
+                sizesAttr = `(max-width: 480px) 100vw, (max-width: 768px) 100vw, (max-width: 1200px) 60vw, 735px`;
+                fetchPriority = options.aboveFold ? 'high' : '';
+                loading = options.aboveFold ? 'eager' : 'lazy';
+                break;
+            case 'thumbnail':
+                sizesAttr = `(max-width: 768px) 50vw, 300px`;
+                break;
+            case 'gallery':
+                sizesAttr = `(max-width: 768px) 100vw, 400px`;
+                break;
+        }
+
+        // Build srcset strings for WebP and JPEG
+        const buildSrcset = (sources) => {
+            return Object.entries(sources)
+                .map(([size, path]) => `../${path} ${size}w`)
+                .join(', ');
+        };
+
+        const webpSrcset = Object.keys(webp).length > 0 ? buildSrcset(webp) : '';
+        const jpegSrcset = Object.keys(srcset).length > 0 ? buildSrcset(srcset) : '';
+
+        // Build picture element
+        let pictureHtml = '<picture>';
+
+        // WebP sources (if available)
+        if (webpSrcset) {
+            if (type === 'hero') {
+                // Mobile WebP source
+                pictureHtml += `
+                    <source
+                        media="(max-width: 480px)"
+                        srcset="../${webp['400'] || webp[Object.keys(webp)[0]]}"
+                        type="image/webp">`;
+            }
+            // Main WebP source
+            pictureHtml += `
+                <source
+                    srcset="${webpSrcset}"
+                    type="image/webp">`;
+        }
+
+        // JPEG fallback sources
+        if (jpegSrcset) {
+            if (type === 'hero') {
+                // Mobile JPEG source
+                pictureHtml += `
+                    <source
+                        media="(max-width: 480px)"
+                        srcset="../${srcset['400'] || srcset[Object.keys(srcset)[0]]}"
+                        type="image/jpeg">`;
+            }
+        }
+
+        // Main img element
+        pictureHtml += `
+            <img
+                src="../${src}"
+                ${jpegSrcset ? `srcset="${jpegSrcset}"` : ''}
+                ${sizesAttr ? `sizes="${sizesAttr}"` : ''}
+                width="${width}"
+                height="${height}"
+                alt="${alt}"
+                loading="${loading}"
+                decoding="async"
+                ${fetchPriority ? `fetchpriority="${fetchPriority}"` : ''} />`;
+
+        pictureHtml += '</picture>';
+
+        return pictureHtml;
+    }
+
+    /**
+     * Generate simple img element for thumbnails and small images
+     */
+    generateSimpleImage(imageData, options = {}) {
+        if (typeof imageData === 'string') {
+            return `<img src="../${imageData}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
+        }
+
+        const {
+            src,
+            srcset = {},
+            alt = 'Recipe image',
+            width = 300,
+            height = 225
+        } = imageData;
+
+        const jpegSrcset = Object.keys(srcset).length > 0
+            ? Object.entries(srcset).map(([size, path]) => `../${path} ${size}w`).join(', ')
+            : '';
+
+        return `<img
+            src="../${src}"
+            ${jpegSrcset ? `srcset="${jpegSrcset}"` : ''}
+            ${jpegSrcset ? `sizes="(max-width: 768px) 50vw, 300px"` : ''}
+            width="${width}"
+            height="${height}"
+            alt="${alt}"
+            loading="lazy"
+            decoding="async" />`;
     }
 
     renderDietBadges(recipe) {
@@ -301,9 +446,15 @@ class RecipeGenerator {
 
         if (related.length === 0) return '';
 
-        return related.map(relatedRecipe => `
+        return related.map(relatedRecipe => {
+            // Generate responsive thumbnail for related recipe
+            const relatedImageHtml = this.generateSimpleImage(relatedRecipe.image.thumbnail, {
+                alt: relatedRecipe.title
+            });
+
+            return `
             <a href="${relatedRecipe.slug}.html" class="recipe-card-small">
-                <img src="../${relatedRecipe.image.thumbnail}" alt="${relatedRecipe.title}" loading="lazy">
+                ${relatedImageHtml}
                 <div class="recipe-info">
                     <h3>${relatedRecipe.title}</h3>
                     <div class="recipe-meta">
@@ -312,7 +463,8 @@ class RecipeGenerator {
                     </div>
                 </div>
             </a>
-        `).join('');
+        `;
+        }).join('');
     }
 
     generateRecipeHTML(recipe, allRecipes, template) {
@@ -328,7 +480,9 @@ class RecipeGenerator {
         html = html.replace(/{{CANONICAL_URL}}/g, `https://yourwellnessgirly.com/recipes/${recipe.slug}`);
         html = html.replace(/{{OG_TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{OG_DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
-        html = html.replace(/{{OG_IMAGE}}/g, `https://yourwellnessgirly.com/${recipe.image.hero}`);
+        // Open Graph image
+        const ogImageSrc = typeof recipe.image.hero === 'string' ? recipe.image.hero : recipe.image.hero.src;
+        html = html.replace(/{{OG_IMAGE}}/g, `https://yourwellnessgirly.com/${ogImageSrc}`);
         html = html.replace(/{{OG_URL}}/g, `https://yourwellnessgirly.com/recipes/${recipe.slug}`);
 
         // JSON-LD Schemas
@@ -350,9 +504,20 @@ class RecipeGenerator {
         html = html.replace('{{DIET_BADGES}}', this.renderDietBadges(recipe));
         html = html.replace(/{{DIFFICULTY}}/g, recipe.difficulty);
 
-        // Hero image
-        html = html.replace(/{{HERO_IMAGE}}/g, `../${recipe.image.hero}`);
-        html = html.replace(/{{HERO_IMAGE_ALT}}/g, `${recipe.title} - healthy dessert recipe`);
+        // Hero image - responsive with WebP support
+        const heroImageHtml = this.generateResponsiveImage(recipe.image.hero, 'hero', {
+            aboveFold: true,
+            alt: `${recipe.title} - healthy dessert recipe`
+        });
+        html = html.replace('{{HERO_IMAGE_HTML}}', heroImageHtml);
+
+        // Fallback for legacy template variables
+        const heroSrc = typeof recipe.image.hero === 'string' ? recipe.image.hero : recipe.image.hero.src;
+        const heroAlt = typeof recipe.image.hero === 'string'
+            ? `${recipe.title} - healthy dessert recipe`
+            : recipe.image.hero.alt || `${recipe.title} - healthy dessert recipe`;
+        html = html.replace(/{{HERO_IMAGE}}/g, `../${heroSrc}`);
+        html = html.replace(/{{HERO_IMAGE_ALT}}/g, heroAlt);
 
         // Story section
         html = html.replace('{{STORY_CONTENT}}', this.renderStory(recipe));
@@ -364,8 +529,19 @@ class RecipeGenerator {
         html = html.replace(/{{CARD_COOK_TIME}}/g, recipe.timing.cookTimeDisplay.replace(' minutes', '').replace(' min', ''));
         html = html.replace(/{{CARD_TOTAL_TIME}}/g, recipe.timing.totalTimeDisplay.toUpperCase());
         html = html.replace(/{{CARD_YIELD}}/g, `${recipe.servings.yield} ${recipe.servings.unit}`);
-        html = html.replace(/{{CARD_IMAGE}}/g, `../${recipe.image.thumbnail}`);
-        html = html.replace(/{{CARD_IMAGE_ALT}}/g, `${recipe.title} recipe card image`);
+        // Recipe card image - responsive thumbnail
+        const cardImageHtml = this.generateSimpleImage(recipe.image.thumbnail, {
+            alt: `${recipe.title} recipe card image`
+        });
+        html = html.replace('{{CARD_IMAGE_HTML}}', cardImageHtml);
+
+        // Fallback for legacy template variables
+        const cardSrc = typeof recipe.image.thumbnail === 'string' ? recipe.image.thumbnail : recipe.image.thumbnail.src;
+        const cardAlt = typeof recipe.image.thumbnail === 'string'
+            ? `${recipe.title} recipe card image`
+            : recipe.image.thumbnail.alt || `${recipe.title} recipe card image`;
+        html = html.replace(/{{CARD_IMAGE}}/g, `../${cardSrc}`);
+        html = html.replace(/{{CARD_IMAGE_ALT}}/g, cardAlt);
 
         // Servings for adjuster
         html = html.replace(/{{INITIAL_SERVINGS}}/g, recipe.servings.yield);

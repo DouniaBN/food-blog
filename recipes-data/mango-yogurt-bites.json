@@ -4,12 +4,12 @@
   "slug": "mango-yogurt-bites",
   "description": "Refreshing 3-ingredient summer dessert! Creamy Greek yogurt and fresh mango wrapped in rich dark chocolate - naturally sweetened and ready in 10 minutes prep.",
   "image": {
-    "hero": "images/recipes/mango-yogurt-bites-hero.jpg",
-    "thumbnail": "images/recipes/mango-yogurt-bites-card.jpg",
+    "hero": "images/recipes/mango-yogurt-bites/mango-bites.jpg",
+    "thumbnail": "images/recipes/mango-yogurt-bites/mango-bites-2.jpg",
     "gallery": [
-      "images/recipes/mango-yogurt-bites-process.jpg",
-      "images/recipes/mango-yogurt-bites-step1.jpg",
-      "images/recipes/mango-yogurt-bites-step2.jpg"
+      "images/recipes/mango-yogurt-bites/mango-bites-process2.jpg",
+      "images/recipes/mango-yogurt-bites/mango-bites-process3.jpg",
+      "images/recipes/mango-yogurt-bites/mango-bites-process1.jpg"
     ]
   },
   "author": {
@@ -43,18 +43,18 @@
     {
       "amount": "1",
       "unit": "large",
-      "ingredient": "ripe mango",
-      "notes": "diced"
+      "ingredient": "ripe mango diced",
+      "notes": ""
     },
     {
       "amount": "1",
       "unit": "cup",
       "ingredient": "Greek yogurt",
-      "notes": "plain, unsweetened"
+      "notes": ""
     },
     {
-      "amount": "3",
-      "unit": "oz",
+      "amount": "90",
+      "unit": "g",
       "ingredient": "dark chocolate",
       "notes": "70% cocoa or sugar-free"
     },

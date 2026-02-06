@@ -4,12 +4,57 @@
   "slug": "banana-bites",
   "description": "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free dessert perfect for satisfying your sweet cravings guilt-free!",
   "image": {
-    "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Banana+Bites",
-    "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Banana+Bites",
+    "hero": {
+      "src": "images/recipes/banana-bites/hero-1600.jpg",
+      "srcset": {
+        "400": "images/recipes/banana-bites/hero-400.jpg",
+        "800": "images/recipes/banana-bites/hero-800.jpg",
+        "1200": "images/recipes/banana-bites/hero-1200.jpg",
+        "1600": "images/recipes/banana-bites/hero-1600.jpg"
+      },
+      "webp": {
+        "400": "images/recipes/banana-bites/hero-400.webp",
+        "800": "images/recipes/banana-bites/hero-800.webp",
+        "1200": "images/recipes/banana-bites/hero-1200.webp",
+        "1600": "images/recipes/banana-bites/hero-1600.webp"
+      },
+      "alt": "Healthy Chocolate Banana Bites with dark chocolate coating and banana filling on white marble background",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/banana-bites/thumbnail-300.jpg",
+      "srcset": {
+        "300": "images/recipes/banana-bites/thumbnail-300.jpg",
+        "600": "images/recipes/banana-bites/thumbnail-600.jpg"
+      },
+      "webp": {
+        "300": "images/recipes/banana-bites/thumbnail-300.webp",
+        "600": "images/recipes/banana-bites/thumbnail-600.webp"
+      },
+      "alt": "Healthy Chocolate Banana Bites recipe card - easy 15-minute no-bake dessert",
+      "width": 300,
+      "height": 225
+    },
     "gallery": [
-      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+1",
-      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+2",
-      "https://via.placeholder.com/400x300/f4dde7/2f4f2f?text=Step+3"
+      {
+        "src": "images/recipes/banana-bites/step1-400.jpg",
+        "alt": "Step 1: Melting dark chocolate in double boiler for banana bites",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "images/recipes/banana-bites/step2-400.jpg",
+        "alt": "Step 2: Slicing bananas into rounds for healthy chocolate coating",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "images/recipes/banana-bites/step3-400.jpg",
+        "alt": "Step 3: Dipping banana rounds in melted dark chocolate",
+        "width": 400,
+        "height": 300
+      }
     ]
   },
   "author": {

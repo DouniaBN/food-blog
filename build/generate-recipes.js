@@ -367,9 +367,24 @@ class RecipeGenerator {
     }
 
     renderInstructions(recipe) {
-        return recipe.instructions.map(instruction =>
-            `<li><strong>Step ${instruction.step}:</strong> ${instruction.text}</li>`
-        ).join('');
+        return recipe.instructions.map(instruction => {
+            let html = `<li><strong>Step ${instruction.step}:</strong> ${instruction.text}`;
+
+            // Add step image if it exists with full optimization
+            if (instruction.image) {
+                const stepImageHtml = this.generateResponsiveImage(instruction.image, 'gallery', {
+                    alt: `Step ${instruction.step}: ${instruction.text.substring(0, 50)}...`
+                });
+
+                html += `
+                        <div class="step-image" style="margin: 1rem 0; border-radius: 8px; overflow: hidden;">
+                            ${stepImageHtml}
+                        </div>`;
+            }
+
+            html += `</li>`;
+            return html;
+        }).join('');
     }
 
     renderNutrition(recipe) {

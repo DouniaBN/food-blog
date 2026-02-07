@@ -69,27 +69,64 @@
     {
       "step": 1,
       "text": "Melt the dark chocolate using a double boiler or microwave in 30-second intervals. Pour melted chocolate into your silicone molds, covering the bottom and the sides. Flash freeze for 10 minutes or until set.",
-      "image": "images/recipes/mango-yogurt-bites-step1.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process1-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process1-800.webp"
+        },
+        "alt": "Step 1: Silicone molds lined with melted dark chocolate, showing the chocolate shell base ready for freezing",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 2,
       "text": "Dice the mango into approx. inch thick pieces. In a medium bowl, combine the Greek yogurt and diced mango. Gently fold together until evenly mixed.",
-      "image": "images/recipes/mango-yogurt-bites-step2.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process2-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process2-800.webp"
+        },
+        "alt": "Step 2: Fresh mango diced into chunks and mixed with creamy Greek yogurt in a medium bowl",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 3,
       "text": "Remove the molds from the freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the set chocolate base.",
-      "image": "images/recipes/mango-yogurt-bites-step3.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process3-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process3-800.webp"
+        },
+        "alt": "Step 3: Adding spoonfuls of mango yogurt mixture into chocolate-lined silicone molds",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 4,
-      "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top.",
-      "image": "images/recipes/mango-yogurt-bites-step4.jpg"
+      "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top."
     },
     {
       "step": 5,
-      "text": "Freeze for 2 hours or until completely set. Remove from molds and sprinkle with sea salt. Enjoyyy",
-      "image": "images/recipes/mango-yogurt-bites-step5.jpg"
+      "text": "Freeze for 2 hours or until completely set. Remove from molds and sprinkle with sea salt. Enjoyyy"
     }
   ],
   "notes": [

@@ -5,7 +5,16 @@
   "description": "Refreshing 3-ingredient summer dessert! Creamy Greek yogurt and fresh mango wrapped in rich dark chocolate - naturally sweetened and ready in 10 minutes prep.",
   "image": {
     "hero": "images/recipes/mango-yogurt-bites/mango-bites.jpg",
-    "thumbnail": "images/recipes/mango-yogurt-bites/mango-bites-2.jpg",
+    "thumbnail": {
+      "src": "images/recipes/mango-yogurt-bites/mango-bites-card-300.webp",
+      "srcset": {
+        "300": "images/recipes/mango-yogurt-bites/mango-bites-card-300.webp",
+        "600": "images/recipes/mango-yogurt-bites/mango-bites-card-600.webp"
+      },
+      "alt": "No-Bake Mango Yogurt Chocolate Bites recipe card - showing the creamy mango yogurt filling inside dark chocolate shell",
+      "width": 300,
+      "height": 508
+    },
     "gallery": [
       "images/recipes/mango-yogurt-bites/mango-bites-process2.jpg",
       "images/recipes/mango-yogurt-bites/mango-bites-process3.jpg",
@@ -179,16 +188,13 @@
     },
     {
       "question": "How long do these mango chocolate bites last?",
-      "answer": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture, serve directly from the freezer."
+      "answer": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture eat cold."
     },
     {
       "question": "What type of mold should I use?",
-      "answer": "Silicone molds work best as they're easy to remove the bites from. You can also use ice cube trays or mini muffin tins lined with paper liners."
+      "answer": "Silicone molds work best as they're easy to remove the bites from. You can also use silicone ice cube trays!"
     },
-    {
-      "question": "Can I use frozen mango instead of fresh?",
-      "answer": "Yes! Thaw frozen mango completely and drain excess liquid before mixing with yogurt for the best texture."
-    },
+  
     {
       "question": "What chocolate should I use?",
       "answer": "Use high-quality dark chocolate with 70% cocoa content. For refined sugar-free option, choose stevia-sweetened dark chocolate."

@@ -23,6 +23,13 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://yourwellnessgirly.com/recipes/protein-balls">
 
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/profile/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/profile/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="../images/profile/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/profile/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/profile/android-chrome-512x512.png">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
@@ -67,12 +74,7 @@
     "sugarContent": "8g"
   },
   "recipeIngredient": [],
-  "recipeInstructions": [],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "127"
-  }
+  "recipeInstructions": []
 }
     </script>
 
@@ -693,7 +695,7 @@
             </div>
 
             <div class="recipe-hero-image">
-                <img src="../https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Protein+Energy+Balls" alt="Protein Energy Balls - healthy dessert recipe" width="735" height="1102">
+                <img src="../https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Protein+Energy+Balls" alt="Protein Energy Balls - healthy dessert recipe" loading="lazy">
             </div>
         </div>
     </section>
@@ -704,7 +706,7 @@
         <aside class="about-me-sidebar">
             <div class="about-me-content">
                 <div class="about-me-image">
-                    <img src="../images/profile/headshot.jpg" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
+                    <img src="../images/profile/headshot.PNG" alt="Dounia - Yourwellnessgirly creator" width="150" height="150">
                 </div>
                 <h3>hi, i'm Dounia!</h3>
                 <p>Welcome Friend — You're in my little corner of the internet where healthy meets delicious! I'm a certified holistic nutritionist and dessert lover who turned to healing through food after navigating my own health challenges.</p>
@@ -754,6 +756,7 @@
                 <div class="recipe-card-info">
                     <h2 class="recipe-card-title">Protein Energy Balls<br><span class="recipe-subtitle">(No-Bake, Vegan, Protein)</span></h2>
 
+                    <!-- Recipe Rating - Commented out for now, can be enabled later
                     <div class="recipe-rating">
                         <span class="rating-text">Rate this recipe:</span>
                         <div class="stars">
@@ -765,6 +768,7 @@
                         </div>
                         <span class="rating-count">(127 ratings)</span>
                     </div>
+                    -->
 
                     <div class="recipe-meta-grid">
                         <div class="meta-row">
@@ -810,7 +814,7 @@
                 </div>
 
                 <div class="recipe-card-image">
-                    <img src="../https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Protein+Balls" alt="Protein Energy Balls recipe card image" width="400" height="300">
+                    <img src="../https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Protein+Balls" alt="Protein Energy Balls recipe card image" loading="lazy">
                 </div>
             </div>
 
@@ -841,6 +845,7 @@
             <!-- Nutrition Facts -->
             <div class="nutrition-section">
                 <h3>Nutrition Facts</h3>
+                <p class="nutrition-per-serving">Per one serving:</p>
                 <div class="nutrition-table">
                     
             <div class="nutrition-item">
@@ -869,6 +874,7 @@
             </div>
         
                 </div>
+                <p class="nutrition-disclaimer">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Basic macros don't reflect the full nutritional value including vitamins, minerals, antioxidants, and other beneficial compounds. Please use this as a guideline only.</p>
             </div>
 
             <!-- Tips Section -->
@@ -890,7 +896,15 @@
         <div class="related-grid-small">
             
             <a href="banana-bites.html" class="recipe-card-small">
-                <img src="../https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Banana+Bites" alt="Healthy Chocolate Banana Bites" loading="lazy">
+                <img
+            src="../images/recipes/banana-bites/thumbnail-300.jpg"
+            srcset="../images/recipes/banana-bites/thumbnail-300.jpg 300w, ../images/recipes/banana-bites/thumbnail-600.jpg 600w"
+            sizes="(max-width: 768px) 50vw, 300px"
+            width="300"
+            height="225"
+            alt="Healthy Chocolate Banana Bites recipe card - easy 15-minute no-bake dessert"
+            loading="lazy"
+            decoding="async" />
                 <div class="recipe-info">
                     <h3>Healthy Chocolate Banana Bites</h3>
                     <div class="recipe-meta">

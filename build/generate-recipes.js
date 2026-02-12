@@ -161,12 +161,13 @@ class RecipeGenerator {
             "recipeInstructions": recipe.instructions.map(instruction => ({
                 "@type": "HowToStep",
                 "text": instruction.text
-            })),
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "127"
-            }
+            }))
+            // Aggregate rating commented out for now - can be enabled later
+            // "aggregateRating": {
+            //     "@type": "AggregateRating",
+            //     "ratingValue": "4.8",
+            //     "reviewCount": "127"
+            // }
         };
     }
 

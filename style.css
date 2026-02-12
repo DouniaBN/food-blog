@@ -1784,6 +1784,14 @@
   background-size: contain;
 }
 
+.nutrition-per-serving {
+  font-size: 0.95rem;
+  color: #666;
+  text-align: center;
+  margin: 1rem 0 1.5rem 0;
+  font-style: italic;
+}
+
 .nutrition-table {
   background-color: var(--neutral-beige);
   border-radius: 10px;
@@ -1791,6 +1799,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
+}
+
+.nutrition-disclaimer {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin-top: 1rem;
+  font-style: italic;
+  line-height: 1.4;
 }
 
 .nutrition-item {

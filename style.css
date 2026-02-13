@@ -2159,8 +2159,9 @@
       max-width: 100%;
       margin: 0 auto;
       padding: 0;
-      flex-direction: column;
-      gap: 2rem;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.5rem;
       text-align: center;
     }
 
@@ -2186,8 +2187,8 @@
     }
 
     .about-me-image-horizontal img {
-      width: 200px !important;
-      height: 250px !important;
+      width: 160px !important;
+      height: 200px !important;
     }
 
     .about-social-horizontal {

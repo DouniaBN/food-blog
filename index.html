@@ -231,6 +231,26 @@
           padding: 1rem 1rem 0.5rem !important;
         }
 
+        /* Hide subheading on mobile */
+        .hero-subtitle {
+          display: none !important;
+        }
+
+        /* Show mobile-only subtext */
+        .mobile-only-subtext {
+          display: block !important;
+          font-size: 0.9rem;
+          color: #2f4f2f;
+          text-align: center;
+          margin: 0 0 0.5rem 0;
+          font-weight: 400;
+        }
+
+        /* Make H1 smaller on mobile */
+        .hero-main-title {
+          font-size: 2rem !important;
+        }
+
         .viral-on-social {
           margin: 1rem 0 1rem 0 !important;
         }
@@ -248,7 +268,8 @@
 
       /* Hide hamburger menu and mobile dropdown on desktop */
       .hamburger-menu,
-      .mobile-nav-dropdown {
+      .mobile-nav-dropdown,
+      .mobile-only-subtext {
         display: none;
       }
 
@@ -494,6 +515,7 @@
     </header>
 
     <section class="hero">
+      <p class="mobile-only-subtext">your go-to place for:</p>
       <h1 class="hero-main-title">Healthy Dessert Recipes</h1>
       <h2 class="hero-subtitle">Your go-to place for whole food healthy dessert recipes that are quick, easy, and refined sugar-free!</h2>
     </section>

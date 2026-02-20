@@ -46,6 +46,47 @@ python3 -m http.server 8000
 - **Inline CSS issues** - Unused styles, large CSS file
 - **No service worker** - Missing offline/caching capability
 
+## Image Optimization Standards
+
+### Hero Images (Critical for LCP)
+All hero images must include these performance optimizations:
+```html
+<picture>
+    <source srcset="image-400.webp 400w, image-600.webp 600w, image-800.webp 800w, image-1200.webp 1200w, image-1600.webp 1600w"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            type="image/webp">
+    <img src="image-800.jpg"
+         srcset="image-400.jpg 400w, image-600.jpg 600w, image-800.jpg 800w, image-1200.jpg 1200w, image-1600.jpg 1600w"
+         sizes="(max-width: 768px) 100vw, 50vw"
+         width="800"
+         height="600"
+         alt="Descriptive alt text of what's actually visible"
+         loading="eager"
+         fetchpriority="high"
+         decoding="async" />
+</picture>
+```
+
+### Recipe Card Images & Process Images
+All non-hero images should use lazy loading:
+```html
+<img src="image.jpg"
+     srcset="image-300.jpg 300w, image-600.jpg 600w"
+     sizes="(max-width: 768px) 50vw, 300px"
+     width="300"
+     height="400"
+     alt="Descriptive alt text"
+     loading="lazy"
+     decoding="async" />
+```
+
+### Image Creation Requirements
+- **Multiple sizes**: 300px, 400px, 600px, 800px, 1200px, 1600px
+- **WebP conversion**: Use convert-to-webp.py script for all images
+- **Recipe cards**: Portrait format (300x508px, 600x1016px)
+- **Hero images**: Landscape format optimized for responsive display
+- **Alt text**: Describe what's actually visible, not marketing claims
+
 #### Technical Issues (MEDIUM PRIORITY)
 - **Missing viewport optimizations** - Mobile performance could be better
 - **No error handling** - Missing 404 page, broken link handling

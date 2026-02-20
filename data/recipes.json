@@ -405,13 +405,13 @@
       "popular": true
     },
     {
-      "id": "strawberry-tarts",
-      "title": "Strawberry Tarts",
-      "slug": "strawberry-tarts",
-      "description": "Mini strawberry tarts with creamy filling and fresh berries.",
+      "id": "brownie-batter-bars",
+      "title": "Healthy No Bake Brownie Batter Bars (4 Ingredients)",
+      "slug": "brownie-batter-bars",
+      "description": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
       "image": {
-        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Strawberry+Tarts",
-        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Berry+Tarts",
+        "hero": "images/recipes/brownie-batter-bars/brownie-bars.jpg",
+        "thumbnail": "images/recipes/brownie-batter-bars/brownie-bars-card-300.webp",
         "gallery": []
       },
       "author": {
@@ -419,52 +419,109 @@
         "title": "Certified Holistic Nutritionist"
       },
       "timing": {
-        "prepTime": "PT25M",
+        "prepTime": "PT10M",
         "cookTime": "PT0M",
-        "totalTime": "PT25M",
-        "prepTimeDisplay": "25 minutes",
+        "totalTime": "PT30M",
+        "prepTimeDisplay": "10 minutes",
         "cookTimeDisplay": "0 minutes",
-        "totalTimeDisplay": "25 minutes"
+        "totalTimeDisplay": "30 minutes"
       },
       "servings": {
-        "yield": "8",
-        "unit": "tarts"
+        "yield": "6",
+        "unit": "bars"
       },
-      "difficulty": "Medium",
-      "categories": ["No-Bake", "Gluten-Free", "Fresh Fruit"],
-      "tags": ["strawberry", "tarts", "berries"],
+      "difficulty": "Easy",
+      "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Refined Sugar-Free", "Paleo"],
+      "tags": ["brownie", "no-bake", "gluten-free", "vegan", "dairy-free", "paleo", "refined-sugar-free", "chocolate", "almond-flour", "4-ingredients", "healthy-dessert"],
       "nutrition": {
-        "calories": 160,
-        "protein": "2g",
+        "calories": 246,
+        "protein": "7g",
         "carbs": "20g",
-        "fat": "8g",
-        "fiber": "3g",
-        "sugar": "16g"
+        "fat": "17.5g",
+        "fiber": "5.3g",
+        "sugar": "15g"
       },
-      "ingredients": [],
-      "instructions": [],
+      "ingredients": [
+        {
+          "amount": "170",
+          "unit": "g",
+          "ingredient": "almond flour",
+          "notes": ""
+        },
+        {
+          "amount": "3-4",
+          "unit": "tablespoons",
+          "ingredient": "cacao powder",
+          "notes": ""
+        },
+        {
+          "amount": "4",
+          "unit": "tablespoons",
+          "ingredient": "maple syrup",
+          "notes": ""
+        },
+        {
+          "amount": "40",
+          "unit": "g",
+          "ingredient": "dark chocolate",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "pinch",
+          "ingredient": "sea salt",
+          "notes": "optional - for sprinkling"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add all of the ingredients apart from the dark chocolate to a food processor and blend until combined.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "Line a small container and transfer the batter. Press the batter down firmly.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Melt the dark chocolate and spread on top of the pressed batter.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Place in the freezer for 20 minutes or until the chocolate is set.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Remove from freezer, sprinkle with sea salt if desired, slice and enjoy!",
+          "image": ""
+        }
+      ],
       "notes": [],
-      "equipment": [],
+      "equipment": ["Food processor", "Small container for lining"],
       "seo": {
-        "metaTitle": "Mini Strawberry Tarts Recipe | Fresh Berry Dessert",
-        "metaDescription": "Elegant mini strawberry tarts with creamy filling.",
-        "keywords": ["strawberry tarts", "mini tarts"],
-        "canonicalUrl": "/recipes/strawberry-tarts"
+        "metaTitle": "Healthy No Bake Brownie Batter Bars (4 Ingredients) | Yourwellnessgirly",
+        "metaDescription": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
+        "keywords": ["brownie batter bars", "no bake brownie", "healthy brownies", "4 ingredient dessert", "vegan brownies", "gluten-free brownies"],
+        "canonicalUrl": "/recipes/brownie-batter-bars"
       },
       "social": {
         "pinterest": {
-          "description": "Elegant mini strawberry tarts! 🍓",
-          "title": "Mini Strawberry Tarts"
+          "description": "No bake healthy brownie batter bars made with just 4 ingredients! 🍫 Vegan, gluten-free & ready in minutes!",
+          "title": "Healthy No Bake Brownie Batter Bars (4 Ingredients)"
         },
         "instagram": {
-          "caption": "Mini strawberry tarts! 🍓✨",
-          "hashtags": ["#strawberrytarts", "#minitarts"]
+          "caption": "When you're craving brownies but don't want to turn the oven on... these 4-ingredient no bake brownie batter bars are IT! 🍫✨ Recipe on the blog!",
+          "hashtags": ["#browniebars", "#nobake", "#4ingredients", "#healthybrownies", "#vegan", "#glutenfree", "#yourwellnessgirly"]
         }
       },
-      "datePublished": "2025-01-10",
-      "dateModified": "2025-01-10",
+      "datePublished": "2026-02-20",
+      "dateModified": "2026-02-20",
       "featured": true,
-      "viral": true,
+      "viral": false,
       "popular": true
     },
     {

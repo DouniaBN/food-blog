@@ -19,10 +19,10 @@ const recipeDatabase = [
     keywords: ["cookie dough", "no-bake", "viral", "chocolate chips", "healthy"]
   },
   {
-    title: "Strawberry Tarts",
-    url: "/recipes/strawberry-tarts.html",
-    description: "Beautiful strawberry tarts with cream filling - perfect for special occasions.",
-    keywords: ["strawberry", "tarts", "cream", "elegant", "dessert"]
+    title: "Healthy No Bake Brownie Batter Bars (4 Ingredients)",
+    url: "/recipes/brownie-batter-bars.html",
+    description: "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
+    keywords: ["brownie", "no-bake", "gluten-free", "vegan", "dairy-free", "paleo", "refined-sugar-free", "chocolate", "almond-flour", "4-ingredients", "healthy-dessert"]
   },
   {
     title: "Matcha Fudge",

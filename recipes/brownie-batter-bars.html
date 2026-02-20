@@ -414,6 +414,80 @@
         font-weight: normal !important;
       }
 
+      .tips-section {
+          margin-top: 2rem;
+          padding-top: 2rem;
+          border-top: 1px solid #f0f0f0;
+      }
+      .tips-section h3 {
+          font-family: var(--font-heading);
+          font-size: 1.5rem;
+          color: #2f4f2f;
+          margin-bottom: 1.5rem;
+          padding-bottom: 0.5rem;
+          border-bottom: 2px solid var(--light-pink);
+          display: inline-block;
+      }
+      .tips-list {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+      }
+      .tips-list li {
+          background: #fdf7f7;
+          padding: 1rem 1.5rem 1rem 3rem;
+          margin-bottom: 1rem;
+          border-radius: 8px;
+          color: #444;
+          line-height: 1.6;
+          position: relative;
+          text-align: left;
+      }
+      .tips-list li:before {
+          font-family: "Font Awesome 6 Free";
+          font-weight: 900;
+          content: "\f005";
+          color: #c6d1c4;
+          position: absolute;
+          left: 1rem;
+          top: 1rem;
+      }
+
+      .faq-section {
+          margin-top: 2rem;
+          padding-top: 2rem;
+          border-top: 1px solid #f0f0f0;
+      }
+      .faq-section h3 {
+          font-family: var(--font-heading);
+          font-size: 1.5rem;
+          color: #2f4f2f;
+          margin-bottom: 1.5rem;
+          padding-bottom: 0.5rem;
+          border-bottom: 2px solid var(--light-pink);
+          display: inline-block;
+      }
+      .faq-list {
+          display: block;
+      }
+      .faq-item {
+          margin-bottom: 2rem;
+          text-align: left;
+      }
+      .faq-question {
+          font-family: var(--font-heading);
+          font-size: 1.1rem;
+          color: #2f4f2f;
+          margin: 0 0 0.75rem 0;
+          font-weight: 700;
+      }
+      .faq-answer {
+          color: #666;
+          line-height: 1.6;
+          margin: 0 0 1rem 0;
+          font-size: 0.95rem;
+      }
+
       @media (min-width: 769px) {
         .about-me-sidebar {
           flex: 0 0 360px !important;
@@ -746,23 +820,51 @@
                 <p class="nutrition-disclaimer" style="font-size: 0.9rem !important; line-height: 1.4 !important;">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Basic macros don't reflect the full nutritional value including vitamins, minerals, antioxidants, and other beneficial compounds. Please use this as a guideline only.</p>
             </div>
 
-            <!-- Tips Section (placeholder for later) -->
-            <div class="tips-section" style="display: none;">
-                <h3>Pro Tips</h3>
-                <ul class="tips-list">
-                    <li>Container size and pro tips will be added here</li>
-                </ul>
+            <!-- Tips Section -->
+            <div class="tips-section">
+
+            <h3>Pro Tips</h3>
+            <ul class="tips-list">
+                <li>This is a small batch recipe, feel free to double it for larger servings</li>
+                <li>Use a hot knife to slice the bars if slicing straight from the freezer</li>
+                <li>Let the squares sit out at room temp for a few mins prior to eating</li>
+            </ul>
+
             </div>
 
-            <!-- FAQ Section (placeholder for later) -->
-            <div class="faq-section" style="display: none;">
-                <h3>Frequently Asked Questions</h3>
-                <div class="faq-list">
+            <!-- FAQ Section -->
+            <div class="faq-section">
+
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-list">
+
                     <div class="faq-item">
-                        <h4 class="faq-question">FAQ questions will be added here</h4>
-                        <p class="faq-answer">FAQ answers will be added here</p>
+                        <h4 class="faq-question">How should I store these no bake brownie batter bars?</h4>
+                        <p class="faq-answer">Store them in an airtight container in the fridge for up to 4 days. For longer storage, keep them in the freezer and let them thaw for 5–10 minutes before serving.</p>
                     </div>
-                </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I substitute the maple syrup?</h4>
+                        <p class="faq-answer">You can experiment with other liquid sweeteners like honey or date syrup, but the texture and sweetness may vary slightly. Many reader have used dates instead and have had great success! (Around 5-7 dates depending on size + stickiness)</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I freeze brownie batter bars?</h4>
+                        <p class="faq-answer">Yes, these freeze really well. Once the chocolate topping has set, slice them and store in a freezer-safe container. They can be enjoyed straight from the freezer or thawed slightly for a softer texture.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these brownie batter bars gluten-free?</h4>
+                        <p class="faq-answer">Yes, they're naturally gluten-free since they're made with almond flour instead of traditional wheat flour. Just ensure your other ingredients are certified gluten-free if needed.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these refined sugar-free?</h4>
+                        <p class="faq-answer">These bars are sweetened with maple syrup and dark chocolate, making them free from refined white sugar. Always check your chocolate label to keep them fully refined sugar-free.</p>
+                    </div>
+
+            </div>
+
             </div>
         </section>
     </main>

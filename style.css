@@ -107,7 +107,7 @@
 
   .recipe-card img {
     width: 100%;
-    height: 240px;
+    height: 320px; /* Increased from 240px to better fit 3:2 ratio images */
     object-fit: cover;
     border-bottom: 1px solid #ccc;
   }
@@ -331,7 +331,7 @@
 
   .recipe-card img {
     width: 100%;
-    height: 240px;
+    height: 320px; /* Increased from 240px to better fit 3:2 ratio images */
     object-fit: cover;
   }
 
@@ -1907,7 +1907,7 @@
 
 .recipe-card-small img {
   width: 100%;
-  height: 200px;
+  height: 280px; /* Increased from 200px to better fit 3:2 ratio images */
   object-fit: cover;
 }
 
@@ -2431,7 +2431,7 @@
 
 .recipe-card-small img {
   width: 100%;
-  height: 200px;
+  height: 280px; /* Increased from 200px to better fit 3:2 ratio images */
   object-fit: cover;
 }
 

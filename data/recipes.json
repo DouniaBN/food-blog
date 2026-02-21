@@ -222,12 +222,16 @@
       "slug": "mango-yogurt-bites",
       "description": "Refreshing 3-ingredient summer dessert! Creamy Greek yogurt and fresh mango wrapped in rich dark chocolate - naturally sweetened and ready in 10 minutes prep.",
       "image": {
-        "hero": "images/recipes/mango-yogurt-bites-hero.jpg",
-        "thumbnail": "images/recipes/mango-yogurt-bites-card.jpg",
+        "hero": "images/recipes/mango-yogurt-bites/mango-bites.jpg",
+        "thumbnail": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp",
+        "thumbnail_400": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp",
+        "thumbnail_600": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-600.webp",
+        "alt": "No-Bake Mango Yogurt Chocolate Bites - healthy dessert recipe",
         "gallery": [
-          "images/recipes/mango-yogurt-bites-process.jpg",
-          "images/recipes/mango-yogurt-bites-step1.jpg",
-          "images/recipes/mango-yogurt-bites-step2.jpg"
+          "images/recipes/mango-yogurt-bites/mango-bites-process1.jpg",
+          "images/recipes/mango-yogurt-bites/mango-bites-process2.jpg",
+          "images/recipes/mango-yogurt-bites/mango-bites-process3.jpg",
+          "images/recipes/mango-yogurt-bites/mango-bites-process4.jpg"
         ]
       },
       "author": {

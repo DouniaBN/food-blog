@@ -411,7 +411,10 @@
       "description": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
       "image": {
         "hero": "images/recipes/brownie-batter-bars/brownie-bars-800.jpg",
-        "thumbnail": "images/recipes/brownie-batter-bars/brownie-batter-bars-card-300.webp",
+        "thumbnail": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
+        "thumbnail_400": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
+        "thumbnail_600": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-600.webp",
+        "alt": "Hand holding no-bake dark chocolate brownie bars with glossy topping and sea salt flakes",
         "gallery": []
       },
       "author": {

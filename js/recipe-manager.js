@@ -74,11 +74,33 @@ class RecipeManager {
             viralCount = ''
         } = options;
 
+        // Build responsive srcset if multiple thumbnail sizes available
+        const thumbnailSrc = recipe.image.thumbnail || recipe.image.hero;
+        const srcsetParts = [];
+
+        if (recipe.image.thumbnail_400) {
+            srcsetParts.push(`${recipe.image.thumbnail_400} 400w`);
+        }
+        if (recipe.image.thumbnail_600) {
+            srcsetParts.push(`${recipe.image.thumbnail_600} 600w`);
+        }
+
+        const srcsetAttr = srcsetParts.length > 0 ? `srcset="${srcsetParts.join(', ')}"` : '';
+        const sizesAttr = srcsetParts.length > 0 ? `sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"` : '';
+
+        // Use specific alt text if available, otherwise fall back to title + description
+        const altText = recipe.image.alt || `${recipe.title} - ${recipe.description}`;
+
         const cardHTML = `
             <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">
-                <img src="${recipe.image.thumbnail || recipe.image.hero}"
-                     alt="${recipe.title}"
-                     loading="lazy">
+                <img src="${thumbnailSrc}"
+                     ${srcsetAttr}
+                     ${sizesAttr}
+                     alt="${altText}"
+                     width="400"
+                     height="267"
+                     loading="lazy"
+                     decoding="async">
                 ${showViralBadge ? `
                 <div class="viral-badge">
                     <i class="fas fa-fire"></i>

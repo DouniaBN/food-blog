@@ -612,11 +612,11 @@
       "slug": "apple-fritters",
       "description": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried — the perfect sweet snack.",
       "image": {
-        "hero": "images/recipes/apple-fritters/apple-fritters-hero.jpg",
-        "thumbnail": "images/recipes/apple-fritters/apple-fritters-thumbnail-400.webp",
-        "thumbnail_400": "images/recipes/apple-fritters/apple-fritters-thumbnail-400.webp",
-        "thumbnail_600": "images/recipes/apple-fritters/apple-fritters-thumbnail-600.webp",
-        "alt": "Healthy baked apple fritters with cinnamon and diced apples on white plate",
+        "hero": "images/recipes/apple-fritters/apple-fritters-hero.webp",
+        "thumbnail": "images/recipes/apple-fritters/apple-fritters-card-300px.webp",
+        "thumbnail_400": "images/recipes/apple-fritters/apple-fritters-card-300px.webp",
+        "thumbnail_600": "images/recipes/apple-fritters/apple-fritters-card-600px.webp",
+        "alt": "Cross section of a sugar free apple fritter showing tender interior with visible apple pieces and golden exterior",
         "gallery": []
       },
       "author": {

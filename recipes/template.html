@@ -475,6 +475,46 @@
         font-size: 0.95rem;
     }
 
+    /* Tips Section Styling */
+    .tips-section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #f0f0f0;
+    }
+    .tips-section h3 {
+        font-family: var(--font-heading);
+        font-size: 1.5rem;
+        color: #2f4f2f;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--light-pink);
+        display: inline-block;
+    }
+    .tips-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .tips-list li {
+        background: #fdf7f7;
+        padding: 1rem 1.5rem 1rem 3rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        color: #444;
+        line-height: 1.6;
+        position: relative;
+        text-align: left;
+    }
+    .tips-list li:before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f005";
+        color: #c6d1c4;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
     /* Desktop-only padding below "You Might Also Like" section */
     @media (min-width: 769px) {
         .related-recipes {

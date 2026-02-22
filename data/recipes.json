@@ -605,6 +605,225 @@
       "social": {"pinterest": {"description": "Healthy chocolate bars!", "title": "Chocolate Bars"}, "instagram": {"caption": "Chocolate bars!", "hashtags": ["#chocolatebars"]}},
       "datePublished": "2025-01-10", "dateModified": "2025-01-10",
       "featured": false, "viral": false, "popular": true
+    },
+    {
+      "id": "apple-fritters",
+      "title": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)",
+      "slug": "apple-fritters",
+      "description": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried — the perfect sweet snack.",
+      "image": {
+        "hero": "images/recipes/apple-fritters/apple-fritters-hero.jpg",
+        "thumbnail": "images/recipes/apple-fritters/apple-fritters-thumbnail-400.webp",
+        "thumbnail_400": "images/recipes/apple-fritters/apple-fritters-thumbnail-400.webp",
+        "thumbnail_600": "images/recipes/apple-fritters/apple-fritters-thumbnail-600.webp",
+        "alt": "Healthy baked apple fritters with cinnamon and diced apples on white plate",
+        "gallery": []
+      },
+      "author": {
+        "name": "Dounia",
+        "title": "Certified Holistic Nutritionist"
+      },
+      "timing": {
+        "prepTime": "PT10M",
+        "cookTime": "PT14M",
+        "totalTime": "PT24M",
+        "prepTimeDisplay": "10 minutes",
+        "cookTimeDisplay": "14 minutes",
+        "totalTimeDisplay": "24 minutes"
+      },
+      "servings": {
+        "yield": "6",
+        "unit": "fritters"
+      },
+      "difficulty": "Easy",
+      "categories": ["Baked", "Gluten-Free", "Refined Sugar-Free", "Fruit"],
+      "tags": ["apple", "fritters", "baked", "gluten-free", "dairy-free", "refined-sugar-free", "vegetarian", "fruit", "cinnamon", "healthy-dessert"],
+      "nutrition": {
+        "calories": 84,
+        "protein": "2.1g",
+        "carbs": "10.3g",
+        "fat": "4.2g",
+        "fiber": "1.3g",
+        "netCarbs": "9.0g"
+      },
+      "ingredients": [
+        {
+          "amount": "2",
+          "unit": "small",
+          "ingredient": "apples",
+          "notes": "diced finely, approx 70g"
+        },
+        {
+          "amount": "1",
+          "unit": "large",
+          "ingredient": "egg",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tbsp",
+          "ingredient": "coconut oil",
+          "notes": "melted"
+        },
+        {
+          "amount": "1",
+          "unit": "tsp",
+          "ingredient": "cinnamon",
+          "notes": ""
+        },
+        {
+          "amount": "⅛",
+          "unit": "tsp",
+          "ingredient": "baking powder",
+          "notes": ""
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "ingredient": "oats",
+          "notes": "approx 25g"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "ingredient": "rice flour",
+          "notes": "approx 25g"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat the oven to 190°C/180°C fan.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "In a bowl, crack the egg and add the melted coconut oil. Whisk until combined.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Dice the apples very finely (approx half an inch thick) and add to the bowl.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Mix in the cinnamon and add oats, rice flour and baking powder, mixing until combined.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Line a baking tray. Scoop a heaped tablespoon of the batter for each fritter.",
+          "image": ""
+        },
+        {
+          "step": 6,
+          "text": "Bake for 14-17 minutes or until slightly golden brown.",
+          "image": ""
+        }
+      ],
+      "notes": [
+        "This is a small-batch apple fritter recipe. Double the ingredients if you'd like a larger serving.",
+        "Dice the apples very finely to help the batter bind properly and cook evenly.",
+        "Mix of peeled and unpeeled apples adds texture and natural sweetness.",
+        "Optional toppings: maple syrup, icing sugar, coconut butter or powdered monk fruit."
+      ],
+      "equipment": [
+        "Medium mixing bowl",
+        "Baking tray",
+        "Parchment paper",
+        "Whisk",
+        "Tablespoon for scooping"
+      ],
+      "seo": {
+        "metaTitle": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened) | Yourwellnessgirly",
+        "metaDescription": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried — the perfect sweet snack.",
+        "keywords": [
+          "healthy apple fritters",
+          "sugar-free apple fritters",
+          "gluten-free apple fritters",
+          "baked apple fritters",
+          "naturally sweetened apple fritters",
+          "dairy-free apple fritters",
+          "viral apple fritters recipe"
+        ],
+        "canonicalUrl": "/recipes/apple-fritters"
+      },
+      "social": {
+        "pinterest": {
+          "description": "Viral healthy sugar-free apple fritters! 🍎 Gluten-free, naturally sweetened & baked not fried. Perfect healthy sweet snack!",
+          "title": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)"
+        },
+        "instagram": {
+          "caption": "fun fact: i was going to gatekeep these added sugar-free and gluten-free apple fritters… but not for the reason you might think! 🍎✨ Over 20 MILLION people have seen this recipe! Recipe on the blog ➡️",
+          "hashtags": ["#applefritters", "#glutenfree", "#sugarfree", "#baked", "#healthydesserts", "#viral", "#refinedsugarfree", "#yourwellnessgirly"]
+        }
+      },
+      "story": {
+        "subtitle": "the viral apple fritters everyone's obsessed with",
+        "paragraphs": [
+          "fun fact: i was going to gatekeep these added sugar-free and gluten-free apple fritters… but not for the reason you might think. after developing this recipe, i made them three times in one week (yuppp) and found myself constantly craving them. there are some recipes i make and think \"hmm, this might be a little too niche,\" but i shared this one anyway and the response was positively overwhelming with over 20 MILLION people seeing them!",
+          "these apple fritters are now one of my most viral recipes of all time. they're a healthier twist on traditional apple fritters: baked instead of fried, made with better-for-you ingredients, and naturally sweetened. you can always add extra sweetener to the batter or on top if you prefer, and using naturally sweet, juicy apples really makes a difference. They make for a great healthy dessert, breakfast on the go idea or sweet snack. For the most consistent results, stick to the gram measurements and take a quick look at the FAQ for helpful troubleshooting before you begin."
+        ]
+      },
+      "faq": [
+        {
+          "question": "How do I store sugar-free apple fritters?",
+          "answer": "Store the apple fritters in an airtight container at room temperature for up to 24 hours. For longer storage, refrigerate them for up to 3 to 4 days. Reheat in the oven or air fryer for a few minutes to restore their texture. These fritters are best enjoyed fresh, as they are naturally moist from the apples."
+        },
+        {
+          "question": "Are these apple fritters completely sugar-free?",
+          "answer": "No, they are not completely sugar free since they contain apples which have naturally occurring sugars. However, the recipe is added sugar free and refined sugar free. If you add a sweetener of your choice on top, opt for a refined sugar free alternative if needed (check the recipe card for possible ideas!)"
+        },
+        {
+          "question": "Why does this apple fritter recipe have very little batter?",
+          "answer": "There should be almost equal amounts of batter to apples as the recipe is designed to be apple-forward, not batter-heavy to ensure adequate natural sweetness. The batter lightly coats and binds the diced apples rather than surrounding them like a traditional deep-fried fritter."
+        },
+        {
+          "question": "Can I use stewed apples instead of fresh apples in apple fritters?",
+          "answer": "You can use stewed apples, however they should contain as little liquid as possible. Too much moisture will alter the texture and structure of the fritters."
+        },
+        {
+          "question": "What can I substitute for rice flour in these apple fritters?",
+          "answer": "All purpose regular flour is the best sub for white flour and if you would like to keep the recipe gluten free a 1:1 gluten free regular flour."
+        },
+        {
+          "question": "Are these apple fritters healthy?",
+          "answer": "Yes - these apple fritters are made with better for you ingredients, baked not fried and are very low in oil. As well as being naturally sweetened if you opt for no additional sweetener."
+        },
+        {
+          "question": "What are the best apples to use for apple fritters?",
+          "answer": "Fuji, gala, honeycrisp, golden delicious, pink lady, jonagold, braeburn, and ambrosia apples are best for baking and they all work great in this apple fritter recipe"
+        },
+        {
+          "question": "Why are my apple fritters dry?",
+          "answer": "If your mixture looks too dry, double-check that you weighed the ingredients in grams and that the apples are diced finely. If you used a cup measurement the flour or oats may have been too tightly packed in the cup. To fix a dry batter you can add an extra egg if it is very dry or a splash of milk if it is slightly dry."
+        }
+      ],
+      "tips": [
+        "This is a small-batch apple fritter recipe. Double the ingredients if you'd like a larger serving.",
+        "Dice the apples very finely to help the batter bind properly and cook evenly.",
+        "I use a mix of peeled and unpeeled apples for texture and natural sweetness."
+      ],
+      "substitutions": [
+        {
+          "ingredient": "Rice flour",
+          "alternatives": ["All-purpose flour (not gluten-free)", "1:1 gluten-free flour blend"]
+        },
+        {
+          "ingredient": "Coconut oil",
+          "alternatives": ["Melted butter (not dairy-free)", "Neutral oil like avocado oil"]
+        },
+        {
+          "ingredient": "Oats",
+          "alternatives": ["Oat flour", "Almond flour (use less as it's more absorbent)"]
+        }
+      ],
+      "datePublished": "2026-02-22",
+      "dateModified": "2026-02-22",
+      "featured": true,
+      "viral": true,
+      "popular": true
     }
   ],
   "categories": [

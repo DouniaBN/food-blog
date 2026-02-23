@@ -575,7 +575,7 @@
           <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="about-social-btn tiktok" aria-label="Watch on TikTok">
             <i class="fab fa-tiktok"></i>
           </a>
-          <a href="#" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
+          <a href="https://www.youtube.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="about-social-btn youtube" aria-label="Subscribe on YouTube">
             <i class="fab fa-youtube"></i>
           </a>
           <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="about-social-btn pinterest" aria-label="Follow on Pinterest">
@@ -752,42 +752,16 @@
     </footer>
 
     <script>
-      // Debug: Test if script loads
-      console.log('Script loaded successfully!');
-
-      // Recipe database for search functionality
-      const recipeDatabase = [
-        {
-          title: "Healthy Chocolate Banana Bites",
-          url: "/recipes/banana-bites.html",
-          description: "Easy 15-minute healthy chocolate banana bites with only 5 ingredients. No-bake, vegan, and gluten-free.",
-          keywords: ["chocolate", "banana", "no-bake", "vegan", "gluten-free", "healthy", "dessert", "15 minutes", "5 ingredients"]
-        },
-        {
-          title: "Strawberry Chia Cups",
-          url: "/recipes/chia-cups.html",
-          description: "Creamy strawberry chia pudding cups perfect for breakfast or dessert.",
-          keywords: ["strawberry", "chia", "pudding", "breakfast", "healthy", "vegan", "gluten-free"]
-        }
-      ];
-
       // Search functionality
       function toggleSearch() {
-        console.log('toggleSearch called!'); // Debug log
         const searchOverlay = document.getElementById('searchOverlay');
         const searchInput = document.getElementById('searchInput');
 
-        console.log('searchOverlay:', searchOverlay); // Debug log
-        console.log('searchInput:', searchInput); // Debug log
-
         if (searchOverlay && searchInput) {
           searchOverlay.classList.add('show');
-          console.log('Added show class to overlay'); // Debug log
           setTimeout(() => {
             searchInput.focus();
           }, 100);
-        } else {
-          console.log('Elements not found!'); // Debug log
         }
       }
 
@@ -813,23 +787,14 @@
       window.toggleSearch = toggleSearch;
       window.closeSearch = closeSearch;
 
-      // Add event listener when page loads
       document.addEventListener('DOMContentLoaded', function() {
-        console.log('DOM loaded, setting up search icon click');
         const searchIcon = document.getElementById('searchIcon');
-        console.log('Search icon element:', searchIcon);
-
         if (searchIcon) {
           searchIcon.addEventListener('click', function(e) {
-            console.log('Search icon clicked!');
             e.preventDefault();
             toggleSearch();
           });
-          console.log('Event listener added to search icon');
-        } else {
-          console.log('Search icon not found!');
         }
-
         // Search input is handled by recipe-manager.js which uses the full JSON recipe data
       });
     </script>
@@ -899,18 +864,7 @@
 
             // Load and display recipes on homepage
             try {
-                console.log('Testing recipe manager...');
-
-                // Test if we can load the JSON
-                const response = await fetch('./data/recipes.json');
-                console.log('JSON response:', response);
-                const data = await response.json();
-                console.log('JSON data:', data);
-
-                // Test if recipe manager works
-                console.log('Recipe manager:', window.recipeManager);
                 await window.recipeManager.updateHomepage();
-                console.log('Homepage updated successfully');
             } catch (error) {
                 console.error('Error loading recipes:', error);
                 if (viralContainer) {

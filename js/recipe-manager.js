@@ -125,7 +125,6 @@ class RecipeManager {
             </a>
         `;
 
-        console.log('Generated card HTML:', cardHTML);
         return cardHTML;
     }
 

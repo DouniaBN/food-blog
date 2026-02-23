@@ -34,21 +34,14 @@ const recipeDatabase = [
 
 // Search functionality
 function toggleSearch() {
-  console.log('toggleSearch called!'); // Debug log
   const searchOverlay = document.getElementById('searchOverlay');
   const searchInput = document.getElementById('searchInput');
 
-  console.log('searchOverlay:', searchOverlay); // Debug log
-  console.log('searchInput:', searchInput); // Debug log
-
   if (searchOverlay && searchInput) {
     searchOverlay.classList.add('show');
-    console.log('Added show class to overlay'); // Debug log
     setTimeout(() => {
       searchInput.focus();
     }, 100);
-  } else {
-    console.log('Elements not found!'); // Debug log
   }
 }
 

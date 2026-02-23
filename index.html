@@ -457,7 +457,7 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="recipe-index.html">Recipe Index</a></li>
           <li><a href="about.html">About Me</a></li>
           <li class="dropdown">
@@ -830,47 +830,7 @@
           console.log('Search icon not found!');
         }
 
-        // Add search input functionality
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-
-        if (searchInput && searchResults) {
-          searchInput.addEventListener('input', function() {
-            const query = this.value.toLowerCase().trim();
-            console.log('Search query:', query);
-
-            if (query === '') {
-              searchResults.innerHTML = `
-                <div style="text-align: center; color: #666; padding: 1rem;">
-                  Start typing to search recipes...
-                </div>
-              `;
-              return;
-            }
-
-            const results = recipeDatabase.filter(recipe => {
-              return recipe.title.toLowerCase().includes(query) ||
-                     recipe.description.toLowerCase().includes(query) ||
-                     recipe.keywords.some(keyword => keyword.toLowerCase().includes(query));
-            });
-
-            if (results.length === 0) {
-              searchResults.innerHTML = `
-                <div style="text-align: center; color: #666; padding: 1rem;">
-                  No recipes found for "${query}"
-                </div>
-              `;
-            } else {
-              searchResults.innerHTML = results.map(recipe => `
-                <a href="${recipe.url}" class="search-result-item" onclick="closeSearch()">
-                  <div class="search-result-title">${recipe.title}</div>
-                  <div class="search-result-description">${recipe.description}</div>
-                </a>
-              `).join('');
-            }
-          });
-          console.log('Search input event listener added');
-        }
+        // Search input is handled by recipe-manager.js which uses the full JSON recipe data
       });
     </script>
 

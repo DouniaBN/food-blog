@@ -132,6 +132,111 @@
       "popular": true
     },
     {
+      "id": "blueberry-fritters",
+      "title": "Healthy Sugar-Free Blueberry Fritters",
+      "slug": "blueberry-fritters",
+      "description": "These healthy sugar-free blueberry fritters are baked, soft like blueberry muffin tops crossed with sweet bread. No added sugar, ready in 20 minutes and made with healthier ingredients.",
+      "image": {
+        "hero": "images/recipes/blueberry-fritters/blueberry-fritters-hero.webp",
+        "thumbnail": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
+        "thumbnail_400": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
+        "thumbnail_600": "images/recipes/blueberry-fritters/blueberry-fritters-card-600px.webp",
+        "alt": "Healthy sugar-free blueberry fritters on a baking tray, golden on the edges with juicy blueberries",
+        "gallery": []
+      },
+      "author": {
+        "name": "Dounia",
+        "title": "Certified Holistic Nutritionist"
+      },
+      "timing": {
+        "prepTime": "PT10M",
+        "cookTime": "PT15M",
+        "totalTime": "PT25M",
+        "prepTimeDisplay": "10 minutes",
+        "cookTimeDisplay": "15 minutes",
+        "totalTimeDisplay": "25 minutes"
+      },
+      "servings": {
+        "yield": "6",
+        "unit": "fritters"
+      },
+      "difficulty": "Easy",
+      "categories": ["Baked", "Vegetarian", "Dairy-Free", "Refined Sugar-Free"],
+      "tags": ["blueberry", "blueberry-fritters", "baked", "refined-sugar-free", "vegetarian", "dairy-free", "healthy", "quick", "fruit", "naturally-sweetened", "healthy-dessert"],
+      "nutrition": {
+        "calories": 199,
+        "protein": "4.5g",
+        "carbs": "18g",
+        "fat": "11.8g",
+        "fiber": "1.8g",
+        "sugar": "2.8g"
+      },
+      "ingredients": [
+        { "amount": "50", "unit": "grams", "ingredient": "oats", "notes": "" },
+        { "amount": "80", "unit": "grams", "ingredient": "plain flour", "notes": "regular AP flour" },
+        { "amount": "1/4", "unit": "teaspoon", "ingredient": "baking powder", "notes": "" },
+        { "amount": "2", "unit": "", "ingredient": "eggs", "notes": "large" },
+        { "amount": "4", "unit": "tablespoons", "ingredient": "coconut oil", "notes": "melted" },
+        { "amount": "1", "unit": "splash", "ingredient": "vanilla extract", "notes": "" },
+        { "amount": "1", "unit": "cup heaped", "ingredient": "frozen blueberries", "notes": "approx 150g" }
+      ],
+      "instructions": [
+        { "step": 1, "text": "Preheat the oven to 170°C/160°C fan.", "image": "" },
+        { "step": 2, "text": "In a small bowl, crack the eggs, add the melted coconut oil and vanilla. Whisk until combined.", "image": "" },
+        { "step": 3, "text": "Add in the oats, flour and baking powder and fold until just combined.", "image": "" },
+        { "step": 4, "text": "Pour in the frozen blueberries and fold until evenly distributed through the batter. It should be almost equal amounts blueberries to batter.", "image": "" },
+        { "step": 5, "text": "Spoon onto a lined baking tray.", "image": "" },
+        { "step": 6, "text": "Bake for 15 to 20 minutes until the edges are golden brown.", "image": "" },
+        { "step": 7, "text": "Optional: drizzle with maple syrup, powdered sweetener, coconut butter or icing sugar for added sweetness. Enjoy!", "image": "" }
+      ],
+      "notes": [
+        "This is a small-batch recipe making 6 fritters. Feel free to double for a larger batch.",
+        "If your blueberries aren't very sweet, add a drizzle of maple syrup or your favourite sugar-free sweetener on top.",
+        "Store in an airtight container at room temperature for up to 24 hours or refrigerate for up to 3 days.",
+        "Reheat in the oven or air fryer for a few minutes to restore the golden edges."
+      ],
+      "equipment": ["Oven", "Mixing bowl", "Baking tray", "Parchment paper"],
+      "seo": {
+        "metaTitle": "Healthy Sugar-Free Blueberry Fritters (Baked & Naturally Sweetened) | Yourwellnessgirly",
+        "metaDescription": "These healthy sugar-free blueberry fritters are baked, soft like blueberry muffin tops crossed with sweet bread. No added sugar, ready in 20 minutes and made with healthier ingredients.",
+        "keywords": ["healthy blueberry fritters", "sugar-free blueberry fritters", "baked blueberry fritters", "blueberry fritters recipe", "naturally sweetened blueberry fritters", "dairy-free blueberry fritters", "healthy blueberry snack"],
+        "canonicalUrl": "/recipes/blueberry-fritters"
+      },
+      "social": {
+        "pinterest": {
+          "description": "Healthy sugar-free blueberry fritters! 🫐 Baked, naturally sweetened and ready in 20 minutes. Like a blueberry muffin top meets sweet bread!",
+          "title": "Healthy Sugar-Free Blueberry Fritters (Baked & Naturally Sweetened)"
+        },
+        "instagram": {
+          "caption": "if you loved my viral apple fritters, you NEED to try these blueberry fritters 🫐✨ baked, no added sugar and ready in 20 minutes! recipe on the blog ➡️",
+          "hashtags": ["#blueberryfritters", "#healthydesserts", "#sugarfree", "#baked", "#refinedsugarfree", "#healthysnack", "#blueberry", "#yourwellnessgirly"]
+        }
+      },
+      "story": {
+        "subtitle": "why you'll love them",
+        "paragraphs": [
+          "if you love blueberry muffins but want something a little lighter and quicker, these healthy blueberry fritters are going to be your new obsession. the texture is somewhere between a blueberry muffin top and soft sweet bread: golden on the edges, fluffy in the centre, and packed with juicy blueberries in every bite. they're baked instead of fried and naturally sweetened, with the option to add your favourite sugar-free sweetener if you prefer.",
+          "this small-batch recipe makes approximately 6 fritters, perfect for when you want something sweet that you can adjust to your desired sweetness. they're a great healthy sweet snack, quick meal prep breakfast, or on-the-go treat. if you're one of the millions who tried and loved my <a href=\"apple-fritters.html\">viral sugar-free, gluten-free apple fritters</a>, this blueberry version should be your next bake. let me know — are you team apple fritters or team blueberry fritters?"
+        ]
+      },
+      "faq": [],
+      "tips": [
+        "Feel free to halve the recipe if you are baking for one!",
+        "Opt for sweeter blueberries for the best taste.",
+        "Work quickly to scoop the fritters once you have added the frozen blueberries."
+      ],
+      "substitutions": [
+        { "ingredient": "Plain flour", "alternatives": ["Oat flour", "1:1 gluten-free flour blend (for gluten-free)"] },
+        { "ingredient": "Coconut oil", "alternatives": ["Melted butter (not dairy-free)", "Neutral oil like avocado oil"] },
+        { "ingredient": "Frozen blueberries", "alternatives": ["Fresh blueberries (reduce bake time slightly)", "Mixed frozen berries"] }
+      ],
+      "datePublished": "2026-02-24",
+      "dateModified": "2026-02-24",
+      "featured": true,
+      "viral": false,
+      "popular": true
+    },
+    {
       "id": "banana-bites",
       "title": "Healthy Chocolate Banana Bites",
       "slug": "banana-bites",

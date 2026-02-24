@@ -206,7 +206,8 @@ class RecipeGenerator {
     generateResponsiveImage(imageData, type = 'hero', options = {}) {
         // Handle legacy string format for backward compatibility
         if (typeof imageData === 'string') {
-            return `<img src="../${imageData}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
+            const src = imageData.startsWith('http') ? imageData : `../${imageData}`;
+            return `<img src="${src}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
         }
 
         // Handle new responsive format
@@ -308,7 +309,8 @@ class RecipeGenerator {
      */
     generateSimpleImage(imageData, options = {}) {
         if (typeof imageData === 'string') {
-            return `<img src="../${imageData}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
+            const src = imageData.startsWith('http') ? imageData : `../${imageData}`;
+            return `<img src="${src}" alt="${options.alt || 'Recipe image'}" loading="lazy">`;
         }
 
         const {

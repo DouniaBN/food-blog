@@ -36,14 +36,15 @@
     "carbs": "10.3g",
     "fat": "4.2g",
     "fiber": "1.3g",
+    "sugar": "1.6g",
     "netCarbs": "9.0g"
   },
   "ingredients": [
     {
-      "amount": "2",
-      "unit": "small",
-      "ingredient": "apples",
-      "notes": "diced finely, approx 70g"
+      "amount": "70",
+      "unit": "grams",
+      "ingredient": "apple",
+      "notes": "diced finely approx 2 small apples"
     },
     {
       "amount": "1",
@@ -53,33 +54,33 @@
     },
     {
       "amount": "1",
-      "unit": "tbsp",
+      "unit": "tablespoon",
       "ingredient": "coconut oil",
       "notes": "melted"
     },
     {
       "amount": "1",
-      "unit": "tsp",
+      "unit": "teaspoon",
       "ingredient": "cinnamon",
       "notes": ""
     },
     {
       "amount": "⅛",
-      "unit": "tsp",
+      "unit": "teaspoon",
       "ingredient": "baking powder",
       "notes": ""
     },
     {
-      "amount": "1/4",
-      "unit": "cup",
-      "ingredient": "oats",
-      "notes": "approx 25g"
+      "amount": "25",
+      "unit": "grams",
+      "ingredient": "porridge oats",
+      "notes": "approx 1/4 cup"
     },
     {
-      "amount": "1/4",
-      "unit": "cup",
-      "ingredient": "rice flour",
-      "notes": "approx 25g"
+      "amount": "25",
+      "unit": "grams",
+      "ingredient": "fine rice flour",
+      "notes": "approx 1/4 cup"
     }
   ],
   "instructions": [
@@ -90,7 +91,7 @@
     },
     {
       "step": 2,
-      "text": "In a bowl, crack the egg and add the melted coconut oil. Whisk until combined.",
+      "text": "In a bowl, crack the egg and add in the melted coconut oil. Whisk until combined.",
       "image": ""
     },
     {
@@ -115,7 +116,7 @@
     },
     {
       "step": 7,
-      "text": "Optionally, drizzle with sugar-free icing or dust with cinnamon.",
+      "text": "Optionally, drizzle with sugar-free icing or dust with extra cinnamon.",
       "image": ""
     }
   ],
@@ -146,8 +147,8 @@
   "story": {
     "subtitle": "the viral apple fritters everyone's obsessed with",
     "paragraphs": [
-      "fun fact: i was going to gatekeep these added sugar-free and gluten-free apple fritters… but not for the reason you might think. after developing this recipe, i made them three times in one week (yuppp) and found myself constantly craving them. there are some recipes i make and think \"hmm, this might be a little too niche,\" but i shared this one anyway and the response was positively overwhelming with over 20 MILLION people seeing them!",
-      "these apple fritters are now one of my most viral recipes of all time. they're a healthier twist on traditional apple fritters: baked instead of fried, made with better-for-you ingredients, and naturally sweetened. you can always add extra sweetener to the batter or on top if you prefer, and using naturally sweet, juicy apples really makes a difference. They make for a great healthy dessert, breakfast on the go idea or sweet snack. For the most consistent results, stick to the gram measurements and take a quick look at the FAQ for helpful troubleshooting before you begin."
+      "fun fact: i wasn't going to share these added sugar-free and gluten-free apple fritters… but not for the reason you might think. after developing this recipe, i made them three times in one week (yuppp) and found myself constantly craving them. there are some recipes i make and think \"hmm, this might be a little too niche,\" but i shared this one anyway and the response was positively overwhelming with over 20 MILLION people seeing them!",
+      "these apple fritters are now one of my most viral recipes of all time. they're a healthier twist on traditional apple fritters: baked instead of fried, made with better-for-you ingredients, and naturally sweetened. you can always add extra sweetener to the batter or on top if you prefer, and using naturally sweet, juicy apples really makes a difference. they make for a great healthy dessert, breakfast on the go idea or sweet snack. For the most consistent results, stick to the gram measurements and take a quick look at the FAQ for helpful troubleshooting before you begin."
     ]
   },
   "faq": [

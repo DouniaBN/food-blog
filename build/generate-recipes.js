@@ -576,6 +576,10 @@ class RecipeGenerator {
         // Tips section
         html = html.replace('{{TIPS_CONTENT}}', this.renderTips(recipe));
 
+        // Watch Me Make It button URL
+        const watchUrl = recipe.videoUrl || 'https://www.instagram.com/yourwellnessgirly/';
+        html = html.replace(/{{WATCH_URL}}/g, watchUrl);
+
         // FAQ section
         html = html.replace('{{FAQ_CONTENT}}', this.renderFAQ(recipe));
 

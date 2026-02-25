@@ -25,10 +25,31 @@
         "cookTimeDisplay": "0 minutes",
         "totalTimeDisplay": "Overnight"
       },
-      "servings": {"yield": "1", "unit": "serving"},
+      "servings": {
+        "yield": "1",
+        "unit": "serving"
+      },
       "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Refined Sugar-Free"],
-      "tags": ["overnight-oats", "cinnamon", "blended", "no-bake", "vegan", "gluten-free", "dairy-free", "refined-sugar-free", "5-ingredient", "meal-prep", "breakfast"],
+      "categories": [
+        "No-Bake",
+        "Vegan",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Refined Sugar-Free"
+      ],
+      "tags": [
+        "overnight-oats",
+        "cinnamon",
+        "blended",
+        "no-bake",
+        "vegan",
+        "gluten-free",
+        "dairy-free",
+        "refined-sugar-free",
+        "5-ingredient",
+        "meal-prep",
+        "breakfast"
+      ],
       "nutrition": {
         "calories": 514,
         "protein": "12g",
@@ -38,39 +59,103 @@
         "sugar": "34g"
       },
       "ingredients": [
-        { "amount": "1", "unit": "cup", "ingredient": "oats", "notes": "" },
-        { "amount": "1", "unit": "tsp", "ingredient": "cinnamon", "notes": "" },
-        { "amount": "2", "unit": "", "ingredient": "pitted dates", "notes": "" },
-        { "amount": "1-2", "unit": "tbsp", "ingredient": "maple syrup", "notes": "" },
-        { "amount": "1", "unit": "cup", "ingredient": "milk of choice", "notes": "plus a few extra tbsp" }
+        {
+          "amount": "1",
+          "unit": "cup",
+          "ingredient": "oats",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tsp",
+          "ingredient": "cinnamon",
+          "notes": ""
+        },
+        {
+          "amount": "2",
+          "unit": "",
+          "ingredient": "pitted dates",
+          "notes": ""
+        },
+        {
+          "amount": "1-2",
+          "unit": "tbsp",
+          "ingredient": "maple syrup",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "ingredient": "milk of choice",
+          "notes": "plus a few extra tbsp"
+        }
       ],
       "instructions": [
-        { "step": 1, "text": "Add all of the ingredients to a high power blender.", "image": "" },
-        { "step": 2, "text": "Blend until the oats are completely smooth.", "image": "" },
-        { "step": 3, "text": "Add in a few extra tablespoons of milk if you prefer a runnier texture and blend again.", "image": "" },
-        { "step": 4, "text": "Transfer to an airtight container and place in the fridge overnight.", "image": "" },
-        { "step": 5, "text": "Enjoy!", "image": "" }
+        {
+          "step": 1,
+          "text": "Add all of the ingredients to a high power blender.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "Blend until the oats are completely smooth.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Add in a few extra tablespoons of milk if you prefer a runnier texture and blend again.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Transfer to an airtight container and place in the fridge overnight.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Enjoy!",
+          "image": ""
+        }
       ],
       "notes": [
         "Store in an airtight container in the refrigerator for up to 4 days.",
         "If they thicken overnight, stir in a splash of milk before serving.",
-        "Add protein powder and blend for a high protein version — extra milk may be needed."
+        "Add protein powder and blend for a high protein version \u2014 extra milk may be needed."
       ],
-      "equipment": ["High power blender", "Airtight container"],
+      "equipment": [
+        "High power blender",
+        "Airtight container"
+      ],
       "seo": {
         "metaTitle": "Cinnamon Roll Overnight Oats (Blended) | Yourwellnessgirly",
         "metaDescription": "These blended cinnamon roll overnight oats are creamy, refined sugar free, and ready with just 5 minutes of prep. The perfect healthy meal prep breakfast.",
-        "keywords": ["cinnamon roll overnight oats", "blended overnight oats", "healthy overnight oats", "meal prep breakfast", "refined sugar free overnight oats", "vegan overnight oats"],
+        "keywords": [
+          "cinnamon roll overnight oats",
+          "blended overnight oats",
+          "healthy overnight oats",
+          "meal prep breakfast",
+          "refined sugar free overnight oats",
+          "vegan overnight oats"
+        ],
         "canonicalUrl": "/recipes/cinnamon-roll-overnight-oats"
       },
       "social": {
         "pinterest": {
-          "description": "Blended cinnamon roll overnight oats — creamy, refined sugar free and ready in 5 minutes of prep! The perfect healthy meal prep breakfast 🤎",
+          "description": "Blended cinnamon roll overnight oats \u2014 creamy, refined sugar free and ready in 5 minutes of prep! The perfect healthy meal prep breakfast \ud83e\udd0e",
           "title": "Cinnamon Roll Overnight Oats (Blended)"
         },
         "instagram": {
-          "caption": "if you hate the texture of regular overnight oats, try blending them 🤎 cinnamon roll overnight oats that taste like dessert for breakfast — 5 min prep, meal prep friendly! recipe on the blog!",
-          "hashtags": ["#overnightoats", "#cinnamonroll", "#mealprep", "#healthybreakfast", "#blendedownightoats", "#refinedsugarfree", "#vegan", "#yourwellnessgirly"]
+          "caption": "if you hate the texture of regular overnight oats, try blending them \ud83e\udd0e cinnamon roll overnight oats that taste like dessert for breakfast \u2014 5 min prep, meal prep friendly! recipe on the blog!",
+          "hashtags": [
+            "#overnightoats",
+            "#cinnamonroll",
+            "#mealprep",
+            "#healthybreakfast",
+            "#blendedownightoats",
+            "#refinedsugarfree",
+            "#vegan",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
@@ -83,17 +168,50 @@
         ]
       },
       "faq": [
-        { "question": "How do I store cinnamon roll overnight oats?", "answer": "Store in an airtight container in the refrigerator for up to 4 days. If they thicken overnight, simply stir in a splash of milk before serving." },
-        { "question": "What type of oats should I use?", "answer": "Rolled oats or porridge oats work best. Steel cut oats are not ideal since they can remain too firm." },
-        { "question": "Are cinnamon roll overnight oats gluten free?", "answer": "Yes, if you use certified gluten-free oats. Oats are naturally gluten-free, but cross-contamination can occur during processing." },
-        { "question": "Can I make high protein overnight oats?", "answer": "Yes — add your favourite protein powder and blend. You will likely need to add more milk depending on absorbency." },
-        { "question": "Why are these overnight oats blended?", "answer": "Blending creates a smoother, creamier pudding-like texture instead of the typical thick or chewy oat consistency." },
-        { "question": "What topping is used?", "answer": "I used white chocolate for subtle sweetness. Yogurt of your choice would also work great." }
+        {
+          "question": "How do I store cinnamon roll overnight oats?",
+          "answer": "Store in an airtight container in the refrigerator for up to 4 days. If they thicken overnight, simply stir in a splash of milk before serving."
+        },
+        {
+          "question": "What type of oats should I use?",
+          "answer": "Rolled oats or porridge oats work best. Steel cut oats are not ideal since they can remain too firm."
+        },
+        {
+          "question": "Are cinnamon roll overnight oats gluten free?",
+          "answer": "Yes, if you use certified gluten-free oats. Oats are naturally gluten-free, but cross-contamination can occur during processing."
+        },
+        {
+          "question": "Can I make high protein overnight oats?",
+          "answer": "Yes \u2014 add your favourite protein powder and blend. You will likely need to add more milk depending on absorbency."
+        },
+        {
+          "question": "Why are these overnight oats blended?",
+          "answer": "Blending creates a smoother, creamier pudding-like texture instead of the typical thick or chewy oat consistency."
+        },
+        {
+          "question": "What topping is used?",
+          "answer": "I used white chocolate for subtle sweetness. Yogurt of your choice would also work great."
+        }
       ],
       "tips": [],
       "substitutions": [
-        { "ingredient": "Milk of choice", "alternatives": ["Oat milk", "Almond milk", "Coconut milk", "Regular dairy milk"] },
-        { "ingredient": "Maple syrup", "alternatives": ["Honey (not vegan)", "Agave nectar", "Date syrup"] }
+        {
+          "ingredient": "Milk of choice",
+          "alternatives": [
+            "Oat milk",
+            "Almond milk",
+            "Coconut milk",
+            "Regular dairy milk"
+          ]
+        },
+        {
+          "ingredient": "Maple syrup",
+          "alternatives": [
+            "Honey (not vegan)",
+            "Agave nectar",
+            "Date syrup"
+          ]
+        }
       ],
       "datePublished": "2026-02-25",
       "dateModified": "2026-02-25",
@@ -105,7 +223,7 @@
       "id": "apple-fritters",
       "title": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)",
       "slug": "apple-fritters",
-      "description": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried — the perfect sweet snack.",
+      "description": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried \u2014 the perfect sweet snack.",
       "image": {
         "hero": "images/recipes/apple-fritters/apple-fritters-hero.webp",
         "thumbnail": "images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp",
@@ -131,10 +249,25 @@
         "unit": "fritters"
       },
       "difficulty": "Easy",
-      "categories": ["Gluten-Free", "Dairy-Free", "Refined Sugar-Free", "Vegetarian", "Baked"],
+      "categories": [
+        "Gluten-Free",
+        "Dairy-Free",
+        "Refined Sugar-Free",
+        "Vegetarian",
+        "Baked"
+      ],
       "tags": [
-        "apple", "apple-fritters", "gluten-free", "dairy-free", "refined-sugar-free",
-        "baked", "naturally-sweetened", "vegetarian", "healthy", "viral", "quick"
+        "apple",
+        "apple-fritters",
+        "gluten-free",
+        "dairy-free",
+        "refined-sugar-free",
+        "baked",
+        "naturally-sweetened",
+        "vegetarian",
+        "healthy",
+        "viral",
+        "quick"
       ],
       "nutrition": {
         "calories": 84,
@@ -145,53 +278,129 @@
         "sugar": "0g"
       },
       "ingredients": [
-        { "amount": "2", "unit": "small", "ingredient": "apples", "notes": "diced finely (approx 70g)" },
-        { "amount": "1", "unit": "large", "ingredient": "egg", "notes": "" },
-        { "amount": "1", "unit": "tbsp", "ingredient": "melted coconut oil", "notes": "" },
-        { "amount": "1", "unit": "tsp", "ingredient": "cinnamon", "notes": "" },
-        { "amount": "⅛", "unit": "tsp", "ingredient": "baking powder", "notes": "" },
-        { "amount": "1/4", "unit": "cup", "ingredient": "oats", "notes": "approx 25g" },
-        { "amount": "1/4", "unit": "cup", "ingredient": "rice flour", "notes": "approx 25g" }
+        {
+          "amount": "2",
+          "unit": "small",
+          "ingredient": "apples",
+          "notes": "diced finely (approx 70g)"
+        },
+        {
+          "amount": "1",
+          "unit": "large",
+          "ingredient": "egg",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tbsp",
+          "ingredient": "melted coconut oil",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tsp",
+          "ingredient": "cinnamon",
+          "notes": ""
+        },
+        {
+          "amount": "\u215b",
+          "unit": "tsp",
+          "ingredient": "baking powder",
+          "notes": ""
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "ingredient": "oats",
+          "notes": "approx 25g"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "ingredient": "rice flour",
+          "notes": "approx 25g"
+        }
       ],
       "instructions": [
-        { "step": 1, "text": "Preheat the oven to 190°C/180°C fan.", "image": "" },
-        { "step": 2, "text": "In a bowl, crack the egg and add the melted coconut oil. Whisk until combined.", "image": "" },
-        { "step": 3, "text": "Dice the apples very finely (approx half an inch thick) and add to the bowl.", "image": "" },
-        { "step": 4, "text": "Mix in the cinnamon and add oats, rice flour and baking powder, mixing until combined.", "image": "" },
-        { "step": 5, "text": "Line a baking tray. Scoop a heaped tablespoon of the batter for each fritter.", "image": "" },
-        { "step": 6, "text": "Bake for 14-17 minutes or until slightly golden brown.", "image": "" }
+        {
+          "step": 1,
+          "text": "Preheat the oven to 190\u00b0C/180\u00b0C fan.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "In a bowl, crack the egg and add the melted coconut oil. Whisk until combined.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Dice the apples very finely (approx half an inch thick) and add to the bowl.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Mix in the cinnamon and add oats, rice flour and baking powder, mixing until combined.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Line a baking tray. Scoop a heaped tablespoon of the batter for each fritter.",
+          "image": ""
+        },
+        {
+          "step": 6,
+          "text": "Bake for 14-17 minutes or until slightly golden brown.",
+          "image": ""
+        }
       ],
       "notes": [
-        "This is a small-batch recipe — double the ingredients for a larger serving.",
+        "This is a small-batch recipe \u2014 double the ingredients for a larger serving.",
         "Dice the apples very finely to help the batter bind properly and cook evenly.",
         "Store in an airtight container at room temperature for up to 24 hours, or refrigerate for 3-4 days.",
         "Optional topping: drizzle with maple syrup, icing sugar, coconut butter, or powdered monk fruit."
       ],
-      "equipment": ["Oven", "Mixing bowl", "Baking tray", "Parchment paper"],
+      "equipment": [
+        "Oven",
+        "Mixing bowl",
+        "Baking tray",
+        "Parchment paper"
+      ],
       "seo": {
         "metaTitle": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened) | Yourwellnessgirly",
-        "metaDescription": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried — the perfect sweet snack.",
+        "metaDescription": "My viral healthy added sugar-free apple fritters are gluten-free, naturally sweetened and baked, not fried \u2014 the perfect sweet snack.",
         "keywords": [
-          "healthy apple fritters", "sugar-free apple fritters", "gluten-free apple fritters",
-          "baked apple fritters", "naturally sweetened apple fritters", "dairy-free apple fritters",
+          "healthy apple fritters",
+          "sugar-free apple fritters",
+          "gluten-free apple fritters",
+          "baked apple fritters",
+          "naturally sweetened apple fritters",
+          "dairy-free apple fritters",
           "viral apple fritters recipe"
         ],
         "canonicalUrl": "/recipes/apple-fritters"
       },
       "social": {
         "pinterest": {
-          "description": "My viral healthy added sugar-free apple fritters! Gluten-free, baked not fried, and naturally sweetened 🍎✨",
+          "description": "My viral healthy added sugar-free apple fritters! Gluten-free, baked not fried, and naturally sweetened \ud83c\udf4e\u2728",
           "title": "Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)"
         },
         "instagram": {
-          "caption": "Over 20 MILLION people have seen these healthy apple fritters 🍎 They're added sugar-free, gluten-free, baked not fried — and SO good! Recipe on the blog!",
-          "hashtags": ["#applefritters", "#healthydesserts", "#glutenfree", "#sugarfree", "#baked", "#viral", "#yourwellnessgirly"]
+          "caption": "Over 20 MILLION people have seen these healthy apple fritters \ud83c\udf4e They're added sugar-free, gluten-free, baked not fried \u2014 and SO good! Recipe on the blog!",
+          "hashtags": [
+            "#applefritters",
+            "#healthydesserts",
+            "#glutenfree",
+            "#sugarfree",
+            "#baked",
+            "#viral",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
         "subtitle": "the viral apple fritters everyone's obsessed with",
         "paragraphs": [
-          "fun fact: i was going to gatekeep these added sugar-free and gluten-free apple fritters… but not for the reason you might think. after developing this recipe, i made them three times in one week (yuppp) and found myself constantly craving them. i shared this one anyway and the response was positively overwhelming with over 20 MILLION people seeing them!",
+          "fun fact: i was going to gatekeep these added sugar-free and gluten-free apple fritters\u2026 but not for the reason you might think. after developing this recipe, i made them three times in one week (yuppp) and found myself constantly craving them. i shared this one anyway and the response was positively overwhelming with over 20 MILLION people seeing them!",
           "these apple fritters are now one of my most viral recipes of all time. they're a healthier twist on traditional apple fritters: baked instead of fried, made with better-for-you ingredients, and naturally sweetened. They make for a great healthy dessert, breakfast on the go, or sweet snack."
         ]
       },
@@ -202,7 +411,7 @@
         },
         {
           "question": "Are these apple fritters completely sugar-free?",
-          "answer": "No — they contain naturally occurring sugars from apples. However, the recipe is added sugar-free and refined sugar-free."
+          "answer": "No \u2014 they contain naturally occurring sugars from apples. However, the recipe is added sugar-free and refined sugar-free."
         },
         {
           "question": "What can I substitute for rice flour?",
@@ -220,11 +429,23 @@
       "tips": [
         "This is a small-batch apple fritter recipe. Double the ingredients if you'd like a larger serving.",
         "Dice the apples very finely to help the batter bind properly and cook evenly.",
-        "Use naturally sweet, juicy apples — fuji, gala, honeycrisp, or pink lady all work great."
+        "Use naturally sweet, juicy apples \u2014 fuji, gala, honeycrisp, or pink lady all work great."
       ],
       "substitutions": [
-        { "ingredient": "Rice flour", "alternatives": ["All-purpose flour", "1:1 gluten-free flour blend"] },
-        { "ingredient": "Coconut oil", "alternatives": ["Melted butter", "Avocado oil"] }
+        {
+          "ingredient": "Rice flour",
+          "alternatives": [
+            "All-purpose flour",
+            "1:1 gluten-free flour blend"
+          ]
+        },
+        {
+          "ingredient": "Coconut oil",
+          "alternatives": [
+            "Melted butter",
+            "Avocado oil"
+          ]
+        }
       ],
       "datePublished": "2026-02-22",
       "dateModified": "2026-02-22",
@@ -262,8 +483,25 @@
         "unit": "fritters"
       },
       "difficulty": "Easy",
-      "categories": ["Baked", "Vegetarian", "Dairy-Free", "Refined Sugar-Free"],
-      "tags": ["blueberry", "blueberry-fritters", "baked", "refined-sugar-free", "vegetarian", "dairy-free", "healthy", "quick", "fruit", "naturally-sweetened", "healthy-dessert"],
+      "categories": [
+        "Baked",
+        "Vegetarian",
+        "Dairy-Free",
+        "Refined Sugar-Free"
+      ],
+      "tags": [
+        "blueberry",
+        "blueberry-fritters",
+        "baked",
+        "refined-sugar-free",
+        "vegetarian",
+        "dairy-free",
+        "healthy",
+        "quick",
+        "fruit",
+        "naturally-sweetened",
+        "healthy-dessert"
+      ],
       "nutrition": {
         "calories": 199,
         "protein": "4.5g",
@@ -273,22 +511,85 @@
         "sugar": "2.8g"
       },
       "ingredients": [
-        { "amount": "50", "unit": "grams", "ingredient": "oats", "notes": "" },
-        { "amount": "80", "unit": "grams", "ingredient": "plain flour", "notes": "regular AP flour" },
-        { "amount": "1/4", "unit": "teaspoon", "ingredient": "baking powder", "notes": "" },
-        { "amount": "2", "unit": "", "ingredient": "eggs", "notes": "large" },
-        { "amount": "4", "unit": "tablespoons", "ingredient": "coconut oil", "notes": "melted" },
-        { "amount": "1", "unit": "splash", "ingredient": "vanilla extract", "notes": "" },
-        { "amount": "1", "unit": "cup heaped", "ingredient": "frozen blueberries", "notes": "approx 150g" }
+        {
+          "amount": "50",
+          "unit": "grams",
+          "ingredient": "oats",
+          "notes": ""
+        },
+        {
+          "amount": "80",
+          "unit": "grams",
+          "ingredient": "plain flour",
+          "notes": "regular AP flour"
+        },
+        {
+          "amount": "1/4",
+          "unit": "teaspoon",
+          "ingredient": "baking powder",
+          "notes": ""
+        },
+        {
+          "amount": "2",
+          "unit": "",
+          "ingredient": "eggs",
+          "notes": "large"
+        },
+        {
+          "amount": "4",
+          "unit": "tablespoons",
+          "ingredient": "coconut oil",
+          "notes": "melted"
+        },
+        {
+          "amount": "1",
+          "unit": "splash",
+          "ingredient": "vanilla extract",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "cup heaped",
+          "ingredient": "frozen blueberries",
+          "notes": "approx 150g"
+        }
       ],
       "instructions": [
-        { "step": 1, "text": "Preheat the oven to 170°C/160°C fan.", "image": "" },
-        { "step": 2, "text": "In a small bowl, crack the eggs, add the melted coconut oil and vanilla. Whisk until combined.", "image": "" },
-        { "step": 3, "text": "Add in the oats, flour and baking powder and fold until just combined.", "image": "" },
-        { "step": 4, "text": "Pour in the frozen blueberries and fold until evenly distributed through the batter. It should be almost equal amounts blueberries to batter.", "image": "" },
-        { "step": 5, "text": "Spoon onto a lined baking tray.", "image": "" },
-        { "step": 6, "text": "Bake for 15 to 20 minutes until the edges are golden brown.", "image": "" },
-        { "step": 7, "text": "Optional: drizzle with maple syrup, powdered sweetener, coconut butter or icing sugar for added sweetness. Enjoy!", "image": "" }
+        {
+          "step": 1,
+          "text": "Preheat the oven to 170\u00b0C/160\u00b0C fan.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "In a small bowl, crack the eggs, add the melted coconut oil and vanilla. Whisk until combined.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Add in the oats, flour and baking powder and fold until just combined.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Pour in the frozen blueberries and fold until evenly distributed through the batter. It should be almost equal amounts blueberries to batter.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Spoon onto a lined baking tray.",
+          "image": ""
+        },
+        {
+          "step": 6,
+          "text": "Bake for 15 to 20 minutes until the edges are golden brown.",
+          "image": ""
+        },
+        {
+          "step": 7,
+          "text": "Optional: drizzle with maple syrup, powdered sweetener, coconut butter or icing sugar for added sweetness. Enjoy!",
+          "image": ""
+        }
       ],
       "notes": [
         "This is a small-batch recipe making 6 fritters. Feel free to double for a larger batch.",
@@ -296,28 +597,50 @@
         "Store in an airtight container at room temperature for up to 24 hours or refrigerate for up to 3 days.",
         "Reheat in the oven or air fryer for a few minutes to restore the golden edges."
       ],
-      "equipment": ["Oven", "Mixing bowl", "Baking tray", "Parchment paper"],
+      "equipment": [
+        "Oven",
+        "Mixing bowl",
+        "Baking tray",
+        "Parchment paper"
+      ],
       "seo": {
         "metaTitle": "Healthy Sugar-Free Blueberry Fritters (Baked & Naturally Sweetened) | Yourwellnessgirly",
         "metaDescription": "These healthy sugar-free blueberry fritters are baked, soft like blueberry muffin tops crossed with sweet bread. No added sugar, ready in 20 minutes and made with healthier ingredients.",
-        "keywords": ["healthy blueberry fritters", "sugar-free blueberry fritters", "baked blueberry fritters", "blueberry fritters recipe", "naturally sweetened blueberry fritters", "dairy-free blueberry fritters", "healthy blueberry snack"],
+        "keywords": [
+          "healthy blueberry fritters",
+          "sugar-free blueberry fritters",
+          "baked blueberry fritters",
+          "blueberry fritters recipe",
+          "naturally sweetened blueberry fritters",
+          "dairy-free blueberry fritters",
+          "healthy blueberry snack"
+        ],
         "canonicalUrl": "/recipes/blueberry-fritters"
       },
       "social": {
         "pinterest": {
-          "description": "Healthy sugar-free blueberry fritters! 🫐 Baked, naturally sweetened and ready in 20 minutes. Like a blueberry muffin top meets sweet bread!",
+          "description": "Healthy sugar-free blueberry fritters! \ud83e\uded0 Baked, naturally sweetened and ready in 20 minutes. Like a blueberry muffin top meets sweet bread!",
           "title": "Healthy Sugar-Free Blueberry Fritters (Baked & Naturally Sweetened)"
         },
         "instagram": {
-          "caption": "if you loved my viral apple fritters, you NEED to try these blueberry fritters 🫐✨ baked, no added sugar and ready in 20 minutes! recipe on the blog ➡️",
-          "hashtags": ["#blueberryfritters", "#healthydesserts", "#sugarfree", "#baked", "#refinedsugarfree", "#healthysnack", "#blueberry", "#yourwellnessgirly"]
+          "caption": "if you loved my viral apple fritters, you NEED to try these blueberry fritters \ud83e\uded0\u2728 baked, no added sugar and ready in 20 minutes! recipe on the blog \u27a1\ufe0f",
+          "hashtags": [
+            "#blueberryfritters",
+            "#healthydesserts",
+            "#sugarfree",
+            "#baked",
+            "#refinedsugarfree",
+            "#healthysnack",
+            "#blueberry",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
         "subtitle": "why you'll love them",
         "paragraphs": [
           "if you love blueberry muffins but want something a little lighter and quicker, these healthy blueberry fritters are going to be your new obsession. the texture is somewhere between a blueberry muffin top and soft sweet bread: golden on the edges, fluffy in the centre, and packed with juicy blueberries in every bite. they're baked instead of fried and naturally sweetened, with the option to add your favourite sugar-free sweetener if you prefer.",
-          "this small-batch recipe makes approximately 6 fritters, perfect for when you want something sweet that you can adjust to your desired sweetness. they're a great healthy sweet snack, quick meal prep breakfast, or on-the-go treat. if you're one of the millions who tried and loved my <a href=\"apple-fritters.html\">viral sugar-free, gluten-free apple fritters</a>, this blueberry version should be your next bake. let me know — are you team apple fritters or team blueberry fritters?"
+          "this small-batch recipe makes approximately 6 fritters, perfect for when you want something sweet that you can adjust to your desired sweetness. they're a great healthy sweet snack, quick meal prep breakfast, or on-the-go treat. if you're one of the millions who tried and loved my <a href=\"apple-fritters.html\">viral sugar-free, gluten-free apple fritters</a>, this blueberry version should be your next bake. let me know \u2014 are you team apple fritters or team blueberry fritters?"
         ]
       },
       "faq": [],
@@ -327,9 +650,27 @@
         "Work quickly to scoop the fritters once you have added the frozen blueberries."
       ],
       "substitutions": [
-        { "ingredient": "Plain flour", "alternatives": ["Oat flour", "1:1 gluten-free flour blend (for gluten-free)"] },
-        { "ingredient": "Coconut oil", "alternatives": ["Melted butter (not dairy-free)", "Neutral oil like avocado oil"] },
-        { "ingredient": "Frozen blueberries", "alternatives": ["Fresh blueberries (reduce bake time slightly)", "Mixed frozen berries"] }
+        {
+          "ingredient": "Plain flour",
+          "alternatives": [
+            "Oat flour",
+            "1:1 gluten-free flour blend (for gluten-free)"
+          ]
+        },
+        {
+          "ingredient": "Coconut oil",
+          "alternatives": [
+            "Melted butter (not dairy-free)",
+            "Neutral oil like avocado oil"
+          ]
+        },
+        {
+          "ingredient": "Frozen blueberries",
+          "alternatives": [
+            "Fresh blueberries (reduce bake time slightly)",
+            "Mixed frozen berries"
+          ]
+        }
       ],
       "datePublished": "2026-02-24",
       "dateModified": "2026-02-24",
@@ -486,12 +827,21 @@
       },
       "social": {
         "pinterest": {
-          "description": "Easy 15-minute healthy chocolate banana bites! No-bake, vegan & gluten-free with only 5 ingredients. Perfect guilt-free dessert! 🍌🍫",
+          "description": "Easy 15-minute healthy chocolate banana bites! No-bake, vegan & gluten-free with only 5 ingredients. Perfect guilt-free dessert! \ud83c\udf4c\ud83c\udf6b",
           "title": "Healthy Chocolate Banana Bites - No-Bake Vegan Dessert"
         },
         "instagram": {
-          "caption": "Who else is obsessed with these 15-minute chocolate banana bites? 🍌🍫 Only 5 ingredients and SO good! Recipe on the blog ➡️",
-          "hashtags": ["#healthydesserts", "#nobake", "#vegan", "#glutenfree", "#bananabites", "#chocolate", "#quickrecipes", "#yourwellnessgirly"]
+          "caption": "Who else is obsessed with these 15-minute chocolate banana bites? \ud83c\udf4c\ud83c\udf6b Only 5 ingredients and SO good! Recipe on the blog \u27a1\ufe0f",
+          "hashtags": [
+            "#healthydesserts",
+            "#nobake",
+            "#vegan",
+            "#glutenfree",
+            "#bananabites",
+            "#chocolate",
+            "#quickrecipes",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
@@ -532,19 +882,34 @@
       "substitutions": [
         {
           "ingredient": "Almond butter",
-          "alternatives": ["Peanut butter", "Sunflower seed butter (nut-free)", "Tahini"]
+          "alternatives": [
+            "Peanut butter",
+            "Sunflower seed butter (nut-free)",
+            "Tahini"
+          ]
         },
         {
           "ingredient": "Maple syrup",
-          "alternatives": ["Honey (not vegan)", "Agave nectar", "Date syrup"]
+          "alternatives": [
+            "Honey (not vegan)",
+            "Agave nectar",
+            "Date syrup"
+          ]
         },
         {
           "ingredient": "Cocoa powder",
-          "alternatives": ["Cacao powder", "Chocolate protein powder (reduce liquid slightly)"]
+          "alternatives": [
+            "Cacao powder",
+            "Chocolate protein powder (reduce liquid slightly)"
+          ]
         },
         {
           "ingredient": "Mini chocolate chips",
-          "alternatives": ["Chopped dark chocolate", "Cacao nibs", "Dried fruit"]
+          "alternatives": [
+            "Chopped dark chocolate",
+            "Cacao nibs",
+            "Dried fruit"
+          ]
         }
       ],
       "datePublished": "2025-01-10",
@@ -588,8 +953,24 @@
         "unit": "bites"
       },
       "difficulty": "Easy",
-      "categories": ["No-Bake", "Gluten-Free", "Summer Desserts", "Chocolate", "3 Ingredients"],
-      "tags": ["mango", "yogurt", "chocolate", "no-bake", "gluten-free", "refined-sugar-free", "summer", "3-ingredient", "meal-prep"],
+      "categories": [
+        "No-Bake",
+        "Gluten-Free",
+        "Summer Desserts",
+        "Chocolate",
+        "3 Ingredients"
+      ],
+      "tags": [
+        "mango",
+        "yogurt",
+        "chocolate",
+        "no-bake",
+        "gluten-free",
+        "refined-sugar-free",
+        "summer",
+        "3-ingredient",
+        "meal-prep"
+      ],
       "nutrition": {
         "calories": 85,
         "protein": "4g",
@@ -679,12 +1060,21 @@
       },
       "social": {
         "pinterest": {
-          "description": "Easy 3-ingredient no-bake mango yogurt chocolate bites! Perfect refreshing summer dessert 🥭🍫 Gluten-free & naturally sweetened!",
+          "description": "Easy 3-ingredient no-bake mango yogurt chocolate bites! Perfect refreshing summer dessert \ud83e\udd6d\ud83c\udf6b Gluten-free & naturally sweetened!",
           "title": "No-Bake Mango Yogurt Chocolate Bites - 3 Ingredient Summer Dessert"
         },
         "instagram": {
-          "caption": "This is your sign to make these healthy 3 ingredient mango yogurt clusters!! If you love mango and chocolate then these no bake cuties will be your new fave dessert 🥭🍫 Save this for the perfect summer dessert!",
-          "hashtags": ["#mangorecipe", "#nobake", "#summerdesser", "#3ingredient", "#healthydesserts", "#glutenfree", "#yogurtbites", "#yourwellnessgirly"]
+          "caption": "This is your sign to make these healthy 3 ingredient mango yogurt clusters!! If you love mango and chocolate then these no bake cuties will be your new fave dessert \ud83e\udd6d\ud83c\udf6b Save this for the perfect summer dessert!",
+          "hashtags": [
+            "#mangorecipe",
+            "#nobake",
+            "#summerdesser",
+            "#3ingredient",
+            "#healthydesserts",
+            "#glutenfree",
+            "#yogurtbites",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
@@ -728,15 +1118,24 @@
       "substitutions": [
         {
           "ingredient": "Greek yogurt",
-          "alternatives": ["Coconut yogurt for vegan option", "Regular yogurt (though texture will be less thick)"]
+          "alternatives": [
+            "Coconut yogurt for vegan option",
+            "Regular yogurt (though texture will be less thick)"
+          ]
         },
         {
           "ingredient": "Fresh mango",
-          "alternatives": ["Frozen mango (thawed and drained)", "Canned mango (drained)"]
+          "alternatives": [
+            "Frozen mango (thawed and drained)",
+            "Canned mango (drained)"
+          ]
         },
         {
           "ingredient": "Dark chocolate",
-          "alternatives": ["Sugar-free chocolate", "Milk chocolate for sweeter taste"]
+          "alternatives": [
+            "Sugar-free chocolate",
+            "Milk chocolate for sweeter taste"
+          ]
         }
       ],
       "datePublished": "2026-01-13",
@@ -775,8 +1174,27 @@
         "unit": "bars"
       },
       "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Refined Sugar-Free", "Paleo"],
-      "tags": ["brownie", "no-bake", "gluten-free", "vegan", "dairy-free", "paleo", "refined-sugar-free", "chocolate", "almond-flour", "4-ingredients", "healthy-dessert"],
+      "categories": [
+        "No-Bake",
+        "Vegan",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Refined Sugar-Free",
+        "Paleo"
+      ],
+      "tags": [
+        "brownie",
+        "no-bake",
+        "gluten-free",
+        "vegan",
+        "dairy-free",
+        "paleo",
+        "refined-sugar-free",
+        "chocolate",
+        "almond-flour",
+        "4-ingredients",
+        "healthy-dessert"
+      ],
       "nutrition": {
         "calories": 246,
         "protein": "7g",
@@ -845,21 +1263,39 @@
         }
       ],
       "notes": [],
-      "equipment": ["Food processor", "Small container for lining"],
+      "equipment": [
+        "Food processor",
+        "Small container for lining"
+      ],
       "seo": {
         "metaTitle": "Healthy No Bake Brownie Batter Bars (4 Ingredients) | Yourwellnessgirly",
         "metaDescription": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
-        "keywords": ["brownie batter bars", "no bake brownie", "healthy brownies", "4 ingredient dessert", "vegan brownies", "gluten-free brownies"],
+        "keywords": [
+          "brownie batter bars",
+          "no bake brownie",
+          "healthy brownies",
+          "4 ingredient dessert",
+          "vegan brownies",
+          "gluten-free brownies"
+        ],
         "canonicalUrl": "/recipes/brownie-batter-bars"
       },
       "social": {
         "pinterest": {
-          "description": "No bake healthy brownie batter bars made with just 4 ingredients! 🍫 Vegan, gluten-free & ready in minutes!",
+          "description": "No bake healthy brownie batter bars made with just 4 ingredients! \ud83c\udf6b Vegan, gluten-free & ready in minutes!",
           "title": "Healthy No Bake Brownie Batter Bars (4 Ingredients)"
         },
         "instagram": {
-          "caption": "When you're craving brownies but don't want to turn the oven on... these 4-ingredient no bake brownie batter bars are IT! 🍫✨ Recipe on the blog!",
-          "hashtags": ["#browniebars", "#nobake", "#4ingredients", "#healthybrownies", "#vegan", "#glutenfree", "#yourwellnessgirly"]
+          "caption": "When you're craving brownies but don't want to turn the oven on... these 4-ingredient no bake brownie batter bars are IT! \ud83c\udf6b\u2728 Recipe on the blog!",
+          "hashtags": [
+            "#browniebars",
+            "#nobake",
+            "#4ingredients",
+            "#healthybrownies",
+            "#vegan",
+            "#glutenfree",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "datePublished": "2026-02-20",
@@ -893,10 +1329,32 @@
         "cookTimeDisplay": "0 minutes",
         "totalTimeDisplay": "25 minutes"
       },
-      "servings": {"yield": "17", "unit": "truffles"},
+      "servings": {
+        "yield": "17",
+        "unit": "truffles"
+      },
       "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
-      "tags": ["coconut", "coconut-truffles", "no-bake", "vegan", "gluten-free", "dairy-free", "paleo", "refined-sugar-free", "3-ingredient", "healthy-dessert", "meal-prep"],
+      "categories": [
+        "No-Bake",
+        "Vegan",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Paleo",
+        "Refined Sugar-Free"
+      ],
+      "tags": [
+        "coconut",
+        "coconut-truffles",
+        "no-bake",
+        "vegan",
+        "gluten-free",
+        "dairy-free",
+        "paleo",
+        "refined-sugar-free",
+        "3-ingredient",
+        "healthy-dessert",
+        "meal-prep"
+      ],
       "nutrition": {
         "calories": 140,
         "protein": "1g",
@@ -907,18 +1365,61 @@
         "netCarbs": "6g"
       },
       "ingredients": [
-        { "amount": "210", "unit": "g", "ingredient": "condensed coconut milk", "notes": "" },
-        { "amount": "70", "unit": "g", "ingredient": "coconut butter", "notes": "solid" },
-        { "amount": "165", "unit": "g", "ingredient": "desiccated coconut", "notes": "plus extra for rolling" }
+        {
+          "amount": "210",
+          "unit": "g",
+          "ingredient": "condensed coconut milk",
+          "notes": ""
+        },
+        {
+          "amount": "70",
+          "unit": "g",
+          "ingredient": "coconut butter",
+          "notes": "solid"
+        },
+        {
+          "amount": "165",
+          "unit": "g",
+          "ingredient": "desiccated coconut",
+          "notes": "plus extra for rolling"
+        }
       ],
       "instructions": [
-        { "step": 1, "text": "In a bowl measure out the coconut butter and melt it.", "image": "" },
-        { "step": 2, "text": "Pour in the condensed coconut milk and mix with the coconut butter until combined.", "image": "" },
-        { "step": 3, "text": "Add in the desiccated coconut and mix.", "image": "" },
-        { "step": 4, "text": "Shape into balls — batter will be slightly sticky but malleable.", "image": "" },
-        { "step": 5, "text": "Roll each ball in extra desiccated coconut.", "image": "" },
-        { "step": 6, "text": "Place in the freezer for 15 minutes until they look set.", "image": "" },
-        { "step": 7, "text": "Enjoy!!", "image": "" }
+        {
+          "step": 1,
+          "text": "In a bowl measure out the coconut butter and melt it.",
+          "image": ""
+        },
+        {
+          "step": 2,
+          "text": "Pour in the condensed coconut milk and mix with the coconut butter until combined.",
+          "image": ""
+        },
+        {
+          "step": 3,
+          "text": "Add in the desiccated coconut and mix.",
+          "image": ""
+        },
+        {
+          "step": 4,
+          "text": "Shape into balls \u2014 batter will be slightly sticky but malleable.",
+          "image": ""
+        },
+        {
+          "step": 5,
+          "text": "Roll each ball in extra desiccated coconut.",
+          "image": ""
+        },
+        {
+          "step": 6,
+          "text": "Place in the freezer for 15 minutes until they look set.",
+          "image": ""
+        },
+        {
+          "step": 7,
+          "text": "Enjoy!!",
+          "image": ""
+        }
       ],
       "notes": [
         "Let each ball sit out at room temperature for a few minutes before enjoying.",
@@ -928,24 +1429,40 @@
       "seo": {
         "metaTitle": "3 Ingredient Coconut Truffles (No-Bake & Dairy-Free) | Yourwellnessgirly",
         "metaDescription": "These healthy 3-ingredient coconut truffles are no-bake, simple to make, and packed with coconut flavour. The perfect treat for when you want something quick and wholesome.",
-        "keywords": ["coconut truffles", "3 ingredient coconut truffles", "no-bake coconut truffles", "vegan coconut truffles", "dairy-free truffles", "healthy coconut dessert"],
+        "keywords": [
+          "coconut truffles",
+          "3 ingredient coconut truffles",
+          "no-bake coconut truffles",
+          "vegan coconut truffles",
+          "dairy-free truffles",
+          "healthy coconut dessert"
+        ],
         "canonicalUrl": "/recipes/coconut-truffles"
       },
       "social": {
         "pinterest": {
-          "description": "These healthy 3-ingredient coconut truffles are no-bake, dairy-free and packed with coconut flavour! Like Raffaello but better-for-you 🥥✨",
+          "description": "These healthy 3-ingredient coconut truffles are no-bake, dairy-free and packed with coconut flavour! Like Raffaello but better-for-you \ud83e\udd65\u2728",
           "title": "3 Ingredient Coconut Truffles (No-Bake & Dairy-Free)"
         },
         "instagram": {
-          "caption": "3 ingredients. no oven. pure coconut heaven 🥥 these no-bake coconut truffles are so easy and SO good — raffaello vibes but dairy free! recipe on the blog!",
-          "hashtags": ["#coconuttruffles", "#nobake", "#3ingredients", "#healthydesserts", "#vegan", "#dairyfree", "#coconut", "#yourwellnessgirly"]
+          "caption": "3 ingredients. no oven. pure coconut heaven \ud83e\udd65 these no-bake coconut truffles are so easy and SO good \u2014 raffaello vibes but dairy free! recipe on the blog!",
+          "hashtags": [
+            "#coconuttruffles",
+            "#nobake",
+            "#3ingredients",
+            "#healthydesserts",
+            "#vegan",
+            "#dairyfree",
+            "#coconut",
+            "#yourwellnessgirly"
+          ]
         }
       },
       "story": {
         "subtitle": "why you'll love them",
         "paragraphs": [
           "if you're a coconut lover, then you've just found your perfect match in dessert form. these 3-ingredient coconut truffles are exactly what you need. they're no-bake, easy to make, and packed with coconut goodness in every single bite.",
-          "they have the perfect truffle texture — firm on the outside, soft on the inside, with just enough crunch from the desiccated coconut. if you're a raffaello fan, you'll definitely love these too. they have a very similar vibe, but are dairy free and made with simpler, better-for-you ingredients.",
+          "they have the perfect truffle texture \u2014 firm on the outside, soft on the inside, with just enough crunch from the desiccated coconut. if you're a raffaello fan, you'll definitely love these too. they have a very similar vibe, but are dairy free and made with simpler, better-for-you ingredients.",
           "with coconut in all three ingredients, they're packed with flavour. they're the ideal healthy no bake coconut treat for when you want something sweet without the hassle. you can store them in the freezer, which makes these coconut truffles perfect for meal prep as well.",
           "this 3-ingredient coconut truffle recipe is truly foolproof and such a crowd pleaser. they make a delicious addition to any dinner table or party spread."
         ]
@@ -977,56 +1494,6 @@
       "featured": true,
       "viral": false,
       "popular": true
-    },
-    {
-      "id": "chia-cups",
-      "title": "Strawberry Chia Cups",
-      "slug": "chia-cups",
-      "description": "Creamy chia pudding cups with fresh strawberries and vanilla.",
-      "image": {
-        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Strawberry+Chia+Cups",
-        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chia+Cups"
-      },
-      "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
-      "timing": {
-        "prepTime": "PT10M", "cookTime": "PT0M", "totalTime": "PT10M",
-        "prepTimeDisplay": "10 minutes", "cookTimeDisplay": "0 minutes", "totalTimeDisplay": "10 minutes"
-      },
-      "servings": {"yield": "4", "unit": "cups"},
-      "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Gluten-Free"],
-      "tags": ["chia", "strawberry", "pudding"],
-      "nutrition": {"calories": 140, "protein": "4g", "carbs": "16g", "fat": "7g", "fiber": "8g", "sugar": "10g"},
-      "ingredients": [], "instructions": [], "notes": [], "equipment": [],
-      "seo": {"metaTitle": "Strawberry Chia Cups Recipe", "metaDescription": "Creamy chia pudding", "keywords": ["chia cups"], "canonicalUrl": "/recipes/chia-cups"},
-      "social": {"pinterest": {"description": "Chia pudding cups!", "title": "Chia Cups"}, "instagram": {"caption": "Chia cups!", "hashtags": ["#chiacups"]}},
-      "datePublished": "2025-01-10", "dateModified": "2025-01-10",
-      "featured": false, "viral": false, "popular": true
-    },
-    {
-      "id": "chocolate-bars",
-      "title": "Healthy Chocolate Bars",
-      "slug": "chocolate-bars",
-      "description": "Rich dark chocolate bars with almonds and sea salt.",
-      "image": {
-        "hero": "https://via.placeholder.com/600x400/f4dde7/2f4f2f?text=Healthy+Chocolate+Bars",
-        "thumbnail": "https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chocolate+Bars"
-      },
-      "author": {"name": "Dounia", "title": "Certified Holistic Nutritionist"},
-      "timing": {
-        "prepTime": "PT15M", "cookTime": "PT0M", "totalTime": "PT15M",
-        "prepTimeDisplay": "15 minutes", "cookTimeDisplay": "0 minutes", "totalTimeDisplay": "15 minutes"
-      },
-      "servings": {"yield": "12", "unit": "bars"},
-      "difficulty": "Easy",
-      "categories": ["No-Bake", "Vegan", "Chocolate"],
-      "tags": ["chocolate", "bars", "almonds"],
-      "nutrition": {"calories": 180, "protein": "4g", "carbs": "14g", "fat": "12g", "fiber": "3g", "sugar": "10g"},
-      "ingredients": [], "instructions": [], "notes": [], "equipment": [],
-      "seo": {"metaTitle": "Healthy Chocolate Bars Recipe", "metaDescription": "Dark chocolate bars", "keywords": ["chocolate bars"], "canonicalUrl": "/recipes/chocolate-bars"},
-      "social": {"pinterest": {"description": "Healthy chocolate bars!", "title": "Chocolate Bars"}, "instagram": {"caption": "Chocolate bars!", "hashtags": ["#chocolatebars"]}},
-      "datePublished": "2025-01-10", "dateModified": "2025-01-10",
-      "featured": false, "viral": false, "popular": true
     }
   ],
   "categories": [

@@ -3,6 +3,39 @@
 ## Project Overview
 A high-performance, SEO-optimized recipe blog focused on healthy desserts. Built for maximum Google visibility, fast Core Web Vitals scores, and high user engagement.
 
+## Adding a New Recipe — REQUIRED STEPS
+
+Every new recipe MUST follow these steps. Never skip any of them.
+
+### 1. Create the individual recipe JSON file
+Each recipe has its own file at `data/recipes/[slug].json`. Copy the structure from an existing file (e.g. `data/recipes/brownie-batter-bars.json`). This is the file the user edits directly.
+
+### 2. Add the slug to the manifest
+Add the recipe slug to the `recipes` array in `data/recipe-manifest.json`. This is what makes it appear on the homepage and recipe index automatically. Order = display order (newest first = add to the END of the array or wherever appropriate).
+
+### 3. Create the HTML recipe page
+Create `recipes/[slug].html` using the existing recipe pages as a template.
+
+### 4. Add to sitemap.xml
+Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. This is critical for Google indexing.
+
+### File Structure for Recipes
+```
+data/
+├── recipe-manifest.json        ← add slug here to make it live
+└── recipes/
+    ├── brownie-batter-bars.json
+    ├── banana-bites.json
+    └── [new-recipe-slug].json  ← one file per recipe
+```
+
+### How it works
+`recipe-manager.js` reads `recipe-manifest.json` to get the list of slugs, then fetches each individual `data/recipes/[slug].json` in parallel. The homepage and recipe index are populated automatically from these files.
+
+### NEVER edit `data/recipes.json` directly — it is now legacy/unused.
+
+---
+
 ## Quick Commands
 ```bash
 # Start development server

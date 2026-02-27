@@ -10,15 +10,19 @@ class RecipeManager {
         this.loaded = false;
     }
 
-    // Load recipe data from JSON
+    // Load recipe data from individual JSON files via manifest
     async loadRecipes() {
         try {
-            const response = await fetch('./data/recipes.json');
-            const data = await response.json();
-            this.recipes = data.recipes;
-            this.categories = data.categories;
+            const manifestResponse = await fetch('./data/recipe-manifest.json');
+            const manifest = await manifestResponse.json();
+            this.categories = manifest.categories;
+
+            const recipePromises = manifest.recipes.map(slug =>
+                fetch(`./data/recipes/${slug}.json`).then(r => r.json())
+            );
+            this.recipes = await Promise.all(recipePromises);
             this.loaded = true;
-            return data;
+            return { recipes: this.recipes, categories: this.categories };
         } catch (error) {
             console.error('Error loading recipes:', error);
             return null;

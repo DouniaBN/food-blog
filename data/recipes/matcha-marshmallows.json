@@ -1,0 +1,191 @@
+{
+  "id": "matcha-marshmallows",
+  "title": "4 Ingredient Matcha Marshmallows",
+  "slug": "matcha-marshmallows",
+  "description": "These healthy 4-ingredient homemade matcha marshmallows are soft, fluffy, and refined sugar free. Easy to make and perfect for a better for you sweet treat.",
+  "image": {
+    "hero": "images/recipes/matcha-marshmallows/matcha-marshmallows-hero.webp",
+    "thumbnail": "images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp",
+    "thumbnail_400": "images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp",
+    "thumbnail_600": "images/recipes/matcha-marshmallows/matcha-marshmallows-card-600px.webp",
+    "alt": "Soft fluffy homemade matcha marshmallows dusted with matcha powder on a white surface",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT20M",
+    "cookTime": "PT5M",
+    "totalTime": "PT5H25M",
+    "prepTimeDisplay": "20 minutes",
+    "cookTimeDisplay": "5 minutes",
+    "totalTimeDisplay": "5+ hours"
+  },
+  "servings": {
+    "yield": "16",
+    "unit": "marshmallows"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Paleo",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "matcha",
+    "marshmallows",
+    "homemade-marshmallows",
+    "gluten-free",
+    "dairy-free",
+    "paleo",
+    "refined-sugar-free",
+    "4-ingredient",
+    "healthy-dessert",
+    "gelatin"
+  ],
+  "nutrition": {
+    "calories": 32.5,
+    "protein": "1.5g",
+    "carbs": "6.6g",
+    "fat": "0g",
+    "fiber": "1g",
+    "sugar": "6g"
+  },
+  "ingredients": [
+    {
+      "amount": "1",
+      "unit": "cup",
+      "ingredient": "water",
+      "notes": "divided"
+    },
+    {
+      "amount": "3",
+      "unit": "tablespoons",
+      "ingredient": "gelatin",
+      "notes": ""
+    },
+    {
+      "amount": "0.5-1",
+      "unit": "tablespoon",
+      "ingredient": "matcha",
+      "notes": ""
+    },
+    {
+      "amount": "0.5",
+      "unit": "cup",
+      "ingredient": "maple syrup",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In your stand mixer add the gelatin and 1/2 cup of water and let it bloom.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "To a saucepan add the matcha, 1/2 cup of water and maple syrup. Let it heat for 5 minutes on medium heat but don't let it boil.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Turn the stand mixer on medium speed and slowly pour in the hot liquid.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Turn to high speed for 6–8 minutes until the texture begins to fluff and thicken.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Quickly pour into a lined 8 inch / 20cm square baking tray — work fast so it doesn't set in the bowl\\!",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Refrigerate for at least 5 hours or until set.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Slice and enjoy\\!\\!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Work quickly when pouring into the tray — the mixture sets fast.",
+    "For optimal results, let set overnight in the fridge.",
+    "Ensure the maple syrup gets hot enough so the gelatin dissolves properly."
+  ],
+  "equipment": [
+    "Stand mixer",
+    "Saucepan",
+    "8 inch / 20cm square baking tray"
+  ],
+  "seo": {
+    "metaTitle": "4 Ingredient Matcha Marshmallows (Refined Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "These healthy 4-ingredient homemade matcha marshmallows are soft, fluffy, and refined sugar free. Easy to make and perfect for a better for you sweet treat.",
+    "keywords": [
+      "matcha marshmallows",
+      "homemade marshmallows",
+      "refined sugar free marshmallows",
+      "healthy marshmallows",
+      "4 ingredient marshmallows",
+      "matcha dessert"
+    ],
+    "canonicalUrl": "/recipes/matcha-marshmallows"
+  },
+  "social": {
+    "pinterest": {
+      "description": "These 4-ingredient matcha marshmallows are soft, fluffy, and refined sugar free\\! So easy to make at home 🍵✨",
+      "title": "4 Ingredient Matcha Marshmallows (Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "once you make homemade marshmallows you can't go back 🍵 4 ingredients, refined sugar free, soft and fluffy — these matcha marshmallows are everything\\! recipe on the blog\\!",
+      "hashtags": [
+        "#matchamarshmallows",
+        "#homemademarshmallows",
+        "#matcha",
+        "#refinedsugarfree",
+        "#healthydessert",
+        "#4ingredients",
+        "#dairyfree",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "soft, fluffy refined sugar free homemade treat",
+    "paragraphs": [
+      "if you've ever wanted to make homemade marshmallows but thought it sounded complicated, this recipe will change your mind.",
+      "they're soft, fluffy, lightly sweet, and completely different from store-bought versions loaded with additives.",
+      "Plus these matcha marshmallows are made with healthier gut soothing ingredients — gelatin is a source of collagen and contains amino acids that help support gut lining integrity and overall digestive health."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Are these homemade marshmallows refined sugar free?",
+      "answer": "Yes, these matcha marshmallows are made with maple syrup meaning they are refined sugar free and have a lower glycemic index compared to traditional marshmallows."
+    },
+    {
+      "question": "Why are my homemade marshmallows not fluffy?",
+      "answer": "Marshmallows need to be whipped long enough to properly incorporate air. It's best to go by texture: the mixture should become thick, glossy, and significantly increased in volume before pouring into your pan."
+    }
+  ],
+  "tips": [
+    "Once the marshmallows have reached whip texture, pour them quickly into the baking tray to avoid it setting in the bowl\\!",
+    "Let the marshmallows set overnight in the fridge for optimal results.",
+    "Ensure that the maple syrup gets hot enough so the gelatin dissolves properly."
+  ],
+  "substitutions": [],
+  "datePublished": "2026-02-25",
+  "dateModified": "2026-02-25",
+  "featured": true,
+  "viral": false,
+  "popular": true
+}

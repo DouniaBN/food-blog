@@ -1,0 +1,219 @@
+{
+  "id": "cinnamon-roll-overnight-oats",
+  "title": "Cinnamon Roll Overnight Oats (Blended)",
+  "slug": "cinnamon-roll-overnight-oats",
+  "description": "These blended cinnamon roll overnight oats are creamy, refined sugar free, and ready with just 5 minutes of prep. The perfect healthy meal prep breakfast.",
+  "image": {
+    "hero": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-hero.webp",
+    "thumbnail": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-300px.webp",
+    "thumbnail_400": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-300px.webp",
+    "thumbnail_600": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-600px.webp",
+    "alt": "Blended cinnamon roll overnight oats in a jar topped with white chocolate",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT8H5M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "Overnight"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "serving"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "No-Bake",
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "overnight-oats",
+    "cinnamon",
+    "blended",
+    "no-bake",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "5-ingredient",
+    "meal-prep",
+    "breakfast"
+  ],
+  "nutrition": {
+    "calories": 514,
+    "protein": "12g",
+    "carbs": "104g",
+    "fat": "7.5g",
+    "fiber": "11g",
+    "sugar": "34g"
+  },
+  "ingredients": [
+    {
+      "amount": "1",
+      "unit": "cup",
+      "ingredient": "oats",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tsp",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "2",
+      "unit": "",
+      "ingredient": "pitted dates",
+      "notes": ""
+    },
+    {
+      "amount": "1-2",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "cup",
+      "ingredient": "milk of choice",
+      "notes": "plus a few extra tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add all of the ingredients to a high power blender.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Blend until the oats are completely smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add in a few extra tablespoons of milk if you prefer a runnier texture and blend again.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Transfer to an airtight container and place in the fridge overnight.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Enjoy!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Store in an airtight container in the refrigerator for up to 4 days.",
+    "If they thicken overnight, stir in a splash of milk before serving.",
+    "Add protein powder and blend for a high protein version — extra milk may be needed."
+  ],
+  "equipment": [
+    "High power blender",
+    "Airtight container"
+  ],
+  "seo": {
+    "metaTitle": "Cinnamon Roll Overnight Oats (Blended) | Yourwellnessgirly",
+    "metaDescription": "These blended cinnamon roll overnight oats are creamy, refined sugar free, and ready with just 5 minutes of prep. The perfect healthy meal prep breakfast.",
+    "keywords": [
+      "cinnamon roll overnight oats",
+      "blended overnight oats",
+      "healthy overnight oats",
+      "meal prep breakfast",
+      "refined sugar free overnight oats",
+      "vegan overnight oats"
+    ],
+    "canonicalUrl": "/recipes/cinnamon-roll-overnight-oats"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Blended cinnamon roll overnight oats — creamy, refined sugar free and ready in 5 minutes of prep! The perfect healthy meal prep breakfast 🤎",
+      "title": "Cinnamon Roll Overnight Oats (Blended)"
+    },
+    "instagram": {
+      "caption": "if you hate the texture of regular overnight oats, try blending them 🤎 cinnamon roll overnight oats that taste like dessert for breakfast — 5 min prep, meal prep friendly! recipe on the blog!",
+      "hashtags": [
+        "#overnightoats",
+        "#cinnamonroll",
+        "#mealprep",
+        "#healthybreakfast",
+        "#blendedownightoats",
+        "#refinedsugarfree",
+        "#vegan",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "smooth, dreamy 5-minute meal prep breakfast",
+    "paragraphs": [
+      "If you love the cozy flavours of cinnamon rolls but want something nourishing enough to eat for breakfast every day, these blended cinnamon roll overnight oats are exactly what you need.",
+      "They have all the warm cinnamon sweetness you crave, but in a healthy, refined sugar free form that's perfect for meal prep.",
+      "And if you've ever struggled with the texture of traditional overnight oats, blending them completely changes the game.",
+      "It takes just 5 minutes to prep, sets overnight in the fridge, and makes breakfast effortless."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store cinnamon roll overnight oats?",
+      "answer": "Store in an airtight container in the refrigerator for up to 4 days. If they thicken overnight, simply stir in a splash of milk before serving."
+    },
+    {
+      "question": "What type of oats should I use?",
+      "answer": "Rolled oats or porridge oats work best. Steel cut oats are not ideal since they can remain too firm."
+    },
+    {
+      "question": "Are cinnamon roll overnight oats gluten free?",
+      "answer": "Yes, if you use certified gluten-free oats. Oats are naturally gluten-free, but cross-contamination can occur during processing."
+    },
+    {
+      "question": "Can I make high protein overnight oats?",
+      "answer": "Yes — add your favourite protein powder and blend. You will likely need to add more milk depending on absorbency."
+    },
+    {
+      "question": "Why are these overnight oats blended?",
+      "answer": "Blending creates a smoother, creamier pudding-like texture instead of the typical thick or chewy oat consistency."
+    },
+    {
+      "question": "What topping is used?",
+      "answer": "I used white chocolate for subtle sweetness. Yogurt of your choice would also work great."
+    }
+  ],
+  "tips": [],
+  "substitutions": [
+    {
+      "ingredient": "Milk of choice",
+      "alternatives": [
+        "Oat milk",
+        "Almond milk",
+        "Coconut milk",
+        "Regular dairy milk"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (not vegan)",
+        "Agave nectar",
+        "Date syrup"
+      ]
+    }
+  ],
+  "datePublished": "2026-02-25",
+  "dateModified": "2026-02-25",
+  "featured": true,
+  "viral": false,
+  "popular": true
+}

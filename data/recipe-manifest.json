@@ -1,0 +1,40 @@
+{
+  "recipes": [
+    "cinnamon-roll-overnight-oats",
+    "matcha-marshmallows",
+    "apple-fritters",
+    "blueberry-fritters",
+    "banana-bites",
+    "mango-yogurt-bites",
+    "brownie-batter-bars",
+    "coconut-truffles",
+    "chocolate-chip-banana-bread-bars"
+  ],
+  "categories": [
+    {
+      "name": "No-Bake",
+      "slug": "no-bake",
+      "description": "Delicious desserts that require no oven time!"
+    },
+    {
+      "name": "Vegan",
+      "slug": "vegan",
+      "description": "Plant-based treats that everyone will love"
+    },
+    {
+      "name": "Gluten-Free",
+      "slug": "gluten-free",
+      "description": "Safe and delicious for those avoiding gluten"
+    },
+    {
+      "name": "Quick & Easy",
+      "slug": "quick-easy",
+      "description": "Ready in 30 minutes or less"
+    },
+    {
+      "name": "Chocolate",
+      "slug": "chocolate",
+      "description": "Rich, decadent chocolate desserts"
+    }
+  ]
+}

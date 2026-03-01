@@ -7,30 +7,40 @@ A high-performance, SEO-optimized recipe blog focused on healthy desserts. Built
 
 Every new recipe MUST follow these steps. Never skip any of them.
 
-### 1. Create the individual recipe JSON file
-Each recipe has its own file at `data/recipes/[slug].json`. Copy the structure from an existing file (e.g. `data/recipes/brownie-batter-bars.json`). This is the file the user edits directly.
+### 1. Create the recipe JSON file in `recipes-data/`
+Add `recipes-data/[slug].json` — this is the PRIMARY source file. Copy the structure from an existing file (e.g. `recipes-data/apple-fritters.json`). This is what the build script reads to auto-generate HTML pages.
 
-### 2. Add the slug to the manifest
-Add the recipe slug to the `recipes` array in `data/recipe-manifest.json`. This is what makes it appear on the homepage and recipe index automatically. Order = display order (newest first = add to the END of the array or wherever appropriate).
+### 2. Create the matching JSON file in `data/recipes/`
+Add `data/recipes/[slug].json` — this is the SAME content as step 1. The live site JavaScript (`recipe-manager.js`) reads from this folder to populate the homepage and recipe index cards. Both folders currently need to be kept in sync manually.
 
-### 3. Create the HTML recipe page
-Create `recipes/[slug].html` using the existing recipe pages as a template.
+> **Why two folders?** `recipes-data/` feeds the Node build script. `data/recipes/` feeds the browser-side JS. They serve different parts of the system and are intentionally kept separate for easy manual editing.
 
-### 4. Add to sitemap.xml
+### 3. Add the slug to the manifest
+Add the recipe slug to the `recipes` array in `data/recipe-manifest.json`. This is what tells `recipe-manager.js` which slugs to fetch from `data/recipes/`. Order = display order (newest first = add to the END of the array).
+
+### 4. Create the HTML recipe page
+Create `recipes/[slug].html` using the existing recipe pages as a template — OR run the build script: `node build/generate-recipes.js [slug]`
+
+### 5. Add to sitemap.xml
 Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. This is critical for Google indexing.
 
 ### File Structure for Recipes
 ```
+recipes-data/
+└── [slug].json          ← PRIMARY source (build script reads this)
+
 data/
-├── recipe-manifest.json        ← add slug here to make it live
+├── recipe-manifest.json ← add slug here so homepage JS knows to load it
 └── recipes/
-    ├── brownie-batter-bars.json
-    ├── banana-bites.json
-    └── [new-recipe-slug].json  ← one file per recipe
+    └── [slug].json      ← COPY of recipes-data file (live site JS reads this)
+
+recipes/
+└── [slug].html          ← generated HTML page (manual or via build script)
 ```
 
 ### How it works
-`recipe-manager.js` reads `recipe-manifest.json` to get the list of slugs, then fetches each individual `data/recipes/[slug].json` in parallel. The homepage and recipe index are populated automatically from these files.
+- **Build script** (`build/generate-recipes.js`): reads `recipes-data/[slug].json` → outputs `recipes/[slug].html`
+- **Live site JS** (`recipe-manager.js`): reads `data/recipe-manifest.json` for slug list → fetches each `data/recipes/[slug].json` → renders homepage/index cards
 
 ### NEVER edit `data/recipes.json` directly — it is now legacy/unused.
 

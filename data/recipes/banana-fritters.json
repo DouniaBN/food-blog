@@ -1,0 +1,242 @@
+{
+  "id": "banana-fritters",
+  "title": "Healthy Banana Fritters (Sugar Free, Gluten Free & Naturally Sweetened)",
+  "slug": "banana-fritters",
+  "description": "These healthy added sugar free banana fritters are gluten free, naturally sweetened, and taste like banana bread in fritter form. They are baked, not fried and made with better for you ingredients.",
+  "image": {
+    "hero": "images/recipes/banana-fritters/banana-fritters-hero.webp",
+    "thumbnail": "images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp",
+    "thumbnail_400": "images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/banana-fritters/banana-fritters-thumbnail-600px.webp",
+    "alt": "Healthy banana fritters on a baking tray showing golden edges and soft banana bread interior",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT23M",
+    "totalTime": "PT33M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "23 minutes",
+    "totalTimeDisplay": "33 minutes"
+  },
+  "servings": {
+    "yield": "5",
+    "unit": "fritters"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Baked"
+  ],
+  "tags": [
+    "banana",
+    "banana-fritters",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "baked",
+    "naturally-sweetened",
+    "vegetarian",
+    "healthy",
+    "banana-bread",
+    "quick"
+  ],
+  "nutrition": {
+    "calories": 154,
+    "protein": "4.4g",
+    "carbs": "19g",
+    "fat": "7.6g",
+    "fiber": "2.6g",
+    "sugar": "4.6g"
+  },
+  "ingredients": [
+    {
+      "amount": "165",
+      "unit": "g",
+      "ingredient": "overripe bananas",
+      "notes": "approx 2 bananas"
+    },
+    {
+      "amount": "1",
+      "unit": "tsp",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "large",
+      "ingredient": "egg",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tbsp",
+      "ingredient": "melted coconut oil",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "porridge oats",
+      "notes": "approx 1/2 cup"
+    },
+    {
+      "amount": "30",
+      "unit": "g",
+      "ingredient": "almond flour",
+      "notes": "approx 1/4 cup"
+    },
+    {
+      "amount": "12",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": "approx 1/8 cup"
+    },
+    {
+      "amount": "⅛",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C/160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Add the bananas to a bowl and mash well, then mix in the cinnamon.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Crack in the egg and pour in the melted coconut oil. Mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add the dry ingredients — oats, almond flour, oat flour and baking powder. Mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Spoon a heaped tablespoon of batter onto a lined baking tray (approx 5 fritters). Optionally top with a few slices of banana.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Bake for 23–25 minutes or until edges are golden brown.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Use gram measurements for best accuracy and texture.",
+    "The riper the bananas, the sweeter and more flavourful the fritters will be.",
+    "Store in an airtight container in the refrigerator for up to 4 days. Reheat in the oven or air fryer to restore texture.",
+    "Optional toppings: sliced bananas, a drizzle of maple syrup, or powdered monkfruit and water icing."
+  ],
+  "equipment": [
+    "Oven",
+    "Mixing bowl",
+    "Baking tray",
+    "Parchment paper"
+  ],
+  "seo": {
+    "metaTitle": "Healthy Banana Fritters (Sugar Free, Gluten Free & Naturally Sweetened) | Yourwellnessgirly",
+    "metaDescription": "These healthy added sugar free banana fritters are gluten free, naturally sweetened, and taste like banana bread in fritter form. Baked, not fried.",
+    "keywords": [
+      "healthy banana fritters",
+      "sugar-free banana fritters",
+      "gluten-free banana fritters",
+      "baked banana fritters",
+      "naturally sweetened banana fritters",
+      "banana bread fritters",
+      "dairy-free banana fritters"
+    ],
+    "canonicalUrl": "/recipes/banana-fritters"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Healthy banana fritters that taste just like banana bread! Added sugar free, gluten free, baked not fried 🍌✨",
+      "title": "Healthy Banana Fritters (Sugar Free, Gluten Free & Naturally Sweetened)"
+    },
+    "instagram": {
+      "caption": "Banana bread in fritter form 🍌 These healthy banana fritters are added sugar free, gluten free, baked not fried — and SO good! Recipe on the blog!",
+      "hashtags": [
+        "#bananafritters",
+        "#healthydesserts",
+        "#glutenfree",
+        "#sugarfree",
+        "#baked",
+        "#bananabread",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "banana bread meets fritter — naturally sweetened and gluten free",
+    "paragraphs": [
+      "if you tried my viral sugar free apple fritters, then you are going to love this banana bread version. these healthy banana fritters are naturally sweetened, gluten free, and taste like banana bread in cozy fritter form.",
+      "they're soft on the inside, lightly golden on the outside, and packed with warm cinnamon flavour. because they're sweetened entirely with overripe bananas, they have that natural sweetness without any added sugar — but feel free to add your favourite sweetener.",
+      "this recipe is simple, wholesome, and made with ingredients you likely already have at home. it comes together to create a mix between a fritter and banana bread (baked instead of fried for a lighter finish).",
+      "if you have spotty bananas sitting on your counter, this is your sign to put them to good use. the riper they are, the sweeter and more flavourful your banana bread fritters will be. they're ideal for breakfast, meal prep, or a healthy sweet snack when you want something comforting but not overly indulgent."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Are these healthy banana fritters completely sugar free?",
+      "answer": "These banana fritters are made without added or refined sugar. They are naturally sweetened with ripe bananas. For extra sweetness, optional toppings like maple syrup can be added, but the base recipe is added sugar free."
+    },
+    {
+      "question": "Are these banana fritters gluten free?",
+      "answer": "Yes, these healthy banana fritters are gluten free as long as you use certified gluten free oats. Always check packaging if you are strictly gluten free or celiac."
+    },
+    {
+      "question": "Why are my banana fritters not sweet enough?",
+      "answer": "The sweetness of banana fritters depends on how ripe your bananas are. Use very overripe bananas with brown spots for the best natural sweetness. If needed, you can add a drizzle of maple syrup or your sweetener of choice."
+    },
+    {
+      "question": "How do I store healthy banana fritters?",
+      "answer": "Store banana fritters in an airtight container in the refrigerator for up to 4 days. Reheat in the oven or air fryer to restore their soft interior and lightly crisp edges."
+    },
+    {
+      "question": "Why are these banana fritters baked instead of fried?",
+      "answer": "These banana fritters are baked instead of fried to keep them lighter and less oily while still achieving a soft interior and golden exterior. They are not identical to traditional fritters but very similar in their flavour profile and strongly inspired by them."
+    }
+  ],
+  "tips": [
+    "Use gram measurements for accuracy and best texture.",
+    "Mash or blend the bananas very well to avoid lumps.",
+    "Bake until lightly golden — overbaking can dry them out."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Coconut oil",
+      "alternatives": [
+        "Melted butter",
+        "Avocado oil"
+      ]
+    },
+    {
+      "ingredient": "Almond flour",
+      "alternatives": [
+        "More oat flour",
+        "Sunflower seed flour (nut-free)"
+      ]
+    }
+  ],
+  "datePublished": "2026-03-01",
+  "dateModified": "2026-03-01",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

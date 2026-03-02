@@ -1,0 +1,268 @@
+{
+  "id": "mini-blueberry-olive-oil-cake",
+  "title": "Mini Blueberry Olive Oil Cake (Gluten Free & Dairy Free)",
+  "slug": "mini-blueberry-olive-oil-cake",
+  "description": "This mini blueberry olive oil cake is gluten free, dairy free, and refined sugar free. Made in one bowl with wholesome ingredients, it's soft, fluffy, and bursting with juicy blueberries.",
+  "image": {
+    "hero": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-hero.webp",
+    "thumbnail": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
+    "thumbnail_400": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-600px.webp",
+    "alt": "Mini blueberry olive oil cake loaf sliced to show soft fluffy interior with juicy blueberries",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT40M",
+    "totalTime": "PT50M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "40 minutes",
+    "totalTimeDisplay": "50 minutes"
+  },
+  "servings": {
+    "yield": "10",
+    "unit": "slices"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Baked"
+  ],
+  "tags": [
+    "blueberry",
+    "olive-oil-cake",
+    "loaf-cake",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "vegetarian",
+    "baked",
+    "naturally-sweetened",
+    "healthy",
+    "fruit",
+    "one-bowl"
+  ],
+  "nutrition": {
+    "calories": 144,
+    "protein": "3.8g",
+    "carbs": "11g",
+    "fat": "10.6g",
+    "fiber": "1.4g",
+    "sugar": "6.7g"
+  },
+  "ingredients": [
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "35",
+      "unit": "g",
+      "ingredient": "olive oil",
+      "notes": ""
+    },
+    {
+      "amount": "65",
+      "unit": "g",
+      "ingredient": "almond butter",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "2",
+      "unit": "tbsp",
+      "ingredient": "coconut sugar",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "25",
+      "unit": "g",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "¼",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "fresh blueberries",
+      "notes": "measure with your heart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C/160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a bowl add the 2 eggs, olive oil, almond butter, maple syrup and vanilla extract. Whisk together until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Fold in the coconut sugar, oat flour, almond flour and baking powder until just combined. Do not overmix.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Gently fold in the blueberries.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a small lined loaf tin.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Bake for 40–45 minutes or until a skewer inserted in the centre comes out clean.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Allow to cool fully before slicing and enjoying.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Do not overmix the batter to keep the cake fluffy.",
+    "If using frozen blueberries, fold them in gently to prevent colour bleeding.",
+    "Let the loaf cool fully before slicing to prevent crumbling.",
+    "Store in an airtight container at room temperature for up to 2 days or in the refrigerator for up to 5 days."
+  ],
+  "equipment": [
+    "Oven",
+    "Mixing bowl",
+    "Whisk",
+    "Small loaf tin",
+    "Parchment paper"
+  ],
+  "seo": {
+    "metaTitle": "Mini Blueberry Olive Oil Cake (Gluten Free & Dairy Free) | Yourwellnessgirly",
+    "metaDescription": "This mini blueberry olive oil cake is gluten free, dairy free, and refined sugar free. Made in one bowl with wholesome ingredients, it's soft, fluffy, and bursting with juicy blueberries.",
+    "keywords": [
+      "mini blueberry olive oil cake",
+      "gluten free blueberry cake",
+      "dairy free blueberry loaf",
+      "healthy blueberry loaf cake",
+      "refined sugar free cake",
+      "one bowl blueberry cake",
+      "blueberry olive oil loaf"
+    ],
+    "canonicalUrl": "/recipes/mini-blueberry-olive-oil-cake"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Mini blueberry olive oil cake — gluten free, dairy free, refined sugar free and made in one bowl! Soft, fluffy and bursting with blueberries 🫐✨",
+      "title": "Mini Blueberry Olive Oil Cake (Gluten Free & Dairy Free)"
+    },
+    "instagram": {
+      "caption": "Mini blueberry olive oil cake 🫐 Gluten free, dairy free, refined sugar free — and made in one bowl! So soft and fluffy. Recipe on the blog!",
+      "hashtags": [
+        "#blueberrycake",
+        "#oliveoilcake",
+        "#glutenfree",
+        "#dairyfree",
+        "#healthydesserts",
+        "#loafcake",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "gluten free, dairy free & refined sugar free",
+    "paragraphs": [
+      "if you love a soft, fluffy loaf cake but want something lighter and made with wholesome ingredients, this mini blueberry olive oil cake is just for you.",
+      "it's gluten free, dairy free, and refined sugar free, all made in just one bowl, which makes it incredibly simple to whip up. bursting with juicy blueberries in every bite and elevated with a subtle richness from the olive oil, this mini loaf cake has a delicate depth of flavour without overpowering the natural sweetness of the berries.",
+      "the olive oil creates a moist, tender crumb while keeping the ingredient list simple and more nourishing. this healthier blueberry olive oil cake is perfect for summer, brunch spreads, or when you're craving a small-batch bake without making a full-sized loaf or compromising on flavour.",
+      "if you're a matcha lover, be sure to try my mini matcha loaf cake too — it's packed with flavour and also gluten free, dairy free, and refined sugar free."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store this mini blueberry olive oil cake?",
+      "answer": "Store the loaf in an airtight container at room temperature for up to 2 days or in the refrigerator for up to 5 days. Allow it to come to room temperature before serving for the best texture."
+    },
+    {
+      "question": "Can I use frozen blueberries in a blueberry loaf cake?",
+      "answer": "Yes, you can use frozen blueberries in this mini blueberry olive oil cake. Do not thaw them before adding to the batter, as this can release excess moisture and affect the texture. Tossing them lightly in oat flour before folding into the batter can help prevent sinking."
+    },
+    {
+      "question": "Is this mini blueberry olive oil cake gluten free?",
+      "answer": "Yes, this blueberry olive oil loaf cake is completely gluten free as long as you use certified gluten free ingredients."
+    },
+    {
+      "question": "Is this blueberry olive oil cake dairy free?",
+      "answer": "Yes, this recipe is naturally dairy free since it uses olive oil instead of butter."
+    },
+    {
+      "question": "Why use olive oil in cake?",
+      "answer": "Olive oil helps create a moist, tender crumb while adding subtle richness. It also keeps the cake soft for longer compared to butter-based cakes and makes the recipe dairy free!"
+    }
+  ],
+  "tips": [
+    "Do not overmix the batter to keep the cake fluffy.",
+    "If using frozen blueberries, fold them in gently to prevent colour bleeding.",
+    "Let the loaf cool fully before slicing to prevent crumbling."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Almond butter",
+      "alternatives": [
+        "Cashew butter",
+        "Sunflower seed butter (nut-free)"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey",
+        "Agave syrup"
+      ]
+    },
+    {
+      "ingredient": "Coconut sugar",
+      "alternatives": [
+        "Brown sugar",
+        "Monkfruit sweetener"
+      ]
+    }
+  ],
+  "datePublished": "2026-03-01",
+  "dateModified": "2026-03-01",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

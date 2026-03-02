@@ -1,0 +1,225 @@
+{
+  "id": "easy-healthy-matcha-cake",
+  "title": "Easy Healthy Matcha Cake (4 Ingredients, Sugar Free)",
+  "slug": "easy-healthy-matcha-cake",
+  "description": "Healthy 4 ingredient matcha soufflé fruit cake made with no added sugar. This gluten free, flourless matcha cake is soft, mini and perfect for small batch baking.",
+  "image": {
+    "hero": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-hero.webp",
+    "thumbnail": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
+    "thumbnail_400": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-600px.webp",
+    "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "20 minutes",
+    "totalTimeDisplay": "25 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "slices"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Paleo",
+    "Baked"
+  ],
+  "tags": [
+    "matcha",
+    "banana",
+    "fruit",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "paleo",
+    "vegetarian",
+    "baked",
+    "naturally-sweetened",
+    "healthy",
+    "4-ingredient",
+    "flourless",
+    "quick"
+  ],
+  "nutrition": {
+    "calories": 97,
+    "protein": "3g",
+    "carbs": "11.5g",
+    "fat": "5g",
+    "fiber": "2g",
+    "sugar": "6-7g"
+  },
+  "ingredients": [
+    {
+      "amount": "1",
+      "unit": "",
+      "ingredient": "apple",
+      "notes": "sub for 2 apples or 2 bananas"
+    },
+    {
+      "amount": "1",
+      "unit": "",
+      "ingredient": "banana",
+      "notes": "overripe for best sweetness"
+    },
+    {
+      "amount": "1–1.5",
+      "unit": "tbsp",
+      "ingredient": "matcha powder",
+      "notes": "adjust to your preference"
+    },
+    {
+      "amount": "2",
+      "unit": "heaped tbsp",
+      "ingredient": "almond butter",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "large",
+      "ingredient": "egg",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C/160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Add the fruit (apple and banana) and matcha to a high-powered food processor or blender. Blend until smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add in the almond butter and egg. Blend again until fully combined.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to a small lined baking tin.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20–22 minutes.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Allow to cool fully (or chill in the fridge). Slice and enjoy!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Use overripe bananas for maximum natural sweetness.",
+    "Let it cool fully or chill before slicing for the best structure.",
+    "Add white chocolate chips if you want a sweeter twist.",
+    "Store in an airtight container in the fridge for up to 3 days. Can also be frozen and thawed prior to eating."
+  ],
+  "equipment": [
+    "Oven",
+    "High-powered blender or food processor",
+    "Small baking tin",
+    "Parchment paper"
+  ],
+  "seo": {
+    "metaTitle": "Easy Healthy Matcha Cake (4 Ingredients, Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "Healthy 4 ingredient matcha soufflé fruit cake made with no added sugar. This gluten free, flourless matcha cake is soft, mini and perfect for small batch baking.",
+    "keywords": [
+      "healthy matcha cake",
+      "4 ingredient matcha cake",
+      "sugar free matcha cake",
+      "gluten free matcha cake",
+      "flourless matcha cake",
+      "matcha soufflé cake",
+      "dairy free matcha cake"
+    ],
+    "canonicalUrl": "/recipes/easy-healthy-matcha-cake"
+  },
+  "social": {
+    "pinterest": {
+      "description": "4 ingredient healthy matcha soufflé cake — no added sugar, gluten free, flourless and made from fruit! 💚✨",
+      "title": "Easy Healthy Matcha Cake (4 Ingredients, Sugar Free)"
+    },
+    "instagram": {
+      "caption": "4 ingredient matcha cake 💚 No added sugar, gluten free, flourless — and made from fruit! So soft and light. Recipe on the blog!",
+      "hashtags": [
+        "#matchacake",
+        "#healthydesserts",
+        "#glutenfree",
+        "#sugarfree",
+        "#4ingredients",
+        "#flourless",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "4 Ingredients, Sugar Free",
+    "paragraphs": [
+      "this 4 ingredient matcha soufflé cake is made primarily from fruit, making it the perfect healthy dessert for when your sweet tooth hits but you still want something nourishing and balanced.",
+      "naturally sweetened with fruit and made with no added sugar, this mini matcha cake is soft, light, and incredibly simple. the texture sits somewhere between a soufflé and a pudding — creamy and delicate with just the right amount of sweetness and bite.",
+      "you can adjust the matcha to your preference, whether you prefer a subtle note or a bolder green tea flavour. that flexibility makes this healthy matcha soufflé cake the perfect midday pick-me-up. it's a small batch recipe so can be doubled if needed or for meal prep.",
+      "i personally love eating it chilled — the flavour feels richer but it's just as delicious at room temperature. it's especially refreshing in the summer and comes together with just a blender or high-powered food processor and about 5 minutes of prep time.",
+      "despite being made from simple ingredients, it's satisfying and balanced. the healthy fats from the almond butter help slow digestion, while the natural fibre from the fruit supports steady energy rather than a sugar spike."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store this mini matcha soufflé cake?",
+      "answer": "Store in an airtight container in the fridge for up to 3 days. It can also be frozen and thawed prior to eating."
+    },
+    {
+      "question": "Can I use only banana or only apple?",
+      "answer": "Yes. You can use 2 bananas or 2 apples instead of one of each. Banana will make the cake sweeter and softer, while apple keeps it slightly lighter and less sweet — so feel free to pick what matches your sugar and taste preferences."
+    },
+    {
+      "question": "Is this healthy matcha cake gluten free?",
+      "answer": "Yes. This recipe is naturally gluten free because it contains no flour."
+    },
+    {
+      "question": "What type of matcha works best in baking?",
+      "answer": "Culinary grade matcha works perfectly for baking. I prefer organic ceremonial grade matcha which is known for its vibrant green colour."
+    }
+  ],
+  "tips": [
+    "Use overripe bananas for maximum natural sweetness.",
+    "Let it cool fully or chill before slicing for the best structure.",
+    "Add white chocolate chips if you want a sweeter twist."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Apple + banana",
+      "alternatives": [
+        "2 bananas (sweeter, softer result)",
+        "2 apples (lighter, less sweet result)"
+      ]
+    },
+    {
+      "ingredient": "Almond butter",
+      "alternatives": [
+        "Cashew butter",
+        "Sunflower seed butter (nut-free)"
+      ]
+    }
+  ],
+  "datePublished": "2026-03-02",
+  "dateModified": "2026-03-02",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

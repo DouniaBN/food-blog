@@ -1,0 +1,267 @@
+{
+  "id": "gluten-free-brownie-cookies",
+  "title": "Gluten Free Brownie Cookies",
+  "slug": "gluten-free-brownie-cookies",
+  "description": "My viral gluten free, grain free and refined sugar free gooey brownie cookies. These dark chocolate brownie cookies are so decadent, rich and bakery level — you won't believe how easy they are to make.",
+  "image": {
+    "hero": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-hero.webp",
+    "thumbnail": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
+    "thumbnail_400": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-600px.webp",
+    "alt": "Stack of gluten free brownie cookies showing gooey fudgy centres with crisp edges and melty chocolate chips",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT30M",
+    "cookTime": "PT7M",
+    "totalTime": "PT37M",
+    "prepTimeDisplay": "30 minutes",
+    "cookTimeDisplay": "7 minutes",
+    "totalTimeDisplay": "37 minutes"
+  },
+  "servings": {
+    "yield": "12",
+    "unit": "cookies"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Baked"
+  ],
+  "tags": [
+    "chocolate",
+    "brownie-cookies",
+    "gluten-free",
+    "grain-free",
+    "refined-sugar-free",
+    "vegetarian",
+    "baked",
+    "viral",
+    "dark-chocolate",
+    "healthy",
+    "fudgy"
+  ],
+  "nutrition": {
+    "calories": 168,
+    "protein": "3.3g",
+    "carbs": "14.7g",
+    "fat": "11.5g",
+    "fiber": "1.9g",
+    "sugar": "9g"
+  },
+  "ingredients": [
+    {
+      "amount": "60",
+      "unit": "g",
+      "ingredient": "butter",
+      "notes": ""
+    },
+    {
+      "amount": "170",
+      "unit": "g",
+      "ingredient": "dark chocolate",
+      "notes": "I used 70% refined sugar free"
+    },
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "90",
+      "unit": "g",
+      "ingredient": "coconut sugar",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "quinoa flour",
+      "notes": ""
+    },
+    {
+      "amount": "½",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "18",
+      "unit": "g",
+      "ingredient": "cocoa powder",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "chocolate chips or chunks",
+      "notes": "measure with your heart"
+    },
+    {
+      "amount": "",
+      "unit": "pinch",
+      "ingredient": "sea salt",
+      "notes": "for sprinkling on top"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 190°C/180°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Cut the butter into pieces and add to a pan with the dark chocolate over very low heat. Stir until melted and combined. Set aside to cool.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, beat the eggs and coconut sugar with an electric whisk or stand mixer for 2 minutes until pale and slightly thickened.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add the cooled chocolate and butter mixture to the eggs and sugar. Stir to combine.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Add the quinoa flour, baking powder and cocoa powder. Mix until just combined.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Place the bowl in the freezer for 10 minutes, then scoop onto a lined baking tray.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Top with extra chocolate chips or chunks and a pinch of sea salt.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Bake for 7–10 minutes. They will look very soft — leave them to cool fully before eating.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Let the cookies cool completely before eating — they continue to set as they cool.",
+    "Make sure your chocolate is refined sugar free too if needed.",
+    "Use high-quality dark chocolate for the best depth of flavour.",
+    "Store in an airtight container at room temperature for 2–3 days or in the fridge for up to 5 days. Can also be frozen."
+  ],
+  "equipment": [
+    "Oven",
+    "Saucepan",
+    "Electric whisk or stand mixer",
+    "Mixing bowl",
+    "Baking tray",
+    "Parchment paper"
+  ],
+  "seo": {
+    "metaTitle": "Gluten Free Brownie Cookies (Grain Free & Refined Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "My viral gluten free, grain free and refined sugar free gooey brownie cookies. These dark chocolate brownie cookies are so decadent, rich and bakery level — you won't believe how easy they are to make.",
+    "keywords": [
+      "gluten free brownie cookies",
+      "grain free brownie cookies",
+      "refined sugar free brownie cookies",
+      "dark chocolate brownie cookies",
+      "fudgy gluten free cookies",
+      "viral brownie cookies",
+      "healthy brownie cookies"
+    ],
+    "canonicalUrl": "/recipes/gluten-free-brownie-cookies"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Viral gluten free brownie cookies — grain free, refined sugar free, gooey fudgy centres with crisp edges 🍫✨ Bakery level and so easy!",
+      "title": "Gluten Free Brownie Cookies (Grain Free & Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "Viral gluten free brownie cookies 🍫 Grain free, refined sugar free, gooey and fudgy — and SO decadent! Recipe on the blog!",
+      "hashtags": [
+        "#browniecookies",
+        "#glutenfreecookies",
+        "#healthydesserts",
+        "#glutenfree",
+        "#refinedsugarfree",
+        "#viral",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "videoUrl": "https://www.instagram.com/p/DSiOihaDd4G/",
+  "story": {
+    "displayTitle": "Gluten Free Brownie Cookies",
+    "subtitle": "gluten free, grain free & refined sugar free",
+    "paragraphs": [
+      "chunky, gooey brownie cookies… these are rich, decadent, fudgy perfection! if you're a triple chocolate lover, you've officially found your match. and the best part? they're gluten free, grain free, and refined sugar free.",
+      "this is definitely one of my more indulgent recipes — the one you make when you're craving dark chocolate flavour and that gooey brownie centre. they went viral on social media for a reason. the texture is unreal, and they're surprisingly forgiving to make.",
+      "these gluten free brownie cookies have crisp edges that hold everything together, with soft, fudgy centres loaded with melty pools of chocolate. they truly taste like something you'd get from a bakery, yet the ingredient list is simple and more wholesome.",
+      "they're perfect for dinner parties, festive spreads, birthdays, or anytime you want a dessert that looks impressive but doesn't require complicated steps. if you want a chocolate dessert that feels indulgent without traditional flour or refined sugar, this is it."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How should I store gluten free brownie cookies?",
+      "answer": "Store in an airtight container at room temperature for 2–3 days or in the fridge for up to 5 days. They can also be frozen and reheated for that fresh-from-the-oven texture."
+    },
+    {
+      "question": "Can I make these gluten free brownie cookies dairy free?",
+      "answer": "Yes. You can substitute the butter with solid coconut oil to make them dairy free. Keep in mind this will slightly change the texture and richness. For the best gooey centre, bake them 1–2 minutes less and allow them to cool fully before handling."
+    },
+    {
+      "question": "Can I use milk chocolate instead of dark chocolate?",
+      "answer": "Yes, you can use milk chocolate or dark chocolate depending on your preference. Milk chocolate will result in a slightly sweeter brownie cookie, while dark chocolate keeps them richer and more intense."
+    },
+    {
+      "question": "What can I substitute for quinoa flour?",
+      "answer": "You can substitute quinoa flour with a 1:1 gluten free flour blend. If you're not gluten free, regular all-purpose flour will also work. The texture may vary slightly, but they will still be fudgy."
+    },
+    {
+      "question": "Why are my brownie cookies not gooey in the centre?",
+      "answer": "They were likely overbaked. These cookies continue to set as they cool, so remove them from the oven when they still look slightly soft."
+    }
+  ],
+  "tips": [
+    "Let the cookies cool completely before eating — they continue to set as they cool.",
+    "Make sure your chocolate is refined sugar free too if needed.",
+    "Use high-quality dark chocolate for the best depth of flavour."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Butter",
+      "alternatives": [
+        "Solid coconut oil (dairy free)"
+      ]
+    },
+    {
+      "ingredient": "Quinoa flour",
+      "alternatives": [
+        "1:1 gluten free flour blend",
+        "All-purpose flour (not gluten free)"
+      ]
+    },
+    {
+      "ingredient": "Coconut sugar",
+      "alternatives": [
+        "Brown sugar",
+        "Monkfruit sweetener"
+      ]
+    }
+  ],
+  "datePublished": "2026-03-02",
+  "dateModified": "2026-03-02",
+  "featured": false,
+  "viral": true,
+  "popular": true
+}

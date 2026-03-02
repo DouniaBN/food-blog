@@ -58,20 +58,20 @@
     "carbs": "11.5g",
     "fat": "5g",
     "fiber": "2g",
-    "sugar": "6-7g"
+    "sugar": "6g"
   },
   "ingredients": [
     {
       "amount": "1",
       "unit": "",
       "ingredient": "apple",
-      "notes": "sub for 2 apples or 2 bananas"
+      "notes": ""
     },
     {
       "amount": "1",
       "unit": "",
       "ingredient": "banana",
-      "notes": "overripe for best sweetness"
+      "notes": ""
     },
     {
       "amount": "1–1.5",
@@ -168,7 +168,9 @@
       ]
     }
   },
+  "videoUrl": "https://www.instagram.com/p/DTGQaF3jIx9/",
   "story": {
+    "displayTitle": "Easy Healthy Matcha Cake",
     "subtitle": "4 Ingredients, Sugar Free",
     "paragraphs": [
       "this 4 ingredient matcha soufflé cake is made primarily from fruit, making it the perfect healthy dessert for when your sweet tooth hits but you still want something nourishing and balanced.",

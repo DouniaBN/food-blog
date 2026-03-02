@@ -422,8 +422,9 @@ class RecipeGenerator {
     renderStory(recipe) {
         if (!recipe.story) return '';
 
+        const displayTitle = recipe.story.displayTitle || recipe.title;
         return `
-            <h2>${recipe.title} <em style="font-weight: 300; color: #e0a5a5;">(${recipe.story.subtitle})</em></h2>
+            <h2>${displayTitle} <em style="font-weight: 300; color: #e0a5a5;">(${recipe.story.subtitle})</em></h2>
             ${recipe.story.paragraphs.map(paragraph => `<p>${paragraph}</p>`).join('')}
         `;
     }
@@ -541,7 +542,7 @@ class RecipeGenerator {
         html = html.replace('{{STORY_CONTENT}}', this.renderStory(recipe));
 
         // Recipe card content
-        html = html.replace(/{{RECIPE_SUBTITLE}}/g, recipe.categories.slice(0, 3).join(', '));
+        html = html.replace(/{{RECIPE_SUBTITLE}}/g, '');
         html = html.replace(/{{AUTHOR_NAME}}/g, recipe.author.name.toUpperCase());
         html = html.replace(/{{CARD_PREP_TIME}}/g, recipe.timing.prepTimeDisplay.replace(' minutes', '').replace(' min', ''));
         html = html.replace(/{{CARD_COOK_TIME}}/g, recipe.timing.cookTimeDisplay.replace(' minutes', '').replace(' min', ''));

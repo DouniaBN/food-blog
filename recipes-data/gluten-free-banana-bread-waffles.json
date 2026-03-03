@@ -1,0 +1,223 @@
+{
+  "id": "gluten-free-banana-bread-waffles",
+  "title": "Gluten Free Banana Bread Waffles",
+  "slug": "gluten-free-banana-bread-waffles",
+  "description": "4 ingredient gluten free banana bread waffles made with cassava flour and no added sugar. Soft, fluffy, and ready in 10 minutes, it's the perfect healthy breakfast for the next time you are craving banana bread.",
+  "image": {
+    "hero": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-hero.webp",
+    "thumbnail": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
+    "thumbnail_400": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-600px.webp",
+    "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "10 minutes",
+    "totalTimeDisplay": "20 minutes"
+  },
+  "servings": {
+    "yield": "8",
+    "unit": "sticks"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Paleo"
+  ],
+  "tags": [
+    "banana",
+    "waffles",
+    "banana-bread",
+    "waffle-sticks",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "paleo",
+    "vegetarian",
+    "naturally-sweetened",
+    "healthy",
+    "4-ingredient",
+    "cassava-flour",
+    "fruit",
+    "breakfast"
+  ],
+  "nutrition": {
+    "calories": 85,
+    "protein": "3.3g",
+    "carbs": "14.5g",
+    "fat": "2g",
+    "fiber": "0.8g",
+    "sugar": "3.6g"
+  },
+  "ingredients": [
+    {
+      "amount": "220",
+      "unit": "g",
+      "ingredient": "overripe bananas",
+      "notes": "approx 3 bananas or 1 cup mashed"
+    },
+    {
+      "amount": "3",
+      "unit": "large",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "55",
+      "unit": "g",
+      "ingredient": "cassava flour",
+      "notes": "approx 1/3 cup"
+    },
+    {
+      "amount": "1",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tsp",
+      "ingredient": "cinnamon",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat your waffle maker per its instructions. If making pancakes instead, heat a pan on low to medium heat and add a little oil if needed.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, mash the bananas well. Add in the eggs and cinnamon and mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Stir in the baking powder and cassava flour. The batter will be on the runnier side — this is normal.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add a few teaspoons of batter to your waffle maker or pan. Cook for approximately 2 minutes on each side until lightly golden.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Let them cool slightly and enjoy!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Use very overripe bananas with lots of brown spots for maximum sweetness and flavour.",
+    "Let the waffles cook fully before opening the waffle iron to prevent sticking.",
+    "Store in an airtight container in the fridge for 2–3 days. Reheat in the toaster or oven for the best texture.",
+    "Can also be frozen — let cool completely, freeze in an airtight container, then reheat in a toaster or oven."
+  ],
+  "equipment": [
+    "Waffle maker",
+    "Mixing bowl",
+    "Fork or potato masher"
+  ],
+  "seo": {
+    "metaTitle": "Gluten Free Banana Bread Waffles (4 Ingredients, No Added Sugar) | Yourwellnessgirly",
+    "metaDescription": "4 ingredient gluten free banana bread waffles made with cassava flour and no added sugar. Soft, fluffy, and ready in 10 minutes, it's the perfect healthy breakfast for the next time you are craving banana bread.",
+    "keywords": [
+      "gluten free banana bread waffles",
+      "banana bread waffles",
+      "cassava flour waffles",
+      "sugar free banana waffles",
+      "healthy banana waffles",
+      "4 ingredient waffles",
+      "gluten free waffle sticks"
+    ],
+    "canonicalUrl": "/recipes/gluten-free-banana-bread-waffles"
+  },
+  "social": {
+    "pinterest": {
+      "description": "4 ingredient gluten free banana bread waffles — no added sugar, cassava flour, soft and fluffy! Ready in 10 minutes 🍌✨",
+      "title": "Gluten Free Banana Bread Waffles (4 Ingredients, No Added Sugar)"
+    },
+    "instagram": {
+      "caption": "Gluten free banana bread waffle sticks 🍌 4 ingredients, no added sugar, cassava flour — ready in 10 minutes! Recipe on the blog!",
+      "hashtags": [
+        "#bananabreadwaffles",
+        "#glutenfreewaffles",
+        "#healthybreakfast",
+        "#glutenfree",
+        "#sugarfree",
+        "#cassavaflour",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "videoUrl": "https://www.instagram.com/reel/DH6UGXhMfYI/",
+  "story": {
+    "displayTitle": "Gluten Free Banana Bread Waffles",
+    "subtitle": "4 ingredient, naturally sweetened & gluten free",
+    "paragraphs": [
+      "if you have overripe bananas sitting on your counter, you have to try these banana bread waffle sticks. they taste just like classic banana bread but take half the time and require only four simple and healthy ingredients.",
+      "these gluten free banana bread waffles are naturally sweetened with ripe bananas, completely added sugar free, and made with cassava flour for the perfect soft texture. the cassava flour keeps these banana bread waffles soft, fluffy and slightly moist which pairs perfectly with the cozy cinnamon and banana flavours.",
+      "they come together in about 10 minutes, making them ideal for busy mornings, weekend brunch, or even meal prep. if you're craving banana bread but don't want to wait for a loaf to bake, this is your new favourite shortcut.",
+      "i love turning these banana bread waffles into waffle sticks as the outside gets lightly golden and crisp, while the inside stays fluffy and tender, just like your favourite banana bread loaf. you can make these as traditional waffles instead of waffle sticks or as fluffy pancakes which is one of my favourite sunday morning breakfasts. so whether you are team waffle or team pancake, this recipe is for you!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Are these banana bread waffles gluten free?",
+      "answer": "Yes. These waffles are made with cassava flour, which is naturally gluten free."
+    },
+    {
+      "question": "How do I store waffle sticks?",
+      "answer": "Store these banana bread waffle sticks in an airtight container in the fridge for 2–3 days. Reheat in the toaster or oven for the best eating experience."
+    },
+    {
+      "question": "Are these banana bread waffles sugar free?",
+      "answer": "These waffles contain no added sugar — the sweetness comes naturally from overripe bananas, making them added sugar free."
+    },
+    {
+      "question": "Can I substitute cassava flour?",
+      "answer": "Cassava flour works best for texture, but you can try a 1:1 gluten free flour blend. The texture may be slightly different. I have not tested any direct substitute."
+    },
+    {
+      "question": "Can I make dairy free banana bread waffles?",
+      "answer": "Yes, this recipe is naturally dairy free."
+    },
+    {
+      "question": "Can I freeze banana bread waffles?",
+      "answer": "Yes. Let them cool completely, then freeze in an airtight container. Reheat in a toaster or oven to crisp them back up."
+    },
+    {
+      "question": "Why are my waffles sticking to the waffle maker?",
+      "answer": "Make sure your waffle iron is fully preheated and lightly greased before adding the batter."
+    }
+  ],
+  "tips": [
+    "Use very overripe bananas with lots of brown spots for maximum sweetness and flavour.",
+    "Let the waffles cook fully before opening the waffle iron to prevent sticking."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Cassava flour",
+      "alternatives": [
+        "1:1 gluten free flour blend (texture may vary)"
+      ]
+    }
+  ],
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

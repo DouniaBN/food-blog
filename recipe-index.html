@@ -1148,6 +1148,7 @@
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             parseURLParams(); // Parse URL parameters first
+            sortRecipes('newest'); // Default sort: newest first
             renderRecipes();
             setupEventListeners();
             updateURL();

@@ -1,0 +1,213 @@
+{
+  "id": "chocolate-chip-banana-bread-bars",
+  "title": "Chocolate Chip Banana Bread Bars (Refined Sugar Free)",
+  "slug": "chocolate-chip-banana-bread-bars",
+  "description": "Refined sugar free and gluten free chocolate chip banana bread bars that are moist, rich, and life changing. The perfect crowd pleasing dessert and use of your overripe bananas.",
+  "image": {
+    "hero": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-800.jpg",
+    "thumbnail": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
+    "thumbnail_400": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
+    "thumbnail_600": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-600.webp",
+    "alt": "Chocolate chip banana bread bars sliced into squares showing moist texture with melty chocolate chips throughout",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT15M",
+    "cookTime": "PT22M",
+    "totalTime": "PT37M",
+    "prepTimeDisplay": "15 minutes",
+    "cookTimeDisplay": "20-22 minutes",
+    "totalTimeDisplay": "37 minutes"
+  },
+  "servings": {
+    "yield": "12",
+    "unit": "bars"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Baked",
+    "Vegetarian",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "banana bread",
+    "chocolate chip",
+    "gluten-free",
+    "vegetarian",
+    "dairy-free",
+    "refined-sugar-free",
+    "banana",
+    "chocolate",
+    "oat-flour",
+    "almond-flour",
+    "healthy-dessert",
+    "baked"
+  ],
+  "nutrition": {
+    "calories": 220,
+    "protein": "4.2g",
+    "carbs": "26g",
+    "fat": "12.3g",
+    "fiber": "2.7g",
+    "sugar": "11g"
+  },
+  "ingredients": [
+    {
+      "amount": "175",
+      "unit": "g",
+      "ingredient": "mashed banana",
+      "notes": "about 2 large bananas"
+    },
+    {
+      "amount": "2",
+      "unit": "",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "splash",
+      "unit": "",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "teaspoon",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "60",
+      "unit": "g",
+      "ingredient": "olive oil",
+      "notes": ""
+    },
+    {
+      "amount": "1/3",
+      "unit": "cup",
+      "ingredient": "coconut sugar",
+      "notes": ""
+    },
+    {
+      "amount": "1/4",
+      "unit": "cup",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "1 1/4",
+      "unit": "cup",
+      "ingredient": "oat flour",
+      "notes": "certified gluten free if needed"
+    },
+    {
+      "amount": "1",
+      "unit": "teaspoon",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "chocolate chips and/or chunks",
+      "notes": "measure with your heart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C/160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a bowl add the mashed bananas and 2 eggs — whisk together.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add in the vanilla extract and olive oil — mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Pour in the coconut sugar and mix until incorporated.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Fold in the almond flour, oat flour, baking powder, and cinnamon.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Add in the chocolate chips and mix.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Line an 8 inch/20 cm square baking pan and pour in the batter. Top with more chocolate chips or chunks for extra richness.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Bake for 20–22 minutes until the edges are golden brown.",
+      "image": ""
+    },
+    {
+      "step": 9,
+      "text": "Let cool completely, then slice and enjoy.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "The more overripe the bananas, the sweeter these bars will be"
+  ],
+  "equipment": [
+    "Oven",
+    "8 inch/20 cm square baking pan",
+    "Mixing bowl",
+    "Whisk"
+  ],
+  "seo": {
+    "metaTitle": "Chocolate Chip Banana Bread Bars (Refined Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "Refined sugar free and gluten free chocolate chip banana bread bars that are moist, rich, and life changing. The perfect crowd pleasing dessert and use of your overripe bananas.",
+    "keywords": [
+      "chocolate chip banana bread bars",
+      "refined sugar free banana bread",
+      "gluten free banana bread bars",
+      "healthy banana bread",
+      "banana bread bars"
+    ],
+    "canonicalUrl": "/recipes/chocolate-chip-banana-bread-bars"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Chocolate chip banana bread bars that are refined sugar free and gluten free! Moist, rich, and life changing. 🍌🍫",
+      "title": "Chocolate Chip Banana Bread Bars (Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "if you have overripe bananas sitting on your counter, this is your sign 🍌🍫 these chocolate chip banana bread bars are moist, rich, and gluten + refined sugar free — recipe on the blog!",
+      "hashtags": [
+        "#bananabread",
+        "#bananabreadbars",
+        "#chocolatechip",
+        "#glutenfree",
+        "#refinedsugarfree",
+        "#healthybaking",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "datePublished": "2026-02-27",
+  "dateModified": "2026-02-27",
+  "featured": true,
+  "viral": false,
+  "popular": true
+}

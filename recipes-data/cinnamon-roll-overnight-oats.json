@@ -88,10 +88,10 @@
   "story": {
     "subtitle": "smooth, dreamy 5-minute meal prep breakfast",
     "paragraphs": [
-      "If you love the cosy flavours of cinnamon rolls but want something nourishing enough to eat for breakfast every day, these blended cinnamon roll overnight oats are exactly what you need.",
-      "They have all the warm cinnamon sweetness you crave, but in a healthy, refined sugar free form that's perfect for meal prep.",
-      "And if you've ever struggled with the texture of traditional overnight oats, blending them completely changes the game.",
-      "It takes just 5 minutes to prep, sets overnight in the fridge, and makes breakfast effortless."
+      "If you love the cozy flavours of cinnamon rolls but want something nourishing enough to eat for breakfast every day, these blended cinnamon roll overnight oats are exactly what you need.",
+      "They have all the warm cinnamon sweetness you crave, but in a healthy, refined sugar free form that's perfect for meal prep. The texture is smooth, creamy, and almost dessert-like — without feeling heavy.",
+      "And if you've ever struggled with the texture of traditional overnight oats, blending them completely changes the game. Instead of a thick, chewy consistency, you get a soft, spoonable texture that feels more like cinnamon roll batter in oat form.",
+      "It takes just 5 minutes to prep, sets overnight in the fridge, and makes mornings effortless. Cozy, simple, and genuinely satisfying."
     ]
   },
   "faq": [
@@ -102,7 +102,10 @@
     { "question": "Why are these overnight oats blended?", "answer": "Blending creates a smoother, creamier pudding-like texture instead of the typical thick or chewy oat consistency." },
     { "question": "What topping is used?", "answer": "I used white chocolate for subtle sweetness. Yogurt of your choice would also work great." }
   ],
-  "tips": [],
+  "tips": [
+    "Add in your favourite protein powder for a high protein version — you may need a splash of extra milk depending on absorbency.",
+    "If the texture is too thick, mix in a tablespoon of milk until you reach your desired consistency."
+  ],
   "substitutions": [
     { "ingredient": "Milk of choice", "alternatives": ["Oat milk", "Almond milk", "Coconut milk", "Regular dairy milk"] },
     { "ingredient": "Maple syrup", "alternatives": ["Honey (not vegan)", "Agave nectar", "Date syrup"] }

@@ -4,11 +4,22 @@
   "slug": "brownie-batter-bars",
   "description": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
   "image": {
-    "hero": "images/recipes/brownie-batter-bars/brownie-bars-800.jpg",
-    "thumbnail": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
-    "thumbnail_400": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
-    "thumbnail_600": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-600.webp",
-    "alt": "Hand holding no-bake dark chocolate brownie bars with glossy topping and sea salt flakes",
+    "hero": {
+      "src": "images/recipes/brownie-batter-bars/brownie-bars-800.jpg",
+      "alt": "Hand holding no-bake dark chocolate brownie bars with glossy topping and sea salt flakes",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
+      "srcset": {
+        "400": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp",
+        "600": "images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-600.webp"
+      },
+      "alt": "Healthy no-bake brownie batter bars recipe card - 4 ingredient vegan dessert",
+      "width": 400,
+      "height": 300
+    },
     "gallery": []
   },
   "author": {
@@ -28,27 +39,8 @@
     "unit": "bars"
   },
   "difficulty": "Easy",
-  "categories": [
-    "No-Bake",
-    "Vegan",
-    "Gluten-Free",
-    "Dairy-Free",
-    "Refined Sugar-Free",
-    "Paleo"
-  ],
-  "tags": [
-    "brownie",
-    "no-bake",
-    "gluten-free",
-    "vegan",
-    "dairy-free",
-    "paleo",
-    "refined-sugar-free",
-    "chocolate",
-    "almond-flour",
-    "4-ingredients",
-    "healthy-dessert"
-  ],
+  "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Refined Sugar-Free", "Paleo"],
+  "tags": ["brownie", "no-bake", "gluten-free", "vegan", "dairy-free", "paleo", "refined-sugar-free", "chocolate", "almond-flour", "4-ingredients", "healthy-dessert"],
   "nutrition": {
     "calories": 246,
     "protein": "7g",
@@ -58,80 +50,65 @@
     "sugar": "15g"
   },
   "ingredients": [
-    {
-      "amount": "170",
-      "unit": "g",
-      "ingredient": "almond flour",
-      "notes": ""
-    },
-    {
-      "amount": "3-4",
-      "unit": "tablespoons",
-      "ingredient": "cacao powder",
-      "notes": ""
-    },
-    {
-      "amount": "4",
-      "unit": "tablespoons",
-      "ingredient": "maple syrup",
-      "notes": ""
-    },
-    {
-      "amount": "40",
-      "unit": "g",
-      "ingredient": "dark chocolate",
-      "notes": ""
-    },
-    {
-      "amount": "1",
-      "unit": "pinch",
-      "ingredient": "sea salt",
-      "notes": "optional - for sprinkling"
-    }
+    { "amount": "170", "unit": "g", "ingredient": "almond flour", "notes": "" },
+    { "amount": "3-4", "unit": "tablespoons", "ingredient": "cacao powder", "notes": "" },
+    { "amount": "4", "unit": "tablespoons", "ingredient": "maple syrup", "notes": "" },
+    { "amount": "40", "unit": "g", "ingredient": "dark chocolate", "notes": "" },
+    { "amount": "1", "unit": "pinch", "ingredient": "sea salt", "notes": "optional - for sprinkling" }
   ],
   "instructions": [
-    {
-      "step": 1,
-      "text": "Add all of the ingredients apart from the dark chocolate to a food processor and blend until combined.",
-      "image": ""
-    },
-    {
-      "step": 2,
-      "text": "Line a small container and transfer the batter. Press the batter down firmly.",
-      "image": ""
-    },
-    {
-      "step": 3,
-      "text": "Melt the dark chocolate and spread on top of the pressed batter.",
-      "image": ""
-    },
-    {
-      "step": 4,
-      "text": "Place in the freezer for 20 minutes or until the chocolate is set.",
-      "image": ""
-    },
-    {
-      "step": 5,
-      "text": "Remove from freezer, sprinkle with sea salt if desired, slice and enjoy!",
-      "image": ""
-    }
+    { "step": 1, "text": "Add all of the ingredients apart from the dark chocolate to a food processor and blend until combined.", "image": "" },
+    { "step": 2, "text": "Line a small container and transfer the batter. Press the batter down firmly.", "image": "" },
+    { "step": 3, "text": "Melt the dark chocolate and spread on top of the pressed batter.", "image": "" },
+    { "step": 4, "text": "Place in the freezer for 20 minutes or until the chocolate is set.", "image": "" },
+    { "step": 5, "text": "Remove from freezer, sprinkle with sea salt if desired, slice and enjoy!", "image": "" }
   ],
   "notes": [],
-  "equipment": [
-    "Food processor",
-    "Small container for lining"
+  "equipment": ["Food processor", "Small container for lining"],
+  "story": {
+    "subtitle": "why you'll love them",
+    "paragraphs": [
+      "When you're craving a sweet treat but absolutely do not want to turn the oven on… these no bake healthy brownie batter bars are it. They're decadent, rich, chocolatey and taste like brownie batter but made in a way that feels much more balanced.",
+      "The base is naturally rich in healthy fats and plant-based protein, which helps slow down sugar absorption and keeps these bars more satisfying than your typical dessert. Raw cacao brings that deep chocolate flavour while also delivering antioxidants and minerals like magnesium (which we all need more of tbh). The natural sweetness keeps things sweet without being overpowering, and pairing it with dark chocolate adds even more polyphenols plus that crunch on top.",
+      "The combination of fibre, healthy fats and chocolatey goodness makes these perfect for when a craving hits but you still want something that supports steady energy - not a sugar crash 30 minutes later tehe."
+    ]
+  },
+  "tips": [
+    "This is a small batch recipe, feel free to double it for larger servings.",
+    "Use a hot knife to slice the bars if slicing straight from the freezer.",
+    "Let the squares sit out at room temp for a few mins prior to eating."
   ],
+  "faq": [
+    {
+      "question": "How should I store these no bake brownie batter bars?",
+      "answer": "Store them in an airtight container in the fridge for up to 4 days. For longer storage, keep them in the freezer and let them thaw for 5–10 minutes before serving."
+    },
+    {
+      "question": "Can I substitute the maple syrup?",
+      "answer": "You can experiment with other liquid sweeteners like honey or date syrup, but the texture and sweetness may vary slightly. Many readers have used dates instead and have had great success! (Around 5-7 dates depending on size and stickiness)"
+    },
+    {
+      "question": "Can I freeze brownie batter bars?",
+      "answer": "Yes, these freeze really well. Once the chocolate topping has set, slice them and store in a freezer-safe container. They can be enjoyed straight from the freezer or thawed slightly for a softer texture."
+    },
+    {
+      "question": "Are these brownie batter bars gluten-free?",
+      "answer": "Yes, they're naturally gluten-free since they're made with almond flour instead of traditional wheat flour. Just ensure your other ingredients are certified gluten-free if needed."
+    },
+    {
+      "question": "Are these refined sugar-free?",
+      "answer": "These bars are sweetened with maple syrup and dark chocolate, making them free from refined white sugar. Always check your chocolate label to keep them fully refined sugar-free."
+    },
+    {
+      "question": "How do I make the chocolate shiny and glossy?",
+      "answer": "Add a teaspoon of coconut oil and mix it into the warm melted chocolate until combined for extra shine. This creates that beautiful glossy finish."
+    }
+  ],
+  "videoUrl": "https://www.instagram.com/p/DS0QaBzjOj3/",
   "seo": {
     "metaTitle": "Healthy No Bake Brownie Batter Bars (4 Ingredients) | Yourwellnessgirly",
     "metaDescription": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
-    "keywords": [
-      "brownie batter bars",
-      "no bake brownie",
-      "healthy brownies",
-      "4 ingredient dessert",
-      "vegan brownies",
-      "gluten-free brownies"
-    ],
+    "keywords": ["brownie batter bars", "no bake brownie", "healthy brownies", "4 ingredient dessert", "vegan brownies", "gluten-free brownies"],
     "canonicalUrl": "/recipes/brownie-batter-bars"
   },
   "social": {
@@ -141,15 +118,7 @@
     },
     "instagram": {
       "caption": "When you're craving brownies but don't want to turn the oven on... these 4-ingredient no bake brownie batter bars are IT! 🍫✨ Recipe on the blog!",
-      "hashtags": [
-        "#browniebars",
-        "#nobake",
-        "#4ingredients",
-        "#healthybrownies",
-        "#vegan",
-        "#glutenfree",
-        "#yourwellnessgirly"
-      ]
+      "hashtags": ["#browniebars", "#nobake", "#4ingredients", "#healthybrownies", "#vegan", "#glutenfree", "#yourwellnessgirly"]
     }
   },
   "datePublished": "2026-02-20",

@@ -11,14 +11,14 @@
     <meta property="og:url" content="https://yourwellnessgirly.com/recipes/brownie-batter-bars">
     <meta property="og:title" content="Healthy No Bake Brownie Batter Bars (4 Ingredients) | Yourwellnessgirly">
     <meta property="og:description" content="No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.">
-    <meta property="og:image" content="https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars.jpg">
+    <meta property="og:image" content="https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars-800.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://yourwellnessgirly.com/recipes/brownie-batter-bars">
     <meta property="twitter:title" content="Healthy No Bake Brownie Batter Bars (4 Ingredients) | Yourwellnessgirly">
     <meta property="twitter:description" content="No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.">
-    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars.jpg">
+    <meta property="twitter:image" content="https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars-800.jpg">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://yourwellnessgirly.com/recipes/brownie-batter-bars">
@@ -46,8 +46,8 @@
   "@type": "Recipe",
   "name": "Healthy No Bake Brownie Batter Bars (4 Ingredients)",
   "image": [
-    "https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars.jpg",
-    "https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars-card-300.webp"
+    "https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-bars-800.jpg",
+    "https://yourwellnessgirly.com/images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp"
   ],
   "description": "No bake healthy brownie batter bars made with just 4 ingredients. Gluten-free, refined sugar-free and ready in minutes.",
   "keywords": "brownie, no-bake, gluten-free, vegan, dairy-free, paleo, refined-sugar-free, chocolate, almond-flour, 4-ingredients, healthy-dessert",
@@ -70,13 +70,14 @@
     "carbohydrateContent": "20g",
     "proteinContent": "7g",
     "fatContent": "17.5g",
-    "fiberContent": "5.3g"
+    "fiberContent": "5.3g",
+    "sugarContent": "15g"
   },
   "recipeIngredient": [
-    "170g almond flour",
+    "170 g almond flour",
     "3-4 tablespoons cacao powder",
     "4 tablespoons maple syrup",
-    "40g dark chocolate",
+    "40 g dark chocolate",
     "1 pinch sea salt (optional - for sprinkling)"
   ],
   "recipeInstructions": [
@@ -273,12 +274,78 @@
           margin: 0 0 1rem 0 !important;
           padding: 0 !important;
         }
+      }
 
-        .main-header nav ul {
-          display: none !important;
+      .mobile-about-me {
+        display: none;
+      }
+
+      .about-me-sidebar .afpa-credential {
+        margin: 1rem 0;
+        text-align: center;
+      }
+
+      .about-me-sidebar .afpa-credential img {
+        width: 140px !important;
+        max-width: 140px !important;
+        height: auto;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+      }
+
+      .about-me-sidebar .afpa-credential img:hover {
+        opacity: 1;
+      }
+
+      .recipe-description {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      .recipe-story p {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      .ingredients-section li label,
+      .instructions-section li,
+      .nutrition-section .nutrition-label,
+      .nutrition-section .nutrition-value,
+      .faq-section p,
+      .faq-question {
+        font-size: 1.3rem !important;
+        line-height: 1.6 !important;
+      }
+
+      .ingredient-notes {
+        color: #888;
+        font-style: italic;
+        font-weight: 300;
+      }
+
+      .faq-answer {
+        font-weight: normal !important;
+      }
+
+      @media (min-width: 769px) {
+        .about-me-sidebar {
+          flex: 0 0 360px !important;
+          max-width: 360px !important;
+          min-width: 360px !important;
         }
 
-        .social-icons {
+        .about-me-sidebar p {
+          font-size: 1.05rem !important;
+          line-height: 1.6 !important;
+        }
+
+        .nutrition-section .nutrition-value {
+          font-weight: normal !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .main-header nav ul {
           display: none !important;
         }
 
@@ -349,69 +416,113 @@
           position: relative;
         }
 
-        .mobile-social-icons {
-          padding: 20px;
-          border-top: 1px solid #f0f0f0;
-          display: flex;
+        .mobile-search-icon {
+          display: flex !important;
+          position: absolute;
+          right: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #2f4f2f;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
+
+        .search-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.8);
+          z-index: 2000;
+          display: none;
+          align-items: flex-start;
           justify-content: center;
-          gap: 0.75rem;
+          padding-top: 2rem;
+        }
+
+        .search-overlay.show {
+          display: flex !important;
+        }
+
+        .search-container {
+          background: white;
+          border-radius: 12px;
+          padding: 1.5rem;
+          width: 90%;
+          max-width: 400px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .search-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1rem;
+        }
+
+        .search-close {
+          font-size: 1.5rem;
+          color: #666;
+          cursor: pointer;
+        }
+
+        .search-input {
+          width: 100%;
+          padding: 0.75rem;
+          border: 2px solid #f0f0f0;
+          border-radius: 8px;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+
+        .search-input:focus {
+          outline: none;
+          border-color: #2f4f2f;
+        }
+
+        .search-results {
+          max-height: 300px;
+          overflow-y: auto;
+        }
+
+        .search-result-item {
+          padding: 0.75rem;
+          border-bottom: 1px solid #f0f0f0;
+          cursor: pointer;
+          text-decoration: none;
+          color: inherit;
+          display: block;
+        }
+
+        .search-result-item:hover {
+          background: #f8f8f8;
+        }
+
+        .search-result-title {
+          font-weight: 600;
+          color: #2f4f2f;
+          margin-bottom: 0.25rem;
+        }
+
+        .search-result-description {
+          font-size: 0.9rem;
+          color: #666;
         }
       }
 
-      .mobile-about-me {
-        display: none;
-      }
-
       .hamburger-menu,
+      .mobile-search-icon,
       .mobile-nav-dropdown {
         display: none;
       }
 
-      .about-me-sidebar .afpa-credential {
-        margin: 1rem 0;
-        text-align: center;
-      }
-
-      .about-me-sidebar .afpa-credential img {
-        width: 140px !important;
-        max-width: 140px !important;
-        height: auto;
-        opacity: 0.8;
-        transition: opacity 0.3s ease;
-      }
-
-      .about-me-sidebar .afpa-credential img:hover {
-        opacity: 1;
-      }
-
-      .recipe-description {
-        font-size: 1.3rem !important;
-        line-height: 1.6 !important;
-      }
-
-      .recipe-story p {
-        font-size: 1.3rem !important;
-        line-height: 1.6 !important;
-      }
-
-      .ingredients-section li label,
-      .instructions-section li,
-      .nutrition-section .nutrition-label,
-      .nutrition-section .nutrition-value,
-      .faq-section p,
-      .faq-question {
-        font-size: 1.3rem !important;
-        line-height: 1.6 !important;
-      }
-
-      .ingredient-notes {
-        color: #888;
-        font-style: italic;
-        font-weight: 300;
-      }
-
-      .faq-answer {
-        font-weight: normal !important;
+      .related-grid-small {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 1.5rem;
+          max-width: 1000px;
+          margin: 0 auto;
       }
 
       .tips-section {
@@ -489,20 +600,9 @@
       }
 
       @media (min-width: 769px) {
-        .about-me-sidebar {
-          flex: 0 0 360px !important;
-          max-width: 360px !important;
-          min-width: 360px !important;
-        }
-
-        .about-me-sidebar p {
-          font-size: 1.05rem !important;
-          line-height: 1.6 !important;
-        }
-
-        .nutrition-section .nutrition-value {
-          font-weight: normal !important;
-        }
+          .related-recipes {
+              margin-bottom: 3rem !important;
+          }
       }
     </style>
 </head>
@@ -528,6 +628,10 @@
             <span></span>
             <span></span>
         </div>
+        <!-- Mobile search icon -->
+        <div class="mobile-search-icon" onclick="toggleSearch()">
+            <i class="fas fa-search"></i>
+        </div>
         <!-- Mobile dropdown menu -->
         <div class="mobile-nav-dropdown" id="mobileNavDropdown">
             <ul>
@@ -536,12 +640,6 @@
                 <li><a href="../index.html#about">About Me</a></li>
                 <li><a href="../work-with-me.html">Work With Me</a></li>
             </ul>
-            <div class="mobile-social-icons">
-                <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://uk.pinterest.com/yourwellnessgirly_/" target="_blank" rel="noopener noreferrer" class="pinterest" aria-label="Save healthy dessert recipes on Pinterest"><i class="fab fa-pinterest"></i></a>
-                <a href="https://www.tiktok.com/@yourwellnessgirly" target="_blank" rel="noopener noreferrer" class="tiktok" aria-label="Watch quick healthy dessert recipes on TikTok"><i class="fab fa-tiktok"></i></a>
-                <a href="mailto:yourwellnessgirly@gmail.com" class="email" aria-label="Contact yourwellnessgirly via email"><i class="fas fa-envelope"></i></a>
-            </div>
         </div>
         <div class="social-icons">
             <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Follow Yourwellnessgirly on Instagram"><i class="fab fa-instagram"></i></a>
@@ -550,6 +648,22 @@
             <a href="mailto:yourwellnessgirly@gmail.com" class="email" aria-label="Contact yourwellnessgirly via email"><i class="fas fa-envelope"></i></a>
         </div>
     </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Recipes</h3>
+                <div class="search-close" onclick="closeSearch()">&times;</div>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search for recipes, ingredients, or keywords...">
+            <div class="search-results" id="searchResults">
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Start typing to search recipes...
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Breadcrumbs -->
     <nav class="breadcrumbs" aria-label="Breadcrumb navigation">
@@ -593,7 +707,7 @@
 
                 <!-- Diet Badges -->
                 <div class="diet-badges">
-                    <span class="badge vegan">Vegan</span><span class="badge gluten-free">Gluten-Free</span><span class="badge dairy-free">Dairy-Free</span><span class="badge no-bake">No-Bake</span><span class="badge refined-sugar-free">Refined Sugar-Free</span><span class="badge paleo">Paleo</span>
+                    <span class="badge no-bake">No-Bake</span><span class="badge vegan">Vegan</span><span class="badge gluten-free">Gluten-Free</span><span class="badge dairy-free">Dairy-Free</span><span class="badge refined-sugar-free">Refined Sugar-Free</span><span class="badge paleo">Paleo</span>
                 </div>
 
                 <!-- Difficulty Badge -->
@@ -609,29 +723,16 @@
 
             <div class="recipe-hero-image">
                 <picture>
-            <source
-                srcset="../images/recipes/brownie-batter-bars/brownie-bars-400.webp 400w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-600.webp 600w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-800.webp 800w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-1200.webp 1200w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-1600.webp 1600w"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                type="image/webp">
             <img
                 src="../images/recipes/brownie-batter-bars/brownie-bars-800.jpg"
-                srcset="../images/recipes/brownie-batter-bars/brownie-bars-400.jpg 400w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-600.jpg 600w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-800.jpg 800w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-1200.jpg 1200w,
-                        ../images/recipes/brownie-batter-bars/brownie-bars-1600.jpg 1600w"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, (max-width: 1200px) 60vw, 735px"
                 width="800"
-                height="600"
+                height="1000"
                 alt="Hand holding no-bake dark chocolate brownie bars with glossy topping and sea salt flakes"
                 loading="eager"
-                fetchpriority="high"
-                decoding="async" />
-        </picture>
+                decoding="async"
+                fetchpriority="high" /></picture>
             </div>
         </div>
     </section>
@@ -675,12 +776,10 @@
         <main class="recipe-content">
         <!-- Story Section -->
         <section class="recipe-story">
-            <h2>Healthy No Bake Brownie Batter Bars <em style="font-weight: 300; color: #e0a5a5;">(rich, fudgy chocolate bars in 30 minutes)</em></h2>
-            <p>When you're craving a sweet treat but absolutely do not want to turn the oven on… these no bake healthy brownie batter bars are it. They're decadent, rich, chocolatey and taste like brownie batter but made in a way that feels much more balanced.</p>
-
-            <p>The base is naturally rich in healthy fats and plant-based protein, which helps slow down sugar absorption and keeps these bars more satisfying than your typical dessert. Raw cacao brings that deep chocolate flavour while also delivering antioxidants and minerals like magnesium (which we all need more of tbh). The natural sweetness keeps things sweet without being overpowering, and pairing it with dark chocolate adds even more polyphenols plus that crunch on top.</p>
-
-            <p>The combination of fibre, healthy fats and chocolatey goodness makes these perfect for when a craving hits but you still want something that supports steady energy - not a sugar crash 30 minutes later tehe.</p>
+            
+            <h2>Healthy No Bake Brownie Batter Bars (4 Ingredients) <em style="font-weight: 300; color: #e0a5a5;">(why you'll love them)</em></h2>
+            <p>When you're craving a sweet treat but absolutely do not want to turn the oven on… these no bake healthy brownie batter bars are it. They're decadent, rich, chocolatey and taste like brownie batter but made in a way that feels much more balanced.</p><p>The base is naturally rich in healthy fats and plant-based protein, which helps slow down sugar absorption and keeps these bars more satisfying than your typical dessert. Raw cacao brings that deep chocolate flavour while also delivering antioxidants and minerals like magnesium (which we all need more of tbh). The natural sweetness keeps things sweet without being overpowering, and pairing it with dark chocolate adds even more polyphenols plus that crunch on top.</p><p>The combination of fibre, healthy fats and chocolatey goodness makes these perfect for when a craving hits but you still want something that supports steady energy - not a sugar crash 30 minutes later tehe.</p>
+        
         </section>
 
         <!-- Watch Me Make It Button -->
@@ -695,7 +794,21 @@
         <section class="recipe-card" id="recipe-card">
             <div class="recipe-card-top">
                 <div class="recipe-card-info">
-                    <h2 class="recipe-card-title">Healthy No Bake Brownie Batter Bars (4 Ingredients)<br><span class="recipe-subtitle">(Vegan, Gluten-Free, No-Bake)</span></h2>
+                    <h2 class="recipe-card-title">Healthy No Bake Brownie Batter Bars (4 Ingredients)</h2>
+
+                    <!-- Recipe Rating - Commented out for now, can be enabled later
+                    <div class="recipe-rating">
+                        <span class="rating-text">Rate this recipe:</span>
+                        <div class="stars">
+                            <i class="fas fa-star" data-rating="1"></i>
+                            <i class="fas fa-star" data-rating="2"></i>
+                            <i class="fas fa-star" data-rating="3"></i>
+                            <i class="fas fa-star" data-rating="4"></i>
+                            <i class="fas fa-star" data-rating="5"></i>
+                        </div>
+                        <span class="rating-count">(127 ratings)</span>
+                    </div>
+                    -->
 
                     <div class="recipe-meta-grid">
                         <div class="meta-row">
@@ -705,17 +818,17 @@
                         <div class="meta-row">
                             <i class="far fa-clock"></i>
                             <span class="meta-label">prep time:</span>
-                            <span class="meta-value">10 minutes</span>
+                            <span class="meta-value">10</span>
                         </div>
                         <div class="meta-row">
                             <i class="far fa-clock"></i>
                             <span class="meta-label">cook time:</span>
-                            <span class="meta-value">0 minutes</span>
+                            <span class="meta-value">0</span>
                         </div>
                         <div class="meta-row">
                             <i class="far fa-clock"></i>
                             <span class="meta-label">total time:</span>
-                            <span class="meta-value">30 minutes</span>
+                            <span class="meta-value">30 MINUTES</span>
                         </div>
                         <div class="meta-row">
                             <i class="fas fa-utensils"></i>
@@ -742,13 +855,12 @@
 
                 <div class="recipe-card-image">
                     <img
-            src="../images/recipes/brownie-batter-bars/brownie-batter-bars-card-300.webp"
-            srcset="../images/recipes/brownie-batter-bars/brownie-batter-bars-card-300.webp 300w,
-                    ../images/recipes/brownie-batter-bars/brownie-batter-bars-card-600.webp 600w"
+            src="../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp"
+            srcset="../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp 400w, ../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-600.webp 600w"
             sizes="(max-width: 768px) 50vw, 300px"
-            width="300"
-            height="508"
-            alt="No bake healthy brownie batter bars sliced and up close"
+            width="400"
+            height="300"
+            alt="Healthy no-bake brownie batter bars recipe card - 4 ingredient vegan dessert"
             loading="lazy"
             decoding="async" />
                 </div>
@@ -766,36 +878,42 @@
             <div class="ingredients-section">
                 <h3>Ingredients</h3>
                 <ul class="ingredients-list">
+                    
                 <li>
                     <input type="checkbox" id="ingredient-1">
                     <label for="ingredient-1">
-                        <span class="amount">170</span>g almond flour
+                        <span class="amount">170</span> g almond flour
                     </label>
                 </li>
+            
                 <li>
                     <input type="checkbox" id="ingredient-2">
                     <label for="ingredient-2">
                         <span class="amount">3-4</span> tablespoons cacao powder
                     </label>
                 </li>
+            
                 <li>
                     <input type="checkbox" id="ingredient-3">
                     <label for="ingredient-3">
                         <span class="amount">4</span> tablespoons maple syrup
                     </label>
                 </li>
+            
                 <li>
                     <input type="checkbox" id="ingredient-4">
                     <label for="ingredient-4">
-                        <span class="amount">40</span>g dark chocolate
+                        <span class="amount">40</span> g dark chocolate
                     </label>
                 </li>
+            
                 <li>
                     <input type="checkbox" id="ingredient-5">
                     <label for="ingredient-5">
                         <span class="amount">1</span> pinch sea salt <span class="ingredient-notes">(optional - for sprinkling)</span>
                     </label>
                 </li>
+            
                 </ul>
             </div>
 
@@ -803,19 +921,66 @@
             <div class="instructions-section">
                 <h3>Instructions</h3>
                 <ul class="instructions-list">
-                    <li><strong>Step 1:</strong> Add all of the ingredients apart from the dark chocolate to a food processor and blend until combined.</li>
-                    <li><strong>Step 2:</strong> Line a small container and transfer the batter. Press the batter down firmly.</li>
-                    <li><strong>Step 3:</strong> Melt the dark chocolate and spread on top of the pressed batter.</li>
-                    <li><strong>Step 4:</strong> Place in the freezer for 20 minutes or until the chocolate is set.</li>
-                    <li><strong>Step 5:</strong> Remove from freezer, sprinkle with sea salt if desired, slice and enjoy!</li>
+                    <li><strong>Step 1:</strong> Add all of the ingredients apart from the dark chocolate to a food processor and blend until combined.</li><li><strong>Step 2:</strong> Line a small container and transfer the batter. Press the batter down firmly.</li><li><strong>Step 3:</strong> Melt the dark chocolate and spread on top of the pressed batter.</li><li><strong>Step 4:</strong> Place in the freezer for 20 minutes or until the chocolate is set.</li><li><strong>Step 5:</strong> Remove from freezer, sprinkle with sea salt if desired, slice and enjoy!</li>
                 </ul>
+            </div>
+
+            <!-- Tips Section -->
+            <div class="tips-section">
+                
+            <h3>Pro Tips</h3>
+            <ul class="tips-list">
+                <li>This is a small batch recipe, feel free to double it for larger servings.</li><li>Use a hot knife to slice the bars if slicing straight from the freezer.</li><li>Let the squares sit out at room temp for a few mins prior to eating.</li>
+            </ul>
+        
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-list">
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">How should I store these no bake brownie batter bars?</h4>
+                        <p class="faq-answer">Store them in an airtight container in the fridge for up to 4 days. For longer storage, keep them in the freezer and let them thaw for 5–10 minutes before serving.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I substitute the maple syrup?</h4>
+                        <p class="faq-answer">You can experiment with other liquid sweeteners like honey or date syrup, but the texture and sweetness may vary slightly. Many readers have used dates instead and have had great success! (Around 5-7 dates depending on size and stickiness)</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I freeze brownie batter bars?</h4>
+                        <p class="faq-answer">Yes, these freeze really well. Once the chocolate topping has set, slice them and store in a freezer-safe container. They can be enjoyed straight from the freezer or thawed slightly for a softer texture.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these brownie batter bars gluten-free?</h4>
+                        <p class="faq-answer">Yes, they're naturally gluten-free since they're made with almond flour instead of traditional wheat flour. Just ensure your other ingredients are certified gluten-free if needed.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these refined sugar-free?</h4>
+                        <p class="faq-answer">These bars are sweetened with maple syrup and dark chocolate, making them free from refined white sugar. Always check your chocolate label to keep them fully refined sugar-free.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">How do I make the chocolate shiny and glossy?</h4>
+                        <p class="faq-answer">Add a teaspoon of coconut oil and mix it into the warm melted chocolate until combined for extra shine. This creates that beautiful glossy finish.</p>
+                    </div>
+                
+            </div>
+        
             </div>
 
             <!-- Nutrition Facts -->
             <div class="nutrition-section">
                 <h3>Nutrition Facts</h3>
-                <p class="nutrition-per-serving">Per one bar:</p>
+                <p class="nutrition-per-serving">Per one serving:</p>
                 <div class="nutrition-table">
+                    
             <div class="nutrition-item">
                 <span class="nutrition-label">Calories</span>
                 <span class="nutrition-value">246</span>
@@ -825,7 +990,7 @@
                 <span class="nutrition-value">17.5g</span>
             </div>
             <div class="nutrition-item">
-                <span class="nutrition-label">Total Carbohydrates</span>
+                <span class="nutrition-label">Carbohydrates</span>
                 <span class="nutrition-value">20g</span>
             </div>
             <div class="nutrition-item">
@@ -833,67 +998,16 @@
                 <span class="nutrition-value">5.3g</span>
             </div>
             <div class="nutrition-item">
-                <span class="nutrition-label">Net Carbs</span>
-                <span class="nutrition-value">15g</span>
-            </div>
-            <div class="nutrition-item">
                 <span class="nutrition-label">Protein</span>
                 <span class="nutrition-value">7g</span>
             </div>
+            <div class="nutrition-item">
+                <span class="nutrition-label">Sugar</span>
+                <span class="nutrition-value">15g</span>
+            </div>
+        
                 </div>
                 <p class="nutrition-disclaimer" style="font-size: 0.9rem !important; line-height: 1.4 !important;">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Basic macros don't reflect the full nutritional value including vitamins, minerals, antioxidants, and other beneficial compounds. Please use this as a guideline only.</p>
-            </div>
-
-            <!-- Tips Section -->
-            <div class="tips-section">
-
-            <h3>Pro Tips</h3>
-            <ul class="tips-list">
-                <li>This is a small batch recipe, feel free to double it for larger servings</li>
-                <li>Use a hot knife to slice the bars if slicing straight from the freezer</li>
-                <li>Let the squares sit out at room temp for a few mins prior to eating</li>
-            </ul>
-
-            </div>
-
-            <!-- FAQ Section -->
-            <div class="faq-section">
-
-            <h3>Frequently Asked Questions</h3>
-            <div class="faq-list">
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">How should I store these no bake brownie batter bars?</h4>
-                        <p class="faq-answer">Store them in an airtight container in the fridge for up to 4 days. For longer storage, keep them in the freezer and let them thaw for 5–10 minutes before serving.</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">Can I substitute the maple syrup?</h4>
-                        <p class="faq-answer">You can experiment with other liquid sweeteners like honey or date syrup, but the texture and sweetness may vary slightly. Many reader have used dates instead and have had great success! (Around 5-7 dates depending on size + stickiness)</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">Can I freeze brownie batter bars?</h4>
-                        <p class="faq-answer">Yes, these freeze really well. Once the chocolate topping has set, slice them and store in a freezer-safe container. They can be enjoyed straight from the freezer or thawed slightly for a softer texture.</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">Are these brownie batter bars gluten-free?</h4>
-                        <p class="faq-answer">Yes, they're naturally gluten-free since they're made with almond flour instead of traditional wheat flour. Just ensure your other ingredients are certified gluten-free if needed.</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">Are these refined sugar-free?</h4>
-                        <p class="faq-answer">These bars are sweetened with maple syrup and dark chocolate, making them free from refined white sugar. Always check your chocolate label to keep them fully refined sugar-free.</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h4 class="faq-question">How do I make the chocolate shiny and glossy?</h4>
-                        <p class="faq-answer">Add a teaspoon of coconut oil and mix it into the warm melted chocolate until combined for extra shine. This creates that beautiful glossy finish.</p>
-                    </div>
-
-            </div>
-
             </div>
         </section>
     </main>
@@ -903,54 +1017,40 @@
     <section class="related-recipes">
         <h2>You Might Also Like</h2>
         <div class="related-grid-small">
-            <a href="banana-bites.html" class="recipe-card-small">
-                <img
-            src="../images/recipes/banana-bites/thumbnail-300.jpg"
-            srcset="../images/recipes/banana-bites/thumbnail-300.jpg 300w, ../images/recipes/banana-bites/thumbnail-600.jpg 600w"
-            sizes="(max-width: 768px) 50vw, 300px"
-            width="300"
-            height="225"
-            alt="Healthy Chocolate Banana Bites recipe card - easy 15-minute no-bake dessert"
-            loading="lazy"
-            decoding="async" />
+            
+            <a href="apple-fritters.html" class="recipe-card-small">
+                <img src="../images/recipes/apple-fritters/apple-fritters-card-300px.webp" alt="Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)" loading="lazy">
                 <div class="recipe-info">
-                    <h3>Healthy Chocolate Banana Bites</h3>
-                    <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 15 minutes</span>
-                        <span class="difficulty">Easy</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="mango-yogurt-bites.html" class="recipe-card-small">
-                <img
-            src="../images/recipes/mango-yogurt-bites/mango-bites-card-300.webp"
-            srcset="../images/recipes/mango-yogurt-bites/mango-bites-card-300.webp 300w, ../images/recipes/mango-yogurt-bites/mango-bites-card-600.webp 600w"
-            sizes="(max-width: 768px) 50vw, 300px"
-            width="300"
-            height="225"
-            alt="No-Bake Mango Yogurt Chocolate Bites - healthy summer dessert"
-            loading="lazy"
-            decoding="async" />
-                <div class="recipe-info">
-                    <h3>No-Bake Mango Yogurt Chocolate Bites</h3>
+                    <h3>Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)</h3>
                     <div class="recipe-meta">
                         <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
-
-            <a href="chocolate-bars.html" class="recipe-card-small">
-                <img src="../https://via.placeholder.com/300x200/f4dde7/2f4f2f?text=Chocolate+Bars" alt="Healthy Chocolate Bars" loading="lazy">
+        
+            <a href="banana-fritters.html" class="recipe-card-small">
+                <img src="../images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp" alt="Healthy Banana Fritters (Sugar Free)" loading="lazy">
                 <div class="recipe-info">
-                    <h3>Healthy Chocolate Bars</h3>
+                    <h3>Healthy Banana Fritters (Sugar Free)</h3>
                     <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 15 minutes</span>
+                        <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
+        
+            <a href="blueberry-fritters.html" class="recipe-card-small">
+                <img src="../images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp" alt="Healthy Sugar-Free Blueberry Fritters" loading="lazy">
+                <div class="recipe-info">
+                    <h3>Healthy Sugar-Free Blueberry Fritters</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
+                        <span class="difficulty">Easy</span>
+                    </div>
+                </div>
+            </a>
+        
         </div>
     </section>
 
@@ -1048,6 +1148,19 @@
             }
         });
 
+        // Search functionality (optional)
+        function toggleSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchInput = document.getElementById('searchInput');
+            searchOverlay.classList.add('show');
+            setTimeout(() => searchInput.focus(), 100);
+        }
+
+        function closeSearch() {
+            const searchOverlay = document.getElementById('searchOverlay');
+            searchOverlay.classList.remove('show');
+        }
+
         // Scroll to recipe function
         function scrollToRecipe() {
             document.getElementById('recipe-card').scrollIntoView({ behavior: 'smooth' });
@@ -1080,7 +1193,7 @@
         // Enhanced servings adjustment with dynamic calculation
         let baseServings = 6;
         let currentServings = baseServings;
-        const baseAmounts = [170, '3-4', 4, 40, 1];
+        const baseAmounts = [170, 3, 4, 40, 1];
 
         function adjustServings(change) {
             const newServings = currentServings + change;
@@ -1094,8 +1207,8 @@
             const amounts = document.querySelectorAll('.ingredients-list .amount');
 
             amounts.forEach((amount, index) => {
-                if (baseAmounts[index] && typeof baseAmounts[index] === 'number') {
-                    const newAmount = (baseAmounts[index] * multiplier).toFixed(1);
+                if (baseAmounts[index] && baseAmounts[index] > 0) {
+                    const newAmount = (baseAmounts[index] * multiplier).toFixed(2);
                     amount.textContent = parseFloat(newAmount).toString();
                 }
             });
@@ -1116,6 +1229,16 @@
                     }
                 });
             });
+        });
+
+        // Close search when clicking outside
+        document.addEventListener('click', function(event) {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchContainer = document.querySelector('.search-container');
+
+            if (searchOverlay.classList.contains('show') && !searchContainer.contains(event.target)) {
+                closeSearch();
+            }
         });
     </script>
 </body>

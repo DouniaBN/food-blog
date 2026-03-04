@@ -50,22 +50,12 @@
     "sugar": "20g"
   },
   "ingredients": [
-    {
-      "group": "Base",
-      "items": [
-        { "amount": "135", "unit": "g", "ingredient": "pitted dates", "notes": "" },
-        { "amount": "120", "unit": "g", "ingredient": "almond flour", "notes": "" },
-        { "amount": "1-1.5", "unit": "tbsp", "ingredient": "matcha powder", "notes": "adjust to your preference" }
-      ]
-    },
-    {
-      "group": "White Chocolate Matcha Ganache",
-      "items": [
-        { "amount": "60", "unit": "g", "ingredient": "dairy-free white chocolate", "notes": "" },
-        { "amount": "135", "unit": "g", "ingredient": "canned thick coconut milk", "notes": "" },
-        { "amount": "0.5-1", "unit": "tbsp", "ingredient": "matcha powder", "notes": "to your preference" }
-      ]
-    }
+    { "amount": "135", "unit": "g", "ingredient": "pitted dates", "notes": "" },
+    { "amount": "120", "unit": "g", "ingredient": "almond flour", "notes": "" },
+    { "amount": "1-1.5", "unit": "tbsp", "ingredient": "matcha powder", "notes": "for the base" },
+    { "amount": "60", "unit": "g", "ingredient": "dairy-free white chocolate", "notes": "" },
+    { "amount": "135", "unit": "g", "ingredient": "canned thick coconut milk", "notes": "" },
+    { "amount": "0.5-1", "unit": "tbsp", "ingredient": "matcha powder", "notes": "for the ganache" }
   ],
   "instructions": [
     { "step": 1, "text": "Add the pitted dates, almond flour, and matcha to a food processor and blend until a dough forms.", "image": "" },
@@ -120,6 +110,7 @@
     "Use a larger container if you prefer thinner bars."
   ],
   "substitutions": [],
+  "relatedRecipes": ["matcha-marshmallows", "brownie-batter-bars", "easy-healthy-matcha-cake"],
   "seo": {
     "metaTitle": "No Bake Matcha Ganache Bars (5 Ingredients) | Yourwellnessgirly",
     "metaDescription": "These no bake matcha ganache bars are made with just 5 ingredients. The chewy matcha cookie dough base topped with creamy white chocolate matcha ganache is truly heavenly. Gluten free, dairy free, and refined sugar free.",

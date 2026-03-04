@@ -74,8 +74,12 @@
     "sugarContent": "20g"
   },
   "recipeIngredient": [
-    "undefined",
-    "undefined"
+    "135 g pitted dates",
+    "120 g almond flour",
+    "1-1.5 tbsp matcha powder (for the base)",
+    "60 g dairy-free white chocolate",
+    "135 g canned thick coconut milk",
+    "0.5-1 tbsp matcha powder (for the ganache)"
   ],
   "recipeInstructions": [
     {
@@ -887,14 +891,42 @@
                 <li>
                     <input type="checkbox" id="ingredient-1">
                     <label for="ingredient-1">
-                        <span class="amount"></span>  undefined
+                        <span class="amount">135</span> g pitted dates
                     </label>
                 </li>
             
                 <li>
                     <input type="checkbox" id="ingredient-2">
                     <label for="ingredient-2">
-                        <span class="amount"></span>  undefined
+                        <span class="amount">120</span> g almond flour
+                    </label>
+                </li>
+            
+                <li>
+                    <input type="checkbox" id="ingredient-3">
+                    <label for="ingredient-3">
+                        <span class="amount">1-1.5</span> tbsp matcha powder <span class="ingredient-notes">(for the base)</span>
+                    </label>
+                </li>
+            
+                <li>
+                    <input type="checkbox" id="ingredient-4">
+                    <label for="ingredient-4">
+                        <span class="amount">60</span> g dairy-free white chocolate
+                    </label>
+                </li>
+            
+                <li>
+                    <input type="checkbox" id="ingredient-5">
+                    <label for="ingredient-5">
+                        <span class="amount">135</span> g canned thick coconut milk
+                    </label>
+                </li>
+            
+                <li>
+                    <input type="checkbox" id="ingredient-6">
+                    <label for="ingredient-6">
+                        <span class="amount">0.5-1</span> tbsp matcha powder <span class="ingredient-notes">(for the ganache)</span>
                     </label>
                 </li>
             
@@ -996,9 +1028,17 @@
     <section class="related-recipes">
         <h2>You Might Also Like</h2>
         <div class="related-grid-small">
-
+            
             <a href="matcha-marshmallows.html" class="recipe-card-small">
-                <img src="../images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp" alt="4 Ingredient Matcha Marshmallows" loading="lazy">
+                <img
+            src="../images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp"
+            srcset="../images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp 300w, ../images/recipes/matcha-marshmallows/matcha-marshmallows-card-600px.webp 600w"
+            sizes="(max-width: 768px) 50vw, 300px"
+            width="300"
+            height="225"
+            alt="4 ingredient matcha marshmallows recipe card - easy refined sugar free dessert"
+            loading="lazy"
+            decoding="async" />
                 <div class="recipe-info">
                     <h3>4 Ingredient Matcha Marshmallows</h3>
                     <div class="recipe-meta">
@@ -1007,9 +1047,17 @@
                     </div>
                 </div>
             </a>
-
+        
             <a href="brownie-batter-bars.html" class="recipe-card-small">
-                <img src="../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp" alt="Healthy No Bake Brownie Batter Bars (4 Ingredients)" loading="lazy">
+                <img
+            src="../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp"
+            srcset="../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-400.webp 400w, ../images/recipes/brownie-batter-bars/brownie-batter-bars-thumbnail-600.webp 600w"
+            sizes="(max-width: 768px) 50vw, 300px"
+            width="400"
+            height="300"
+            alt="Healthy no-bake brownie batter bars recipe card - 4 ingredient vegan dessert"
+            loading="lazy"
+            decoding="async" />
                 <div class="recipe-info">
                     <h3>Healthy No Bake Brownie Batter Bars (4 Ingredients)</h3>
                     <div class="recipe-meta">
@@ -1018,7 +1066,7 @@
                     </div>
                 </div>
             </a>
-
+        
             <a href="easy-healthy-matcha-cake.html" class="recipe-card-small">
                 <img src="../images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp" alt="Easy Healthy Matcha Cake (4 Ingredients, Sugar Free)" loading="lazy">
                 <div class="recipe-info">
@@ -1029,7 +1077,7 @@
                     </div>
                 </div>
             </a>
-
+        
         </div>
     </section>
 
@@ -1172,7 +1220,7 @@
         // Enhanced servings adjustment with dynamic calculation
         let baseServings = 6;
         let currentServings = baseServings;
-        const baseAmounts = [0, 0];
+        const baseAmounts = [135, 120, 1, 60, 135, 0.5];
 
         function adjustServings(change) {
             const newServings = currentServings + change;

@@ -457,11 +457,20 @@ class RecipeGenerator {
     }
 
     renderRelatedRecipes(recipe, allRecipes) {
-        // Get recipes from same categories
-        const related = allRecipes
-            .filter(r => r.slug !== recipe.slug) // Exclude current recipe
-            .filter(r => r.categories.some(cat => recipe.categories.includes(cat))) // Same category
-            .slice(0, 3); // Max 3 related
+        // Use manually specified related recipes if provided in the JSON
+        let related;
+        if (recipe.relatedRecipes && recipe.relatedRecipes.length > 0) {
+            related = recipe.relatedRecipes
+                .map(slug => allRecipes.find(r => r.slug === slug))
+                .filter(Boolean)
+                .slice(0, 3);
+        } else {
+            // Auto-select from same categories
+            related = allRecipes
+                .filter(r => r.slug !== recipe.slug)
+                .filter(r => r.categories.some(cat => recipe.categories.includes(cat)))
+                .slice(0, 3);
+        }
 
         if (related.length === 0) return '';
 

@@ -1,0 +1,128 @@
+{
+  "id": "banana-brownies",
+  "title": "3 Ingredient Banana Brownies (Healthy)",
+  "slug": "banana-brownies",
+  "description": "Soft and gooey 3 ingredient healthy banana brownies that are naturally sweetened and added sugar free. An easy blender recipe made with simple, nourishing ingredients.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/banana-brownies/banana-brownies-hero.webp",
+      "alt": "Soft gooey 3 ingredient healthy banana brownies sliced and topped with sea salt and chocolate chips",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/banana-brownies/banana-brownies-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/banana-brownies/banana-brownies-card-300px.webp",
+        "600": "images/recipes/banana-brownies/banana-brownies-card-600px.webp"
+      },
+      "alt": "3 ingredient banana brownies recipe card - easy healthy vegan gluten free dessert",
+      "width": 300,
+      "height": 225
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "20 minutes",
+    "totalTimeDisplay": "25 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "brownies"
+  },
+  "difficulty": "Easy",
+  "categories": ["Vegan", "Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
+  "tags": ["banana brownies", "3 ingredient banana brownies", "healthy banana brownies", "vegan brownies", "gluten free brownies", "added sugar free brownies", "naturally sweetened brownies", "banana dessert", "cacao brownies", "almond butter brownies", "healthy dessert", "paleo brownies"],
+  "nutrition": {
+    "calories": 216,
+    "protein": "6.4g",
+    "carbs": "19g",
+    "fat": "14.5g",
+    "fiber": "4.4g",
+    "sugar": "7g"
+  },
+  "ingredients": [
+    { "amount": "2", "unit": "large", "ingredient": "overripe bananas", "notes": "" },
+    { "amount": "0.5", "unit": "cup", "ingredient": "almond butter", "notes": "" },
+    { "amount": "0.25", "unit": "cup", "ingredient": "cacao powder", "notes": "" },
+    { "amount": "", "unit": "", "ingredient": "chocolate chips or chunks", "notes": "optional" },
+    { "amount": "", "unit": "", "ingredient": "sea salt", "notes": "to top" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Preheat the oven to 170°C / 160°C fan (340°F).", "image": "" },
+    { "step": 2, "text": "Add the bananas, almond butter, and cacao powder to a blender and blend until smooth. Do not add the chocolate chips yet if using.", "image": "" },
+    { "step": 3, "text": "Transfer the batter to a brownie baking tray or small oven-safe baking dish. Add chocolate chips or chunks on top.", "image": "" },
+    { "step": 4, "text": "Bake for 15–20 minutes until the top is set.", "image": "" },
+    { "step": 5, "text": "Allow to cool completely before removing or slicing — they will continue cooking as they cool and will break if removed while still hot.", "image": "" },
+    { "step": 6, "text": "Sprinkle with sea salt and enjoy!", "image": "" }
+  ],
+  "notes": [
+    "The brownies must be fully cooled before slicing — they firm up as they cool.",
+    "Overripe bananas work best as they are sweeter and blend more smoothly.",
+    "You can mash everything together by hand, but a blender gives a much smoother, fudgier texture."
+  ],
+  "equipment": ["Blender or food processor", "Brownie baking tray or small oven-safe baking dish"],
+  "relatedRecipes": ["chocolate-chip-banana-bread-bars", "blueberry-fritters", "apple-fritters"],
+  "seo": {
+    "metaTitle": "3 Ingredient Banana Brownies (Healthy, Vegan, Gluten Free) | Yourwellnessgirly",
+    "metaDescription": "Soft and gooey 3 ingredient healthy banana brownies that are naturally sweetened and added sugar free. An easy blender recipe made with simple, nourishing ingredients.",
+    "keywords": ["3 ingredient banana brownies", "healthy banana brownies", "vegan banana brownies", "gluten free banana brownies", "added sugar free brownies", "easy healthy brownies"],
+    "canonicalUrl": "/recipes/banana-brownies"
+  },
+  "social": {
+    "pinterest": {
+      "description": "These 3 ingredient healthy banana brownies are vegan, gluten free, and naturally sweetened! Soft, gooey, and so easy to make 🍌🤎",
+      "title": "3 Ingredient Banana Brownies (Healthy, Vegan & Gluten Free)"
+    },
+    "instagram": {
+      "caption": "3 ingredient banana brownies that actually taste amazing 🍌🤎 vegan, gluten free, naturally sweetened — and ready in 25 minutes! recipe on the blog!",
+      "hashtags": ["#bananabrownies", "#3ingredientbrownies", "#healthybrownies", "#veganbrownies", "#glutenfreebrownies", "#refinedsugarfree", "#healthydessert", "#yourwellnessgirly"]
+    }
+  },
+  "story": {
+    "subtitle": "soft, gooey and naturally sweetened 3 ingredient treat",
+    "paragraphs": [
+      "These 3 ingredient healthy banana brownies are such a simple yet nourishing sweet treat. They're soft, gooey, and perfectly fudgy — the kind of dessert that satisfies a chocolate craving while still feeling wholesome and balanced.",
+      "One of the best things about this recipe is how incredibly easy it is to make. All you need are three ingredients you probably already have at home, a blender, and about five minutes of prep time. While you can absolutely mash everything together by hand, using a blender or high-powered food processor really helps create that smooth, silky batter that feels much closer to a brownie texture wise. Blending the ingredients removes any banana lumps and gives the brownies a more uniform, fudgy vibe once baked.",
+      "This is one of those recipes you can throw together whenever you have a couple of overripe bananas sitting on the counter and want something sweet without much effort. As bananas ripen, they naturally become sweeter, which makes them perfect for baking. In this recipe, the bananas provide all the sweetness needed, meaning these banana brownies are completely added sugar free and naturally sweetened.",
+      "The almond butter adds healthy fats and a rich, creamy texture that makes the banana brownies extra satisfying. Those fats also help slow down the release of sugars from the bananas, creating a more balanced treat that won't leave you with a big energy crash afterwards. Cacao powder is the ingredient that brings everything together. Not only does it give these brownies their deep chocolate flavour, but it's also naturally rich in antioxidants and polyphenols, which are known for supporting overall health.",
+      "These 3 ingredient banana brownies are the perfect afternoon snack, quick dessert, or sweet treat to keep in the fridge for when your chocolate cravings hit."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store banana brownies?",
+      "answer": "Store them in an airtight container in the refrigerator for up to 4 days. They can also be frozen for longer storage."
+    },
+    {
+      "question": "Can I freeze these banana brownies?",
+      "answer": "Yes, store in a freezer-safe container for up to 2 months. Let them thaw at room temperature before eating."
+    },
+    {
+      "question": "Do these banana brownies taste like bananas?",
+      "answer": "Yes, the banana flavour comes through equally as much as the chocolate flavour does."
+    },
+    {
+      "question": "Do I need a specific brownie pan to make these banana brownies?",
+      "answer": "Not at all — you can add the batter to any smaller oven-safe baking dish instead of individual brownie pans like I did."
+    }
+  ],
+  "tips": [
+    "Let the brownies cool completely before eating — they will be very soft straight from the oven and will firm up as they cool."
+  ],
+  "substitutions": [],
+  "videoUrl": "https://www.instagram.com/p/DQ9z9QxjBij/",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "featured": true,
+  "viral": false,
+  "popular": true
+}

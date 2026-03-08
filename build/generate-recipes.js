@@ -57,6 +57,9 @@ class RecipeGenerator {
             if (!recipe.slug || !recipe.title) {
                 this.warnings.push(`Recipe ${slug} missing required fields (slug or title)`);
             }
+            if (!recipe.story || !recipe.story.paragraphs || recipe.story.paragraphs.length === 0) {
+                this.warnings.push(`⚠️  Recipe "${slug}" is missing a story — the page will have no intro text!`);
+            }
 
             return recipe;
         } catch (error) {
@@ -420,7 +423,10 @@ class RecipeGenerator {
     }
 
     renderStory(recipe) {
-        if (!recipe.story) return '';
+        if (!recipe.story || !recipe.story.paragraphs || recipe.story.paragraphs.length === 0) {
+            this.errors.push(`❌ MISSING STORY: "${recipe.slug}" has no story content — the page will be blank! Add a "story" field to recipes-data/${recipe.slug}.json`);
+            return '';
+        }
 
         const displayTitle = recipe.story.displayTitle || recipe.title;
         return `

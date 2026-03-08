@@ -1,0 +1,126 @@
+{
+  "id": "no-bake-lemon-bars",
+  "title": "No Bake Lemon Bars",
+  "slug": "no-bake-lemon-bars",
+  "description": "My viral no bake lemon bars made with gluten-free, better-for-you ingredients. Buttery, refreshing, and the perfect easy summer dessert.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-hero.webp",
+      "alt": "No bake lemon bars sliced into squares topped with white chocolate and lemon zest on parchment paper",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-300px.webp",
+        "600": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-600px.webp"
+      },
+      "alt": "No bake lemon bars recipe card - easy gluten free refined sugar free summer dessert",
+      "width": 300,
+      "height": 225
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT50M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "50 minutes (includes freezing)"
+  },
+  "servings": {
+    "yield": "8",
+    "unit": "bars"
+  },
+  "difficulty": "Easy",
+  "categories": ["No-Bake", "Gluten-Free", "Refined Sugar-Free", "Vegetarian"],
+  "tags": ["no bake lemon bars", "lemon bars", "gluten free lemon bars", "no bake dessert", "lemon dessert", "refined sugar free lemon bars", "easy lemon bars", "healthy lemon bars", "summer dessert", "no bake", "almond flour", "lemon energy balls"],
+  "nutrition": {
+    "calories": 240,
+    "protein": "5.5g",
+    "carbs": "22.5g",
+    "fat": "16.7g",
+    "fiber": "2.8g",
+    "sugar": "9g"
+  },
+  "ingredients": [
+    { "amount": "130", "unit": "g", "ingredient": "almond flour", "notes": "" },
+    { "amount": "60", "unit": "g", "ingredient": "oat flour", "notes": "" },
+    { "amount": "20", "unit": "g", "ingredient": "butter", "notes": "melted" },
+    { "amount": "1", "unit": "", "ingredient": "lemon", "notes": "zest only, plus extra to top" },
+    { "amount": "0.5", "unit": "", "ingredient": "lemon", "notes": "juice only" },
+    { "amount": "2-3", "unit": "tablespoons", "ingredient": "maple syrup", "notes": "" },
+    { "amount": "", "unit": "", "ingredient": "white chocolate", "notes": "to top, optional" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Melt the butter.", "image": "" },
+    { "step": 2, "text": "Add all ingredients to a food processor or high-powered blender and blend until fully combined.", "image": "" },
+    { "step": 3, "text": "Transfer the mixture to a small lined container and press down firmly and evenly.", "image": "" },
+    { "step": 4, "text": "If topping with white chocolate, melt it and spread over the top.", "image": "" },
+    { "step": 5, "text": "Sprinkle with extra lemon zest.", "image": "" },
+    { "step": 6, "text": "Freeze for at least 40 minutes until set, then slice and enjoy!", "image": "" }
+  ],
+  "notes": [
+    "Let slices thaw for about 10 minutes before eating for the best texture.",
+    "You can also roll the mixture into balls instead of pressing into a pan for lemon energy bites."
+  ],
+  "equipment": ["Food processor or high-powered blender"],
+  "seo": {
+    "metaTitle": "No Bake Lemon Bars (Gluten Free, Refined Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "My viral no bake lemon bars made with gluten-free, better-for-you ingredients. Buttery, refreshing, and the perfect easy summer dessert.",
+    "keywords": ["no bake lemon bars", "gluten free lemon bars", "healthy lemon bars", "no bake lemon dessert", "refined sugar free lemon bars", "easy lemon bars"],
+    "canonicalUrl": "/recipes/no-bake-lemon-bars"
+  },
+  "social": {
+    "pinterest": {
+      "description": "These viral no bake lemon bars are gluten free, refined sugar free, and made in just 10 minutes! The perfect refreshing summer dessert 🍋",
+      "title": "No Bake Lemon Bars (Gluten Free, Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "no bake lemon bars that taste like summer ☀️🍋 gluten free, refined sugar free, and ready in 10 minutes — I made these every week for a month straight and I don't regret it! recipe on the blog!",
+      "hashtags": ["#nobakelemobars", "#lemonbars", "#glutenfreelemonbars", "#refinedsugarfree", "#nobake", "#summerdessert", "#healthydessert", "#yourwellnessgirly"]
+    }
+  },
+  "story": {
+    "subtitle": "buttery, refreshing 10-minute no bake summer dessert",
+    "paragraphs": [
+      "These no bake lemon bars are one of my all-time favourite summer desserts. They're incredibly simple to make — all you need is about 10 minutes and a food processor or high-powered blender.",
+      "The first time I made these lemon bars, I ended up making them every week for the next month (lol). They're truly the most refreshing dessert for those sunny days when it's too hot to turn the oven on but your sweet tooth is still calling.",
+      "Made with almond flour and oat flour, these bars contain healthy fats and a little extra protein, which helps make them more balanced and satisfying than traditional lemon desserts. The almond flour gives them a rich, buttery texture while keeping the recipe naturally gluten free, and the combination of fresh lemon juice and lemon zest is what gives them that vibrant flavour that makes lemon desserts so addictive.",
+      "They're also perfect for meal prep. Simply make a batch, store them in the freezer, and let each slice thaw for about 10 minutes before enjoying for the best texture. If you prefer something bite-sized, you can also roll the mixture into lemon bites or lemon energy balls instead of slicing them into bars.",
+      "These no bake lemon bars are ideal when you're craving a more decadent lemon dessert but don't have the time (or the desire) to make traditional baked lemon bars. They deliver the same bright, refreshing flavour, but with no oven time and minimal prep."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Are these lemon bars gluten free?",
+      "answer": "Yes! These no bake lemon bars are naturally gluten free because they're made with almond flour and oat flour instead of traditional wheat flour."
+    },
+    {
+      "question": "How should I store no bake lemon bars?",
+      "answer": "Store the bars in an airtight container in the freezer for up to 2 months or in the refrigerator for about 5 days."
+    },
+    {
+      "question": "Can I make these into lemon energy bites or balls instead of bars?",
+      "answer": "Absolutely. Simply roll the mixture into small balls instead of pressing it into a pan. Chill them in the fridge or freezer until firm."
+    }
+  ],
+  "tips": [
+    "Use fresh lemon juice instead of bottled for the best flavour.",
+    "Press the bars firmly into the pan so they hold their shape when sliced.",
+    "Let them thaw for about 10 minutes before eating for the best texture."
+  ],
+  "substitutions": [],
+  "videoUrl": "https://www.instagram.com/p/DS21_i3DFW0/",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "featured": true,
+  "viral": true,
+  "popular": true
+}

@@ -53,7 +53,7 @@
     { "amount": "1", "unit": "cup", "ingredient": "water", "notes": "divided" },
     { "amount": "3", "unit": "tablespoons", "ingredient": "gelatin", "notes": "" },
     { "amount": "0.5-1", "unit": "tablespoon", "ingredient": "matcha", "notes": "" },
-    { "amount": "0.5", "unit": "cup", "ingredient": "maple syrup", "notes": "" }
+    { "amount": "1/2", "unit": "cup", "ingredient": "maple syrup", "notes": "" }
   ],
   "instructions": [
     { "step": 1, "text": "In your stand mixer add the gelatin and 1/2 cup of water and let it bloom.", "image": "" },

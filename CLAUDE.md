@@ -69,6 +69,9 @@ recipe-index.html        ← hardcoded recipes array MUST be updated manually
 
 ### NEVER edit `data/recipes.json` directly — it is now legacy/unused.
 
+### Ingredient amount formatting
+- Always use fractions, never decimals: `"1/2"` not `"0.5"`, `"1/4"` not `"0.25"`, `"3/4"` not `"0.75"`
+
 ---
 
 ## Quick Commands

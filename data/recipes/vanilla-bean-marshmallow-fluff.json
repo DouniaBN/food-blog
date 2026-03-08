@@ -53,7 +53,7 @@
     { "amount": "1", "unit": "cup", "ingredient": "water", "notes": "divided" },
     { "amount": "3", "unit": "tablespoons", "ingredient": "gelatin", "notes": "" },
     { "amount": "1", "unit": "", "ingredient": "vanilla bean", "notes": "+/- to preference" },
-    { "amount": "0.5", "unit": "cup", "ingredient": "maple syrup or honey", "notes": "" }
+    { "amount": "1/2", "unit": "cup", "ingredient": "maple syrup or honey", "notes": "" }
   ],
   "instructions": [
     { "step": 1, "text": "To your stand mixer add the gelatin and 1/2 cup water. Let it bloom for at least 5 minutes.", "image": "" },

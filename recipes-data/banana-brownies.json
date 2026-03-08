@@ -35,7 +35,7 @@
     "totalTimeDisplay": "25 minutes"
   },
   "servings": {
-    "yield": "6",
+    "yield": "5",
     "unit": "brownies"
   },
   "difficulty": "Easy",
@@ -51,8 +51,8 @@
   },
   "ingredients": [
     { "amount": "2", "unit": "large", "ingredient": "overripe bananas", "notes": "" },
-    { "amount": "0.5", "unit": "cup", "ingredient": "almond butter", "notes": "" },
-    { "amount": "0.25", "unit": "cup", "ingredient": "cacao powder", "notes": "" },
+    { "amount": "1/2", "unit": "cup", "ingredient": "almond butter", "notes": "" },
+    { "amount": "1/4", "unit": "cup", "ingredient": "cacao powder", "notes": "" },
     { "amount": "", "unit": "", "ingredient": "chocolate chips or chunks", "notes": "optional" },
     { "amount": "", "unit": "", "ingredient": "sea salt", "notes": "to top" }
   ],
@@ -88,7 +88,7 @@
     }
   },
   "story": {
-    "subtitle": "soft, gooey and naturally sweetened 3 ingredient treat",
+    "subtitle": "soft, gooey and naturally sweetened",
     "paragraphs": [
       "These 3 ingredient healthy banana brownies are such a simple yet nourishing sweet treat. They're soft, gooey, and perfectly fudgy — the kind of dessert that satisfies a chocolate craving while still feeling wholesome and balanced.",
       "One of the best things about this recipe is how incredibly easy it is to make. All you need are three ingredients you probably already have at home, a blender, and about five minutes of prep time. While you can absolutely mash everything together by hand, using a blender or high-powered food processor really helps create that smooth, silky batter that feels much closer to a brownie texture wise. Blending the ingredients removes any banana lumps and gives the brownies a more uniform, fudgy vibe once baked.",

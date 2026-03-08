@@ -78,7 +78,7 @@
     "60 g oat flour",
     "20 g butter (melted)",
     "1  lemon (zest only, plus extra to top)",
-    "0.5  lemon (juice only)",
+    "1/2  lemon, juiced",
     "2-3 tablespoons maple syrup",
     "white chocolate (to top, optional)"
   ],
@@ -783,7 +783,7 @@
         <!-- Story Section -->
         <section class="recipe-story">
             
-            <h2>No Bake Lemon Bars <em style="font-weight: 300; color: #e0a5a5;">(buttery, refreshing 10-minute no bake summer dessert)</em></h2>
+            <h2>No Bake Lemon Bars <em style="font-weight: 300; color: #e0a5a5;">(buttery, refreshing 10-minute summer dessert)</em></h2>
             <p>These no bake lemon bars are one of my all-time favourite summer desserts. They're incredibly simple to make — all you need is about 10 minutes and a food processor or high-powered blender.</p><p>The first time I made these lemon bars, I ended up making them every week for the next month (lol). They're truly the most refreshing dessert for those sunny days when it's too hot to turn the oven on but your sweet tooth is still calling.</p><p>Made with almond flour and oat flour, these bars contain healthy fats and a little extra protein, which helps make them more balanced and satisfying than traditional lemon desserts. The almond flour gives them a rich, buttery texture while keeping the recipe naturally gluten free, and the combination of fresh lemon juice and lemon zest is what gives them that vibrant flavour that makes lemon desserts so addictive.</p><p>They're also perfect for meal prep. Simply make a batch, store them in the freezer, and let each slice thaw for about 10 minutes before enjoying for the best texture. If you prefer something bite-sized, you can also roll the mixture into lemon bites or lemon energy balls instead of slicing them into bars.</p><p>These no bake lemon bars are ideal when you're craving a more decadent lemon dessert but don't have the time (or the desire) to make traditional baked lemon bars. They deliver the same bright, refreshing flavour, but with no oven time and minimal prep.</p>
         
         </section>
@@ -916,7 +916,7 @@
                 <li>
                     <input type="checkbox" id="ingredient-5">
                     <label for="ingredient-5">
-                        <span class="amount">0.5</span>  lemon <span class="ingredient-notes">(juice only)</span>
+                        <span class="amount">1/2</span>  lemon, juiced
                     </label>
                 </li>
             
@@ -1034,21 +1034,29 @@
                 </div>
             </a>
         
-            <a href="banana-fritters.html" class="recipe-card-small">
-                <img src="../images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp" alt="Healthy Banana Fritters (Sugar Free)" loading="lazy">
+            <a href="banana-brownies.html" class="recipe-card-small">
+                <img
+            src="../images/recipes/banana-brownies/banana-brownies-card-300px.webp"
+            srcset="../images/recipes/banana-brownies/banana-brownies-card-300px.webp 300w, ../images/recipes/banana-brownies/banana-brownies-card-600px.webp 600w"
+            sizes="(max-width: 768px) 50vw, 300px"
+            width="300"
+            height="225"
+            alt="3 ingredient banana brownies recipe card - easy healthy vegan gluten free dessert"
+            loading="lazy"
+            decoding="async" />
                 <div class="recipe-info">
-                    <h3>Healthy Banana Fritters (Sugar Free)</h3>
+                    <h3>3 Ingredient Banana Brownies (Healthy)</h3>
                     <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
+                        <span class="time"><i class="far fa-clock"></i> 5 minutes</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
         
-            <a href="blueberry-fritters.html" class="recipe-card-small">
-                <img src="../images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp" alt="Healthy Sugar-Free Blueberry Fritters" loading="lazy">
+            <a href="banana-fritters.html" class="recipe-card-small">
+                <img src="../images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp" alt="Healthy Banana Fritters (Sugar Free)" loading="lazy">
                 <div class="recipe-info">
-                    <h3>Healthy Sugar-Free Blueberry Fritters</h3>
+                    <h3>Healthy Banana Fritters (Sugar Free)</h3>
                     <div class="recipe-meta">
                         <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
                         <span class="difficulty">Easy</span>
@@ -1198,7 +1206,7 @@
         // Enhanced servings adjustment with dynamic calculation
         let baseServings = 8;
         let currentServings = baseServings;
-        const baseAmounts = [130, 60, 20, 1, 0.5, 2, 0];
+        const baseAmounts = [130, 60, 20, 1, 1, 2, 0];
 
         function adjustServings(change) {
             const newServings = currentServings + change;

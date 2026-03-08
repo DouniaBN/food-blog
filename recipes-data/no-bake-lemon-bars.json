@@ -54,7 +54,7 @@
     { "amount": "60", "unit": "g", "ingredient": "oat flour", "notes": "" },
     { "amount": "20", "unit": "g", "ingredient": "butter", "notes": "melted" },
     { "amount": "1", "unit": "", "ingredient": "lemon", "notes": "zest only, plus extra to top" },
-    { "amount": "0.5", "unit": "", "ingredient": "lemon", "notes": "juice only" },
+    { "amount": "1/2", "unit": "", "ingredient": "lemon, juiced", "notes": "" },
     { "amount": "2-3", "unit": "tablespoons", "ingredient": "maple syrup", "notes": "" },
     { "amount": "", "unit": "", "ingredient": "white chocolate", "notes": "to top, optional" }
   ],
@@ -88,7 +88,7 @@
     }
   },
   "story": {
-    "subtitle": "buttery, refreshing 10-minute no bake summer dessert",
+    "subtitle": "buttery, refreshing 10-minute summer dessert",
     "paragraphs": [
       "These no bake lemon bars are one of my all-time favourite summer desserts. They're incredibly simple to make — all you need is about 10 minutes and a food processor or high-powered blender.",
       "The first time I made these lemon bars, I ended up making them every week for the next month (lol). They're truly the most refreshing dessert for those sunny days when it's too hot to turn the oven on but your sweet tooth is still calling.",

@@ -63,7 +63,7 @@
   "totalTime": "PT25M",
   "recipeCategory": "Vegan",
   "recipeCuisine": "American",
-  "recipeYield": "6 brownies",
+  "recipeYield": "5 brownies",
   "nutrition": {
     "@type": "NutritionInformation",
     "calories": "216 calories",
@@ -75,8 +75,8 @@
   },
   "recipeIngredient": [
     "2 large overripe bananas",
-    "0.5 cup almond butter",
-    "0.25 cup cacao powder",
+    "1/2 cup almond butter",
+    "1/4 cup cacao powder",
     "chocolate chips or chunks (optional)",
     "sea salt (to top)"
   ],
@@ -705,7 +705,7 @@
                     <div class="meta-item">
                         <i class="fas fa-users"></i>
                         <span class="meta-label">Servings</span>
-                        <span class="meta-value">6 brownies</span>
+                        <span class="meta-value">5 brownies</span>
                     </div>
                 </div>
 
@@ -781,7 +781,7 @@
         <!-- Story Section -->
         <section class="recipe-story">
             
-            <h2>3 Ingredient Banana Brownies (Healthy) <em style="font-weight: 300; color: #e0a5a5;">(soft, gooey and naturally sweetened 3 ingredient treat)</em></h2>
+            <h2>3 Ingredient Banana Brownies (Healthy) <em style="font-weight: 300; color: #e0a5a5;">(soft, gooey and naturally sweetened)</em></h2>
             <p>These 3 ingredient healthy banana brownies are such a simple yet nourishing sweet treat. They're soft, gooey, and perfectly fudgy — the kind of dessert that satisfies a chocolate craving while still feeling wholesome and balanced.</p><p>One of the best things about this recipe is how incredibly easy it is to make. All you need are three ingredients you probably already have at home, a blender, and about five minutes of prep time. While you can absolutely mash everything together by hand, using a blender or high-powered food processor really helps create that smooth, silky batter that feels much closer to a brownie texture wise. Blending the ingredients removes any banana lumps and gives the brownies a more uniform, fudgy vibe once baked.</p><p>This is one of those recipes you can throw together whenever you have a couple of overripe bananas sitting on the counter and want something sweet without much effort. As bananas ripen, they naturally become sweeter, which makes them perfect for baking. In this recipe, the bananas provide all the sweetness needed, meaning these banana brownies are completely added sugar free and naturally sweetened.</p><p>The almond butter adds healthy fats and a rich, creamy texture that makes the banana brownies extra satisfying. Those fats also help slow down the release of sugars from the bananas, creating a more balanced treat that won't leave you with a big energy crash afterwards. Cacao powder is the ingredient that brings everything together. Not only does it give these brownies their deep chocolate flavour, but it's also naturally rich in antioxidants and polyphenols, which are known for supporting overall health.</p><p>These 3 ingredient banana brownies are the perfect afternoon snack, quick dessert, or sweet treat to keep in the fridge for when your chocolate cravings hit.</p>
         
         </section>
@@ -837,7 +837,7 @@
                         <div class="meta-row">
                             <i class="fas fa-utensils"></i>
                             <span class="meta-label">yield:</span>
-                            <span class="meta-value">6 brownies</span>
+                            <span class="meta-value">5 brownies</span>
                         </div>
                     </div>
 
@@ -874,7 +874,7 @@
             <div class="servings-adjuster">
                 <label>Servings:</label>
                 <button class="serving-btn minus" onclick="adjustServings(-1)">−</button>
-                <span class="serving-count">6</span>
+                <span class="serving-count">5</span>
                 <button class="serving-btn plus" onclick="adjustServings(1)">+</button>
             </div>
 
@@ -893,14 +893,14 @@
                 <li>
                     <input type="checkbox" id="ingredient-2">
                     <label for="ingredient-2">
-                        <span class="amount">0.5</span> cup almond butter
+                        <span class="amount">1/2</span> cup almond butter
                     </label>
                 </li>
             
                 <li>
                     <input type="checkbox" id="ingredient-3">
                     <label for="ingredient-3">
-                        <span class="amount">0.25</span> cup cacao powder
+                        <span class="amount">1/4</span> cup cacao powder
                     </label>
                 </li>
             
@@ -1185,9 +1185,9 @@
         }
 
         // Enhanced servings adjustment with dynamic calculation
-        let baseServings = 6;
+        let baseServings = 5;
         let currentServings = baseServings;
-        const baseAmounts = [2, 0.5, 0.25, 0, 0];
+        const baseAmounts = [2, 1, 1, 0, 0];
 
         function adjustServings(change) {
             const newServings = currentServings + change;

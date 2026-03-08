@@ -24,6 +24,28 @@ Create `recipes/[slug].html` using the existing recipe pages as a template — O
 ### 5. Add to sitemap.xml
 Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. This is critical for Google indexing.
 
+### 6. Add to the hardcoded recipes array in `recipe-index.html`
+The recipe index page has a **hardcoded `recipes` array** inside a `<script>` tag (around line 874). This is completely separate from the JSON files and `recipe-manager.js` — it is what powers the filter, search, sort, and "Showing X recipes" count on the index page. You MUST add a new entry here for every recipe or it will not appear in the index.
+
+Find the array (`const recipes = [`) and add a new object at the end (before the closing `];`). Use the next sequential `id`. Required fields:
+```js
+{
+    id: <next number>,
+    title: "Recipe Title",
+    description: "Recipe description.",
+    image: "images/recipes/[slug]/[slug]-card-300px.webp",
+    url: "recipes/[slug].html",
+    dietTypes: ["gluten-free", "dairy-free", "paleo", "refined-sugar-free", ...],
+    ingredientCount: <number>,
+    prepTime: <minutes as number>,
+    difficulty: "easy",
+    mealType: ["snack", "dessert"],
+    mainIngredient: ["chocolate", "fruit", "matcha", ...],
+    allergens: ["eggs", "nuts", "dairy", ...],
+    equipment: ["no-bake", "oven", "mixer", "stovetop", "blender", ...]
+}
+```
+
 ### File Structure for Recipes
 ```
 recipes-data/
@@ -36,11 +58,14 @@ data/
 
 recipes/
 └── [slug].html          ← generated HTML page (manual or via build script)
+
+recipe-index.html        ← hardcoded recipes array MUST be updated manually
 ```
 
 ### How it works
 - **Build script** (`build/generate-recipes.js`): reads `recipes-data/[slug].json` → outputs `recipes/[slug].html`
 - **Live site JS** (`recipe-manager.js`): reads `data/recipe-manifest.json` for slug list → fetches each `data/recipes/[slug].json` → renders homepage/index cards
+- **Recipe index page** (`recipe-index.html`): reads from its own hardcoded `recipes` array → powers filters, search, sort, and recipe count display
 
 ### NEVER edit `data/recipes.json` directly — it is now legacy/unused.
 

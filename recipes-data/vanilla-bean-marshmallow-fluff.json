@@ -1,0 +1,129 @@
+{
+  "id": "vanilla-bean-marshmallow-fluff",
+  "title": "Vanilla Bean Marshmallow Fluff (4 Ingredients)",
+  "slug": "vanilla-bean-marshmallow-fluff",
+  "description": "Light, fluffy homemade vanilla bean marshmallow fluff made with just 4 ingredients. Refined sugar free, gut friendly, and perfect for toast, s'mores, or baking.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/vanilla-bean-marshmallow-fluff/vanilla-bean-marshmallow-fluff-hero.webp",
+      "alt": "Soft fluffy homemade vanilla bean marshmallow fluff in a jar with a spoon, showing beautiful vanilla bean flecks",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/vanilla-bean-marshmallow-fluff/vanilla-bean-marshmallow-fluff-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/vanilla-bean-marshmallow-fluff/vanilla-bean-marshmallow-fluff-card-300px.webp",
+        "600": "images/recipes/vanilla-bean-marshmallow-fluff/vanilla-bean-marshmallow-fluff-card-600px.webp"
+      },
+      "alt": "4 ingredient vanilla bean marshmallow fluff recipe card - easy refined sugar free dessert",
+      "width": 300,
+      "height": 225
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT25M",
+    "cookTime": "PT5M",
+    "totalTime": "PT25M",
+    "prepTimeDisplay": "25 minutes",
+    "cookTimeDisplay": "5 minutes",
+    "totalTimeDisplay": "25 minutes"
+  },
+  "servings": {
+    "yield": "7",
+    "unit": "servings"
+  },
+  "difficulty": "Easy",
+  "categories": ["Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
+  "tags": ["vanilla bean marshmallow fluff", "homemade marshmallow fluff", "refined sugar free marshmallows", "healthy marshmallow fluff", "4 ingredient marshmallow fluff", "no corn syrup marshmallow fluff", "gut friendly dessert", "gelatin dessert", "healthy dessert", "no-bake"],
+  "nutrition": {
+    "calories": 72,
+    "protein": "3.3g",
+    "carbs": "14.9g",
+    "fat": "0g",
+    "fiber": "0g",
+    "sugar": "14.9g"
+  },
+  "ingredients": [
+    { "amount": "1", "unit": "cup", "ingredient": "water", "notes": "divided" },
+    { "amount": "3", "unit": "tablespoons", "ingredient": "gelatin", "notes": "" },
+    { "amount": "1", "unit": "", "ingredient": "vanilla bean", "notes": "+/- to preference" },
+    { "amount": "0.5", "unit": "cup", "ingredient": "maple syrup or honey", "notes": "" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "To your stand mixer add the gelatin and 1/2 cup water. Let it bloom for at least 5 minutes.", "image": "" },
+    { "step": 2, "text": "Slice the vanilla pod lengthwise and scrape out the seeds.", "image": "" },
+    { "step": 3, "text": "Transfer the vanilla seeds to a saucepan and add the remaining 1/2 cup water and maple syrup or honey.", "image": "" },
+    { "step": 4, "text": "Heat on low until hot but not boiling.", "image": "" },
+    { "step": 5, "text": "Switch the stand mixer on and slowly pour in the hot liquid.", "image": "" },
+    { "step": 6, "text": "Beat on high speed for 8–10 minutes until the mixture thickens and can loosely hold its shape — this is your fluff.", "image": "" },
+    { "step": 7, "text": "Transfer to a container and enjoy! It will set over time. To soften again, place the container in hot water or microwave in short bursts until it reaches your desired texture.", "image": "" }
+  ],
+  "notes": [
+    "Stop beating as soon as the fluff thickens and can loosely hold its shape — unlike marshmallows, you don't want it to fully set.",
+    "If the fluff thickens too much, gently warm it in the microwave in short bursts or place the bowl over warm water.",
+    "Ensure the gelatin is fully bloomed before adding the hot liquid."
+  ],
+  "equipment": ["Stand mixer", "Saucepan"],
+  "seo": {
+    "metaTitle": "Vanilla Bean Marshmallow Fluff (4 Ingredients, Refined Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "Light, fluffy homemade vanilla bean marshmallow fluff made with just 4 ingredients. Refined sugar free, gut friendly, and perfect for toast, s'mores, or baking.",
+    "keywords": ["vanilla bean marshmallow fluff", "homemade marshmallow fluff", "refined sugar free marshmallow fluff", "healthy marshmallow fluff", "4 ingredient marshmallow fluff", "no corn syrup marshmallow fluff"],
+    "canonicalUrl": "/recipes/vanilla-bean-marshmallow-fluff"
+  },
+  "social": {
+    "pinterest": {
+      "description": "This 4-ingredient vanilla bean marshmallow fluff is light, fluffy, and refined sugar free! Perfect for toast, s'mores, or baking ✨",
+      "title": "Vanilla Bean Marshmallow Fluff (4 Ingredients, Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "once you make homemade marshmallow fluff you can't go back ✨ 4 ingredients, refined sugar free, so soft and pillowy — this vanilla bean marshmallow fluff is pure magic! recipe on the blog!",
+      "hashtags": ["#marshmallowfluff", "#homemademarshmallowfluff", "#vanillabean", "#refinedsugarfree", "#healthydessert", "#4ingredients", "#dairyfree", "#yourwellnessgirly"]
+    }
+  },
+  "story": {
+    "subtitle": "light, fluffy 4-ingredient refined sugar free treat",
+    "paragraphs": [
+      "How dreamy is this 4-ingredient homemade vanilla bean marshmallow fluff? This recipe is especially nostalgic for me because I grew up eating marshmallow fluff and putting it on absolutely everything.",
+      "This version is a much healthier alternative, made with just four simple ingredients and refined sugar-free. It has the same soft, pillowy texture you remember, but with ingredients that feel a little more nourishing.",
+      "If you've been wanting to try making homemade marshmallows (like my 4-ingredient matcha marshmallows) but feel slightly intimidated, this marshmallow fluff is the perfect place to start.",
+      "One of the trickiest parts of making marshmallows is knowing exactly when to stop beating the mixture. Beat it too little and it won't hold its shape, but beat it too long and the mixture can become too stiff and start setting in the bowl before you can transfer it. The exact timing can vary depending on your mixer's speed and power, as well as the temperature of the sugar mixture.",
+      "Marshmallow fluff is a clever workaround for this. Since the goal is a soft, spreadable texture, you actually stop mixing before the mixture reaches the full marshmallow stage. As soon as the fluff thickens and can loosely hold its shape, it's ready. That makes this recipe much more forgiving and beginner-friendly, and a great stepping stone into the world of homemade marshmallows.",
+      "If your fluff thickens more than you'd like, you can easily loosen it again. Simply place the bowl over warm water or microwave it in short bursts until you reach your desired texture.",
+      "The flavour of this marshmallow fluff is elevated with real vanilla bean, which adds beautiful little flecks throughout the mixture and makes it feel extra special. It truly looks magical, and it's hard to believe it's made at home with just a handful of ingredients.",
+      "Gelatin is the real star of the show here. Not only does it create that classic marshmallow texture, but it also adds gut-soothing benefits and a small protein boost, making this sweet treat feel a little more balanced.",
+      "Enjoy this healthier marshmallow fluff spread on toast, dolloped onto desserts, or swirled into your baking. It's also perfect for making a healthier homemade version of s'mores."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store homemade marshmallow fluff?",
+      "answer": "Store marshmallow fluff in an airtight container in the refrigerator for up to 5 days. It will firm up as it chills, but you can easily soften it by gently warming it in the microwave for a few seconds or placing the container in warm water."
+    },
+    {
+      "question": "What does it mean to bloom gelatin?",
+      "answer": "Blooming gelatin simply means allowing the gelatin powder to absorb liquid before it's heated. This step hydrates the gelatin so it dissolves smoothly and creates the soft, fluffy texture marshmallows are known for."
+    },
+    {
+      "question": "Can you make marshmallow fluff without corn syrup?",
+      "answer": "Yes, this marshmallow fluff recipe is made without corn syrup and so are my matcha marshmallows."
+    }
+  ],
+  "tips": [
+    "Ensure the gelatin is properly bloomed for at least 5 minutes before adding the hot liquid.",
+    "Use real vanilla bean for the best flavour — the flecks make it look and taste extra special.",
+    "Serve it fresh for the best soft, spreadable texture."
+  ],
+  "substitutions": [],
+  "videoUrl": "https://www.instagram.com/p/DN03QcM2OSZ/",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "featured": true,
+  "viral": false,
+  "popular": true
+}

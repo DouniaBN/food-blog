@@ -5,18 +5,18 @@
   "description": "These blended cinnamon roll overnight oats are creamy, refined sugar free, and ready with just 5 minutes of prep. The perfect healthy meal prep breakfast.",
   "image": {
     "hero": {
-      "src": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-hero.webp",
-      "alt": "Blended cinnamon roll overnight oats in a jar topped with white chocolate swirl",
+      "src": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-oats-hero.webp",
+      "alt": "Blended cinnamon roll overnight oats in a jar with a white chocolate swirl on top and oats scattered around",
       "width": 1600,
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-300px.webp",
+      "src": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-oats-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-300px.webp",
-        "600": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-600px.webp"
+        "300": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-oats-card-300.webp",
+        "600": "images/recipes/cinnamon-roll-overnight-oats/cinnamon-oats-card-600px.webp"
       },
-      "alt": "Blended cinnamon roll overnight oats recipe card - easy 5-minute meal prep breakfast",
+      "alt": "Blended cinnamon roll overnight oats in a jar with a gold spoon and cinnamon swirl topping",
       "width": 300,
       "height": 225
     },

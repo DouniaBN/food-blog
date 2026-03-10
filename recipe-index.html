@@ -228,13 +228,15 @@
     .recipe-image {
         width: 100%;
         height: 200px;
-        object-fit: cover;
         background: var(--neutral-beige);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #999;
-        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .recipe-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 
     .recipe-card-content {
@@ -966,7 +968,7 @@
                 id: 8,
                 title: "Cinnamon Roll Overnight Oats (Blended)",
                 description: "These blended cinnamon roll overnight oats are creamy, refined sugar free, and ready with just 5 minutes of prep. The perfect healthy meal prep breakfast.",
-                image: "images/recipes/cinnamon-roll-overnight-oats/cinnamon-roll-overnight-oats-card-300px.webp",
+                image: "images/recipes/cinnamon-roll-overnight-oats/cinnamon-oats-thumbnail.webp",
                 url: "recipes/cinnamon-roll-overnight-oats.html",
                 dietTypes: ["vegan", "gluten-free", "dairy-free", "refined-sugar-free"],
                 ingredientCount: 5,
@@ -1394,7 +1396,7 @@
 
             grid.innerHTML = filteredRecipes.map(recipe => `
                 <a href="${recipe.url}" class="recipe-card-index" onclick="trackRecipeClick('${recipe.title}', '${recipe.url}', 'Recipe Index')">
-                    <div class="recipe-image">Recipe Image</div>
+                    <div class="recipe-image"><img src="${recipe.image}" alt="${recipe.title}" loading="lazy" decoding="async"></div>
                     <div class="recipe-card-content">
                         <h3 class="recipe-card-title">${recipe.title}</h3>
                         <div class="recipe-card-meta">

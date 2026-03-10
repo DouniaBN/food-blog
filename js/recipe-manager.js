@@ -79,21 +79,19 @@ class RecipeManager {
         } = options;
 
         // Build responsive srcset if multiple thumbnail sizes available
-        const thumbnailSrc = recipe.image.thumbnail || recipe.image.hero;
+        const thumbnailSrc = (recipe.image.thumbnail && recipe.image.thumbnail.src) || (recipe.image.hero && recipe.image.hero.src) || '';
+        const srcset300 = recipe.image.thumbnail && recipe.image.thumbnail.srcset && recipe.image.thumbnail.srcset['300'];
+        const srcset600 = recipe.image.thumbnail && recipe.image.thumbnail.srcset && recipe.image.thumbnail.srcset['600'];
         const srcsetParts = [];
 
-        if (recipe.image.thumbnail_400) {
-            srcsetParts.push(`${recipe.image.thumbnail_400} 400w`);
-        }
-        if (recipe.image.thumbnail_600) {
-            srcsetParts.push(`${recipe.image.thumbnail_600} 600w`);
-        }
+        if (srcset300) srcsetParts.push(`${srcset300} 300w`);
+        if (srcset600) srcsetParts.push(`${srcset600} 600w`);
 
         const srcsetAttr = srcsetParts.length > 0 ? `srcset="${srcsetParts.join(', ')}"` : '';
         const sizesAttr = srcsetParts.length > 0 ? `sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"` : '';
 
-        // Use specific alt text if available, otherwise fall back to title + description
-        const altText = recipe.image.alt || `${recipe.title} - ${recipe.description}`;
+        // Use specific alt text if available, otherwise fall back to title
+        const altText = (recipe.image.thumbnail && recipe.image.thumbnail.alt) || (recipe.image.hero && recipe.image.hero.alt) || recipe.title;
 
         const cardHTML = `
             <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">

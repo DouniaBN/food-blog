@@ -1,0 +1,137 @@
+{
+  "id": "chocolate-banana-freezer-fudge",
+  "title": "2 Ingredient Chocolate Banana Freezer Fudge",
+  "slug": "chocolate-banana-freezer-fudge",
+  "description": "This 2 ingredient chocolate banana freezer fudge is naturally sweetened, refined sugar free, and the perfect refreshing no-bake dessert made with just a blender and freezer.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-hero.webp",
+      "alt": "Sliced chocolate banana freezer fudge pieces stacked on a white surface",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-300px.webp",
+        "600": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-600px.webp"
+      },
+      "alt": "2 ingredient chocolate banana freezer fudge recipe card - easy healthy no-bake dessert",
+      "width": 300,
+      "height": 225
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT3H5M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "5 minutes + 2–3 hours freeze"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "pieces"
+  },
+  "difficulty": "Easy",
+  "categories": ["Vegan", "Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
+  "tags": ["chocolate banana freezer fudge", "2 ingredient freezer fudge", "banana freezer fudge", "healthy freezer fudge", "no bake freezer fudge", "vegan fudge", "gluten free fudge", "refined sugar free fudge", "naturally sweetened fudge", "banana chocolate dessert", "healthy no bake dessert", "nut free fudge"],
+  "nutrition": {
+    "calories": 112,
+    "protein": "1g",
+    "carbs": "13.7g",
+    "fat": "6.7g",
+    "fiber": "1.7g",
+    "sugar": "8g"
+  },
+  "ingredients": [
+    { "amount": "85", "unit": "g", "ingredient": "dark chocolate (70–80%)", "notes": "" },
+    { "amount": "2", "unit": "large", "ingredient": "ripe bananas", "notes": "" },
+    { "amount": "1/2", "unit": "tbsp", "ingredient": "coconut oil", "notes": "optional, for a firmer texture" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Add the dark chocolate to a heatproof bowl and melt until smooth. If using coconut oil, stir it in until fully combined.", "image": "" },
+    { "step": 2, "text": "In a separate bowl, blend the bananas using an immersion blender until completely smooth.", "image": "" },
+    { "step": 3, "text": "Pour the melted chocolate into the banana mixture and mix until well combined.", "image": "" },
+    { "step": 4, "text": "Line a small container with parchment paper. Pour in the mixture and smooth the top.", "image": "" },
+    { "step": 5, "text": "Freeze for 2–3 hours, or until fully set.", "image": "" },
+    { "step": 6, "text": "Slice and enjoy straight from the freezer.", "image": "" }
+  ],
+  "notes": [
+    "The riper the bananas, the sweeter the fudge will be.",
+    "Blend until completely smooth for the best texture.",
+    "Store in an airtight container in the freezer and serve straight from the freezer."
+  ],
+  "equipment": ["Immersion blender or blender", "Heatproof bowl", "Small container or mould", "Parchment paper"],
+  "relatedRecipes": ["banana-brownies", "hot-chocolate-fudge-cups", "brownie-batter-bars"],
+  "seo": {
+    "metaTitle": "2 Ingredient Chocolate Banana Freezer Fudge (No Bake) | Yourwellnessgirly",
+    "metaDescription": "This 2 ingredient chocolate banana freezer fudge is naturally sweetened, refined sugar free, and the perfect refreshing no-bake dessert made with just a blender and freezer.",
+    "keywords": ["chocolate banana freezer fudge", "2 ingredient freezer fudge", "healthy freezer fudge", "no bake fudge", "banana fudge", "vegan fudge", "refined sugar free fudge"],
+    "canonicalUrl": "/recipes/chocolate-banana-freezer-fudge"
+  },
+  "social": {
+    "pinterest": {
+      "description": "This 2 ingredient chocolate banana freezer fudge is naturally sweetened, no bake, and so easy to make! Vegan, gluten free, and refined sugar free 🍫🍌",
+      "title": "2 Ingredient Chocolate Banana Freezer Fudge (No Bake, Vegan)"
+    },
+    "instagram": {
+      "caption": "2 ingredient chocolate banana freezer fudge 🍫🍌 naturally sweetened, no bake, vegan, and refined sugar free — recipe on the blog!",
+      "hashtags": ["#freezerfudge", "#bananafudge", "#chocolatebanana", "#2ingredientdessert", "#nobakedesert", "#healthydessert", "#veganfudge", "#refinedsugarfree", "#yourwellnessgirly"]
+    }
+  },
+  "story": {
+    "subtitle": "naturally sweetened, no bake, and just 2 ingredients",
+    "paragraphs": [
+      "This 2 ingredient chocolate banana freezer fudge is perfect for those moments when your sweet tooth hits but your fridge is almost empty or you're right before your next food shop. It's simple, satisfying, and made with ingredients you likely already have at home. Even better, it's no bake, refined sugar free, and naturally sweetened using ripe bananas.",
+      "One of the best things about this recipe is how incredibly quick it is to prepare. It takes about five minutes of prep time, and then the freezer does the rest of the work. All you need is two ingredients, a blender, a small container or mould, and a little patience while it firms up. It's one of those recipes that feels almost too simple to work, but the result is a creamy, chocolatey frozen treat that really hits the spot.",
+      "I especially love making this freezer fudge during the warmer months when I want something sweet and chocolatey but don't want to turn on the oven. Because it's stored in the freezer, it also doubles as a refreshing snack that's perfect for hot days.",
+      "If you're wondering what freezer fudge actually is, don't worry, i had the same question the first time I heard about it. Freezer fudge is essentially a dessert that has a fudge-like consistency but is made with healthy more nutrient dense ingredients and set in the freezer rather than cooked on the stove. Most freezer fudge recipes rely on nut butter for their base, but this version is completely nut free, making it great for anyone with nut allergies or anyone who simply wants a lighter option.",
+      "The natural sweetness in this recipe comes entirely from ripe bananas, which also add creaminess and structure when blended and frozen. Because bananas contain natural sugars along with fibre and other nutrients, they provide sweetness while keeping the recipe free from refined sugars.",
+      "If you prefer a slightly thicker texture that's closer to traditional fudge, you can add in the coconut oil to the mixture. It helps firm up the fudge while adding a very subtle coconut flavour that pairs really nicely with the chocolate and banana.",
+      "The end result is a creamy, chocolatey frozen treat that's surprisingly satisfying for something made with just a couple of ingredients. It's the kind of simple recipe that's perfect to keep in your freezer for whenever a chocolate craving strikes."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store banana freezer fudge?",
+      "answer": "Store it in an airtight container in the freezer for up to 2 months."
+    },
+    {
+      "question": "Does this fudge taste strongly like banana?",
+      "answer": "The banana flavour is noticeable but balanced by the chocolate, giving it a rich chocolate-banana flavour."
+    },
+    {
+      "question": "Can I make this without a blender?",
+      "answer": "A blender or food processor works best for creating a smooth texture."
+    },
+    {
+      "question": "Is this freezer fudge vegan and sugar free?",
+      "answer": "Yes, as long as the chocolate you use is dairy free and refined sugar free, just note that bananas contain naturally occurring sugars."
+    },
+    {
+      "question": "Can I add other ingredients?",
+      "answer": "Yes. Nut butter, coconut, or chopped nuts can all be added for extra texture and flavour."
+    },
+    {
+      "question": "Can i use overripe bananas for banana freezer fudge?",
+      "answer": "Yes, overripe bananas work great in this recipe as they add extra sweetness."
+    }
+  ],
+  "tips": [
+    "The riper the bananas, the sweeter the fudge will be.",
+    "Blend until completely smooth for the creamiest texture."
+  ],
+  "substitutions": [],
+  "videoUrl": "https://www.instagram.com/p/DUGwYEZgTHO/",
+  "datePublished": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

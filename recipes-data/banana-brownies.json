@@ -6,7 +6,7 @@
   "image": {
     "hero": {
       "src": "images/recipes/banana-brownies/banana-brownies-hero.webp",
-      "alt": "Soft gooey 3 ingredient healthy banana brownies sliced and topped with sea salt and chocolate chips",
+      "alt": "Fudgy 3 ingredient banana brownies stacked and broken open showing a gooey melted chocolate centre, topped with sea salt flakes",
       "width": 1600,
       "height": 2000
     },
@@ -16,7 +16,7 @@
         "300": "images/recipes/banana-brownies/banana-brownies-card-300px.webp",
         "600": "images/recipes/banana-brownies/banana-brownies-card-600px.webp"
       },
-      "alt": "3 ingredient banana brownies recipe card - easy healthy vegan gluten free dessert",
+      "alt": "A hand holding up a single fudgy 3 ingredient banana brownie square with melted chocolate chunks on top",
       "width": 300,
       "height": 225
     },

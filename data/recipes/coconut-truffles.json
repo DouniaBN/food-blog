@@ -4,11 +4,22 @@
   "slug": "coconut-truffles",
   "description": "These healthy 3-ingredient coconut truffles are no-bake, simple to make, and packed with coconut flavour. The perfect treat for when you want something quick and wholesome.",
   "image": {
-    "hero": "images/recipes/coconut-truffles/coconut-truffles-hero.webp",
-    "thumbnail": "images/recipes/coconut-truffles/coconut-truffles-card-300px.webp",
-    "thumbnail_400": "images/recipes/coconut-truffles/coconut-truffles-card-300px.webp",
-    "thumbnail_600": "images/recipes/coconut-truffles/coconut-truffles-card-600px.webp",
-    "alt": "Healthy 3 ingredient coconut truffles rolled in shredded coconut arranged on a white and gold rimmed dish on a marble surface",
+    "hero": {
+      "src": "images/recipes/coconut-truffles/coconut-truffles-hero.webp",
+      "alt": "Healthy 3 ingredient coconut truffles rolled in shredded coconut arranged on a white and gold rimmed dish on a marble surface",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/coconut-truffles/coconut-truffles-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/coconut-truffles/coconut-truffles-card-300px.webp",
+        "600": "images/recipes/coconut-truffles/coconut-truffles-card-600px.webp"
+      },
+      "alt": "A hand holding a single healthy coconut truffle ball coated in shredded coconut",
+      "width": 300,
+      "height": 225
+    },
     "gallery": []
   },
   "author": {

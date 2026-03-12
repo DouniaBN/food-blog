@@ -6,7 +6,7 @@
   "image": {
     "hero": {
       "src": "images/recipes/matcha-marshmallows/matcha-marshmallows-hero.webp",
-      "alt": "Soft fluffy homemade matcha marshmallows dusted with matcha powder on a white surface",
+      "alt": "Fluffy homemade matcha marshmallows cut into thick squares and piled in a white dish against a white tile background",
       "width": 1600,
       "height": 2000
     },
@@ -16,7 +16,7 @@
         "300": "images/recipes/matcha-marshmallows/matcha-marshmallows-card-300px.webp",
         "600": "images/recipes/matcha-marshmallows/matcha-marshmallows-card-600px.webp"
       },
-      "alt": "4 ingredient matcha marshmallows recipe card - easy refined sugar free dessert",
+      "alt": "A hand holding a single soft matcha marshmallow square dusted with matcha powder",
       "width": 300,
       "height": 225
     },

@@ -4,11 +4,22 @@
   "slug": "banana-fritters",
   "description": "These healthy added sugar free banana fritters are gluten free, naturally sweetened, and taste like banana bread in fritter form. They are baked, not fried and made with better for you ingredients.",
   "image": {
-    "hero": "images/recipes/banana-fritters/banana-fritters-hero.webp",
-    "thumbnail": "images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp",
-    "thumbnail_400": "images/recipes/banana-fritters/banana-fritters-thumbnail-400px.webp",
-    "thumbnail_600": "images/recipes/banana-fritters/banana-fritters-thumbnail-600px.webp",
-    "alt": "Healthy banana fritters on a baking tray showing golden edges and soft banana bread interior",
+    "hero": {
+      "src": "images/recipes/banana-fritters/banana-fritters-hero.webp",
+      "alt": "Golden baked banana fritters on parchment paper drizzled with white icing and topped with caramelised banana slices",
+      "width": 1600,
+      "height": 1600
+    },
+    "thumbnail": {
+      "src": "images/recipes/banana-fritters/banana-fritters-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/banana-fritters/banana-fritters-card-300px.webp",
+        "600": "images/recipes/banana-fritters/banana-fritters-card-600px.webp"
+      },
+      "alt": "A spoon drizzling white icing over golden baked banana fritters topped with caramelised banana slices on parchment paper",
+      "width": 300,
+      "height": 225
+    },
     "gallery": []
   },
   "author": {

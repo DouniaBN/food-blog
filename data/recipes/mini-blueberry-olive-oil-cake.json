@@ -4,11 +4,22 @@
   "slug": "mini-blueberry-olive-oil-cake",
   "description": "This mini blueberry olive oil cake is gluten free, dairy free, and refined sugar free. Made in one bowl with wholesome ingredients, it's soft, fluffy, and bursting with juicy blueberries.",
   "image": {
-    "hero": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-hero.webp",
-    "thumbnail": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
-    "thumbnail_400": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
-    "thumbnail_600": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-600px.webp",
-    "alt": "Mini blueberry olive oil cake loaf sliced to show soft fluffy interior with juicy blueberries",
+    "hero": {
+      "src": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-hero.webp",
+      "alt": "Mini blueberry olive oil cake loaf sliced to show soft fluffy interior with juicy blueberries",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
+      "srcset": {
+        "300": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-400px.webp",
+        "600": "images/recipes/mini-blueberry-olive-oil-cake/mini-blueberry-olive-oil-cake-thumbnail-600px.webp"
+      },
+      "alt": "Mini blueberry olive oil cake loaf sliced to show soft fluffy interior with juicy blueberries",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

@@ -4,11 +4,22 @@
   "slug": "chocolate-chip-banana-bread-bars",
   "description": "Refined sugar free and gluten free chocolate chip banana bread bars that are moist, rich, and life changing. The perfect crowd pleasing dessert and use of your overripe bananas.",
   "image": {
-    "hero": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-800.jpg",
-    "thumbnail": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
-    "thumbnail_400": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
-    "thumbnail_600": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-600.webp",
-    "alt": "Chocolate chip banana bread bars sliced into squares showing moist texture with melty chocolate chips throughout",
+    "hero": {
+      "src": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-800.jpg",
+      "alt": "Chocolate chip banana bread bars sliced into squares showing moist texture with melty chocolate chips throughout",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
+      "srcset": {
+        "300": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-400.webp",
+        "600": "images/recipes/chocolate-chip-banana-bread-bars/banana-bread-bars-thumbnail-600.webp"
+      },
+      "alt": "Chocolate chip banana bread bars sliced into squares showing moist texture with melty chocolate chips throughout",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

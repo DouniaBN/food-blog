@@ -4,11 +4,22 @@
   "slug": "gluten-free-brownie-cookies",
   "description": "My viral gluten free, grain free and refined sugar free gooey brownie cookies. These dark chocolate brownie cookies are so decadent, rich and bakery level — you won't believe how easy they are to make.",
   "image": {
-    "hero": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-hero.webp",
-    "thumbnail": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
-    "thumbnail_400": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
-    "thumbnail_600": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-600px.webp",
-    "alt": "Stack of gluten free brownie cookies showing gooey fudgy centres with crisp edges and melty chocolate chips",
+    "hero": {
+      "src": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-hero.webp",
+      "alt": "Stack of gluten free brownie cookies showing gooey fudgy centres with crisp edges and melty chocolate chips",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
+      "srcset": {
+        "300": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-400px.webp",
+        "600": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail-600px.webp"
+      },
+      "alt": "Stack of gluten free brownie cookies showing gooey fudgy centres with crisp edges and melty chocolate chips",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

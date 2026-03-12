@@ -4,11 +4,22 @@
   "slug": "easy-healthy-matcha-cake",
   "description": "Healthy 4 ingredient matcha soufflé fruit cake made with no added sugar. This gluten free, flourless matcha cake is soft, mini and perfect for small batch baking.",
   "image": {
-    "hero": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-hero.webp",
-    "thumbnail": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
-    "thumbnail_400": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
-    "thumbnail_600": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-600px.webp",
-    "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
+    "hero": {
+      "src": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-hero.webp",
+      "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
+      "srcset": {
+        "300": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
+        "600": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-600px.webp"
+      },
+      "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

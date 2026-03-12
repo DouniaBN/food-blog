@@ -4,11 +4,22 @@
   "slug": "gluten-free-banana-bread-waffles",
   "description": "4 ingredient gluten free banana bread waffles made with cassava flour and no added sugar. Soft, fluffy, and ready in 10 minutes, it's the perfect healthy breakfast for the next time you are craving banana bread.",
   "image": {
-    "hero": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-hero.webp",
-    "thumbnail": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
-    "thumbnail_400": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
-    "thumbnail_600": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-600px.webp",
-    "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
+    "hero": {
+      "src": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-hero.webp",
+      "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
+      "srcset": {
+        "300": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
+        "600": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-600px.webp"
+      },
+      "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

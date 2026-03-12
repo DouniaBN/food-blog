@@ -2271,10 +2271,6 @@
       padding: 1rem;
     }
 
-    .recipe-card {
-      padding: 1.5rem;
-    }
-
     /* Mobile recipe card layout */
     .recipe-card-top {
       grid-template-columns: 1fr;

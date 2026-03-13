@@ -6,19 +6,19 @@
   "image": {
     "hero": {
       "src": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-hero.webp",
-      "alt": "Hot chocolate fudge cups topped with mini vanilla marshmallows on a wooden board",
+      "alt": "Two hot chocolate fudge cups on parchment paper with the front cup broken open showing the rich glossy fudge filling inside the dark chocolate crust topped with white mini marshmallows and sea salt flakes",
       "width": 1600,
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-card-300px.webp",
+      "src": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-card-300px.webp",
-        "600": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-card-600px.webp"
+        "300": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp",
+        "600": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp"
       },
-      "alt": "Hot chocolate fudge cups recipe card - no bake 5 ingredient gluten free refined sugar free dessert",
-      "width": 300,
-      "height": 225
+      "alt": "Two hot chocolate fudge cups on parchment paper with one broken open showing the rich glossy fudge filling inside the chocolate crust topped with white mini marshmallows",
+      "width": 400,
+      "height": 400
     },
     "gallery": []
   },

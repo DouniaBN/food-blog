@@ -181,8 +181,8 @@ class RecipeManager {
         // Update viral recipes section
         const viralContainer = document.getElementById('viral-recipes');
         if (viralContainer) {
-            const viralRecipes = this.getViralRecipes(3);
-            const viralCounts = ['2.3M', '1.8M', '950K']; // Sample viral counts
+            const viralRecipes = this.getViralRecipes(4);
+            const viralCounts = ['2.3M', '1.8M', '950K', '750K']; // Sample viral counts
             viralContainer.innerHTML = viralRecipes.map((recipe, index) =>
                 this.generateRecipeCard(recipe, {
                     cardClass: 'recipe-card viral-card',

@@ -6,17 +6,17 @@
   "image": {
     "hero": {
       "src": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-hero.webp",
-      "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
-      "width": 1600,
-      "height": 2000
+      "alt": "A hand holding a gluten free banana bread waffle stick with white chocolate dripping down and a banana slice on top",
+      "width": 800,
+      "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
+      "src": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-400px.webp",
-        "600": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail-600px.webp"
+        "300": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail.webp",
+        "600": "images/recipes/gluten-free-banana-bread-waffles/gluten-free-banana-bread-waffles-thumbnail.webp"
       },
-      "alt": "Gluten free banana bread waffle sticks with golden crisp edges and soft fluffy interior",
+      "alt": "A hand holding a gluten free banana bread waffle stick with white chocolate dripping down and a banana slice on top",
       "width": 400,
       "height": 400
     },

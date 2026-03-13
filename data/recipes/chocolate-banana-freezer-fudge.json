@@ -6,17 +6,17 @@
   "image": {
     "hero": {
       "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-hero.webp",
-      "alt": "Sliced chocolate banana freezer fudge pieces stacked on a white surface",
+      "alt": "A stack of chocolate banana freezer fudge squares on parchment paper with banana slices scattered around and sea salt flakes on top against a white tile background",
       "width": 1600,
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-300px.webp",
+      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-300px.webp",
+        "300": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-thumbnail.webp",
         "600": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-600px.webp"
       },
-      "alt": "2 ingredient chocolate banana freezer fudge recipe card - easy healthy no-bake dessert",
+      "alt": "A hand picking up a square of chocolate banana freezer fudge showing the rich gooey fudgy texture on parchment paper",
       "width": 300,
       "height": 225
     },

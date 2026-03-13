@@ -6,17 +6,17 @@
   "image": {
     "hero": {
       "src": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-hero.webp",
-      "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
-      "width": 1600,
-      "height": 2000
+      "alt": "A hand holding a square slice of easy healthy matcha cake close up showing the golden-green sponge with bright green matcha icing drizzled on top against a white tile background",
+      "width": 800,
+      "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
+      "src": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-400px.webp",
-        "600": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail-600px.webp"
+        "300": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail.webp",
+        "600": "images/recipes/easy-healthy-matcha-cake/easy-healthy-matcha-cake-thumbnail.webp"
       },
-      "alt": "Mini healthy matcha soufflé cake sliced showing soft green interior, naturally sweetened with fruit",
+      "alt": "A hand holding a square slice of easy healthy matcha cake with bright green matcha icing drizzled on top and more cake slices on parchment paper behind",
       "width": 400,
       "height": 400
     },

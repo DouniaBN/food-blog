@@ -6,17 +6,17 @@
   "image": {
     "hero": {
       "src": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-hero.webp",
-      "alt": "No bake lemon bars sliced into squares topped with white chocolate and lemon zest on parchment paper",
+      "alt": "A hand holding two no-bake lemon bars cut into triangles showing the golden almond crust and creamy white chocolate lemon layer topped with lemon zest",
       "width": 1600,
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-300px.webp",
+      "src": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-300px.webp",
+        "300": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-thumbnail.webp",
         "600": "images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-600px.webp"
       },
-      "alt": "No bake lemon bars recipe card - easy gluten free refined sugar free summer dessert",
+      "alt": "A stack of no-bake lemon bars with a creamy white chocolate lemon top and golden almond base, garnished with lemon zest on parchment paper",
       "width": 300,
       "height": 225
     },

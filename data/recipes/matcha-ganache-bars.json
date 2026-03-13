@@ -6,19 +6,19 @@
   "image": {
     "hero": {
       "src": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-hero.webp",
-      "alt": "No bake matcha ganache bars sliced showing chewy green base and creamy white chocolate matcha ganache layer",
+      "alt": "A hand holding a no bake matcha ganache bar broken in half revealing the dark green chewy cookie dough base and bright green white chocolate matcha ganache layer with more bars in the background on a wooden board",
       "width": 800,
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-card-300px.webp",
+      "src": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-card-300px.webp",
-        "600": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-card-600px.webp"
+        "300": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp",
+        "600": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp"
       },
-      "alt": "No bake matcha ganache bars recipe card - 5 ingredient vegan gluten free dessert",
-      "width": 300,
-      "height": 225
+      "alt": "A hand holding a no bake matcha ganache bar broken in half showing the chewy green matcha base and creamy bright green ganache layer",
+      "width": 400,
+      "height": 400
     },
     "gallery": []
   },

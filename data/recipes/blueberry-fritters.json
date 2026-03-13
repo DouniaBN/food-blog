@@ -6,17 +6,17 @@
   "image": {
     "hero": {
       "src": "images/recipes/blueberry-fritters/blueberry-fritters-hero.webp",
-      "alt": "Healthy sugar-free blueberry fritters on a baking tray, golden on the edges with juicy blueberries",
-      "width": 1600,
-      "height": 2000
+      "alt": "A hand holding a blueberry fritter broken in half showing the jammy blueberry filling inside with more fritters and a baking tray in the background",
+      "width": 800,
+      "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
+      "src": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
       "srcset": {
-        "300": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
-        "600": "images/recipes/blueberry-fritters/blueberry-fritters-card-600px.webp"
+        "300": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
+        "600": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp"
       },
-      "alt": "Healthy sugar-free blueberry fritters on a baking tray, golden on the edges with juicy blueberries",
+      "alt": "A hand holding a blueberry fritter broken open showing the jammy blueberry filling with more fritters in the background",
       "width": 400,
       "height": 400
     },

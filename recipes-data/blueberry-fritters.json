@@ -4,11 +4,22 @@
   "slug": "blueberry-fritters",
   "description": "These healthy sugar-free blueberry fritters are baked, soft like blueberry muffin tops crossed with sweet bread. No added sugar, ready in 20 minutes and made with healthier ingredients.",
   "image": {
-    "hero": "images/recipes/blueberry-fritters/blueberry-fritters-hero.webp",
-    "thumbnail": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
-    "thumbnail_400": "images/recipes/blueberry-fritters/blueberry-fritters-card-300px.webp",
-    "thumbnail_600": "images/recipes/blueberry-fritters/blueberry-fritters-card-600px.webp",
-    "alt": "Healthy sugar-free blueberry fritters on a baking tray, golden on the edges with juicy blueberries",
+    "hero": {
+      "src": "images/recipes/blueberry-fritters/blueberry-fritters-hero.webp",
+      "alt": "A hand holding a blueberry fritter broken in half showing the jammy blueberry filling inside with more fritters and a baking tray in the background",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
+      "srcset": {
+        "300": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
+        "600": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp"
+      },
+      "alt": "A hand holding a blueberry fritter broken open showing the jammy blueberry filling with more fritters in the background",
+      "width": 400,
+      "height": 400
+    },
     "gallery": []
   },
   "author": {

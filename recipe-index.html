@@ -212,6 +212,9 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         text-decoration: none;
         color: inherit;
+        display: flex;
+        flex-direction: column;
+        height: 460px;
     }
 
     .recipe-card-index:hover {
@@ -226,8 +229,8 @@
     }
 
     .recipe-image {
-        width: 100%;
-        height: 200px;
+        flex: 1;
+        min-height: 0;
         background: var(--neutral-beige);
         overflow: hidden;
     }
@@ -240,44 +243,47 @@
     }
 
     .recipe-card-content {
-        padding: 1.5rem;
+        flex-shrink: 0;
+        padding: 0.7rem 1rem;
+        border-top: 1px solid #f0f0f0;
     }
 
     .recipe-card-title {
         font-family: var(--font-heading);
-        font-size: 1.6rem;
+        font-size: 1.1rem;
         color: #2f4f2f;
-        margin: 0 0 0.75rem 0;
+        margin: 0 0 0.35rem 0;
+        line-height: 1.3;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .recipe-card-meta {
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
-        color: #666;
+        display: none;
     }
 
     .meta-item {
         display: flex;
         align-items: center;
-        gap: 0.25rem;
+        gap: 0.2rem;
     }
 
     .recipe-tags {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 1rem;
+        gap: 0.3rem;
     }
 
     .tag {
-        padding: 0.25rem 0.5rem;
+        padding: 0.15rem 0.45rem;
         background: var(--light-pink);
         color: #2f4f2f;
         border-radius: 12px;
-        font-size: 1rem;
+        font-size: 0.72rem;
         font-weight: 500;
+        white-space: nowrap;
     }
 
     .tag.diet {
@@ -1418,7 +1424,6 @@
                             <span class="tag difficulty">${recipe.difficulty}</span>
                             ${recipe.equipment.includes('no-bake') ? '<span class="tag">no-bake</span>' : ''}
                         </div>
-                        <p class="recipe-description">${recipe.description}</p>
                     </div>
                 </a>
             `).join('');

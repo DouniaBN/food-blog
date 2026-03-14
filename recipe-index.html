@@ -286,15 +286,18 @@
         white-space: nowrap;
     }
 
-    .tag.diet {
-        background: #e8f5e8;
-        color: var(--sage-green);
-    }
-
-    .tag.difficulty {
-        background: #fff3e0;
-        color: #d84315;
-    }
+    .tag-vegan           { background: #d6edd6; color: #2e6b2e; }
+    .tag-vegetarian      { background: #e8e0f5; color: #5b3d8a; }
+    .tag-gluten-free     { background: #daeef8; color: #1a6080; }
+    .tag-dairy-free      { background: #fef5d4; color: #7a5c00; }
+    .tag-paleo           { background: #fde8d8; color: #9b4510; }
+    .tag-keto            { background: #f0e6fa; color: #6b2fa0; }
+    .tag-refined-sugar-free  { background: #d4f0e8; color: #1a6b50; }
+    .tag-added-sugar-free    { background: #e0f4ec; color: #1e7a55; }
+    .tag-easy            { background: #fff3e0; color: #d84315; }
+    .tag-medium          { background: #fce4ec; color: #c2185b; }
+    .tag-hard            { background: #fdecea; color: #b71c1c; }
+    .tag-no-bake         { background: #fde0eb; color: #b5004e; }
 
     .recipe-description {
         font-size: 1.1rem;
@@ -1420,9 +1423,9 @@
                             </div>
                         </div>
                         <div class="recipe-tags">
-                            ${recipe.dietTypes.slice(0, 3).map(diet => `<span class="tag diet">${diet}</span>`).join('')}
-                            <span class="tag difficulty">${recipe.difficulty}</span>
-                            ${recipe.equipment.includes('no-bake') ? '<span class="tag">no-bake</span>' : ''}
+                            ${recipe.dietTypes.map(diet => `<span class="tag tag-${diet}">${diet}</span>`).join('')}
+                            <span class="tag tag-${recipe.difficulty}">${recipe.difficulty}</span>
+                            ${recipe.equipment.includes('no-bake') ? '<span class="tag tag-no-bake">no-bake</span>' : ''}
                         </div>
                     </div>
                 </a>

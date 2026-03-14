@@ -182,12 +182,17 @@ class RecipeManager {
         const viralContainer = document.getElementById('viral-recipes');
         if (viralContainer) {
             const viralRecipes = this.getViralRecipes(4);
-            const viralCounts = ['2.3M', '1.8M', '950K', '750K']; // Sample viral counts
-            viralContainer.innerHTML = viralRecipes.map((recipe, index) =>
+            const viralCounts = {
+                'apple-fritters': '15M+',
+                'no-bake-lemon-bars': '4M+',
+                'gluten-free-brownie-cookies': '500K+',
+                'mango-yogurt-bites': '400K+'
+            };
+            viralContainer.innerHTML = viralRecipes.map((recipe) =>
                 this.generateRecipeCard(recipe, {
                     cardClass: 'recipe-card viral-card',
                     showViralBadge: true,
-                    viralCount: viralCounts[index] || '100K'
+                    viralCount: viralCounts[recipe.slug] || ''
                 })
             ).join('');
         }

@@ -3,6 +3,22 @@
 ## Project Overview
 A high-performance, SEO-optimized recipe blog focused on healthy desserts. Built for maximum Google visibility, fast Core Web Vitals scores, and high user engagement.
 
+## IMPORTANT — Editing Existing Recipes
+
+Whenever Dounia makes any change to a recipe (fixing a typo, updating prep time, changing ingredients, adding tags, updating images etc.), **always ask**:
+
+> "Do you want me to update the other copies too?"
+
+The same data lives in up to 4 places and they must stay in sync:
+1. `recipes-data/[slug].json` — build script source
+2. `data/recipes/[slug].json` — homepage/cards JS source
+3. The hardcoded `recipes` array in `recipe-index.html` — filter/index page
+4. `data/recipe-manifest.json` — only needed if slug or order changes
+
+Never assume only one place needs updating. Always check and ask.
+
+---
+
 ## Adding a New Recipe — REQUIRED STEPS
 
 Every new recipe MUST follow these steps. Never skip any of them.

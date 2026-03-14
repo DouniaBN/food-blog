@@ -206,11 +206,12 @@ class RecipeManager {
             ).join('');
         }
 
-        // Update recent recipes section
+        // Update no bake favorites section
         const recentContainer = document.getElementById('recent-recipes');
         if (recentContainer) {
-            const recentRecipes = this.recipes.slice(0, 4);
-            recentContainer.innerHTML = recentRecipes.map(recipe =>
+            const noBakeSlugs = ['brownie-batter-bars', 'coconut-truffles', 'matcha-ganache-bars', 'chocolate-banana-freezer-fudge'];
+            const noBakeRecipes = noBakeSlugs.map(slug => this.recipes.find(r => r.slug === slug)).filter(Boolean);
+            recentContainer.innerHTML = noBakeRecipes.map(recipe =>
                 this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');
         }

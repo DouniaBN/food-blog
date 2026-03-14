@@ -200,7 +200,8 @@ class RecipeManager {
         // Update popular recipes section
         const popularContainer = document.getElementById('popular-recipes');
         if (popularContainer) {
-            const popularRecipes = this.getPopularRecipes(4);
+            const popularSlugs = ['cinnamon-roll-overnight-oats', 'matcha-marshmallows', 'chocolate-chip-banana-bread-bars', 'blueberry-fritters'];
+            const popularRecipes = popularSlugs.map(slug => this.recipes.find(r => r.slug === slug)).filter(Boolean);
             popularContainer.innerHTML = popularRecipes.map(recipe =>
                 this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');

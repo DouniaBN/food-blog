@@ -2280,7 +2280,7 @@
     }
 
     .recipe-content {
-      padding: 1rem;
+      padding: 0;
     }
 
     /* Mobile recipe card layout */

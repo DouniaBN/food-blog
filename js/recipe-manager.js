@@ -79,9 +79,13 @@ class RecipeManager {
         } = options;
 
         // Build responsive srcset if multiple thumbnail sizes available
-        const thumbnailSrc = (recipe.image.thumbnail && recipe.image.thumbnail.src) || (recipe.image.hero && recipe.image.hero.src) || '';
-        const srcset300 = recipe.image.thumbnail && recipe.image.thumbnail.srcset && recipe.image.thumbnail.srcset['300'];
-        const srcset600 = recipe.image.thumbnail && recipe.image.thumbnail.srcset && recipe.image.thumbnail.srcset['600'];
+        // Handle both string format ("images/...") and object format ({ src, srcset, ... })
+        const thumb = recipe.image.thumbnail;
+        const hero = recipe.image.hero;
+        const thumbnailSrc = (typeof thumb === 'string' ? thumb : thumb && thumb.src) ||
+                             (typeof hero === 'string' ? hero : hero && hero.src) || '';
+        const srcset300 = thumb && thumb.srcset && thumb.srcset['300'];
+        const srcset600 = thumb && thumb.srcset && thumb.srcset['600'];
         const srcsetParts = [];
 
         if (srcset300) srcsetParts.push(`${srcset300} 300w`);
@@ -91,7 +95,7 @@ class RecipeManager {
         const sizesAttr = srcsetParts.length > 0 ? `sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"` : '';
 
         // Use specific alt text if available, otherwise fall back to title
-        const altText = (recipe.image.thumbnail && recipe.image.thumbnail.alt) || (recipe.image.hero && recipe.image.hero.alt) || recipe.title;
+        const altText = (thumb && thumb.alt) || (hero && hero.alt) || recipe.title;
 
         const cardHTML = `
             <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">

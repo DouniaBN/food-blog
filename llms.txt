@@ -1,0 +1,44 @@
+# YourWellnessGirly - Healthy Dessert Recipes
+# https://yourwellnessgirly.com
+# llms.txt - AI Search Engine Guide
+
+> YourWellnessGirly is a healthy dessert recipe blog by Dounia, a certified holistic nutritionist with a master's in nutrition. Every recipe is gluten-free, refined sugar-free, or dairy-free — made with wholesome, better-for-you ingredients. Recipes are baked not fried, naturally sweetened, and designed to be simple and foolproof.
+
+## About
+
+- Author: Dounia (certified holistic nutritionist, master's in nutrition)
+- Focus: Healthy desserts — gluten-free, refined sugar-free, dairy-free
+- Audience: People who want indulgent-tasting desserts made with better-for-you ingredients
+
+## Recipe Index
+
+- Full recipe index: https://yourwellnessgirly.com/recipe-index.html
+
+## Recipes
+
+- Apple Fritters (Gluten-Free, Sugar-Free): https://yourwellnessgirly.com/recipes/apple-fritters.html
+- Banana Fritters (Gluten-Free, Sugar-Free): https://yourwellnessgirly.com/recipes/banana-fritters.html
+- Blueberry Fritters (Gluten-Free, Sugar-Free): https://yourwellnessgirly.com/recipes/blueberry-fritters.html
+- Brownie Batter Bars (No-Bake): https://yourwellnessgirly.com/recipes/brownie-batter-bars.html
+- Chocolate Banana Freezer Fudge: https://yourwellnessgirly.com/recipes/chocolate-banana-freezer-fudge.html
+- Chocolate Chip Banana Bread Bars (Gluten-Free): https://yourwellnessgirly.com/recipes/chocolate-chip-banana-bread-bars.html
+- Cinnamon Roll Overnight Oats: https://yourwellnessgirly.com/recipes/cinnamon-roll-overnight-oats.html
+- Coconut Truffles (3 Ingredients, No-Bake): https://yourwellnessgirly.com/recipes/coconut-truffles.html
+- Easy Healthy Matcha Cake: https://yourwellnessgirly.com/recipes/easy-healthy-matcha-cake.html
+- Gluten-Free Banana Bread Waffles: https://yourwellnessgirly.com/recipes/gluten-free-banana-bread-waffles.html
+- Gluten-Free Brownie Cookies: https://yourwellnessgirly.com/recipes/gluten-free-brownie-cookies.html
+- Gluten-Free Vanilla White Chocolate Brownies: https://yourwellnessgirly.com/recipes/gluten-free-vanilla-white-chocolate-brownies.html
+- Hot Chocolate Fudge Cups: https://yourwellnessgirly.com/recipes/hot-chocolate-fudge-cups.html
+- Mango Yogurt Bites (No-Bake, Summer): https://yourwellnessgirly.com/recipes/mango-yogurt-bites.html
+- Matcha Ganache Bars (No-Bake): https://yourwellnessgirly.com/recipes/matcha-ganache-bars.html
+- Matcha Marshmallows: https://yourwellnessgirly.com/recipes/matcha-marshmallows.html
+- Mini Blueberry Olive Oil Cake: https://yourwellnessgirly.com/recipes/mini-blueberry-olive-oil-cake.html
+- No-Bake Lemon Bars: https://yourwellnessgirly.com/recipes/no-bake-lemon-bars.html
+- Vanilla Bean Marshmallow Fluff: https://yourwellnessgirly.com/recipes/vanilla-bean-marshmallow-fluff.html
+- 3-Ingredient Banana Brownies: https://yourwellnessgirly.com/recipes/banana-brownies.html
+
+## Other Pages
+
+- About Dounia: https://yourwellnessgirly.com/about.html
+- Work With Me: https://yourwellnessgirly.com/work-with-me.html
+- Contact: https://yourwellnessgirly.com/contact.html

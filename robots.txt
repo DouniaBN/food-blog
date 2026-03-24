@@ -15,8 +15,31 @@ Allow: /images/
 Allow: /recipes/
 Allow: /categories/
 
+# AI Search Engine Crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 # Sitemap location
 Sitemap: https://yourwellnessgirly.com/sitemap.xml
-
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
+Sitemap: https://yourwellnessgirly.com/llms.txt

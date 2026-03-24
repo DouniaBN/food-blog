@@ -375,12 +375,32 @@ class RecipeGenerator {
     }
 
     renderIngredients(recipe) {
-        // Flatten grouped format ({ group, items }) into a flat array
-        const flatIngredients = recipe.ingredients[0] && recipe.ingredients[0].group
-            ? recipe.ingredients.flatMap(group => group.items)
-            : recipe.ingredients;
+        const isGrouped = recipe.ingredients[0] && recipe.ingredients[0].group;
 
-        return flatIngredients.map((ingredient, index) => {
+        if (isGrouped) {
+            let counter = 1;
+            return recipe.ingredients.map(group => {
+                const items = group.items.map(ingredient => {
+                    const amount = ingredient.amount || '';
+                    const unit = ingredient.unit || '';
+                    const notes = ingredient.notes ? ` <span class="ingredient-notes">(${ingredient.notes})</span>` : '';
+                    const html = `
+                <li>
+                    <input type="checkbox" id="ingredient-${counter}">
+                    <label for="ingredient-${counter}">
+                        <span class="amount">${amount}</span> ${unit} ${ingredient.ingredient}${notes}
+                    </label>
+                </li>
+            `;
+                    counter++;
+                    return html;
+                }).join('');
+
+                return `<li class="ingredient-group-header">${group.group}</li>${items}`;
+            }).join('');
+        }
+
+        return recipe.ingredients.map((ingredient, index) => {
             const amount = ingredient.amount || '';
             const unit = ingredient.unit || '';
             const notes = ingredient.notes ? ` <span class="ingredient-notes">(${ingredient.notes})</span>` : '';

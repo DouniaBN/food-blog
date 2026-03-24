@@ -1703,6 +1703,17 @@
   color: var(--sage-green);
 }
 
+.ingredient-group-header {
+  display: block !important;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sage-green);
+  padding: 1.5rem 0 0.5rem !important;
+  border-bottom: none !important;
+}
+
 /* Instructions Section */
 .instructions-section {
   margin-bottom: 2.5rem;

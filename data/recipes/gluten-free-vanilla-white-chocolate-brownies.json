@@ -39,8 +39,24 @@
     "unit": "brownies"
   },
   "difficulty": "Medium",
-  "categories": ["Baked", "Gluten-Free", "Vegetarian", "Chocolate"],
-  "tags": ["white chocolate brownies", "gluten free brownies", "vanilla brownies", "white chocolate blondies", "gluten free dessert", "easy brownies", "almond flour brownies", "oat flour brownies", "vegetarian brownies", "healthy brownies"],
+  "categories": [
+    "Baked",
+    "Gluten-Free",
+    "Vegetarian",
+    "Chocolate"
+  ],
+  "tags": [
+    "white chocolate brownies",
+    "gluten free brownies",
+    "vanilla brownies",
+    "white chocolate blondies",
+    "gluten free dessert",
+    "easy brownies",
+    "almond flour brownies",
+    "oat flour brownies",
+    "vegetarian brownies",
+    "healthy brownies"
+  ],
   "nutrition": {
     "calories": 255,
     "protein": "5g",
@@ -53,46 +69,155 @@
     {
       "group": "Brownie Batter",
       "items": [
-        { "amount": "150", "unit": "g", "ingredient": "white chocolate", "notes": "good quality, vanilla white chocolate if available" },
-        { "amount": "2", "unit": "large", "ingredient": "eggs", "notes": "" },
-        { "amount": "2", "unit": "tablespoons", "ingredient": "coconut oil", "notes": "melted" },
-        { "amount": "100", "unit": "g", "ingredient": "maple syrup", "notes": "" },
-        { "amount": "130", "unit": "g", "ingredient": "milk of choice", "notes": "" },
-        { "amount": "2", "unit": "teaspoons", "ingredient": "vanilla extract", "notes": "" },
-        { "amount": "35", "unit": "g", "ingredient": "almond flour", "notes": "" },
-        { "amount": "220", "unit": "g", "ingredient": "oat flour", "notes": "gluten free if needed" },
-        { "amount": "1/2", "unit": "teaspoon", "ingredient": "baking powder", "notes": "" }
+        {
+          "amount": "150",
+          "unit": "g",
+          "ingredient": "white chocolate",
+          "notes": ""
+        },
+        {
+          "amount": "2",
+          "unit": "large",
+          "ingredient": "eggs",
+          "notes": ""
+        },
+        {
+          "amount": "2",
+          "unit": "tablespoons",
+          "ingredient": "coconut oil",
+          "notes": "melted"
+        },
+        {
+          "amount": "100",
+          "unit": "g",
+          "ingredient": "maple syrup",
+          "notes": ""
+        },
+        {
+          "amount": "130",
+          "unit": "g",
+          "ingredient": "milk of choice",
+          "notes": ""
+        },
+        {
+          "amount": "2",
+          "unit": "teaspoons",
+          "ingredient": "vanilla extract",
+          "notes": ""
+        },
+        {
+          "amount": "35",
+          "unit": "g",
+          "ingredient": "almond flour",
+          "notes": ""
+        },
+        {
+          "amount": "220",
+          "unit": "g",
+          "ingredient": "oat flour",
+          "notes": "gluten free if needed"
+        },
+        {
+          "amount": "1/2",
+          "unit": "teaspoon",
+          "ingredient": "baking powder",
+          "notes": ""
+        }
       ]
     },
     {
       "group": "Icing (optional)",
       "items": [
-        { "amount": "150", "unit": "g", "ingredient": "powdered sugar", "notes": "or powdered sweetener" },
-        { "amount": "1 1/2", "unit": "tablespoons", "ingredient": "water", "notes": "" },
-        { "amount": "1", "unit": "teaspoon", "ingredient": "vanilla extract", "notes": "" }
+        {
+          "amount": "150",
+          "unit": "g",
+          "ingredient": "powdered sugar",
+          "notes": "or powdered sweetener"
+        },
+        {
+          "amount": "1 1/2",
+          "unit": "tablespoons",
+          "ingredient": "water",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "teaspoon",
+          "ingredient": "vanilla extract",
+          "notes": ""
+        }
       ]
     }
   ],
   "instructions": [
-    { "step": 1, "text": "Preheat the oven to 170°C / 160°C fan.", "image": "" },
-    { "step": 2, "text": "In a heat-safe bowl melt the white chocolate, add in the melted coconut oil and mix until smooth.", "image": "" },
-    { "step": 3, "text": "In a separate bowl crack the eggs and whisk for a minute until airy.", "image": "" },
-    { "step": 4, "text": "Add in the maple syrup and milk and mix to combine.", "image": "" },
-    { "step": 5, "text": "Pour in the vanilla extract and mix.", "image": "" },
-    { "step": 6, "text": "Fold in the dry ingredients — almond flour, oat flour, and baking powder — until just combined.", "image": "" },
-    { "step": 7, "text": "Line a 20cm (8 inch) square baking tray and pour in the batter.", "image": "" },
-    { "step": 8, "text": "Bake for 15 minutes. If you prefer gooier brownies, underbake by 3–5 minutes. Allow to cool completely before slicing.", "image": "" },
-    { "step": 9, "text": "For the icing: mix the water and vanilla extract together, then stir in the powdered sugar until smooth. Spread over the cooled brownies, slice, and enjoy!", "image": "" }
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C / 160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a heat-safe bowl melt the white chocolate, add in the melted coconut oil and mix until smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl crack the eggs and whisk for a minute until airy.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add in the maple syrup and milk and mix to combine.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Pour in the vanilla extract and mix.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Fold in the dry ingredients — almond flour, oat flour, and baking powder — until just combined.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Line a 20cm (8 inch) square baking tray and pour in the batter.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Bake for 15 minutes. If you prefer gooier brownies, underbake by 3–5 minutes. Allow to cool completely before slicing.",
+      "image": ""
+    },
+    {
+      "step": 9,
+      "text": "For the icing: mix the water and vanilla extract together, then stir in the powdered sugar until smooth. Spread over the cooled brownies, slice, and enjoy!",
+      "image": ""
+    }
   ],
   "notes": [
     "Let the brownies cool fully before slicing for the cleanest cuts.",
     "For a non-gluten-free version, substitute the oat flour with all-purpose flour."
   ],
-  "equipment": ["Oven", "20cm / 8-inch square baking tray", "Mixing bowls", "Whisk"],
+  "equipment": [
+    "Oven",
+    "20cm / 8-inch square baking tray",
+    "Mixing bowls",
+    "Whisk"
+  ],
   "seo": {
     "metaTitle": "Gluten Free Vanilla White Chocolate Brownies | Yourwellnessgirly",
     "metaDescription": "Soft gluten free vanilla white chocolate brownies with rich vanilla flavour and a perfectly chewy texture. An easy crowd-pleasing dessert.",
-    "keywords": ["gluten free white chocolate brownies", "vanilla white chocolate brownies", "gluten free brownies", "white chocolate blondies", "easy white chocolate brownies", "almond flour brownies", "oat flour brownies"],
+    "keywords": [
+      "gluten free white chocolate brownies",
+      "vanilla white chocolate brownies",
+      "gluten free brownies",
+      "white chocolate blondies",
+      "easy white chocolate brownies",
+      "almond flour brownies",
+      "oat flour brownies"
+    ],
     "canonicalUrl": "/recipes/gluten-free-vanilla-white-chocolate-brownies"
   },
   "social": {
@@ -102,7 +227,15 @@
     },
     "instagram": {
       "caption": "white chocolate brownies but make them gluten free 🤍 soft, chewy, full of vanilla flavour and honestly better than I expected — recipe on the blog!",
-      "hashtags": ["#whitechocolatebrownies", "#glutenfreebrownies", "#vanillabrownies", "#glutenfree", "#brownies", "#healthydessert", "#yourwellnessgirly"]
+      "hashtags": [
+        "#whitechocolatebrownies",
+        "#glutenfreebrownies",
+        "#vanillabrownies",
+        "#glutenfree",
+        "#brownies",
+        "#healthydessert",
+        "#yourwellnessgirly"
+      ]
     }
   },
   "story": {
@@ -147,15 +280,23 @@
   "substitutions": [
     {
       "ingredient": "Oat flour",
-      "alternatives": ["All-purpose flour (if not gluten free)"]
+      "alternatives": [
+        "All-purpose flour (if not gluten free)"
+      ]
     },
     {
       "ingredient": "Coconut oil",
-      "alternatives": ["Melted butter", "Neutral oil such as avocado oil"]
+      "alternatives": [
+        "Melted butter",
+        "Neutral oil such as avocado oil"
+      ]
     },
     {
       "ingredient": "Maple syrup",
-      "alternatives": ["Honey", "Agave syrup"]
+      "alternatives": [
+        "Honey",
+        "Agave syrup"
+      ]
     }
   ],
   "videoUrl": "https://www.instagram.com/p/DSAumsVDDvS/",

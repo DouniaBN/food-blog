@@ -11,7 +11,7 @@
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp",
+      "src": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-card-300px.webp",
       "srcset": {
         "300": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp",
         "600": "images/recipes/hot-chocolate-fudge-cups/hot-chocolate-fudge-cups-thumbnail.webp"
@@ -39,8 +39,26 @@
     "unit": "cups"
   },
   "difficulty": "Easy",
-  "categories": ["No-Bake", "Gluten-Free", "Refined Sugar-Free", "Vegan"],
-  "tags": ["hot chocolate fudge cups", "no bake chocolate cups", "5 ingredient dessert", "no bake", "gluten free", "dairy free", "refined sugar free", "vegan dessert", "chocolate fudge", "almond flour", "coconut milk", "healthy chocolate dessert"],
+  "categories": [
+    "No-Bake",
+    "Gluten-Free",
+    "Refined Sugar-Free",
+    "Vegan"
+  ],
+  "tags": [
+    "hot chocolate fudge cups",
+    "no bake chocolate cups",
+    "5 ingredient dessert",
+    "no bake",
+    "gluten free",
+    "dairy free",
+    "refined sugar free",
+    "vegan dessert",
+    "chocolate fudge",
+    "almond flour",
+    "coconut milk",
+    "healthy chocolate dessert"
+  ],
   "nutrition": {
     "calories": 300,
     "protein": "6.8g",
@@ -53,42 +71,109 @@
     {
       "group": "Base",
       "items": [
-        { "amount": "170", "unit": "g", "ingredient": "almond flour", "notes": "" },
-        { "amount": "3-4", "unit": "tbsp", "ingredient": "cacao powder", "notes": "" },
-        { "amount": "4", "unit": "tbsp", "ingredient": "maple syrup", "notes": "or substitute with dates" }
+        {
+          "amount": "170",
+          "unit": "g",
+          "ingredient": "almond flour",
+          "notes": ""
+        },
+        {
+          "amount": "3-4",
+          "unit": "tbsp",
+          "ingredient": "cacao powder",
+          "notes": ""
+        },
+        {
+          "amount": "4",
+          "unit": "tbsp",
+          "ingredient": "maple syrup",
+          "notes": "or substitute with dates"
+        }
       ]
     },
     {
       "group": "Filling",
       "items": [
-        { "amount": "70", "unit": "g", "ingredient": "dark chocolate", "notes": "dairy free if needed" },
-        { "amount": "95", "unit": "g", "ingredient": "canned coconut milk", "notes": "" }
+        {
+          "amount": "70",
+          "unit": "g",
+          "ingredient": "dark chocolate",
+          "notes": "dairy free if needed"
+        },
+        {
+          "amount": "95",
+          "unit": "g",
+          "ingredient": "canned coconut milk",
+          "notes": ""
+        }
       ]
     },
     {
       "group": "To Top",
       "items": [
-        { "amount": "", "unit": "", "ingredient": "mini marshmallows", "notes": "optional but so cute!" }
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "mini marshmallows",
+          "notes": "optional but so cute!"
+        }
       ]
     }
   ],
   "instructions": [
-    { "step": 1, "text": "To a bowl add the chocolate and coconut milk. Heat in the microwave or using a double boiler — only heat until the milk is warm, then continue to stir until the chocolate fully melts. Set aside.", "image": "" },
-    { "step": 2, "text": "To a food processor add the almond flour, cacao powder and maple syrup and blend until combined.", "image": "" },
-    { "step": 3, "text": "Transfer a few teaspoons of the batter to your silicone cup mould and press down firmly, making a well in the centre.", "image": "" },
-    { "step": 4, "text": "Add a few tablespoons of the chocolate filling to each cup.", "image": "" },
-    { "step": 5, "text": "Place in the freezer for 20–30 minutes or until the filling is set.", "image": "" },
-    { "step": 6, "text": "Top with mini marshmallows or sea salt and enjoy!", "image": "" }
+    {
+      "step": 1,
+      "text": "To a bowl add the chocolate and coconut milk. Heat in the microwave or using a double boiler — only heat until the milk is warm, then continue to stir until the chocolate fully melts. Set aside.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "To a food processor add the almond flour, cacao powder and maple syrup and blend until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Transfer a few teaspoons of the batter to your silicone cup mould and press down firmly, making a well in the centre.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add a few tablespoons of the chocolate filling to each cup.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Place in the freezer for 20–30 minutes or until the filling is set.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Top with mini marshmallows or sea salt and enjoy!",
+      "image": ""
+    }
   ],
   "notes": [
     "Best eaten cold, straight from the fridge or after a short thaw from the freezer.",
     "For a fun festive look, top with crushed candy canes or insert half a candy cane into the side as a mug handle."
   ],
-  "equipment": ["Food processor", "Silicone cup mould", "Microwave or double boiler"],
+  "equipment": [
+    "Food processor",
+    "Silicone cup mould",
+    "Microwave or double boiler"
+  ],
   "seo": {
     "metaTitle": "Hot Chocolate Fudge Cups (No Bake, 5 Ingredients) | Yourwellnessgirly",
     "metaDescription": "Rich no bake hot chocolate fudge cups made with just 5 ingredients. A decadent chocolate dessert that's gluten free, refined sugar free, and easy to make.",
-    "keywords": ["hot chocolate fudge cups", "no bake chocolate cups", "5 ingredient no bake dessert", "gluten free chocolate cups", "dairy free chocolate dessert", "refined sugar free chocolate", "easy no bake fudge cups", "healthy chocolate dessert"],
+    "keywords": [
+      "hot chocolate fudge cups",
+      "no bake chocolate cups",
+      "5 ingredient no bake dessert",
+      "gluten free chocolate cups",
+      "dairy free chocolate dessert",
+      "refined sugar free chocolate",
+      "easy no bake fudge cups",
+      "healthy chocolate dessert"
+    ],
     "canonicalUrl": "/recipes/hot-chocolate-fudge-cups"
   },
   "social": {
@@ -98,7 +183,17 @@
     },
     "instagram": {
       "caption": "hot chocolate fudge cups but make them no bake with 5 ingredients 🍫✨ gluten free, refined sugar free, and honestly unreal — recipe on the blog!",
-      "hashtags": ["#hotchocolate", "#fudgecups", "#nobake", "#chocolatedessert", "#glutenfree", "#refinedsugarfree", "#5ingredients", "#healthydessert", "#yourwellnessgirly"]
+      "hashtags": [
+        "#hotchocolate",
+        "#fudgecups",
+        "#nobake",
+        "#chocolatedessert",
+        "#glutenfree",
+        "#refinedsugarfree",
+        "#5ingredients",
+        "#healthydessert",
+        "#yourwellnessgirly"
+      ]
     }
   },
   "story": {
@@ -111,7 +206,7 @@
       "These hot chocolate fudge cups can easily be made dairy free and vegan, just make sure the dark chocolate you use is dairy free. They're also naturally refined sugar free and gluten free, making them a great option when you want something indulgent but still made with simple ingredients.",
       "You truly won't believe how easy they are to make. They taste like a complex, decadent dessert, but they come together with just a handful of ingredients and about 15 minutes of prep time. I especially love that they're no bake, which makes them perfect for warmer months when you're craving hot chocolate flavours but don't actually want a hot drink.",
       "I made six medium-sized hot chocolate fudge cups, but you can absolutely make them smaller if you want them to feel a little lighter or more bite-sized. They're also such a fun festive dessert, especially around the holidays. You can top them with crushed candy canes, or even insert half a candy cane into the side to create adorable little mug handles.",
-      "I topped mine with mini vanilla bean marshmallows, which I made by turning my vanilla bean marshmallow fluff into marshmallows and slicing them into tiny cubes. They added the perfect fluffy texture and helped balance the double chocolate richness."
+      "I topped mine with mini vanilla bean marshmallows, which I made by turning my <a href=\"vanilla-bean-marshmallow-fluff.html\">vanilla bean marshmallow fluff</a> into marshmallows and slicing them into tiny cubes. They added the perfect fluffy texture and helped balance the double chocolate richness."
     ]
   },
   "faq": [
@@ -139,15 +234,22 @@
   "substitutions": [
     {
       "ingredient": "Maple syrup",
-      "alternatives": ["Dates (start with a few and adjust until the mixture holds together)"]
+      "alternatives": [
+        "Dates (start with a few and adjust until the mixture holds together)"
+      ]
     },
     {
       "ingredient": "Cacao powder",
-      "alternatives": ["Cocoa powder (works just as well for a rich chocolate flavour)"]
+      "alternatives": [
+        "Cocoa powder (works just as well for a rich chocolate flavour)"
+      ]
     },
     {
       "ingredient": "Coconut milk",
-      "alternatives": ["Thick dairy-free cream", "Regular heavy cream (if not dairy free)"]
+      "alternatives": [
+        "Thick dairy-free cream",
+        "Regular heavy cream (if not dairy free)"
+      ]
     }
   ],
   "videoUrl": "https://www.instagram.com/p/DSdDbQBjPgW/",

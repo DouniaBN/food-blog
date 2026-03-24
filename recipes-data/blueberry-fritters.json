@@ -11,7 +11,7 @@
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
+      "src": "images/recipes/blueberry-fritters/blueberry-fritters-card300.webp",
       "srcset": {
         "300": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp",
         "600": "images/recipes/blueberry-fritters/blueberry-fritters-thumbnail.webp"
@@ -39,8 +39,25 @@
     "unit": "fritters"
   },
   "difficulty": "Easy",
-  "categories": ["Baked", "Vegetarian", "Dairy-Free", "Refined Sugar-Free"],
-  "tags": ["blueberry", "blueberry-fritters", "baked", "refined-sugar-free", "vegetarian", "dairy-free", "healthy", "quick", "fruit", "naturally-sweetened", "healthy-dessert"],
+  "categories": [
+    "Baked",
+    "Vegetarian",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "blueberry",
+    "blueberry-fritters",
+    "baked",
+    "refined-sugar-free",
+    "vegetarian",
+    "dairy-free",
+    "healthy",
+    "quick",
+    "fruit",
+    "naturally-sweetened",
+    "healthy-dessert"
+  ],
   "nutrition": {
     "calories": 199,
     "protein": "4.5g",
@@ -136,7 +153,12 @@
     "Store in an airtight container at room temperature for up to 24 hours or refrigerate for up to 3 days.",
     "Reheat in the oven or air fryer for a few minutes to restore the golden edges."
   ],
-  "equipment": ["Oven", "Mixing bowl", "Baking tray", "Parchment paper"],
+  "equipment": [
+    "Oven",
+    "Mixing bowl",
+    "Baking tray",
+    "Parchment paper"
+  ],
   "seo": {
     "metaTitle": "Healthy Sugar-Free Blueberry Fritters (Baked & Naturally Sweetened) | Yourwellnessgirly",
     "metaDescription": "These healthy sugar-free blueberry fritters are baked, soft like blueberry muffin tops crossed with sweet bread. No added sugar, ready in 20 minutes and made with healthier ingredients.",
@@ -158,14 +180,24 @@
     },
     "instagram": {
       "caption": "if you loved my viral apple fritters, you NEED to try these blueberry fritters 🫐✨ baked, no added sugar and ready in 20 minutes! recipe on the blog ➡️",
-      "hashtags": ["#blueberryfritters", "#healthydesserts", "#sugarfree", "#baked", "#refinedsugarfree", "#healthysnack", "#blueberry", "#yourwellnessgirly"]
+      "hashtags": [
+        "#blueberryfritters",
+        "#healthydesserts",
+        "#sugarfree",
+        "#baked",
+        "#refinedsugarfree",
+        "#healthysnack",
+        "#blueberry",
+        "#yourwellnessgirly"
+      ]
     }
   },
   "story": {
     "subtitle": "why you'll love them",
     "paragraphs": [
       "if you love blueberry muffins but want something a little lighter and quicker, these healthy blueberry fritters are going to be your new obsession. the texture is somewhere between a blueberry muffin top and soft sweet bread: golden on the edges, fluffy in the centre, and packed with juicy blueberries in every bite. they're baked instead of fried and naturally sweetened, with the option to add your favourite sugar-free sweetener if you prefer.",
-      "this small-batch recipe makes approximately 6 fritters, perfect for when you want something sweet that you can adjust to your desired sweetness. they're a great healthy sweet snack, quick meal prep breakfast, or on-the-go treat. if you're one of the millions who tried and loved my <a href=\"apple-fritters.html\">apple fritters</a>, this blueberry version should be your next bake. let me know — are you team apple fritters or team blueberry fritters?"
+      "this small-batch recipe makes approximately 6 fritters, perfect for when you want something sweet that you can adjust to your desired sweetness. they're a great healthy sweet snack, quick meal prep breakfast, or on-the-go treat. if you're one of the millions who tried and loved my <a href=\"apple-fritters.html\">apple fritters</a>, this blueberry version should be your next bake. let me know — are you team apple fritters or team blueberry fritters?",
+      "If you loved these blueberry fritters, you should check out my <a href=\"gluten-free-banana-bread-waffles.html\">sugar free and gluten free banana bread waffles</a>."
     ]
   },
   "faq": [
@@ -202,15 +234,24 @@
   "substitutions": [
     {
       "ingredient": "Plain flour",
-      "alternatives": ["Oat flour", "1:1 gluten-free flour blend (for gluten-free)"]
+      "alternatives": [
+        "Oat flour",
+        "1:1 gluten-free flour blend (for gluten-free)"
+      ]
     },
     {
       "ingredient": "Coconut oil",
-      "alternatives": ["Melted butter (not dairy-free)", "Neutral oil like avocado oil"]
+      "alternatives": [
+        "Melted butter (not dairy-free)",
+        "Neutral oil like avocado oil"
+      ]
     },
     {
       "ingredient": "Frozen blueberries",
-      "alternatives": ["Fresh blueberries (reduce bake time slightly)", "Mixed frozen berries"]
+      "alternatives": [
+        "Fresh blueberries (reduce bake time slightly)",
+        "Mixed frozen berries"
+      ]
     }
   ],
   "videoUrl": "https://www.instagram.com/p/DU8u3wEDLHU/",

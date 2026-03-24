@@ -11,7 +11,7 @@
       "height": 2000
     },
     "thumbnail": {
-      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-thumbnail.webp",
+      "src": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-300px.webp",
       "srcset": {
         "300": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-thumbnail.webp",
         "600": "images/recipes/chocolate-banana-freezer-fudge/chocolate-banana-freezer-fudge-card-600px.webp"
@@ -39,8 +39,27 @@
     "unit": "pieces"
   },
   "difficulty": "Easy",
-  "categories": ["Vegan", "Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
-  "tags": ["chocolate banana freezer fudge", "2 ingredient freezer fudge", "banana freezer fudge", "healthy freezer fudge", "no bake freezer fudge", "vegan fudge", "gluten free fudge", "refined sugar free fudge", "naturally sweetened fudge", "banana chocolate dessert", "healthy no bake dessert", "nut free fudge"],
+  "categories": [
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Paleo",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "chocolate banana freezer fudge",
+    "2 ingredient freezer fudge",
+    "banana freezer fudge",
+    "healthy freezer fudge",
+    "no bake freezer fudge",
+    "vegan fudge",
+    "gluten free fudge",
+    "refined sugar free fudge",
+    "naturally sweetened fudge",
+    "banana chocolate dessert",
+    "healthy no bake dessert",
+    "nut free fudge"
+  ],
   "nutrition": {
     "calories": 112,
     "protein": "1g",
@@ -50,29 +69,85 @@
     "sugar": "8g"
   },
   "ingredients": [
-    { "amount": "85", "unit": "g", "ingredient": "dark chocolate (70–80%)", "notes": "" },
-    { "amount": "2", "unit": "large", "ingredient": "ripe bananas", "notes": "" },
-    { "amount": "1/2", "unit": "tbsp", "ingredient": "coconut oil", "notes": "optional, for a firmer texture" }
+    {
+      "amount": "85",
+      "unit": "g",
+      "ingredient": "dark chocolate (70–80%)",
+      "notes": ""
+    },
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "ripe bananas",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "tbsp",
+      "ingredient": "coconut oil",
+      "notes": "optional, for a firmer texture"
+    }
   ],
   "instructions": [
-    { "step": 1, "text": "Add the dark chocolate to a heatproof bowl and melt until smooth. If using coconut oil, stir it in until fully combined.", "image": "" },
-    { "step": 2, "text": "In a separate bowl, blend the bananas using an immersion blender until completely smooth.", "image": "" },
-    { "step": 3, "text": "Pour the melted chocolate into the banana mixture and mix until well combined.", "image": "" },
-    { "step": 4, "text": "Line a small container with parchment paper. Pour in the mixture and smooth the top.", "image": "" },
-    { "step": 5, "text": "Freeze for 2–3 hours, or until fully set.", "image": "" },
-    { "step": 6, "text": "Slice and enjoy straight from the freezer.", "image": "" }
+    {
+      "step": 1,
+      "text": "Add the dark chocolate to a heatproof bowl and melt until smooth. If using coconut oil, stir it in until fully combined.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a separate bowl, blend the bananas using an immersion blender until completely smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Pour the melted chocolate into the banana mixture and mix until well combined.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Line a small container with parchment paper. Pour in the mixture and smooth the top.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Freeze for 2–3 hours, or until fully set.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Slice and enjoy straight from the freezer.",
+      "image": ""
+    }
   ],
   "notes": [
     "The riper the bananas, the sweeter the fudge will be.",
     "Blend until completely smooth for the best texture.",
     "Store in an airtight container in the freezer and serve straight from the freezer."
   ],
-  "equipment": ["Immersion blender or blender", "Heatproof bowl", "Small container or mould", "Parchment paper"],
-  "relatedRecipes": ["banana-brownies", "hot-chocolate-fudge-cups", "brownie-batter-bars"],
+  "equipment": [
+    "Immersion blender or blender",
+    "Heatproof bowl",
+    "Small container or mould",
+    "Parchment paper"
+  ],
+  "relatedRecipes": [
+    "banana-brownies",
+    "hot-chocolate-fudge-cups",
+    "brownie-batter-bars"
+  ],
   "seo": {
     "metaTitle": "2 Ingredient Chocolate Banana Freezer Fudge (No Bake) | Yourwellnessgirly",
     "metaDescription": "This 2 ingredient chocolate banana freezer fudge is naturally sweetened, refined sugar free, and the perfect refreshing no-bake dessert made with just a blender and freezer.",
-    "keywords": ["chocolate banana freezer fudge", "2 ingredient freezer fudge", "healthy freezer fudge", "no bake fudge", "banana fudge", "vegan fudge", "refined sugar free fudge"],
+    "keywords": [
+      "chocolate banana freezer fudge",
+      "2 ingredient freezer fudge",
+      "healthy freezer fudge",
+      "no bake fudge",
+      "banana fudge",
+      "vegan fudge",
+      "refined sugar free fudge"
+    ],
     "canonicalUrl": "/recipes/chocolate-banana-freezer-fudge"
   },
   "social": {
@@ -82,7 +157,17 @@
     },
     "instagram": {
       "caption": "2 ingredient chocolate banana freezer fudge 🍫🍌 naturally sweetened, no bake, vegan, and refined sugar free — recipe on the blog!",
-      "hashtags": ["#freezerfudge", "#bananafudge", "#chocolatebanana", "#2ingredientdessert", "#nobakedesert", "#healthydessert", "#veganfudge", "#refinedsugarfree", "#yourwellnessgirly"]
+      "hashtags": [
+        "#freezerfudge",
+        "#bananafudge",
+        "#chocolatebanana",
+        "#2ingredientdessert",
+        "#nobakedesert",
+        "#healthydessert",
+        "#veganfudge",
+        "#refinedsugarfree",
+        "#yourwellnessgirly"
+      ]
     }
   },
   "story": {

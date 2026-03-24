@@ -11,7 +11,7 @@
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp",
+      "src": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-card-300px.webp",
       "srcset": {
         "300": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp",
         "600": "images/recipes/matcha-ganache-bars/matcha-ganache-bars-thumbnail.webp"
@@ -39,8 +39,29 @@
     "unit": "bars"
   },
   "difficulty": "Easy",
-  "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Refined Sugar-Free"],
-  "tags": ["matcha", "no-bake", "ganache", "bars", "gluten-free", "vegan", "dairy-free", "refined-sugar-free", "5-ingredients", "almond-flour", "dates", "white-chocolate", "coconut-milk", "healthy-dessert"],
+  "categories": [
+    "No-Bake",
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "matcha",
+    "no-bake",
+    "ganache",
+    "bars",
+    "gluten-free",
+    "vegan",
+    "dairy-free",
+    "refined-sugar-free",
+    "5-ingredients",
+    "almond-flour",
+    "dates",
+    "white-chocolate",
+    "coconut-milk",
+    "healthy-dessert"
+  ],
   "nutrition": {
     "calories": 300,
     "protein": "5g",
@@ -50,28 +71,90 @@
     "sugar": "20g"
   },
   "ingredients": [
-    { "amount": "135", "unit": "g", "ingredient": "pitted dates", "notes": "" },
-    { "amount": "120", "unit": "g", "ingredient": "almond flour", "notes": "" },
-    { "amount": "1-1.5", "unit": "tbsp", "ingredient": "matcha powder", "notes": "for the base" },
-    { "amount": "60", "unit": "g", "ingredient": "dairy-free white chocolate", "notes": "" },
-    { "amount": "135", "unit": "g", "ingredient": "canned thick coconut milk", "notes": "" },
-    { "amount": "0.5-1", "unit": "tbsp", "ingredient": "matcha powder", "notes": "for the ganache" }
+    {
+      "amount": "135",
+      "unit": "g",
+      "ingredient": "pitted dates",
+      "notes": ""
+    },
+    {
+      "amount": "120",
+      "unit": "g",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "1-1.5",
+      "unit": "tbsp",
+      "ingredient": "matcha powder",
+      "notes": "for the base"
+    },
+    {
+      "amount": "60",
+      "unit": "g",
+      "ingredient": "dairy-free white chocolate",
+      "notes": ""
+    },
+    {
+      "amount": "135",
+      "unit": "g",
+      "ingredient": "canned thick coconut milk",
+      "notes": ""
+    },
+    {
+      "amount": "0.5-1",
+      "unit": "tbsp",
+      "ingredient": "matcha powder",
+      "notes": "for the ganache"
+    }
   ],
   "instructions": [
-    { "step": 1, "text": "Add the pitted dates, almond flour, and matcha to a food processor and blend until a dough forms.", "image": "" },
-    { "step": 2, "text": "Transfer the dough to a small lined container and press down very firmly, ensuring it is even.", "image": "" },
-    { "step": 3, "text": "In a saucepan, add the dairy-free white chocolate and coconut milk. Heat on low, stirring continuously, until the white chocolate is completely melted. Do not let it burn.", "image": "" },
-    { "step": 4, "text": "Remove from the heat and stir in the matcha powder until fully combined.", "image": "" },
-    { "step": 5, "text": "Let the ganache cool, then pour it on top of the pressed base.", "image": "" },
-    { "step": 6, "text": "Place in the freezer for 6 hours or overnight, until the ganache is set and holding its shape.", "image": "" },
-    { "step": 7, "text": "Sprinkle with extra matcha powder, slice, and enjoy!", "image": "" }
+    {
+      "step": 1,
+      "text": "Add the pitted dates, almond flour, and matcha to a food processor and blend until a dough forms.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Transfer the dough to a small lined container and press down very firmly, ensuring it is even.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "In a saucepan, add the dairy-free white chocolate and coconut milk. Heat on low, stirring continuously, until the white chocolate is completely melted. Do not let it burn.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and stir in the matcha powder until fully combined.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Let the ganache cool, then pour it on top of the pressed base.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Place in the freezer for 6 hours or overnight, until the ganache is set and holding its shape.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Sprinkle with extra matcha powder, slice, and enjoy!",
+      "image": ""
+    }
   ],
   "notes": [
     "Press the base down very firmly — this helps it hold together when sliced.",
     "Stir the ganache continuously on low heat so the white chocolate doesn't burn.",
     "The ganache should be a spoonable consistency when set — creamy and able to hold its shape but not completely frozen."
   ],
-  "equipment": ["Food processor", "Small saucepan", "Small container for lining"],
+  "equipment": [
+    "Food processor",
+    "Small saucepan",
+    "Small container for lining"
+  ],
   "story": {
     "subtitle": "5 Ingredient white chocolate and matcha ganache bars",
     "paragraphs": [
@@ -79,7 +162,8 @@
       "The base of these matcha bars has a chewy, 3 ingredient matcha cookie dough texture that's naturally sweetened with dates and made with almond flour. The almond flour adds healthy fats, giving the bars a more satisfying bite while keeping them soft and slightly fudgy. It creates that perfect dense, chewy layer that pairs beautifully with the topping.",
       "Then comes the creamy white chocolate matcha ganache. It's smooth, soft, and has just the right amount of matcha to balance the sweetness of the white chocolate. The coconut milk keeps it completely dairy free while adding richness and depth to the flavour. These matcha ganache bars are also refined sugar free too, yet you would never tell.",
       "The contrast between the chewy matcha base and the silky ganache layer is what makes these bars so satisfying. Every bite is creamy, slightly earthy, sweet, and refreshing straight from the fridge. Matcha is the star of the show in this recipe but not just for its flavour. It adds an extra caffeine kick providing a more steady energy boost compared to coffee. Combined with the fibre from the dates and the healthy fats from the almond flour, these bars feel indulgent yet balanced.",
-      "This is a small batch recipe that makes 6 thick, rich bars. You can always use a larger container if you'd prefer slightly thinner slices."
+      "This is a small batch recipe that makes 6 thick, rich bars. You can always use a larger container if you'd prefer slightly thinner slices.",
+      "Love matcha? You'll also love my <a href=\"matcha-marshmallows.html\">matcha marshmallows</a> and <a href=\"easy-healthy-matcha-cake.html\">easy healthy matcha cake</a>."
     ]
   },
   "faq": [
@@ -110,11 +194,23 @@
     "Use a larger container if you prefer thinner bars."
   ],
   "substitutions": [],
-  "relatedRecipes": ["matcha-marshmallows", "brownie-batter-bars", "easy-healthy-matcha-cake"],
+  "relatedRecipes": [
+    "matcha-marshmallows",
+    "brownie-batter-bars",
+    "easy-healthy-matcha-cake"
+  ],
   "seo": {
     "metaTitle": "No Bake Matcha Ganache Bars | Yourwellnessgirly",
     "metaDescription": "These no bake matcha ganache bars are made with just 5 ingredients. The chewy matcha cookie dough base topped with creamy white chocolate matcha ganache is truly heavenly. Gluten free, dairy free, and refined sugar free.",
-    "keywords": ["matcha ganache bars", "no bake matcha bars", "matcha white chocolate bars", "5 ingredient matcha dessert", "dairy free matcha bars", "gluten free matcha bars", "healthy matcha dessert"],
+    "keywords": [
+      "matcha ganache bars",
+      "no bake matcha bars",
+      "matcha white chocolate bars",
+      "5 ingredient matcha dessert",
+      "dairy free matcha bars",
+      "gluten free matcha bars",
+      "healthy matcha dessert"
+    ],
     "canonicalUrl": "/recipes/matcha-ganache-bars"
   },
   "social": {
@@ -124,7 +220,17 @@
     },
     "instagram": {
       "caption": "when you don't want to turn the oven on but need something truly decadent 🍵✨ these 5 ingredient no bake matcha ganache bars have the most dreamy chewy base + silky white chocolate matcha ganache — recipe on the blog!",
-      "hashtags": ["#matchabars", "#nobake", "#matchadessert", "#5ingredients", "#healthydessert", "#vegan", "#glutenfree", "#dairyfree", "#yourwellnessgirly"]
+      "hashtags": [
+        "#matchabars",
+        "#nobake",
+        "#matchadessert",
+        "#5ingredients",
+        "#healthydessert",
+        "#vegan",
+        "#glutenfree",
+        "#dairyfree",
+        "#yourwellnessgirly"
+      ]
     },
     "instagramUrl": "https://www.instagram.com/reel/DHwGdA6MVTf/"
   },

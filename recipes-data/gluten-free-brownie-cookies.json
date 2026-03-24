@@ -11,7 +11,7 @@
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail.webp",
+      "src": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-300px.webp",
       "srcset": {
         "300": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail.webp",
         "600": "images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail.webp"
@@ -218,7 +218,8 @@
       "chunky, gooey brownie cookies… these are rich, decadent, fudgy perfection! if you're a triple chocolate lover, you've officially found your match. and the best part? they're gluten free, grain free, and refined sugar free.",
       "this is definitely one of my more indulgent recipes — the one you make when you're craving dark chocolate flavour and that gooey brownie centre. they went viral on social media for a reason. the texture is unreal, and they're surprisingly forgiving to make.",
       "these gluten free brownie cookies have crisp edges that hold everything together, with soft, fudgy centres loaded with melty pools of chocolate. they truly taste like something you'd get from a bakery, yet the ingredient list is simple and more wholesome.",
-      "they're perfect for dinner parties, festive spreads, birthdays, or anytime you want a dessert that looks impressive but doesn't require complicated steps. if you want a chocolate dessert that feels indulgent without traditional flour or refined sugar, this is it."
+      "they're perfect for dinner parties, festive spreads, birthdays, or anytime you want a dessert that looks impressive but doesn't require complicated steps. if you want a chocolate dessert that feels indulgent without traditional flour or refined sugar, this is it.",
+      "Looking for more gluten free chocolate bakes? Check out my <a href=\"banana-brownies.html\">3 ingredient banana brownies</a> or <a href=\"chocolate-chip-banana-bread-bars.html\">chocolate chip banana bread bars</a>."
     ]
   },
   "faq": [

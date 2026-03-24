@@ -11,7 +11,7 @@
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/chocolate-chip-banana-bread-bars/chocolate-chip-banana-bread-bars-thumbnail.webp",
+      "src": "images/recipes/chocolate-chip-banana-bread-bars/chocolate-chip-banana-bread-bars-card-300px.webp",
       "srcset": {
         "300": "images/recipes/chocolate-chip-banana-bread-bars/chocolate-chip-banana-bread-bars-thumbnail.webp",
         "600": "images/recipes/chocolate-chip-banana-bread-bars/chocolate-chip-banana-bread-bars-thumbnail.webp"
@@ -224,7 +224,8 @@
       "this is hands down one of my all-time favourite desserts i've developed. they have that soft, cozy banana bread texture with pockets of melty chocolate chips throughout, giving you the best of both worlds in every single bite.",
       "if you have overripe bananas sitting on your counter, this is your sign to make these healthier chocolate chip banana bread bars immediately. the riper the bananas, the better the flavour and natural sweetness.",
       "i've added olive oil to these chocolate chip banana bread bars — and if you haven't baked with olive oil before and feel unsure, trust me on this one. it adds a subtle richness with a polyphenol-dense undertone that pairs beautifully with the sweetness of the bananas and chocolate. you don't taste it directly; it simply elevates the overall flavour.",
-      "these gluten free chocolate chip banana bread bars are simple, comforting, and guaranteed to disappear quickly hehe."
+      "these gluten free chocolate chip banana bread bars are simple, comforting, and guaranteed to disappear quickly hehe.",
+      "Looking for another gluten free indulgent bake? Check out my <a href=\"gluten-free-brownie-cookies.html\">brownie cookies</a> or <a href=\"gluten-free-vanilla-white-chocolate-brownies.html\">white chocolate brownies</a>."
     ]
   },
   "faq": [

@@ -39,8 +39,27 @@
     "unit": "truffles"
   },
   "difficulty": "Easy",
-  "categories": ["No-Bake", "Vegan", "Gluten-Free", "Dairy-Free", "Paleo", "Refined Sugar-Free"],
-  "tags": ["coconut", "coconut-truffles", "no-bake", "vegan", "gluten-free", "dairy-free", "paleo", "refined-sugar-free", "3-ingredient", "healthy-dessert", "meal-prep"],
+  "categories": [
+    "No-Bake",
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Paleo",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "coconut",
+    "coconut-truffles",
+    "no-bake",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "paleo",
+    "refined-sugar-free",
+    "3-ingredient",
+    "healthy-dessert",
+    "meal-prep"
+  ],
   "nutrition": {
     "calories": 140,
     "protein": "1g",
@@ -50,18 +69,61 @@
     "sugar": "5g"
   },
   "ingredients": [
-    { "amount": "210", "unit": "g", "ingredient": "condensed coconut milk", "notes": "" },
-    { "amount": "70", "unit": "g", "ingredient": "coconut butter", "notes": "solid" },
-    { "amount": "165", "unit": "g", "ingredient": "desiccated coconut", "notes": "plus extra for rolling" }
+    {
+      "amount": "210",
+      "unit": "g",
+      "ingredient": "condensed coconut milk",
+      "notes": ""
+    },
+    {
+      "amount": "70",
+      "unit": "g",
+      "ingredient": "coconut butter",
+      "notes": "solid"
+    },
+    {
+      "amount": "165",
+      "unit": "g",
+      "ingredient": "desiccated coconut",
+      "notes": "plus extra for rolling"
+    }
   ],
   "instructions": [
-    { "step": 1, "text": "In a bowl measure out the coconut butter and melt it.", "image": "" },
-    { "step": 2, "text": "Pour in the condensed coconut milk and mix with the coconut butter until combined.", "image": "" },
-    { "step": 3, "text": "Add in the desiccated coconut and mix.", "image": "" },
-    { "step": 4, "text": "Shape into balls — batter will be slightly sticky but malleable.", "image": "" },
-    { "step": 5, "text": "Roll each ball in extra desiccated coconut.", "image": "" },
-    { "step": 6, "text": "Place in the freezer for 15 minutes until they look set.", "image": "" },
-    { "step": 7, "text": "Enjoy!!", "image": "" }
+    {
+      "step": 1,
+      "text": "In a bowl measure out the coconut butter and melt it.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Pour in the condensed coconut milk and mix with the coconut butter until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add in the desiccated coconut and mix.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Shape into balls — batter will be slightly sticky but malleable.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Roll each ball in extra desiccated coconut.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Place in the freezer for 15 minutes until they look set.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Enjoy!!",
+      "image": ""
+    }
   ],
   "notes": [
     "Let each ball sit out at room temperature for a few minutes before enjoying.",
@@ -71,7 +133,14 @@
   "seo": {
     "metaTitle": "3 Ingredient Coconut Truffles (No-Bake & Dairy-Free) | Yourwellnessgirly",
     "metaDescription": "These healthy 3-ingredient coconut truffles are no-bake, simple to make, and packed with coconut flavour. The perfect treat for when you want something quick and wholesome.",
-    "keywords": ["coconut truffles", "3 ingredient coconut truffles", "no-bake coconut truffles", "vegan coconut truffles", "dairy-free truffles", "healthy coconut dessert"],
+    "keywords": [
+      "coconut truffles",
+      "3 ingredient coconut truffles",
+      "no-bake coconut truffles",
+      "vegan coconut truffles",
+      "dairy-free truffles",
+      "healthy coconut dessert"
+    ],
     "canonicalUrl": "/recipes/coconut-truffles"
   },
   "social": {
@@ -81,7 +150,16 @@
     },
     "instagram": {
       "caption": "3 ingredients. no oven. pure coconut heaven 🥥 these no-bake coconut truffles are so easy and SO good — raffaello vibes but dairy free! recipe on the blog!",
-      "hashtags": ["#coconuttruffles", "#nobake", "#3ingredients", "#healthydesserts", "#vegan", "#dairyfree", "#coconut", "#yourwellnessgirly"]
+      "hashtags": [
+        "#coconuttruffles",
+        "#nobake",
+        "#3ingredients",
+        "#healthydesserts",
+        "#vegan",
+        "#dairyfree",
+        "#coconut",
+        "#yourwellnessgirly"
+      ]
     }
   },
   "story": {
@@ -90,7 +168,8 @@
       "if you're a coconut lover, then you've just found your perfect match in dessert form. these 3-ingredient coconut truffles are exactly what you need. they're no-bake, easy to make, and packed with coconut goodness in every single bite.",
       "they have the perfect truffle texture — firm on the outside, soft on the inside, with just enough crunch from the desiccated coconut. if you're a raffaello fan, you'll definitely love these too. they have a very similar vibe, but are dairy free and made with simpler, better-for-you ingredients.",
       "with coconut in all three ingredients, they're packed with flavour. they're the ideal healthy no bake coconut treat for when you want something sweet without the hassle. you can store them in the freezer, which makes these coconut truffles perfect for meal prep as well.",
-      "this 3-ingredient coconut truffle recipe is truly foolproof and such a crowd pleaser. they make a delicious addition to any dinner table or party spread."
+      "this 3-ingredient coconut truffle recipe is truly foolproof and such a crowd pleaser. they make a delicious addition to any dinner table or party spread.",
+      "Love no bake treats? My <a href=\"brownie-batter-bars.html\">brownie batter bars</a> and <a href=\"matcha-ganache-bars.html\">matcha ganache bars</a> should be next on your list."
     ]
   },
   "faq": [

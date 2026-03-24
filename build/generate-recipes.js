@@ -174,6 +174,25 @@ class RecipeGenerator {
         };
     }
 
+    generateFaqSchema(recipe) {
+        if (!recipe.faq || recipe.faq.length === 0) return '';
+
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": recipe.faq.map(item => ({
+                "@type": "Question",
+                "name": item.question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.answer
+                }
+            }))
+        };
+
+        return `<script type="application/ld+json">\n    ${JSON.stringify(schema, null, 2)}\n    <\/script>`;
+    }
+
     generateBreadcrumbSchema(recipe) {
         return {
             "@context": "https://schema.org",
@@ -356,7 +375,12 @@ class RecipeGenerator {
     }
 
     renderIngredients(recipe) {
-        return recipe.ingredients.map((ingredient, index) => {
+        // Flatten grouped format ({ group, items }) into a flat array
+        const flatIngredients = recipe.ingredients[0] && recipe.ingredients[0].group
+            ? recipe.ingredients.flatMap(group => group.items)
+            : recipe.ingredients;
+
+        return flatIngredients.map((ingredient, index) => {
             const amount = ingredient.amount || '';
             const unit = ingredient.unit || '';
             const notes = ingredient.notes ? ` <span class="ingredient-notes">(${ingredient.notes})</span>` : '';
@@ -522,6 +546,7 @@ class RecipeGenerator {
         // JSON-LD Schemas
         html = html.replace('{{RECIPE_SCHEMA}}', JSON.stringify(recipeSchema, null, 2));
         html = html.replace('{{BREADCRUMB_SCHEMA}}', JSON.stringify(breadcrumbSchema, null, 2));
+        html = html.replace('{{FAQ_SCHEMA}}', this.generateFaqSchema(recipe));
 
         // Recipe content
         html = html.replace(/{{RECIPE_TITLE}}/g, recipe.title);

@@ -11,14 +11,14 @@
       "height": 600
     },
     "thumbnail": {
-      "src": "images/recipes/apple-fritters/apple-fritters-card-300px.webp",
+      "src": "images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp",
       "srcset": {
-        "300": "images/recipes/apple-fritters/apple-fritters-card-300px.webp",
-        "600": "images/recipes/apple-fritters/apple-fritters-card-600px.webp"
+        "400": "images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp",
+        "600": "images/recipes/apple-fritters/apple-fritters-thumbnail-600px.webp"
       },
       "alt": "Healthy sugar-free apple fritters on a baking tray",
-      "width": 300,
-      "height": 225
+      "width": 400,
+      "height": 300
     },
     "thumbnail_400": "images/recipes/apple-fritters/apple-fritters-card-300px.webp",
     "thumbnail_600": "images/recipes/apple-fritters/apple-fritters-card-600px.webp",

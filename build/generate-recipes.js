@@ -553,7 +553,7 @@ class RecipeGenerator {
         let html = template;
 
         // Meta tags
-        html = html.replace(/{{TITLE}}/g, recipe.seo.metaTitle || `${recipe.title} | Yourwellnessgirly`);
+        html = html.replace(/{{TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
         html = html.replace(/{{CANONICAL_URL}}/g, `https://yourwellnessgirly.com/recipes/${recipe.slug}`);
         html = html.replace(/{{OG_TITLE}}/g, recipe.seo.metaTitle || recipe.title);

@@ -10,16 +10,37 @@ class RecipeManager {
         this.loaded = false;
     }
 
-    // Load recipe data from individual JSON files via manifest
+    // Load only specific recipes by slug — used by homepage to avoid fetching all 200+
+    async loadBySlug(slugs) {
+        const promises = slugs.map(slug => {
+            const cached = this.recipes.find(r => r.slug === slug);
+            if (cached) return Promise.resolve(cached);
+            return fetch(`./data/recipes/${slug}.json`).then(r => r.json());
+        });
+        const fetched = await Promise.all(promises);
+        // Merge into cache without duplicates
+        fetched.forEach(recipe => {
+            if (!this.recipes.find(r => r.slug === recipe.slug)) {
+                this.recipes.push(recipe);
+            }
+        });
+        return fetched;
+    }
+
+    // Load ALL recipes from manifest — only used for search and recipe index
     async loadRecipes() {
+        if (this.loaded) return { recipes: this.recipes, categories: this.categories };
         try {
             const manifestResponse = await fetch('./data/recipe-manifest.json');
             const manifest = await manifestResponse.json();
             this.categories = manifest.categories;
 
-            const recipePromises = manifest.recipes.map(slug =>
-                fetch(`./data/recipes/${slug}.json`).then(r => r.json())
-            );
+            const recipePromises = manifest.recipes.map(slug => {
+                // Reuse anything already cached from loadBySlug
+                const cached = this.recipes.find(r => r.slug === slug);
+                if (cached) return Promise.resolve(cached);
+                return fetch(`./data/recipes/${slug}.json`).then(r => r.json());
+            });
             this.recipes = await Promise.all(recipePromises);
             this.loaded = true;
             return { recipes: this.recipes, categories: this.categories };
@@ -97,14 +118,17 @@ class RecipeManager {
         // Use specific alt text if available, otherwise fall back to title
         const altText = (thumb && thumb.alt) || (hero && hero.alt) || recipe.title;
 
+        const thumbWidth = (thumb && thumb.width) || 400;
+        const thumbHeight = (thumb && thumb.height) || 300;
+
         const cardHTML = `
             <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">
                 <img src="${thumbnailSrc}"
                      ${srcsetAttr}
                      ${sizesAttr}
                      alt="${altText}"
-                     width="400"
-                     height="267"
+                     width="${thumbWidth}"
+                     height="${thumbHeight}"
                      loading="lazy"
                      decoding="async">
                 ${showViralBadge ? `
@@ -177,35 +201,21 @@ class RecipeManager {
     }
 
     // Update homepage with recipe data
+    // Only fetches the specific recipes shown — scales to 200+ recipes with no performance hit
     async updateHomepage() {
-        if (!this.loaded) {
-            await this.loadRecipes();
-        }
+        const popularSlugs = ['cinnamon-roll-overnight-oats', 'matcha-marshmallows', 'chocolate-chip-banana-bread-bars', 'blueberry-fritters'];
+        const noBakeSlugs = ['brownie-batter-bars', 'coconut-truffles', 'matcha-ganache-bars', 'chocolate-banana-freezer-fudge'];
+        const needed = [...new Set([...popularSlugs, ...noBakeSlugs])];
 
-        // Update viral recipes section
-        const viralContainer = document.getElementById('viral-recipes');
-        if (viralContainer) {
-            const viralRecipes = this.getViralRecipes(4);
-            const viralCounts = {
-                'apple-fritters': '15M+',
-                'no-bake-lemon-bars': '4M+',
-                'gluten-free-brownie-cookies': '500K+',
-                'mango-yogurt-bites': '400K+'
-            };
-            viralContainer.innerHTML = viralRecipes.map((recipe) =>
-                this.generateRecipeCard(recipe, {
-                    cardClass: 'recipe-card viral-card',
-                    showViralBadge: true,
-                    viralCount: viralCounts[recipe.slug] || ''
-                })
-            ).join('');
-        }
+        // Fetch only these 8 recipes — not the entire library
+        await this.loadBySlug(needed);
+
+        // viral-recipes is hardcoded in HTML for LCP performance — skip JS update
 
         // Update popular recipes section
         const popularContainer = document.getElementById('popular-recipes');
         if (popularContainer) {
-            const popularSlugs = ['cinnamon-roll-overnight-oats', 'matcha-marshmallows', 'chocolate-chip-banana-bread-bars', 'blueberry-fritters'];
-            const popularRecipes = popularSlugs.map(slug => this.recipes.find(r => r.slug === slug)).filter(Boolean);
+            const popularRecipes = popularSlugs.map(slug => this.getRecipe(slug)).filter(Boolean);
             popularContainer.innerHTML = popularRecipes.map(recipe =>
                 this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');
@@ -214,8 +224,7 @@ class RecipeManager {
         // Update no bake favorites section
         const recentContainer = document.getElementById('recent-recipes');
         if (recentContainer) {
-            const noBakeSlugs = ['brownie-batter-bars', 'coconut-truffles', 'matcha-ganache-bars', 'chocolate-banana-freezer-fudge'];
-            const noBakeRecipes = noBakeSlugs.map(slug => this.recipes.find(r => r.slug === slug)).filter(Boolean);
+            const noBakeRecipes = noBakeSlugs.map(slug => this.getRecipe(slug)).filter(Boolean);
             recentContainer.innerHTML = noBakeRecipes.map(recipe =>
                 this.generateRecipeCard(recipe, { cardClass: 'recipe-card' })
             ).join('');
@@ -246,53 +255,69 @@ class RecipeManager {
         }
     }
 
-    // Initialize recipe functionality
+    // Initialize recipe functionality — does NOT eagerly load all recipes
     async init() {
-        await this.loadRecipes();
-
-        // Update search functionality
         this.initializeSearch();
-
-        // Add category filtering
         this.initializeCategoryFiltering();
     }
 
-    // Initialize search functionality
+    // Initialize search functionality — lazy-loads all recipes only when search opens
     initializeSearch() {
         const searchInput = document.getElementById('searchInput');
         const searchResults = document.getElementById('searchResults');
 
-        if (searchInput && searchResults) {
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value.trim();
+        if (!searchInput || !searchResults) return;
 
-                if (query === '') {
-                    searchResults.innerHTML = `
-                        <div style="text-align: center; color: #666; padding: 1rem;">
-                            Start typing to search recipes...
-                        </div>
-                    `;
-                    return;
-                }
+        // Load all recipes the first time the user opens search, not on page load
+        searchInput.addEventListener('focus', async () => {
+            if (this.loaded) return;
+            searchResults.innerHTML = `
+                <div style="text-align: center; color: #666; padding: 1rem;">
+                    Loading recipes...
+                </div>
+            `;
+            await this.loadRecipes();
+            // If user already typed something while loading, run the search now
+            if (searchInput.value.trim()) {
+                searchInput.dispatchEvent(new Event('input'));
+            } else {
+                searchResults.innerHTML = `
+                    <div style="text-align: center; color: #666; padding: 1rem;">
+                        Start typing to search recipes...
+                    </div>
+                `;
+            }
+        }, { once: true }); // only fires once — after that, all recipes are cached
 
-                const results = this.searchRecipes(query);
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.trim();
 
-                if (results.length === 0) {
-                    searchResults.innerHTML = `
-                        <div style="text-align: center; color: #666; padding: 1rem;">
-                            No recipes found for "${query}"
-                        </div>
-                    `;
-                } else {
-                    searchResults.innerHTML = results.map(recipe => `
-                        <a href="./recipes/${recipe.slug}.html" class="search-result-item">
-                            <div class="search-result-title">${recipe.title}</div>
-                            <div class="search-result-description">${recipe.description}</div>
-                        </a>
-                    `).join('');
-                }
-            });
-        }
+            if (query === '') {
+                searchResults.innerHTML = `
+                    <div style="text-align: center; color: #666; padding: 1rem;">
+                        Start typing to search recipes...
+                    </div>
+                `;
+                return;
+            }
+
+            const results = this.searchRecipes(query);
+
+            if (results.length === 0) {
+                searchResults.innerHTML = `
+                    <div style="text-align: center; color: #666; padding: 1rem;">
+                        No recipes found for "${query}"
+                    </div>
+                `;
+            } else {
+                searchResults.innerHTML = results.map(recipe => `
+                    <a href="./recipes/${recipe.slug}.html" class="search-result-item">
+                        <div class="search-result-title">${recipe.title}</div>
+                        <div class="search-result-description">${recipe.description}</div>
+                    </a>
+                `).join('');
+            }
+        });
     }
 
     // Initialize category filtering
@@ -328,7 +353,7 @@ class RecipeManager {
 // Create global instance
 window.recipeManager = new RecipeManager();
 
-// Auto-initialize on page load
+// Auto-initialize on page load — no eager recipe fetching
 document.addEventListener('DOMContentLoaded', () => {
     window.recipeManager.init();
 });

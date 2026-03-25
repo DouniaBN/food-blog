@@ -15,6 +15,9 @@ The same data lives in up to 4 places and they must stay in sync:
 3. The hardcoded `recipes` array in `recipe-index.html` — filter/index page
 4. `data/recipe-manifest.json` — only needed if slug or order changes
 
+**Viral recipes have an additional 5th sync point:**
+The "viral on socials" section on the homepage is hardcoded directly in `index.html` (around line 552) for Core Web Vitals performance (LCP). If a recipe's `viral: true` status, title, timing, image, or viral count changes, **also update the hardcoded cards in `index.html`**. The four current viral recipes are: `apple-fritters` (15M+), `no-bake-lemon-bars` (4M+), `gluten-free-brownie-cookies` (500K+), `mango-yogurt-bites` (400K+). The first card must keep `loading="eager" fetchpriority="high"` — do not change it to `loading="lazy"`.
+
 Never assume only one place needs updating. Always check and ask.
 
 ---
@@ -80,8 +83,18 @@ recipe-index.html        ← hardcoded recipes array MUST be updated manually
 
 ### How it works
 - **Build script** (`build/generate-recipes.js`): reads `recipes-data/[slug].json` → outputs `recipes/[slug].html`
-- **Live site JS** (`recipe-manager.js`): reads `data/recipe-manifest.json` for slug list → fetches each `data/recipes/[slug].json` → renders homepage/index cards
+- **Live site JS** (`recipe-manager.js`): has two loading modes:
+  - `loadBySlug(slugs)` — fetches only a specific list of recipe files. Used by the homepage so it only loads the 8 recipes it actually shows, regardless of how many recipes exist in total. Scales to 200+ recipes with no performance cost.
+  - `loadRecipes()` — fetches all recipes via manifest. Used by the recipe index page and lazily by search (only triggers when the user first clicks into the search box).
 - **Recipe index page** (`recipe-index.html`): reads from its own hardcoded `recipes` array → powers filters, search, sort, and recipe count display
+
+### Changing which recipes appear in "popular this week" or "no bake favorites" on the homepage
+These sections are controlled by two slug arrays inside `updateHomepage()` in `js/recipe-manager.js`:
+```js
+const popularSlugs = ['cinnamon-roll-overnight-oats', 'matcha-marshmallows', 'chocolate-chip-banana-bread-bars', 'blueberry-fritters'];
+const noBakeSlugs = ['brownie-batter-bars', 'coconut-truffles', 'matcha-ganache-bars', 'chocolate-banana-freezer-fudge'];
+```
+To swap a recipe in or out of either section, update the relevant array. No other files need changing for this.
 
 ### NEVER edit `data/recipes.json` directly — it is now legacy/unused.
 

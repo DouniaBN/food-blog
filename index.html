@@ -52,6 +52,12 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://yourwellnessgirly.com/" />
 
+    <!-- Preload LCP image (first viral recipe card) -->
+    <link rel="preload" as="image"
+      href="images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp"
+      imagesrcset="images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp 400w, images/recipes/apple-fritters/apple-fritters-thumbnail-600px.webp 600w"
+      imagesizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px" />
+
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/profile/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/profile/favicon-32x32.png">
@@ -59,19 +65,21 @@
     <link rel="icon" type="image/png" sizes="192x192" href="images/profile/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="images/profile/android-chrome-512x512.png">
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
+    <!-- Font Awesome - non-render-blocking -->
+    <link rel="preload" as="style"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+      onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
 
-    <link
+    <!-- Google Fonts - non-render-blocking with preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&family=Pinyon+Script&display=swap"
-      rel="stylesheet"
-    />
+      onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&family=Pinyon+Script&display=swap"></noscript>
     <link rel="stylesheet" href="style.css?v=20260111" />
     <style>
       /* Temporary fallback for filter images until real images are added */
@@ -388,6 +396,12 @@
         background-color: #f8f9fa;
         border-radius: 4px;
       }
+
+      /* Reserve space for JS-populated grids to prevent CLS */
+      #popular-recipes,
+      #recent-recipes {
+        min-height: 350px;
+      }
     </style>
 
 
@@ -536,7 +550,63 @@
         <section class="viral-on-social">
           <h2 class="viral-heading">viral on socials</h2>
           <div class="viral-grid" id="viral-recipes">
-            <!-- Content loaded dynamically by recipe manager -->
+            <!-- Hardcoded for LCP performance — update here if viral recipes change -->
+            <a href="./recipes/apple-fritters.html" class="recipe-card viral-card" data-recipe-id="apple-fritters">
+              <img src="images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp"
+                   srcset="images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp 400w, images/recipes/apple-fritters/apple-fritters-thumbnail-600px.webp 600w"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"
+                   alt="Healthy sugar-free apple fritters on a baking tray"
+                   width="400" height="300"
+                   loading="eager" fetchpriority="high" decoding="async">
+              <div class="viral-badge"><i class="fas fa-fire"></i><span>15M+</span></div>
+              <div class="recipe-overlay"><h3>Healthy Sugar-Free Apple Fritters (Gluten-Free &amp; Naturally Sweetened)</h3><div class="read-recipe">→ Read Recipe</div></div>
+              <div class="recipe-info">
+                <h3>Healthy Sugar-Free Apple Fritters (Gluten-Free &amp; Naturally Sweetened)</h3>
+                <div class="recipe-meta"><span class="time"><i class="far fa-clock"></i> 24 minutes</span><span class="difficulty">Easy</span></div>
+              </div>
+            </a>
+            <a href="./recipes/no-bake-lemon-bars.html" class="recipe-card viral-card" data-recipe-id="no-bake-lemon-bars">
+              <img src="images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-300px.webp"
+                   srcset="images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-thumbnail.webp 300w, images/recipes/no-bake-lemon-bars/no-bake-lemon-bars-card-600px.webp 600w"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"
+                   alt="A stack of no-bake lemon bars with a creamy white chocolate lemon top and golden almond base, garnished with lemon zest on parchment paper"
+                   width="300" height="225"
+                   loading="lazy" decoding="async">
+              <div class="viral-badge"><i class="fas fa-fire"></i><span>4M+</span></div>
+              <div class="recipe-overlay"><h3>No Bake Lemon Bars</h3><div class="read-recipe">→ Read Recipe</div></div>
+              <div class="recipe-info">
+                <h3>No Bake Lemon Bars</h3>
+                <div class="recipe-meta"><span class="time"><i class="far fa-clock"></i> 50 minutes (includes freezing)</span><span class="difficulty">Easy</span></div>
+              </div>
+            </a>
+            <a href="./recipes/gluten-free-brownie-cookies.html" class="recipe-card viral-card" data-recipe-id="gluten-free-brownie-cookies">
+              <img src="images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-300px.webp"
+                   srcset="images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-thumbnail.webp 300w, images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-600px.webp 600w"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"
+                   alt="Gluten free brownie cookies on parchment paper showing the crinkled dark chocolate surface with sea salt flakes"
+                   width="400" height="400"
+                   loading="lazy" decoding="async">
+              <div class="viral-badge"><i class="fas fa-fire"></i><span>500K+</span></div>
+              <div class="recipe-overlay"><h3>Gluten Free Brownie Cookies</h3><div class="read-recipe">→ Read Recipe</div></div>
+              <div class="recipe-info">
+                <h3>Gluten Free Brownie Cookies</h3>
+                <div class="recipe-meta"><span class="time"><i class="far fa-clock"></i> 37 minutes</span><span class="difficulty">Easy</span></div>
+              </div>
+            </a>
+            <a href="./recipes/mango-yogurt-bites.html" class="recipe-card viral-card" data-recipe-id="mango-yogurt-bites">
+              <img src="images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp"
+                   srcset="images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp 400w, images/recipes/mango-yogurt-bites/mango-bites-thumbnail-600.webp 600w"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 300px"
+                   alt="No-bake mango yogurt chocolate bites stacked showing dark chocolate shell with mango yogurt filling"
+                   width="400" height="400"
+                   loading="lazy" decoding="async">
+              <div class="viral-badge"><i class="fas fa-fire"></i><span>400K+</span></div>
+              <div class="recipe-overlay"><h3>No-Bake Mango Yogurt Chocolate Bites</h3><div class="read-recipe">→ Read Recipe</div></div>
+              <div class="recipe-info">
+                <h3>No-Bake Mango Yogurt Chocolate Bites</h3>
+                <div class="recipe-meta"><span class="time"><i class="far fa-clock"></i> 2 hours 10 minutes</span><span class="difficulty">Easy</span></div>
+              </div>
+            </a>
           </div>
         </section>
       </section>
@@ -826,20 +896,7 @@
     <!-- Homepage Recipe Loading -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
-            // Clear existing content and show loading
-            const viralContainer = document.getElementById('viral-recipes');
-            const popularContainer = document.getElementById('popular-recipes');
-            const recentContainer = document.getElementById('recent-recipes');
-
-            if (viralContainer) {
-                viralContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading viral recipes...</div>';
-            }
-            if (popularContainer) {
-                popularContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading popular recipes...</div>';
-            }
-            if (recentContainer) {
-                recentContainer.innerHTML = '<div style="text-align: center; color: #666; padding: 2rem; grid-column: 1/-1;">Loading recent recipes...</div>';
-            }
+            // viral-recipes is hardcoded in HTML for LCP — do not clear it
 
             // Load and display recipes on homepage
             try {

@@ -309,8 +309,24 @@
         display: none;
       }
     </style>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8882266379366531"
-       crossorigin="anonymous"></script>
+  <script>
+  (function() {
+    var adLoaded = false;
+    function loadAdSense() {
+      if (adLoaded) return;
+      adLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8882266379366531';
+      document.head.appendChild(s);
+    }
+    ['scroll', 'click', 'keydown', 'touchstart'].forEach(function(e) {
+      window.addEventListener(e, loadAdSense, { once: true, passive: true });
+    });
+    setTimeout(loadAdSense, 5000);
+  })();
+</script>
   </head>
   <body>
     <header class="main-header">

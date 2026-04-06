@@ -31,7 +31,7 @@
     "cookTime": "PT22M",
     "totalTime": "PT37M",
     "prepTimeDisplay": "15 minutes",
-    "cookTimeDisplay": "20-22 minutes",
+    "cookTimeDisplay": "20 to 22 minutes",
     "totalTimeDisplay": "37 minutes"
   },
   "servings": {
@@ -138,12 +138,12 @@
     },
     {
       "step": 2,
-      "text": "In a bowl add the mashed bananas and 2 eggs — whisk together.",
+      "text": "In a bowl add the mashed bananas and 2 eggs. Whisk together until combined.",
       "image": ""
     },
     {
       "step": 3,
-      "text": "Add in the vanilla extract and olive oil — mix until combined.",
+      "text": "Add in the vanilla extract and olive oil. Mix until combined.",
       "image": ""
     },
     {
@@ -163,12 +163,12 @@
     },
     {
       "step": 7,
-      "text": "Line an 8 inch/20 cm square baking pan and pour in the batter. Top with more chocolate chips or chunks for extra richness.",
+      "text": "Line an 8 inch / 20 cm square baking pan and pour in the batter. Top with more chocolate chips or chunks for extra richness.",
       "image": ""
     },
     {
       "step": 8,
-      "text": "Bake for 20–22 minutes until the edges are golden brown.",
+      "text": "Bake for 20 to 22 minutes until the edges are golden brown.",
       "image": ""
     },
     {
@@ -178,11 +178,13 @@
     }
   ],
   "notes": [
-    "The more overripe the bananas, the sweeter these bars will be"
+    "The more overripe the bananas, the sweeter and more flavourful these bars will be.",
+    "Let them cool fully before slicing for the cleanest cuts.",
+    "Top with extra chocolate chunks before baking for gooey melted pockets throughout."
   ],
   "equipment": [
     "Oven",
-    "8 inch/20 cm square baking pan",
+    "8 inch / 20 cm square baking pan",
     "Mixing bowl",
     "Whisk"
   ],
@@ -200,11 +202,11 @@
   },
   "social": {
     "pinterest": {
-      "description": "Chocolate chip banana bread bars that are refined sugar free and gluten free! Moist, rich, and life changing. 🍌🍫",
+      "description": "Chocolate chip banana bread bars that are refined sugar free and gluten free! Moist, rich, and life changing 🍌🍫",
       "title": "Chocolate Chip Banana Bread Bars (Refined Sugar Free)"
     },
     "instagram": {
-      "caption": "if you have overripe bananas sitting on your counter, this is your sign 🍌🍫 these chocolate chip banana bread bars are moist, rich, and gluten + refined sugar free — recipe on the blog!",
+      "caption": "if you have overripe bananas sitting on your counter, this is your sign 🍌🍫 these chocolate chip banana bread bars are moist, rich, and gluten + refined sugar free! recipe on the blog!",
       "hashtags": [
         "#bananabread",
         "#bananabreadbars",
@@ -219,39 +221,74 @@
   "story": {
     "subtitle": "moist, rich, and naturally sweetened",
     "paragraphs": [
-      "if you love chocolate chip cookies and banana bread, these chocolate chip banana bread bars are about to become one of your new favourite recipes. they're gluten free and refined sugar free — but you would never guess from the taste.",
-      "honestly, there's no better word to describe these bars than… moist. they're rich and decadent without feeling overly indulgent, making them a wholesome yet satisfying sweet treat.",
-      "this is hands down one of my all-time favourite desserts i've developed. they have that soft, cozy banana bread texture with pockets of melty chocolate chips throughout, giving you the best of both worlds in every single bite.",
-      "if you have overripe bananas sitting on your counter, this is your sign to make these healthier chocolate chip banana bread bars immediately. the riper the bananas, the better the flavour and natural sweetness.",
-      "i've added olive oil to these chocolate chip banana bread bars — and if you haven't baked with olive oil before and feel unsure, trust me on this one. it adds a subtle richness with a polyphenol-dense undertone that pairs beautifully with the sweetness of the bananas and chocolate. you don't taste it directly; it simply elevates the overall flavour.",
-      "these gluten free chocolate chip banana bread bars are simple, comforting, and guaranteed to disappear quickly hehe.",
-      "Looking for another gluten free indulgent bake? Check out my <a href=\"gluten-free-brownie-cookies.html\">brownie cookies</a> or <a href=\"gluten-free-vanilla-white-chocolate-brownies.html\">white chocolate brownies</a>."
+      "if you love chocolate chip cookies and banana bread, these chocolate chip banana bread bars are about to become one of your new favourite recipes. they're gluten free and refined sugar free, but you would never guess from the taste. they come out incredibly moist, with that cozy, soft banana bread crumb you love and pockets of melty chocolate in every single bite.",
+      "honestly, there's no better word to describe these bars than moist. not in a wet or dense way, but in that perfect, soft, cloud-like way that makes banana bread so irresistible. they're rich and decadent without feeling overly indulgent, making them a wholesome yet satisfying treat that doesn't compromise on any of the things you actually want from a baked good.",
+      "this is hands down one of my all-time favourite bakes i've developed. if you have overripe bananas sitting on your counter looking sad, this is your sign to turn them into something amazing. the riper the bananas, the sweeter the bars will be and the more that classic banana bread flavour comes through.",
+      "i've added olive oil to these bars, and if you haven't baked with olive oil before, trust me on this one. it adds a subtle richness and a depth of flavour that you can't quite put your finger on but that makes you keep going back for another slice. olive oil is also packed with polyphenols and monounsaturated fats, making it a genuinely nourishing swap from butter that keeps the bars completely dairy free. you don't taste it directly; it simply elevates everything.",
+      "the combination of almond flour and oat flour is what makes the texture so special. the almond flour contributes healthy fats and a slightly nutty richness, while the oat flour adds structure and that classic bready crumb. together they create a texture that's far more satisfying than a lot of gluten-free bakes, which can often turn out too dense or too dry.",
+      "coconut sugar is used here as the refined sugar free sweetener. it has a slightly caramel-like flavour that pairs really beautifully with banana and chocolate, and it has a lower glycemic index compared to regular white sugar, meaning the sweetness feels a little more balanced and less spikey.",
+      "these gluten free chocolate chip banana bread bars are simple, comforting, and guaranteed to disappear quickly. looking for another gluten free indulgent bake? check out my <a href=\"gluten-free-brownie-cookies.html\">brownie cookies</a> or <a href=\"gluten-free-vanilla-white-chocolate-brownies.html\">white chocolate brownies</a>."
     ]
   },
   "faq": [
     {
       "question": "How do I store chocolate chip banana bread bars?",
-      "answer": "Store chocolate chip banana bread bars in an airtight container at room temperature for up to 2 days or in the refrigerator for up to 5 days. Allow them to come to room temperature before serving for the best texture."
+      "answer": "Store in an airtight container at room temperature for up to 2 days or in the refrigerator for up to 5 days. Allow them to come to room temperature before serving for the best soft texture. You can also warm them briefly in the microwave for 15 to 20 seconds to revive that fresh-from-the-oven feel."
     },
     {
       "question": "Can I freeze banana bread bars?",
-      "answer": "Yes, chocolate chip banana bread bars freeze very well. Slice them first, then store in an airtight container or freezer-safe bag for up to 2 months. Defrost at room temperature or warm slightly before serving."
+      "answer": "Yes, these freeze very well. Slice them first, then store in an airtight freezer-safe container or individual zip-lock bags for up to 2 months. Defrost at room temperature for about 30 minutes or warm slightly in the microwave. They come out tasting just as good as fresh."
     },
     {
       "question": "Are these chocolate chip banana bread bars gluten free?",
-      "answer": "Yes, these chocolate chip banana bread bars are gluten free as long as you use certified gluten-free oat flour and chocolate chips. Always check packaging labels to avoid cross-contamination if you are strictly gluten free or celiac."
+      "answer": "Yes, these bars are gluten free as long as you use certified gluten-free oat flour and make sure your chocolate chips are also certified gluten free. Oat flour can be processed in facilities that also handle wheat, so check the label if you have coeliac disease or a serious gluten sensitivity."
     },
     {
       "question": "Can I substitute the olive oil in banana bread bars?",
-      "answer": "You can substitute the olive oil with melted coconut oil or your preferred neutral oil."
+      "answer": "Yes. Melted coconut oil is the easiest substitute and gives a slightly different but still delicious result. Avocado oil or another neutral-tasting oil also works well. Melted butter can be used if dairy is not a concern, though the bars won't be dairy free. Each oil will slightly change the flavour profile, but olive oil gives the best overall result."
     },
     {
       "question": "What type of chocolate chips should I use?",
-      "answer": "You can use dark chocolate chips, semi-sweet chocolate chips, or refined sugar free chocolate chips depending on your preference. Dark chocolate pairs especially well with the natural sweetness of the bananas."
+      "answer": "Dark chocolate chips pair especially well with the banana and coconut sugar. Semi-sweet chocolate chips also work beautifully. If you need the bars to be fully refined sugar free, look for refined sugar free or coconut sugar sweetened chocolate chips. For an extra indulgent result, use a mix of chocolate chips and chunks so you get some that fully melt and some that hold their shape."
+    },
+    {
+      "question": "Can I use coconut sugar or do I need a different sweetener?",
+      "answer": "Coconut sugar is ideal here because its caramel-like flavour pairs so well with banana bread. Brown sugar can be used as a direct substitute if you're not concerned about refined sugar. Maple syrup or honey can work but will add more moisture to the batter, which may require a small reduction in another liquid ingredient or a slightly longer bake time."
+    },
+    {
+      "question": "Why are my banana bread bars too dense?",
+      "answer": "Dense bars usually come from over-measuring the flour (especially if using cups rather than a scale), over-mixing the batter once the flour is added, or using bananas that weren't ripe enough. Make sure to fold the dry ingredients until just combined, use a kitchen scale for accuracy, and choose overripe bananas for the best rise and texture."
     }
   ],
   "tips": [
-    "The more overripe the bananas, the sweeter these chocolate chip banana bread bars will be."
+    "The more overripe the bananas, the sweeter and more flavourful the bars will be. Heavily spotted or blackened bananas are ideal.",
+    "Fold the dry ingredients in gently until just combined. Over-mixing develops too much gluten in the oat flour and can make the bars dense rather than tender.",
+    "Top with extra chocolate chunks on the surface before baking. As they melt they create beautiful gooey pockets throughout the top of every bar.",
+    "Let the bars cool fully before slicing for the cleanest cuts. They continue to set as they cool and are much easier to slice once completely cooled."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Olive oil",
+      "alternatives": [
+        "Melted coconut oil",
+        "Avocado oil",
+        "Melted butter (not dairy free)"
+      ]
+    },
+    {
+      "ingredient": "Coconut sugar",
+      "alternatives": [
+        "Brown sugar (same quantity)",
+        "Maple syrup (reduce slightly and expect a slightly more moist batter)"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "All-purpose flour (if not gluten free, same quantity)",
+        "Certified gluten free oat flour for strict gluten free"
+      ]
+    }
   ],
   "datePublished": "2026-02-27",
   "dateModified": "2026-02-27",

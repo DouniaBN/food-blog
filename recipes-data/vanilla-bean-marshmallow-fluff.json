@@ -103,23 +103,67 @@
   "faq": [
     {
       "question": "How do I store homemade marshmallow fluff?",
-      "answer": "Store marshmallow fluff in an airtight container in the refrigerator for up to 5 days. It will firm up as it chills, but you can easily soften it by gently warming it in the microwave for a few seconds or placing the container in warm water."
+      "answer": "Store marshmallow fluff in an airtight container in the refrigerator for up to 5 days. It will firm up as it chills, but you can easily soften it by gently warming it in the microwave for a few seconds or placing the container in warm water. Give it a stir after warming to restore the smooth, spreadable texture."
     },
     {
       "question": "What does it mean to bloom gelatin?",
-      "answer": "Blooming gelatin simply means allowing the gelatin powder to absorb liquid before it's heated. This step hydrates the gelatin so it dissolves smoothly and creates the soft, fluffy texture marshmallows are known for."
+      "answer": "Blooming gelatin simply means allowing the gelatin powder to absorb liquid before it's heated. This step hydrates the gelatin so it dissolves smoothly and creates the soft, fluffy texture marshmallows are known for. Skipping this step can result in undissolved gelatin lumps in the final mixture, so make sure to bloom for at least 5 minutes."
     },
     {
       "question": "Can you make marshmallow fluff without corn syrup?",
-      "answer": "Yes, this marshmallow fluff recipe is made without corn syrup and so are my matcha marshmallows."
+      "answer": "Yes, this marshmallow fluff recipe is made without corn syrup and so are my matcha marshmallows. Traditional marshmallow fluff recipes use corn syrup to prevent crystallisation and add body, but maple syrup or honey work beautifully as natural alternatives that keep this recipe refined sugar free."
+    },
+    {
+      "question": "Can I use vanilla extract instead of vanilla bean?",
+      "answer": "Yes, vanilla extract works as a substitute. Use 1 to 1.5 teaspoons of good quality vanilla extract in place of the vanilla bean pod. The flavour will be slightly less complex and intense than real vanilla bean, and you won't get the beautiful little black flecks, but it still tastes absolutely delicious and is a much more affordable option."
+    },
+    {
+      "question": "Why is my marshmallow fluff not thickening?",
+      "answer": "If the fluff isn't thickening, the most likely reason is that the hot liquid wasn't hot enough when added to the bloomed gelatin, or the mixer speed wasn't high enough. Make sure the maple syrup mixture is genuinely hot (steaming, not just warm) before slowly pouring it into the mixing bowl. Then beat on the highest speed your mixer allows and give it the full 8 to 10 minutes. The transformation from liquid to fluffy takes time and patience."
+    },
+    {
+      "question": "Can I make marshmallow fluff without a stand mixer?",
+      "answer": "A stand mixer is the easiest way to make this fluff as the mixture needs sustained high-speed beating for 8 to 10 minutes. A handheld electric mixer also works but can be tiring to hold at that speed for that long. Using a whisk by hand is not suitable as the mixture sets quickly and needs more power than hand whisking can provide."
+    },
+    {
+      "question": "Is this marshmallow fluff suitable for vegans?",
+      "answer": "Unfortunately, this recipe uses gelatin which is animal-derived, so it is not vegan. Agar-agar powder is sometimes suggested as a plant-based substitute, but it behaves very differently to gelatin — it sets firmer and is less stretchy, so it doesn't produce the same soft, pillowy marshmallow texture. If you need a vegan version, aquafaba (the liquid from a can of chickpeas) whipped with cream of tartar is a popular plant-based alternative to gelatin for marshmallow fluff."
+    },
+    {
+      "question": "What can I use marshmallow fluff for?",
+      "answer": "So many things! Spread it on toast or waffles for a nostalgic, healthier treat. Swirl it into hot chocolate, oat milk lattes, or warm drinks for a luxurious frothy topping. Use it to make healthier s'mores with graham crackers and dark chocolate, or dollop it onto desserts for an impressive finish. It's also wonderful folded into smoothies or used as a topping for healthy ice cream. The flavour is neutral and sweet enough to work in almost any sweet context."
     }
   ],
   "tips": [
     "Ensure the gelatin is properly bloomed for at least 5 minutes before adding the hot liquid.",
     "Use real vanilla bean for the best flavour — the flecks make it look and taste extra special.",
-    "Serve it fresh for the best soft, spreadable texture."
+    "Serve it fresh for the best soft, spreadable texture.",
+    "Stop beating as soon as the fluff thickens and can loosely hold its shape — overmixing causes it to set in the bowl before you can transfer it to a container."
   ],
-  "substitutions": [],
+  "substitutions": [
+    {
+      "ingredient": "Vanilla bean",
+      "alternatives": [
+        "1 to 1.5 teaspoons vanilla extract (easier to find and more affordable — the fluff will still taste delicious)",
+        "1 teaspoon vanilla bean paste (gives the same black flecks and flavour intensity as a real vanilla bean)"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (not vegan, but gives a slightly floral, richer sweetness — works just as well)",
+        "Agave syrup (lighter, more neutral flavour and lower GI)",
+        "Rice syrup (gives a subtler sweetness with a slightly more neutral flavour)"
+      ]
+    },
+    {
+      "ingredient": "Gelatin",
+      "alternatives": [
+        "Agar-agar powder can be used as a plant-based alternative, though the texture will be firmer and less pillowy than traditional marshmallow fluff",
+        "Always use unflavoured plain gelatin — bovine and porcine gelatin both work well"
+      ]
+    }
+  ],
   "videoUrl": "https://www.instagram.com/p/DN03QcM2OSZ/",
   "datePublished": "2026-03-08",
   "dateModified": "2026-03-08",

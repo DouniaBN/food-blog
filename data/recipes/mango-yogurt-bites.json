@@ -2,29 +2,23 @@
   "id": "mango-yogurt-bites",
   "title": "No-Bake Mango Yogurt Chocolate Bites",
   "slug": "mango-yogurt-bites",
-  "description": "Refreshing 3-ingredient summer dessert! Creamy Greek yogurt and fresh mango wrapped in rich dark chocolate - naturally sweetened and ready in 10 minutes prep.",
+  "description": "Refreshing 3-ingredient no bake mango yogurt chocolate bites! Creamy Greek yogurt and fresh mango covered in rich dark chocolate - naturally sweetened, higher in protein and ready in just 10 minutes prep.",
   "image": {
-    "hero": {
-      "src": "images/recipes/mango-yogurt-bites/mango-bites.jpg",
-      "alt": "No-bake mango yogurt chocolate bites stacked showing dark chocolate shell with mango yogurt filling",
-      "width": 1600,
-      "height": 2000
-    },
+    "hero": "images/recipes/mango-yogurt-bites/mango-bites.jpg",
     "thumbnail": {
-      "src": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp",
+      "src": "images/recipes/mango-yogurt-bites/mango-bites-card-300.webp",
       "srcset": {
-        "300": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-400.webp",
-        "600": "images/recipes/mango-yogurt-bites/mango-bites-thumbnail-600.webp"
+        "300": "images/recipes/mango-yogurt-bites/mango-bites-card-300.webp",
+        "600": "images/recipes/mango-yogurt-bites/mango-bites-card-600.webp"
       },
-      "alt": "No-bake mango yogurt chocolate bites stacked showing dark chocolate shell with mango yogurt filling",
-      "width": 400,
-      "height": 400
+      "alt": "No-Bake Mango Yogurt Chocolate Bites recipe card - showing the creamy mango yogurt filling inside dark chocolate shell",
+      "width": 300,
+      "height": 508
     },
     "gallery": [
-      "images/recipes/mango-yogurt-bites/mango-bites-process1.jpg",
       "images/recipes/mango-yogurt-bites/mango-bites-process2.jpg",
       "images/recipes/mango-yogurt-bites/mango-bites-process3.jpg",
-      "images/recipes/mango-yogurt-bites/mango-bites-process4.jpg"
+      "images/recipes/mango-yogurt-bites/mango-bites-process1.jpg"
     ]
   },
   "author": {
@@ -44,29 +38,13 @@
     "unit": "bites"
   },
   "difficulty": "Easy",
-  "categories": [
-    "No-Bake",
-    "Gluten-Free",
-    "Summer Desserts",
-    "Chocolate",
-    "3 Ingredients"
-  ],
-  "tags": [
-    "mango",
-    "yogurt",
-    "chocolate",
-    "no-bake",
-    "gluten-free",
-    "refined-sugar-free",
-    "summer",
-    "3-ingredient",
-    "meal-prep"
-  ],
+  "categories": ["No-Bake", "Gluten-Free", "Summer Desserts", "Chocolate", "3 Ingredients"],
+  "tags": ["mango", "yogurt", "chocolate", "no-bake", "gluten-free", "refined-sugar-free", "summer", "3-ingredient", "meal-prep"],
   "nutrition": {
-    "calories": 85,
-    "protein": "4g",
-    "carbs": "12g",
-    "fat": "3g",
+    "calories": 149,
+    "protein": "5g",
+    "carbs": "17g",
+    "fat": "7g",
     "fiber": "1g",
     "sugar": "11g"
   },
@@ -74,18 +52,18 @@
     {
       "amount": "1",
       "unit": "large",
-      "ingredient": "ripe mango",
-      "notes": "diced"
+      "ingredient": "ripe mango diced",
+      "notes": ""
     },
     {
       "amount": "1",
       "unit": "cup",
       "ingredient": "Greek yogurt",
-      "notes": "plain, unsweetened"
+      "notes": ""
     },
     {
-      "amount": "3",
-      "unit": "oz",
+      "amount": "90",
+      "unit": "g",
       "ingredient": "dark chocolate",
       "notes": "70% cocoa or sugar-free"
     },
@@ -100,27 +78,64 @@
     {
       "step": 1,
       "text": "Melt the dark chocolate using a double boiler or microwave in 30-second intervals. Pour melted chocolate into your silicone molds, covering the bottom and the sides. Flash freeze for 10 minutes or until set.",
-      "image": "images/recipes/mango-yogurt-bites-step1.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process1-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process1-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process1-800.webp"
+        },
+        "alt": "Step 1: Silicone molds lined with melted dark chocolate, showing the chocolate shell base ready for freezing",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 2,
       "text": "Dice the mango into approx. inch thick pieces. In a medium bowl, combine the Greek yogurt and diced mango. Gently fold together until evenly mixed.",
-      "image": "images/recipes/mango-yogurt-bites-step2.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process2-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process2-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process2-800.webp"
+        },
+        "alt": "Step 2: Fresh mango diced into chunks and mixed with creamy Greek yogurt in a medium bowl",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 3,
       "text": "Remove the molds from the freezer. Add 2-3 teaspoons of the mango yogurt mixture to each mold on top of the set chocolate base.",
-      "image": "images/recipes/mango-yogurt-bites-step3.jpg"
+      "image": {
+        "src": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.jpg",
+        "srcset": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.jpg",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process3-800.jpg"
+        },
+        "webp": {
+          "400": "images/recipes/mango-yogurt-bites/mango-bites-process3-400.webp",
+          "800": "images/recipes/mango-yogurt-bites/mango-bites-process3-800.webp"
+        },
+        "alt": "Step 3: Adding spoonfuls of mango yogurt mixture into chocolate-lined silicone molds",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "step": 4,
-      "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top.",
-      "image": "images/recipes/mango-yogurt-bites-step4.jpg"
+      "text": "Drizzle or spread the remaining melted chocolate over the yogurt layer to create the top."
     },
     {
       "step": 5,
-      "text": "Freeze for 2 hours or until completely set. Remove from molds and sprinkle with sea salt. Enjoyyy",
-      "image": "images/recipes/mango-yogurt-bites-step5.jpg"
+      "text": "Freeze for 2 hours or until completely set. Remove from molds and sprinkle with sea salt."
     }
   ],
   "notes": [
@@ -156,77 +171,71 @@
     },
     "instagram": {
       "caption": "This is your sign to make these healthy 3 ingredient mango yogurt clusters!! If you love mango and chocolate then these no bake cuties will be your new fave dessert 🥭🍫 Save this for the perfect summer dessert!",
-      "hashtags": [
-        "#mangorecipe",
-        "#nobake",
-        "#summerdesser",
-        "#3ingredient",
-        "#healthydesserts",
-        "#glutenfree",
-        "#yogurtbites",
-        "#yourwellnessgirly"
-      ]
+      "hashtags": ["#mangorecipe", "#nobake", "#summerdesser", "#3ingredient", "#healthydesserts", "#glutenfree", "#yogurtbites", "#yourwellnessgirly"]
     }
   },
   "story": {
     "subtitle": "why you'll love them",
     "paragraphs": [
-      "If you're looking for the perfect no-bake sweet treat that actually satisfies your sweet tooth, you have to try these no bake mango yogurt bites. The natural sweetness of mango paired with creamy Greek yogurt (sneaky protein + probiotics) and topped with dark chocolate is such a good combo. The richness of the 70% dark chocolate balances out the sweetness of the mango perfectly, making these one of my favourite no-bake healthy desserts.",
-      "I love these all year round, but they're especially refreshing to make in the summer when you don't want to turn the oven on. Highly recommend meal prepping a batch and keeping them in the freezer for when your sweet tooth hits (just let them thaw for about 10 minutes before!). The best part? They're made with just 3 simple ingredients that you probably already have on hand."
+      "If you're looking for the perfect no-bake mango dessert that actually satisfies your sweet tooth, you have to try these no bake mango yogurt chocolate bites. The natural sweetness of mango paired with creamy Greek yogurt (sneaky protein + probiotics) and topped with dark chocolate is such a good combo. The richness of the 70% dark chocolate balances out the sweetness of the mango perfectly, making these one of my favourite easy, healthy no-bake desserts.",
+      "I love these all year round, but they're especially refreshing to make in the summer when you don't want to turn the oven on. Highly recommend meal prepping a batch and keeping them in the freezer for when your sweet tooth hits (just let them thaw for about 10 minutes before!). The best part? These mango yogurt bites are made with just 3 simple ingredients that you probably already have on hand.",
+      "nutritionally, these little bites actually deliver more than you'd expect from a dessert this simple. Greek yogurt is a fantastic source of protein and naturally contains probiotics, which support gut health and digestion. paired with the vitamin C and beta-carotene in mango and the antioxidant-rich polyphenols in dark chocolate, these are the kind of treats that feel genuinely nourishing rather than just a guilty pleasure.",
+      "the silicone mold technique is what makes these look so impressive with so little effort. you pour chocolate in first to create a shell, freeze it until set, add the mango yogurt filling, then seal with more chocolate. the result is a perfectly formed chocolate-coated bite with a creamy, fruity centre that looks like it came from a fancy chocolatier. if you don't have silicone molds, a standard ice cube tray works brilliantly too.",
+      "if you want to make these even more vibrant, look for a really ripe, fragrant mango — the difference in flavour between a ripe and unripe mango is huge here. and if mango isn't in season, this recipe works just as well with fresh or thawed frozen mango. for more no-bake frozen treats, try my <a href=\"brownie-batter-bars.html\">no bake brownie batter bars</a> or my <a href=\"coconut-truffles.html\">3 ingredient coconut truffles</a>."
     ]
   },
   "faq": [
     {
       "question": "Can I make these mango yogurt bites vegan?",
-      "answer": "Yes! Simply substitute the Greek yogurt with your favorite plant-based yogurt. Coconut yogurt works particularly well and complements the mango flavor beautifully."
+      "answer": "Yes! Simply substitute the Greek yogurt with your favorite plant-based yogurt. Coconut yogurt works particularly well and complements the mango flavour beautifully. Coconut yogurt is thick, creamy, and adds a tropical note that pairs incredibly well with the mango, making it my top pick for a vegan version."
     },
     {
       "question": "How long do these mango chocolate bites last?",
-      "answer": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture, serve directly from the freezer."
+      "answer": "Store in the refrigerator for up to 3 days or in the freezer for up to 1 week. For best texture eat cold. If storing in the freezer, let them thaw for about 5 to 10 minutes at room temperature before eating for a softer, creamier centre."
     },
     {
       "question": "What type of mold should I use?",
-      "answer": "Silicone molds work best as they're easy to remove the bites from. You can also use ice cube trays or mini muffin tins lined with paper liners."
-    },
-    {
-      "question": "Can I use frozen mango instead of fresh?",
-      "answer": "Yes! Thaw frozen mango completely and drain excess liquid before mixing with yogurt for the best texture."
+      "answer": "Silicone molds work best as they're easy to remove the bites from. You can also use silicone ice cube trays! Standard square or round ice cube trays give perfectly bite-sized portions. If you want larger, more generous bites, a silicone muffin tin also works well — just keep in mind the chocolate layer ratio will change slightly."
     },
     {
       "question": "What chocolate should I use?",
-      "answer": "Use high-quality dark chocolate with 70% cocoa content. For refined sugar-free option, choose stevia-sweetened dark chocolate."
+      "answer": "I used a high-quality dark chocolate with 70% cocoa content. Refined sugar free chocolate works great too. I'd recommend avoiding milk chocolate here as it can make the bites overly sweet — the slight bitterness of a good dark chocolate is what balances the sweetness of the mango perfectly."
     },
     {
       "question": "Can these be made ahead for meal prep?",
-      "answer": "Absolutely! These are perfect for meal prep. Make a batch and keep them in the freezer for up to a week. They make great grab-and-go summer treats."
+      "answer": "Absolutely! These are perfect for meal prep. Make a batch and keep them in the freezer for up to a week. They make great grab-and-go summer treats. I like to make a double batch on Sundays so I always have something in the freezer for when a sweet craving hits mid-week."
+    },
+    {
+      "question": "Can I use frozen mango for these bites?",
+      "answer": "Yes, frozen mango works well in this recipe! Make sure to thaw it completely first and drain off any excess liquid before mixing it with the yogurt. Too much liquid in the filling can prevent the bites from setting properly and may also make the yogurt layer watery."
+    },
+    {
+      "question": "Why isn't my chocolate sticking to the sides of the mold?",
+      "answer": "The key is to work quickly and make sure you coat the sides immediately after pouring in the base chocolate. After you add the initial layer, use a small spoon or brush to push the melted chocolate up the sides of each mold cavity before it sets. Then flash freeze for 5 to 10 minutes before adding the filling. If your chocolate cooled too much and became thick, gently rewarm it for a few seconds before trying again."
+    },
+    {
+      "question": "Are mango yogurt bites healthy?",
+      "answer": "These bites are made with wholesome, better-for-you ingredients. Greek yogurt adds protein and probiotics, mango provides natural sweetness along with vitamin C and antioxidants, and dark chocolate brings polyphenols and magnesium. They are naturally sweetened with no refined sugars, making them a much more balanced alternative to typical store-bought chocolate treats."
     }
   ],
   "tips": [
     "Let the bites sit at room temperature for 1-2 minutes before serving for easier eating",
-    "Use the ripest mango you can find for the best natural sweetness",
-    "If your chocolate is too thick, add a tiny bit of coconut oil to thin it out"
+    "Use the ripest mango for the best natural sweetness",
+    "If your chocolate is too thick, add a tiny bit of coconut oil to thin it out",
+    "Sprinkle flaky sea salt on top of the chocolate before it sets for a sweet-salty contrast that takes these to another level."
   ],
   "substitutions": [
     {
       "ingredient": "Greek yogurt",
-      "alternatives": [
-        "Coconut yogurt for vegan option",
-        "Regular yogurt (though texture will be less thick)"
-      ]
+      "alternatives": ["Coconut yogurt for vegan option", "Regular yogurt (though texture will be less thick)"]
     },
     {
       "ingredient": "Fresh mango",
-      "alternatives": [
-        "Frozen mango (thawed and drained)",
-        "Canned mango (drained)"
-      ]
+      "alternatives": ["Frozen mango (thawed and drained)", "Canned mango (drained)"]
     },
     {
       "ingredient": "Dark chocolate",
-      "alternatives": [
-        "Sugar-free chocolate",
-        "Milk chocolate for sweeter taste"
-      ]
+      "alternatives": ["Sugar-free chocolate", "Milk chocolate for sweeter taste"]
     }
   ],
   "datePublished": "2026-01-13",

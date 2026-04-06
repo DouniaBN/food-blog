@@ -100,14 +100,44 @@
   },
   "faq": [
     { "question": "Are these homemade marshmallows refined sugar free?", "answer": "Yes, these matcha marshmallows are made with maple syrup meaning they are refined sugar free and have a lower glycemic index compared to traditional marshmallows." },
-    { "question": "Why are my homemade marshmallows not fluffy?", "answer": "Marshmallows need to be whipped long enough to properly incorporate air. It's best to go by texture: the mixture should become thick, glossy, and significantly increased in volume before pouring into your pan." }
+    { "question": "Why are my homemade marshmallows not fluffy?", "answer": "Marshmallows need to be whipped long enough to properly incorporate air. It's best to go by texture: the mixture should become thick, glossy, and significantly increased in volume before pouring into your pan." },
+    { "question": "How do I store homemade matcha marshmallows?", "answer": "Store the matcha marshmallows in an airtight container in the refrigerator for up to 1 week. They can also be kept at room temperature in a cool, dry place for up to 3 days, but refrigeration helps them hold their shape better. For longer storage, layer them between sheets of parchment paper and freeze in an airtight container for up to 1 month. They defrost quickly at room temperature." },
+    { "question": "Can I make matcha marshmallows without a stand mixer?", "answer": "A stand mixer is strongly recommended for this recipe as the mixture needs sustained high-speed beating for 6 to 8 minutes to develop the right texture. A handheld electric mixer can work as a substitute, but it can be tiring to hold for that long and may not achieve quite the same volume. Whisking by hand is not suitable for this recipe as the mixture sets too quickly." },
+    { "question": "What type of matcha should I use?", "answer": "For the best colour and flavour, use ceremonial grade or high-quality culinary grade matcha. Ceremonial grade will give you the most vibrant green colour and a sweeter, less bitter flavour. Lower quality matcha can result in a duller colour and a more bitter taste. Use 1/2 tablespoon for a subtle matcha flavour and up to 1 tablespoon if you love a stronger, more pronounced matcha taste." },
+    { "question": "Why do my marshmallows feel too dense or sticky?", "answer": "Dense or sticky marshmallows usually mean they weren't beaten for long enough, or the hot liquid was added too quickly to the gelatin, which can prevent proper aeration. Make sure the gelatin is fully bloomed before you begin, and pour the hot syrup in a slow, steady stream while the mixer is already running. The mixture should increase dramatically in volume and become very white and fluffy before you stop the mixer." },
+    { "question": "Are matcha marshmallows vegan?", "answer": "Unfortunately, traditional marshmallows are not vegan as they rely on gelatin, which is derived from animal collagen. This recipe also uses gelatin. If you are looking for a plant-based alternative, agar-agar powder can be used instead of gelatin, though the texture will be slightly different — agar-agar sets firmer and is less stretchy than gelatin. Experimentation with ratios may be needed to get the right consistency." },
+    { "question": "Can I add these matcha marshmallows to drinks?", "answer": "Yes, and they are absolutely dreamy in drinks! These matcha marshmallows are perfect for floating in matcha lattes, hot chocolates, or warm oat milk. They melt beautifully when they hit a hot liquid, adding a subtle sweetness and a gorgeous frothy texture. They also look stunning on a dessert platter, in s'mores, or cut into smaller cubes and served alongside a hot drink." }
   ],
   "tips": [
     "Once the marshmallows have reached whip texture, pour them quickly into the baking tray to avoid it setting in the bowl!",
     "Let the marshmallows set overnight in the fridge for optimal results.",
-    "Ensure that the maple syrup gets hot enough so the gelatin dissolves properly."
+    "Ensure that the maple syrup gets hot enough so the gelatin dissolves properly.",
+    "Dust the top of the set marshmallows with a light coating of matcha powder or arrowroot starch before slicing — this prevents them sticking together and makes them look beautiful."
   ],
-  "substitutions": [],
+  "substitutions": [
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (not vegan, but gives a slightly floral, richer sweetness)",
+        "Agave syrup (milder flavour, slightly lower GI)",
+        "Rice syrup (gives a lighter, more neutral sweetness)"
+      ]
+    },
+    {
+      "ingredient": "Matcha powder",
+      "alternatives": [
+        "Ceremonial or culinary grade matcha both work — culinary is more budget-friendly and slightly stronger in flavour",
+        "Omit the matcha entirely for plain vanilla-style marshmallows (simply leave the matcha out — the rest of the method stays the same)"
+      ]
+    },
+    {
+      "ingredient": "Gelatin",
+      "alternatives": [
+        "Agar-agar powder can be used as a plant-based alternative, though the texture will be firmer and less stretchy — start with the same quantity and adjust as needed",
+        "Note: not all gelatins behave identically. Bovine and porcine gelatin both work well. Always use an unflavoured, plain gelatin powder."
+      ]
+    }
+  ],
   "datePublished": "2026-02-25",
   "dateModified": "2026-02-25",
   "featured": true,

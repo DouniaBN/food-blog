@@ -169,31 +169,66 @@
   "faq": [
     {
       "question": "How should I store matcha ganache bars?",
-      "answer": "Store in the fridge for up to 4 days, or in the freezer for up to 1 month. Let them thaw slightly before eating if frozen."
+      "answer": "Store in the fridge for up to 4 days, or in the freezer for up to 1 month. Let them thaw slightly before eating if frozen. I recommend running a sharp knife under hot water and drying it before slicing to get clean, even cuts without cracking the ganache layer."
     },
     {
       "question": "How set should the ganache be?",
-      "answer": "The ganache should be a spoonable consistency — not completely frozen but able to hold its shape. The texture is creamy without being runny."
+      "answer": "The ganache should be a spoonable consistency — not completely frozen but able to hold its shape. The texture is creamy without being runny. After 6 hours in the freezer it should be firm enough to slice cleanly. If the ganache still feels very soft after that time, pop it back in the freezer for another hour or two."
     },
     {
       "question": "Are these matcha ganache bars gluten free?",
-      "answer": "Yes. These bars are naturally gluten free as they are made with almond flour and contain no wheat or gluten flour."
+      "answer": "Yes. These bars are naturally gluten free as they are made with almond flour and contain no wheat or gluten flour. If you have a severe gluten sensitivity, check that your matcha powder, dates, and dairy-free white chocolate are certified gluten free, as some products can be processed in facilities that also handle gluten."
     },
     {
       "question": "Are these matcha ganache bars dairy free and refined sugar free?",
-      "answer": "Yes. The ganache is made with coconut milk and dairy free white chocolate, making the entire recipe dairy free. The base is naturally sweetened with dates and the white chocolate used is refined sugar free."
+      "answer": "Yes. The ganache is made with coconut milk and dairy free white chocolate, making the entire recipe dairy free. The base is naturally sweetened with dates and the white chocolate used is refined sugar free. Always check the label on your white chocolate to confirm it uses coconut sugar or another unrefined sweetener if you need the recipe to be fully refined sugar free."
     },
     {
       "question": "What type of matcha should I use?",
-      "answer": "I prefer using organic ceremonial grade matcha for the best nutrients, colour, and flavour."
+      "answer": "I prefer using organic ceremonial grade matcha for the best nutrients, colour, and flavour. Ceremonial grade gives the most vibrant green colour and a sweeter, less bitter taste. Culinary grade matcha also works well and is more affordable, though the colour may be slightly less vivid. Avoid very cheap matcha powders as they can taste bitter and give a dull, greyish-green colour."
+    },
+    {
+      "question": "Can I use regular white chocolate instead of dairy-free?",
+      "answer": "Yes, if you are not dairy free, you can absolutely use regular white chocolate in the ganache. The flavour and texture will be very similar. If you use regular white chocolate, the recipe will no longer be vegan or dairy free, but it will still be gluten free and refined sugar free if you choose a good quality white chocolate."
+    },
+    {
+      "question": "My ganache isn't setting — what went wrong?",
+      "answer": "The most common reason the ganache doesn't set is too much liquid. Make sure you use thick canned coconut milk (the full-fat kind with a solid cream layer on top) and not a thinner coconut milk beverage or carton. The ratio of white chocolate to coconut milk matters too, so stick to the gram measurements. If the ganache still feels too liquid after mixing, allow it to cool at room temperature for 10 to 15 minutes before pouring over the base — this gives it a better chance of setting with the right texture."
+    },
+    {
+      "question": "Can I make a larger batch of these matcha ganache bars?",
+      "answer": "Yes! Simply double all the ingredients and use a larger container. A standard 8x8 inch square tin works well for a double batch. Keep in mind that the ganache layer will be proportionally the same thickness, but you may need an extra hour in the freezer to ensure everything sets fully. Use a hot knife to slice neatly."
     }
   ],
   "tips": [
     "I prefer a stronger matcha flavour so feel free to adjust the amount of matcha to your taste.",
     "Press the base down very firmly so it holds together cleanly when sliced.",
-    "Use a larger container if you prefer thinner bars."
+    "Use a larger container if you prefer thinner bars.",
+    "Run a sharp knife under hot water, dry it quickly, and use it to slice the bars — this gives you clean, smooth cuts through both the ganache and the base without cracking."
   ],
-  "substitutions": [],
+  "substitutions": [
+    {
+      "ingredient": "Dairy-free white chocolate",
+      "alternatives": [
+        "Regular white chocolate (if not dairy free)",
+        "Oat milk white chocolate chips, melted"
+      ]
+    },
+    {
+      "ingredient": "Canned coconut milk",
+      "alternatives": [
+        "Cashew cream (thick, similar fat content, gives a slightly nuttier flavour)",
+        "Full-fat oat cream (works but the ganache may be slightly softer — allow extra freezing time)"
+      ]
+    },
+    {
+      "ingredient": "Pitted dates",
+      "alternatives": [
+        "Medjool dates give the best sticky, caramel-like texture — if using smaller Deglet Noor dates, you may need a few extra",
+        "A combination of almond flour and 3 tablespoons maple syrup can substitute if dates are unavailable, though the base will be slightly less chewy"
+      ]
+    }
+  ],
   "relatedRecipes": [
     "matcha-marshmallows",
     "brownie-batter-bars",

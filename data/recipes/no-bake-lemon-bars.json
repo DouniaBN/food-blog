@@ -196,23 +196,67 @@
   "faq": [
     {
       "question": "Are these lemon bars gluten free?",
-      "answer": "Yes! These no bake lemon bars are naturally gluten free because they're made with almond flour and oat flour instead of traditional wheat flour."
+      "answer": "Yes! These no bake lemon bars are naturally gluten free because they're made with almond flour and oat flour instead of traditional wheat flour. If you are highly sensitive to gluten, make sure to use certified gluten free oat flour as regular oat flour can sometimes be cross-contaminated during processing."
     },
     {
       "question": "How should I store no bake lemon bars?",
-      "answer": "Store the bars in an airtight container in the freezer for up to 2 months or in the refrigerator for about 5 days."
+      "answer": "Store the bars in an airtight container in the freezer for up to 2 months or in the refrigerator for about 5 days. They need to stay cold to hold their shape, so don't leave them at room temperature for more than 15 to 20 minutes. Let each slice thaw for about 10 minutes from frozen before eating for the best texture."
     },
     {
       "question": "Can I make these into lemon energy bites or balls instead of bars?",
-      "answer": "Absolutely. Simply roll the mixture into small balls instead of pressing it into a pan. Chill them in the fridge or freezer until firm."
+      "answer": "Absolutely. Simply roll the mixture into small balls instead of pressing it into a pan. Chill them in the fridge or freezer until firm. They make great bite-sized lemon treats and are perfect for meal prep."
+    },
+    {
+      "question": "Are these no bake lemon bars dairy free?",
+      "answer": "The recipe includes 20g of butter, so in its original form it is not dairy free. To make it dairy free, substitute the butter with melted coconut oil or a plant-based vegan butter — both work really well and the texture of the bars will be very similar."
+    },
+    {
+      "question": "Can I use bottled lemon juice instead of fresh lemon?",
+      "answer": "Fresh lemon is strongly recommended for the best flavour. Bottled lemon juice lacks the bright, zesty quality of fresh juice and is often more acidic and slightly bitter. The fresh lemon zest in this recipe is especially important for flavour — it's where a lot of that bright, citrusy punch comes from — and you won't get that from a bottle. If you can, always use fresh."
+    },
+    {
+      "question": "Why are my no bake lemon bars crumbly?",
+      "answer": "If the bars are crumbling when you try to slice them, they may need more time in the freezer to set fully — make sure they've been freezing for at least 40 minutes. Another common cause is that the mixture wasn't pressed firmly enough into the pan. Use the back of a spoon or the bottom of a glass to press it down as firmly as possible before freezing. The butter and maple syrup act as the binder, so also double check you used the right amounts."
+    },
+    {
+      "question": "Can I add toppings to these no bake lemon bars?",
+      "answer": "Yes, definitely! These bars are wonderful topped with melted white chocolate (as the recipe suggests) and fresh lemon zest, but you can also add a dusting of powdered freeze-dried lemon, a drizzle of refined sugar free white chocolate, or a light sprinkle of flaky sea salt for contrast. Fresh edible flowers like chamomile also look stunning on top if you're making these for a occasion."
+    },
+    {
+      "question": "What is the difference between these no bake lemon bars and traditional lemon bars?",
+      "answer": "Traditional lemon bars have a baked shortbread base and a cooked lemon curd filling that requires eggs and sugar. These no bake lemon bars skip the oven entirely and are made with almond flour and oat flour, naturally sweetened with maple syrup, and rely on freezing rather than baking to set. They're much quicker to make, naturally gluten free, and have a more fudgy, energy-bite-like texture compared to the crumbly pastry and wobbly curd of the traditional version."
     }
   ],
   "tips": [
     "Use fresh lemon juice instead of bottled for the best flavour.",
     "Press the bars firmly into the pan so they hold their shape when sliced.",
-    "Let them thaw for about 10 minutes before eating for the best texture."
+    "Let them thaw for about 10 minutes before eating for the best texture.",
+    "Add extra lemon zest on top of the white chocolate layer before it sets — it makes them look beautiful and intensifies the lemon flavour."
   ],
-  "substitutions": [],
+  "substitutions": [
+    {
+      "ingredient": "Butter",
+      "alternatives": [
+        "Melted coconut oil (makes it dairy free — use the same quantity)",
+        "Vegan butter (1:1 swap — gives a very similar result)"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "All-purpose gluten free flour (1:1 swap)",
+        "More almond flour — use slightly less as almond flour is more absorbent"
+      ]
+    },
+    {
+      "ingredient": "White chocolate (topping)",
+      "alternatives": [
+        "Refined sugar free white chocolate",
+        "Dairy free white chocolate",
+        "Omit entirely — the bars are delicious without it too, just topped with extra lemon zest"
+      ]
+    }
+  ],
   "videoUrl": "https://www.instagram.com/p/DS21_i3DFW0/",
   "datePublished": "2026-03-08",
   "dateModified": "2026-03-08",

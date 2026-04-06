@@ -41,9 +41,15 @@ Add the recipe slug to the `recipes` array in `data/recipe-manifest.json`. This 
 Create `recipes/[slug].html` using the existing recipe pages as a template — OR run the build script: `node build/generate-recipes.js [slug]`
 
 ### 5. Add to sitemap.xml
-Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. This is critical for Google indexing.
+Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. Use the clean URL **without** `.html`. This is critical for Google indexing.
 
-### 6. Add to the hardcoded recipes array in `recipe-index.html`
+### 6. Add redirect to `_redirects`
+Add a line to `_redirects` in the project root to redirect the `.html` version to the clean URL. This prevents duplicate pages appearing in analytics and Google Search Console.
+```
+/recipes/[slug].html    /recipes/[slug]    301
+```
+
+### 7. Add to the hardcoded recipes array in `recipe-index.html`
 The recipe index page has a **hardcoded `recipes` array** inside a `<script>` tag (around line 874). This is completely separate from the JSON files and `recipe-manager.js` — it is what powers the filter, search, sort, and "Showing X recipes" count on the index page. You MUST add a new entry here for every recipe or it will not appear in the index.
 
 Find the array (`const recipes = [`) and add a new object at the end (before the closing `];`). Use the next sequential `id`. Required fields:

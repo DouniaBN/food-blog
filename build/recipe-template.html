@@ -447,6 +447,7 @@
 
       .tips-section {
           margin-top: 2rem;
+          margin-bottom: 1rem;
           padding-top: 2rem;
           border-top: 1px solid #f0f0f0;
       }
@@ -490,13 +491,14 @@
           border-top: 1px solid #f0f0f0;
       }
       .faq-section h3 {
-          font-family: var(--font-heading);
-          font-size: 1.5rem;
-          color: #2f4f2f;
+          font-family: var(--font-body);
+          font-size: 0.75rem;
+          font-weight: 500;
+          color: #999;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
           margin-bottom: 1.5rem;
-          padding-bottom: 0.5rem;
-          border-bottom: 2px solid var(--light-pink);
-          display: inline-block;
+          display: block;
       }
       .faq-list {
           display: block;
@@ -697,6 +699,16 @@
             <div class="watch-follow-text">Follow along on socials!</div>
         </section>
 
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            {{FAQ_CONTENT}}
+        </div>
+
+        <!-- Tips Section -->
+        <div class="tips-section">
+            {{TIPS_CONTENT}}
+        </div>
+
         <!-- Recipe Card -->
         <section class="recipe-card" id="recipe-card">
             <div class="recipe-card-top">
@@ -790,16 +802,6 @@
             </div>
 
         </section>
-
-        <!-- Tips Section -->
-        <div class="tips-section">
-            {{TIPS_CONTENT}}
-        </div>
-
-        <!-- FAQ Section -->
-        <div class="faq-section">
-            {{FAQ_CONTENT}}
-        </div>
 
         <!-- Nutrition Facts -->
         <div class="nutrition-section">

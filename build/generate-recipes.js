@@ -459,10 +459,6 @@ class RecipeGenerator {
                 <span class="nutrition-label">Protein</span>
                 <span class="nutrition-value">${recipe.nutrition.protein}</span>
             </div>
-            <div class="nutrition-item">
-                <span class="nutrition-label">Sugar</span>
-                <span class="nutrition-value">${recipe.nutrition.sugar}</span>
-            </div>
         `;
     }
 

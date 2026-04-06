@@ -1795,69 +1795,54 @@
 }
 
 .nutrition-section h3 {
-  font-family: var(--font-heading);
-  font-size: 1.4rem;
-  color: #2f4f2f;
-  margin-bottom: 1rem;
-  text-align: center;
-  position: relative;
-  padding-bottom: 1rem;
-}
-
-.nutrition-section h3::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 6px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 6'%3E%3Cpath d='M2 4C10 0 20 0 30 3S50 6 58 2' stroke='%23fadee3' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: contain;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #999;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  text-align: left;
 }
 
 .nutrition-per-serving {
-  font-size: 0.95rem;
-  color: #666;
-  text-align: center;
-  margin: 1rem 0 1.5rem 0;
+  font-size: 0.8rem;
+  color: #aaa;
+  text-align: left;
+  margin: 0 0 1rem 0;
   font-style: italic;
 }
 
 .nutrition-table {
-  background-color: var(--neutral-beige);
-  border-radius: 10px;
-  padding: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 2rem;
+  grid-template-columns: max-content max-content;
+  column-gap: 1rem;
+  row-gap: 0.15rem;
 }
 
 .nutrition-disclaimer {
-  font-size: 0.85rem;
-  color: #666;
-  text-align: center;
-  margin-top: 1rem;
+  font-size: 0.72rem;
+  color: #bbb;
+  text-align: left;
+  margin-top: 0.75rem;
   font-style: italic;
   line-height: 1.4;
 }
 
 .nutrition-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ddd;
+  display: contents;
 }
 
 .nutrition-label {
-  color: #666;
-  margin-right: 0.5rem;
+  font-size: 0.55rem;
+  color: #888;
+  font-weight: 400;
 }
 
 .nutrition-value {
-  font-weight: 600;
-  color: #2f4f2f;
+  font-size: 0.55rem;
+  font-weight: 300;
+  color: #888;
 }
 
 /* Notes Section */

@@ -1,0 +1,31 @@
+# Redirect .html URLs to clean URLs (301 permanent)
+/index.html                                         /                                                   301
+/recipe-index.html                                  /recipe-index                                       301
+/about.html                                         /about                                              301
+/work-with-me.html                                  /work-with-me                                       301
+/contact.html                                       /contact                                            301
+/privacy-policy.html                                /privacy-policy                                     301
+/disclaimer.html                                    /disclaimer                                         301
+/terms-of-use.html                                  /terms-of-use                                       301
+
+# Recipe pages
+/recipes/apple-fritters.html                        /recipes/apple-fritters                             301
+/recipes/banana-brownies.html                       /recipes/banana-brownies                            301
+/recipes/banana-fritters.html                       /recipes/banana-fritters                            301
+/recipes/blueberry-fritters.html                    /recipes/blueberry-fritters                         301
+/recipes/brownie-batter-bars.html                   /recipes/brownie-batter-bars                        301
+/recipes/chocolate-banana-freezer-fudge.html        /recipes/chocolate-banana-freezer-fudge             301
+/recipes/chocolate-chip-banana-bread-bars.html      /recipes/chocolate-chip-banana-bread-bars           301
+/recipes/cinnamon-roll-overnight-oats.html          /recipes/cinnamon-roll-overnight-oats               301
+/recipes/coconut-truffles.html                      /recipes/coconut-truffles                           301
+/recipes/easy-healthy-matcha-cake.html              /recipes/easy-healthy-matcha-cake                   301
+/recipes/gluten-free-banana-bread-waffles.html      /recipes/gluten-free-banana-bread-waffles           301
+/recipes/gluten-free-brownie-cookies.html           /recipes/gluten-free-brownie-cookies                301
+/recipes/gluten-free-vanilla-white-chocolate-brownies.html /recipes/gluten-free-vanilla-white-chocolate-brownies 301
+/recipes/hot-chocolate-fudge-cups.html              /recipes/hot-chocolate-fudge-cups                   301
+/recipes/mango-yogurt-bites.html                    /recipes/mango-yogurt-bites                         301
+/recipes/matcha-ganache-bars.html                   /recipes/matcha-ganache-bars                        301
+/recipes/matcha-marshmallows.html                   /recipes/matcha-marshmallows                        301
+/recipes/mini-blueberry-olive-oil-cake.html         /recipes/mini-blueberry-olive-oil-cake              301
+/recipes/no-bake-lemon-bars.html                    /recipes/no-bake-lemon-bars                         301
+/recipes/vanilla-bean-marshmallow-fluff.html        /recipes/vanilla-bean-marshmallow-fluff             301

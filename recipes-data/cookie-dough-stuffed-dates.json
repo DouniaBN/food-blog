@@ -1,0 +1,210 @@
+{
+  "id": "cookie-dough-stuffed-dates",
+  "title": "Cookie Dough Stuffed Dates (Air Fried)",
+  "slug": "cookie-dough-stuffed-dates",
+  "description": "my viral soft and gooey air fried chocolate chip cookie dough stuffed dates that are refined sugar free, gluten free and dairy free.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-hero.webp",
+      "alt": "Air fried cookie dough stuffed medjool dates with melted chocolate chips on top",
+      "width": 800,
+      "height": 600
+    },
+    "thumbnail": {
+      "src": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-400px.webp",
+      "srcset": {
+        "400": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-400px.webp",
+        "600": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-600px.webp"
+      },
+      "alt": "Cookie dough stuffed dates with gooey melted chocolate chips",
+      "width": 400,
+      "height": 300
+    },
+    "thumbnail_400": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-card-300px.webp",
+    "thumbnail_600": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-card-600px.webp",
+    "alt": "Air fried cookie dough stuffed medjool dates with melted chocolate chips on top",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT6M",
+    "totalTime": "PT11M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "4–6 minutes",
+    "totalTimeDisplay": "11 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "dates"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Air Fryer",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "cookie-dough",
+    "stuffed-dates",
+    "air-fryer",
+    "gluten-free",
+    "dairy-free",
+    "vegan",
+    "refined-sugar-free",
+    "chocolate",
+    "medjool-dates",
+    "healthy-dessert"
+  ],
+  "nutrition": {
+    "calories": 173,
+    "protein": "2.8g",
+    "carbs": "31g",
+    "fat": "5.2g",
+    "fiber": "2.3g",
+    "sugar": "",
+    "netCarbs": ""
+  },
+  "ingredients": [
+    {
+      "amount": "85",
+      "unit": "grams",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "55",
+      "unit": "grams",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "20",
+      "unit": "grams",
+      "ingredient": "almond butter",
+      "notes": "runny, not thick"
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "chocolate chips or chunks",
+      "notes": "to taste"
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "6",
+      "unit": "",
+      "ingredient": "pitted medjool dates",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, combine the oat flour, maple syrup, vanilla extract and almond butter. Mix until fully combined, then fold in the chocolate chips.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Pit each date and stuff generously with the cookie dough filling.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Place in your air fryer and air fry at 180°C for 4 to 6 minutes.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Enjoy warm, straight from the air fryer or let them cool slightly if you prefer the chocolate chips a little more set.",
+      "image": ""
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cookie Dough Stuffed Dates (Air Fried)",
+    "metaDescription": "my viral soft and gooey air fried chocolate chip cookie dough stuffed dates that are refined sugar free, gluten free and dairy free.",
+    "keywords": [
+      "cookie dough stuffed dates",
+      "air fried stuffed dates",
+      "chocolate chip stuffed dates",
+      "gluten free stuffed dates",
+      "healthy stuffed dates",
+      "dairy free cookie dough",
+      "refined sugar free dessert"
+    ],
+    "canonicalUrl": "/recipes/cookie-dough-stuffed-dates"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Viral cookie dough stuffed dates! Soft, gooey, air fried, and made with just 6 ingredients. Gluten-free, dairy-free, refined sugar free.",
+      "title": "Cookie Dough Stuffed Dates (Air Fried)"
+    },
+    "instagram": {
+      "caption": "six ingredients, six minutes, and somehow they taste so decadent and indulgent — these air fried cookie dough stuffed dates went semi-viral for a reason! Recipe on the blog ➡️",
+      "hashtags": [
+        "#stuffeddates",
+        "#cookiedough",
+        "#airfryer",
+        "#glutenfree",
+        "#dairyfree",
+        "#refinedsugarfree",
+        "#healthydesserts",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "six ingredients, six minutes, incredibly indulgent",
+    "paragraphs": [
+      "you know those sweet treats that are just so simple you don't understand how they taste so good? well… these air fried chocolate chip cookie dough stuffed dates are exactly that! six ingredients, six minutes, and somehow they taste so decadent and indulgent. these stuffed dates went semi-viral, which goes to show that the best recipes aren't always the most complicated ones. i've loved seeing all of your remakes and different add-ins that you have been enjoying! from adding in protein powder, changing up the nut butter or mixing in different kinds of chocolate chips.",
+      "i find myself coming back to these cookie dough stuffed dates whenever i want a rich dessert that takes only a few minutes. they satisfy a proper sweet tooth craving without any refined sugar, and the cookie dough filling tastes genuinely indulgent in a way that feels like it shouldn't be this easy to make.",
+      "now let's talk about the dates: medjool dates are doing a lot of the heavy lifting here. they're naturally sweet, soft, and almost caramel-like which elevates the flavour and compliments the cookie batter perfectly. the maple syrup in the batter gives just a touch of extra sweetness and helps everything bind together, but the dates are really the star. the warmth from the air fryer softens them even further and makes the whole thing feel almost molten, which is exactly what you want.",
+      "on the cookie dough filling: oat flour is what keeps this recipe gluten-free and gives the filling that classic cookie dough texture. it's light, slightly nutty, and absorbs the maple syrup and almond butter really well. the almond butter adds a subtle richness and helps hold the batter together — without it the mixture would be too loose to stuff. if you don't have almond butter, cashew butter, peanut butter, tahini or really any kind of nut or seed butter (if you're nut free!) works just as well. just make sure that the nut butter is runny and not too thick as it won't mix well in the batter.",
+      "a small splash of vanilla extract makes a bigger difference than you'd expect here. please don't skip it.",
+      "i use the <a href=\"https://www.kelenandwillian.com/?ref=DOUNIA\" target=\"_blank\" rel=\"noopener noreferrer\">Kelen &amp; Willian glass air fryer</a> for this recipe and it's genuinely one of my favourite kitchen appliances. it's a UK-made mini glass air fryer, which means no toxic non-stick coatings plus you can actually see what's cooking, and it's so easy to clean. if you want to try it, use my code <strong>DOUNIA10</strong> for a discount. four to six minutes at 180°C is all you need and they come out perfectly warm and slightly crisp on the outside.",
+      "if you love all things chocolate chip cookie then you have to check out my <a href=\"chocolate-chip-banana-bread-bars.html\">chocolate chip banana bread cookie bars</a>!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How long should I air fry cookie dough dates for?",
+      "answer": "That depends on how soft you would like the cookie dough to be. I find anywhere from 4 to 6 minutes is great as the dates get soft and crisp up slightly while the top of the cookie dough is crunchy and the centre gooey with pools of melty chocolate chunks."
+    }
+  ],
+  "tips": [
+    "Combine the cookie dough batter with clean hands to get it to bind best.",
+    "Underbake slightly if you like a gooier cookie batter."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Almond butter",
+      "alternatives": [
+        "Cashew butter",
+        "Peanut butter",
+        "Tahini (for nut-free)",
+        "Any runny nut or seed butter"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "Blend rolled oats into a fine flour",
+        "Other gluten-free flour blends (texture will vary)"
+      ]
+    }
+  ],
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

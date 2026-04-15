@@ -5,23 +5,23 @@
   "description": "my viral soft and gooey air fried chocolate chip cookie dough stuffed dates that are refined sugar free, gluten free and dairy free.",
   "image": {
     "hero": {
-      "src": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-hero.webp",
+      "src": "images/recipes/cookie-dough-stuffed-dates/cd-dates-hero.webp",
       "alt": "Air fried cookie dough stuffed medjool dates with melted chocolate chips on top",
       "width": 800,
       "height": 600
     },
     "thumbnail": {
-      "src": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-400px.webp",
+      "src": "images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail400.webp",
       "srcset": {
-        "400": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-400px.webp",
-        "600": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-thumbnail-600px.webp"
+        "400": "images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail400.webp",
+        "600": "images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail600.webp"
       },
       "alt": "Cookie dough stuffed dates with gooey melted chocolate chips",
       "width": 400,
       "height": 300
     },
-    "thumbnail_400": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-card-300px.webp",
-    "thumbnail_600": "images/recipes/cookie-dough-stuffed-dates/cookie-dough-stuffed-dates-card-600px.webp",
+    "thumbnail_400": "images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail400.webp",
+    "thumbnail_600": "images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail600.webp",
     "alt": "Air fried cookie dough stuffed medjool dates with melted chocolate chips on top",
     "gallery": []
   },

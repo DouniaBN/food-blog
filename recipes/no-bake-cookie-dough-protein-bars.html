@@ -61,9 +61,18 @@
   "prepTime": "PT5M",
   "cookTime": "PT20M",
   "totalTime": "PT25M",
-  "recipeCategory": "Dessert",
+  "recipeCategory": "No-Bake",
   "recipeCuisine": "American",
   "recipeYield": "6 bars",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": " calories",
+    "carbohydrateContent": "",
+    "proteinContent": "",
+    "fatContent": "",
+    "fiberContent": "",
+    "sugarContent": ""
+  },
   "recipeIngredient": [
     "40 grams almond flour",
     "55 grams oat flour",
@@ -136,7 +145,7 @@
       "name": "What are the macros of these cookie dough protein bars?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "I have purposefully left out the macros for this recipe since they change majorly depending on the brand or type of protein powder you are using and how big or small you make the bars. Without adding in the protein powder, the recipe naturally has 16g of protein in it — then add in the amount of protein your chosen protein powder has to get a rough idea of the macros."
+        "text": "I have purposefully left out the macros for this recipe since they change majorly depending on the brand or type of protein powder you are using and how big or small you make the bars. Without adding in the protein powder, the recipe naturally has 16g of protein in it, then add in the amount of protein your chosen protein powder has to get a rough idea of the macros."
       }
     },
     {
@@ -145,6 +154,54 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Add a half teaspoon of coconut oil and mix it into the warm melted chocolate for that extra shine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I store no bake cookie dough protein bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These bars can be stored in an airtight container at room temperature for up to 3 days and are best eaten slightly cooled for the best texture. For longer storage, keep them in the fridge for up to 1 week or in the freezer for up to 1 month. If storing in the fridge or freezer, make sure to let them thaw for a few minutes before eating so the cookie dough layer has a chance to soften."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is my protein bar batter too dry or crumbly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dry batter is almost always down to the coconut oil or tahini. Make sure your tahini is runny and well-stirred before measuring, and that your coconut oil is solid but not rock hard. If the batter feels too crumbly after blending, add an extra teaspoon of tahini or a tiny splash of maple syrup and blend again. You can also test the texture by pressing a small amount between your fingers: it should hold together without crumbling. if it doesn't, it needs a little more fat or liquid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a different protein powder in this recipe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, though the type of protein powder you use will affect both the texture and the flavour. Vanilla protein powder works best as it leans into the cookie dough taste, but unflavoured works too with a generous splash of vanilla extract added in. Avoid collagen-based powders for this recipe as they don't bind the same way. Plant-based and whey protein both work well. Keep in mind that some protein powders are much more absorbent than others, so if your batter looks very dry, add tahini or maple syrup a teaspoon at a time until it comes together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these protein bars gluten free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, as long as you use certified gluten free oat flour. Oats are naturally gluten free but can sometimes be cross-contaminated during processing, so if you're coeliac or highly sensitive make sure your oat flour is labelled certified gluten free. All other ingredients in this recipe are naturally gluten free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make these into protein balls instead of bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Instead of pressing the batter into a container, roll it into small balls with your hands. You can either leave them as is for a truffle-like finish, or dip each one into melted dark chocolate and let them set on a lined tray in the freezer. They make a great bite-sized snack and are a little easier to grab on the go. The batter is exactly the same, just rolled instead of pressed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make these protein bars vegan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, this recipe is already vegan as written, as long as your protein powder is plant-based. Tahini, almond flour, oat flour, maple syrup, and coconut oil are all vegan. Just double-check your chocolate chips and protein powder are dairy free and you're good to go."
       }
     }
   ]
@@ -167,10 +224,12 @@
 
     <style>
       @media (max-width: 768px) {
+        /* Hide original About Me Sidebar on mobile */
         .about-me-sidebar {
           display: none !important;
         }
 
+        /* Show mobile About Me section */
         .mobile-about-me {
           display: block !important;
           background: white;
@@ -251,6 +310,8 @@
 
         .ingredients-section li label,
         .instructions-section li,
+        .nutrition-section .nutrition-label,
+        .nutrition-section .nutrition-value,
         .faq-section p,
         .recipe-card p {
           font-size: 1.5rem !important;
@@ -270,6 +331,10 @@
         .faq-question {
           font-size: 1.5rem !important;
           line-height: 1.5 !important;
+        }
+
+        .nutrition-section .nutrition-value {
+          font-weight: normal !important;
         }
 
         .afpa-credential {
@@ -320,6 +385,8 @@
 
       .ingredients-section li label,
       .instructions-section li,
+      .nutrition-section .nutrition-label,
+      .nutrition-section .nutrition-value,
       .faq-section p,
       .faq-question {
         font-size: 1.3rem !important;
@@ -346,6 +413,10 @@
         .about-me-sidebar p {
           font-size: 1.05rem !important;
           line-height: 1.6 !important;
+        }
+
+        .nutrition-section .nutrition-value {
+          font-weight: normal !important;
         }
       }
 
@@ -606,16 +677,6 @@
           font-size: 0.95rem;
       }
 
-      .nutrition-note {
-          background: #fdf7f7;
-          border-radius: 8px;
-          padding: 1.25rem 1.5rem;
-          color: #666;
-          font-size: 0.95rem;
-          line-height: 1.6;
-          margin-top: 0.5rem;
-      }
-
       @media (min-width: 769px) {
           .related-recipes {
               margin-bottom: 3rem !important;
@@ -706,8 +767,8 @@
                         <span class="meta-value">5 minutes</span>
                     </div>
                     <div class="meta-item">
-                        <i class="fas fa-snowflake"></i>
-                        <span class="meta-label">Freeze</span>
+                        <i class="fas fa-fire"></i>
+                        <span class="meta-label">Cook</span>
                         <span class="meta-value">20 minutes</span>
                     </div>
                     <div class="meta-item">
@@ -724,7 +785,7 @@
 
                 <!-- Diet Badges -->
                 <div class="diet-badges">
-                    <span class="badge vegan">Vegan</span><span class="badge gluten-free">Gluten-Free</span><span class="badge dairy-free">Dairy-Free</span><span class="badge refined-sugar-free">Refined Sugar-Free</span>
+                    <span class="badge no-bake">No-Bake</span><span class="badge gluten-free">Gluten-Free</span><span class="badge dairy-free">Dairy-Free</span><span class="badge refined-sugar-free">Refined Sugar-Free</span>
                 </div>
 
                 <!-- Difficulty Badge -->
@@ -742,6 +803,7 @@
                 <picture>
             <img
                 src="../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-hero.webp"
+                
                 sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, (max-width: 1200px) 60vw, 735px"
                 width="800"
                 height="600"
@@ -792,15 +854,15 @@
         <main class="recipe-content">
         <!-- Story Section -->
         <section class="recipe-story">
-
-            <h2>No Bake Cookie Dough Protein Bars <em style="font-weight: 300; color: #e0a5a5;">(stop buying store bought — make these instead)</em></h2>
-            <p>this is your sign to stop buying store bought protein bars. i know they're convenient, i know they look good on the shelf, but once you see how easy it is to make them at home with ingredients you can actually recognise, you won't go back. these no bake cookie dough protein bars take about 5 minutes to make, they taste like actual cookie dough, and they have a proper thick chocolate topping that sets hard in the freezer. they've been on repeat in my kitchen ever since i first made them.</p><p>the best part? no baking, no cooking, no fuss. just a food processor, a lined container, and 20ish minutes in the freezer.</p><p>why homemade protein bars are worth it: most store bought protein bars are packed with ingredients that don't need to be there. artificial sweeteners, inflammatory oils, a long list of additives that make the shelf life impressive but the nutritional value and effect on your gut questionable. when you make them at home you control exactly what goes in. these bars use real whole food ingredients, they're refined sugar free, and they genuinely taste better than anything i've bought in a shop. the cookie dough flavour is real, not artificial, because it comes from the combination of almond flour, oat flour and vanilla protein powder rather than any artificial flavouring. for that reason, i strongly recommend using a high quality protein powder that also doesn't use artificial ingredients or flavouring. my favourite protein powder is from <a href="https://theorganicproteincompany.co.uk/?_gl=1*17qsidx*_up*MQ..*_ga*MjA0Mjk0MDMxMC4xNzY3ODA5NDEz*_ga_DHJ5W3BEQJ*czE3Njc4MDk0MTIkbzEkZzAkdDE3Njc4MDk1MDEkajU1JGwwJGg5MzcyNTEzODk." target="_blank" rel="noopener noreferrer">The Organic Protein Co</a> — you can use code <strong>YWG10</strong> for a discount if you'd like to try it out.</p><p>let's get into the ingredients! tahini is the ingredient that surprises people most in this recipe. it's sesame seed paste, and it gives the bars a rich, slightly nutty depth of flavour that works really well with the chocolate and emphasises that cookie dough flavour. it's also what binds everything together and gives the bars that soft, slightly dense texture that feels genuinely indulgent. tahini is a great source of healthy fats, plant-based protein, and minerals like calcium and iron, so it's doing a lot more than just holding the batter together. if you don't have any tahini on hand, sub in your favourite nut or seed butter — just note that it may change the taste slightly.</p><p>the combination of almond flour and oat flour is what gives the base that classic cookie dough texture. almond flour adds a subtle sweetness, a little more protein and a finer, almost buttery consistency, while oat flour gives a bit more structure and keeps everything from feeling too dense. using both is the key to getting that soft but sliceable texture once frozen.</p><p>vanilla protein powder is what bumps up the protein content without changing the flavour. i use a vanilla one here specifically because it leans into the cookie dough vibe and adds a gentle sweetness. if you only have unflavoured protein powder that works too, but you might want to add in a generous splash of vanilla extract. the protein powder you use will massively impact the macros of this recipe, so if you want the highest amount of protein, check the macros of your protein powder per serving.</p><p>the coconut oil needs to be solid or at room temperature here, not melted. solid coconut oil helps bind the mixture and gives the bars a slightly firmer texture once they come out of the freezer. if yours has melted in warmer weather, just pop it in the fridge for 10 minutes before using, or use a little less and add more as needed based on how well the batter is coming together.</p><p>the maple syrup is just 1 to 2 tablespoons for the whole batch, which keeps the bars refined sugar free and means the sweetness is subtle rather than overpowering. taste the batter before you press it into the container and add the second tablespoon if you feel it needs it. if your protein powder is already sweetened, you may need less. the great thing about these being no bake is that you can taste as you go!</p><p>this is a small batch recipe so i use a small lined container. the smaller the container, the thicker your bars will be, which is exactly what i love. press the mixture down firmly so there are no air pockets and the bars hold together cleanly when you slice them — don't be shy to get in there with your hands to make sure the batter is compact.</p><p>for the chocolate topping, melt your dark chocolate chips gently and pour over the top in an even layer. let the bars set in the freezer for at least 20 minutes, or until the chocolate is fully firm before slicing. if you try to cut them too soon the chocolate will crack and the bars will fall apart. i also recommend using a hot knife for the most satisfying cuts! store these in the freezer and take them out 5 to 10 minutes before eating — they're best enjoyed slightly thawed so the cookie dough layer is soft but the chocolate is still snappy.</p><p>if you love all things cookie dough, you have to try my <a href="cookie-dough-stuffed-dates.html">viral cookie dough stuffed dates</a>!</p>
-
+            
+            <h2>No Bake Cookie Dough Protein Bars <em style="font-weight: 300; color: #e0a5a5;">(stop buying store bought, make these instead)</em></h2>
+            <p>this is your sign to stop buying store bought protein bars. i know they're convenient, i know they look good on the shelf, but once you see how easy it is to make them at home with ingredients you can actually recognise, you won't go back. these no bake cookie dough protein bars take about 5 minutes to make, they taste like actual cookie dough, and they have a proper thick chocolate topping that sets hard in the freezer. they've been on repeat in my kitchen ever since i first made them.</p><p>the best part? no baking, no cooking, no fuss. just a food processor, a lined container, and 20ish minutes in the freezer.</p><p>why homemade protein bars are worth it: most store bought protein bars are packed with ingredients that don't need to be there. artificial sweeteners, inflammatory oils, a long list of additives that make the shelf life impressive but the nutritional value and effect on your gut questionable. when you make them at home you control exactly what goes in. these bars use real whole food ingredients, they're refined sugar free, and they genuinely taste better than anything i've bought in a shop. the cookie dough flavour is real, not artificial, because it comes from the combination of almond flour, oat flour and vanilla protein powder rather than any artificial flavouring. for that reason, i strongly recommend using a high quality protein powder that also doesn't use artificial ingredients or flavouring. my favourite protein powder is from <a href="https://theorganicproteincompany.co.uk/?_gl=1*17qsidx*_up*MQ..*_ga*MjA0Mjk0MDMxMC4xNzY3ODA5NDEz*_ga_DHJ5W3BEQJ*czE3Njc4MDk0MTIkbzEkZzAkdDE3Njc4MDk1MDEkajU1JGwwJGg5MzcyNTEzODk." target="_blank" rel="noopener noreferrer">The Organic Protein Co</a>. you can use code <strong>YWG10</strong> for a discount if you'd like to try it out.</p><p>let's get into the ingredients! tahini is the ingredient that surprises people most in this recipe. it's sesame seed paste, and it gives the bars a rich, slightly nutty depth of flavour that works really well with the chocolate and emphasises that cookie dough flavour. it's also what binds everything together and gives the bars that soft, slightly dense texture that feels genuinely indulgent. tahini is a great source of healthy fats, plant-based protein, and minerals like calcium and iron, so it's doing a lot more than just holding the batter together. if you don't have any tahini on hand, sub in your favourite nut or seed butter, just note that it may change the taste slightly.</p><p>the combination of almond flour and oat flour is what gives the base that classic cookie dough texture. almond flour adds a subtle sweetness, a little more protein and a finer, almost buttery consistency, while oat flour gives a bit more structure and keeps everything from feeling too dense. using both is the key to getting that soft but sliceable texture once frozen.</p><p>vanilla protein powder is what bumps up the protein content without changing the flavour. i use a vanilla one here specifically because it leans into the cookie dough vibe and adds a gentle sweetness. if you only have unflavoured protein powder that works too, but you might want to add in a generous splash of vanilla extract. the protein powder you use will massively impact the macros of this recipe, so if you want the highest amount of protein, check the macros of your protein powder per serving.</p><p>the coconut oil needs to be solid or at room temperature here, not melted. solid coconut oil helps bind the mixture and gives the bars a slightly firmer texture once they come out of the freezer. if yours has melted in warmer weather, just pop it in the fridge for 10 minutes before using, or use a little less and add more as needed based on how well the batter is coming together.</p><p>the maple syrup is just 1 to 2 tablespoons for the whole batch, which keeps the bars refined sugar free and means the sweetness is subtle rather than overpowering. taste the batter before you press it into the container and add the second tablespoon if you feel it needs it. if your protein powder is already sweetened, you may need less. the great thing about these being no bake is that you can taste as you go!</p><p>this is a small batch recipe so i use a small lined container. the smaller the container, the thicker your bars will be, which is exactly what i love. press the mixture down firmly so there are no air pockets and the bars hold together cleanly when you slice them. don't be shy to get in there with your hands to make sure the batter is compact.</p><p>for the chocolate topping, melt your dark chocolate chips gently and pour over the top in an even layer. let the bars set in the freezer for at least 20 minutes, or until the chocolate is fully firm before slicing. if you try to cut them too soon the chocolate will crack and the bars will fall apart. i also recommend using a hot knife for the most satisfying cuts! these bars can be stored at room temperature for up to 3 days and are best eaten slightly cooled for the best texture. for longer storage, pop them in the fridge or freezer and let them thaw for a few minutes before eating.</p><p>if you love all things cookie dough, you have to try my <a href="cookie-dough-stuffed-dates.html">viral cookie dough stuffed dates</a>!</p>
+        
         </section>
 
         <!-- Watch Me Make It Button -->
         <section class="watch-video-section">
-            <a href="https://www.instagram.com/p/DGoBsKPMCCu/?img_index=1" target="_blank" rel="noopener" class="watch-video-btn" data-video-url="https://www.instagram.com/p/DGoBsKPMCCu/?img_index=1">
+            <a href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener" class="watch-video-btn" data-video-url="https://www.instagram.com/yourwellnessgirly/">
                 Watch Me Make It 🎥
             </a>
             <div class="watch-follow-text">Follow along on socials!</div>
@@ -808,32 +870,62 @@
 
         <!-- FAQ Section -->
         <div class="faq-section">
-
+            
             <h3>Frequently Asked Questions</h3>
             <div class="faq-list">
-
+                
                     <div class="faq-item">
                         <h4 class="faq-question">What are the macros of these cookie dough protein bars?</h4>
-                        <p class="faq-answer">I have purposefully left out the macros for this recipe since they change majorly depending on the brand or type of protein powder you are using and how big or small you make the bars. Without adding in the protein powder, the recipe naturally has 16g of protein in it — then add in the amount of protein your chosen protein powder has to get a rough idea of the macros.</p>
+                        <p class="faq-answer">I have purposefully left out the macros for this recipe since they change majorly depending on the brand or type of protein powder you are using and how big or small you make the bars. Without adding in the protein powder, the recipe naturally has 16g of protein in it, then add in the amount of protein your chosen protein powder has to get a rough idea of the macros.</p>
                     </div>
-
+                
                     <div class="faq-item">
                         <h4 class="faq-question">How do I get the chocolate topping to be so shiny?</h4>
                         <p class="faq-answer">Add a half teaspoon of coconut oil and mix it into the warm melted chocolate for that extra shine.</p>
                     </div>
-
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">How do I store no bake cookie dough protein bars?</h4>
+                        <p class="faq-answer">These bars can be stored in an airtight container at room temperature for up to 3 days and are best eaten slightly cooled for the best texture. For longer storage, keep them in the fridge for up to 1 week or in the freezer for up to 1 month. If storing in the fridge or freezer, make sure to let them thaw for a few minutes before eating so the cookie dough layer has a chance to soften.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Why is my protein bar batter too dry or crumbly?</h4>
+                        <p class="faq-answer">A dry batter is almost always down to the coconut oil or tahini. Make sure your tahini is runny and well-stirred before measuring, and that your coconut oil is solid but not rock hard. If the batter feels too crumbly after blending, add an extra teaspoon of tahini or a tiny splash of maple syrup and blend again. You can also test the texture by pressing a small amount between your fingers: it should hold together without crumbling. if it doesn't, it needs a little more fat or liquid.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I use a different protein powder in this recipe?</h4>
+                        <p class="faq-answer">Yes, though the type of protein powder you use will affect both the texture and the flavour. Vanilla protein powder works best as it leans into the cookie dough taste, but unflavoured works too with a generous splash of vanilla extract added in. Avoid collagen-based powders for this recipe as they don't bind the same way. Plant-based and whey protein both work well. Keep in mind that some protein powders are much more absorbent than others, so if your batter looks very dry, add tahini or maple syrup a teaspoon at a time until it comes together.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Are these protein bars gluten free?</h4>
+                        <p class="faq-answer">Yes, as long as you use certified gluten free oat flour. Oats are naturally gluten free but can sometimes be cross-contaminated during processing, so if you're coeliac or highly sensitive make sure your oat flour is labelled certified gluten free. All other ingredients in this recipe are naturally gluten free.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I make these into protein balls instead of bars?</h4>
+                        <p class="faq-answer">Yes! Instead of pressing the batter into a container, roll it into small balls with your hands. You can either leave them as is for a truffle-like finish, or dip each one into melted dark chocolate and let them set on a lined tray in the freezer. They make a great bite-sized snack and are a little easier to grab on the go. The batter is exactly the same, just rolled instead of pressed.</p>
+                    </div>
+                
+                    <div class="faq-item">
+                        <h4 class="faq-question">Can I make these protein bars vegan?</h4>
+                        <p class="faq-answer">Yes, this recipe is already vegan as written, as long as your protein powder is plant-based. Tahini, almond flour, oat flour, maple syrup, and coconut oil are all vegan. Just double-check your chocolate chips and protein powder are dairy free and you're good to go.</p>
+                    </div>
+                
             </div>
-
+        
         </div>
 
         <!-- Tips Section -->
         <div class="tips-section">
-
+            
             <h3>Pro Tips</h3>
             <ul class="tips-list">
-                <li>Ensure you press the batter down firmly and evenly into the container so the bars hold together cleanly when sliced.</li>
+                <li>Ensure you press the batter down firmly and evenly into the container so the bars hold together cleanly when sliced.</li><li>Use a hot knife to slice the bars cleanly. Run the knife under hot water, dry it quickly, and slice straight through. This gives you that satisfying clean cut through both the cookie dough and the chocolate.</li><li>Let the bars sit out for 5 to 10 minutes before eating. Straight from the freezer they're very firm, but a few minutes at room temperature brings out the soft, chewy cookie dough texture and makes them much more enjoyable.</li><li>Taste the batter before you press it into the container and adjust sweetness to your taste. If your protein powder is already quite sweet, you may only need 1 tablespoon of maple syrup. If it's more neutral, go for 2.</li>
             </ul>
-
+        
         </div>
 
         <!-- Recipe Card -->
@@ -841,6 +933,20 @@
             <div class="recipe-card-top">
                 <div class="recipe-card-info">
                     <h2 class="recipe-card-title">No Bake Cookie Dough Protein Bars</h2>
+
+                    <!-- Recipe Rating - Commented out for now, can be enabled later
+                    <div class="recipe-rating">
+                        <span class="rating-text">Rate this recipe:</span>
+                        <div class="stars">
+                            <i class="fas fa-star" data-rating="1"></i>
+                            <i class="fas fa-star" data-rating="2"></i>
+                            <i class="fas fa-star" data-rating="3"></i>
+                            <i class="fas fa-star" data-rating="4"></i>
+                            <i class="fas fa-star" data-rating="5"></i>
+                        </div>
+                        <span class="rating-count">(127 ratings)</span>
+                    </div>
+                    -->
 
                     <div class="recipe-meta-grid">
                         <div class="meta-row">
@@ -854,7 +960,7 @@
                         </div>
                         <div class="meta-row">
                             <i class="far fa-clock"></i>
-                            <span class="meta-label">freeze time:</span>
+                            <span class="meta-label">cook time:</span>
                             <span class="meta-value">20</span>
                         </div>
                         <div class="meta-row">
@@ -888,11 +994,11 @@
                 <div class="recipe-card-image">
                     <img
             src="../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp"
-            srcset="../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp 300w, ../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card600.webp 600w"
+            srcset="../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp 400w, ../images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card600.webp 600w"
             sizes="(max-width: 768px) 50vw, 300px"
             width="400"
             height="300"
-            alt="No bake cookie dough protein bars with dark chocolate topping sliced into bars"
+            alt="No bake cookie dough protein bars with dark chocolate topping"
             loading="lazy"
             decoding="async" />
                 </div>
@@ -910,56 +1016,56 @@
             <div class="ingredients-section">
                 <h3>Ingredients</h3>
                 <ul class="ingredients-list">
-
+                    
                 <li>
                     <input type="checkbox" id="ingredient-1">
                     <label for="ingredient-1">
                         <span class="amount">40</span> grams almond flour
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-2">
                     <label for="ingredient-2">
                         <span class="amount">55</span> grams oat flour
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-3">
                     <label for="ingredient-3">
                         <span class="amount">30</span> grams vanilla protein powder
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-4">
                     <label for="ingredient-4">
                         <span class="amount">70</span> grams tahini
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-5">
                     <label for="ingredient-5">
                         <span class="amount">10–15</span> grams coconut oil <span class="ingredient-notes">(solid or room temperature, not melted)</span>
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-6">
                     <label for="ingredient-6">
-                        1–2 tablespoons maple syrup
+                        <span class="amount">1–2</span> tablespoons maple syrup
                     </label>
                 </li>
-
+            
                 <li>
                     <input type="checkbox" id="ingredient-7">
                     <label for="ingredient-7">
-                        dark chocolate chips <span class="ingredient-notes">(for the batter and the topping)</span>
+                        <span class="amount"></span>  dark chocolate chips <span class="ingredient-notes">(for the batter and the topping)</span>
                     </label>
                 </li>
-
+            
                 </ul>
             </div>
 
@@ -973,11 +1079,35 @@
 
         </section>
 
-        <!-- Nutrition Note (macros intentionally omitted) -->
+        <!-- Nutrition Facts -->
         <div class="nutrition-section">
             <h3>Nutrition Facts</h3>
-            <p class="nutrition-note">Macros have been intentionally left out of this recipe as they vary significantly depending on the brand and type of protein powder used and the size you cut the bars. Without the protein powder, the recipe naturally contains 16g of protein — add the protein content of your chosen powder for a rough total. See the FAQ above for more detail.</p>
-            <p class="nutrition-disclaimer" style="font-size: 0.9rem !important; line-height: 1.4 !important; margin-top: 0.75rem;">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Please use this as a guideline only.</p>
+            <p class="nutrition-per-serving">Per one serving:</p>
+            <div class="nutrition-table">
+                
+            <div class="nutrition-item">
+                <span class="nutrition-label">Calories</span>
+                <span class="nutrition-value"></span>
+            </div>
+            <div class="nutrition-item">
+                <span class="nutrition-label">Total Fat</span>
+                <span class="nutrition-value"></span>
+            </div>
+            <div class="nutrition-item">
+                <span class="nutrition-label">Carbohydrates</span>
+                <span class="nutrition-value"></span>
+            </div>
+            <div class="nutrition-item">
+                <span class="nutrition-label">Fiber</span>
+                <span class="nutrition-value"></span>
+            </div>
+            <div class="nutrition-item">
+                <span class="nutrition-label">Protein</span>
+                <span class="nutrition-value"></span>
+            </div>
+        
+            </div>
+            <p class="nutrition-disclaimer" style="font-size: 0.9rem !important; line-height: 1.4 !important;">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Basic macros don't reflect the full nutritional value including vitamins, minerals, antioxidants, and other beneficial compounds. Please use this as a guideline only.</p>
         </div>
     </main>
     </div>
@@ -986,64 +1116,64 @@
     <section class="related-recipes">
         <h2>You Might Also Like</h2>
         <div class="related-grid-small">
-
-            <a href="cookie-dough-stuffed-dates.html" class="recipe-card-small">
+            
+            <a href="apple-fritters.html" class="recipe-card-small">
                 <img
-            src="../images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail400.webp"
-            srcset="../images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail400.webp 400w, ../images/recipes/cookie-dough-stuffed-dates/cd-dates-thumbnail600.webp 600w"
+            src="../images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp"
+            srcset="../images/recipes/apple-fritters/apple-fritters-thumbnail-400px.webp 400w, ../images/recipes/apple-fritters/apple-fritters-thumbnail-600px.webp 600w"
             sizes="(max-width: 768px) 50vw, 300px"
-            width="300"
-            height="225"
-            alt="Air fried cookie dough stuffed medjool dates with melted chocolate chips"
+            width="400"
+            height="300"
+            alt="Healthy sugar-free apple fritters on a baking tray"
             loading="lazy"
             decoding="async" />
                 <div class="recipe-info">
-                    <h3>Cookie Dough Stuffed Dates (Air Fried)</h3>
-                    <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 5 minutes</span>
-                        <span class="difficulty">Easy</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="brownie-batter-bars.html" class="recipe-card-small">
-                <img
-            src="../images/recipes/brownie-batter-bars/brownie-batter-bars-card-300px.webp"
-            srcset="../images/recipes/brownie-batter-bars/brownie-batter-bars-card-300px.webp 300w, ../images/recipes/brownie-batter-bars/brownie-batter-bars-card-600px.webp 600w"
-            sizes="(max-width: 768px) 50vw, 300px"
-            width="300"
-            height="225"
-            alt="No bake brownie batter bars sliced into squares"
-            loading="lazy"
-            decoding="async" />
-                <div class="recipe-info">
-                    <h3>No Bake Brownie Batter Bars</h3>
+                    <h3>Healthy Sugar-Free Apple Fritters (Gluten-Free & Naturally Sweetened)</h3>
                     <div class="recipe-meta">
                         <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
-
-            <a href="gluten-free-brownie-cookies.html" class="recipe-card-small">
+        
+            <a href="banana-brownies.html" class="recipe-card-small">
                 <img
-            src="../images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-300px.webp"
-            srcset="../images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-300px.webp 300w, ../images/recipes/gluten-free-brownie-cookies/gluten-free-brownie-cookies-card-600px.webp 600w"
+            src="../images/recipes/banana-brownies/banana-brownies-card-300px.webp"
+            srcset="../images/recipes/banana-brownies/banana-brownies-card-300px.webp 300w, ../images/recipes/banana-brownies/banana-brownies-card-600px.webp 600w"
             sizes="(max-width: 768px) 50vw, 300px"
             width="300"
             height="225"
-            alt="Gluten free brownie cookies with crinkle tops and melted chocolate chips"
+            alt="A hand holding up a single fudgy 3 ingredient banana brownie square with melted chocolate chunks on top"
             loading="lazy"
             decoding="async" />
                 <div class="recipe-info">
-                    <h3>Gluten Free Brownie Cookies</h3>
+                    <h3>3 Ingredient Banana Brownies (Healthy)</h3>
                     <div class="recipe-meta">
-                        <span class="time"><i class="far fa-clock"></i> 15 minutes</span>
+                        <span class="time"><i class="far fa-clock"></i> 5 minutes</span>
                         <span class="difficulty">Easy</span>
                     </div>
                 </div>
             </a>
-
+        
+            <a href="banana-fritters.html" class="recipe-card-small">
+                <img
+            src="../images/recipes/banana-fritters/banana-fritters-card-300px.webp"
+            srcset="../images/recipes/banana-fritters/banana-fritters-card-300px.webp 300w, ../images/recipes/banana-fritters/banana-fritters-card-600px.webp 600w"
+            sizes="(max-width: 768px) 50vw, 300px"
+            width="300"
+            height="225"
+            alt="A spoon drizzling white icing over golden baked banana fritters topped with caramelised banana slices on parchment paper"
+            loading="lazy"
+            decoding="async" />
+                <div class="recipe-info">
+                    <h3>Healthy Banana Fritters (Sugar Free)</h3>
+                    <div class="recipe-meta">
+                        <span class="time"><i class="far fa-clock"></i> 10 minutes</span>
+                        <span class="difficulty">Easy</span>
+                    </div>
+                </div>
+            </a>
+        
         </div>
     </section>
 
@@ -1119,12 +1249,15 @@
         </div>
     </footer>
 
+    <!-- Optional JavaScript for enhanced interactions -->
     <script>
+        // Mobile menu toggle function
         function toggleMobileMenu() {
             const dropdown = document.getElementById('mobileNavDropdown');
             dropdown.classList.toggle('show');
         }
 
+        // Close mobile menu when clicking outside or on menu items
         document.addEventListener('click', function(event) {
             const dropdown = document.getElementById('mobileNavDropdown');
             const hamburger = document.querySelector('.hamburger-menu');
@@ -1138,6 +1271,7 @@
             }
         });
 
+        // Search functionality (optional)
         function toggleSearch() {
             const searchOverlay = document.getElementById('searchOverlay');
             const searchInput = document.getElementById('searchInput');
@@ -1150,14 +1284,17 @@
             searchOverlay.classList.remove('show');
         }
 
+        // Scroll to recipe function
         function scrollToRecipe() {
             document.getElementById('recipe-card').scrollIntoView({ behavior: 'smooth' });
         }
 
+        // Print recipe function
         function printRecipe() {
             window.print();
         }
 
+        // Social sharing functions
         function shareOnPinterest() {
             const url = encodeURIComponent(window.location.href);
             const title = encodeURIComponent(document.title);
@@ -1176,23 +1313,56 @@
             window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400');
         }
 
+        // Enhanced servings adjustment with dynamic calculation
         let baseServings = 6;
-        let currentServings = 6;
+        let currentServings = baseServings;
+        const baseAmounts = [40, 55, 30, 70, 10, 1, 0];
 
         function adjustServings(change) {
-            currentServings = Math.max(1, currentServings + change);
+            const newServings = currentServings + change;
+            if (newServings < 1 || newServings > 50) return;
+
+            currentServings = newServings;
             document.querySelector('.serving-count').textContent = currentServings;
 
-            const ratio = currentServings / baseServings;
-            document.querySelectorAll('.amount').forEach(el => {
-                const original = parseFloat(el.dataset.original || el.textContent);
-                if (!el.dataset.original) el.dataset.original = original;
-                if (!isNaN(original)) {
-                    const newAmount = original * ratio;
-                    el.textContent = Number.isInteger(newAmount) ? newAmount : newAmount.toFixed(1);
+            // Update ingredient amounts
+            const multiplier = currentServings / baseServings;
+            const amounts = document.querySelectorAll('.ingredients-list .amount');
+
+            amounts.forEach((amount, index) => {
+                if (baseAmounts[index] && baseAmounts[index] > 0) {
+                    const newAmount = (baseAmounts[index] * multiplier).toFixed(2);
+                    amount.textContent = parseFloat(newAmount).toString();
                 }
             });
         }
+
+        // Ingredient checkbox functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('.ingredients-list input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const label = this.nextElementSibling;
+                    if (this.checked) {
+                        label.style.textDecoration = 'line-through';
+                        label.style.opacity = '0.6';
+                    } else {
+                        label.style.textDecoration = 'none';
+                        label.style.opacity = '1';
+                    }
+                });
+            });
+        });
+
+        // Close search when clicking outside
+        document.addEventListener('click', function(event) {
+            const searchOverlay = document.getElementById('searchOverlay');
+            const searchContainer = document.querySelector('.search-container');
+
+            if (searchOverlay.classList.contains('show') && !searchContainer.contains(event.target)) {
+                closeSearch();
+            }
+        });
     </script>
 </body>
 </html>

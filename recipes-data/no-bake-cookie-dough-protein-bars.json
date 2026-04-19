@@ -1,0 +1,216 @@
+{
+  "id": "no-bake-cookie-dough-protein-bars",
+  "title": "No Bake Cookie Dough Protein Bars",
+  "slug": "no-bake-cookie-dough-protein-bars",
+  "description": "no bake chocolate chip cookie dough bars that are whole food, refined sugar free, gluten and dairy free but so delicious and chewy.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-hero.webp",
+      "alt": "No bake cookie dough protein bars stacked with a thick dark chocolate topping and chocolate chips",
+      "width": 800,
+      "height": 600
+    },
+    "thumbnail": {
+      "src": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp",
+      "srcset": {
+        "400": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp",
+        "600": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card600.webp"
+      },
+      "alt": "No bake cookie dough protein bars with dark chocolate topping",
+      "width": 400,
+      "height": 300
+    },
+    "thumbnail_400": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card300.webp",
+    "thumbnail_600": "images/recipes/no-bake-cookie-dough-protein-bars/nb-cd-protein-bars-card600.webp",
+    "alt": "No bake cookie dough protein bars stacked with a thick dark chocolate topping and chocolate chips",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "20 minutes",
+    "totalTimeDisplay": "25 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "bars"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "No-Bake",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "cookie-dough",
+    "protein-bars",
+    "no-bake",
+    "gluten-free",
+    "dairy-free",
+    "vegan",
+    "refined-sugar-free",
+    "chocolate",
+    "healthy-dessert",
+    "high-protein"
+  ],
+  "nutrition": null,
+  "ingredients": [
+    {
+      "amount": "40",
+      "unit": "grams",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "55",
+      "unit": "grams",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "30",
+      "unit": "grams",
+      "ingredient": "vanilla protein powder",
+      "notes": ""
+    },
+    {
+      "amount": "70",
+      "unit": "grams",
+      "ingredient": "tahini",
+      "notes": ""
+    },
+    {
+      "amount": "10–15",
+      "unit": "grams",
+      "ingredient": "coconut oil",
+      "notes": "solid or room temperature, not melted"
+    },
+    {
+      "amount": "1–2",
+      "unit": "tablespoons",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "dark chocolate chips",
+      "notes": "for the batter and the topping"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the almond flour, oat flour, vanilla protein powder, tahini, coconut oil and maple syrup to a food processor. Blend until fully combined into a thick dough. Fold in a generous handful of chocolate chips.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a small lined container and press down firmly and evenly.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Melt the dark chocolate chips and pour over the top, spreading into an even layer.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Place in the freezer for 20 minutes or until the chocolate is fully set.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Slice and enjoy. Store any leftovers in the freezer.",
+      "image": ""
+    }
+  ],
+  "seo": {
+    "metaTitle": "No Bake Cookie Dough Protein Bars",
+    "metaDescription": "no bake chocolate chip cookie dough bars that are whole food, refined sugar free, gluten and dairy free but so delicious and chewy.",
+    "keywords": [
+      "no bake cookie dough protein bars",
+      "homemade protein bars",
+      "gluten free protein bars",
+      "dairy free protein bars",
+      "refined sugar free protein bars",
+      "healthy cookie dough bars",
+      "no bake protein bars"
+    ],
+    "canonicalUrl": "/recipes/no-bake-cookie-dough-protein-bars"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Stop buying store bought protein bars! These no bake cookie dough protein bars take 5 minutes, taste like actual cookie dough, and are gluten-free, dairy-free and refined sugar free.",
+      "title": "No Bake Cookie Dough Protein Bars"
+    },
+    "instagram": {
+      "caption": "this is your sign to stop buying store bought protein bars — these no bake cookie dough protein bars take 5 minutes and taste like actual cookie dough. recipe on the blog ➡️",
+      "hashtags": [
+        "#proteinbars",
+        "#cookiedough",
+        "#nobake",
+        "#glutenfree",
+        "#dairyfree",
+        "#refinedsugarfree",
+        "#healthydesserts",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "stop buying store bought — make these instead",
+    "paragraphs": [
+      "this is your sign to stop buying store bought protein bars. i know they're convenient, i know they look good on the shelf, but once you see how easy it is to make them at home with ingredients you can actually recognise, you won't go back. these no bake cookie dough protein bars take about 5 minutes to make, they taste like actual cookie dough, and they have a proper thick chocolate topping that sets hard in the freezer. they've been on repeat in my kitchen ever since i first made them.",
+      "the best part? no baking, no cooking, no fuss. just a food processor, a lined container, and 20ish minutes in the freezer.",
+      "why homemade protein bars are worth it: most store bought protein bars are packed with ingredients that don't need to be there. artificial sweeteners, inflammatory oils, a long list of additives that make the shelf life impressive but the nutritional value and effect on your gut questionable. when you make them at home you control exactly what goes in. these bars use real whole food ingredients, they're refined sugar free, and they genuinely taste better than anything i've bought in a shop. the cookie dough flavour is real, not artificial, because it comes from the combination of almond flour, oat flour and vanilla protein powder rather than any artificial flavouring. for that reason, i strongly recommend using a high quality protein powder that also doesn't use artificial ingredients or flavouring. my favourite protein powder is from The Organic Protein Co — you can use code <strong>YWG10</strong> for a discount if you'd like to try it out.",
+      "let's get into the ingredients! tahini is the ingredient that surprises people most in this recipe. it's sesame seed paste, and it gives the bars a rich, slightly nutty depth of flavour that works really well with the chocolate and emphasises that cookie dough flavour. it's also what binds everything together and gives the bars that soft, slightly dense texture that feels genuinely indulgent. tahini is a great source of healthy fats, plant-based protein, and minerals like calcium and iron, so it's doing a lot more than just holding the batter together. if you don't have any tahini on hand, sub in your favourite nut or seed butter — just note that it may change the taste slightly.",
+      "the combination of almond flour and oat flour is what gives the base that classic cookie dough texture. almond flour adds a subtle sweetness, a little more protein and a finer, almost buttery consistency, while oat flour gives a bit more structure and keeps everything from feeling too dense. using both is the key to getting that soft but sliceable texture once frozen.",
+      "vanilla protein powder is what bumps up the protein content without changing the flavour. i use a vanilla one here specifically because it leans into the cookie dough vibe and adds a gentle sweetness. if you only have unflavoured protein powder that works too, but you might want to add in a generous splash of vanilla extract. the protein powder you use will massively impact the macros of this recipe, so if you want the highest amount of protein, check the macros of your protein powder per serving.",
+      "the coconut oil needs to be solid or at room temperature here, not melted. solid coconut oil helps bind the mixture and gives the bars a slightly firmer texture once they come out of the freezer. if yours has melted in warmer weather, just pop it in the fridge for 10 minutes before using, or use a little less and add more as needed based on how well the batter is coming together.",
+      "the maple syrup is just 1 to 2 tablespoons for the whole batch, which keeps the bars refined sugar free and means the sweetness is subtle rather than overpowering. taste the batter before you press it into the container and add the second tablespoon if you feel it needs it. if your protein powder is already sweetened, you may need less. the great thing about these being no bake is that you can taste as you go!",
+      "this is a small batch recipe so i use a small lined container. the smaller the container, the thicker your bars will be, which is exactly what i love. press the mixture down firmly so there are no air pockets and the bars hold together cleanly when you slice them — don't be shy to get in there with your hands to make sure the batter is compact.",
+      "for the chocolate topping, melt your dark chocolate chips gently and pour over the top in an even layer. let the bars set in the freezer for at least 20 minutes, or until the chocolate is fully firm before slicing. if you try to cut them too soon the chocolate will crack and the bars will fall apart. i also recommend using a hot knife for the most satisfying cuts! store these in the freezer and take them out 5 to 10 minutes before eating — they're best enjoyed slightly thawed so the cookie dough layer is soft but the chocolate is still snappy.",
+      "if you love all things cookie dough, you have to try my <a href=\"cookie-dough-stuffed-dates.html\">viral cookie dough stuffed dates</a>!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are the macros of these cookie dough protein bars?",
+      "answer": "I have purposefully left out the macros for this recipe since they change majorly depending on the brand or type of protein powder you are using and how big or small you make the bars. Without adding in the protein powder, the recipe naturally has 16g of protein in it — then add in the amount of protein your chosen protein powder has to get a rough idea of the macros."
+    },
+    {
+      "question": "How do I get the chocolate topping to be so shiny?",
+      "answer": "Add a half teaspoon of coconut oil and mix it into the warm melted chocolate for that extra shine."
+    }
+  ],
+  "tips": [
+    "Ensure you press the batter down firmly and evenly into the container so the bars hold together cleanly when sliced."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Tahini",
+      "alternatives": [
+        "Any nut or seed butter (note: will change the taste slightly)"
+      ]
+    },
+    {
+      "ingredient": "Vanilla protein powder",
+      "alternatives": [
+        "Unflavoured protein powder — add a generous splash of vanilla extract"
+      ]
+    }
+  ],
+  "datePublished": "2026-04-19",
+  "dateModified": "2026-04-19",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

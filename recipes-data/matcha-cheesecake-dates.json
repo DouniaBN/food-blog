@@ -5,23 +5,23 @@
   "description": "these matcha cheesecake dates are the ideal no bake refined sugar free dessert for matcha lovers. the perfect midday pick me up boost that will satisfy your sweet tooth and is packed with additional health benefits.",
   "image": {
     "hero": {
-      "src": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-hero.webp",
+      "src": "images/recipes/matcha-cheesecake-dates/matcha-dates-hero.webp",
       "alt": "Matcha cheesecake stuffed medjool dates drizzled with matcha white chocolate on a white plate",
       "width": 800,
       "height": 600
     },
     "thumbnail": {
-      "src": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-thumbnail400.webp",
+      "src": "images/recipes/matcha-cheesecake-dates/matcha-dates-thumbnail400.webp",
       "srcset": {
-        "400": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-thumbnail400.webp",
-        "600": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-thumbnail600.webp"
+        "400": "images/recipes/matcha-cheesecake-dates/matcha-dates-thumbnail400.webp",
+        "600": "images/recipes/matcha-cheesecake-dates/matcha-dates-thumbnail600.webp"
       },
       "alt": "Matcha cheesecake stuffed dates with matcha white chocolate drizzle",
       "width": 400,
       "height": 300
     },
-    "thumbnail_400": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-thumbnail400.webp",
-    "thumbnail_600": "images/recipes/matcha-cheesecake-dates/matcha-cheesecake-dates-thumbnail600.webp",
+    "thumbnail_400": "images/recipes/matcha-cheesecake-dates/matcha-dates-thumbnail400.webp",
+    "thumbnail_600": "images/recipes/matcha-cheesecake-dates/matcha-dates-thumbnail600.webp",
     "alt": "Matcha cheesecake stuffed medjool dates drizzled with matcha white chocolate on a white plate",
     "gallery": []
   },

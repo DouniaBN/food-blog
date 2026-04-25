@@ -1,0 +1,295 @@
+{
+  "id": "pepita-pecan-cookies",
+  "title": "Pepita & Pecan Cookies (Pumpkin Seed Cookies)",
+  "slug": "pepita-pecan-cookies",
+  "description": "these small batch pepita and pecan cookies are the ultimate cozy autumnal cookie, gluten free, dairy free, refined sugar free, and packed with the warmest flavours without any pumpkin puree.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-hero.webp",
+      "alt": "Soft pepita and pecan cookies with chocolate chips on a baking tray",
+      "width": 800,
+      "height": 600
+    },
+    "thumbnail": {
+      "src": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
+      "srcset": {
+        "400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
+        "600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail600.webp"
+      },
+      "alt": "Soft pepita and pecan cookies with chocolate chips",
+      "width": 400,
+      "height": 300
+    },
+    "thumbnail_400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
+    "thumbnail_600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail600.webp",
+    "alt": "Soft pepita and pecan cookies with chocolate chips on a baking tray",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT14M",
+    "totalTime": "PT24M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "14 minutes",
+    "totalTimeDisplay": "24 minutes"
+  },
+  "servings": {
+    "yield": "8",
+    "unit": "cookies"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Oven",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "pepita",
+    "pumpkin-seed",
+    "pecan",
+    "cookies",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "autumnal",
+    "oat-flour",
+    "healthy-cookies"
+  ],
+  "nutrition": {
+    "calories": 197,
+    "protein": "4.6g",
+    "carbs": "16g",
+    "fat": "13g",
+    "fiber": "1.7g",
+    "sugar": "",
+    "netCarbs": ""
+  },
+  "ingredients": [
+    {
+      "amount": "55",
+      "unit": "g",
+      "ingredient": "pumpkin seed butter",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "",
+      "ingredient": "egg",
+      "notes": ""
+    },
+    {
+      "amount": "3-4",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "2 1/2",
+      "unit": "tbsp",
+      "ingredient": "melted coconut oil",
+      "notes": ""
+    },
+    {
+      "amount": "1/3",
+      "unit": "cup (35g)",
+      "ingredient": "porridge oats",
+      "notes": ""
+    },
+    {
+      "amount": "1/3",
+      "unit": "cup (38g)",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "1/8",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "tsp",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "1-2",
+      "unit": "tbsp",
+      "ingredient": "desiccated coconut",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "handful",
+      "ingredient": "chopped pecans",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "handful",
+      "ingredient": "chocolate chips",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C / 160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "To a bowl add the pumpkin seed butter, egg, maple syrup and melted coconut oil. Mix until well combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Fold in the oats, oat flour, cinnamon and baking powder.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Add in the desiccated coconut, chopped pecans and chocolate chips and fold through.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Spoon the dough onto a lined baking tray, leaving space between each cookie.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Bake for 14 minutes or until the edges are slightly golden brown. Let them cool completely before eating . they firm up as they cool.",
+      "image": ""
+    }
+  ],
+  "seo": {
+    "metaTitle": "Pepita & Pecan Cookies (Pumpkin Seed Cookies, Gluten Free)",
+    "metaDescription": "small batch pepita and pecan cookies: gluten free, dairy free, refined sugar free. cozy autumnal flavour with no pumpkin puree required. ready in 25 minutes.",
+    "keywords": [
+      "pepita pecan cookies",
+      "pumpkin seed cookies",
+      "gluten free pumpkin cookies",
+      "dairy free autumn cookies",
+      "refined sugar free cookies",
+      "healthy pecan cookies",
+      "pumpkin seed butter cookies",
+      "small batch healthy cookies"
+    ],
+    "canonicalUrl": "/recipes/pepita-pecan-cookies"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Pepita and pecan cookies , small batch, gluten free, dairy free, refined sugar free. The coziest autumnal cookie that tastes like pumpkin without the puree.",
+      "title": "Pepita & Pecan Cookies (Pumpkin Seed Cookies)"
+    },
+    "instagram": {
+      "caption": "i made these by accident and dare i say they may be my new favourite cookie recipe 🎃 pepita and pecan cookies : cozy, autumnal, gluten free and refined sugar free. they taste like pumpkin without any pumpkin puree! recipe on the blog ➡️",
+      "hashtags": [
+        "#pepitacookies",
+        "#pumpkinseedcookies",
+        "#glutenfreecookies",
+        "#dairyfreecookies",
+        "#refinedsugarfree",
+        "#autumnbaking",
+        "#healthycookies",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "small batch, cozy, autumnal, and accidentally my new favourite cookie",
+    "paragraphs": [
+      "now i know i will probably have to convince you a little to make these pepita cookies since let's be real… they are not the most aesthetically pleasing cookie! looks aside, these cookies are actually in my top 10 cookies that i have ever made, and i've made a lot of cookies. they are the perfect autumnal, cozy cookie for when you want something that feels more nourishing than indulgent. the texture is thicker, more cakey but still very soft. the pecans, cinnamon and pumpkin seed butter create the most cozy flavour profile and the chocolate chips just complement it so well.",
+      "these are kind of like a hybrid between a cookie and a scone: all the best parts of both in each and every single bite.",
+      "my favourite thing about these pumpkin seed cookies is that they taste like pumpkin minus the actual pumpkin puree. i love pumpkin puree and use it in my bakes but it can be expensive if shop bought and time consuming if homemade. these cookies give you that exact same cozy, autumnal pumpkin flavour through the pumpkin seed butter and cinnamon, no puree required.",
+      "i personally love pumpkin seed butter, but i know it's a pretty niche and underrated seed butter. it works perfectly in this recipe since it has a cozy, earthy flavour and it makes the cookies a rich green colour. my favourite is the <a href=\"https://amzn.to/48QICXG\" target=\"_blank\" rel=\"noopener noreferrer\">Biona organic pumpkin seed butter</a>, or the <a href=\"https://amzn.to/4d2rl06\" target=\"_blank\" rel=\"noopener noreferrer\">Nutterra pumpkin seed butter</a> is a great option too. if you can't find pumpkin seed butter at all and still want to try out these cookies, you can sub it for pistachio butter. of course the flavour profile will change slightly and they'll become pistachio and pecan cookies instead, but they'll still be absolutely delicious and just as cozy.",
+      "i made these completely by accident and dare i say that they may be my new favourite cookie recipe. the dough comes together in one bowl in about 10 minutes, no chilling required, and they bake up in just 14 minutes. easy, cozy, and you have to try these!",
+      "let's talk about pumpkin seed butter for a second because it is such an underrated ingredient. most people reach for almond butter or peanut butter without giving pumpkin seed butter a second look, and i really want to change that. pumpkin seeds are one of the most nutrient-dense seeds out there, packed with magnesium, zinc, iron, and plant-based protein. the butter version carries all of that goodness and the flavour is earthy, slightly sweet, and more complex than you'd expect. it carries the autumnal vibe completely on its own without needing any extra flavourings beyond the cinnamon.",
+      "one thing i really want to flag before you bake these: they will look very soft and almost underdone when you pull them out of the oven at 14 minutes. please don't panic and please don't put them back in. that softness is exactly what gives them the thick, fudgy, slightly cakey texture once they've cooled down. they firm up significantly as they cool on the tray and that is completely normal and intentional. if you overbake them trying to get them to look set in the oven, you'll end up with a dry cookie and we absolutely do not want that.",
+      "the desiccated coconut is one of those ingredients you might look at and think is optional, but it adds a subtle sweetness and a little texture variation that really rounds the flavour out. the chocolate chips are non-negotiable in my opinion. the little pockets of melted dark chocolate in every bite take these from a good cookie to a really great one. i use dark chocolate chips here but milk or white chocolate chips work too depending on your preference.",
+      "if you need another cookie recipe, my <a href=\"gluten-free-brownie-cookies.html\">gluten free brownie cookies</a> are a completely different vibe but just as good!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I store pepita and pecan cookies?",
+      "answer": "Store in an airtight container at room temperature for up to 4 days. They also keep well in the fridge for up to a week, and the texture becomes even fudgier when cold. For longer storage, freeze in an airtight container for up to 2 months and thaw at room temperature for 20 to 30 minutes before eating."
+    },
+    {
+      "question": "Can I swap the pumpkin seed butter for another nut butter?",
+      "answer": "Yes! Pistachio butter is the closest substitute and gives a similar earthy, slightly sweet flavour. Almond butter or cashew butter also work well if that's what you have on hand; the cookies will still be delicious, the flavour profile will just be a little different. Peanut butter will work too but has a much more dominant flavour so keep that in mind."
+    },
+    {
+      "question": "Can I use a different flour?",
+      "answer": "The recipe uses a combination of porridge oats and oat flour which gives these cookies their thick, slightly cakey texture. You can use all oat flour if you prefer a smoother texture, or all blended oats if you don't have oat flour. A 1:1 gluten-free flour blend would also work in place of the oat flour. If you need the recipe to be strictly gluten free, make sure to use certified gluten-free oats."
+    },
+    {
+      "question": "Are these cookies vegan?",
+      "answer": "This recipe contains one egg, so as written it is not vegan. You could try a flax egg (1 tablespoon ground flaxseed mixed with 3 tablespoons water, left to sit for 5 minutes) as a vegan substitute, though the texture may be slightly different; a little less structured but still delicious."
+    },
+    {
+      "question": "Why do my pepita pecan cookies look underdone when I take them out of the oven?",
+      "answer": "this is completely normal and expected! these cookies are meant to be pulled from the oven when they still look quite soft. they firm up significantly as they cool on the tray and the texture comes together fully once they've had at least 10 minutes to rest. if you bake them until they look fully set in the oven, they'll be overdone and dry once cooled. trust the 14-minute mark and let the cooling do the work."
+    },
+    {
+      "question": "Are pepita and pecan cookies gluten free?",
+      "answer": "yes, as long as you use certified gluten-free oats and oat flour. oats are naturally gluten free but are often processed in facilities that also handle wheat, which can cause cross-contamination. if you're coeliac or highly sensitive, always look for oats labelled certified gluten free. all other ingredients in this recipe are naturally gluten free."
+    },
+    {
+      "question": "Can I add extra spices or flavourings to these cookies?",
+      "answer": "yes! a small pinch of nutmeg or ground ginger alongside the cinnamon makes these even cosier and more spiced. a splash of vanilla extract stirred into the wet ingredients is also a really nice addition and rounds out the sweetness. if you love a sweet-salty contrast, sprinkle a little flaky sea salt on top of each cookie just before baking. it brings out all the flavours and makes them look beautiful too."
+    }
+  ],
+  "tips": [
+    "Use your favourite chopped nuts: walnuts, hazelnuts or macadamia nuts all work beautifully in place of or alongside the pecans.",
+    "Don't skip the cooling time. These cookies are soft straight out of the oven and firm up as they cool, so let them rest on the tray for at least 10 minutes before eating.",
+    "For extra cozy flavour, add a small pinch of nutmeg or ginger alongside the cinnamon.",
+    "Sprinkle a pinch of flaky sea salt on top of each cookie just before baking for a sweet-salty contrast that takes these to another level."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Pumpkin seed butter",
+      "alternatives": [
+        "Pistachio butter (closest in flavour)",
+        "Almond butter (mild and works well)",
+        "Cashew butter (creamy and subtle)",
+        "Peanut butter (more dominant flavour)"
+      ]
+    },
+    {
+      "ingredient": "Pecans",
+      "alternatives": [
+        "Walnuts",
+        "Hazelnuts",
+        "Macadamia nuts",
+        "Any chopped nut of your choice"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "Blended rolled oats (blitz until a fine flour forms)",
+        "A 1:1 gluten-free flour blend"
+      ]
+    },
+    {
+      "ingredient": "Coconut oil",
+      "alternatives": [
+        "Melted butter (not dairy-free)",
+        "Any neutral flavoured oil"
+      ]
+    }
+  ],
+  "datePublished": "2026-04-23",
+  "dateModified": "2026-04-23",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

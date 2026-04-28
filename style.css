@@ -2347,7 +2347,7 @@
       position: static;
       flex: none;
       width: 100%;
-      order: -1;
+      order: 2;
     }
 
     .about-me-content {

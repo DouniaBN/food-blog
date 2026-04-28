@@ -11,17 +11,17 @@
       "height": 600
     },
     "thumbnail": {
-      "src": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
+      "src": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail-400px.webp",
       "srcset": {
-        "400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
-        "600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail600.webp"
+        "400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail-400px.webp",
+        "600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail-600px.webp"
       },
       "alt": "Soft pepita and pecan cookies with chocolate chips",
       "width": 400,
       "height": 300
     },
-    "thumbnail_400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail400.webp",
-    "thumbnail_600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail600.webp",
+    "thumbnail_400": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail-400px.webp",
+    "thumbnail_600": "images/recipes/pepita-pecan-cookies/pepita-pecan-cookies-thumbnail-600px.webp",
     "alt": "Soft pepita and pecan cookies with chocolate chips on a baking tray",
     "gallery": []
   },

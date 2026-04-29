@@ -1,0 +1,291 @@
+{
+  "id": "invisible-apple-cake",
+  "title": "Healthy Invisible Apple Cake (Sugar Free)",
+  "slug": "invisible-apple-cake",
+  "description": "This mini healthy invisible apple snacking cake is so soft, cozy and tender. It's the perfect added sugar-free snack for any time of day.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/invisible-apple-cake/invisible-apple-cake-hero.webp",
+      "alt": "Sliced healthy invisible apple cake showing beautiful layered apple slices",
+      "width": 800,
+      "height": 600
+    },
+    "thumbnail": {
+      "src": "images/recipes/invisible-apple-cake/invisible-apple-cake-thumbnail-400px.webp",
+      "srcset": {
+        "400": "images/recipes/invisible-apple-cake/invisible-apple-cake-thumbnail-400px.webp",
+        "600": "images/recipes/invisible-apple-cake/invisible-apple-cake-thumbnail-600px.webp"
+      },
+      "alt": "Healthy invisible apple cake sliced showing layered apple texture",
+      "width": 400,
+      "height": 300
+    },
+    "thumbnail_400": "images/recipes/invisible-apple-cake/invisible-apple-cake-card-300px.webp",
+    "thumbnail_600": "images/recipes/invisible-apple-cake/invisible-apple-cake-card-600px.webp",
+    "alt": "Sliced healthy invisible apple cake showing beautiful layered apple slices",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT60M",
+    "prepTimeDisplay": "20 minutes",
+    "cookTimeDisplay": "35-45 minutes",
+    "totalTimeDisplay": "55-65 minutes"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "mini loaf cake"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Baked",
+    "Refined Sugar-Free",
+    "Fruit",
+    "Snacks"
+  ],
+  "tags": [
+    "apple",
+    "cake",
+    "baked",
+    "refined-sugar-free",
+    "invisible-apple-cake",
+    "snacking-cake",
+    "fruit",
+    "cinnamon",
+    "healthy-dessert",
+    "small-batch"
+  ],
+  "nutrition": {
+    "calories": 108,
+    "protein": "3.1g",
+    "carbs": "15.5g",
+    "fat": "3.7g",
+    "fiber": "1.3g",
+    "sugar": "4.2g",
+    "netCarbs": "14.2g"
+  },
+  "ingredients": [
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "cup",
+      "ingredient": "milk",
+      "notes": "118g, use plant-based milk for dairy-free"
+    },
+    {
+      "amount": "2",
+      "unit": "tablespoons",
+      "ingredient": "coconut oil",
+      "notes": "22g, melted"
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": "be generous!"
+    },
+    {
+      "amount": "1",
+      "unit": "teaspoon",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "teaspoon",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "130",
+      "unit": "grams",
+      "ingredient": "plain flour",
+      "notes": "all-purpose flour"
+    },
+    {
+      "amount": "340",
+      "unit": "grams",
+      "ingredient": "apples",
+      "notes": "finely mandolined, approx 3-4 apples"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 190°C / 180°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a large bowl, add the eggs, milk and vanilla extract. Mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Fold in the cinnamon, baking powder and flour until a smooth batter forms.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Finely slice the apples using a mandoline until you reach 340g (please be careful with your fingers!).",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Gently fold the apple slices into the batter, making sure each slice is coated without breaking them.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Line a mini loaf cake tin with baking paper.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Pour in the batter and press down firmly with a spatula so the apple slices are compact and lying flat.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Bake for 35-45 minutes until the edges are deep golden brown and the cake feels set when gently pressed.",
+      "image": ""
+    },
+    {
+      "step": 9,
+      "text": "Let the cake cool completely before slicing. this is essential as the cake is very fragile when warm.",
+      "image": ""
+    },
+    {
+      "step": 10,
+      "text": "Slice and enjoy! Optional: dust with powdered monk fruit sweetener, a drizzle of maple syrup, or enjoy plain.",
+      "image": ""
+    }
+  ],
+  "seo": {
+    "metaTitle": "Healthy Invisible Apple Cake (Sugar Free) | Yourwellnessgirly",
+    "metaDescription": "This mini healthy invisible apple snacking cake is so soft, cozy and tender. It's the perfect added sugar-free snack for any time of day.",
+    "keywords": [
+      "invisible apple cake",
+      "healthy invisible apple cake",
+      "sugar-free apple cake",
+      "added sugar free apple cake",
+      "mini apple cake",
+      "healthy invisible apple cake recipe",
+      "snacking cake apple"
+    ],
+    "canonicalUrl": "/recipes/invisible-apple-cake"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Healthy invisible apple cake 🍎 Added sugar-free, so soft and cozy with beautiful layered apple slices! The perfect snacking cake.",
+      "title": "Healthy Invisible Apple Cake (Sugar Free)"
+    },
+    "instagram": {
+      "caption": "the invisible apple cake is having a serious moment and i had to put my own healthy spin on it 🍎✨ added sugar-free, so soft and cozy, recipe on the blog!",
+      "hashtags": [
+        "#invisibleapplecake",
+        "#applerecipes",
+        "#healthybaking",
+        "#sugarfree",
+        "#refinedsugarfree",
+        "#snackingcake",
+        "#healthydesserts",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "the viral invisible apple cake, but make it a healthy snacking cake",
+    "paragraphs": [
+      "if you've been anywhere near the internet recently, you've probably seen the invisible apple cake having a serious moment, and honestly for good reason. it's soft, it's cozy, it's packed with apples, and it has this almost magical quality where the apple slices seem to disappear into the batter as it bakes, giving you these beautifully thin, tender layers throughout the cake. we all know i'm a fan of viral apple desserts, shout out to my <a href=\"apple-fritters.html\">viral sugar free apple fritters</a>, so i had to try this one out!",
+      "the original version is rich and indulgent, with butter and sugar playing a big role in giving the cake its signature flavour and texture, and i want to be very clear: i am all for the real deal and i think you should absolutely make the original if that's what you're after. most of the time, a healthier version really isn't as nice and i'll be the first to admit that (and the first to prove you wrong lol). but i also like a challenge, and i wanted to see if i could create something that captured all the magic of the invisible apple cake in a lighter, added sugar free format that you could snack on without it feeling like a full dessert. so this isn't an exact copy of the invisible apple cake. it's my own spin: an added sugar free mini invisible apple snacking cake. all the gorgeous flavours and that iconic layered texture, but in a much lighter version that is perfect for an afternoon snack, a light breakfast, or really any time of day.",
+      "let's talk about the apples first because they are everything in this recipe. the apples are the star, the structure, and the sweetness all at once, which means choosing the right ones really does matter here. i strongly recommend using the sweetest apples you can find, because since there's no added sugar in the batter, the natural sweetness of the apple is doing all the heavy lifting in terms of flavour. fuji, honeycrisp, and pink lady apples are all brilliant choices. a more tart apple like a granny smith will result in a much less sweet cake overall, which is fine if that's your preference, but just know it will taste quite different. the variety of apple you use really does change the end result dramatically, so this is one tip i really don't want you to skip.",
+      "the mandoline is your best friend for this recipe, and also your biggest hazard, so please please use the safety guard that comes with it and go slowly (speaking from experience! :(  the apple slices need to be very thin and uniform so that they cook evenly inside the batter and give you those beautiful invisible layers the cake is known for. if you don't have a mandoline, you can use a sharp knife and slice as thinly and evenly as you can, but a mandoline will give you a much more consistent and much faster result. you need around 340 grams of sliced apples, which works out to roughly three to four apples depending on their size.",
+      "the batter itself is so simple. eggs, milk, a little melted coconut oil, a generous splash of vanilla (and i do mean generous, please be heavy handed here), cinnamon, baking powder, and plain flour. that's it. the coconut oil keeps things moist without needing butter, and the eggs give the batter enough structure to hold all those apple slices together as it bakes. the cinnamon is non-negotiable for me; it brings that warm, cozy quality that makes this cake feel so comforting, especially if you're making it on a chilly day.",
+      "when you fold the apple slices into the batter, be gentle. you want each slice to be coated in batter without breaking apart, so use a light hand and take your time. once everything is folded together, pour the batter into a lined mini loaf tin and use a spatula to press it down firmly so the apple slices are compact and lying as flat as possible. this is what gives the cake its beautiful layered structure when you slice into it.",
+      "it bakes at 190 degrees celsius (or 180 fan) for 35 to 45 minutes until the edges are deep golden brown and the cake feels set when you gently press the top. this cake won't have the typical signs of doneness since it's so apple forward, so the normal toothpick test won't work as the apples keep the cake very moist. and now the most important tip of all: let it cool completely before you even think about slicing it. the invisible apple cake is incredibly fragile when warm because those thin apple layers are so delicate, and if you try to slice it too soon it will fall apart on you. i know it's hard to wait, but a fully cooled cake will slice cleanly and give you those gorgeous layered slices you're after.",
+      "once sliced, you can dust the top with a little powdered monk fruit sweetener, a drizzle of maple syrup, whatever your favourite sweetener is for a little extra something, a touch of butter, or enjoy it completely plain, because even without any topping it's really delicious!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is the invisible apple cake sugar free?",
+      "answer": "No, apples contain natural sugar, but this recipe is added sugar free and refined sugar free. There is no added or refined sugar in the batter."
+    },
+    {
+      "question": "How is this healthy invisible apple cake different to the traditional version?",
+      "answer": "This is a healthy, added sugar free version designed as a snacking cake. The original version uses butter and sugar which contribute to a richer, more indulgent flavour and texture. This version is lighter and perfect for an everyday snack, while still capturing that iconic layered apple texture."
+    },
+    {
+      "question": "How do I store this sugar free invisible apple cake?",
+      "answer": "Store at room temperature for up to 2 days, or in the fridge for up to 4 days. It can also be frozen: slice first and freeze in an airtight container for easy grab-and-go portions."
+    },
+    {
+      "question": "Is this mini invisible apple cake gluten free?",
+      "answer": "No, this is one of the few recipes I've developed that is not gluten free. However, a 1:1 gluten free flour blend would work as a substitute. I found that using a single gluten free flour like oat flour or almond flour resulted in a cake that was dense, bitter and gritty in texture, so a proper 1:1 blend is the way to go if you need it gluten free."
+    },
+    {
+      "question": "Is this a small batch recipe?",
+      "answer": "Yes! I use a small/mini loaf cake tin for this recipe. You can also use a larger tin if you don't have a mini loaf tin, the cake will be less loaf-shaped and more of a thin bake, but it will still work. Just keep an eye on the baking time as it may cook faster in a larger tin."
+    },
+    {
+      "question": "What is invisible apple cake?",
+      "answer": "invisible apple cake is a French-inspired cake (also called gâteau invisible) where thinly sliced apples are folded into a very light batter. as the cake bakes, the batter almost disappears into the apple slices, leaving you with a cake that is mostly apple with just enough batter holding everything together. when you slice into it, you get these gorgeous, distinct apple layers throughout. it looks impressive but is actually very simple to make."
+    },
+    {
+      "question": "Which apples are best for invisible apple cake?",
+      "answer": "the sweetest apples you can find work best here. fuji, honeycrisp, and pink lady are all great choices as they are naturally sweet and hold their shape well when thinly sliced and baked. a granny smith or other tart apple will result in a much less sweet cake overall since there's no added sugar in the batter. the apple variety makes a bigger difference in this recipe than in most, so it's worth picking a good one."
+    },
+    {
+      "question": "Can I make this without a mandoline?",
+      "answer": "yes, you can use a sharp knife instead. the key is to slice the apples as thinly and as evenly as possible so they cook through properly and give you those beautiful layered slices when you cut the cake. it takes a little more time and patience with a knife, but it is absolutely doable. a mandoline just makes it faster and much more consistent, so if you have one it's worth using."
+    }
+  ],
+  "tips": [
+    "Let the cake cool completely before slicing. it is very fragile when warm and will fall apart if cut too soon.",
+    "Use a mandoline slicer for thin, even apple slices. A sharp knife works but a mandoline gives much better and faster results.",
+    "Always use the safety guard on your mandoline. the slices need to be very thin and it is very easy to catch your fingers!",
+    "Use the sweetest apples you can find. since there is no added sugar in the batter, the natural sweetness of the apple is doing all the work and a sweeter variety makes a noticeable difference."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Milk",
+      "alternatives": [
+        "Any plant-based milk (oat milk, almond milk, soy milk) for dairy-free"
+      ]
+    },
+    {
+      "ingredient": "Coconut oil",
+      "alternatives": [
+        "Melted butter",
+        "Neutral oil like sunflower or avocado oil"
+      ]
+    },
+    {
+      "ingredient": "Plain flour",
+      "alternatives": [
+        "1:1 gluten-free flour blend (single-grain flours like oat or almond flour do not work well in this recipe)"
+      ]
+    }
+  ],
+  "relatedRecipes": [
+    "apple-fritters",
+    "mini-blueberry-olive-oil-cake",
+    "easy-healthy-matcha-cake"
+  ],
+  "datePublished": "2026-04-29",
+  "dateModified": "2026-04-29",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

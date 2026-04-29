@@ -604,10 +604,11 @@ class RecipeGenerator {
         html = html.replace(/{{CARD_COOK_TIME}}/g, recipe.timing.cookTimeDisplay.replace(' minutes', '').replace(' min', ''));
         html = html.replace(/{{CARD_TOTAL_TIME}}/g, recipe.timing.totalTimeDisplay.toUpperCase());
         html = html.replace(/{{CARD_YIELD}}/g, `${recipe.servings.yield} ${recipe.servings.unit}`);
-        // Recipe card image - responsive thumbnail
-        const cardImageHtml = this.generateSimpleImage(recipe.image.thumbnail, {
-            alt: `${recipe.title} recipe card image`
-        });
+        // Recipe card image - use card images (portrait), fall back to thumbnail
+        const cardImg300 = recipe.image.thumbnail_400 || recipe.image.thumbnail.src;
+        const cardImg600 = recipe.image.thumbnail_600 || recipe.image.thumbnail.src;
+        const cardAltText = recipe.image.thumbnail.alt || `${recipe.title} recipe card image`;
+        const cardImageHtml = `<img\n            src="../${cardImg300}"\n            srcset="../${cardImg300} 300w, ../${cardImg600} 600w"\n            sizes="(max-width: 768px) 50vw, 300px"\n            width="300"\n            height="500"\n            alt="${cardAltText}"\n            loading="lazy"\n            decoding="async" />`;
         html = html.replace('{{CARD_IMAGE_HTML}}', cardImageHtml);
 
         // Fallback for legacy template variables

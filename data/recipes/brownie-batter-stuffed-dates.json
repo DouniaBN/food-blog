@@ -1,0 +1,261 @@
+{
+  "id": "brownie-batter-stuffed-dates",
+  "title": "Brownie Batter Stuffed Dates (Air Fried)",
+  "slug": "brownie-batter-stuffed-dates",
+  "description": "These brownie batter stuffed dates are air fried until perfectly gooey with pools of melty dark chocolate. A no fuss 7 ingredient treat for the double chocolate lovers that is gluten free, dairy free and refined sugar free.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-hero.webp",
+      "alt": "Brownie batter stuffed dates with melty dark chocolate on a plate",
+      "width": 800,
+      "height": 600
+    },
+    "thumbnail": {
+      "src": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-thumbnail-400px.webp",
+      "srcset": {
+        "400": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-thumbnail-400px.webp",
+        "600": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-thumbnail-600px.webp"
+      },
+      "alt": "Air fried brownie batter stuffed dates with pools of melted chocolate",
+      "width": 400,
+      "height": 300
+    },
+    "thumbnail_400": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-card-300px.webp",
+    "thumbnail_600": "images/recipes/brownie-batter-stuffed-dates/brownie-batter-stuffed-dates-card-600px.webp",
+    "alt": "Brownie batter stuffed dates with melty dark chocolate on a plate",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT6M",
+    "totalTime": "PT11M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "6 minutes",
+    "totalTimeDisplay": "11 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "dates"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Air Fryer",
+    "Refined Sugar-Free",
+    "Chocolate",
+    "Gluten-Free"
+  ],
+  "tags": [
+    "chocolate",
+    "dates",
+    "air-fryer",
+    "brownie",
+    "stuffed-dates",
+    "refined-sugar-free",
+    "dairy-free",
+    "vegan",
+    "gluten-free",
+    "healthy-dessert",
+    "small-batch"
+  ],
+  "nutrition": {
+    "calories": 200,
+    "protein": "3.7g",
+    "carbs": "40g",
+    "fat": "4.3g",
+    "fiber": "3.7g",
+    "sugar": "",
+    "netCarbs": "36.3g"
+  },
+  "ingredients": [
+    {
+      "amount": "70",
+      "unit": "grams",
+      "ingredient": "oat flour",
+      "notes": "use certified gluten-free oat flour if needed"
+    },
+    {
+      "amount": "55",
+      "unit": "grams",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "20",
+      "unit": "grams",
+      "ingredient": "runny nut butter",
+      "notes": "almond, cashew, peanut butter or tahini (must be runny)"
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tablespoon",
+      "ingredient": "cacao powder",
+      "notes": "or cocoa powder"
+    },
+    {
+      "amount": "",
+      "unit": "to taste",
+      "ingredient": "dark chocolate chips and chunks",
+      "notes": "use dairy-free chocolate if needed"
+    },
+    {
+      "amount": "6",
+      "unit": "",
+      "ingredient": "medjool dates",
+      "notes": "pitted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, combine the oat flour, maple syrup, nut butter, vanilla and cacao powder. Mix until fully combined.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Fold in the chocolate chips and chunks.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Pit each medjool date and stuff generously with the brownie batter filling. Don't overstuff or the filling will spill out.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Place in the air fryer and air fry at 160°C for around 6 minutes. Check at 5 minutes. they're best slightly underbaked for a gooey centre.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Enjoy warm straight from the air fryer while the chocolate is still melty.",
+      "image": ""
+    }
+  ],
+  "seo": {
+    "metaTitle": "Brownie Batter Stuffed Dates (Air Fried) | Yourwellnessgirly",
+    "metaDescription": "brownie batter stuffed medjool dates, air fried until gooey with pools of melty dark chocolate. gluten free, dairy free and refined sugar free.",
+    "keywords": [
+      "brownie batter stuffed dates",
+      "air fried stuffed dates",
+      "healthy brownie dates",
+      "chocolate stuffed dates",
+      "gluten free brownie batter",
+      "refined sugar free chocolate dates",
+      "healthy air fryer dessert"
+    ],
+    "canonicalUrl": "/recipes/brownie-batter-stuffed-dates"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Brownie batter stuffed dates air fried until gooey with pools of melty dark chocolate 🍫 7 ingredients, gluten free, dairy free and refined sugar free!",
+      "title": "Brownie Batter Stuffed Dates (Air Fried)"
+    },
+    "instagram": {
+      "caption": "you asked for a chocolate version of the cookie dough stuffed dates and i heard you 🍫🍫 brownie batter stuffed dates, air fried until perfectly gooey, recipe on the blog!",
+      "hashtags": [
+        "#stuffeddates",
+        "#browniedates",
+        "#airfryer",
+        "#healthydesserts",
+        "#glutenfree",
+        "#dairyfree",
+        "#refinedsugarfree",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "the chocolate version of the viral cookie dough stuffed dates",
+    "paragraphs": [
+      "if you made my <a href=\"cookie-dough-stuffed-dates.html\">air fried cookie dough stuffed dates</a>, first of all, thank you and second of all, how unreal are they (i LOVEEEE seeing all ur remakes!) you asked for a chocolate version and i heard you loud and clear. meet the brownie batter air fried stuffed dates: same vibe, but make it chocolate. actually, make it double chocolate. this one is truly for the chocolate lovers who like chocolate with their chocolate.",
+      "the concept is exactly the same as my viral cookie dough air fried dates: a simple brownie batter filling stuffed into soft medjool dates and popped into the air fryer for a few minutes until the whole thing is warm, gooey, and indulgent. the dates begin to caramelise slightly, soften and get crispy around the edges which is why i love using the air fryer for this recipe. the only air fryer i ever use is my <a href=\"https://www.kelenandwillian.com/?ref=DOUNIA\" target=\"_blank\" rel=\"noopener noreferrer\">Kelen &amp; Willian mini glass air fryer</a> which is honestly one of my most loved kitchen appliances. it's made with non-toxic glass so no harmful toxic coatings, you can actually see what's happening inside, and it is so easy to clean. if you want to try it, use my code <strong>DOUNIA10</strong> for a discount.",
+      "you can of course make these no bake and just skip the air frying step, because the no bake brownie batter is just that good, but i highly recommend the extra 5 to 6 minutes it takes to pop these cuties in the air fryer. the cacao powder gives these brownie batter stuffed dates that deep rich brownie flavour. feel free to swap out the cacao powder for cocoa powder, i just love the depth that cacao brings and the extra antioxidants is a cute win. i did a combination of dark chocolate chips and chunks, which means you get these little pockets of melty chocolate throughout that are just so satisfying. i really recommend using a mix of both. the chips melt into the batter and the chunks give you those bigger pools of melty chocolate that are honestly the best part. it's the kind of treat where one is enough but you will absolutely want to have two lol.",
+      "the oat flour is the base and it gives the brownie batter that dense, fudgy texture that you want. maple syrup adds sweetness and helps everything bind together, and a runny nut butter of your choice adds richness and a little extra creaminess. any nut or seed butter works here as long as it's runny and not stiff: almond butter, cashew butter, peanut butter, tahini, whatever you have on hand. for the chocolate itself, dark chocolate is my go-to here because it balances the sweetness of the maple syrup and the dates really well and gives you that proper brownie flavour. but if you prefer milk chocolate or a mix, go for it. there are no rules. i love a 70% dark chocolate that is refined sugar free.",
+      "one texture note that i think is really important: these are best when slightly underbaked. six minutes at 160 degrees celsius in the air fryer gives you a brownie batter filling that is warm and gooey in the centre with a slightly set exterior, which is exactly what you want. if you go too long, the filling dries out and you lose that fudgy quality that makes these so good. check them at around the four or five minute mark and go from there based on your preference.",
+      "if you love this recipe, you have to check out the original <a href=\"cookie-dough-stuffed-dates.html\">cookie dough stuffed dates</a> too. same easy dessert, completely different flavour but equally drool worthy."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How long should I air fry brownie batter stuffed dates?",
+      "answer": "Around 6 minutes at 160°C is the sweet spot for a gooey, fudgy centre. if you prefer the filling a little more set, go to 7 minutes. i'd recommend checking at 5 minutes the first time you make them since air fryers can vary, and adjust from there to get the texture you like."
+    },
+    {
+      "question": "Can I make these without an air fryer?",
+      "answer": "Yes! bake them in a preheated oven at 180°C for around 10 to 12 minutes. they won't get quite the same finish as the air fryer version but the brownie batter filling will still warm through and the dates will soften beautifully. you can also eat the filling completely unbaked straight from the fridge for a cold fudgy brownie batter bite."
+    },
+    {
+      "question": "What nut butter works best for brownie batter stuffed dates?",
+      "answer": "Any runny nut or seed butter works here. almond butter and cashew butter are the most neutral in flavour and let the chocolate and cacao shine. peanut butter gives a chocolate peanut butter vibe which is also delicious. tahini works well for a nut-free option. just make sure whatever you use is runny and not stiff or it won't mix into the batter properly."
+    },
+    {
+      "question": "Can I add protein powder?",
+      "answer": "Yes! add one scoop of chocolate or unflavoured protein powder along with the other dry ingredients. you'll likely need to add a small extra drizzle of maple syrup or a splash of milk to compensate for the extra dryness, as protein powder is very absorbent. mix until the filling is soft and sticky before stuffing."
+    },
+    {
+      "question": "What type of chocolate is best to use?",
+      "answer": "Dark chocolate is my recommendation because it balances the sweetness of the maple syrup and the date and gives you that proper brownie flavour. i love using a mix of chips and chunks so you get both smaller pockets of melted chocolate and bigger gooey pools throughout. if you need the recipe to be strictly dairy free or vegan, just make sure to check your chocolate is dairy free."
+    },
+    {
+      "question": "How do I store leftover brownie batter stuffed dates?",
+      "answer": "Store in an airtight container at room temperature for up to 3 days or in the fridge for up to 5 days. to reheat, pop them back in the air fryer at 160°C for 2 to 3 minutes. they're also lovely eaten cold from the fridge if you like a denser, fudgier texture."
+    },
+    {
+      "question": "Are these vegan and gluten free?",
+      "answer": "These are vegan as written as long as you use dairy free chocolate. for gluten free, use certified gluten free oat flour since standard oats can sometimes be cross contaminated with gluten during processing."
+    }
+  ],
+  "tips": [
+    "Underbake slightly for that gooey brownie batter centre: check at 5 minutes and decide from there.",
+    "Use a mix of dark chocolate chips and chunks for extra pools of melty chocolate throughout the filling.",
+    "Make sure your nut butter is runny and not stiff or it won't incorporate into the batter properly.",
+    "Don't overstuff the dates or the filling will spill out in the air fryer. a generous but contained scoop is the sweet spot.",
+    "These are best eaten warm straight from the air fryer while the chocolate is still melty."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Cacao powder",
+      "alternatives": [
+        "Cocoa powder (same quantity)"
+      ]
+    },
+    {
+      "ingredient": "Nut butter",
+      "alternatives": [
+        "Almond butter, cashew butter, peanut butter, or tahini (must be runny)"
+      ]
+    },
+    {
+      "ingredient": "Dark chocolate",
+      "alternatives": [
+        "Milk chocolate or a mix (ensure dairy-free if needed)"
+      ]
+    },
+    {
+      "ingredient": "Air fryer",
+      "alternatives": [
+        "Oven at 180°C for 10-12 minutes"
+      ]
+    }
+  ],
+  "relatedRecipes": [
+    "cookie-dough-stuffed-dates",
+    "brownie-batter-bars",
+    "gluten-free-brownie-cookies"
+  ],
+  "datePublished": "2026-04-29",
+  "dateModified": "2026-04-29",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

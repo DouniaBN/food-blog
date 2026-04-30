@@ -87,7 +87,7 @@
       "amount": "20",
       "unit": "grams",
       "ingredient": "runny nut butter",
-      "notes": "almond, cashew, peanut butter or tahini (must be runny)"
+      "notes": ""
     },
     {
       "amount": "1",
@@ -103,7 +103,7 @@
     },
     {
       "amount": "",
-      "unit": "to taste",
+      "unit": "",
       "ingredient": "dark chocolate chips and chunks",
       "notes": "use dairy-free chocolate if needed"
     },

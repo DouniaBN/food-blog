@@ -843,6 +843,7 @@
             <div class="results-header">
                 <div class="results-count" id="results-count">Loading recipes...</div>
                 <select id="sort-by" class="sort-dropdown">
+                    <option value="all" selected>All</option>
                     <option value="newest">Newest First</option>
                     <option value="prep-time">Prep Time</option>
                     <option value="difficulty">Difficulty</option>
@@ -1314,7 +1315,7 @@
         ];
 
         let filteredRecipes = [...recipes];
-        let currentSort = 'newest';
+        let currentSort = 'all';
         let currentFilters = {
             search: '',
             dietTypes: [],
@@ -1511,6 +1512,9 @@
                     filteredRecipes.sort((a, b) => a.ingredientCount - b.ingredientCount);
                     break;
                 case 'newest':
+                    filteredRecipes.sort((a, b) => b.id - a.id);
+                    break;
+                case 'all':
                 default:
                     filteredRecipes.sort((a, b) => b.id - a.id);
                     break;

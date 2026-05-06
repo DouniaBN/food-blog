@@ -1314,6 +1314,7 @@
         ];
 
         let filteredRecipes = [...recipes];
+        let currentSort = 'newest';
         let currentFilters = {
             search: '',
             dietTypes: [],
@@ -1372,7 +1373,6 @@
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             parseURLParams(); // Parse URL parameters first
-            sortRecipes('newest'); // Default sort: newest first
             applyFilters();
             setupEventListeners();
             updateURL();
@@ -1492,11 +1492,13 @@
                 return true;
             });
 
+            sortRecipes(currentSort);
             renderRecipes();
             updateURL();
         }
 
         function sortRecipes(sortBy) {
+            currentSort = sortBy;
             switch (sortBy) {
                 case 'prep-time':
                     filteredRecipes.sort((a, b) => a.prepTime - b.prepTime);

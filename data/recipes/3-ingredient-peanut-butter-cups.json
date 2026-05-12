@@ -5,18 +5,18 @@
   "description": "healthy 3 ingredient reese's peanut butter cups made with dates, peanut butter and dark chocolate. no bake, refined sugar free, anti-inflammatory and ready in 15 minutes.",
   "image": {
     "hero": {
-      "src": "images/recipes/3-ingredient-peanut-butter-cups/3-ingredient-peanut-butter-cups-800.jpg",
-      "alt": "Homemade healthy Reese's peanut butter cups topped with flaky salt on a white surface",
+      "src": "images/recipes/3-ingredient-peanut-butter-cups/pb-cups-hero.webp",
+      "alt": "Hand holding a homemade peanut butter cup broken in half revealing a fudgy date and peanut butter filling inside a dark chocolate shell",
       "width": 800,
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/3-ingredient-peanut-butter-cups/3-ingredient-peanut-butter-cups-card-300px.webp",
+      "src": "images/recipes/3-ingredient-peanut-butter-cups/pb-cups-tn-400.webp",
       "srcset": {
-        "300": "images/recipes/3-ingredient-peanut-butter-cups/3-ingredient-peanut-butter-cups-card-300px.webp",
-        "600": "images/recipes/3-ingredient-peanut-butter-cups/3-ingredient-peanut-butter-cups-card-600px.webp"
+        "300": "images/recipes/3-ingredient-peanut-butter-cups/pb-cups-tn-400.webp",
+        "600": "images/recipes/3-ingredient-peanut-butter-cups/pb-cups-tn-600.webp"
       },
-      "alt": "Healthy 3 ingredient peanut butter cups recipe card - no bake refined sugar free dessert",
+      "alt": "Healthy 3 ingredient dark chocolate peanut butter cups topped with flaky sea salt on a white marble surface",
       "width": 300,
       "height": 508
     },

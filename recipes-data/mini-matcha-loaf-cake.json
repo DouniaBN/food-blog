@@ -1,0 +1,309 @@
+{
+  "id": "mini-matcha-loaf-cake",
+  "title": "Mini Matcha Loaf Cake (Gluten Free, Dairy Free + Refined Sugar Free)",
+  "slug": "mini-matcha-loaf-cake",
+  "description": "this mini matcha loaf cake is gluten free, dairy free and refined sugar free. small batch, so soft and packed with matcha flavour in each bite and it's ready in under an hour.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/mini-matcha-loaf-cake/mini-matcha-loaf-cake-hero.webp",
+      "alt": "Mini matcha loaf cake sliced on a white surface with matcha icing drizzled on top",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/mini-matcha-loaf-cake/mini-matcha-loaf-cake-thumbnail-400px.webp",
+      "srcset": {
+        "400": "images/recipes/mini-matcha-loaf-cake/mini-matcha-loaf-cake-thumbnail-400px.webp",
+        "600": "images/recipes/mini-matcha-loaf-cake/mini-matcha-loaf-cake-thumbnail-600px.webp"
+      },
+      "alt": "matcha icing drizzled on top of a healthy mini matcha loaf cake",
+      "width": 400,
+      "height": 618
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "35 to 45 minutes",
+    "totalTimeDisplay": "under an hour"
+  },
+  "servings": {
+    "yield": "10",
+    "unit": "slices"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Baked"
+  ],
+  "tags": [
+    "matcha",
+    "loaf cake",
+    "gluten-free",
+    "dairy-free",
+    "refined-sugar-free",
+    "baked",
+    "small batch",
+    "pumpkin seed butter",
+    "oat flour",
+    "almond flour",
+    "healthy",
+    "mini cake"
+  ],
+  "nutrition": {
+    "calories": 131,
+    "protein": "4.4g",
+    "carbs": "8.9g",
+    "fat": "9g",
+    "fiber": "0.7g",
+    "sugar": ""
+  },
+  "ingredients": [
+    {
+      "amount": "2",
+      "unit": "large",
+      "ingredient": "eggs",
+      "notes": ""
+    },
+    {
+      "amount": "35",
+      "unit": "g",
+      "ingredient": "melted coconut oil",
+      "notes": ""
+    },
+    {
+      "amount": "65",
+      "unit": "g",
+      "ingredient": "pumpkin seed butter",
+      "notes": ""
+    },
+    {
+      "amount": "60",
+      "unit": "g",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "generous splash of vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": "use certified gluten free if needed"
+    },
+    {
+      "amount": "25",
+      "unit": "g",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "1/4",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "tbsp",
+      "ingredient": "matcha powder",
+      "notes": "adjust to preference, always sift first"
+    },
+    {
+      "amount": "1",
+      "unit": "tbsp",
+      "ingredient": "milk or water",
+      "notes": "only if your nut or seed butter is thick"
+    }
+  ],
+  "icingOptions": [
+    "matcha + powdered monk fruit sweetener mixed to a drizzleable consistency (refined sugar free)",
+    "melted white chocolate + pinch of matcha",
+    "icing sugar + matcha + splash of water"
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Add the wet ingredients (eggs, melted coconut oil, pumpkin seed butter, maple syrup and vanilla) to a bowl and mix until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the oat flour, almond flour, baking powder and sifted matcha.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Fold the dry ingredients into the wet until just combined. If your nut or seed butter is thick, add a tablespoon of milk or water now and fold through.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Pour into a lined mini loaf tin and bake for 35 to 45 minutes, until a toothpick inserted into the centre comes out clean.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Let the cake cool completely before adding your chosen icing.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Slice and enjoy!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Always sift the matcha before adding it to the dry ingredients to avoid lumps.",
+    "If your nut or seed butter is thick, add a tablespoon of milk or water to loosen it before folding into the batter.",
+    "Let the cake cool completely before adding any icing or slicing.",
+    "Store in an airtight container at room temperature for up to 2 days or in the fridge for up to 4 to 5 days. Can be frozen for up to 1 month, best frozen without icing."
+  ],
+  "equipment": [
+    "Oven",
+    "Mini loaf tin",
+    "2 mixing bowls",
+    "Parchment paper",
+    "Fine mesh sieve (for sifting matcha)"
+  ],
+  "seo": {
+    "metaTitle": "Mini Matcha Loaf Cake (Gluten Free, Dairy Free + Refined Sugar Free)",
+    "metaDescription": "this mini matcha loaf cake is gluten free, dairy free and refined sugar free. small batch, so soft and packed with matcha flavour in each bite and it's ready in under an hour.",
+    "keywords": [
+      "mini matcha loaf cake",
+      "gluten free matcha cake",
+      "dairy free matcha cake",
+      "refined sugar free matcha cake",
+      "small batch matcha cake",
+      "matcha loaf cake",
+      "pumpkin seed butter cake",
+      "healthy matcha bake"
+    ],
+    "canonicalUrl": "/recipes/mini-matcha-loaf-cake"
+  },
+  "social": {
+    "pinterest": {
+      "description": "mini matcha loaf cake, gluten free, dairy free and refined sugar free. soft, small batch and packed with matcha flavour. ready in under an hour!",
+      "title": "Mini Matcha Loaf Cake (Gluten Free, Dairy Free + Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "mini matcha loaf cake 💚 gluten free, dairy free, refined sugar free and so so soft. small batch, packed with matcha flavour and ready in under an hour. recipe on the blog!",
+      "hashtags": [
+        "#matchacake",
+        "#miniloafcake",
+        "#healthydesserts",
+        "#glutenfree",
+        "#dairyfree",
+        "#refinedsugarfree",
+        "#smallbatchbaking",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "videoUrl": "",
+  "story": {
+    "displayTitle": "Mini Matcha Loaf Cake",
+    "subtitle": "Gluten Free, Dairy Free + Refined Sugar Free",
+    "paragraphs": [
+      "i am a big fan of a mini cake and this mini matcha loaf really did not disappoint, and it's so cuteee. it's soft, packed with matcha flavour, naturally gluten free, dairy free and refined sugar free without tasting like any of those things hehe. this mini matcha loaf cake is another small batch recipe that is super simple to make and topped with a matcha monk fruit icing that ties the whole thing together. if you're a matcha lover, this one is going straight into your regular baking rotation. it feels super light yet it still satisfies your sweet tooth which i love.",
+      "the hero ingredient alongside the matcha is pumpkin seed butter! i want to give it a well deserved love letter moment because it's such an underrated ingredient that i rarely see used in baking. pumpkin seed butter comes from (you guessed it…) pumpkin seeds and it has a mild almost sweet nutty flavour that works really beautifully with matcha without overpowering it. it gives the cake a lovely moist crumb and it's also packed with magnesium, zinc, iron and healthy fats which make it hormone supporting. so it's doing a lot nutritionally while also making the cake taste good and look super vibrant. also if you need a nut free alternative, pumpkin seed butter is your friend since it is a seed butter instead of a nut butter (just make sure the brand you get has no cross contamination if you have a nut allergy!). i discovered pumpkin seed butter when i was looking for an alternative to pistachio butter which costs an arm and a leg and that unfortunately adds up after multiple failed testing rounds! but with that said… pistachio butter is the perfect substitute for pumpkin seed butter in this recipe as it enhances the green colour of this mini matcha loaf cake. if you can't find pumpkin seed butter or pistachio butter then a runny tahini, cashew butter or almond butter all work too. just note that they'll each bring a slightly different flavour than the intended pumpkin seed butter but they are neutral enough to work well in this recipe.",
+      "this mini matcha loaf cake calls for 1/2 a tablespoon of matcha to start, but adjust to your own preference. if you love a strong matcha flavour, you can add more (or less). i find that half a tablespoon is enough for the matcha to come through without leaning into grass taste territory but you know your preference best! one tip that i really don't want you to skip: always sift your matcha before adding it to the dry ingredients. matcha powder clumps really easily and if you skip this step you can end up with little pockets of concentrated matcha in the cake rather than an even flavour throughout. it takes about 30 seconds and makes a real difference to the final bake. beyond the flavour, matcha is rich in catechins and L-theanine, a combination that supports calm, focused energy and has antioxidant and anti-inflammatory properties. matcha is also rich in caffeine so that makes this mini matcha loaf cake the perfect mid-day pick-me-up sweet treat or snack.",
+      "the flour blend is a combination of oat flour and almond flour, and together they create a crumb that feels much more indulgent than you'd expect from a gluten free bake. the oat flour keeps things light and provides gentle structure, while the almond flour adds moisture and a little denseness that stops the cake from drying out. it's a combination i come back to again and again in my baking because it works so well for gluten free bakes. if you need the cake to be strictly gluten free, make sure to use certified gluten free oat flour as standard oats can sometimes be cross contaminated during processing.",
+      "the icing is where you can really make it your own. my go-to is a simple matcha and monk fruit mixture which keeps the whole cake refined sugar free and gives it that pretty soft green finish. i just eyeball this and hope for the best! it's approximately a couple of tablespoons of powdered monk fruit and half a teaspoon of matcha, mix, then pour in tiny amounts of water until it comes together to a runnier texture. if you want something richer and more indulgent, a melted white chocolate and matcha drizzle is absolutely stunning and sets into a gorgeous glossy coating. a classic matcha and icing sugar glaze also works beautifully if you're not worried about keeping it refined sugar free. whatever you choose, wait until the cake has cooled completely before icing or it will melt straight off lol. you can also opt to completely omit the icing and that tastes just as delicious.",
+      "this is a two bowl method recipe, meaning one bowl for the dry ingredients and another for the wet, then we combine them into one. this method works best for this mini matcha loaf cake as we want the matcha to be well incorporated into the dry ingredients before folding them into the wet, that way we get no lumps of matcha and don't overmix the batter. make sure the matcha is sifted into the dry ingredients! fold the dry into the wet and if your nut or seed butter is particularly thick, add that tablespoon of milk or water to loosen things up before combining. pour into a lined mini loaf tin and bake at 160°C fan for 35 to 45 minutes. start checking at 35 minutes with a toothpick and pull it out as soon as it comes out clean with just a few moist crumbs. the almond flour and pumpkin seed butter keep the crumb naturally quite moist so it can dry out if it goes too long. as with all baked recipes, the baking time will vary depending on your oven and altitude. the mini matcha loaf may need a longer bake time if your oven runs cooler.",
+      "if you love baking with matcha, then i have just the recipes for you! from my <a href=\"matcha-chocolate-cups.html\">no bake matcha chocolate cups</a> and <a href=\"matcha-ganache-bars.html\">matcha ganache bars</a> to my <a href=\"matcha-marshmallows.html\">4 ingredient matcha marshmallows</a> and <a href=\"strawberry-matcha-cookies.html\">gooey strawberry matcha cookies</a>."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How should I store this mini matcha loaf?",
+      "answer": "Store in an airtight container at room temperature for up to 2 days or in the fridge for up to 4 to 5 days. note that the fridge can dry out the crumb of the cake slightly. for longer storage, you can freeze the cake for up to 1 month, best frozen without icing."
+    },
+    {
+      "question": "Can I substitute the pumpkin seed butter?",
+      "answer": "yes, the best substitute would be pistachio butter as it shares that vibrant green colour that pumpkin seed butter has. it also elevates the flavour profile of this mini matcha cake. cashew butter and almond butter are both great neutral options that won't dramatically change the flavour. tahini works well for a nut free version and complements the matcha. technically any nut or seed butter can work but just know that stronger flavours like peanut butter will change the overall taste of the cake quite a bit, so the more neutral butters give the best result. if your choice of nut or seed butter is thick, mix in a tablespoon of milk or water until it thins out. stiff nut butter won't incorporate properly and can make the batter dry."
+    },
+    {
+      "question": "What matcha should I use in a loaf cake?",
+      "answer": "both ceremonial and culinary grade matcha work here. organic ceremonial grade has a more vibrant colour and slightly sweeter flavour while culinary grade tends to be more intense and slightly more bitter. either works well in this cake, just adjust the amount to your taste. always sift it before adding to the dry ingredients so that you don't get lumps of matcha in the cake."
+    },
+    {
+      "question": "How do I know when the mini matcha loaf cake is done?",
+      "answer": "insert a toothpick into the centre of the cake starting at 35 minutes. it should come out clean or with just a few moist crumbs attached. if it comes out with wet batter or a lot of crumbs, give it another 5 minutes and check again. the top should look set and the edges may be slightly browned. the baking time will vary depending on your oven."
+    },
+    {
+      "question": "Is this cake gluten free?",
+      "answer": "yes, the recipe is naturally gluten free as it uses oat flour and almond flour rather than regular wheat flour. if you have coeliac disease or high gluten sensitivity, make sure to use certified gluten free oat flour as standard oats can sometimes be cross contaminated with gluten during processing."
+    },
+    {
+      "question": "What icing options can I use?",
+      "answer": "the refined sugar free option is a matcha and monk fruit mixture, which i love because it keeps the whole cake in line with the rest of the ingredients. if you want something richer, a melted white chocolate and matcha drizzle is absolutely stunning and sets into a beautiful glossy coating. a simple matcha and icing sugar glaze is also lovely but note that it won't be refined sugar free. whatever you choose, wait until the cake has fully cooled before icing, or you can completely omit the icing and eat the cake as is!"
+    },
+    {
+      "question": "Can I make this in a regular loaf tin?",
+      "answer": "technically you can, but the batter quantity is really designed for a mini loaf tin, so in a full size loaf tin it will be quite thin and may bake much faster. i recommend sticking to a smaller tin for the best result. i'll update this with the exact tin dimensions i use soon!"
+    },
+    {
+      "question": "Why do I need to sift matcha in baking?",
+      "answer": "matcha clumps easily and skipping this step can leave concentrated pockets of matcha in the cake rather than an even flavour throughout. it will also create green lumps that aren't as visually appealing lol."
+    }
+  ],
+  "tips": [
+    "Always sift the matcha before adding it to the dry ingredients.",
+    "If your nut or seed butter is thick, add the tablespoon of milk or water to loosen it before folding into the batter.",
+    "Let the cake cool completely before adding any icing or slicing."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Pumpkin seed butter",
+      "alternatives": [
+        "Pistachio butter (best for colour and flavour)",
+        "Cashew butter (neutral flavour)",
+        "Almond butter (neutral flavour)",
+        "Tahini (nut free, complements matcha)"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "Use certified gluten free oat flour if strictly gluten free"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (not vegan)",
+        "Agave syrup"
+      ]
+    },
+    {
+      "ingredient": "Coconut oil",
+      "alternatives": [
+        "Melted butter or vegan butter"
+      ]
+    }
+  ],
+  "datePublished": "2026-05-30",
+  "dateModified": "2026-05-30",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

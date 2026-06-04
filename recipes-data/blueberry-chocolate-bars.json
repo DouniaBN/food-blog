@@ -5,16 +5,16 @@
   "description": "these are my viral no bake blueberry chocolate bars — chewy chocolate base, homemade blueberry jam and a dark chocolate top. healthy and completely divine.",
   "image": {
     "hero": {
-      "src": "images/recipes/blueberry-chocolate-bars/blueberry-chocolate-bars-800.jpg",
+      "src": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-hero.webp",
       "alt": "No bake blueberry chocolate bars sliced to show vibrant purple jam layer, chewy chocolate base and dark chocolate top",
       "width": 800,
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/blueberry-chocolate-bars/blueberry-chocolate-bars-card-300px.webp",
+      "src": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-tn400.webp",
       "srcset": {
-        "300": "images/recipes/blueberry-chocolate-bars/blueberry-chocolate-bars-card-300px.webp",
-        "600": "images/recipes/blueberry-chocolate-bars/blueberry-chocolate-bars-card-600px.webp"
+        "400": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-tn400.webp",
+        "600": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-tn600.webp"
       },
       "alt": "No bake blueberry chocolate bars recipe card — healthy viral dessert",
       "width": 300,

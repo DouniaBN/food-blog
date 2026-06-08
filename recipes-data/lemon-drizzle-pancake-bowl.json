@@ -1,0 +1,287 @@
+{
+  "id": "lemon-drizzle-pancake-bowl",
+  "title": "Lemon Drizzle Pancake Bowl",
+  "slug": "lemon-drizzle-pancake-bowl",
+  "description": "this single serve lemon drizzle pancake bowl is gluten free, refined sugar free and ready in under 20 minutes. the perfect spring breakfast or sweet treat.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-hero.webp",
+      "alt": "A golden lemon drizzle pancake bowl topped with a white drizzle in an oven-safe bowl, with lemon zest and a slice of lemon on the side",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-thumbnail.webp",
+        "600": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-card-600px.webp"
+      },
+      "alt": "A lemon drizzle pancake bowl with a white monk fruit drizzle on top, served in an oven-safe bowl",
+      "width": 300,
+      "height": 508
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT18M",
+    "totalTime": "PT23M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "15-18 minutes",
+    "totalTimeDisplay": "under 25 minutes"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "bowl"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Vegetarian",
+    "Baked"
+  ],
+  "tags": [
+    "pancake bowl",
+    "lemon drizzle pancake bowl",
+    "baked pancake bowl",
+    "gluten free pancake bowl",
+    "single serve pancake bowl",
+    "lemon pancake",
+    "gluten free breakfast",
+    "refined sugar free breakfast",
+    "spring breakfast",
+    "oat flour pancake",
+    "lemon bake",
+    "healthy breakfast"
+  ],
+  "nutrition": {
+    "calories": 275,
+    "protein": "~12g",
+    "carbs": "42g",
+    "fat": "7g",
+    "fiber": "3g",
+    "sugar": ""
+  },
+  "ingredients": [
+    {
+      "amount": "1",
+      "unit": "large",
+      "ingredient": "egg",
+      "notes": ""
+    },
+    {
+      "amount": "60",
+      "unit": "g",
+      "ingredient": "greek yogurt or thick plant-based yogurt",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": "1.5 tbsp total"
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "whole",
+      "ingredient": "lemon, zested",
+      "notes": "use the zest of the entire lemon"
+    },
+    {
+      "amount": "1",
+      "unit": "tbsp",
+      "ingredient": "lemon juice",
+      "notes": ""
+    },
+    {
+      "amount": "1/4",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "40",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": "use certified gluten free oat flour if coeliac"
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "Drizzle of choice (see notes)",
+      "notes": "try 1 tbsp powdered monk fruit mixed with a little water, coconut butter, or your favourite liquid sweetener"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 160°C fan / 170°C.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In an oven-safe bowl or glass container, whisk together the egg, yogurt, maple syrup, vanilla, lemon zest and lemon juice until smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Fold in the baking powder and oat flour until just combined.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Bake for 15 to 18 minutes until set on top or check doneness with a toothpick.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Leave to cool for a few minutes before adding your drizzle of choice.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Enjoy straight away!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Use the zest of the entire lemon — this is where all the intense lemon flavour comes from.",
+    "Avoid overbaking or you will lose the soft, fluffy texture.",
+    "Let the bowl cool for a few minutes before adding the drizzle so it sets beautifully on top.",
+    "To make it higher protein, add one scoop of vanilla or unflavoured protein powder and compensate with extra yogurt or milk of choice to balance the dry ingredients.",
+    "Use a bowl or ramekin that holds around 300–400ml so the batter has room to puff up slightly."
+  ],
+  "equipment": [
+    "Oven",
+    "Oven-safe bowl or ramekin (300–400ml capacity)",
+    "Whisk"
+  ],
+  "seo": {
+    "metaTitle": "Lemon Drizzle Pancake Bowl (Gluten Free, Refined Sugar Free)",
+    "metaDescription": "this single serve lemon drizzle pancake bowl is gluten free, refined sugar free and ready in under 20 minutes. the perfect spring breakfast or sweet treat.",
+    "keywords": [
+      "lemon drizzle pancake bowl",
+      "baked pancake bowl",
+      "gluten free pancake bowl",
+      "single serve pancake bowl",
+      "lemon pancake gluten free",
+      "refined sugar free breakfast",
+      "spring breakfast recipe"
+    ],
+    "canonicalUrl": "/recipes/lemon-drizzle-pancake-bowl"
+  },
+  "social": {
+    "pinterest": {
+      "description": "this single serve lemon drizzle pancake bowl is gluten free, refined sugar free and ready in under 20 minutes. soft, fluffy and packed with lemon flavour — the perfect spring breakfast 🍋",
+      "title": "Lemon Drizzle Pancake Bowl (Gluten Free, Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "lemon drizzle pancake bowl 🍋✨ gluten free, refined sugar free and ready in under 20 minutes — it tastes like a lemon drizzle cake but make it breakfast. recipe on the blog!",
+      "hashtags": [
+        "#pancakebowl",
+        "#lemondrizzle",
+        "#glutenfreepancakes",
+        "#refinedsugarfree",
+        "#springbreakfast",
+        "#healthybreakfast",
+        "#glutenfreebreakfast",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "videoUrl": "https://www.instagram.com/yourwellnessgirly/",
+  "story": {
+    "displayTitle": "Lemon Drizzle Pancake Bowl",
+    "subtitle": "gluten free, refined sugar free & ready in under 20 minutes",
+    "paragraphs": [
+      "if you've been on foodtok or instagram at any point recently, you've definitely come across the baked pancake bowl trend, and i am fully on board with it. the concept is simple: all the ingredients of a pancake go into an oven-safe bowl, you bake it, and you end up with this soft and fluffy pancake in a bowl! It's honestly so much more satisfying than a regular flat pancake and also way more time efficient then having to stand and cook pancakes. i knew i needed to try my own version of the pancake bowl trend (however late i may be oops) and since we are fully in spring and summer mode right now, lemon was the obvious choice. so here is a single serve lemon drizzle pancake bowl that tastes like a lemon drizzle cake but make it a lighter more nourishing moment.",
+      "i have such a soft spot for lemon flavoured baked goods and i think it's because lemon has this quality of making everything feel bright and fresh without being overwhelming. It is also the most refreshing flavour for the warmer days. a good lemon bake hits differently to a chocolate one, it's lighter and somehow still feels indulgent at the same time. the lemon zest is really where the magic lives in this recipe. zesting the entire lemon into the batter gives you that intense, fragrant lemon flavour that the juice alone just can't achieve, so please don't skip it or reduce it (unless you don't like a strong lemon flavour). opt for unwaxed organic lemons whenever possible otherwise you will just be zesting petroleum wax, pesticide and artificial dyes into this pancake bowl! they are also more flavourful than waxed lemons since the citrus flavour lives in the oil glands of the peel whereas in waxed lemons the oil glands get coated. the tablespoon of lemon juice adds the tartness that makes the overall flavour feel properly lemony rather than just lemon-scented.",
+      "the base of the pancake batter is oat flour, which is one of my favourite flours to bake with for so many reasons. it keeps the recipe naturally gluten free (use certified gluten free oat flour if you have coeliac disease or high sensitivity), and it gives the pancake bowl a soft, slightly chewy texture that works really well as a gluten free alternative. oats are a great source of soluble fibre, specifically beta-glucan, which has been well studied for its role in supporting heart health, stabilising blood sugar levels and keeping you full for longer. this makes the lemon drizzle pancake bowl perfect for a meal preppable breakfast or a more filling sweet treat.",
+      "the yogurt in this lemon drizzle pancake bowl is the main wet ingredient. it makes the batter really moist and creamy and gives the bowl that soft and fluffy texture. greek yogurt is also a brilliant source of protein and probiotics, which support gut health and digestion. if you're using a plant-based yogurt to keep the recipe dairy free, a thicker yogurt works best because the consistency will give you the same creamy texture.",
+      "some nutrition fun about this lemon drizzle pancake bowl: eggs are one of the most complete sources of protein and provide all nine essential amino acids, as well as choline which supports brain function and liver health. lemon juice and zest are rich in vitamin C, a powerful antioxidant that supports immune function and collagen production. oat flour's beta-glucan fibre actively supports the growth of beneficial gut bacteria, and maple syrup, while still a sweetener, contains small amounts of zinc and manganese alongside its natural sugars, making it a more wholesome choice than refined sugar. altogether this bowl is a nourishing start to the day or a sweet treat you can feel good about. this lemon drizzle pancake bowl has 12g of protein naturally which is quite mighty for its single serve size but you can also add in protein powder for an extra protein boost. just add in more yogurt or milk of choice to balance out the extra dry ingredients.",
+      "the drizzle on top is completely customisable and honestly the finishing touch that makes it feel like a proper \"lemon drizzle cake\" pancake. my go-to is powdered monk fruit mixed with a little water until it reaches a drizzleable consistency, which keeps the whole bowl refined sugar free. coconut butter is another option and adds a slightly richer and creamier finish. you can also use any liquid sweetener you like drizzled straight over the top. if you'd rather skip the drizzle entirely, the bowl is just as delish on its own and still has all the lemon flavour you need from the batter.",
+      "this recipe is single serve and ready in under 20 minutes from start to finish, which makes it such a good option for meal prepping a single breakfast or treating yourself to something nourishing that feels a little more elevated. it's the kind of recipe i love most because of it's simple ingredients, minimal effort, and a result that tastes way better than the effort involved. if you love a lemon bake, check out my viral <a href=\"no-bake-lemon-bars.html\">no bake lemon bars</a> or if you are feeling like a spring-inspired bake that hits the same kind of refreshing note, my <a href=\"mini-blueberry-olive-oil-cake.html\">mini blueberry olive oil cake</a> is for you!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is a pancake bowl?",
+      "answer": "a pancake bowl is a baked version of a pancake where all the ingredients go into a single oven-safe bowl or ramekin and bake into a soft, fluffy, almost pudding-like bake. it's been a big trend on social media and for good reason because the texture you get from baking the batter in a bowl is so much more satisfying and custardy than a regular flat pancake. it's also completely hands-off once it's in the oven, which makes it much easier than standing over a pan."
+    },
+    {
+      "question": "Can I add protein powder to make this a high protein pancake bowl?",
+      "answer": "yes! add one scoop of vanilla or unflavoured protein powder to the dry ingredients before folding into the wet batter. protein powder is very absorbent so you will likely need to add extra liquid to compensate, whether that's water, regular milk or plant milk. add a little at a time until the batter reaches a similar consistency to the original. the bowl will be slightly denser with protein powder but still really delicious."
+    },
+    {
+      "question": "Can I omit the drizzle?",
+      "answer": "absolutely! the drizzle is a lovely finishing touch but the bowl is completely delicious without it. all the lemon flavour comes from the zest and juice in the batter itself, so you won't be missing anything flavour-wise if you skip it. if you want a little extra sweetness without a drizzle, a light dusting of powdered monk fruit or a drizzle of honey over the top works really well too but i find the pancake bowl to be sweet enough as is."
+    },
+    {
+      "question": "What yogurt works best in this recipe?",
+      "answer": "a thick, creamy yogurt gives the best result. full fat greek yogurt is ideal because of its high protein content and thick consistency, which makes the batter rich and moist. if you're keeping the recipe dairy free, use the thickest plant-based yogurt you can find. a thick coconut yogurt or a soy-based greek-style yogurt are the best options because thinner yogurts can make the batter too loose and affect the final texture."
+    },
+    {
+      "question": "Is this lemon drizzle pancake bowl gluten free?",
+      "answer": "yes, oat flour is naturally gluten free which keeps this recipe free from containing gluten. if you have coeliac disease or high sensitivity to gluten, make sure to use certified gluten free oat flour as standard oats can sometimes be cross contaminated with gluten during processing."
+    },
+    {
+      "question": "Is this lemon pancake bowl good for meal prepping?",
+      "answer": "this recipe is single serve and bakes in under 20 minutes, making it a really easy option to prep fresh each morning without much effort at all. that said, you can absolutely bake it ahead, let it cool, and store it in the fridge for up to 2 days. reheat in the oven at a low temperature or in the microwave for about 30 to 40 seconds before serving. it's slightly better fresh from the oven but still really good reheated. you can also just eat it cold straight out the fridge too, just depends on your personal preference!"
+    },
+    {
+      "question": "How do I know when the pancake bowl is done?",
+      "answer": "the top should look set and matte rather than shiny and wet. the edges will be slightly pulled away from the sides of the bowl and may be slightly brown. if the top is still visibly wet or liquid, give it another 2 minutes and check again. avoid overbaking as the texture will become dry rather than soft and custardy."
+    },
+    {
+      "question": "What bowl or dish should I bake this in?",
+      "answer": "any oven-safe bowl or ramekin works. a ceramic ramekin or a small oven-safe cereal bowl are both perfect. aim for something that holds around 300 to 400ml in volume so the batter has room to puff up slightly as it bakes. if your bowl is too large the batter will spread thin and bake more like a flat pancake, and if it's too small it may overflow."
+    }
+  ],
+  "tips": [
+    "Zest the entire lemon and don't hold back — the zest is where all the intense lemon flavour lives.",
+    "Avoid overbaking as it will dry it out and you'll lose that soft and fluffy texture.",
+    "Let the pancake bowl cool for a few minutes before adding the drizzle."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Greek yogurt",
+      "alternatives": [
+        "Thick coconut yogurt (dairy free)",
+        "Soy-based greek-style yogurt (dairy free)",
+        "Any thick plant-based yogurt"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey",
+        "Agave syrup",
+        "Monk fruit sweetener"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "Almond flour (texture will be slightly different)",
+        "Certified gluten free oat flour (for coeliac)"
+      ]
+    }
+  ],
+  "datePublished": "2026-06-08",
+  "dateModified": "2026-06-08",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

@@ -5,16 +5,16 @@
   "description": "this single serve lemon drizzle pancake bowl is gluten free, refined sugar free and ready in under 20 minutes. the perfect spring breakfast or sweet treat.",
   "image": {
     "hero": {
-      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-hero.webp",
+      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-pancake-bowl-hero.webp",
       "alt": "A golden lemon drizzle pancake bowl topped with a white drizzle in an oven-safe bowl, with lemon zest and a slice of lemon on the side",
       "width": 800,
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-card-300px.webp",
+      "src": "images/recipes/lemon-drizzle-pancake-bowl/lemon-pancake-bowl-card300.webp",
       "srcset": {
-        "300": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-thumbnail.webp",
-        "600": "images/recipes/lemon-drizzle-pancake-bowl/lemon-drizzle-pancake-bowl-card-600px.webp"
+        "300": "images/recipes/lemon-drizzle-pancake-bowl/lemon-pancake-bowl-tn400.webp",
+        "600": "images/recipes/lemon-drizzle-pancake-bowl/lemon-pancake-bowl-tn600.webp"
       },
       "alt": "A lemon drizzle pancake bowl with a white monk fruit drizzle on top, served in an oven-safe bowl",
       "width": 300,
@@ -62,7 +62,7 @@
   ],
   "nutrition": {
     "calories": 275,
-    "protein": "~12g",
+    "protein": "12g",
     "carbs": "42g",
     "fat": "7g",
     "fiber": "3g",

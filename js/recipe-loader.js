@@ -123,7 +123,7 @@ class RecipeLoader {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Recipes",
-                    "item": "https://yourwellnessgirly.com/recipe-index.html"
+                    "item": "https://www.yourwellnessgirly.com/recipe-index"
                 },
                 {
                     "@type": "ListItem",

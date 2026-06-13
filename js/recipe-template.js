@@ -212,18 +212,18 @@ class RecipeTemplate {
     <header class="main-header">
         <div class="logo">
             <img src="../images/profile/logo.png" alt="Yourwellnessgirly Logo" class="logo-img">
-            <a href="../index.html">yourwellnessgirly</a>
+            <a href="/">yourwellnessgirly</a>
         </div>
         <nav>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../recipe-index.html">Recipe Index</a></li>
-                <li><a href="../about.html">About Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipe-index">Recipe Index</a></li>
+                <li><a href="/about">About Me</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Contact ▾</a>
                     <div class="dropdown-content">
-                        <a href="../work-with-me.html">Work With Me</a>
-                        <a href="../contact.html">Contact Me</a>
+                        <a href="/work-with-me">Work With Me</a>
+                        <a href="/contact">Contact Me</a>
                     </div>
                 </li>
             </ul>
@@ -331,11 +331,11 @@ class RecipeTemplate {
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../recipe-index.html">Recipe Index</a></li>
-                    <li><a href="../about.html">About Me</a></li>
-                    <li><a href="../work-with-me.html">Work With Me</a></li>
-                    <li><a href="../contact.html">Contact Me</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/recipe-index">Recipe Index</a></li>
+                    <li><a href="/about">About Me</a></li>
+                    <li><a href="/work-with-me">Work With Me</a></li>
+                    <li><a href="/contact">Contact Me</a></li>
                 </ul>
             </div>
             <div class="footer-section">

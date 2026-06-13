@@ -117,8 +117,8 @@ class RecipeRenderer {
         const breadcrumbContainer = document.querySelector('.breadcrumbs ol');
         if (breadcrumbContainer) {
             breadcrumbContainer.innerHTML = `
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../recipe-index.html">Recipe Index</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipe-index">Recipe Index</a></li>
                 <li>${recipe.title}</li>
             `;
         }
@@ -341,7 +341,7 @@ class RecipeRenderer {
         if (!relatedGrid || related.length === 0) return;
 
         const relatedHTML = related.map(relatedRecipe => `
-            <a href="${relatedRecipe.slug}.html" class="recipe-card-small">
+            <a href="/recipes/${relatedRecipe.slug}" class="recipe-card-small">
                 <img src="../${relatedRecipe.image.thumbnail}" alt="${relatedRecipe.title}" loading="lazy">
                 <div class="recipe-info">
                     <h3>${relatedRecipe.title}</h3>
@@ -497,7 +497,7 @@ class RecipeRenderer {
             <div style="text-align: center; padding: 2rem;">
                 <h1>Recipe Not Found</h1>
                 <p>The recipe you're looking for doesn't exist.</p>
-                <a href="../index.html">Return to Home</a>
+                <a href="/">Return to Home</a>
             </div>
         `;
     }

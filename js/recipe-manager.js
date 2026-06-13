@@ -122,7 +122,7 @@ class RecipeManager {
         const thumbHeight = (thumb && thumb.height) || 300;
 
         const cardHTML = `
-            <a href="./recipes/${recipe.slug}.html" class="${cardClass}" data-recipe-id="${recipe.id}">
+            <a href="/recipes/${recipe.slug}" class="${cardClass}" data-recipe-id="${recipe.id}">
                 <img src="${thumbnailSrc}"
                      ${srcsetAttr}
                      ${sizesAttr}
@@ -311,7 +311,7 @@ class RecipeManager {
                 `;
             } else {
                 searchResults.innerHTML = results.map(recipe => `
-                    <a href="./recipes/${recipe.slug}.html" class="search-result-item">
+                    <a href="/recipes/${recipe.slug}" class="search-result-item">
                         <div class="search-result-title">${recipe.title}</div>
                         <div class="search-result-description">${recipe.description}</div>
                     </a>

@@ -527,7 +527,7 @@ class RecipeGenerator {
             });
 
             return `
-            <a href="${relatedRecipe.slug}.html" class="recipe-card-small">
+            <a href="/recipes/${relatedRecipe.slug}" class="recipe-card-small">
                 ${relatedImageHtml}
                 <div class="recipe-info">
                     <h3>${relatedRecipe.title}</h3>

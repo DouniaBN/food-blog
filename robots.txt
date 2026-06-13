@@ -7,6 +7,7 @@ Disallow: /private/
 Disallow: /.git/
 Disallow: /temp/
 Disallow: /tmp/
+Disallow: /data/
 
 # Allow important files
 Allow: /style.css

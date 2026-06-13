@@ -38,10 +38,10 @@ Add `data/recipes/[slug].json` — this is the SAME content as step 1. The live 
 Add the recipe slug to the `recipes` array in `data/recipe-manifest.json`. This is what tells `recipe-manager.js` which slugs to fetch from `data/recipes/`. Order = display order (newest first = add to the END of the array).
 
 ### 4. Create the HTML recipe page
-Create `recipes/[slug].html` using the existing recipe pages as a template — OR run the build script: `node build/generate-recipes.js [slug]`
+Create `recipes/[slug].html` using the existing recipe pages as a template — OR run the build script: `node build/generate-recipes.js [slug]`. Ensure the canonical tag uses `https://www.yourwellnessgirly.com/recipes/[slug]` (www, no .html). All internal nav links must use clean absolute paths (e.g. `/about`, `/recipe-index`) — never `.html` extensions.
 
 ### 5. Add to sitemap.xml
-Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. Use the clean URL **without** `.html`. This is critical for Google indexing.
+Add a `<url>` entry to `sitemap.xml` for every new recipe page. Use `priority 0.8` and today's date as `lastmod`. Use the clean URL **without** `.html` and **with** `www`: `https://www.yourwellnessgirly.com/recipes/[slug]`. This is critical for Google indexing.
 
 ### 6. Add redirect to `_redirects`
 Add a line to `_redirects` in the project root to redirect the `.html` version to the clean URL. This prevents duplicate pages appearing in analytics and Google Search Console.
@@ -59,7 +59,7 @@ Find the array (`const recipes = [`) and add a new object at the end (before the
     title: "Recipe Title",
     description: "Recipe description.",
     image: "images/recipes/[slug]/[slug]-card-300px.webp",
-    url: "recipes/[slug].html",
+    url: "/recipes/[slug]",
     dietTypes: ["gluten-free", "dairy-free", "paleo", "refined-sugar-free", ...],
     ingredientCount: <number>,
     prepTime: <minutes as number>,

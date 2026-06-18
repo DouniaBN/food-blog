@@ -74,7 +74,7 @@
       "amount": "2",
       "unit": "",
       "ingredient": "overripe bananas",
-      "notes": "the more overripe the better"
+      "notes": ""
     },
     {
       "amount": "1",
@@ -92,7 +92,7 @@
       "amount": "40",
       "unit": "g",
       "ingredient": "oat flour",
-      "notes": "use certified gluten free oat flour if coeliac"
+      "notes": ""
     },
     {
       "amount": "1/4",
@@ -116,7 +116,7 @@
       "amount": "1",
       "unit": "generous square",
       "ingredient": "refined sugar free dark chocolate",
-      "notes": "push firmly into the centre of the batter before baking"
+      "notes": ""
     }
   ],
   "instructions": [

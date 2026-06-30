@@ -368,3 +368,71 @@ All non-hero images should use lazy loading:
 - Google Recipe rich results are crucial for discovery
 - Page speed directly impacts search rankings
 - User engagement metrics (time on page, bounce rate) affect SEO
+
+---
+
+## Blog Voice Style Guide — Your Wellness Girly
+
+**Purpose:** This tells Claude exactly how to rewrite Instagram captions into blog posts so they sound like a real person wrote them, not an AI. Check every draft against this before sending it back.
+
+### The core problem
+AI-generated food/wellness writing is smooth, confident, and says nothing. It hedges nothing, risks nothing, and never admits a mistake. Real voice has friction: opinions, specific sensory details, the odd mistake, slightly uneven sentence rhythm. The fix is not "sound more casual" — it's "include things a person who actually made this would say, that an AI summarising a caption would never invent."
+
+### Banned phrases and patterns
+Cut these on sight. If a sentence contains one of these, rewrite or delete it.
+
+- "X is doing a lot of work [here]"
+- "it's worth [doing/choosing] carefully"
+- "takes it to another level" / "elevates the whole [thing]"
+- "game changer"
+- "genuinely one of the most [adjective] things"
+- "elevated flavour profile" / "elevated" as a vague quality marker
+- "a small detail that makes a real difference"
+- "the result is" + vague positive adjective ("polished," "cute," "delicious")
+- Any sentence that triple-stacks intensifiers on one idea ("adds warmth and depth and takes it to another level")
+- "what makes this so special compared to [generic alternative]"
+- Restating the same benefit three different ways in a row (e.g. "no slicing, no crumbling, no uneven pieces")
+
+**Rule of thumb:** if a sentence could be pasted into literally any other dessert blog post about literally any other recipe and still make sense, cut it or make it specific enough that it couldn't.
+
+### What to add instead
+
+**1. One real, slightly imperfect detail per section**
+Every section needs at least one thing that only happens if someone actually made the recipe and paid attention. Options:
+- A mistake from a first attempt ("the first batch cracked because I rushed the freezer step")
+- A texture/sound/visual detail that's oddly specific ("the kind of snap you only get when the shell is properly cold")
+- A mild opinion or preference that isn't universally agreed ("I actually prefer it slightly under-set — more on that below")
+- A "don't skip this" warning tied to a real consequence, not a vague one
+
+**2. Vary sentence rhythm**
+AI writing has a flat, even rhythm — medium-length sentences, similar structure, comma-heavy. Real writing alternates short and long. A one-line gut reaction next to a longer explanatory sentence reads as human. Read a paragraph out loud — if it has the same cadence as the one before it, break it up.
+
+**3. Replace vague positive adjectives with specific, sensory or causal language**
+- ❌ "tastes so good" → ✅ "the lemon comes through tart first, then the white chocolate rounds it out"
+- ❌ "looks so cute and polished" → ✅ "comes out looking like something from a patisserie counter, which honestly surprised me the first time"
+- ❌ "satisfying to make" → ✅ specify what part is satisfying and why (the snap, the clean release, the contrast of textures)
+
+**4. Let opinions be slightly uneven**
+Real people don't agree with their own recipe 100%. A throwaway "if you want it a bit less rich, halve the chocolate coating — I haven't tried it but it should work" reads more human than total certainty everywhere.
+
+### Sentence-level checklist (run on every draft)
+- [ ] Does every paragraph have at least one specific, non-generic detail (mistake, sensory note, mild opinion)?
+- [ ] Are there any banned phrases from the list above?
+- [ ] Is any single benefit restated more than once in different words?
+- [ ] Does sentence length vary, or does everything sit in the same medium-length zone?
+- [ ] Could any sentence be swapped into a different recipe post with zero changes? If yes, cut or specify.
+- [ ] Is there total certainty/positivity throughout, with zero hedging, mistakes, or trade-offs mentioned?
+
+### Allowed casual terms (use sparingly, not more than once or twice per post)
+These words are fine and part of Dounia's natural voice — just don't stack them or overuse them:
+"cute", "adorbs", "adorable", "fun", "lil", "polished", "satisfying"
+
+### Before / after example (for reference)
+
+**AI slop:**
+The white chocolate is doing a lot of work here and it's worth choosing it carefully. I used a vanilla white chocolate for a more elevated flavour profile because the vanilla adds a warmth and depth that pairs so beautifully with the lemon filling and takes the whole cup to another level.
+
+**Rewritten:**
+I used a vanilla white chocolate here on purpose — the plain stuff works fine, but vanilla rounds out the tartness instead of just sitting next to it. If all you've got is regular refined-sugar-free white chocolate, a splash of vanilla extract in the melted chocolate gets you most of the way there.
+
+Notice what changed: no throat-clearing sentence, no triple-stacked praise, a clear causal reason ("rounds out the tartness instead of sitting next to it") instead of a vague one ("pairs so beautifully"), and a practical fallback that sounds like advice from someone who's actually tested it.

@@ -5,18 +5,18 @@
   "description": "these no bake lemon cups are the ultimate small batch dessert to make all summer long. a crisp vanilla white chocolate shell with the most refreshing lemon cookie batter filling!",
   "image": {
     "hero": {
-      "src": "images/recipes/no-bake-lemon-cups/no-bake-lemon-cups-hero.webp",
-      "alt": "Hand holding a no bake lemon cup broken in half revealing a bright lemon almond flour filling inside a white chocolate shell",
+      "src": "images/recipes/no-bake-lemon-cups/lemon-cups-hero.webp",
+      "alt": "A hand holding a single no bake lemon cup topped with lemon zest with more cups on a white plate in the background",
       "width": 800,
       "height": 1000
     },
     "thumbnail": {
-      "src": "images/recipes/no-bake-lemon-cups/no-bake-lemon-cups-card300.webp",
+      "src": "images/recipes/no-bake-lemon-cups/lemon-cups-tn400.webp",
       "srcset": {
-        "300": "images/recipes/no-bake-lemon-cups/no-bake-lemon-cups-card300.webp",
-        "600": "images/recipes/no-bake-lemon-cups/no-bake-lemon-cups-card600.webp"
+        "300": "images/recipes/no-bake-lemon-cups/lemon-cups-tn400.webp",
+        "600": "images/recipes/no-bake-lemon-cups/lemon-cups-tn600.webp"
       },
-      "alt": "No bake white chocolate lemon cups topped with lemon zest on a white marble surface",
+      "alt": "A hand holding a no bake lemon cup broken in half showing the dense lemon almond flour filling inside a white chocolate shell",
       "width": 300,
       "height": 508
     },

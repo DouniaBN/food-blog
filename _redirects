@@ -1,3 +1,6 @@
+# Ads.txt managed by Journey/Mediavine - redirect crawlers to their hosted file
+/ads.txt                                             https://adstxt.journeymv.com/sites/8494b4f5-398f-49be-8c12-4d172dcdecc8/ads.txt  301
+
 # Redirect .html URLs to clean URLs (301 permanent)
 /index.html                                         /                                                   301
 /recipe-index.html                                  /recipe-index                                       301

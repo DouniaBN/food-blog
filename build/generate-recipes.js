@@ -37,6 +37,20 @@ class RecipeGenerator {
     }
 
     /**
+     * Flatten ingredients into a single list of {amount, unit, ingredient, notes} items,
+     * regardless of whether the recipe uses the flat format or the grouped
+     * ({ group, items: [...] }) format.
+     * @param {Object} recipe - Recipe data
+     * @returns {Array} Flat array of ingredient items
+     */
+    flattenIngredients(recipe) {
+        const isGrouped = recipe.ingredients[0] && recipe.ingredients[0].group;
+        return isGrouped
+            ? recipe.ingredients.flatMap(group => group.items)
+            : recipe.ingredients;
+    }
+
+    /**
      * Load a single recipe from its individual JSON file
      * @param {string} slug - Recipe slug (filename without .json)
      * @returns {Object|null} Recipe data or null if failed
@@ -117,9 +131,9 @@ class RecipeGenerator {
         // Handle both legacy and new image formats
         const getImageUrl = (imageData) => {
             if (typeof imageData === 'string') {
-                return `https://yourwellnessgirly.com/${imageData}`;
+                return `https://www.yourwellnessgirly.com/${imageData}`;
             }
-            return `https://yourwellnessgirly.com/${imageData.src || imageData}`;
+            return `https://www.yourwellnessgirly.com/${imageData.src || imageData}`;
         };
 
         const heroImage = getImageUrl(recipe.image.hero);
@@ -135,7 +149,7 @@ class RecipeGenerator {
             "author": {
                 "@type": "Person",
                 "name": recipe.author.name,
-                "url": "https://yourwellnessgirly.com/about"
+                "url": "https://www.yourwellnessgirly.com/about"
             },
             "datePublished": recipe.datePublished,
             "dateModified": recipe.dateModified,
@@ -154,7 +168,7 @@ class RecipeGenerator {
                 "fiberContent": recipe.nutrition.fiber,
                 "sugarContent": recipe.nutrition.sugar
             },
-            "recipeIngredient": recipe.ingredients.map(ing => {
+            "recipeIngredient": this.flattenIngredients(recipe).map(ing => {
                 const amount = ing.amount || "";
                 const unit = ing.unit || "";
                 const ingredient = ing.ingredient;
@@ -202,13 +216,13 @@ class RecipeGenerator {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://yourwellnessgirly.com/"
+                    "item": "https://www.yourwellnessgirly.com/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Recipes",
-                    "item": "https://yourwellnessgirly.com/recipe-index.html"
+                    "item": "https://www.yourwellnessgirly.com/recipe-index"
                 },
                 {
                     "@type": "ListItem",
@@ -551,13 +565,13 @@ class RecipeGenerator {
         // Meta tags
         html = html.replace(/{{TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
-        html = html.replace(/{{CANONICAL_URL}}/g, `https://yourwellnessgirly.com/recipes/${recipe.slug}`);
+        html = html.replace(/{{CANONICAL_URL}}/g, `https://www.yourwellnessgirly.com/recipes/${recipe.slug}`);
         html = html.replace(/{{OG_TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{OG_DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
         // Open Graph image
         const ogImageSrc = typeof recipe.image.hero === 'string' ? recipe.image.hero : recipe.image.hero.src;
-        html = html.replace(/{{OG_IMAGE}}/g, `https://yourwellnessgirly.com/${ogImageSrc}`);
-        html = html.replace(/{{OG_URL}}/g, `https://yourwellnessgirly.com/recipes/${recipe.slug}`);
+        html = html.replace(/{{OG_IMAGE}}/g, `https://www.yourwellnessgirly.com/${ogImageSrc}`);
+        html = html.replace(/{{OG_URL}}/g, `https://www.yourwellnessgirly.com/recipes/${recipe.slug}`);
 
         // JSON-LD Schemas
         html = html.replace('{{RECIPE_SCHEMA}}', JSON.stringify(recipeSchema, null, 2));
@@ -623,7 +637,7 @@ class RecipeGenerator {
         html = html.replace(/{{INITIAL_SERVINGS}}/g, recipe.servings.yield);
 
         // Base amounts for servings calculator
-        const baseAmounts = recipe.ingredients.map(ing => parseFloat(ing.amount) || 0);
+        const baseAmounts = this.flattenIngredients(recipe).map(ing => parseFloat(ing.amount) || 0);
         html = html.replace('{{BASE_AMOUNTS}}', baseAmounts.join(', '));
 
         // Recipe components

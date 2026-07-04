@@ -2,7 +2,7 @@
   "id": "blueberry-chocolate-bars",
   "title": "No Bake Blueberry Chocolate Bars (Healthy & Viral)",
   "slug": "blueberry-chocolate-bars",
-  "description": "these are my viral no bake blueberry chocolate bars — chewy chocolate base, homemade blueberry jam and a dark chocolate top. healthy and completely divine.",
+  "description": "these are my viral no bake blueberry chocolate bars \u2014 chewy chocolate base, homemade blueberry jam and a dark chocolate top. healthy and completely divine.",
   "image": {
     "hero": {
       "src": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-hero.webp",
@@ -16,7 +16,7 @@
         "400": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-tn400.webp",
         "600": "images/recipes/blueberry-chocolate-bars/blueberry-choc-bars-tn600.webp"
       },
-      "alt": "No bake blueberry chocolate bars recipe card — healthy viral dessert",
+      "alt": "No bake blueberry chocolate bars recipe card \u2014 healthy viral dessert",
       "width": 300,
       "height": 508
     },
@@ -70,80 +70,84 @@
   "ingredients": [
     {
       "group": "Base Layer",
-      "amount": "160",
-      "unit": "g",
-      "ingredient": "almond flour",
-      "notes": ""
-    },
-    {
-      "group": "Base Layer",
-      "amount": "4",
-      "unit": "tbsp",
-      "ingredient": "cacao powder",
-      "notes": ""
-    },
-    {
-      "group": "Base Layer",
-      "amount": "3 to 4",
-      "unit": "tbsp",
-      "ingredient": "maple syrup",
-      "notes": ""
-    },
-    {
-      "group": "Blueberry Jam Layer",
-      "amount": "140",
-      "unit": "g",
-      "ingredient": "fresh blueberries",
-      "notes": ""
+      "items": [
+        {
+          "amount": "160",
+          "unit": "g",
+          "ingredient": "almond flour",
+          "notes": ""
+        },
+        {
+          "amount": "4",
+          "unit": "tbsp",
+          "ingredient": "cacao powder",
+          "notes": ""
+        },
+        {
+          "amount": "3 to 4",
+          "unit": "tbsp",
+          "ingredient": "maple syrup",
+          "notes": ""
+        }
+      ]
     },
     {
       "group": "Blueberry Jam Layer",
-      "amount": "1/2",
-      "unit": "tbsp",
-      "ingredient": "chia seeds",
-      "notes": ""
-    },
-    {
-      "group": "Blueberry Jam Layer",
-      "amount": "1",
-      "unit": "tbsp",
-      "ingredient": "maple syrup",
-      "notes": "optional, adjust to preference"
-    },
-    {
-      "group": "Blueberry Jam Layer",
-      "amount": "",
-      "unit": "",
-      "ingredient": "splash of water",
-      "notes": ""
-    },
-    {
-      "group": "Blueberry Jam Layer",
-      "amount": "1",
-      "unit": "tbsp",
-      "ingredient": "arrowroot powder or tapioca starch",
-      "notes": "cornstarch also works"
+      "items": [
+        {
+          "amount": "140",
+          "unit": "g",
+          "ingredient": "fresh blueberries",
+          "notes": ""
+        },
+        {
+          "amount": "1/2",
+          "unit": "tbsp",
+          "ingredient": "chia seeds",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tbsp",
+          "ingredient": "maple syrup",
+          "notes": "optional, adjust to preference"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "splash of water",
+          "notes": ""
+        },
+        {
+          "amount": "1",
+          "unit": "tbsp",
+          "ingredient": "arrowroot powder or tapioca starch",
+          "notes": "cornstarch also works"
+        }
+      ]
     },
     {
       "group": "Top Layer",
-      "amount": "55",
-      "unit": "g",
-      "ingredient": "dark chocolate",
-      "notes": "70%+ recommended"
-    },
-    {
-      "group": "Top Layer",
-      "amount": "1",
-      "unit": "tsp",
-      "ingredient": "coconut oil",
-      "notes": ""
-    },
-    {
-      "group": "Top Layer",
-      "amount": "",
-      "unit": "",
-      "ingredient": "sea salt",
-      "notes": "to sprinkle"
+      "items": [
+        {
+          "amount": "55",
+          "unit": "g",
+          "ingredient": "dark chocolate",
+          "notes": "70%+ recommended"
+        },
+        {
+          "amount": "1",
+          "unit": "tsp",
+          "ingredient": "coconut oil",
+          "notes": ""
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "sea salt",
+          "notes": "to sprinkle"
+        }
+      ]
     }
   ],
   "instructions": [
@@ -164,7 +168,7 @@
     },
     {
       "step": 4,
-      "text": "Line a small container or tin with baking paper. Press the base layer firmly and evenly — start with your hands and finish with a spatula for an even result.",
+      "text": "Line a small container or tin with baking paper. Press the base layer firmly and evenly \u2014 start with your hands and finish with a spatula for an even result.",
       "image": ""
     },
     {
@@ -189,7 +193,7 @@
     }
   ],
   "notes": [
-    "Let the jam cool completely before pouring over the base — a warm jam will soften the base and ruin the texture.",
+    "Let the jam cool completely before pouring over the base \u2014 a warm jam will soften the base and ruin the texture.",
     "Press the base down really firmly; it's the foundation for all the layers.",
     "Use a hot knife to slice cleanly if cutting straight from the freezer."
   ],
@@ -201,26 +205,26 @@
   "story": {
     "subtitle": "chewy chocolate base, homemade blueberry jam and dark chocolate top",
     "paragraphs": [
-      "these no bake blueberry chocolate bars were one of my first recipes to go viral, so they have a very special place in my heart. i'm so happy that so many of you loved them and they are still one of my favourite satisfying no bake desserts. they literally have a little bit of everything — we have the chocolatey chewy base, then the homemade blueberry jam topped with dark chocolate for added crunch and a sprinkle of salt to balance out the sweet. every single element works so well together, and the cold-from-the-freezer texture makes them the most refreshing summer treat. these blueberry chocolate bars always end up in my no bake summer sweet treat rotation.",
-      "let's start with the base because it sets the whole thing up. the idea for this base came from my <a href=\"brownie-batter-bars.html\">no bake brownie batter bars</a> which are another viral hit, so if you loved those then these blueberry chocolate bars are your next (no) bake. all you need is almond flour and cacao powder blended with maple syrup, which comes together into this chewy and chocolatey layer that is so satisfying on its own. a food processor is the best way to make this base, although it might work in a high-powered blender — just make sure to scrape the sides as you go. you can also opt for the traditional bowl and spoon method but it requires a lot of arm work and a bit more time! the almond flour gives these bars that dense, soft texture that holds together really well once frozen and, because of its naturally high healthy fat content, it makes the dough super pliable with just a few ingredients. the cacao powder brings all the chocolate flavour. cacao is less processed than regular cocoa powder and retains more of its natural antioxidant and flavonoid content, which makes it a more nutritious option while still giving you that rich, intense chocolate hit. you can of course substitute the cacao for cocoa powder — it may just be a touch less rich. use 3 tablespoons of maple syrup for a less sweet base or 4 if you like things a little sweeter or the dough needs help holding its shape. and please press the base layer down really firmly into your lined container — it helps everything hold together cleanly when you come to slice it and it's the foundation for the rest of the layers.",
-      "the blueberry chia jam is the best part… fresh blueberries, a little maple syrup, chia seeds and a splash of water go into a saucepan together and simmer until the berries lose their shape and everything becomes thick and jammy. it's basically just homemade blueberry jam, which is way nicer than store-bought and a little more magical lol. the chia seeds help the jam set naturally by absorbing the liquid as it cooks down, as well as adding a nice fibre boost. the arrowroot powder (or tapioca starch) is stirred in at the end to thicken everything further and give the jam that glossy, set quality that slices cleanly. you want the jam to be well reduced — let it simmer on low so most of the liquid evaporates — to make sure it isn't too runny, as otherwise it won't set properly on top of the base layer. the maple syrup amount is intentionally flexible because blueberries can vary quite a lot in sweetness depending on the season and where they're from. taste the jam as it cooks and add more if your berries are on the tart side. one thing to remember: let the jam cool completely before pouring it over the base. a warm jam will soften the base layer and ruin the texture! also note that as the bars thaw, the jam will naturally loosen a little — if you don't like that texture, just increase the amount of arrowroot and/or chia seeds.",
-      "the dark chocolate top is simple but it makes such a difference to the overall bars. adding a little coconut oil to the melted chocolate helps it spread more smoothly over the frozen jam layer and helps it set better. i use a 70% dark chocolate here because the slight bitterness balances the sweetness of the blueberry jam layer so well. at this percentage, dark chocolate is also rich in flavonoids — plant compounds with antioxidant and anti-inflammatory properties — but you can reduce or increase the percentage to match your preference. the last step is the sea salt sprinkle, which in my opinion is completely non-negotiable. it just helps round out all the sweet flavours.",
+      "these no bake blueberry chocolate bars were one of my first recipes to go viral, so they have a very special place in my heart. i'm so happy that so many of you loved them and they are still one of my favourite satisfying no bake desserts. they literally have a little bit of everything \u2014 we have the chocolatey chewy base, then the homemade blueberry jam topped with dark chocolate for added crunch and a sprinkle of salt to balance out the sweet. every single element works so well together, and the cold-from-the-freezer texture makes them the most refreshing summer treat. these blueberry chocolate bars always end up in my no bake summer sweet treat rotation.",
+      "let's start with the base because it sets the whole thing up. the idea for this base came from my <a href=\"brownie-batter-bars.html\">no bake brownie batter bars</a> which are another viral hit, so if you loved those then these blueberry chocolate bars are your next (no) bake. all you need is almond flour and cacao powder blended with maple syrup, which comes together into this chewy and chocolatey layer that is so satisfying on its own. a food processor is the best way to make this base, although it might work in a high-powered blender \u2014 just make sure to scrape the sides as you go. you can also opt for the traditional bowl and spoon method but it requires a lot of arm work and a bit more time! the almond flour gives these bars that dense, soft texture that holds together really well once frozen and, because of its naturally high healthy fat content, it makes the dough super pliable with just a few ingredients. the cacao powder brings all the chocolate flavour. cacao is less processed than regular cocoa powder and retains more of its natural antioxidant and flavonoid content, which makes it a more nutritious option while still giving you that rich, intense chocolate hit. you can of course substitute the cacao for cocoa powder \u2014 it may just be a touch less rich. use 3 tablespoons of maple syrup for a less sweet base or 4 if you like things a little sweeter or the dough needs help holding its shape. and please press the base layer down really firmly into your lined container \u2014 it helps everything hold together cleanly when you come to slice it and it's the foundation for the rest of the layers.",
+      "the blueberry chia jam is the best part\u2026 fresh blueberries, a little maple syrup, chia seeds and a splash of water go into a saucepan together and simmer until the berries lose their shape and everything becomes thick and jammy. it's basically just homemade blueberry jam, which is way nicer than store-bought and a little more magical lol. the chia seeds help the jam set naturally by absorbing the liquid as it cooks down, as well as adding a nice fibre boost. the arrowroot powder (or tapioca starch) is stirred in at the end to thicken everything further and give the jam that glossy, set quality that slices cleanly. you want the jam to be well reduced \u2014 let it simmer on low so most of the liquid evaporates \u2014 to make sure it isn't too runny, as otherwise it won't set properly on top of the base layer. the maple syrup amount is intentionally flexible because blueberries can vary quite a lot in sweetness depending on the season and where they're from. taste the jam as it cooks and add more if your berries are on the tart side. one thing to remember: let the jam cool completely before pouring it over the base. a warm jam will soften the base layer and ruin the texture! also note that as the bars thaw, the jam will naturally loosen a little \u2014 if you don't like that texture, just increase the amount of arrowroot and/or chia seeds.",
+      "the dark chocolate top is simple but it makes such a difference to the overall bars. adding a little coconut oil to the melted chocolate helps it spread more smoothly over the frozen jam layer and helps it set better. i use a 70% dark chocolate here because the slight bitterness balances the sweetness of the blueberry jam layer so well. at this percentage, dark chocolate is also rich in flavonoids \u2014 plant compounds with antioxidant and anti-inflammatory properties \u2014 but you can reduce or increase the percentage to match your preference. the last step is the sea salt sprinkle, which in my opinion is completely non-negotiable. it just helps round out all the sweet flavours.",
       "your end result is a beautiful cross section of dark chocolate, vibrant purple blueberry jam and chocolatey base that looks as good as it tastes. these are best eaten cold, straight from the freezer or after a few minutes at room temperature if you prefer the jam layer slightly softer. they feel like a really indulgent treat but are made entirely with wholefood ingredients, which is always the goal.",
-      "a little nutrition science for ya: blueberries are one of the most antioxidant-rich fruits you can eat, and most of that comes down to their anthocyanins — the pigment compounds responsible for that deep blue-purple colour. anthocyanins have been well studied for their anti-inflammatory effects and their role in supporting brain health, heart health and blood sugar balance. the cacao powder in the base is one of the richest plant sources of magnesium around, a mineral that supports muscle function, sleep quality and nervous system regulation — and one that a lot of us are quietly deficient in. the chia seeds in the jam bring a dose of plant-based omega-3 fatty acids, another key anti-inflammatory nutrient, as well as extra fibre to support gut health. and the almond flour adds vitamin E, a fat-soluble antioxidant that helps protect cells from oxidative stress. so while this is absolutely a dessert first and foremost, the ingredients are really pulling their weight nutritionally in a way that processed desserts could never!",
-      "these bars keep really well in an airtight container in the freezer for up to a month, making them such a great batch recipe to prep ahead and have on standby all summer. you can also store them in the fridge for up to a week if you prefer a slightly softer texture throughout. i personally love them straight from the freezer on a warm day. feel free to cut the bars slightly smaller — although this is a small batch recipe, the bars are thick and very satisfying.",
+      "a little nutrition science for ya: blueberries are one of the most antioxidant-rich fruits you can eat, and most of that comes down to their anthocyanins \u2014 the pigment compounds responsible for that deep blue-purple colour. anthocyanins have been well studied for their anti-inflammatory effects and their role in supporting brain health, heart health and blood sugar balance. the cacao powder in the base is one of the richest plant sources of magnesium around, a mineral that supports muscle function, sleep quality and nervous system regulation \u2014 and one that a lot of us are quietly deficient in. the chia seeds in the jam bring a dose of plant-based omega-3 fatty acids, another key anti-inflammatory nutrient, as well as extra fibre to support gut health. and the almond flour adds vitamin E, a fat-soluble antioxidant that helps protect cells from oxidative stress. so while this is absolutely a dessert first and foremost, the ingredients are really pulling their weight nutritionally in a way that processed desserts could never!",
+      "these bars keep really well in an airtight container in the freezer for up to a month, making them such a great batch recipe to prep ahead and have on standby all summer. you can also store them in the fridge for up to a week if you prefer a slightly softer texture throughout. i personally love them straight from the freezer on a warm day. feel free to cut the bars slightly smaller \u2014 although this is a small batch recipe, the bars are thick and very satisfying.",
       "if you love a no bake bar situation, you have to try my <a href=\"matcha-ganache-bars.html\">matcha ganache bars</a> or my viral <a href=\"no-bake-lemon-bars.html\">no bake lemon bars</a> :)"
     ]
   },
   "tips": [
     "Press the base layer down really firmly and evenly using your fingers or the back of a spoon, then finish with a spatula for a smooth, level surface.",
-    "Let the jam cool completely to room temperature before pouring it over the base layer — a warm jam will soften the base and ruin the texture.",
+    "Let the jam cool completely to room temperature before pouring it over the base layer \u2014 a warm jam will soften the base and ruin the texture.",
     "Use fresh blueberries for the best colour and jammy flavour. If you only have frozen, reduce the jam for longer since frozen berries hold more water.",
     "Use a hot knife to slice the bars cleanly if cutting straight from the freezer. Run the knife under hot water, dry it, then slice."
   ],
   "faq": [
     {
       "question": "What size container or tin should I use?",
-      "answer": "A small square or rectangular container works best. This is a small batch recipe so a smaller container is needed — I use a glass food storage container, which also doubles as a great place to store the bars! I just pop on the lid and place it back in the freezer. The exact size isn't critical, but a smaller container gives you thicker, more substantial bars and a larger one will give you thinner ones that are more like a chocolate bark."
+      "answer": "A small square or rectangular container works best. This is a small batch recipe so a smaller container is needed \u2014 I use a glass food storage container, which also doubles as a great place to store the bars! I just pop on the lid and place it back in the freezer. The exact size isn't critical, but a smaller container gives you thicker, more substantial bars and a larger one will give you thinner ones that are more like a chocolate bark."
     },
     {
       "question": "How should I store these no bake blueberry chocolate bars?",
@@ -228,11 +232,11 @@
     },
     {
       "question": "Can I use frozen blueberries instead of fresh?",
-      "answer": "Yes, frozen blueberries work well for the jam layer, although fresh blueberries will give you a more vibrant colour and slightly better jammy texture. Frozen is a perfectly good option, especially outside of blueberry season. You have two options: 1) thaw them first and drain any excess liquid before adding to the saucepan, as too much extra water can make the jam too thin and harder to set properly. 2) use them straight from the freezer and reduce the jam for longer to evaporate the extra water — you may also need to increase the binders (chia seeds and/or arrowroot powder)."
+      "answer": "Yes, frozen blueberries work well for the jam layer, although fresh blueberries will give you a more vibrant colour and slightly better jammy texture. Frozen is a perfectly good option, especially outside of blueberry season. You have two options: 1) thaw them first and drain any excess liquid before adding to the saucepan, as too much extra water can make the jam too thin and harder to set properly. 2) use them straight from the freezer and reduce the jam for longer to evaporate the extra water \u2014 you may also need to increase the binders (chia seeds and/or arrowroot powder)."
     },
     {
       "question": "What is arrowroot powder and can I substitute it?",
-      "answer": "Arrowroot powder is a natural starch used to thicken sauces and jams. It gives the blueberry layer a glossy, smooth finish and helps it set. Tapioca starch is a direct substitute and works exactly the same way. Cornstarch also works well — use the same amount. If you don't have any of these, the chia seeds alone will help the jam thicken, it just won't be quite as firm or glossy."
+      "answer": "Arrowroot powder is a natural starch used to thicken sauces and jams. It gives the blueberry layer a glossy, smooth finish and helps it set. Tapioca starch is a direct substitute and works exactly the same way. Cornstarch also works well \u2014 use the same amount. If you don't have any of these, the chia seeds alone will help the jam thicken, it just won't be quite as firm or glossy."
     },
     {
       "question": "Why is my base layer crumbly and not holding together?",
@@ -278,7 +282,7 @@
   "videoUrl": "https://www.instagram.com/yourwellnessgirly/",
   "seo": {
     "metaTitle": "Viral No Bake Blueberry Chocolate Bars (Healthy)",
-    "metaDescription": "these are my viral no bake blueberry chocolate bars — chewy chocolate base, homemade blueberry jam and a dark chocolate top. healthy and completely divine.",
+    "metaDescription": "these are my viral no bake blueberry chocolate bars \u2014 chewy chocolate base, homemade blueberry jam and a dark chocolate top. healthy and completely divine.",
     "keywords": [
       "blueberry chocolate bars",
       "no bake blueberry bars",
@@ -291,11 +295,11 @@
   },
   "social": {
     "pinterest": {
-      "description": "Viral no bake blueberry chocolate bars — chewy chocolate base, homemade blueberry jam and dark chocolate top. Healthy, vegan and gluten-free!",
+      "description": "Viral no bake blueberry chocolate bars \u2014 chewy chocolate base, homemade blueberry jam and dark chocolate top. Healthy, vegan and gluten-free!",
       "title": "Viral No Bake Blueberry Chocolate Bars (Healthy)"
     },
     "instagram": {
-      "caption": "these were one of my first viral recipes and i still make them on repeat every summer 💜🍫 no bake blueberry chocolate bars — recipe on the blog!",
+      "caption": "these were one of my first viral recipes and i still make them on repeat every summer \ud83d\udc9c\ud83c\udf6b no bake blueberry chocolate bars \u2014 recipe on the blog!",
       "hashtags": [
         "#blueberrychocolatebars",
         "#nobake",

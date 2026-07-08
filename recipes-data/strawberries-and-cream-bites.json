@@ -1,0 +1,285 @@
+{
+  "id": "strawberries-and-cream-bites",
+  "title": "Strawberries and Cream Bites",
+  "slug": "strawberries-and-cream-bites",
+  "description": "no bake strawberries and cream bites, frozen strawberry greek yogurt tucked inside a dark chocolate shell. just 6 ingredients, refined sugar free and whole foods.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/strawberries-and-cream-bites/strawberry-cream-bites-hero.webp",
+      "alt": "strawberries and cream bites - frozen strawberry greek yogurt coated in dark chocolate, cut open to show the pink filling",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/strawberries-and-cream-bites/strawberry-cream-bites-tn400.webp",
+      "srcset": {
+        "300": "images/recipes/strawberries-and-cream-bites/strawberry-cream-bites-tn400.webp",
+        "600": "images/recipes/strawberries-and-cream-bites/strawberry-cream-bites-tn600.webp"
+      },
+      "alt": "strawberries and cream bites coated in dark chocolate on a plate",
+      "width": 300,
+      "height": 508
+    },
+    "thumbnail_400": "images/recipes/strawberries-and-cream-bites/strawberry-cream-card300.webp",
+    "thumbnail_600": "images/recipes/strawberries-and-cream-bites/strawberry-cream-card600.webp",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5H15M",
+    "prepTimeDisplay": "15 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "5 hours 15 minutes"
+  },
+  "servings": {
+    "yield": "6",
+    "unit": "bites"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "No-Bake",
+    "Vegan",
+    "Gluten-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "strawberries and cream bites",
+    "no bake strawberries and cream bites",
+    "no-bake",
+    "vegan",
+    "gluten-free",
+    "refined-sugar-free",
+    "strawberry",
+    "chocolate",
+    "frozen yogurt",
+    "6-ingredient",
+    "healthy-dessert"
+  ],
+  "nutrition": {
+    "calories": 117,
+    "protein": "3.4g",
+    "carbs": "11.8g",
+    "fat": "7.2g",
+    "fiber": "1.5g",
+    "sugar": ""
+  },
+  "ingredients": [
+    {
+      "amount": "90",
+      "unit": "g",
+      "ingredient": "chopped fresh strawberries",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "heaping cup",
+      "ingredient": "thick Greek yogurt",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tablespoon",
+      "ingredient": "maple syrup",
+      "notes": "increase to preference"
+    },
+    {
+      "amount": "90",
+      "unit": "g",
+      "ingredient": "dark chocolate",
+      "notes": "70%+"
+    },
+    {
+      "amount": "1/2",
+      "unit": "teaspoon",
+      "ingredient": "coconut oil",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "vanilla extract",
+      "notes": "splash, optional"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the dark chocolate and coconut oil together using the double boiler method.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Add approximately 1 tablespoon of melted chocolate to each mold and use the back of a small spoon to push it up the sides until fully coated.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Freeze for around 10 minutes until almost completely set.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Dice the strawberries finely. In a bowl, combine the Greek yogurt and strawberries. Add in the vanilla extract and the maple syrup (optional) and taste, increasing the amount if your strawberries are tart. Mix to combine.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Remove the molds from the freezer, the chocolate should be 90% or completely set.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Spoon a heaped tablespoon of the strawberry yogurt mixture into each chocolate coated mold. Place back in the freezer for around 1 hour until the top of the yogurt is almost set.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Reheat the remaining melted chocolate if needed, then spoon over the top of each cup to seal.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Freeze for a minimum of 4 hours or overnight until completely set.",
+      "image": ""
+    },
+    {
+      "step": 9,
+      "text": "Gently remove from the molds and enjoy straight from the freezer!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Make sure the chocolate shell is almost fully set before spooning in the yogurt filling - if the chocolate is still liquid it will mix into the yogurt and you'll lose the defined shell.",
+    "Taste the yogurt and strawberry mixture before filling the molds and adjust the maple syrup to your preference.",
+    "Use a thick Greek yogurt only - a thin or runny yogurt will turn icy and grainy once frozen rather than creamy and set."
+  ],
+  "equipment": [
+    "Silicone molds",
+    "Mixing bowl",
+    "Double boiler (or a kettle and heatproof bowl)"
+  ],
+  "story": {
+    "subtitle": "6 ingredients, no oven",
+    "paragraphs": [
+      "strawberries and cream is a classic for a reason, and this recipe takes that pairing and turns it into a frozen, no bake dark chocolate bite you're going to want to keep a batch of in your freezer all summer. full disclosure: i originally tested these with white chocolate because i was convinced the dark chocolate would completely ruin the vibe (spoiler alert - it didn't tehe) both versions are great and if you want something that stays truer to the classic strawberries and cream flavour, white chocolate is the one to go for. but i actually prefer these with dark chocolate, the slight bitterness cuts through the sweetness of the strawberry yogurt filling in a way that white chocolate doesn't, and they feel a little more interesting lol. so just know going in that these are inspired by strawberries and cream rather than a straight recreation of it.",
+      "traditional strawberries and cream is made with single cream or heavy cream. to recreate that vibe but in a much lighter and healthier way, i developed this recipe with thick greek yogurt. greek yogurt is my preferred choice of dairy product if i am using dairy in a recipe since it has the added boost of healthy bacteria/probiotics and a higher protein content. so you can eat these feeling good that you are also helping your gut microbiome! technically you can substitute the greek yogurt for any other thick yogurt and the recipe will work and be dairy free, however the greek yogurt has the closest flavour to cream.",
+      "whenever i am using greek yogurt in baking or no bake treats i love adding in vanilla extract or even better vanilla bean paste whenever i have some on hand. since greek yogurt can be quite bland and sometimes bitter it helps round out the flavour and bring back a touch of sweetness. this is also why we add in the maple syrup, which can be optional depending on your sweet tooth or if you are using a flavoured yogurt.",
+      "the strawberry filling is simple but there are a couple of things worth paying attention to. first, taste your strawberries before you mix everything together. strawberries vary a lot in sweetness depending on the season and where you bought them, and a tablespoon of maple syrup is plenty when the strawberries are ripe and sweet. if they're on the tart side you'll want to add more, which is why the recipe gives you flexibility there.",
+      "second, there's an optional step where you blend half the yogurt with a tablespoon of the chopped strawberries before mixing it all together. this gives the filling a more even pink colour throughout rather than white yogurt with red strawberry chunks. both versions taste identical but the blended version just looks cuter! so you can completely skip this step for less hassle but if you are a pink lover then you'll appreciate it. on the pink desserts note: check out my <a href=\"/recipes/no-bake-strawberry-coconut-bites\">strawberry coconut bites</a> for another no bake strawberry dessert that is the prettiest shade of pink!",
+      "these strawberry and cream bites are actually based on my <a href=\"/recipes/mango-yogurt-bites\">mango yogurt bites</a>, which if you haven't tried yet, add them to ur summer no bake dessert list *immediately*. my mango yogurt bites are a staple during heatwaves and since the recipe always goes viral i knew i had to make another version, which is how i landed on strawberries. there is something about how simple and refreshing this dessert is that has you questioning how is it refined sugar free, whole foods and so delicious.",
+      "the dark chocolate shell is the same technique as my other chocolate cup/bite recipes: double boiler, coconut oil stirred in before melting for a smooth finish and a bit of shine, a tablespoon into each mold pressed up the sides, then a flash freeze to set before the filling goes in. i use a kettle and a heatproof bowl to do the double boiler rather than a pan on the stove, which i find quicker and easier to control. if you have a pan and a bowl that fits over it, that works exactly the same way. the microwave is also an option but white and dark chocolate both have a tendency to burn in the microwave if you're not careful, so the double boiler is more reliable especially for white chocolate. go in short 20-second bursts and stir between each one if you do use it. the coconut oil goes in with the chocolate and it's what gives you a shell that's smooth rather than thick and dry looking.",
+      "the strawberries and \"cream\" filling goes in once the chocolate shell is almost fully set but not completely rock solid. a slight tackiness after the flash freeze is fine. spoon in a heaped tablespoon of the strawberry yogurt mixture to each mold, smooth the top gently, and back into the freezer. this step takes around an hour for the top of the yogurt to become almost set, but timing will vary depending on your freezer. once it's no longer liquid on top, add the final layer of melted chocolate to seal everything in and freeze for a full four hours or until the yogurt is completely set. i know four hours sounds like a lot but the yogurt needs that time to freeze properly from the centre outward. you can take them out before the 4 hour mark, the yogurt filling will just be less set and still runny instead of the frozen yogurt texture. my only warning is that you might risk taking them out of the freezer too early and the cups will fall apart when removing them from the mold.",
+      "once they're fully set, pop them out of the molds gently and store in an airtight container in the freezer. they keep really well for up to a week if you don't eat them all in one sitting (guilty). the frozen yogurt stays thick and creamy rather than turning icy as long as you use a thick greek yogurt to begin with, and the dark chocolate shell stays crisp. let them sit at room temperature for two or three minutes before eating if you want the filling slightly softer, but straight from the freezer on a warm day is so refreshing and just like the frozen yogurt texture we know and love.",
+      "if you love this recipe, my <a href=\"/recipes/mango-yogurt-bites\">mango yogurt bites</a> are an absolute must-make next. same idea but a completely different tropical flavour, and just as easy and refreshing as these."
+    ]
+  },
+  "tips": [
+    "Make sure the chocolate shell is almost fully set before spooning in the yogurt filling - if the chocolate is still liquid it will mix into the yogurt and you'll lose the defined shell.",
+    "Taste the yogurt and strawberry mixture before filling the molds and adjust the maple syrup to your preference.",
+    "Use a thick Greek yogurt only - a thin or runny yogurt will turn icy and grainy once frozen rather than creamy and set."
+  ],
+  "faq": [
+    {
+      "question": "How do I melt the chocolate?",
+      "answer": "the double boiler method is the most reliable and what i'd always recommend. place a heatproof bowl over a pan/bowl or a kettle of barely simmering water and add the chocolate and coconut oil. stir gently until smooth and fully melted. i personally use a kettle and a bowl, which is quicker and means less to wash up than a pan. the microwave also works but it's easier to overheat and burn the chocolate, especially dark chocolate which can seize quickly. if you do use the microwave, go in 20-second bursts at 50% power and stir between each one. stop as soon as it's almost melted and stir the remaining lumps out using the residual heat."
+    },
+    {
+      "question": "How long do these strawberries and cream bites take to fully set?",
+      "answer": "the exact time they take to set will vary depending on how frozen you like them and how cold your freezer is. the chocolate shell needs about 10 minutes to set, the yogurt layer needs roughly an hour to become almost set on top, and then the final chocolate-sealed cups need to be set almost all the way through. overnight is even better and what i'd recommend if you're making these since you don't get tempted to take them out early and you know you have a refreshing sweet treat waiting for you the next day! these are ideal for a heatwave or just to keep in stock in your freezer during summer."
+    },
+    {
+      "question": "What molds should I use for these strawberries and cream bites?",
+      "answer": "silicone molds are essential here because the flexibility is what lets you pop the cups out cleanly without cracking the chocolate shell. standard mini silicone cupcake molds or silicone chocolate molds both work really well. avoid rigid moulds or metal tins as the cups will crack when you try to unmold them."
+    },
+    {
+      "question": "Can I use a different yogurt and make these bites dairy free/vegan?",
+      "answer": "thick greek yogurt gives the best result because its low moisture content means it freezes into a creamy, set texture rather than turning icy. however, a plant-based thick coconut or soy greek-style yogurt works well as a dairy-free option. just avoid thin or low-fat yogurts as they tend to become icy and watery once frozen rather than giving you that proper strawberries and cream texture."
+    },
+    {
+      "question": "What is the optional blending step for?",
+      "answer": "blending half the yogurt with a tablespoon of the chopped strawberries gives the filling a more even, rosy pink colour throughout. without it you get white yogurt with visible red strawberry chunks, which still tastes great but is just slightly less aesthetically pleasing lol. the non-blended version looks more like classic strawberries and cream when you bite into it. both taste identical so it genuinely comes down to whether you want the pretty pink look or not."
+    },
+    {
+      "question": "Can I omit the maple syrup?",
+      "answer": "yes, if your strawberries are very ripe and sweet you may not need it at all. taste the yogurt, vanilla and strawberry mixture before filling the molds. if it tastes sweet enough without, leave it out. the maple syrup is there primarily to compensate for tart or out of season strawberries rather than as a core part of the recipe."
+    },
+    {
+      "question": "Why is my chocolate shell cracking when I remove the cups from the mold?",
+      "answer": "this usually happens when the cups are removed before they're fully frozen through, which means the yogurt is still slightly soft and puts pressure on the chocolate as it flexes. make sure they are fully set in the freezer before you attempt to unmold them. if cracks still appear, it may also be that the chocolate layer was spread too thin on the sides of the mold. aim for an even, slightly generous coating rather than a thin film."
+    },
+    {
+      "question": "How do I store these strawberries and cream bites and how long do they keep?",
+      "answer": "store in an airtight container in the freezer for up to a week. they need to stay in the freezer rather than the fridge because the yogurt filling will soften and lose its set texture at fridge temperature. serve straight from the freezer, or let them sit at room temperature for 2 to 3 minutes to thaw if you prefer the filling a little softer and creamier rather than fully frozen solid."
+    }
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Greek yogurt",
+      "alternatives": [
+        "Coconut or soy Greek-style yogurt for a dairy-free version",
+        "Any thick plain yogurt (texture will be less rich)"
+      ]
+    },
+    {
+      "ingredient": "Dark chocolate",
+      "alternatives": [
+        "White chocolate for a more traditional strawberries and cream flavour",
+        "Milk chocolate for a sweeter taste"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (equal amount)",
+        "Omit entirely if your strawberries are very sweet"
+      ]
+    }
+  ],
+  "relatedRecipes": [
+    "mango-yogurt-bites",
+    "blueberry-chocolate-bars",
+    "3-ingredient-peanut-butter-cups"
+  ],
+  "seo": {
+    "metaTitle": "No Bake Strawberries and Cream Bites (Frozen Yogurt)",
+    "metaDescription": "no bake strawberries and cream bites, frozen strawberry greek yogurt tucked inside a dark chocolate shell. just 6 ingredients, refined sugar free and whole foods.",
+    "keywords": [
+      "strawberries and cream bites",
+      "no bake strawberry dessert",
+      "frozen yogurt bites",
+      "healthy chocolate treats",
+      "gluten-free strawberry recipe",
+      "refined sugar free dessert",
+      "summer no bake dessert"
+    ],
+    "canonicalUrl": "/recipes/strawberries-and-cream-bites"
+  },
+  "social": {
+    "pinterest": {
+      "description": "no bake strawberries and cream bites, frozen strawberry greek yogurt tucked inside a dark chocolate shell. just 6 ingredients, refined sugar free and whole foods.",
+      "title": "No Bake Strawberries and Cream Bites (Frozen Yogurt)"
+    },
+    "instagram": {
+      "caption": "strawberries and cream but make it a frozen no bake bite 🍓 dark chocolate shell, strawberry greek yogurt centre, 6 ingredients and no oven needed. recipe on the blog!",
+      "hashtags": [
+        "#strawberriesandcream",
+        "#nobake",
+        "#frozenyogurt",
+        "#healthydessert",
+        "#glutenfree",
+        "#refinedsugarfree",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "datePublished": "2026-07-08",
+  "dateModified": "2026-07-08",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

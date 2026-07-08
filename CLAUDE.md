@@ -18,6 +18,11 @@ The same data lives in up to 4 places and they must stay in sync:
 **Viral recipes have an additional 5th sync point:**
 The "viral on socials" section on the homepage is hardcoded directly in `index.html` (around line 552) for Core Web Vitals performance (LCP). If a recipe's `viral: true` status, title, timing, image, or viral count changes, **also update the hardcoded cards in `index.html`**. The four current viral recipes are: `apple-fritters` (15M+), `no-bake-lemon-bars` (4M+), `gluten-free-brownie-cookies` (500K+), `mango-yogurt-bites` (400K+). The first card must keep `loading="eager" fetchpriority="high"` — do not change it to `loading="lazy"`.
 
+**"Watch Me Make It" video link:** Whenever this link is updated on any recipe (e.g. pointing it from the generic Instagram profile to a specific reel/post), it must be changed in **all 3** places, not just the live HTML page:
+1. `recipes/[slug].html` — the `href` and `data-video-url` on the `.watch-video-btn` element
+2. `recipes-data/[slug].json` — the `videoUrl` field (this is what `build/generate-recipes.js` reads; if it's missed here, regenerating the page later will silently revert the button back to the generic profile link)
+3. `data/recipes/[slug].json` — the `videoUrl` field (live site JS source)
+
 Never assume only one place needs updating. Always check and ask.
 
 ---

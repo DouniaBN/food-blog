@@ -1,0 +1,265 @@
+{
+  "id": "blueberry-muffin-pancake-bowl",
+  "title": "Blueberry Muffin Pancake Bowl",
+  "slug": "blueberry-muffin-pancake-bowl",
+  "description": "this blueberry muffin pancake bowl is single serve, fluffy and ready in under 20 minutes. gluten free, refined sugar free and the perfect breakfast.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/blueberry-muffin-pancake-bowl/blueberry-PB-hero.webp",
+      "alt": "Baked blueberry muffin pancake bowl in a glass dish, topped with jammy blueberries",
+      "width": 800,
+      "height": 1000
+    },
+    "thumbnail": {
+      "src": "images/recipes/blueberry-muffin-pancake-bowl/blueberry-PB-card300.webp",
+      "srcset": {
+        "300": "images/recipes/blueberry-muffin-pancake-bowl/blueberry-PB-tn400.webp",
+        "600": "images/recipes/blueberry-muffin-pancake-bowl/blueberry-PB-tn600.webp"
+      },
+      "alt": "Blueberry muffin pancake bowl topped with juicy baked blueberries",
+      "width": 300,
+      "height": 508
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT18M",
+    "totalTime": "PT28M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "16 to 18 minutes",
+    "totalTimeDisplay": "under 30 minutes"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "bowl"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free",
+    "Breakfast",
+    "Baked"
+  ],
+  "tags": [
+    "pancake bowl",
+    "blueberry muffin pancake bowl",
+    "baked pancake bowl",
+    "gluten free pancake bowl",
+    "single serve pancake bowl",
+    "blueberry pancake",
+    "gluten free breakfast",
+    "refined sugar free breakfast",
+    "oat flour pancake",
+    "blueberry muffin",
+    "healthy breakfast"
+  ],
+  "nutrition": {
+    "calories": 384,
+    "protein": "17g",
+    "carbs": "57.6g",
+    "fat": "10.1g",
+    "fiber": "3.8g",
+    "sugar": ""
+  },
+  "ingredients": [
+    {
+      "amount": "1",
+      "unit": "large",
+      "ingredient": "egg",
+      "notes": ""
+    },
+    {
+      "amount": "50",
+      "unit": "g",
+      "ingredient": "Greek yogurt",
+      "notes": ""
+    },
+    {
+      "amount": "1 1/2",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": ""
+    },
+    {
+      "amount": "40",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "1/4",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "blueberries, fresh or frozen",
+      "notes": "measure with your heart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C / 160°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In a small oven-safe dish, crack in the egg, add the yogurt and maple syrup and whisk until combined.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Fold in the baking powder and oat flour until just combined. Don't overmix.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Scatter the blueberries over the top.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Bake for 16 to 18 minutes until the top is set and matte.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Enjoy straight from the dish!",
+      "image": ""
+    }
+  ],
+  "equipment": [
+    "Oven",
+    "Small oven-safe dish or ramekin (300–400ml capacity)",
+    "Whisk"
+  ],
+  "seo": {
+    "metaTitle": "Blueberry Muffin Pancake Bowl (Gluten Free, Refined Sugar Free)",
+    "metaDescription": "this blueberry muffin pancake bowl is single serve, fluffy and ready in under 20 minutes. gluten free, refined sugar free and the perfect breakfast.",
+    "keywords": [
+      "blueberry muffin pancake bowl",
+      "baked pancake bowl",
+      "gluten free pancake bowl",
+      "single serve pancake bowl",
+      "blueberry pancake gluten free",
+      "refined sugar free breakfast",
+      "high protein breakfast bowl"
+    ],
+    "canonicalUrl": "/recipes/blueberry-muffin-pancake-bowl"
+  },
+  "social": {
+    "pinterest": {
+      "description": "this blueberry muffin pancake bowl is single serve, fluffy and ready in under 20 minutes. gluten free, refined sugar free and packed with jammy baked blueberries 🫐",
+      "title": "Blueberry Muffin Pancake Bowl (Gluten Free, Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "blueberry muffin pancake bowl 🫐✨ gluten free, refined sugar free and ready in under 20 minutes — all the flavours of a blueberry muffin with none of the faff. recipe on the blog!",
+      "hashtags": [
+        "#pancakebowl",
+        "#blueberrymuffin",
+        "#glutenfreepancakes",
+        "#refinedsugarfree",
+        "#healthybreakfast",
+        "#glutenfreebreakfast",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "videoUrl": "https://www.instagram.com/p/DV9C2TJDI3A/",
+  "story": {
+    "displayTitle": "Blueberry Muffin Pancake Bowl",
+    "subtitle": "gluten free, refined sugar free & ready in under 20 minutes",
+    "paragraphs": [
+      "i am officially obsessed with this blueberry muffin pancake bowl. all the flavours of a blueberry muffin, none of the faff, ready in under 20 minutes, and it comes out so fluffy every single time. it's a single serve baked pancake bowl and it has become my go-to breakfast when i want something that feels like a treat but is super quick and easy to make. all you do is throw all the ingredients together in an oven safe bowl which means minimal washing up too!",
+      "if you're new to the pancake bowl trend, the concept is so simple: everything goes into a small oven-safe dish and bakes into something that is softer and fluffier than a regular flat pancake. it's also completely hands-off once it's in the oven, which makes it much better for mornings when you don't want to stand over a pan for 30 minutes flipping away. this version nails that blueberry muffin quality because the oat flour gives it that slightly dense, muffin-like crumb and the juicy blueberries burst and jamify as they bake, which is pretty ideal. the first time i made it i was surprised by how much it actually tastes like a blueberry muffin rather than just a baked egg situation, which was my fear lol.",
+      "let's talk about the blueberries for a second: fresh blueberries work beautifully, but frozen actually might be my preference for this recipe. they go in straight from the freezer, no thawing, and as they bake they release their juices into the batter and create little pockets of jammy, sweet blueberry throughout the bowl. fresh gives you a cleaner bite, frozen bluebs give you more of that muffin-bakery quality. both are great and will work, i just always have frozen fruit on hand which makes it easier. as for how many to add, the recipe says measure with your heart and i mean that. i usually add enough to cover most of the top of the batter. but more blueberries is never the wrong answer here lol, add as many or as little as you desire.",
+      "the oat flour and greek yogurt are what make this bowl super satisfying to eat. oat flour keeps it light and gives the batter a gentle structure without making it heavy, and it's a great source of beta-glucan fibre which supports gut health and keeps you full for longer. the yogurt adds protein, live cultures and creaminess; it is what gives the bowl its soft, slightly <em>moist</em> interior rather than a dry texture. together they make this blueberry muffin pancake bowl feel much more substantial than the ingredient list suggests. the greek yogurt and egg together are also giving us a bit of a protein boost which is ideal if you want to prep these for breakfast. the pancake bowl alone has approx 17g of protein (see the FAQ about adding in protein powder!).",
+      "a little of the nutrition science: blueberries are one of the most antioxidant-rich fruits available, packed with anthocyanins which have well studied anti-inflammatory and brain health benefits. oat flour's beta-glucan fibre actively feeds beneficial gut bacteria and helps stabilise blood sugar after eating, which is particularly useful at breakfast. the egg provides all nine essential amino acids and is one of the most bioavailable sources of protein you can eat. maple syrup brings a small amount of zinc and manganese alongside its natural sweetness. so we have a mini nutritional powerhouse in this single serving pancake bowl.",
+      "the prep is literally just 10 minutes. whisk the egg, yogurt and maple syrup together in your oven-safe dish, fold in the baking powder and oat flour, scatter the blueberries over the top, and into the oven at 170°C (160°C fan) for 16 to 18 minutes. the top should look matte and set when it's ready. since these are made in oven safe containers, i love using glass meal prep containers so i can feel good about heating them up in the oven and then just popping it back in the fridge for the next morning.",
+      "this blueberry muffin pancake bowl may seem like it's just for breakfast, but like with pancakes you can make this at any time of day. it's the perfect snack or more filling sweet treat for when you want something that isn't overly indulgent but still satisfies your sweet tooth.",
+      "if you love a baked pancake bowl, my <a href=\"/recipes/lemon-drizzle-pancake-bowl\">lemon drizzle pancake bowl</a> is the one to try next if you're in more of a spring or summer mood and want something bright and refreshing. or if you want something richer and completely added sugar free, my <a href=\"/recipes/chocolate-banana-pancake-bowl\">banana chocolate pancake bowl</a> is a really good shout. both use the same format of minimal prep and time and they are just as simple to pull together."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How should I store the blueberry muffin pancake bowl?",
+      "answer": "this is a single serve recipe so chances are it won't last long enough to need storing, lol. but if you do have leftovers or want to make it ahead, it can be kept at room temperature for a few hours or stored in the fridge overnight. best eaten within 2 to 3 days. reheat in the microwave for 30 to 40 seconds or in the oven at a low temperature until warmed through."
+    },
+    {
+      "question": "Can I use frozen blueberries?",
+      "answer": "yes and they work really well. add them straight from frozen without thawing first because as they bake they release their juices into the batter and give you those gorgeous jammy pockets throughout the bowl. thawing them first releases too much liquid before they even go in the oven and can make the batter wet and heavy. fresh blueberries give a cleaner, more structured bite if that's what you prefer, but frozen is a completely valid option and available year round which makes this recipe less seasonal."
+    },
+    {
+      "question": "Can I add protein powder to make this higher protein?",
+      "answer": "yes, add one scoop of vanilla or unflavoured protein powder along with the oat flour. protein powder absorbs liquid so you'll need to add a small splash of milk, plant milk or water to keep the batter at the right consistency. add a little at a time and stop when the batter looks similar to the original. the bowl will be slightly denser with protein powder but still fluffy and good."
+    },
+    {
+      "question": "Can I make this blueberry muffin pancake bowl dairy free?",
+      "answer": "yes, swap the greek yogurt for a thick plant based yogurt, a coconut or soy based greek style option works best. avoid thin or watery plant-based yogurts as they'll make the batter too loose and the bowl won't set as well. everything else in the recipe is already dairy free. just note that subbing the yogurt will change the protein content and macros."
+    },
+    {
+      "question": "What dish should I bake this pancake bowl in?",
+      "answer": "a small oven-safe ceramic ramekin or bowl that holds around 300 to 400ml is the sweet spot. if your dish is too large the batter spreads thin and you lose the fluffy, thick quality that makes this feel like a proper blueberry muffin. if it's too small the batter may overflow slightly as it puffs up in the oven. an oven-safe small meal prep container works perfectly or a ramekin of a similar size will do the job too."
+    },
+    {
+      "question": "How do I know when the pancake bowl is done?",
+      "answer": "the top should look set and matte rather than shiny or wet. the edges will have pulled away very slightly from the sides of the dish. the centre can have a tiny bit of softness when you gently press it because it continues to firm up as it cools. if the top still looks wet or liquid after 18 minutes, give it another 2 minutes and check again. overbaking will dry the bowl out so check early rather than leaving it. you can also always use the toothpick test to check doneness, a few crumbs is totally fine as it is intended to be a lil moist."
+    },
+    {
+      "question": "Can I meal prep this blueberry pancake bowl ahead?",
+      "answer": "this recipe is single serve and bakes in under 20 minutes so it's quick enough to make fresh most mornings. that said, you can bake it ahead and store in the fridge for up to 2 days. reheat in the oven at a low temperature or in the microwave for 30 to 40 seconds. it's best fresh but still really good reheated, and having it ready to grab from the fridge is a solid breakfast meal prep option."
+    },
+    {
+      "question": "Is this recipe gluten free?",
+      "answer": "yes, oat flour is naturally gluten free. if you have coeliac disease or high gluten sensitivity, use certified gluten free oat flour as standard oats can sometimes be cross contaminated with gluten during processing."
+    },
+    {
+      "question": "Can I reduce or omit the maple syrup?",
+      "answer": "yes. the maple syrup adds sweetness and a little extra moisture to the batter. if your blueberries are very ripe and sweet you could reduce it to 1 tablespoon or omit it entirely if you prefer a less sweet bowl. keep in mind that removing it completely will make the batter slightly drier, so you may want to add a small splash of milk to compensate. you can also sub the maple syrup for your favourite liquid sweetener."
+    }
+  ],
+  "tips": [
+    "Fold in the oat flour until just combined and stop there — overmixing activates the gluten in oat flour and makes the bowl dense and flat rather than fluffy.",
+    "If using frozen blueberries, add them straight from the freezer without thawing.",
+    "The top should look set and matte with no shiny or wet patches, while the very centre can have a tiny bit of give that firms up as it cools.",
+    "Use a small oven-safe dish or ramekin."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Greek yogurt",
+      "alternatives": [
+        "Thick coconut yogurt (dairy free)",
+        "Soy-based greek-style yogurt (dairy free)",
+        "Any thick plant-based yogurt"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey",
+        "Agave syrup",
+        "Your favourite liquid sweetener"
+      ]
+    },
+    {
+      "ingredient": "Oat flour",
+      "alternatives": [
+        "Certified gluten free oat flour (for coeliac)"
+      ]
+    }
+  ],
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

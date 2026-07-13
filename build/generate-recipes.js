@@ -566,6 +566,7 @@ class RecipeGenerator {
         html = html.replace(/{{TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
         html = html.replace(/{{CANONICAL_URL}}/g, `https://www.yourwellnessgirly.com/recipes/${recipe.slug}`);
+        html = html.replace(/{{RECIPE_SLUG}}/g, recipe.slug);
         html = html.replace(/{{OG_TITLE}}/g, recipe.seo.metaTitle || recipe.title);
         html = html.replace(/{{OG_DESCRIPTION}}/g, recipe.seo.metaDescription || recipe.description);
         // Open Graph image

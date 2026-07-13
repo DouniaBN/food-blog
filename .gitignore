@@ -1,2 +1,5 @@
 # macOS
 .DS_Store
+
+# Cloudflare Wrangler local dev cache
+.wrangler/

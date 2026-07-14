@@ -1462,6 +1462,27 @@
   margin-left: 0.5rem;
 }
 
+/* Average stars row in the recipe card meta — filled by js/reviews.js */
+.recipe-card-rating {
+  text-decoration: none;
+}
+
+.recipe-card-rating-stars i {
+  color: #2f4f2f;
+  font-size: 0.85rem;
+  margin-right: 1px;
+  width: auto;
+}
+
+.recipe-card-rating-text {
+  color: #666;
+  font-style: italic;
+}
+
+.recipe-card-rating:hover .recipe-card-rating-text {
+  text-decoration: underline;
+}
+
 .yield-btn {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -2851,7 +2872,7 @@
 }
 
 .reviews-summary-stars i {
-    color: #e0a5a5;
+    color: #2f4f2f;
     font-size: 1.3rem;
     margin-right: 2px;
 }
@@ -2869,9 +2890,6 @@
 }
 
 .review-form-wrap {
-    background: #fdf7f7;
-    border-radius: 12px;
-    padding: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -2911,7 +2929,7 @@
     padding: 0.2rem;
     cursor: pointer;
     font-size: 1.6rem;
-    color: #e0a5a5;
+    color: #2f4f2f;
     line-height: 1;
 }
 
@@ -2995,7 +3013,7 @@
 }
 
 .review-item-stars i {
-    color: #e0a5a5;
+    color: #2f4f2f;
     font-size: 1rem;
     margin-right: 1px;
 }

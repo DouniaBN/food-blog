@@ -72,6 +72,11 @@
         els.list = section.querySelector('.reviews-list');
         els.loadMore = section.querySelector('.reviews-load-more');
 
+        // Optional stars row in the recipe card meta (author/prep/cook block)
+        els.cardRating = document.querySelector('.recipe-card-rating');
+        els.cardRatingStars = els.cardRating ? els.cardRating.querySelector('.recipe-card-rating-stars') : null;
+        els.cardRatingText = els.cardRating ? els.cardRating.querySelector('.recipe-card-rating-text') : null;
+
         bindForm();
 
         // Lazy-load Firebase only when the section approaches the viewport
@@ -83,6 +88,11 @@
                 }
             }, { rootMargin: '600px' });
             io.observe(section);
+            // The recipe card shows the stars row, so approaching it must also
+            // trigger the load. Observe the card itself — the rating row starts
+            // [hidden] and display:none elements never intersect.
+            const card = els.cardRating && els.cardRating.closest('.recipe-card');
+            if (card) io.observe(card);
         } else {
             loadReviews();
         }
@@ -150,6 +160,7 @@
         if (!count) {
             els.summary.hidden = true;
             els.emptySummary.hidden = false;
+            if (els.cardRating) els.cardRating.hidden = true;
             return;
         }
         const avg = average();
@@ -158,6 +169,12 @@
         els.summaryStars.innerHTML = starIcons(avg);
         els.summaryText.textContent = avg.toFixed(1) + ' from ' +
             count + (count === 1 ? ' rating' : ' ratings');
+        if (els.cardRating) {
+            els.cardRating.hidden = false;
+            els.cardRatingStars.innerHTML = starIcons(avg);
+            els.cardRatingText.textContent = avg.toFixed(1) + ' (' +
+                count + (count === 1 ? ' rating' : ' ratings') + ')';
+        }
     }
 
     // Static icon markup only — never used with user-supplied strings

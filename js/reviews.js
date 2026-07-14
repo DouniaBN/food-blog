@@ -10,6 +10,10 @@
  *             Only the rating is required — name and comment may be empty
  *             strings (stars-only ratings count toward the average but
  *             don't appear in the written-reviews list).
+ *             Optional `reply` (string): Dounia's response, added by hand in
+ *             the Firebase console. Clients can never write it — the rules'
+ *             create allowlist excludes it and updates are denied — so a
+ *             rendered reply is always genuinely from the author.
  *
  * The average rating + count are computed client-side from the fetched
  * reviews (no Cloud Functions), and injected into the Recipe JSON-LD
@@ -127,6 +131,7 @@
                     rating: Number(d.rating) || 0,
                     name: String(d.name || 'Anonymous'),
                     comment: String(d.comment || ''),
+                    reply: String(d.reply || ''),
                     date: d.timestamp && d.timestamp.toDate ? d.timestamp.toDate() : null
                 };
             }).sort(function (a, b) {
@@ -191,8 +196,9 @@
 
     function renderList() {
         // Stars-only ratings (no comment) count toward the average but
-        // aren't rendered as empty rows in the written-reviews list.
-        const commented = state.reviews.filter(function (r) { return r.comment; });
+        // aren't rendered as empty rows in the written-reviews list —
+        // unless Dounia replied to one, which makes it worth showing.
+        const commented = state.reviews.filter(function (r) { return r.comment || r.reply; });
         els.emptyList.hidden = commented.length > 0;
         if (!commented.length) els.emptyList.textContent = 'No written reviews yet — be the first!';
         els.list.textContent = '';
@@ -223,12 +229,47 @@
             head.appendChild(name);
             head.appendChild(date);
 
-            const comment = document.createElement('p');
-            comment.className = 'review-item-comment';
-            comment.textContent = r.comment; // textContent = XSS-safe
-
             item.appendChild(head);
-            item.appendChild(comment);
+
+            if (r.comment) {
+                const comment = document.createElement('p');
+                comment.className = 'review-item-comment';
+                comment.textContent = r.comment; // textContent = XSS-safe
+                item.appendChild(comment);
+            }
+
+            if (r.reply) {
+                const reply = document.createElement('div');
+                reply.className = 'review-reply';
+
+                const rhead = document.createElement('div');
+                rhead.className = 'review-reply-head';
+
+                const rlogo = document.createElement('span');
+                rlogo.className = 'review-reply-logo';
+                rlogo.setAttribute('aria-hidden', 'true');
+
+                const rname = document.createElement('span');
+                rname.className = 'review-reply-name';
+                rname.textContent = 'dounia';
+
+                const rbadge = document.createElement('span');
+                rbadge.className = 'review-reply-badge';
+                rbadge.textContent = 'author';
+
+                rhead.appendChild(rlogo);
+                rhead.appendChild(rname);
+                rhead.appendChild(rbadge);
+
+                const rtext = document.createElement('p');
+                rtext.className = 'review-reply-text';
+                rtext.textContent = r.reply; // textContent = XSS-safe
+
+                reply.appendChild(rhead);
+                reply.appendChild(rtext);
+                item.appendChild(reply);
+            }
+
             els.list.appendChild(item);
         });
 

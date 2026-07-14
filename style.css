@@ -3095,6 +3095,54 @@
     overflow-wrap: break-word;
 }
 
+/* Dounia's reply — added via the Firebase console, never by visitors */
+.review-reply {
+    margin: 0.9rem 0 0 1.25rem;
+    padding: 0.9rem 1.1rem;
+    background: #fdf0f3;
+    border-radius: 10px;
+}
+
+.review-reply-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.review-reply-logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff url('images/profile/logo.png') center / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.review-reply-name {
+    font-weight: 700;
+    color: #2f4f2f;
+    font-size: 1.05rem;
+}
+
+.review-reply-badge {
+    background: #2f4f2f;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 0.15rem 0.55rem;
+}
+
+.review-reply-text {
+    color: #444;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
 .reviews-empty-list {
     color: #888;
     font-style: italic;
@@ -3133,11 +3181,13 @@
         font-size: 1.3rem;
     }
 
-    .review-item-name {
+    .review-item-name,
+    .review-reply-name {
         font-size: 1.35rem;
     }
 
     .review-item-comment,
+    .review-reply-text,
     .reviews-empty-list {
         font-size: 1.4rem;
         line-height: 1.5;

@@ -6,7 +6,10 @@
 // ever differ from this file, this file wins: re-paste it in the console.
 //
 // Design notes:
-// - reviews: publicly readable, create-only, strict field allowlist
+// - reviews: publicly readable, create-only, strict field allowlist.
+//   Only the rating is required — name and comment may be empty strings
+//   (stars-only ratings), but when non-empty they must meet the same
+//   min lengths the form enforces.
 // - No update/delete from clients anywhere. Moderation = deleting docs
 //   directly in the console, which bypasses these rules.
 
@@ -28,10 +31,10 @@ service cloud.firestore {
         request.resource.data.rating >= 1 &&
         request.resource.data.rating <= 5 &&
         request.resource.data.name is string &&
-        request.resource.data.name.size() >= 2 &&
+        (request.resource.data.name.size() == 0 || request.resource.data.name.size() >= 2) &&
         request.resource.data.name.size() <= 60 &&
         request.resource.data.comment is string &&
-        request.resource.data.comment.size() >= 10 &&
+        (request.resource.data.comment.size() == 0 || request.resource.data.comment.size() >= 10) &&
         request.resource.data.comment.size() <= 2000 &&
         // Must be serverTimestamp() — clients can't spoof dates to sort first
         request.resource.data.timestamp == request.time;

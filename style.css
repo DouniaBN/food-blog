@@ -2894,6 +2894,12 @@
     margin-bottom: 0.4rem;
 }
 
+.review-optional {
+    font-weight: 400;
+    color: #888;
+    font-size: 0.95rem;
+}
+
 .review-stars-input {
     display: flex;
     gap: 0.25rem;

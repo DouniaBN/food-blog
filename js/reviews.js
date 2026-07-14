@@ -7,6 +7,9 @@
  *
  * Collections:
  *   reviews — PUBLIC: recipeSlug, rating (1-5), comment, name, timestamp
+ *             Only the rating is required — name and comment may be empty
+ *             strings (stars-only ratings count toward the average but
+ *             don't appear in the written-reviews list).
  *
  * The average rating + count are computed client-side from the fetched
  * reviews (no Cloud Functions), and injected into the Recipe JSON-LD
@@ -154,7 +157,7 @@
         els.summary.hidden = false;
         els.summaryStars.innerHTML = starIcons(avg);
         els.summaryText.textContent = avg.toFixed(1) + ' from ' +
-            count + (count === 1 ? ' review' : ' reviews');
+            count + (count === 1 ? ' rating' : ' ratings');
     }
 
     // Static icon markup only — never used with user-supplied strings
@@ -170,12 +173,14 @@
     }
 
     function renderList() {
-        const count = state.reviews.length;
-        els.emptyList.hidden = count > 0;
-        if (!count) els.emptyList.textContent = 'No reviews yet — be the first!';
+        // Stars-only ratings (no comment) count toward the average but
+        // aren't rendered as empty rows in the written-reviews list.
+        const commented = state.reviews.filter(function (r) { return r.comment; });
+        els.emptyList.hidden = commented.length > 0;
+        if (!commented.length) els.emptyList.textContent = 'No written reviews yet — be the first!';
         els.list.textContent = '';
 
-        state.reviews.slice(0, state.shown).forEach(function (r) {
+        commented.slice(0, state.shown).forEach(function (r) {
             const item = document.createElement('article');
             item.className = 'review-item';
 
@@ -210,7 +215,7 @@
             els.list.appendChild(item);
         });
 
-        els.loadMore.hidden = count <= state.shown;
+        els.loadMore.hidden = commented.length <= state.shown;
     }
 
     /**
@@ -229,7 +234,7 @@
             data.aggregateRating = {
                 '@type': 'AggregateRating',
                 'ratingValue': average().toFixed(1),
-                'reviewCount': String(count)
+                'ratingCount': String(count)
             };
             scripts[i].textContent = JSON.stringify(data, null, 2);
             return;
@@ -281,13 +286,13 @@
         const honeypot = form.elements.website.value;
 
         if (!state.rating) return showError('Please pick a star rating.');
-        if (name.length < 2) return showError('Please enter your name (at least 2 characters).');
+        if (name && name.length < 2) return showError('Names need at least 2 characters — or leave it blank.');
         if (name.length > 60) return showError('Name is too long (60 characters max).');
-        if (comment.length < 10) return showError('Please write a little more — reviews need at least 10 characters.');
+        if (comment && comment.length < 10) return showError('Reviews need at least 10 characters — or leave it blank for a stars-only rating.');
         if (comment.length > 2000) return showError('Review is too long (2000 characters max).');
 
         // Honeypot filled = bot. Pretend success, write nothing.
-        if (honeypot) return submitSuccess({ rating: state.rating, name: name, comment: comment, date: new Date() }, true);
+        if (honeypot) return submitSuccess({ rating: state.rating, name: name || 'Anonymous', comment: comment, date: new Date() }, true);
 
         const submitBtn = form.querySelector('.review-submit-btn');
         submitBtn.disabled = true;
@@ -305,7 +310,7 @@
                 timestamp: fs.serverTimestamp()
             });
 
-            submitSuccess({ rating: state.rating, name: name, comment: comment, date: new Date() }, false);
+            submitSuccess({ rating: state.rating, name: name || 'Anonymous', comment: comment, date: new Date() }, false);
         } catch (err) {
             console.warn('[reviews] Submit failed:', err);
             submitBtn.disabled = false;

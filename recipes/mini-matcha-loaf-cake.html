@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=205">
+    <link rel="stylesheet" href="../style.css?v=208">
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -944,6 +944,10 @@
                     <h2 class="recipe-card-title">Mini Matcha Loaf Cake</h2>
 
                     <div class="recipe-meta-grid">
+<a class="meta-row recipe-card-rating" href="#reviews" hidden>
+                            <span class="recipe-card-rating-stars" aria-hidden="true"></span>
+                            <span class="recipe-card-rating-text"></span>
+                        </a>
                         <div class="meta-row">
                             <span class="meta-label">author:</span>
                             <span class="meta-value">DOUNIA</span>
@@ -1097,6 +1101,13 @@
 
         </section>
 
+        <!-- Did you make this? CTA -->
+        <section class="made-this-block">
+            <img class="made-this-logo" src="../images/profile/logo.png" alt="yourwellnessgirly logo" width="90" height="90" loading="lazy" decoding="async">
+            <h3>did you make this recipe?</h3>
+            <p>snap a pic &amp; tag <a class="made-this-ig" href="https://www.instagram.com/yourwellnessgirly/" target="_blank" rel="noopener noreferrer">@yourwellnessgirly</a> so i can see! i'd love to hear how it went, share ur thoughts and <a href="#reviews">leave a star rating</a>!</p>
+        </section>
+
         <!-- Nutrition Facts -->
         <div class="nutrition-section">
             <h3>Nutrition Facts</h3>
@@ -1127,6 +1138,54 @@
             </div>
             <p class="nutrition-disclaimer" style="font-size: 0.9rem !important; line-height: 1.4 !important;">*Nutritional information is estimated and will vary depending on the ingredients and brands you use. Basic macros don't reflect the full nutritional value including vitamins, minerals, antioxidants, and other beneficial compounds. Please use this as a guideline only.</p>
         </div>
+
+        <!-- Reviews -->
+        <section class="reviews-section" id="reviews" data-reviews-slug="mini-matcha-loaf-cake">
+            <h3>Reviews</h3>
+
+            <div class="reviews-summary" hidden>
+                <span class="reviews-summary-stars" aria-hidden="true"></span>
+                <span class="reviews-summary-text"></span>
+            </div>
+            <p class="reviews-empty-summary" hidden>Be the first to leave a review</p>
+
+            <div class="review-form-wrap">
+                <h4>Leave a review</h4>
+                <form class="review-form" novalidate>
+                    <div class="review-field">
+                        <span class="review-label" id="reviewStarsLabel">Your rating *</span>
+                        <div class="review-stars-input" role="radiogroup" aria-labelledby="reviewStarsLabel">
+                            <button type="button" role="radio" aria-checked="false" data-value="1" aria-label="1 star"><i class="far fa-star"></i></button>
+                            <button type="button" role="radio" aria-checked="false" data-value="2" aria-label="2 stars"><i class="far fa-star"></i></button>
+                            <button type="button" role="radio" aria-checked="false" data-value="3" aria-label="3 stars"><i class="far fa-star"></i></button>
+                            <button type="button" role="radio" aria-checked="false" data-value="4" aria-label="4 stars"><i class="far fa-star"></i></button>
+                            <button type="button" role="radio" aria-checked="false" data-value="5" aria-label="5 stars"><i class="far fa-star"></i></button>
+                        </div>
+                    </div>
+                    <div class="review-field">
+                        <label class="review-label" for="reviewName">Name <span class="review-optional">(optional)</span></label>
+                        <input type="text" id="reviewName" name="name" maxlength="60" autocomplete="name">
+                    </div>
+                    <div class="review-field">
+                        <label class="review-label" for="reviewComment">Your review <span class="review-optional">(optional — stars on their own are great too!)</span></label>
+                        <textarea id="reviewComment" name="comment" rows="4" maxlength="2000" placeholder="How did it turn out? Any swaps or tips?"></textarea>
+                    </div>
+                    <div class="review-hp" aria-hidden="true">
+                        <label for="reviewWebsite">Website</label>
+                        <input type="text" id="reviewWebsite" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    <p class="review-error" role="alert" hidden></p>
+                    <button type="submit" class="review-submit-btn">Post review</button>
+                </form>
+                <p class="review-success" hidden>Thanks for your review! It's now live. 💗</p>
+            </div>
+
+            <div class="reviews-list-wrap">
+                <p class="reviews-empty-list" hidden>No reviews yet — be the first!</p>
+                <div class="reviews-list"></div>
+                <button type="button" class="reviews-load-more" hidden>Load more reviews</button>
+            </div>
+        </section>
     </main>
     </div>
 
@@ -1382,5 +1441,8 @@
             }
         });
     </script>
+
+    <!-- Recipe reviews (lazy-loads Firebase when section scrolls into view) -->
+    <script defer src="../js/reviews.js?v=3"></script>
 </body>
 </html>

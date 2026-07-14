@@ -6,9 +6,7 @@
 // ever differ from this file, this file wins: re-paste it in the console.
 //
 // Design notes:
-// - reviews:          publicly readable, create-only, strict field allowlist
-// - review_contacts:  write-only from the client (emails are NEVER publicly
-//                     readable — export them via the Firebase console only)
+// - reviews: publicly readable, create-only, strict field allowlist
 // - No update/delete from clients anywhere. Moderation = deleting docs
 //   directly in the console, which bypasses these rules.
 
@@ -38,20 +36,6 @@ service cloud.firestore {
         // Must be serverTimestamp() — clients can't spoof dates to sort first
         request.resource.data.timestamp == request.time;
       allow update, delete: if false;
-    }
-
-    match /review_contacts/{contactId} {
-      // Write-only: nobody can read emails through the public API
-      allow read, update, delete: if false;
-      allow create: if
-        request.resource.data.keys().hasOnly(['email', 'subscribedToList', 'timestamp']) &&
-        request.resource.data.keys().hasAll(['email', 'subscribedToList', 'timestamp']) &&
-        request.resource.data.email is string &&
-        request.resource.data.email.size() >= 5 &&
-        request.resource.data.email.size() <= 120 &&
-        request.resource.data.email.matches('.+@.+[.].+') &&
-        request.resource.data.subscribedToList is bool &&
-        request.resource.data.timestamp == request.time;
     }
 
     // Everything else: locked

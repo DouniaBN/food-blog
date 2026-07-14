@@ -6,8 +6,7 @@
  * zero impact on LCP / Core Web Vitals.
  *
  * Collections:
- *   reviews          — PUBLIC:  recipeSlug, rating (1-5), comment, name, timestamp
- *   review_contacts  — PRIVATE (write-only from client): email, subscribedToList, timestamp
+ *   reviews — PUBLIC: recipeSlug, rating (1-5), comment, name, timestamp
  *
  * The average rating + count are computed client-side from the fetched
  * reviews (no Cloud Functions), and injected into the Recipe JSON-LD
@@ -66,7 +65,6 @@
         els.starsInput = section.querySelector('.review-stars-input');
         els.error = section.querySelector('.review-error');
         els.success = section.querySelector('.review-success');
-        els.subscribeRow = section.querySelector('.review-subscribe');
         els.emptyList = section.querySelector('.reviews-empty-list');
         els.list = section.querySelector('.reviews-list');
         els.loadMore = section.querySelector('.reviews-load-more');
@@ -265,14 +263,6 @@
             paintStars(state.rating);
         });
 
-        // Subscribe checkbox only appears once an email has been typed
-        const emailInput = els.form.elements.email;
-        emailInput.addEventListener('input', function () {
-            const hasEmail = emailInput.value.trim().length > 0;
-            els.subscribeRow.hidden = !hasEmail;
-            if (!hasEmail) els.form.elements.subscribe.checked = false;
-        });
-
         els.form.addEventListener('submit', onSubmit);
     }
 
@@ -288,8 +278,6 @@
         const form = els.form;
         const name = form.elements.name.value.trim();
         const comment = form.elements.comment.value.trim();
-        const email = form.elements.email.value.trim();
-        const subscribed = form.elements.subscribe.checked;
         const honeypot = form.elements.website.value;
 
         if (!state.rating) return showError('Please pick a star rating.');
@@ -297,7 +285,6 @@
         if (name.length > 60) return showError('Name is too long (60 characters max).');
         if (comment.length < 10) return showError('Please write a little more — reviews need at least 10 characters.');
         if (comment.length > 2000) return showError('Review is too long (2000 characters max).');
-        if (email && !/^.+@.+\..+$/.test(email)) return showError('That email doesn’t look right — it’s optional, so you can also leave it blank.');
 
         // Honeypot filled = bot. Pretend success, write nothing.
         if (honeypot) return submitSuccess({ rating: state.rating, name: name, comment: comment, date: new Date() }, true);
@@ -317,20 +304,6 @@
                 comment: comment,
                 timestamp: fs.serverTimestamp()
             });
-
-            if (email) {
-                // Separate private collection — never publicly readable.
-                // A failure here shouldn't undo a successful review post.
-                try {
-                    await fs.addDoc(fs.collection(state.db, 'review_contacts'), {
-                        email: email,
-                        subscribedToList: subscribed,
-                        timestamp: fs.serverTimestamp()
-                    });
-                } catch (err) {
-                    console.warn('[reviews] Contact save failed:', err);
-                }
-            }
 
             submitSuccess({ rating: state.rating, name: name, comment: comment, date: new Date() }, false);
         } catch (err) {

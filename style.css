@@ -2894,12 +2894,6 @@
     margin-bottom: 0.4rem;
 }
 
-.review-optional {
-    font-weight: 400;
-    color: #888;
-    font-size: 0.95rem;
-}
-
 .review-stars-input {
     display: flex;
     gap: 0.25rem;
@@ -2916,7 +2910,6 @@
 }
 
 .review-form input[type="text"],
-.review-form input[type="email"],
 .review-form textarea {
     width: 100%;
     max-width: 480px;
@@ -2934,21 +2927,6 @@
 .review-form textarea:focus {
     outline: none;
     border-color: #2f4f2f;
-}
-
-.review-checkbox-label {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #444;
-    font-size: 1.05rem;
-    cursor: pointer;
-}
-
-.review-checkbox-label input {
-    width: 18px;
-    height: 18px;
-    accent-color: #2f4f2f;
 }
 
 /* Honeypot — visually removed, real visitors never see or fill it */
@@ -3067,9 +3045,7 @@
     }
 
     .review-label,
-    .review-checkbox-label,
     .review-form input[type="text"],
-    .review-form input[type="email"],
     .review-form textarea,
     .review-error {
         font-size: 1.3rem;

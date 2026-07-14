@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=206">
+    <link rel="stylesheet" href="../style.css?v=207">
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -1183,16 +1183,6 @@
                         <label class="review-label" for="reviewComment">Your review *</label>
                         <textarea id="reviewComment" name="comment" rows="4" maxlength="2000" placeholder="How did it turn out? Any swaps or tips?"></textarea>
                     </div>
-                    <div class="review-field">
-                        <label class="review-label" for="reviewEmail">Email <span class="review-optional">(optional — never shown publicly)</span></label>
-                        <input type="email" id="reviewEmail" name="email" maxlength="120" autocomplete="email">
-                    </div>
-                    <div class="review-field review-subscribe" hidden>
-                        <label class="review-checkbox-label">
-                            <input type="checkbox" name="subscribe">
-                            Email me when new recipes go up 💌
-                        </label>
-                    </div>
                     <div class="review-hp" aria-hidden="true">
                         <label for="reviewWebsite">Website</label>
                         <input type="text" id="reviewWebsite" name="website" tabindex="-1" autocomplete="off">
@@ -1466,6 +1456,6 @@
     </script>
 
     <!-- Recipe reviews (lazy-loads Firebase when section scrolls into view) -->
-    <script defer src="../js/reviews.js"></script>
+    <script defer src="../js/reviews.js?v=2"></script>
 </body>
 </html>

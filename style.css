@@ -2845,6 +2845,64 @@
   .mobile-social-link.email:hover i     { color: #2f4f2f; }
 }
 
+/* ===== "Did you make this?" CTA (under the recipe card) ===== */
+.made-this-block {
+    background: var(--light-pink);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    /* extra top margin makes room for the logo circle poking out the top */
+    margin: 5rem 0 2rem;
+    text-align: center;
+}
+
+/* Circle logo, half in / half out of the top edge of the block */
+.made-this-logo {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+    border: 4px solid #fff;
+    margin: calc(-2rem - 49px) auto 0.75rem;
+}
+
+.made-this-block a.made-this-ig {
+    text-decoration: none;
+}
+
+.made-this-block h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: #2f4f2f;
+    margin: 0 0 0.75rem 0;
+}
+
+.made-this-block p {
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.made-this-block a {
+    color: #2f4f2f;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    .made-this-block h3 {
+        font-size: 1.6rem;
+    }
+
+    .made-this-block p {
+        font-size: 1.35rem;
+    }
+}
+
 /* ===== Recipe Reviews ===== */
 .reviews-section {
     position: relative;

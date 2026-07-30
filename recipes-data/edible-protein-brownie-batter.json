@@ -5,8 +5,8 @@
   "description": "This healthy edible protein brownie batter is completely refined sugar free and gluten free. It takes just 5 minutes to make but tastes super indulgent and rich.",
   "image": {
     "hero": {
-      "src": "images/recipes/edible-protein-brownie-batter/edible-protein-brownie-batter-hero-800.jpg",
-      "alt": "Scoops of edible protein brownie batter studded with chocolate chips on a plate",
+      "src": "images/recipes/edible-protein-brownie-batter/edible-protein-brownie-batter-hero-800.webp",
+      "alt": "Scoops of edible protein brownie batter studded with chocolate chips in a glass jar",
       "width": 800,
       "height": 600
     },
@@ -16,7 +16,7 @@
         "400": "images/recipes/edible-protein-brownie-batter/edible-protein-brownie-batter-thumbnail-400.webp",
         "600": "images/recipes/edible-protein-brownie-batter/edible-protein-brownie-batter-thumbnail-600.webp"
       },
-      "alt": "Edible protein brownie batter scoops recipe card - easy no bake high protein dessert",
+      "alt": "edible protein brownie batter scooped into a jar",
       "width": 400,
       "height": 300
     },

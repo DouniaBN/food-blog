@@ -1,0 +1,299 @@
+{
+  "id": "triple-chocolate-mug-cake",
+  "title": "Triple Chocolate Mug Cake",
+  "slug": "triple-chocolate-mug-cake",
+  "description": "This gluten free and dairy free triple chocolate mug cake has a shocking 22g of protein. It's a single serve recipe, gooey and ready in under 25 minutes.",
+  "image": {
+    "hero": {
+      "src": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-hero.webp",
+      "alt": "Overhead view of a triple chocolate mug cake in a glass mug with a glossy molten chocolate centre, surrounded by scattered chocolate chips, cocoa powder and a piece of burlap cloth",
+      "width": 1203,
+      "height": 1604
+    },
+    "thumbnail": {
+      "src": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-thumbnail-400.webp",
+      "srcset": {
+        "400": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-thumbnail-400.webp",
+        "600": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-thumbnail-600.webp"
+      },
+      "alt": "A gooey triple chocolate mug cake in a glass mug with a molten chocolate centre and chocolate chips scattered around",
+      "width": 400,
+      "height": 533
+    },
+    "thumbnail_400": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-card-300.webp",
+    "thumbnail_600": "images/recipes/triple-chocolate-mug-cake/triple-chocolate-mug-cake-card-600.webp",
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "15 to 20 minutes",
+    "totalTimeDisplay": "under 25 minutes"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "serving"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "triple chocolate mug cake",
+    "chocolate mug cake",
+    "high protein mug cake",
+    "gluten free mug cake",
+    "dairy free mug cake",
+    "single serve chocolate cake",
+    "healthy mug cake",
+    "almond flour mug cake",
+    "refined sugar free mug cake",
+    "protein dessert",
+    "molten chocolate mug cake",
+    "gooey chocolate mug cake"
+  ],
+  "nutrition": {
+    "calories": 800,
+    "protein": "22g",
+    "carbs": "60g",
+    "fat": "55g",
+    "fiber": "13g"
+  },
+  "ingredients": [
+    {
+      "amount": "75",
+      "unit": "g",
+      "ingredient": "almond flour",
+      "notes": ""
+    },
+    {
+      "amount": "2",
+      "unit": "tbsp",
+      "ingredient": "cocoa powder",
+      "notes": ""
+    },
+    {
+      "amount": "1/8",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "large",
+      "ingredient": "egg",
+      "notes": ""
+    },
+    {
+      "amount": "1 1/2 to 2",
+      "unit": "tbsp",
+      "ingredient": "maple syrup",
+      "notes": "add more to taste"
+    },
+    {
+      "amount": "2",
+      "unit": "tbsp",
+      "ingredient": "water or milk of choice",
+      "notes": ""
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "vanilla extract",
+      "notes": "optional, a splash"
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "salt",
+      "notes": "a pinch"
+    },
+    {
+      "amount": "",
+      "unit": "",
+      "ingredient": "chocolate chips",
+      "notes": "to taste"
+    },
+    {
+      "amount": "1",
+      "unit": "square",
+      "ingredient": "dark chocolate",
+      "notes": "for the centre"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170C / 160C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "In an oven-safe mug, add the almond flour, cocoa powder, baking powder and salt if using. Mix to combine.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add the egg, maple syrup, water or milk and vanilla if using. Mix until fully combined and smooth.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Fold in the chocolate chips.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Push the square of dark chocolate into the centre of the batter until the batter fully covers it.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Bake for 15 to 20 minutes. Check at 15 minutes.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Let cool for a few minutes before eating.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "Push the dark chocolate square deep enough into the centre of the batter so that it's fully covered.",
+    "Check at 15 minutes and resist the urge to go longer if the top looks set.",
+    "Use a mug or oven safe ramekin that holds at least 350ml."
+  ],
+  "equipment": [
+    "Oven-safe mug or ramekin (at least 350ml)",
+    "Oven"
+  ],
+  "relatedRecipes": [
+    "brownie-batter-bars",
+    "gluten-free-brownie-cookies",
+    "chocolate-banana-pancake-bowl"
+  ],
+  "seo": {
+    "metaTitle": "Triple Chocolate Mug Cake (22g Protein, Gluten Free)",
+    "metaDescription": "This gluten free and dairy free triple chocolate mug cake has a shocking 22g of protein. It's a single serve recipe, gooey and ready in under 25 minutes.",
+    "keywords": [
+      "triple chocolate mug cake",
+      "chocolate mug cake",
+      "high protein mug cake",
+      "gluten free mug cake",
+      "dairy free mug cake",
+      "single serve chocolate cake",
+      "almond flour mug cake"
+    ],
+    "canonicalUrl": "/recipes/triple-chocolate-mug-cake"
+  },
+  "social": {
+    "pinterest": {
+      "description": "This triple chocolate mug cake has a shocking 22g of protein and a gooey molten chocolate centre! Gluten free, dairy free, and ready in under 25 minutes 🍫",
+      "title": "Triple Chocolate Mug Cake (22g Protein, Gluten Free)"
+    },
+    "instagram": {
+      "caption": "triple chocolate mug cake with a molten chocolate centre 🍫 22g of protein, gluten free, dairy free, and ready in under 25 minutes! recipe on the blog!",
+      "hashtags": [
+        "#mugcake",
+        "#chocolatemugcake",
+        "#highproteindessert",
+        "#glutenfreedessert",
+        "#dairyfreedessert",
+        "#healthydessert",
+        "#singleserve",
+        "#refinedsugarfree",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "single serve, gooey, and packed with 22g of protein",
+    "paragraphs": [
+      "triple chocolate. single serve. gooey in the middle and it has 22g of protein. if that's not enough of a pitch then i don't know what to tell you lol. this almond flour chocolate mug cake is what happens when a chocolate craving hits but you have little to no energy to fulfill it. it's fudgy, it's rich, it's got three kinds of chocolate going on, and it comes together in about five minutes of actual effort before the oven does the rest.",
+      "if you're wondering where the triple chocolate situation is coming from: the cocoa powder goes into the batter itself and gives the cake its deep chocolate base flavour. then the chocolate chips get folded in and melt slightly as the cake bakes, creating little pockets of melted chocolate in every bite. because sometimes that is just not enough, i also added a square of dark chocolate pushed into the centre before baking, which becomes a completely molten pool of chocolate hidden inside the cake. when you dig your spoon through the top and hit it for the first time, she is <em>the</em> moment. worth every minute of the bake time.",
+      "almond flour is the base of this recipe and the only flour used. it's what makes the texture so good. almond flour bakes into a more moist and dense texture than regular flour, which makes it feel extra indulgent. it doesn't go dry the way wheat flour can, and it gives the cake that fudgy vibe that is so satisfying to eat. nutritionally, almond flour is a brilliant swap from regular flour because it's high in vitamin E, a fat-soluble antioxidant that helps protect cells from oxidative stress, and it's a great source of healthy monounsaturated fats. it's also what contributes a significant chunk of the protein in this recipe, giving this triple chocolate mug cake a whopping 22g of protein without any protein powder.",
+      "i haven't tested this mug cake with any other flour and honestly i wouldn't recommend trying to swap it out. other flours absorb liquid differently, require different ratios, and would change the texture, bake time and macros significantly. almond flour is the one for the protein and texture goal. if you're calorie conscious, this one is probably not for you lol, although the rest of the macros help balance it out. almond flour is just simply more calorie dense but simultaneously very nutrient dense, which is exactly why i don't suggest looking at calories alone without the rest of the macros and full nutritional profile. this mug cake is listed as a single serve recipe, but you can also halve the quantities or get 2 servings out of it instead of 1 depending on your mood.",
+      "the cacao powder is pulling double duty here as both a flavour ingredient and a functional one. cacao is rich in flavonoids, particularly epicatechin, which has been studied for its effects on cardiovascular health and brain health. fun fact: it's involved in the growth of brain cells. it's also one of the better plant sources of magnesium, a mineral that supports sleep quality, muscle function and nervous system regulation. two tablespoons gives you a strong, proper chocolate flavour throughout the batter without making it bitter, plus a whole host of nutritional benefits.",
+      "almond flour is a great plant based protein source, and paired with the egg, they're responsible for the approx. 22g of protein in this single serve cake, which makes it a more balanced dessert than most. the egg also acts as the binder that holds the cake together and gives it structure as it bakes, which is particularly important with almond flour since it doesn't have the gluten network that regular flour relies on. without the egg this cake wouldn't hold together the way it does, and unfortunately it can't be omitted.",
+      "a little more nutrition science: the combination of almond flour, egg and cocoa makes this one of the more nutritionally interesting mug cakes out there. the healthy fats from the almond flour slow digestion and help keep you full after eating. the magnesium from the cocoa and the vitamin E from the almond flour are both involved in reducing oxidative stress and inflammation. and the protein from the egg and almond flour together means this dessert won't spike and crash your blood sugar the way a refined flour and sugar based mug cake would. it tastes like a deeply indulgent dessert because it is, but the ingredients are also very intentional.",
+      "for the method: mix the dry ingredients in your oven-safe mug first, then add the wet ingredients and mix until smooth. fold in the chocolate chips, then push the dark chocolate square into the centre of the batter until the batter covers it completely. if the chocolate is sitting on top rather than fully submerged, it won't melt into that hidden molten centre, it'll just melt on the surface, so be sure to push it down. bake at 170C (160C fan) for 15 to 20 minutes and check at the 15 minute mark. the top should look set but the centre will have a slight wobble from the melted chocolate inside.",
+      "let it cool almost completely before eating. i know that is a very big ask lol, but a) it's extremely hot straight out of the oven and you will burn your tongue, and b) almond flour can be quite mushy naturally and heat makes that worse, so letting it cool properly makes the taste and texture way richer and lighter.",
+      "if you're deep in a chocolate moment, you have to make my viral <a href=\"gluten-free-brownie-cookies.html\">gluten free brownie cookies</a>, they went viral for a reason, they are <em>divine</em>. or if you want a lighter, added sugar free chocolate option, my <a href=\"chocolate-banana-pancake-bowl.html\">chocolate banana pancake bowl</a> is the move. and if your chocolate craving is screaming at you and you need something pretty much immediately, my viral no bake 4 ingredient <a href=\"brownie-batter-bars.html\">brownie batter bars</a> are the cure."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I use a different flour instead of almond flour?",
+      "answer": "I haven't tested this recipe with any other flour and I wouldn't recommend swapping it out without expecting significant changes. Different flours absorb liquid at very different rates, which means the ratios, texture and bake time would all need adjusting. Swapping almond flour for oat flour or a gluten free blend would also change the macros quite a lot, including the protein content, which is largely coming from the almond flour. If you need a nut-free version, that would require a properly tested reformulation rather than a straight swap."
+    },
+    {
+      "question": "Can I make this mug cake in the microwave instead of the oven?",
+      "answer": "The recipe is written for the oven and that's where it gives the best result, specifically that gooey, brownie-like texture and the properly melted chocolate centre. A microwave mug cake cooks from the inside out and tends to give a spongier, slightly rubbery texture rather than the fudgy result you get from the oven. If you do want to try the microwave, cook on medium power in 30-second bursts and check after each one, but the texture will be noticeably different to the oven version so I highly recommend the oven."
+    },
+    {
+      "question": "How do I know when this triple chocolate mug cake is done?",
+      "answer": "The top should look set and matte rather than wet or shiny. The edges may also have pulled away slightly from the sides of the mug. The very centre will still have a slight wobble because of the melted chocolate square inside, which is exactly right. If you're unsure, insert a toothpick into the side of the batter rather than the centre (the chocolate will always look underdone) and it should come out with just a few moist crumbs. Check at 15 minutes first and give it another 2 to 3 minutes only if the top still looks very wet."
+    },
+    {
+      "question": "Is this recipe gluten free?",
+      "answer": "Yes, almond flour is naturally gluten free and none of the other ingredients contain gluten. If you have coeliac disease or high sensitivity, double check the labels on your cocoa powder and chocolate chips as these can sometimes be processed in facilities that also handle gluten-containing products."
+    },
+    {
+      "question": "Is this triple chocolate mug cake dairy free?",
+      "answer": "Yes, as long as you use water or a plant-based milk rather than dairy milk, and make sure your chocolate chips and dark chocolate square are dairy free. Most 70% dark chocolate is naturally dairy free but always check the label. With those two things confirmed, the whole recipe is completely dairy free."
+    },
+    {
+      "question": "Can I reduce the maple syrup or make it less sweet?",
+      "answer": "Yes! The recipe gives a range of 1 to 2 tablespoons and 1 tablespoon is perfectly fine if you prefer things less sweet. The dark chocolate square and chocolate chips will add sweetness as they melt, so keep that in mind when deciding how much maple syrup to add. You can also omit it entirely if your chocolate chips are already quite sweet, though the batter will be noticeably less sweet without it."
+    },
+    {
+      "question": "What chocolate should I use for the centre and the chips?",
+      "answer": "Any dark chocolate you like works here. I'd suggest a 70% for a good balance of richness and sweetness, but 60% gives a slightly sweeter result and anything 85% and above is quite intense and bitter. Refined sugar free dark chocolate is what keeps this recipe in line with the other ingredients. For the chips, any refined sugar free dark chocolate chips work, or you can chop up a bar of dark chocolate into small pieces instead."
+    },
+    {
+      "question": "Why does this triple chocolate mug cake have so much protein?",
+      "answer": "The protein comes primarily from two ingredients: almond flour and the egg. Almond flour is naturally high in protein compared to most other flours, and 75g of it contributes a significant portion of the total. The egg adds another 6g on top of that. Together they bring the total to approximately 22g of protein per serving, which is more than most desserts and makes this a much more satiating option than a standard flour and sugar-based cake."
+    }
+  ],
+  "tips": [
+    "Push the dark chocolate square deep enough into the centre of the batter so that it's fully covered.",
+    "Check at 15 minutes and resist the urge to go longer if the top looks set.",
+    "Use a mug or oven safe ramekin that holds at least 350ml."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Almond flour",
+      "alternatives": [
+        "Not recommended to swap, as other flours absorb liquid differently and would change the texture, bake time and protein content"
+      ]
+    },
+    {
+      "ingredient": "Water or milk",
+      "alternatives": [
+        "Any plant-based milk keeps the recipe dairy free",
+        "Dairy milk works too if dairy free isn't a requirement"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Reduce to 1 tablespoon for a less sweet cake",
+        "Can be omitted if your chocolate chips are already sweet"
+      ]
+    }
+  ],
+  "videoUrl": "https://www.instagram.com/yourwellnessgirly/",
+  "datePublished": "2026-08-08",
+  "dateModified": "2026-08-08",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

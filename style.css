@@ -3106,6 +3106,21 @@
     overflow-wrap: break-word;
 }
 
+/* Dounia's like — added via the Firebase console, never by visitors */
+.review-liked {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: #2f4f2f;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.review-liked i {
+    color: #2f4f2f;
+    font-size: 0.95rem;
+}
+
 /* Dounia's reply — added via the Firebase console, never by visitors */
 .review-reply {
     margin: 0.9rem 0 0 1.25rem;
@@ -3204,7 +3219,8 @@
         line-height: 1.5;
     }
 
-    .review-item-date {
+    .review-item-date,
+    .review-liked {
         font-size: 1.15rem;
     }
 

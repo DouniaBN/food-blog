@@ -14,6 +14,9 @@
  *             the Firebase console. Clients can never write it — the rules'
  *             create allowlist excludes it and updates are denied — so a
  *             rendered reply is always genuinely from the author.
+ *             Optional `liked` (boolean): a lightweight acknowledgement for
+ *             reviews that don't need a written reply, also set by hand in
+ *             the Firebase console and equally unwritable by clients.
  *
  * The average rating + count are computed client-side from the fetched
  * reviews (no Cloud Functions), and injected into the Recipe JSON-LD
@@ -132,6 +135,7 @@
                     name: String(d.name || 'Anonymous'),
                     comment: String(d.comment || ''),
                     reply: String(d.reply || ''),
+                    liked: Boolean(d.liked),
                     date: d.timestamp && d.timestamp.toDate ? d.timestamp.toDate() : null
                 };
             }).sort(function (a, b) {
@@ -197,8 +201,8 @@
     function renderList() {
         // Stars-only ratings (no comment) count toward the average but
         // aren't rendered as empty rows in the written-reviews list —
-        // unless Dounia replied to one, which makes it worth showing.
-        const commented = state.reviews.filter(function (r) { return r.comment || r.reply; });
+        // unless Dounia replied to or liked one, which makes it worth showing.
+        const commented = state.reviews.filter(function (r) { return r.comment || r.reply || r.liked; });
         els.emptyList.hidden = commented.length > 0;
         if (!commented.length) els.emptyList.textContent = 'No written reviews yet — be the first!';
         els.list.textContent = '';
@@ -228,6 +232,14 @@
             head.appendChild(stars);
             head.appendChild(name);
             head.appendChild(date);
+
+            if (r.liked) {
+                const liked = document.createElement('span');
+                liked.className = 'review-liked';
+                liked.setAttribute('aria-label', 'Liked by dounia');
+                liked.innerHTML = '<i class="fas fa-heart" aria-hidden="true"></i>liked by dounia';
+                head.appendChild(liked);
+            }
 
             item.appendChild(head);
 

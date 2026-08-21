@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../style.css?v=208">
+    <link rel="stylesheet" href="../style.css?v=210">
 
     <!-- Recipe Schema JSON-LD -->
     <script type="application/ld+json">
@@ -63,7 +63,7 @@
   "totalTime": "PT60M",
   "recipeCategory": "Baked",
   "recipeCuisine": "American",
-  "recipeYield": "1 mini loaf cake",
+  "recipeYield": "10 slices",
   "nutrition": {
     "@type": "NutritionInformation",
     "calories": "108 calories",
@@ -198,7 +198,7 @@
       "name": "Is this a small batch recipe?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! I use a 16cm x 8cm glass mini loaf tin for this recipe. You can also use a larger tin if you don't have a mini loaf tin — the cake will be less loaf-shaped and more of a thin bake, but it will still work. Just keep an eye on the baking time as it may cook faster in a larger tin."
+        "text": "Yes! I use a 16cm x 8cm glass mini loaf tin for this recipe. You can also use a larger tin if you don't have a mini loaf tin, the cake will be less loaf-shaped and more of a thin bake, but it will still work. Just keep an eye on the baking time as it may cook faster in a larger tin."
       }
     },
     {
@@ -802,7 +802,7 @@
                     <div class="meta-item">
                         <i class="fas fa-users"></i>
                         <span class="meta-label">Servings</span>
-                        <span class="meta-value">1 mini loaf cake</span>
+                        <span class="meta-value">10 slices</span>
                     </div>
                 </div>
 
@@ -919,7 +919,7 @@
                 
                     <div class="faq-item">
                         <h4 class="faq-question">Is this a small batch recipe?</h4>
-                        <p class="faq-answer">Yes! I use a 16cm x 8cm glass mini loaf tin for this recipe. You can also use a larger tin if you don't have a mini loaf tin — the cake will be less loaf-shaped and more of a thin bake, but it will still work. Just keep an eye on the baking time as it may cook faster in a larger tin.</p>
+                        <p class="faq-answer">Yes! I use a 16cm x 8cm glass mini loaf tin for this recipe. You can also use a larger tin if you don't have a mini loaf tin, the cake will be less loaf-shaped and more of a thin bake, but it will still work. Just keep an eye on the baking time as it may cook faster in a larger tin.</p>
                     </div>
                 
                     <div class="faq-item">
@@ -972,7 +972,7 @@
                     -->
 
                     <div class="recipe-meta-grid">
-<a class="meta-row recipe-card-rating" href="#reviews" hidden>
+                        <a class="meta-row recipe-card-rating" href="#reviews" hidden>
                             <span class="recipe-card-rating-stars" aria-hidden="true"></span>
                             <span class="recipe-card-rating-text"></span>
                         </a>
@@ -1035,7 +1035,7 @@
             <div class="servings-adjuster">
                 <label>Servings:</label>
                 <button class="serving-btn minus" onclick="adjustServings(-1)">−</button>
-                <span class="serving-count">1</span>
+                <span class="serving-count">10</span>
                 <button class="serving-btn plus" onclick="adjustServings(1)">+</button>
             </div>
 
@@ -1123,7 +1123,7 @@
         <!-- Nutrition Facts -->
         <div class="nutrition-section">
             <h3>Nutrition Facts</h3>
-            <p class="nutrition-per-serving">Per one slice:</p>
+            <p class="nutrition-per-serving">Per one serving:</p>
             <div class="nutrition-table">
                 
             <div class="nutrition-item">
@@ -1403,7 +1403,7 @@
         }
 
         // Enhanced servings adjustment with dynamic calculation
-        let baseServings = 1;
+        let baseServings = 10;
         let currentServings = baseServings;
         const baseAmounts = [2, 1, 2, 1, 1, 1, 130, 340];
 
@@ -1455,6 +1455,6 @@
     </script>
 
     <!-- Recipe reviews (lazy-loads Firebase when section scrolls into view) -->
-    <script defer src="../js/reviews.js?v=3"></script>
+    <script defer src="../js/reviews.js?v=4"></script>
 </body>
 </html>

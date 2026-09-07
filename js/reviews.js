@@ -78,6 +78,10 @@
         els.emptyList = section.querySelector('.reviews-empty-list');
         els.list = section.querySelector('.reviews-list');
         els.loadMore = section.querySelector('.reviews-load-more');
+        els.loadMore.addEventListener('click', function () {
+            state.shown += PAGE_SIZE;
+            renderList();
+        });
 
         // Optional stars row in the recipe card meta (author/prep/cook block)
         els.cardRating = document.querySelector('.recipe-card-rating');

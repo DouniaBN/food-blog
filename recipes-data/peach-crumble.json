@@ -1,0 +1,313 @@
+{
+  "id": "peach-crumble",
+  "title": "Healthy Peach Crumble",
+  "slug": "peach-crumble",
+  "description": "juicy and soft peaches covered in a buttery, gluten free, refined sugar free crumble topping that makes for the dreamiest end of summer dessert that's cozy and refreshing all in one!",
+  "image": {
+    "square": {
+      "src": "images/recipes/peach-crumble/peach-crumble-square.webp",
+      "alt": "Healthy peach crumble in a bowl topped with vanilla ice cream and honey being drizzled over the top",
+      "width": 1200,
+      "height": 1200
+    },
+    "hero": {
+      "src": "images/recipes/peach-crumble/peach-crumble-hero.webp",
+      "alt": "Healthy peach crumble in a bowl topped with vanilla ice cream and honey being drizzled over the top",
+      "width": 1600,
+      "height": 2000
+    },
+    "thumbnail": {
+      "src": "images/recipes/peach-crumble/peach-crumble-card-300px.webp",
+      "srcset": {
+        "300": "images/recipes/peach-crumble/peach-crumble-card-300px.webp",
+        "600": "images/recipes/peach-crumble/peach-crumble-card-600px.webp"
+      },
+      "alt": "Overhead view of healthy peach crumble in a bowl with golden oat topping, peach slices, and a scoop of vanilla ice cream",
+      "width": 300,
+      "height": 225
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "prepTimeDisplay": "10 minutes",
+    "cookTimeDisplay": "20–30 minutes",
+    "totalTimeDisplay": "35 minutes"
+  },
+  "servings": {
+    "yield": "8",
+    "displayYield": "6-8",
+    "unit": "servings"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Vegetarian",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "peach crumble",
+    "healthy peach crumble",
+    "refined sugar free crumble",
+    "gluten free crumble",
+    "dairy free crumble",
+    "peach dessert",
+    "summer dessert",
+    "autumn dessert",
+    "oat crumble",
+    "frozen peach recipe",
+    "easy crumble recipe"
+  ],
+  "nutrition": {
+    "calories": 150,
+    "protein": "2.6g",
+    "carbs": "21g",
+    "fat": "6.8g",
+    "fiber": "1.5g",
+    "sugar": "9g"
+  },
+  "ingredients": [
+    {
+      "amount": "400",
+      "unit": "g",
+      "ingredient": "frozen peaches",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "tsp",
+      "ingredient": "arrowroot powder",
+      "notes": ""
+    },
+    {
+      "amount": "1/2",
+      "unit": "tsp",
+      "ingredient": "cinnamon",
+      "notes": ""
+    },
+    {
+      "amount": "100",
+      "unit": "g",
+      "ingredient": "oat flour",
+      "notes": ""
+    },
+    {
+      "amount": "25",
+      "unit": "g",
+      "ingredient": "porridge oats",
+      "notes": ""
+    },
+    {
+      "amount": "40",
+      "unit": "g",
+      "ingredient": "coconut sugar",
+      "notes": ""
+    },
+    {
+      "amount": "55",
+      "unit": "g",
+      "ingredient": "butter",
+      "notes": "melted, see FAQ for dairy free"
+    },
+    {
+      "amount": "1",
+      "unit": "splash",
+      "ingredient": "vanilla extract",
+      "notes": ""
+    },
+    {
+      "amount": "1/8",
+      "unit": "tsp",
+      "ingredient": "baking powder",
+      "notes": ""
+    },
+    {
+      "amount": "1",
+      "unit": "pinch",
+      "ingredient": "salt",
+      "notes": ""
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 170°C / 150°C fan.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen peaches to a 20cm (8-inch) square baking tin. Sprinkle over the arrowroot powder and cinnamon and mix until all the peaches are evenly coated.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, add the oat flour, porridge oats, coconut sugar, baking powder, salt and vanilla extract. Mix to combine.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter and pour it into the bowl. Mix until everything is combined.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Use your hands to press and squeeze the mixture into rough clumps — this gives you bigger, more satisfying pieces of crumble once baked.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Scatter the crumble mixture evenly over the peaches, making sure every part of the filling gets covered.",
+      "image": ""
+    },
+    {
+      "step": 7,
+      "text": "Bake for 20 to 30 minutes until the crumble is golden brown at the edges and the peach filling is bubbling around the sides.",
+      "image": ""
+    },
+    {
+      "step": 8,
+      "text": "Remove from the oven and allow to cool for at least 20 minutes. Scoop into bowls and add your favourite toppings, or eat as is.",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "The crumble is ready when both things happen at once: golden brown at the edges AND the peach filling is actively bubbling. If only one is happening, give it more time.",
+    "Let it cool for at least 20 minutes before serving. The filling is very hot and also sets slightly as it cools, making it easier to scoop.",
+    "To make dairy free: swap the butter for the same quantity of melted coconut oil."
+  ],
+  "equipment": [
+    "Oven",
+    "20cm / 8-inch square baking tin"
+  ],
+  "seo": {
+    "metaTitle": "Healthy Peach Crumble",
+    "metaDescription": "juicy and soft peaches covered in a buttery, gluten free, refined sugar free crumble topping that makes for the dreamiest end of summer dessert that's cozy and refreshing all in one!",
+    "keywords": [
+      "peach crumble",
+      "healthy peach crumble",
+      "refined sugar free crumble",
+      "peach dessert recipe",
+      "easy peach crumble",
+      "dairy free crumble"
+    ],
+    "canonicalUrl": "/recipes/peach-crumble"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Healthy peach crumble with a golden oat topping — refined sugar free, easy to make dairy free, and ready in 35 minutes. The perfect end-of-summer dessert! 🍑",
+      "title": "Healthy Peach Crumble"
+    },
+    "instagram": {
+      "caption": "probably one of my favourite recipes i've made this year and it's september so that's saying something 🍑 peach crumble — refined sugar free, golden oat topping, bubbling peach filling. recipe on the blog!",
+      "hashtags": [
+        "#peachcrumble",
+        "#healthycrumble",
+        "#refinedsugarfree",
+        "#peachdessert",
+        "#summerdessert",
+        "#healthydessert",
+        "#glutenfree",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "gluten free, refined sugar free and ready in 35 minutes",
+    "paragraphs": [
+      "crumble is one of those desserts that somehow always fits the moment perfectly. this peach crumble in particular might be the thing i'm most proud of making this year, which i realise is a strong statement given it's september and i have made <em>a lot</em> of recipes. i said this on my stories immediately after making this peach crumble and i still stand by it lol. it did not even last until the next day in my household!",
+      "there is something about the combination of sweet, juicy, bubbling peaches underneath a golden, buttery oat crumble topping. it is just so deeply satisfying and the contrast of the two textures together is addictive. i feel like crumble was made for that late summer season where we are all in autumn mode and want a cozy dessert but we still want something that is refreshing.",
+      "i use frozen peaches and i'd recommend for ease doing the same unless you have a lot of fresh peaches lying around. the reason for this isn't that fresh peaches are inferior, it's just that frozen peaches are pre-cut and go straight from the freezer into the tin without any peeling, cutting or pitting. i love any dessert that is delicious and super easy to put together but definitely tastes like a labor of love without the hassle.",
+      "peaches are not only divine and the star of the show in this recipe, they are also a rich source of chlorogenic acid and quercetin, two polyphenols that have been studied for their anti-inflammatory effects and their role in blood sugar regulation. chlorogenic acid in particular has been shown to improve insulin sensitivity and slow the absorption of glucose after eating. so a win, win!",
+      "the arrowroot powder is mixed through the peaches before the crumble goes on top as it is what thickens the juice as the peaches cook and bubble. without it the peaches can be quite watery and the crumble absorbs too much liquid, going soft in patches rather than staying crisp. one teaspoon of arrowroot keeps everything jammy and thick without making it gluey. you can sub the arrowroot powder for corn starch or tapioca powder.",
+      "the cinnamon goes in with the peaches too, not the crumble, so every piece of fruit has that warm spice and arrowroot coating for extra cozy flavours. then we move onto the crumble topping, which is oat flour and porridge oats together, and the combination is what gives it the best texture. the cinnamon isn't just there for flavour. its active compound, cinnamaldehyde, inhibits NF-κB, which is a key signalling pathway in the inflammatory response. it has been studied for its positive effects on blood sugar and insulin sensitivity, which is why i love adding cinnamon to everything tbh.",
+      "i originally tested this recipe with oat flour alone but i found it makes a crumble that's quite fine and almost sandy. adding the whole porridge oats gives you more variation: some fine, crumbly bits mixed with larger oat clusters that toast up and go slightly golden at the edges. the 40g of coconut sugar is the amount that works beautifully without being overly sweet. if you're using very sweet fresh peaches, you could reduce it to 30g, but since i'm using frozen peaches that i can't taste beforehand, 40g balances any tartness perfectly. it tastes more caramelised than sugary, which is what you want from a crumble topping and pairs deliciously with the buttery oat crumble.",
+      "the butter goes in melted, not cold. this is the opposite of how most crumble recipes work, where you rub cold butter into flour until it resembles coarse breadcrumbs. the melted method is simpler and gives you a different result: a topping that clumps more easily when you work it with your hands, and bakes into larger, more textured pieces with a better golden colour. once everything is mixed in the bowl, use your hands to press and squeeze portions into rough clumps before scattering them over the peaches for the most optimal texture. some of those clumps will stay mostly intact as they bake and give you satisfying bigger pieces of crumble to break through. the bits that don't clump turn golden and cakey.",
+      "to make this peach crumble dairy free, swap the butter for the same quantity of melted coconut oil. the crumble bakes up slightly softer and there's a subtle coconut note that actually surprisingly works well with peaches. the flavour is a little lighter than butter and slightly less rich. i prefer the butter version and i always opt for grass fed butter, it has a much cozier and richer flavour than the coconut oil version but both are delish!",
+      "then we bake at 170°C for 20 to 30 minutes. you're looking for two things happening at once: the crumble golden brown at the edges, particularly the parts touching the sides of the tin or the big chunks, and the peach filling bubbling up around the sides. if only the top looks done but nothing is bubbling, give it another couple of minutes. the bubbling is what tells you the filling has thickened properly from the arrowroot. when both are happening, it's ready!",
+      "let it cool for at least 20 minutes before serving. the filling is extremely hot straight from the oven and it also sets slightly as it cools, which makes scooping much cleaner. serve it warm, or wait for it to cool completely, both are mouthwatering lol and the crumble topping stays crisp either way. add a scoop of dairy-free ice cream, a dollop of coconut cream, a big spoonful of vanilla yogurt or absolutely nothing and enjoy. i have eaten this straight from the tin warm with a spoon and i would do it again.",
+      "for other fruit forward desserts, my <a href=\"/recipes/apple-fritters\">apple fritters</a> are baked, quick and have been going insanely viral since i posted them (i'm talking 25 million views across platforms lol). my <a href=\"/recipes/mini-blueberry-olive-oil-cake\">mini blueberry olive oil cake</a> is another one that feels very end-of-summer coded, and if you want something completely no bake, my <a href=\"/recipes/mango-yogurt-bites\">mango yogurt bites</a> are three ingredients and take ten minutes!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I use fresh peaches instead of frozen?",
+      "answer": "Yes, absolutely. Fresh peaches work beautifully here. You'll need to peel and slice them first, which is the main extra step compared to using frozen. Fresh peaches in season will give you a more intense, fragrant flavour. Frozen peaches are just convenient because they're already cut and you can throw them straight in from the freezer without any prep. Either way the method and bake time is the same."
+    },
+    {
+      "question": "Can I make this peach crumble dairy free?",
+      "answer": "Yes, swap the butter for the same quantity of melted coconut oil. The crumble topping bakes up slightly softer and there's a very subtle coconut note in the flavour that works really well with the peaches. Use refined coconut oil if you want a more neutral flavour, or unrefined for a more pronounced coconut taste."
+    },
+    {
+      "question": "What is arrowroot powder and do I need it?",
+      "answer": "Arrowroot powder is a starch derived from the arrowroot plant. In this recipe it acts as a thickener for the peach filling. As the peaches cook and release their juices, the arrowroot thickens the liquid into a jammy, slightly glossy sauce instead of a watery pool. Without it the filling can be quite runny and the crumble absorbs the liquid and goes soft in patches rather than staying crisp. You can substitute it with the same quantity of cornstarch (cornflour) if you can't find arrowroot."
+    },
+    {
+      "question": "Is this healthy peach crumble recipe gluten free?",
+      "answer": "It can be. Oats and oat flour are naturally gluten free, but they're often processed in facilities that also handle wheat, which can cause cross-contamination. If you need the recipe to be strictly gluten free due to coeliac disease or high sensitivity, use certified gluten free oat flour and certified gluten free porridge oats. With those swaps the recipe is fully gluten free. Make sure the baking powder is also certified gluten free, as some brands add a small amount of wheat starch."
+    },
+    {
+      "question": "Can I use a different sweetener instead of coconut sugar?",
+      "answer": "Yes. Soft light brown sugar is the most similar in flavour and would give the same caramel-y depth. Regular cane sugar also works but gives a slightly less interesting flavour. Date sugar is the closest sub since it keeps the recipe refined sugar free and has that similar caramel-like flavour. Monkfruit would also work, but you'd need way less of it, at minimum 1/3 the amount of coconut sugar used. I wouldn't recommend liquid sweeteners like maple syrup here because adding extra liquid to the crumble topping changes the texture significantly."
+    },
+    {
+      "question": "Why isn't my crumble topping getting crispy?",
+      "answer": "The most likely cause is that the peach filling released more liquid than expected and the crumble absorbed it before it had a chance to crisp up. Make sure you use the full teaspoon of arrowroot to help thicken the filling and prevent this. If it's happening repeatedly, try increasing the oven temperature by 10°C and baking uncovered for the full 30 minutes. Also make sure the crumble mixture is in clumps rather than an even fine layer. The clumps give more surface area for crisping. If your oven runs cool, it may simply need a few extra minutes."
+    },
+    {
+      "question": "Can I make this peach crumble ahead of time?",
+      "answer": "Yes. You can assemble the whole crumble (peach filling and crumble topping) in the tin, cover it tightly and refrigerate for up to a day before baking. Add 5 minutes to the bake time since it will be cold from the fridge. You can also bake it fully, let it cool, and reheat individual portions in the oven at 150°C for 10 to 15 minutes when you're ready to serve."
+    },
+    {
+      "question": "How do I store leftover peach crumble?",
+      "answer": "Store leftover crumble in an airtight container in the fridge for up to 4 days. The crumble topping will soften slightly as it sits in the fridge, but it's still delicious cold or gently reheated. To reheat, place individual portions in an oven-safe dish and warm at 150°C for 10 to 15 minutes. The microwave also works but the topping won't crisp up again the same way."
+    }
+  ],
+  "tips": [
+    "Use your hands to press and squeeze the crumble mixture into rough clumps before scattering it over the peaches.",
+    "The crumble is ready when both things happen at once: golden brown at the edges AND the peach filling is actively bubbling around the sides.",
+    "Let it cool for at least 20 minutes before scooping."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Butter",
+      "alternatives": [
+        "Melted coconut oil (same quantity — makes it dairy free, adds a subtle coconut note)",
+        "Vegan butter (1:1 swap — very similar result)"
+      ]
+    },
+    {
+      "ingredient": "Coconut sugar",
+      "alternatives": [
+        "Soft light brown sugar (most similar flavour)",
+        "Regular cane sugar (slightly less depth)",
+        "Date sugar (closest sub, keeps it refined sugar free, similar caramel-like flavour)",
+        "Monkfruit (use at minimum 1/3 the amount of coconut sugar)"
+      ]
+    },
+    {
+      "ingredient": "Arrowroot powder",
+      "alternatives": [
+        "Cornstarch / cornflour (same quantity, works identically)"
+      ]
+    },
+    {
+      "ingredient": "Frozen peaches",
+      "alternatives": [
+        "Fresh peaches (peel and slice first — same quantity, more intense flavour in season)"
+      ]
+    }
+  ],
+  "videoUrl": "https://www.instagram.com/yourwellnessgirly/",
+  "datePublished": "2026-09-04",
+  "dateModified": "2026-09-04",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

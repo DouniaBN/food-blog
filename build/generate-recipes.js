@@ -138,12 +138,14 @@ class RecipeGenerator {
 
         const heroImage = getImageUrl(recipe.image.hero);
         const thumbnailImage = getImageUrl(recipe.image.thumbnail);
+        const squareImage = recipe.image.square ? getImageUrl(recipe.image.square) : null;
+        const schemaImages = squareImage ? [squareImage, heroImage, thumbnailImage] : [heroImage, thumbnailImage];
 
         return {
             "@context": "https://schema.org/",
             "@type": "Recipe",
             "name": recipe.title,
-            "image": [heroImage, thumbnailImage],
+            "image": schemaImages,
             "description": recipe.description,
             "keywords": recipe.tags.join(", "),
             "author": {
@@ -158,7 +160,7 @@ class RecipeGenerator {
             "totalTime": recipe.timing.totalTime,
             "recipeCategory": recipe.categories[0] || "Dessert",
             "recipeCuisine": "American",
-            "recipeYield": `${recipe.servings.yield} ${recipe.servings.unit}`,
+            "recipeYield": `${recipe.servings.displayYield || recipe.servings.yield} ${recipe.servings.unit}`,
             "nutrition": {
                 "@type": "NutritionInformation",
                 "calories": `${recipe.nutrition.calories} calories`,
@@ -588,7 +590,7 @@ class RecipeGenerator {
         html = html.replace(/{{PREP_TIME}}/g, recipe.timing.prepTimeDisplay);
         html = html.replace(/{{COOK_TIME}}/g, recipe.timing.cookTimeDisplay);
         html = html.replace(/{{TOTAL_TIME}}/g, recipe.timing.totalTimeDisplay);
-        html = html.replace(/{{SERVINGS}}/g, `${recipe.servings.yield} ${recipe.servings.unit}`);
+        html = html.replace(/{{SERVINGS}}/g, `${recipe.servings.displayYield || recipe.servings.yield} ${recipe.servings.unit}`);
 
         // Diet badges
         html = html.replace('{{DIET_BADGES}}', this.renderDietBadges(recipe));
@@ -618,10 +620,11 @@ class RecipeGenerator {
         html = html.replace(/{{CARD_PREP_TIME}}/g, recipe.timing.prepTimeDisplay.replace(' minutes', '').replace(' min', ''));
         html = html.replace(/{{CARD_COOK_TIME}}/g, recipe.timing.cookTimeDisplay.replace(' minutes', '').replace(' min', ''));
         html = html.replace(/{{CARD_TOTAL_TIME}}/g, recipe.timing.totalTimeDisplay.toUpperCase());
-        html = html.replace(/{{CARD_YIELD}}/g, `${recipe.servings.yield} ${recipe.servings.unit}`);
+        html = html.replace(/{{CARD_YIELD}}/g, `${recipe.servings.displayYield || recipe.servings.yield} ${recipe.servings.unit}`);
         // Recipe card image - use card images (portrait), fall back to thumbnail
-        const cardImg300 = recipe.image.thumbnail_400 || recipe.image.thumbnail.src;
-        const cardImg600 = recipe.image.thumbnail_600 || recipe.image.thumbnail.src;
+        const thumbnailSrcset = recipe.image.thumbnail.srcset || {};
+        const cardImg300 = recipe.image.thumbnail_400 || thumbnailSrcset['300'] || recipe.image.thumbnail.src;
+        const cardImg600 = recipe.image.thumbnail_600 || thumbnailSrcset['600'] || recipe.image.thumbnail.src;
         const cardAltText = recipe.image.thumbnail.alt || `${recipe.title} recipe card image`;
         const cardImageHtml = `<img\n            src="../${cardImg300}"\n            srcset="../${cardImg300} 300w, ../${cardImg600} 600w"\n            sizes="(max-width: 768px) 50vw, 300px"\n            width="300"\n            height="500"\n            alt="${cardAltText}"\n            loading="lazy"\n            decoding="async" />`;
         html = html.replace('{{CARD_IMAGE_HTML}}', cardImageHtml);
@@ -645,6 +648,7 @@ class RecipeGenerator {
         html = html.replace('{{INGREDIENTS_LIST}}', this.renderIngredients(recipe));
         html = html.replace('{{INSTRUCTIONS_LIST}}', this.renderInstructions(recipe));
         html = html.replace('{{NUTRITION_TABLE}}', this.renderNutrition(recipe));
+        html = html.replace('{{NUTRITION_SERVINGS_NOTE}}', `Per serving (${recipe.servings.yield} servings per recipe):`);
 
         // Tips section
         html = html.replace('{{TIPS_CONTENT}}', this.renderTips(recipe));

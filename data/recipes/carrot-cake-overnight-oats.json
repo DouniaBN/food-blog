@@ -1,0 +1,317 @@
+{
+  "id": "carrot-cake-overnight-oats",
+  "title": "Carrot Cake Overnight Oats (Blended)",
+  "slug": "carrot-cake-overnight-oats",
+  "description": "if you want to eat carrot cake batter for breakfast, now you can with these healthy refined sugar free carrot cake overnight oats. they are creamy, cozy, vegan and take just 5 minutes of prep.",
+  "image": {
+    "square": {
+      "src": "images/recipes/carrot-cake-overnight-oats/carrot-cake-oats-square.webp",
+      "alt": "Overhead close-up of a jar of blended carrot cake overnight oats topped with a swirl of yogurt, walnut halves and thin carrot ribbons, with a gold flower-shaped spoon resting on top",
+      "width": 1200,
+      "height": 1200
+    },
+    "hero": {
+      "src": "images/recipes/carrot-cake-overnight-oats/carrot-cake-oats-hero.webp",
+      "alt": "A jar of blended carrot cake overnight oats topped with a swirl of yogurt, walnut halves and thin carrot ribbons, with a gold flower-shaped spoon resting on top",
+      "width": 1206,
+      "height": 1993
+    },
+    "thumbnail": {
+      "src": "images/recipes/carrot-cake-overnight-oats/carrot-cake-oats-card300.webp",
+      "srcset": {
+        "300": "images/recipes/carrot-cake-overnight-oats/carrot-cake-oats-card300.webp",
+        "600": "images/recipes/carrot-cake-overnight-oats/carrot-cake-oats-card600.webp"
+      },
+      "alt": "A jar of blended carrot cake overnight oats topped with a swirl of yogurt, walnut halves and thin carrot ribbons",
+      "width": 300,
+      "height": 400
+    },
+    "gallery": []
+  },
+  "author": {
+    "name": "Dounia",
+    "title": "Certified Holistic Nutritionist"
+  },
+  "timing": {
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT8H5M",
+    "prepTimeDisplay": "5 minutes",
+    "cookTimeDisplay": "0 minutes",
+    "totalTimeDisplay": "5 minutes prep + overnight"
+  },
+  "servings": {
+    "yield": "1",
+    "unit": "serving"
+  },
+  "difficulty": "Easy",
+  "categories": [
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Refined Sugar-Free"
+  ],
+  "tags": [
+    "carrot cake overnight oats",
+    "blended overnight oats",
+    "healthy overnight oats",
+    "vegan overnight oats",
+    "carrot cake breakfast",
+    "refined sugar free breakfast",
+    "gluten free overnight oats",
+    "easter breakfast",
+    "healthy breakfast",
+    "meal prep breakfast"
+  ],
+  "nutrition": {
+    "calories": 650,
+    "protein": "15g",
+    "carbs": "128g",
+    "fat": "10g",
+    "fiber": "15g",
+    "sugar": "38g",
+    "note": "Calculated with oat milk and no optional add-ins. Macros will vary based on milk choice."
+  },
+  "ingredients": [
+    {
+      "group": "Base Recipe",
+      "items": [
+        {
+          "amount": "1",
+          "unit": "cup",
+          "ingredient": "oats",
+          "notes": ""
+        },
+        {
+          "amount": "1/2",
+          "unit": "tsp",
+          "ingredient": "cinnamon",
+          "notes": ""
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "ginger and nutmeg",
+          "notes": "a small pinch of each"
+        },
+        {
+          "amount": "1",
+          "unit": "splash",
+          "ingredient": "vanilla extract",
+          "notes": ""
+        },
+        {
+          "amount": "2-3",
+          "unit": "",
+          "ingredient": "medjool dates, pitted",
+          "notes": ""
+        },
+        {
+          "amount": "1-2",
+          "unit": "tbsp",
+          "ingredient": "maple syrup",
+          "notes": "adjust to taste"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "ingredient": "milk of choice",
+          "notes": ""
+        },
+        {
+          "amount": "130",
+          "unit": "g",
+          "ingredient": "carrot, roughly chopped",
+          "notes": "no need to grate"
+        }
+      ]
+    },
+    {
+      "group": "Add-Ins (Optional)",
+      "items": [
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "chopped walnuts or pecans",
+          "notes": ""
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "raisins",
+          "notes": ""
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "desiccated coconut",
+          "notes": ""
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "ingredient": "chopped pineapple",
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the oats, cinnamon, ginger, nutmeg, vanilla extract, pitted dates, maple syrup, milk and chopped carrot to a high-powered blender.",
+      "image": ""
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth.",
+      "image": ""
+    },
+    {
+      "step": 3,
+      "text": "Add a few extra tablespoons of milk if needed to reach your preferred consistency and stir to combine.",
+      "image": ""
+    },
+    {
+      "step": 4,
+      "text": "Fold in the optional add-ins like raisins or chopped nuts. Even pineapple if you're feeling tropical.",
+      "image": ""
+    },
+    {
+      "step": 5,
+      "text": "Pour into a jar or container, cover and refrigerate overnight.",
+      "image": ""
+    },
+    {
+      "step": 6,
+      "text": "Enjoy straight from the fridge, or add your favourite toppings before eating. You can add an extra splash of milk if it thickened beyond your desired texture!",
+      "image": ""
+    }
+  ],
+  "notes": [
+    "This is a single serve recipe. Scale up by doubling or tripling all ingredients.",
+    "The oats will thicken considerably overnight as they absorb the milk. If it's too thick in the morning, stir in a splash more milk to loosen.",
+    "Fold in the nuts and raisins after blending, not before. Blending walnuts into the oats changes the texture entirely."
+  ],
+  "equipment": [
+    "High-powered blender"
+  ],
+  "seo": {
+    "metaTitle": "Carrot Cake Overnight Oats (Blended, Vegan, Refined Sugar Free)",
+    "metaDescription": "blended carrot cake overnight oats made with real carrot, medjool dates and warming spices. vegan, refined sugar free and just 5 minutes of prep.",
+    "keywords": [
+      "carrot cake overnight oats",
+      "blended overnight oats",
+      "vegan overnight oats",
+      "healthy carrot cake breakfast",
+      "refined sugar free overnight oats",
+      "carrot breakfast recipe"
+    ],
+    "canonicalUrl": "/recipes/carrot-cake-overnight-oats"
+  },
+  "social": {
+    "pinterest": {
+      "description": "Blended carrot cake overnight oats with real carrot, medjool dates and warming spices. Vegan, refined sugar free and only 5 minutes of prep! The perfect healthy Easter breakfast or cosy autumn morning 🥕",
+      "title": "Carrot Cake Overnight Oats (Blended, Vegan, Refined Sugar Free)"
+    },
+    "instagram": {
+      "caption": "carrot cake batter blended overnight oats 🥕 all the cosy carrot cake flavours in just 5 minutes of prep — vegan, refined sugar free, and the texture is SO much better than regular overnight oats. recipe on the blog!",
+      "hashtags": [
+        "#carrotcakeovernightoats",
+        "#blendedovernightoats",
+        "#healthybreakfast",
+        "#veganovernightoats",
+        "#refinedsugarfree",
+        "#carrotcake",
+        "#mealprep",
+        "#yourwellnessgirly"
+      ]
+    }
+  },
+  "story": {
+    "subtitle": "carrot cake batter in just 5 minutes of prep",
+    "paragraphs": [
+      "hot take: carrot cake is an autumn dessert that somehow got assigned to spring and we all just conformed. hear me out, the spice profile is warm and cozy and kinda identical to a cinnamon roll minus the carrot lol. and we all know cinnamon rolls are the poster child of fall baking. i see carrot cake as cinnamon roll's half sibling who prefers vegetables and sometimes raisins (which i know are controversial lol).",
+      "all of this to say, i recently shared a blended <a href=\"/recipes/cinnamon-roll-overnight-oats\">cinnamon roll overnight oats</a> recipe and she was well received and very delish! i then started to think about other flavours and immediately carrot cake came to mind but since it's autumn i wasn't sure if the time was right. but as i have just argued i believe carrot cake is both an easter/spring treat as well as the perfect autumn treat. these blended carrot cake overnight oats work for both occasions and i won't police which szn you eat them in tehe.",
+      "ever since i blended my overnight oats back in 2024 i have not looked back. the blender is the thing that makes these different from every other carrot cake overnight oat recipe. first, the texture. blended overnight oats are smooth and pudding-like in a way that regular overnight oats aren't, no matter how long you leave them in the fridge you always get those bits of oats. which tbh i don't really mind but the pudding texture makes them feel and taste way more indulgent than the non blended version.",
+      "as the oats chill, they break down completely and the result is closer to a cold carrot cake batter than a bowl of softened oats, which is exactly what i want. second, the carrot. the recipe uses roughly chopped carrot thrown straight into the blender raw, which means no grating, no mess, no stained chopping board or accidentally grazed fingers. and when i say 5 minutes of prep i really mean it. we just throw everything into the blender apart from the add-ins, refrigerate and it's done.",
+      "if you have been anywhere near the internet lately you probably will have seen the viral carrot juice trend and all of its skin loving benefits. the great thing about these carrot cake overnight oats is you get all the same health benefits and arguably more since juicing removes all the fibre but blending does not, so you will feel a lot more satiated and we don't discard any part of the carrot.",
+      "blending also improves the bioavailability of the beta-carotene in the carrot, since breaking down the cell walls of the vegetable helps release the antioxidant so your body can absorb it more efficiently. the blender is improving the nutrition on top of saving the washing up which we love.",
+      "the last time i shared a carrot cake recipe, someone asked me if you can taste the carrot? umm, the answer is yes, it is a carrot cake recipe lol and it is no different for these carrot cake overnight oats. despite them not being actual cake, the flavour is very much carrot. 130g hits the right balance where the carrot flavour is present but the oats still taste like breakfast instead of a vegetable smoothie.",
+      "the spice situation is cinnamon as the non-negotiable, with ginger and nutmeg as optional but strongly recommended for the most authentic flavour. the ginger and nutmeg are optional in the sense that the recipe works without them, but they're the difference between these carrot cake overnight oats tasting sort of like carrot cake and tasting like that signature carrot cake batter flavour. a small pinch of each is enough but go with your preference.",
+      "for sweetness, two medjool dates blended directly into the oats give you a caramel-y depth and natural sweetness that maple syrup alone doesn't get to, and they blend completely smooth so you'd never identify them by texture. that said, if your dates are not very soft, soak them in warm water for 10-15 minutes prior so that they blend properly. the dates also add fibre and potassium. the maple syrup on top of that is adjustable depending on how sweet you like it, i find combining both gives the best taste.",
+      "nutritionally this is a strong sweet treat, snack or breakfast. oats contain soluble fibre that slows glucose absorption and supports gut bacteria, which is what makes oat-based breakfasts associated with sustained energy rather than a spike followed by a crash. carrots are one of the more concentrated food sources of beta-carotene, the precursor to vitamin A. it's involved in immune function, skin health and vision. cinnamon contributes cinnamaldehyde, which has been studied for its effects on blood sugar regulation and insulin sensitivity, relevant here since the recipe has natural sugars from dates and maple syrup. if you add pecans or walnuts, they bring ALA (alpha-linolenic acid), a plant-based omega-3 with anti-inflammatory effects.",
+      "a dedicated moment for the add-ins because this is where you can get more creative. they go in after blending, not before. blending walnuts or pecans turns the oats into a paste, which is a very different result lol. fold them through the blended oats before you pour into your container of choice so they soak overnight alongside the oats. if you are team raisin, also add them in at this point as the raisins plump up slightly and soften into the texture when left in the overnight oat batter. pecans are interchangeable for walnuts and i'd say taste a lil more dessert like so whatever you have on hand.",
+      "if you're already a fan of blended overnight oats and haven't tried my <a href=\"/recipes/cinnamon-roll-overnight-oats\">cinnamon roll overnight oats</a>, that's the one to make next. it uses the same blending method and is probably the fall recipe i've made the most times across all the recipes on this blog. and if you want a warm breakfast instead on the cold mornings when a cold jar doesn't feel right, my <a href=\"/recipes/blueberry-muffin-pancake-bowl\">blueberry muffin pancake bowl</a> takes ten minutes and you can eat it fresh from the oven."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I use a different milk?",
+      "answer": "Yes, any milk works here. Oat milk, cashew, coconut, almond, hazelnut, any plant based milk will work here. Dairy milk also works fine if you're not keeping it vegan or dairy free. Just note that the taste and the macros will change depending on which milk you use, so I like using a more neutral tasting milk."
+    },
+    {
+      "question": "Do I need a high-powered blender for blended overnight oats?",
+      "answer": "A high-powered blender (like a Vitamix, Ninja or NutriBullet) gives the smoothest result and fully breaks down both the oats, dates and the carrot. A lower powered blender can work but may leave small carrot flecks or a slightly grainy texture. If your blender struggles, try blending the carrot with half the milk first until smooth, then add the rest of the ingredients and blend again. This reduces the load and usually gives a better result from a less powerful machine."
+    },
+    {
+      "question": "Can I use pre-grated carrot instead of blending raw carrot?",
+      "answer": "Technically yes, but you'd need to make regular (non-blended) overnight oats if you're skipping the blender, and the texture would be completely different. Part of what makes this recipe work is the blending, which creates a smooth batter-like consistency and removes the need to grate the carrot at all. If you don't have a blender, just grate the carrot finely and stir it into regular overnight oats with all the other ingredients. It won't have the same smooth texture but it will still taste like carrot cake batter."
+    },
+    {
+      "question": "Are ginger and nutmeg necessary in carrot cake?",
+      "answer": "No, they're optional, but they do make a noticeable difference. Cinnamon alone gives you a warm, sweet flavour that's close to carrot cake but not quite there. The ginger adds a little warmth and slight spice that lifts the whole thing, and the nutmeg adds depth and rounds out the spice blend. You only need a small pinch of each. If you have them in your spice drawer it's worth adding them, even if it's just this once to see the difference."
+    },
+    {
+      "question": "Is this blended carrot cake overnight oats recipe vegan?",
+      "answer": "Yes, as long as you use a plant-based milk. The rest of the ingredients (oats, carrot, medjool dates, maple syrup, spices, vanilla) are all plant-based. Use oat, almond, cashew, soy or coconut milk to keep it fully vegan."
+    },
+    {
+      "question": "Can I make these blended carrot cake overnight oats ahead for meal prep?",
+      "answer": "Yes, this recipe is great for meal prep. You can make 2 to 3 servings by doubling or tripling the ingredients and blending in batches, then storing in separate jars in the fridge. They keep well for up to 3 days. After day 2 the texture thickens further as the oats continue to absorb the milk, so you may want to stir in a splash of milk each morning to loosen it back to your preferred consistency."
+    },
+    {
+      "question": "Can I use a different sweetener instead of dates and maple syrup?",
+      "answer": "The dates are the harder one to substitute since they blend completely smooth and add both sweetness and a caramel depth similar to brown sugar. If you don't have medjool dates, you can use 1 to 2 tablespoons of date syrup instead and blend that in. For the maple syrup, honey or agave syrup works as a direct swap at the same quantity but they do change the taste."
+    },
+    {
+      "question": "Is this recipe gluten free?",
+      "answer": "Oats are naturally gluten free but are often processed in facilities that also handle wheat, which can cause cross-contamination. If you need the recipe to be strictly gluten free due to coeliac disease or high sensitivity, use certified gluten free oats. With that swap the recipe is fully gluten free, since all the other ingredients (carrot, dates, maple syrup, spices, plant milk) are naturally gluten free."
+    }
+  ],
+  "tips": [
+    "Fold the nuts and raisins in after blending the batter.",
+    "Start with 1 cup of milk and add more after blending if you want a thinner consistency. the oats will absorb more liquid overnight and thicken up considerably, so going slightly thinner at the blending stage is better than going too thick.",
+    "If your blender struggles with the raw carrot, blend the carrot with half the milk first until smooth, then add the remaining ingredients and blend again."
+  ],
+  "substitutions": [
+    {
+      "ingredient": "Medjool dates",
+      "alternatives": [
+        "Date syrup (1 to 2 tbsp — same sweetness, loses the slight texture variety)",
+        "2 to 3 regular dried dates soaked in warm water for 10 minutes first (less sweet than medjool)"
+      ]
+    },
+    {
+      "ingredient": "Maple syrup",
+      "alternatives": [
+        "Honey (same quantity — not vegan)",
+        "Agave syrup (same quantity, milder flavour)",
+        "Date syrup (slightly more caramel-y)"
+      ]
+    },
+    {
+      "ingredient": "Walnuts (optional)",
+      "alternatives": [
+        "Pecans (slightly sweeter, more dessert-like)",
+        "Pumpkin seeds (nut-free option)"
+      ]
+    }
+  ],
+  "videoUrl": "https://www.instagram.com/yourwellnessgirly/",
+  "datePublished": "2026-09-09",
+  "dateModified": "2026-09-11",
+  "featured": false,
+  "viral": false,
+  "popular": false
+}

@@ -1,3 +1,6 @@
+# Raptive ads.txt redirect
+/ads.txt                                             https://ads.adthrive.com/sites/6a8607d565772541d4f56090/ads.txt   301
+
 # Redirect .html URLs to clean URLs (301 permanent)
 /index.html                                         /                                                   301
 /recipe-index.html                                  /recipe-index                                       301

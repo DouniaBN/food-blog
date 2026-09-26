@@ -400,6 +400,11 @@ Cut these on sight. If a sentence contains one of these, rewrite or delete it.
 
 **Rule of thumb:** if a sentence could be pasted into literally any other dessert blog post about literally any other recipe and still make sense, cut it or make it specific enough that it couldn't.
 
+### Punctuation and case rules
+- **No em dashes (—), ever.** Rewrite as two sentences (period), or join with a comma if the clauses are short and closely related. This applies to every recipe field, not just the story.
+- **Story text stays all lowercase**, including the start of sentences and paragraphs, matching Dounia's existing voice. Keep normal capitalization only for proper nouns, brand names, and acronyms (e.g. Instagram, BDNF).
+- Grammar fixes are still fine and encouraged, fixing a genuinely garbled or incomplete sentence for clarity is not the same as rewriting someone's voice.
+
 ### What to add instead
 
 **1. One real, slightly imperfect detail per section**
@@ -427,6 +432,8 @@ Real people don't agree with their own recipe 100%. A throwaway "if you want it 
 - [ ] Does sentence length vary, or does everything sit in the same medium-length zone?
 - [ ] Could any sentence be swapped into a different recipe post with zero changes? If yes, cut or specify.
 - [ ] Is there total certainty/positivity throughout, with zero hedging, mistakes, or trade-offs mentioned?
+- [ ] Are there any em dashes (—)? If yes, replace with a period or comma.
+- [ ] Does the story text stay all lowercase (aside from proper nouns/acronyms)?
 
 ### Allowed casual terms (use sparingly, not more than once or twice per post)
 These words are fine and part of Dounia's natural voice — just don't stack them or overuse them:
